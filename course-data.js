@@ -446,3 +446,47 @@ case 37:q=s+' must have ___ '+obj+' already.';a=pp;w=ing;break;
 }
 grammarPractice[u].push([q,a,w]);
 }}
+
+const drillNouns=[['engineer','architect'],['student','instructor'],['artist','designer'],['editor','writer'],['assistant','manager'],['analyst','technician'],['author','researcher'],['accountant','consultant'],['operator','driver'],['organizer','volunteer'],['expert','specialist'],['illustrator','photographer']];
+const drillAdjs=[['small','smaller','smallest'],['large','larger','largest'],['fast','faster','fastest'],['slow','slower','slowest'],['cheap','cheaper','cheapest'],['safe','safer','safest'],['clear','clearer','clearest'],['simple','simpler','simplest'],['quiet','quieter','quietest'],['long','longer','longest'],['short','shorter','shortest'],['strong','stronger','strongest']];
+const drillMass=['information','equipment','advice','furniture','research','traffic','water','rice','software','luggage','evidence','money'];
+const drillCount=['books','chairs','tickets','reports','samples','questions','bottles','devices','letters','folders','coins','tools'];
+const drillPlaces=['library','office','laboratory','station','museum','classroom','workshop','theater','clinic','studio','archive','cafeteria'];
+for(const u of [2,6,10,11,12,13,14,15,16,17,18,19,25,26,27,30,31,32,33,34,35,38,39,40,41,42,43,44,45]){
+grammarPractice[u] ||= [];
+for(let j=0;j<20;j++){
+const k=j%12,b=j>=12,[sg,pl]=drillSubjects[k],[v,vs,pp,ing,obj,past=pp]=drillVerbs[(k+u)%12], [n1,n2]=drillNouns[k],[adj,comp,sup]=drillAdjs[k],place=drillPlaces[k],s=b?pl:sg;
+let q,a,w;
+switch(u){
+case 2:q=s+' '+(b?'are':'is')+' currently ___ '+obj+'.';a=ing;w=v;break;
+case 6:q='While '+s.toLowerCase()+' '+(b?'were':'was')+' '+ing+' '+obj+', the lights ___ out.';a='went';w='go';break;
+case 10:q='We interviewed ___ '+(b?n2:n1)+' yesterday.';a=b?'a':'an';w=b?'an':'a';break;
+case 11:q='The '+place+' opens ___ '+(b?'Monday':'Friday')+' morning.';a='on';w='in';break;
+case 12:q='If '+s.toLowerCase()+' '+(b?v:vs)+' '+obj+' today, we ___ have time tomorrow.';a='will';w='would have';break;
+case 13:q='If '+s.toLowerCase()+' had more time, '+(b?'they':'the person')+' ___ '+v+' '+obj+'.';a='would';w='will';break;
+case 14:q='We need ___ '+(b?drillCount[k]:drillMass[k])+' for the '+place+'.';a=b?'many':'some';w=b?'much':'many';break;
+case 15:q='There '+(b?'are':'is')+' only ___ '+(b?drillCount[k]:drillMass[k])+' left in the '+place+'.';a=b?'a few':'a little';w=b?'a little':'a few';break;
+case 16:q='This '+(b?'version':'model')+' is ___ than the previous one. ('+adj+')';a=comp;w='more '+comp;break;
+case 17:q='This is the ___ '+(b?'version':'model')+' in the collection. ('+adj+')';a=sup;w=comp;break;
+case 18:q=s+' '+(b?'work':'works')+' very ___ during inspections.';a='carefully';w='careful';break;
+case 19:q=s+' ___ '+obj+' '+(b?'last Monday':'yesterday')+'.';a=past;w=(b?'have ':'has ')+pp;break;
+case 25:q='If you '+v+' '+obj+' regularly, it generally ___ easier to find errors '+(b?'later':'early')+'.';a='becomes';w='become';break;
+case 26:q='If '+s.toLowerCase()+' had '+pp+' '+obj+', we would ___ noticed the error.';a='have';w='had';break;
+case 27:q='If '+s.toLowerCase()+' had '+pp+' '+obj+' yesterday, we ___ ready now.';a='would be';w='will be';break;
+case 30:q=s+' said that '+(b?'they':'the employee')+' ___ '+v+' '+obj+' the following day.';a='would';w='will to';break;
+case 31:q=s+' asked where ___ '+(b?'located':'stored')+'.';a='the files were';w='were the files';break;
+case 32:q='The '+(b?n2:n1)+' ___ helped us works at the '+place+'.';a='who';w='which';break;
+case 33:q='Our '+(b?n2:n1)+', ___ works at the '+place+', gave us advice.';a='who';w='that';break;
+case 34:q=s+' enjoy'+(b?'':'s')+' ___ '+obj+'.';a=ing;w='to '+v;break;
+case 35:q=s+' decided ___ '+obj+'.';a='to '+v;w=ing;break;
+case 38:q=s+' wish'+(b?'':'es')+' '+(b?'they':'the employee')+' ___ '+v+' '+obj+' more quickly.';a='could';w='can to';break;
+case 39:q=s+' used to ___ '+obj+' manually.';a=v;w=ing;break;
+case 40:q=s+' '+(b?'are':'is')+' ready to '+v+' '+obj+', ___?';a=b?"aren't they":"isn't the employee";w=b?"don't they":"doesn't the employee";if(!b){q='The '+n1+' is ready to '+v+' '+obj+', ___?';a="isn't he or she";w="doesn't he or she";}break;
+case 41:q='Could you tell me where ___ '+(b?'now':'today')+'? ('+place+')';a='the '+place+' is';w='is the '+place;break;
+case 42:q='___ '+(b?'the delay':'the difficulty')+', '+s.toLowerCase()+' managed to '+v+' '+obj+'.';a='Despite';w='Although';break;
+case 43:q=s+' postponed '+ing+' '+obj+' ___ '+(b?'a power failure':'a scheduling conflict')+'.';a='because of';w='because';break;
+case 44:q='Rarely ___ '+s.toLowerCase()+' '+v+' '+obj+' without assistance.';a=b?'do':'does';w=b?'does':'do';break;
+case 45:q='Having ___ '+obj+', '+s.toLowerCase()+' left the '+place+'.';a=pp;w=v===pp?ing:v;break;
+}
+grammarPractice[u].push([q,a,w]);
+}}
