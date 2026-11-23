@@ -129,3 +129,25 @@ const speakingBank=[
 ['Communication','Describe a time you explained something difficult.','What helped the listener understand?','How would you improve your explanation next time?'],
 ['Problem solving','Describe a problem you solved recently.','What alternatives did you consider?','What would you do differently in a similar situation?']
 ];
+speakingBank.push(
+['Libraries','What makes a library useful?','Describe a resource you have used.','Should libraries prioritize digital or printed materials?'],
+['Housing','What makes a neighborhood comfortable?','Compare living alone and sharing an apartment.','How could cities improve affordable housing?'],
+['Time management','How do you organize a busy day?','Describe a time your plan failed.','How do you balance flexibility and routine?'],
+['Food','Describe a meal you enjoy preparing.','How did you learn to prepare it?','What influences people’s food choices?'],
+['Public spaces','Where do people gather in your town?','What makes that place welcoming?','How could its design serve more people?'],
+['Art','Describe a piece of art you remember.','What attracted your attention?','Should public institutions support emerging artists?'],
+['Online learning','Describe an online course you have tried.','What helped you stay motivated?','When is classroom instruction preferable?'],
+['Transport','How do you usually travel around town?','Describe a difficulty with that method.','What transport investment would benefit your community?'],
+['Volunteering','What kind of volunteer work interests you?','What skills could volunteers develop?','How should organizations support volunteers?'],
+['Media','How do you discover important news?','How do you check whether a claim is reliable?','What responsibilities do news platforms have?'],
+['Design','Describe a product that is easy to use.','Which feature makes it convenient?','How should designers balance appearance and accessibility?'],
+['Energy','How do you save electricity at home?','What makes energy-saving habits difficult?','Should institutions invest more in efficiency?'],
+['Sports','What physical activity do you enjoy?','What motivates you to practice regularly?','How can communities make sports more accessible?'],
+['Music','When do you usually listen to music?','Describe how music affects your concentration.','Should schools provide more opportunities for music education?'],
+['Languages','Why are you learning another language?','Describe a technique that helps you remember words.','How can learners overcome fear of speaking?'],
+['Shopping','What do you consider before buying something?','Describe a purchase you reconsidered.','How can consumers evaluate environmental claims?'],
+['Friendship','What makes a friendship strong?','Describe how friends can support each other.','How can people maintain friendships across distances?'],
+['Career','What kind of work interests you?','Which skills would help you succeed?','How might technological change affect your career?'],
+['History','Describe a historical topic that interests you.','Why is it relevant today?','How should museums present conflicting interpretations?'],
+['Nature','Describe a natural place you enjoy.','What makes it worth protecting?','How can tourism and conservation coexist?']
+);
