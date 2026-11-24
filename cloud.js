@@ -96,7 +96,12 @@ async function enter(user){
  if(!['marina','vladlen'].includes(profile))throw Error('Для этого аккаунта не назначен учебный профиль.');
  const id=user.id,row=await remoteState(id);
  activeProfile=profile;conflict=false;
- if(local.getItem(dirtyKey(id))||(!row&&local.getItem(accountKey(id))))db=cached(id);
+ const resetAt='2026-11-24T00:00:00.000Z',resetSeen=accountKey(id)+'.reset-seen';
+ const isMarina=id==='cfb60817-55c8-4975-8255-b27d6df0e9d2';
+ const resetApplied=isMarina&&row&&Date.parse(row.updated_at)>=Date.parse(resetAt)&&!local.getItem(resetSeen);
+ const resetPending=isMarina&&!row;
+ if(resetApplied||resetPending){adopt(id,row);local.setItem(resetSeen,'1');}
+ else if(local.getItem(dirtyKey(id))||(!row&&local.getItem(accountKey(id))))db=cached(id);
  else adopt(id,row);
  cloudUser=user;render();gate.remove();document.querySelector('main').inert=false;document.querySelector('aside').inert=false;
  if(!row||local.getItem(dirtyKey(id)))persist();else status('Сохранено');
