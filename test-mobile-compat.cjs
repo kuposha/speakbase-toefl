@@ -1,8 +1,10 @@
 const fs=require('node:fs'),assert=require('node:assert/strict');
 const html=fs.readFileSync('index.html','utf8'),css=fs.readFileSync('style.css','utf8'),mobile=fs.readFileSync('mobile.css','utf8'),auth=fs.readFileSync('cloud.js','utf8');
 assert.ok(html.includes('name="viewport" content="width=device-width, initial-scale=1"'),'mobile viewport must use device width');
-assert.ok(html.includes('href="style.css?v=20261124-mobile"'),'base CSS cache must be refreshed on phones');
-assert.ok(html.includes('href="mobile.css?v=20261124-responsive"'),'responsive stylesheet must load after base CSS');
+assert.ok(html.includes('href="style.css?v=20261124-lessons"'),'base CSS cache must be refreshed for the numbered lesson layout');
+assert.ok(html.includes('href="mobile.css?v=20261124-lessons"'),'responsive stylesheet must load after base CSS');
+assert.ok(html.includes('src="course.js?v=20261124-lessons"'),'numbered grammar lesson content must not use a stale cached script');
+assert.ok(html.includes('src="app.js?v=20261124-lessons"'),'daily lesson sequence must not use a stale cached script');
 assert.ok(html.includes('src="cloud.js?v=20261124-mobile"'),'auth script cache must be refreshed on phones');
 assert.ok(css.includes('@media(max-width:810px)'),'base tablet/mobile breakpoint missing');
 assert.ok(mobile.includes('@media(max-width:810px)'),'responsive phone breakpoint missing');
