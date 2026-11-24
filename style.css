@@ -437,3 +437,18 @@ button:disabled{cursor:not-allowed}
 .practice-results>div{display:grid;gap:4px;padding:14px;border:1px solid var(--line);border-radius:12px;background:var(--surface-soft);text-align:center}
 .practice-results b{font-size:24px;color:var(--ink)}
 .practice-results small{color:var(--muted)}
+
+.self-review{margin-top:16px;padding:16px;border:1px solid rgba(190,220,170,.22);border-radius:14px;background:rgba(255,255,255,.035)}
+.self-review h4{margin:5px 0 8px;font-size:1rem}
+.self-review-form{display:grid;gap:10px}
+.self-review-row{display:grid;grid-template-columns:minmax(0,1fr) minmax(155px,.65fr);align-items:center;gap:12px;padding:7px 0;border-bottom:1px solid rgba(255,255,255,.07)}
+.self-review-row select,.self-review-form textarea{width:100%;min-width:0}
+.self-review-form textarea{resize:vertical}
+.self-review-score{margin:0;font-weight:600}
+.self-review-status{color:var(--muted,#9ca3af)}
+.learning-plan{margin-top:14px;padding:16px;border:1px solid rgba(190,220,170,.2);border-radius:14px;background:rgba(255,255,255,.025)}
+.learning-plan h3{margin:0}
+.learning-skills{display:grid;gap:8px;margin:12px 0}
+.learning-skill{display:grid;grid-template-columns:100px minmax(0,1fr);gap:12px;align-items:baseline}
+.learning-skill small{color:var(--muted,#9ca3af);text-align:right}
+@media(max-width:600px){.self-review{padding:12px}.self-review-row{grid-template-columns:1fr;gap:6px}.learning-skill{grid-template-columns:1fr;gap:2px}.learning-skill small{text-align:left}}

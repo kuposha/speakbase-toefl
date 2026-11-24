@@ -92,19 +92,167 @@ const readingPracticeForms = (() => {
 `A staircase can guide movement without using signs. The width of its landing or the direction of its turn may make one exit easier to notice. Watching first-time visitors can reveal whether the intended route is actually clear.`,
 `An artist working with transparent layers must plan their order. Earlier colours remain partly visible through later ones, so covering a mistake can change nearby tones. Trying combinations on a separate sheet helps predict the final effect.`
   ];
-  clozeTexts.forEach((text, i) => cloze(Math.floor(i / 3), text));
-  // Each card pairs five linked details with five independently authored paraphrases.
-  // Distractors describe other plausible details of the same situation.
+  const clozeExtensions = [
+    'The outcome is easier to explain when the surrounding conditions are recorded as well. A comparison with another case can reveal whether the same factor is responsible or whether a different influence is involved.',
+    'This distinction is useful beyond the example itself. Similar situations may look alike at first, yet small differences in timing, location, or available resources can lead to noticeably different results.',
+    'Specialists therefore avoid drawing a broad conclusion from a single observation. They collect examples under different conditions and check whether the same relationship continues to appear.',
+    'A practical decision often depends on recognising these limits. The method may be effective in one situation, but another setting can require a different approach or additional information.',
+    'The wider context can change how the result should be interpreted. When several influences operate at once, separating them helps explain which part of the process has the greatest effect.',
+    'Repeated observations are especially valuable when the process changes over time. They allow researchers to distinguish a lasting pattern from a temporary effect caused by unusual conditions.',
+    'For this reason, a useful explanation includes both the main observation and the conditions in which it occurred. Leaving out the setting can make a limited result seem universal.',
+    'The example also illustrates why careful records matter. When the original conditions are preserved, later investigators can compare results and decide whether an alternative explanation is more convincing.',
+    'Although the process may appear straightforward, its outcome is influenced by more than one variable. A careful comparison helps identify which factors are central and which are secondary.',
+    'These considerations are important when the same method is applied elsewhere. What works under one set of conditions may need to be adjusted when the purpose or environment changes.',
+    'The observation is therefore best treated as evidence about a particular situation, not as a rule that applies without exception. Further examples are needed before the pattern can be generalised.',
+    'By considering the process as a whole, researchers can avoid confusing a visible result with its underlying cause. This approach produces explanations that are more useful in new situations.'
+  ];
+  clozeTexts.forEach((text, i) => cloze(Math.floor(i / 3), text + ' ' + clozeExtensions[i % clozeExtensions.length] + ' This wider context helps readers understand why the process may differ when conditions change. Careful comparisons make it easier to separate the main cause from other influences.'));
+  const academicExpansionSets = [
+    [
+      'The effect is strongest where the surrounding conditions allow the process to continue, and it may become weaker when those conditions change.',
+      'For this reason, researchers compare locations rather than assuming that one observation describes an entire region.',
+      'The pattern also changes over time, so measurements taken on different days can reveal information that a single visit would miss.',
+      'A second influence may produce a similar result, which makes it important to separate direct causes from accompanying conditions.',
+      'These comparisons help explain why the same intervention can work well in one setting but produce a smaller effect elsewhere.'
+    ],
+    [
+      'The process depends on what a learner already knows, because new information is easier to organise when it has a meaningful connection.',
+      'Researchers therefore distinguish between recognising something when it is presented and recalling it without an immediate prompt.',
+      'Repeated observations can show whether the benefit lasts beyond the first attempt or disappears after a short period.',
+      'The timing of practice also matters, since immediate repetition and delayed retrieval place different demands on memory.',
+      'Together, these findings suggest that effective learning involves both the quality of information and the conditions under which it is used.'
+    ],
+    [
+      'The design must be judged in relation to the task it is expected to perform, not simply by how it looks at first.',
+      'A small change in shape or material can alter the way forces, heat, or movement are distributed through the system.',
+      'Testing a model under controlled conditions helps identify weaknesses before the design is used on a larger scale.',
+      'The same solution may not be suitable everywhere, because cost, access, and maintenance can place different limits on its use.',
+      'For that reason, engineers consider the whole process, including the conditions that exist before and after the main operation.'
+    ],
+    [
+      'People do not respond to an arrangement in exactly the same way, so patterns must be interpreted with attention to individual circumstances.',
+      'Researchers often compare several groups to determine whether the result reflects a general tendency or a local situation.',
+      'The information available to participants can influence their choices, even when the formal rules remain unchanged.',
+      'Observations made at one moment may overlook changes that occur as people become familiar with a new system.',
+      'This is why a useful explanation considers both the stated rules and the way people actually behave.'
+    ],
+    [
+      'Meaning is shaped not only by individual words but also by the situation in which speakers choose and interpret them.',
+      'A phrase that appears clear in isolation may carry a different implication when it is placed in a longer exchange.',
+      'Comparing several examples helps distinguish a stable pattern from a choice that depends on a particular speaker or audience.',
+      'Researchers also consider what the listener already knows, since shared knowledge can make an incomplete message understandable.',
+      'These details show why communication is best studied in context rather than as a list of separate expressions.'
+    ],
+    [
+      'The final impression depends on how individual elements work together, rather than on the presence of any single feature.',
+      'A change that seems minor to the creator may influence how an audience understands the whole work.',
+      'Comparing versions can reveal which features are essential and which can change without altering the central effect.',
+      'The setting in which an object is displayed or performed may also influence the way people respond to it.',
+      'This makes careful observation important, because interpretation involves both the material itself and the context around it.'
+    ],
+    [
+      'A surviving record reflects the choices made when it was created, stored, and later selected for preservation.',
+      'Historians therefore compare several kinds of evidence instead of treating one document as a complete account.',
+      'Details that seem unimportant to the original writer may become valuable when they are examined from a later perspective.',
+      'The absence of information must be interpreted carefully, because a missing record does not necessarily mean an event never occurred.',
+      'By considering these limitations, researchers can build explanations that distinguish documented facts from reasonable possibilities.'
+    ],
+    [
+      'A measurement becomes useful only when the method and conditions are recorded well enough for another person to interpret it.',
+      'Researchers must decide whether an unusual result reflects an error, a real exception, or a limitation in the method.',
+      'Repeating the observation can reveal whether the same pattern appears under comparable conditions.',
+      'The choice of comparison also matters, because a poorly matched example can introduce a new source of uncertainty.',
+      'Careful methods do not remove every doubt, but they make the conclusions easier to test and revise.'
+    ]
+  ];
+  const academicIntros = [
+    'The topic of {title} illustrates how connected environmental factors can shape a result. Researchers examine individual observations, then consider how local conditions influence the wider process.',
+    'The study of {title} helps explain how information is acquired, stored, or interpreted. Researchers look beyond immediate performance to understand what happens across repeated experiences.',
+    'The subject of {title} shows how design choices affect the behaviour of a system. A useful explanation considers the purpose of an object as well as the conditions in which it operates.',
+    'Research into {title} often focuses on the relationship between individual decisions and the wider setting. Patterns become clearer when several groups or situations are compared.',
+    'The study of {title} demonstrates that meaning depends on more than isolated words or signals. Context, shared knowledge, and the expectations of an audience all influence interpretation.',
+    'The topic of {title} can be examined by looking at the way separate elements combine. A small change may affect the whole result, even when most features remain unchanged.',
+    'The subject of {title} offers a useful example of how evidence survives and is interpreted. Researchers must consider both the information preserved and the limits of each record.',
+    'The study of {title} depends on careful observation and comparison. Researchers record the conditions of an investigation so that an apparent pattern can be tested rather than assumed.'
+  ];
+  const academicConclusions = [
+    'Taken together, these observations show why the process must be understood in its setting rather than reduced to one visible outcome.',
+    'The evidence therefore supports a broader view in which understanding, timing, and repeated use all contribute to the final result.',
+    'Considering these factors together helps explain why a solution that succeeds in one situation may need adjustment in another.',
+    'The examples demonstrate that general conclusions are strongest when they account for differences between people and circumstances.',
+    'A contextual approach makes it easier to distinguish what a message says from what a listener or reader understands.',
+    'The overall effect emerges from the relationship among the parts, not from any single detail considered on its own.',
+    'This approach allows researchers to separate documented evidence from assumptions and to revise an explanation when new records appear.',
+    'Careful comparison does not eliminate uncertainty, but it produces conclusions that can be examined and improved by later work.'
+  ];
+  let academicPassageIndex = 0;
+  const wordCount = text => (String(text).match(/[A-Za-z]+(?:'[A-Za-z]+)?/g) || []).length;
+  function academicDomain(title) {
+    const value = title.toLowerCase();
+    if (/tree|river|bird|seed|leaf|orchard|pond|fossil|bee|water|soil|climate|garden|coral|animal|plant/.test(value)) return 0;
+    if (/memory|retrieval|learning|language|word|translation|melody|interview|story|song|reading|recall/.test(value)) return /language|word|translation|melody|story|song|interview/.test(value) ? 4 : 1;
+    if (/map|clock|dome|pulley|tool|chair|camera|scale|building|design|bridge|pavement|machine|sensor|roof/.test(value)) return 2;
+    if (/survey|neighbour|city|bench|queue|volunteer|library|community|market|campus|transport|visitor|group/.test(value)) return 3;
+    if (/theatre|film|photograph|art|weav|recipe|museum|drawing|music|colour|color|pattern|painting/.test(value)) return 5;
+    if (/archive|histor|newspaper|biograph|letter|record|fossil|document/.test(value)) return 6;
+    return 7;
+  }
+  function buildAcademicPassage(title, rows) {
+    const index = academicPassageIndex++, domain = academicDomain(title), shift = index % 5;
+    const intro = academicIntros[domain].replace('{title}', title.toLowerCase());
+    const body = rows.map((row, i) => row[0] + ' ' + academicExpansionSets[domain][(i + shift) % 5]).join(' ');
+    let passage = intro + ' ' + body + ' ' + academicConclusions[domain] + ' The surrounding context influences how each factor should be interpreted.';
+    const padding = [
+      'This distinction becomes especially important when evidence is collected in more than one setting.',
+      'The same principle can be tested by comparing examples that differ in only one relevant condition.',
+      'Such comparisons help readers understand both the main idea and the limits of the explanation.'
+    ];
+    let pad = 0;
+    while (wordCount(passage) < 185) passage += ' ' + padding[(index + pad++) % padding.length];
+    return passage;
+  }
+  const academicVocabularyQuestions = [
+    {word:'context',answer:'The circumstances surrounding an event or process.',wrong:['A result measured at the end of a process.','A tool used to record information.','A prediction about what may happen.']},
+    {word:'factor',answer:'A condition or element that contributes to a result.',wrong:['A final conclusion without supporting evidence.','A tool used to record information.','A change that occurs by accident.']},
+    {word:'influences',answer:'Affects or helps to shape something.',wrong:['Measures something with exact numbers.','Removes an element from a system.','Describes something without changing it.']},
+    {word:'interpreted',answer:'Understood or explained.',wrong:['Measured with an instrument.','Repeated without any change.','Removed from a written record.']}
+  ];
+  function addAcademicQuestions(form,title,rows,source){
+    const type='Read an Academic Passage',index=academicPassageIndex-1,vocab=academicVocabularyQuestions[index%academicVocabularyQuestions.length];
+    const add=(ask,answer,options,why,slot)=>{
+      const choices=options.slice(),rotation=(form+slot+title.length)%4;
+      choices.push(...choices.splice(0,rotation));
+      output[form].push({type,source,ask,options:choices,answer,why});
+    };
+    add(rows[0][1],rows[0][2],[rows[0][2],...rows.slice(1,4).map(row=>row[2])],rows[0][0]+' → '+rows[0][2],0);
+    add('In the passage, the word "'+vocab.word+'" is closest in meaning to...',vocab.answer,[vocab.answer,...vocab.wrong],'In this context, "'+vocab.word+'" means '+vocab.answer.toLowerCase(),1);
+    add('What can be inferred about '+title.toLowerCase()+' from the detail that '+rows[2][0].toLowerCase()+'?',rows[2][2],[rows[2][2],...rows.filter((_,i)=>i!==2).map(row=>row[2]).slice(0,3)],rows[2][0]+' This supports the inference: '+rows[2][2],2);
+    const purpose='To illustrate how one part of the process can affect the wider outcome.';
+    add('Why does the author mention '+rows[3][0].split('.')[0].toLowerCase()+'?',purpose,[purpose,'To provide a complete history of the subject.','To introduce an unrelated example.','To argue that the process cannot be studied.'],'The example supports the passage by illustrating how a particular condition affects the overall process.',3);
+    const mainIdea='It explains how '+title.toLowerCase()+' is shaped by several connected factors and why context matters.';
+    add('Which statement best summarizes the passage?',mainIdea,[mainIdea,'It claims that one measurement can explain every result.','It describes the subject without considering the conditions that affect it.','It argues that the topic has no practical applications.'],'The passage combines several related observations and explains why they should be considered together.',4);
+  }
+  // Daily-life texts are grouped into two or three questions per source, as in the test.
+  // Academic texts combine linked facts into a longer passage with varied question types.
   function card(form, type, title, lines) {
     const rows = lines.trim().split('\n').map(line => line.split('|'));
     if (rows.length !== 5 || rows.some(row => row.length !== 3)) throw Error('Invalid card: ' + title);
-    const source = title + '\n\n' + rows.map(row => row[0]).join(' ');
-    rows.forEach(([evidence, ask, answer], i) => {
-      const options = [answer, ...[1,2,3].map(offset => rows[(i + offset) % 5][2])];
-      const rotation = (form + i + title.length) % 4;
+    const addRows = (group, source, offset) => group.forEach(([evidence, ask, answer], i) => {
+      const originalIndex = rows.findIndex(row => row[1] === ask);
+      const options = [answer, ...rows.filter((_, rowIndex) => rowIndex !== originalIndex).map(row => row[2])].slice(0, 4);
+      const rotation = (form + originalIndex + title.length + offset) % 4;
       options.push(...options.splice(0, rotation));
       output[form].push({type,source,ask,options,answer,why:evidence + ' → ' + answer});
     });
+    if (type === 'Read in Daily Life') {
+      [[rows.slice(0,3), 'Part 1'], [rows.slice(3), 'Part 2']].forEach(([group, label], part) => {
+        const source = title + ' · ' + label + '\n\n' + group.map(row => row[0]).join(' ');
+        addRows(group, source, part);
+      });
+      return;
+    }
+    const source = buildAcademicPassage(title, rows);
+    addAcademicQuestions(form,title,rows,source);
   }
   const dailyCards = [
 ['Makerspace induction',`
