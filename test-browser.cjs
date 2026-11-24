@@ -71,14 +71,28 @@ async function run() {
         await page.evaluate(()=>{courseState().session=null;persist()});
         await click('#close');
         await nav(1);
+        const calendarUi=await page.evaluate(()=>{
+          const before=calendarMonth;
+          const expected=dayKey(new Date(dateObj(calendarMonth).getFullYear(),dateObj(calendarMonth).getMonth()+1,1));
+          document.querySelectorAll('.calendar-nav')[1].click();
+          const target=Array.from(document.querySelectorAll('.calendar-day')).find(button=>button.textContent.trim()==='5'&&!button.classList.contains('outside')&&!button.disabled);
+          if(!target)throw Error('next month day 5 is not selectable');
+          target.click();
+          return {before,month:calendarMonth,day,active:document.querySelector('.calendar-day.active')?.textContent.trim(),expected};
+        });
+        assert.equal(calendarUi.month,calendarUi.expected,'calendar next arrow should change the month');
+        assert.equal(calendarUi.day,calendarUi.month.slice(0,7)+'-05','clicking a calendar date should select it');
+        assert.equal(calendarUi.active,'5','selected date should be highlighted');
+        await nav(0);
+        assert.equal(await page.evaluate(()=>calendarMonth),calendarUi.month,'dashboard and plan must share the calendar month');
+        assert.equal(await page.locator('.calendar-day.active').innerText(),'5','dashboard should reflect the same selected date');
+        await nav(1);
         const calendar = await page.evaluate(async()=>{
           const seen = new Set();
           let dates=0;
           for(let t=Date.UTC(2026,10,23);t<=Date.UTC(2027,11,31);t+=86400000) {
             const key=new Date(t).toISOString().slice(0,10);
-            const input=document.querySelector('input[type=date]');
-            input.value=key;
-            input.dispatchEvent(new Event('change',{bubbles:true}));
+            pick(key);
             const heading=document.querySelector('#app h3').textContent;
             document.querySelector('[onclick="startScheduledLesson()"]').click();
             const session=courseState().session;
@@ -98,7 +112,7 @@ async function run() {
         // Verify daily lesson label, four-option MCQ, red/green feedback, and grammar lecture.
         await nav(1);
         const lessonDate=new Date().toISOString().slice(0,10);
-        await page.locator('input[type=date]').fill(lessonDate);
+        await page.evaluate(date=>pick(date),lessonDate);
         await click('[onclick="startScheduledLesson()"]');
         assert.match(await page.locator('#box .eyebrow').first().innerText(),/[0-9]+.*[а-яa-z]+/i);
         assert.ok(await page.locator('.grammar-lecture').isVisible(),'daily lesson must begin with the full grammar lecture');
