@@ -5,29 +5,74 @@ function courseState(){return db.course??={unit:activeProfile==='marina'?3:0,rep
 function selectItem(stage,title,ask,model,wrong,tip){return {stage,title,ask,model,choices:[model,...wrong].sort((a,b)=>a.localeCompare(b)),tip}}
 function fixItem(u,stage=0){return {stage,title:'Исправь предложение',ask:u[5],model:u[6],tip:u[1],exact:true,tag:u[0]}}
 function vocab(sc){return sc[1].split(';').map(x=>x.split('|'))}
-function buildLesson(s){const u=units[s.unit];
-const dayIndex=s.lessonDate ? Math.max(0, Math.round((Date.parse(s.lessonDate)-calendarStart)/calendarDay)) : s.unit;
-const sc=scenes[dayIndex%scenes.length];
-const readingWeek=Math.floor(dayIndex/7);
-const r=readingTasks[(s.lessonDate?readingWeek*3+Math.floor((dayIndex%7)/2):dayIndex)%readingTasks.length];
-const words=vocab(sc),items=[],cs=courseState();
-let warm=cs.weak.filter(w=>w.stage<=2&&w.model&&(w.exact||w.choices)).slice(-2).map(w=>({...w,stage:0,title:'Из прошлых ошибок'}));
-items.push(...warm);if(warm.length<2){let k=Math.max(0,s.unit-1),v=rewrites[k];items.push({stage:0,title:'Построй ответ',ask:v[2],model:v[1],exact:true,tip:units[k][1]})}for(let j=items.length;j<5;j++){let prev=units[Math.max(0,s.unit-1-Math.floor(j/2))];if(s.unit<3&&j>=2){let a=[['They ___ at home.','are','is'],['I ___ a ticket.','have','has'],['___ she live nearby?','Does','Do']][j-2];items.push(selectItem(0,'Базовые конструкции',a[0],a[1],[a[2]],'Проверь согласование глагола с подлежащим.'))}else items.push(j%2?fixItem(prev):{...selectItem(0,'Выбери форму',prev[2],prev[3],[prev[4]],prev[1]),tag:prev[0]})}
-items.push({stage:1,title:u[0],info:u[1]+" "+grammarNotes[s.unit],examples:[u[6]],ask:'Прочитай пример и произнеси его вслух.'},selectItem(1,'Выбери форму',u[2],u[3],[u[4]],u[1]+" "+grammarNotes[s.unit]),{...fixItem(u,1),tip:u[1]+" "+grammarNotes[s.unit]},{stage:1,title:'Собери своё предложение',ask:u[7],tip:u[1]});
-for(const [ask,answer,wrong] of (grammarPractice[s.unit]||[])){items.push(selectItem(1,'Grammar practice',ask,answer,[wrong],u[1]))}
-const correction=u[6].replace(/[?.!]$/,'');
-const tokens=correction.split(/ +/);
-const reorder=tokens.map((_,i)=>tokens[(i+1)%tokens.length]).join(' / ');
-items.push({stage:1,title:'Sentence Building',ask:'Put these words in order: '+reorder,model:correction,exact:true,tip:grammarNotes[s.unit]});
-items.push({stage:1,title:'Answer Expansion',ask:u[7]+' Add a reason and a concrete example. Underline the target structure in your notes.',tip:grammarNotes[s.unit]});
-items.push({stage:2,title:sc[0],info:'Прочитай сочетания и произнеси примеры вслух.',examples:words.map(w=>w[0]+' — '+w[1]+'. '+w[2])});for(let j of [0,2,4])items.push(selectItem(2,'Проверь значение',words[j][0],words[j][1],[words[j+1][1],words[(j+2)%6][1]],words[j][2]));items.push({stage:2,title:'Активный словарь',ask:'Write two sentences using two different expressions from this lesson.',tip:'Проверь, сохранилось ли сочетание целиком.',words:words.map(w=>w[0])});
-items.push({...selectItem(3,listeningTypes[s.unit%listeningTypes.length],sc[3],sc[4],[sc[5],sc[6]],sc[2]),audio:sc[2]});
-items.push({stage:4,title:'Listen and Repeat',audio:words[2][2],ask:'Repeat the sentence aloud.',model:words[2][2],tip:'Сравни порядок слов и окончания в записи и образце.',repeat:true},{stage:4,title:'Take an Interview',ask:u[7],tip:'Дай ответ, назови причину и приведи пример.'},{stage:4,title:'Вторая попытка',ask:u[7],tip:'Повтори ответ, опираясь на три ключевых слова. Добавь один конкретный результат.'});
-const listen=listeningBank[s.unit%listeningBank.length]; for(const [ask,answer,...wrong] of listen[2])items.push({...selectItem(3,listen[0],ask,answer,wrong,listen[1]),audio:listen[1]}); const interview=speakingBank[s.unit%speakingBank.length]; for(const ask of interview.slice(1))items.push({stage:4,title:'Take an Interview: '+interview[0],ask,tip:'Answer directly, explain your reasoning and give a specific example.'});
-if(s.last==='Reading'){items.push(r.length===4?{stage:5,title:r[0],source:r[1],ask:r[2],model:r[3],exact:true,tip:r[3]}:{...selectItem(5,r[0],r[2],r[3],r.slice(4),r[3]),source:r[1]})}else {items.push({stage:5,title:'Build a Sentence',ask:'Put the words in order: '+u[6].replace(/[?.!]$/,'').split(' ').reverse().join(' / '),model:u[6],exact:true,tip:u[1]});items.push(s.unit%2?{stage:5,title:'Write an Email',ask:'Write to the organiser of an event about '+sc[0]+'. Explain why you are interested, ask one question and suggest a time.',tip:'Проверь обращение, причину и конкретный вопрос.'}:{stage:5,title:'Write for an Academic Discussion',ask:'Your class is discussing public spending. Alex prefers more public events. Sam prefers free learning resources. Add your view and support it with a specific example.',tip:'Объясни свою позицию и свяжи пример с аргументом.'})}return items}
+function buildLesson(s) {
+  const u = units[s.unit];
+  const dayIndex = s.lessonDate ? Math.max(0, Math.round((Date.parse(s.lessonDate) - calendarStart) / calendarDay)) : s.unit;
+  const week = Math.floor(dayIndex / 7);
+  const level = s.unit < 12 ? 'A2' : s.unit < 30 ? 'B1' : 'B2';
+  const scene = scenes[dayIndex % scenes.length];
+  const words = vocab(scene);
+  const items = [];
+  const warm = courseState().weak.filter(item => item.stage <= 2 && item.model && (item.exact || item.choices)).slice(-2);
+  for (const item of warm) items.push({...item, stage:0, title:'Из прошлых ошибок'});
+  // Interleave previously studied forms, varying the actual questions on return visits.
+  for (let j = items.length; j < 5; j++) {
+    const previous = Math.max(0, s.unit - 1 - (j % 3));
+    const bank = grammarPractice[previous];
+    const [ask, answer, wrong] = bank[(dayIndex + 3*j) % bank.length];
+    items.push({...selectItem(0,units[previous][0],ask,answer,[wrong],grammarNotes[previous]),tag:units[previous][0]});
+  }
+  items.push({stage:1,title:u[0],info:u[1]+' '+grammarNotes[s.unit],examples:[u[6]]});
+  const pool = grammarPractice[s.unit];
+  const count = s.minutes <= 60 ? 3 : 5;
+  for (let k = 0; k < count; k++) {
+    const [ask,answer,wrong] = pool[(dayIndex * 3 + k) % pool.length];
+    items.push(selectItem(1,'Выбери форму',ask,answer,[wrong],ask.replace('___',answer)+' — '+grammarNotes[s.unit]));
+  }
+  const [ask, model, tip] = contextualGrammar[s.unit];
+  items.push({...fixItem(u,1),tip:grammarNotes[s.unit]}, {stage:1,title:'Заполни пропуск',ask,model,tip,exact:true});
+  const rewrite = rewrites[s.unit];
+  if (rewrite) items.push({stage:1,title:'Sentence Building',ask:rewrite[2],model:rewrite[1],exact:true,tip:grammarNotes[s.unit]});
+  items.push({stage:1,title:'Своя фраза',ask:u[7],tip:grammarNotes[s.unit]});
+  items.push({stage:2,title:scene[0],info:'Прочитай сочетания. Закрой список и вспомни, в каком контексте тебе пригодятся два из них.',examples:words.map(([en,ru,example])=>en+' — '+ru+'. '+example)});
+  for (const j of [0,2,4]) items.push(selectItem(2,'Значение в контексте',words[j][2]+' → '+words[j][0],words[j][1],[words[j+1][1],words[(j+2)%6][1]],words[j][2]));
+  items.push({stage:2,title:'Активный словарь',ask:'Imagine a situation involving '+scene[0]+'. Write two connected sentences using two expressions from the list.',tip:'Опиши конкретную ситуацию и проверь сочетаемость слов.',words:words.map(w=>w[0])});
+  items.push({...selectItem(3,scene[0],scene[3],scene[4],scene.slice(5),scene[2]),audio:scene[2]});
+  const listen = listeningBank[dayIndex % listeningBank.length];
+  for (const [question,answer,...wrong] of listen[2]) items.push({...selectItem(3,listen[0],question,answer,wrong,listen[1]),audio:listen[1]});
+  const interview = speakingBank[dayIndex % speakingBank.length];
+  const support = level==='A2' ? 'Начни с двух предложений: прямой ответ и причина. Можно взять паузу.' : level==='B1' ? 'Сформулируй позицию, объясни причину и приведи один конкретный пример.' : 'Покажи, где твой аргумент особенно убедителен и при каком условии вывод меняется.';
+  items.push({stage:4,title:'Listen and Repeat',audio:words[2][2],ask:'Repeat the sentence aloud.',model:words[2][2],tip:'Сравни ударные слова и окончания со своей записью.',repeat:true});
+  items.push({stage:4,title:'Grammar into Speaking · '+u[0],ask:u[7],tip:support+' Используй конструкцию урока.'});
+  for (const question of interview.slice(1)) items.push({stage:4,title:'Take an Interview · '+interview[0],ask:question,tip:support});
+  items.push({stage:4,title:'Answer Expansion',ask:'Return to the question: '+interview[1]+' Give a fresh answer. Include one detail from your experience or a realistic example. Explain how it supports your point.',tip:support+' Сначала набросай три опорных слова. Сравни две записи.'});
+  if (s.last === 'Reading') {
+    const r = readingTasks[(week*3+Math.floor((dayIndex%7)/2))%readingTasks.length];
+    items.push(r.length===4 ? {stage:5,title:r[0],source:r[1],ask:r[2],model:r[3],exact:true,tip:r[3]} : {...selectItem(5,r[0],r[2],r[3],r.slice(4),r[3]),source:r[1]});
+    if (r.length>4) items.push({stage:5,title:'Подтверди вывод текстом',source:r[1],ask:'Find the words that support your previous answer. Explain the connection in your own words.',tip:'Укажи точные слова автора, затем одной фразой объясни, как они подтверждают ответ.'});
+  } else {
+    const sentences = sentenceWriting.filter(row=>row[0]===level);
+    const writing = writingBank.filter(row=>row[1]===level && (row[0]==='Email'||row[0]==='Discussion'));
+    const index = week*3+Math.floor((dayIndex%7)/2);
+    const sentence = sentences[index % sentences.length];
+    const task = writing[index % writing.length];
+    items.push({stage:5,title:'Build a Sentence',ask:'Put the words in order: '+sentence[2],model:sentence[1],exact:true,tip:'Собери подлежащее и сказуемое. Для вопроса проверь место вспомогательного глагола.'});
+    items.push({stage:5,title:task[0]==='Email'?'Write an Email':'Write for an Academic Discussion',ask:task[2],tip:task[0]==='Email'?'Назови адресата и цель. Убедись, что читатель понимает, какого действия ты ждёшь.':'Ответь на вопрос преподавателя и добавь свой аргумент. Покажи, как пример связан с твоей позицией.'});
+  }
+  return items;
+}
+function grammarWorkshop() {
+  const cs=courseState();
+  if (cs.session) return lessonScreen();
+  const unit=Number($('#unitSelect').value), bank=grammarPractice[unit];
+  const items=bank.map(([ask,answer,wrong])=>selectItem(1,units[unit][0],ask,answer,[wrong],ask.replace('___',answer)+' — '+grammarNotes[unit]));
+  cs.session={id:crypto.randomUUID(),unit,diag:false,practice:true,last:'Grammar',pos:0,answers:[],draft:'',heard:false,started:Date.now(),minutes:30,items};
+  persist();
+  lessonScreen();
+}
 function buildDiagnostic(){let r=readingTasks[1],sc=scenes[1];return [selectItem(0,'Grammar','Yesterday the library ___ early.','closed',['closes','closing'],'Yesterday указывает на завершённое событие.'),{...selectItem(5,'Reading',r[2],r[3],r.slice(4),r[3]),source:r[1]},{...selectItem(3,'Listening',sc[3],sc[4],[sc[5],sc[6]],sc[2]),audio:sc[2]},{stage:4,title:'Speaking',ask:'Describe a place you enjoy visiting. What makes it special?',tip:'Добавь причину и одну деталь.'},{stage:5,title:'Writing',ask:'Write three sentences about a change you would like to see in your town. Explain why.',tip:'Сформулируй изменение и ожидаемый результат.'}]}
 function startLesson(diag=false){let cs=courseState();if(activeProfile==="vladlen"&&!cs.reports.length&&!cs.skipDiagnostic)diag=true;const requested=cs.calendarRequest;delete cs.calendarRequest;if(cs.session){persist();return lessonScreen()}if(requested)diag=false;if(!diag&&!requested&&cs.unit>=units.length)return catalog();let s={id:crypto.randomUUID(),unit:requested?scheduledUnit(requested):cs.unit%units.length,lessonDate:requested,diag,last:requested?(new Date(requested+'T12:00:00Z').getUTCDay()%2?'Reading':'Writing'):(cs.reports.filter(x=>!x.diag).length%2?'Writing':'Reading'),pos:0,answers:[],draft:'',heard:false,started:Date.now(),minutes:requested?dayProgram(requested).minutes:cs.minutes};s.items=diag?buildDiagnostic():buildLesson(s);cs.session=s;persist();lessonScreen()}
-function catalog(){let cs=courseState();modal('<h2>Мой курс</h2><p>Выбери тему и длину занятия. Маршрут можно менять между уроками.</p><label>Грамматика<select id="unitSelect">'+units.map((u,i)=>'<option value="'+i+'" '+(i===cs.unit?'selected':'')+'>'+esc(u[0])+'</option>').join('')+'</select></label><label>Плановое время<select id="duration">'+opts(['60','75','90'],String(cs.minutes))+'</select></label>'+btn(cs.session?'Продолжить текущее занятие':'Начать урок','catalogStart()','primary')+(cs.session?'':btn('Короткая диагностика · 5 заданий','startLesson(true)'))+btn('Speaking interviews','interviewCatalog()')+reportList())}
+function catalog(){let cs=courseState();modal('<h2>Мой курс</h2><p>Выбери тему и длину занятия. Маршрут можно менять между уроками.</p><label>Грамматика<select id="unitSelect">'+units.map((u,i)=>'<option value="'+i+'" '+(i===cs.unit?'selected':'')+'>'+esc(u[0])+'</option>').join('')+'</select></label><label>Плановое время<select id="duration">'+opts(['60','75','90'],String(cs.minutes))+'</select></label>'+btn(cs.session?'Продолжить текущее занятие':'Начать урок','catalogStart()','primary')+(cs.session?'':btn('Короткая диагностика · 5 заданий','startLesson(true)'))+(cs.session?'':btn('Вся практика выбранной темы','grammarWorkshop()'))+btn('Speaking interviews','interviewCatalog()')+reportList())}
 function catalogStart(){let cs=courseState();if(!cs.session){cs.unit=Number($('#unitSelect').value);cs.minutes=Number($('#duration').value);persist()}startLesson()}
 function reportList(){return courseState().reports.slice().reverse().map(r=>'<details><summary>'+esc(r.date+' · '+r.name)+'</summary><p>'+esc(r.summary)+'</p></details>').join('')}
 function listenLesson(){let s=courseState().session,item=s.items[s.pos];let index=scenes.findIndex(sc=>sc[2]===item.audio||vocab(sc)[2][2]===item.audio);let player=$('#courseAudio');if(index<0||index>=4){speak(item.audio);$('#heard').disabled=false;return}player.src='audio/'+index+'-'+(item.repeat?1:0)+'.mp3';player.hidden=false;player.onended=()=>{s.played=true;persist();if($('#heard'))$('#heard').disabled=false};player.play().catch(()=>{$('#speechStatus').textContent='Нажми воспроизведение в аудиоплеере.'})}

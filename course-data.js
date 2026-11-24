@@ -42,7 +42,7 @@ const rewrites=[
 ['If I lived nearby, I ___ walk there.','would','Use would: If I lived nearby, I ___ walk there.']];
 
 const extraGrammar=[
-['Countable and uncountable','Use many with countable plurals and much with uncountable nouns.','How ___ equipment do we need?','much','many','We bought many furniture.','We bought much furniture.','Describe what you need for a new apartment.'],
+['Countable and uncountable','Many сочетается с исчисляемыми существительными во множественном числе, much — с неисчисляемыми.','How ___ equipment do we need?','much','many','We bought several furnitures.','We bought several pieces of furniture.','Describe what you need for a new apartment.'],
 ['Quantifiers','A few means some countable items; a little means some uncountable material.','There is ___ milk left.','a little','a few','I have a little books.','I have a few books.','Describe your available study resources.'],
 ['Comparatives','Use -er or more, followed by than.','This route is ___ than ours.','shorter','shortest','It is more easier.','It is easier.','Compare two ways of travelling.'],
 ['Superlatives','Use the with -est or most.','This is ___ option.','the cheapest','cheaper','She is most experienced student.','She is the most experienced student.','Describe the best place you have visited.'],
@@ -441,7 +441,7 @@ case 23:q='At ten tomorrow, '+s.toLowerCase()+' will be ___ '+obj+'.';a=ing;w=v;
 case 24:q='By Friday, '+s.toLowerCase()+' will have ___ '+obj+'.';a=pp;w=ing;break;
 case 28:q=obj[0].toUpperCase()+obj.slice(1)+' '+(obj.endsWith('s')||obj==='the data'?'were':'was')+' ___ by '+s.toLowerCase()+'.';a=pp;w=ing;break;
 case 29:q=obj[0].toUpperCase()+obj.slice(1)+' should be ___ by '+s.toLowerCase()+'.';a=pp;w=ing;break;
-case 36:q=s+' might ___ '+obj+' later.';a=v;w=vs;break;
+case 36:q='The evidence suggests that '+s.toLowerCase()+' might ___ '+obj+' differently.';a=v;w=vs;break;
 case 37:q=s+' must have ___ '+obj+' already.';a=pp;w=ing;break;
 }
 grammarPractice[u].push([q,a,w]);
@@ -460,7 +460,7 @@ let q,a,w;
 switch(u){
 case 2:q=s+' '+(b?'are':'is')+' currently ___ '+obj+'.';a=ing;w=v;break;
 case 6:q='While '+s.toLowerCase()+' '+(b?'were':'was')+' '+ing+' '+obj+', the lights ___ out.';a='went';w='go';break;
-case 10:q='We interviewed ___ '+(b?n2:n1)+' yesterday.';a=b?'a':'an';w=b?'an':'a';break;
+case 10:q='We interviewed ___ '+(b?n2:n1)+' yesterday.';a=/^[aeiou]/i.test(b?n2:n1)?'an':'a';w=a==='an'?'a':'an';break;
 case 11:q='The '+place+' opens ___ '+(b?'Monday':'Friday')+' morning.';a='on';w='in';break;
 case 12:q='If '+s.toLowerCase()+' '+(b?v:vs)+' '+obj+' today, we ___ have time tomorrow.';a='will';w='would have';break;
 case 13:q='If '+s.toLowerCase()+' had more time, '+(b?'they':'the person')+' ___ '+v+' '+obj+'.';a='would';w='will';break;
@@ -481,7 +481,7 @@ case 34:q=s+' enjoy'+(b?'':'s')+' ___ '+obj+'.';a=ing;w='to '+v;break;
 case 35:q=s+' decided ___ '+obj+'.';a='to '+v;w=ing;break;
 case 38:q=s+' wish'+(b?'':'es')+' '+(b?'they':'the employee')+' ___ '+v+' '+obj+' more quickly.';a='could';w='can to';break;
 case 39:q=s+' used to ___ '+obj+' manually.';a=v;w=ing;break;
-case 40:q=s+' '+(b?'are':'is')+' ready to '+v+' '+obj+', ___?';a=b?"aren't they":"isn't the employee";w=b?"don't they":"doesn't the employee";if(!b){q='The '+n1+' is ready to '+v+' '+obj+', ___?';a="isn't he or she";w="doesn't he or she";}break;
+case 40:q=(b?pl:'Nina')+' '+(b?'are':'is')+' ready to '+v+' '+obj+', ___?';a=b?"aren't they":"isn't she";w=b?"don't they":"doesn't she";break;
 case 41:q='Could you tell me where ___ '+(b?'now':'today')+'? ('+place+')';a='the '+place+' is';w='is the '+place;break;
 case 42:q='___ '+(b?'the delay':'the difficulty')+', '+s.toLowerCase()+' managed to '+v+' '+obj+'.';a='Despite';w='Although';break;
 case 43:q=s+' postponed '+ing+' '+obj+' ___ '+(b?'a power failure':'a scheduling conflict')+'.';a='because of';w='because';break;

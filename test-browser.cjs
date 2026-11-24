@@ -7,7 +7,7 @@ const fs = require('node:fs/promises');
 const path = require('node:path');
 const http = require('node:http');
 const root = __dirname;
-const resources = new Set(['/', '/index.html', '/style.css', '/favicon.ico', '/project-audio.mp3', '/project-image.png', '/toefl-structure.pdf']);
+const resources = new Set(['/', '/index.html', '/style.css', '/vendor/supabase.js', '/favicon.ico', '/project-audio.mp3', '/project-image.png', '/toefl-structure.pdf']);
 async function run() {
   for (const name of await fs.readdir(root)) if (/^[\w.-]+\.js$/.test(name)) resources.add('/' + name);
   for (const name of await fs.readdir(path.join(root, 'audio'))) if (/^[\w.-]+\.mp3$/.test(name)) resources.add('/audio/' + name);
@@ -92,6 +92,16 @@ async function run() {
         await click('#close');await nav(6);await page.locator('#app .task').last().click();
         assert.match(await page.locator('#box').innerText(),/weekly schedule/);
         await click('#close');
+        await nav(2);
+        for(let skill=1;skill<5;skill++){
+          await click('[onclick="config('+skill+')"]');await click('#form button.primary');
+          if(skill===1){await page.locator('#box button[onclick^="speak"]').first().click();await click('#unlock');}
+          const answer=page.locator('#answer');
+          if(await answer.evaluate(el=>el.tagName==='SELECT'))await answer.selectOption({index:1});
+          else await answer.fill('A community garden can attract visitors. For example, people can grow vegetables together.');
+          await click('#answerForm button.primary');
+          assert.match(await page.locator('#box').innerText(),/Разбор ответа/);await click('#close');
+        }
         if(profile==='marina') await testLessons(page,nav);
         assert.deepEqual(errors,[]);
         console.log(profile,'OK: eight screens, schedule edit, materials, reload, Speaking, audio, answer history');

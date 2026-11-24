@@ -16,6 +16,7 @@ const assert=require('node:assert/strict');
       const response=await page.goto(url,{waitUntil:'networkidle'});
       console.log(width,url,response.status(),await page.title());
       assert.equal(response.status(),200);
+      assert.ok(await page.evaluate(()=>typeof examCounts==="function" && Array.from({length:24},(_,i)=>examCounts(i).join(",")).every(x=>x==="50,47,12,11")), "Published bank must contain all 24 forms");
       assert.ok(await page.locator('.auth-gate input[type=email]').isVisible());
       assert.ok(await page.locator('.auth-gate input[type=password]').isVisible());
       assert.ok(await page.locator('main').evaluate(e=>e.inert));
