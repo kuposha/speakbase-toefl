@@ -1,0 +1,18 @@
+'use strict';
+const assert=require('node:assert/strict');
+const fs=require('node:fs');
+const app=fs.readFileSync('app.js','utf8');
+const html=fs.readFileSync('index.html','utf8');
+const match=app.match(/const vocabularySeed=(\[[\s\S]*?\]);/);
+assert.ok(match,'Marina vocabulary seed exists');
+const entries=JSON.parse(match[1]);
+assert.equal(entries.length,42,'all submitted category entries are retained');
+assert.equal(new Set(entries.map(x=>x[2])).size,41,'only the repeated make progress is duplicated');
+assert.equal(entries.filter(x=>x[2]==='make progress').length,2,'make progress remains in both categories');
+assert.equal(entries.filter(x=>x[0]==='Daily Life & Routine').length,14);
+assert.equal(entries.filter(x=>x[0]==='Education & Academic Life').length,28,'all supplied education subsection entries are included');
+assert.ok(app.includes("activeProfile==='marina'&&!db.vocabulary"),'dictionary seed is created only in Marina profile');
+assert.ok(app.includes("i!==9||activeProfile==='marina'"),'dictionary navigation is hidden for Vladlen');
+assert.ok(app.includes("function reviewVocabulary"),'spaced repetition controls exist');
+assert.ok(html.includes('id="mobileMenuToggle"')&&html.includes('id="navBackdrop"'),'mobile hamburger controls exist');
+console.log('Vocabulary QA passed: 42 category entries, 41 unique expressions, profile isolation and review schedule.');

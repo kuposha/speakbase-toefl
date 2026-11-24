@@ -38,7 +38,7 @@ async function run() {
         await page.route('https://cdn.jsdelivr.net/**',r=>r.fulfill({contentType:'text/javascript',body:''}));
         await page.addInitScript(p=>localStorage.setItem('sb.active',p), profile);
         await page.goto(origin);
-        const nav = i=>page.locator('#nav button').nth(i).click();
+        const nav = async i=>{const menu=page.locator('#mobileMenuToggle');if(await menu.isVisible())await menu.click();await page.locator('#nav button').nth(i).click();};
         const click = sel=>page.locator(sel).click();
         await click('#themeToggle');
         assert.equal(await page.locator('html').getAttribute('data-theme'),'light','theme button should enable light mode');

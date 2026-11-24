@@ -27,19 +27,29 @@ const http=require('node:http'),fs=require('node:fs/promises'),path=require('nod
    assert.ok(g.profile.width>=width*.42,'profile control too narrow '+profile+' '+width);
    assert.ok(g.breadcrumb.right<=g.profile.x+1,'breadcrumb/profile overlap '+profile+' '+width);
    assert.ok(g.theme.right<=width+1&&g.theme.y<50,'theme control not aligned with brand '+profile+' '+width);
+   const menu=page.locator('#mobileMenuToggle');
+   assert.equal(await menu.getAttribute('aria-expanded'),'false','mobile menu starts closed '+profile+' '+width);
+   await menu.click();
+   assert.equal(await menu.getAttribute('aria-expanded'),'true','hamburger opens navigation '+profile+' '+width);
+   assert.ok(await page.locator('#nav').isVisible(),'navigation drawer is visible '+profile+' '+width);
    await page.locator('#nav button').nth(8).click();
-   const selected=await page.evaluate(()=>{
-    const n=document.querySelector('#nav'),b=n.querySelector('button[aria-current="page"]'),r=b.getBoundingClientRect(),p=n.getBoundingClientRect();
-    return {scroll:n.scrollLeft,left:r.left,right:r.right,navLeft:p.left,navRight:p.right};
-   });
-   assert.ok(selected.scroll>0,'navigation did not scroll to selected section '+profile+' '+width);
-   assert.ok(selected.left>=selected.navLeft-1&&selected.right<=selected.navRight+1,'selected section is not visible '+profile+' '+width);
+   assert.equal(await menu.getAttribute('aria-expanded'),'false','navigation closes after selecting a section '+profile+' '+width);
+   assert.equal(await page.locator('#nav button[aria-current="page"]').count(),1,'one active navigation item '+profile+' '+width);
+   if(profile==='marina'){
+    await menu.click();
+    await page.locator('#nav button').nth(9).click();
+    assert.equal(await page.locator('.vocab-summary b').nth(0).textContent(),'42','Marina vocabulary category entries '+width);
+    assert.equal(await page.locator('.vocab-summary b').nth(1).textContent(),'41','Marina unique vocabulary expressions '+width);
+   }else{
+    assert.equal(await page.locator('#nav button').count(),9,'Vladlen has no Marina dictionary item '+width);
+    assert.equal(await page.locator('.vocab-summary').count(),0,'Marina vocabulary is not rendered in Vladlen profile '+width);
+   }
    await page.locator('#themeToggle').click();
    assert.equal(await page.locator('html').getAttribute('data-theme'),'light','light theme toggle '+profile+' '+width);
    g=await geometry();
    assert.ok(g.document<=width,'light theme overflow '+profile+' '+width);
    assert.ok(g.theme.right<=width+1,'light theme button overflow '+profile+' '+width);
-   console.log('PASS',profile,width,'header='+Math.round(g.header.height)+'px','profile='+Math.round(g.profile.width)+'px','navScroll='+Math.round(selected.scroll));
+   console.log('PASS',profile,width,'header='+Math.round(g.header.height)+'px','profile='+Math.round(g.profile.width)+'px','menu=hamburger');
    await page.close();
   }
  }finally{await browser.close();await new Promise(resolve=>server.close(resolve))}

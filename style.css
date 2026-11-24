@@ -152,3 +152,30 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,te
 :root[data-theme="dark"] .wrong-example{color:#e18c8c}
 @media(max-width:540px){.sync-status{max-width:52px}header #profileSelect{max-width:28vw;width:28vw}}
 .goal-summary{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin:5px 0 15px}.goal-target{font-size:17px;font-weight:700;letter-spacing:-.3px}.goal-stage{font-size:13px;color:var(--muted);margin-top:4px}.goal-percent{font:700 30px/1 monospace;color:var(--lime);white-space:nowrap}.goal-meter{position:relative;height:11px;border-radius:20px;background:#363a34;margin:8px 3px 12px;overflow:visible}.goal-meter i{display:block;height:100%;border-radius:20px;background:linear-gradient(90deg,#789b4b,#c4fa76);transition:width .65s cubic-bezier(.2,.7,.2,1)}.goal-meter span{position:absolute;top:50%;width:19px;height:19px;border:3px solid var(--panel);border-radius:50%;background:var(--lime);box-shadow:0 0 0 1px #91b85c;transform:translate(-50%,-50%);transition:left .65s cubic-bezier(.2,.7,.2,1)}.goal-stats{display:flex;justify-content:space-between;gap:7px;flex-wrap:wrap;font:11px/1.4 monospace;color:var(--muted)}.goal-caption{font-size:12px;line-height:1.45;color:var(--muted);margin-top:10px}
+
+/* Personal vocabulary */
+.vocab-summary{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:0 0 16px}
+.vocab-summary>div{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:15px}
+.vocab-summary b{display:block;font-size:25px;color:var(--accent,var(--lime));line-height:1.2}
+.vocab-summary small{margin-top:5px}
+.vocab-panel{margin-bottom:16px}
+.vocab-toolbar{display:grid;grid-template-columns:1.2fr 1fr;gap:12px}
+.vocab-filters{display:flex;flex-wrap:wrap;gap:7px;margin:14px 0}
+.vocab-filters button,.vocab-actions button{border:1px solid var(--line);border-radius:8px;background:var(--surface-raised,#252925);padding:7px 11px;font-size:12px}
+.vocab-filters button.selected{border-color:var(--accent,var(--lime));color:var(--accent,var(--lime))}
+.vocab-word{padding:15px 0;border-top:1px solid var(--line)}
+.vocab-word-head{display:flex;align-items:flex-start;justify-content:space-between;gap:10px}
+.vocab-group{font:11px monospace;color:var(--muted);letter-spacing:.3px}
+.vocab-word h3{margin:5px 0 2px;font-size:19px}
+.vocab-word p{color:var(--muted);font-size:14px}
+.vocab-status{flex:0 0 auto;border:1px solid var(--line);border-radius:20px;padding:3px 9px;font-size:11px}
+.vocab-status.learned{color:var(--accent,var(--lime));border-color:var(--accent,var(--lime))}
+.vocab-actions{display:flex;flex-wrap:wrap;gap:7px;margin-top:12px}
+.vocab-actions .primary{background:var(--accent,var(--lime));color:#142008}
+.vocab-next{margin-top:7px}
+.planned-topics>p{color:var(--muted);margin:5px 0 12px}
+.planned-topics>div{display:flex;flex-wrap:wrap;gap:7px}
+.planned-topics span{border:1px dashed var(--line);border-radius:20px;padding:5px 10px;color:var(--muted);font-size:12px}
+@media(max-width:540px){.vocab-summary{grid-template-columns:repeat(2,minmax(0,1fr))}.vocab-toolbar{grid-template-columns:1fr}.vocab-word h3{font-size:18px}}
+
+#mobileMenuToggle{display:none}
