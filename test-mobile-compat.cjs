@@ -1,6 +1,8 @@
 const fs=require('node:fs'),assert=require('node:assert/strict');
 const html=fs.readFileSync('index.html','utf8'),css=fs.readFileSync('style.css','utf8'),auth=fs.readFileSync('cloud.js','utf8');
 assert.match(html,/<meta name="viewport" content="width=device-width, initial-scale=1">/i,'mobile viewport must use device width');
+assert.ok(html.includes('href="style.css?v=20261124-mobile"'),'mobile CSS cache must be refreshed on phones');
+assert.ok(html.includes('src="cloud.js?v=20261124-mobile"'),'auth script cache must be refreshed on phones');
 assert.match(css,/@media\s*\(max-width:\s*810px\)/,'tablet/mobile layout breakpoint missing');
 assert.match(css,/overflow-x:auto[^}]*-webkit-overflow-scrolling:touch|overflow-x:auto[^}]*scrollbar-width:none|overflow-x:auto/,'mobile nav must scroll horizontally');
 assert.match(css,/env\(safe-area-inset-top\)/,'safe-area support missing');
