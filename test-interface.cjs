@@ -10,7 +10,7 @@ assert.match(html,/localStorage\.getItem\('sb\.theme'\)/);
 assert.match(html,/id="themeToggle"[^>]*onclick="toggleTheme\(\)"/);
 assert.ok(html.includes('style.css?v=20261124-vocabulary-examples'),'base style cache version');
 assert.ok(html.includes('mobile.css?v=20261124-vocabulary-examples'),'mobile style cache version');
-assert.ok(html.includes('app.js?v=20261124-vocabulary-examples'),'navigation script cache version');
+assert.ok(html.includes('app.js?v=20261124-vocabulary-personal'),'navigation and personal vocabulary script cache version');
 assert.match(app,/localStorage\.setItem\(THEME_KEY,next\)/);
 assert.match(app,/setAttribute\('aria-current','page'\)/);
 assert.match(app,/function go\(i\).*page=i/s);

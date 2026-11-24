@@ -18,7 +18,7 @@ const server=http.createServer((req,res)=>{
  const page=await browser.newPage({permissions:['microphone']});
  const errors=[];page.on('pageerror',e=>errors.push(e.message));
  // No personal account is needed for these isolated exam-runner scenarios.
- await page.route('**/cloud.js',route=>route.fulfill({contentType:'application/javascript',body:"document.querySelectorAll('[inert]').forEach(el=>el.inert=false)"}));
+ await page.route('**/cloud.js*',route=>route.fulfill({contentType:'application/javascript',body:"document.querySelectorAll('[inert]').forEach(el=>el.inert=false)"}));
  await page.goto('http://127.0.0.1:'+server.address().port);
  const navigate=()=>page.getByRole('button',{name:'Пробный TOEFL',exact:true}).click();
  await navigate();
