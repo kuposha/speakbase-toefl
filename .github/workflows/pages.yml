@@ -19,6 +19,7 @@ jobs:
       - run: node test-content.cjs
       - run: node test-course.cjs
       - run: node test-exam-data.cjs
+      - run: node test-content-quality.cjs
       - run: node scripts/package-pages.cjs
       - uses: actions/upload-pages-artifact@v3
         with:
