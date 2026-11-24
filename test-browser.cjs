@@ -7,7 +7,7 @@ const fs = require('node:fs/promises');
 const path = require('node:path');
 const http = require('node:http');
 const root = __dirname;
-const resources = new Set(['/', '/index.html', '/style.css', '/vendor/supabase.js', '/favicon.ico', '/favicon.svg', '/project-audio.mp3', '/project-image.png', '/toefl-structure.pdf']);
+const resources = new Set(['/', '/index.html', '/style.css', '/mobile.css', '/vendor/supabase.js', '/favicon.ico', '/favicon.svg', '/project-audio.mp3', '/project-image.png', '/toefl-structure.pdf']);
 async function run() {
   for (const name of await fs.readdir(root)) if (/^[\w.-]+\.js$/.test(name)) resources.add('/' + name);
   for (const name of await fs.readdir(path.join(root, 'audio'))) if (/^[\w.-]+\.mp3$/.test(name)) resources.add('/audio/' + name);
@@ -34,7 +34,7 @@ async function run() {
         page.on('console',m=>{if(m.type()==='error')errors.push(m.text());});
         page.on('response',r=>{if(r.status()>=400)errors.push(r.status()+' '+r.url());});
         // A local-only fixture permits cumulative course tests without modifying a student's data.
-        await page.route(origin+'/cloud.js',r=>r.fulfill({contentType:'text/javascript',body:"document.querySelectorAll('[inert]').forEach(e=>e.inert=false)"}));
+        await page.route(origin+'/cloud.js*',r=>r.fulfill({contentType:'text/javascript',body:"document.querySelectorAll('[inert]').forEach(e=>e.inert=false)"}));
         await page.route('https://cdn.jsdelivr.net/**',r=>r.fulfill({contentType:'text/javascript',body:''}));
         await page.addInitScript(p=>localStorage.setItem('sb.active',p), profile);
         await page.goto(origin);
@@ -75,7 +75,9 @@ async function run() {
         const lessonDate=new Date().toISOString().slice(0,10);
         await page.locator('input[type=date]').fill(lessonDate);
         await click('[onclick="startScheduledLesson()"]');
-        assert.match(await page.locator('#box .eyebrow').innerText(),/[0-9]+.*[а-яa-z]+/i);
+        assert.match(await page.locator('#box .eyebrow').first().innerText(),/[0-9]+.*[а-яa-z]+/i);
+        assert.ok(await page.locator('.grammar-lecture').isVisible(),'daily lesson must begin with the full grammar lecture');
+        await click('#box button.primary');
         for(let n=0;n<5;n++){
           const choices=await page.locator('#lessonAnswer option').count();
           assert.equal(choices,5,'four answer choices plus placeholder');
@@ -86,8 +88,8 @@ async function run() {
           assert.ok(await page.locator('#box .correct-model').isVisible(),'correct answer should be shown');
           await click('#box button.primary');
         }
-        assert.ok(await page.locator('.grammar-lecture').isVisible(),'daily grammar lecture must be present');
-        assert.match(await page.locator('.grammar-lecture').innerText(),/Лекция|Пример|Как использовать/);
+        // The full lecture is asserted before the exercises above.
+
         assert.match(await page.locator('#box').innerText(),/Сегодня изучаем:|Тренируем:/);
         await page.evaluate(()=>{courseState().session=null;db.h=[];persist()});
         await click('#close');

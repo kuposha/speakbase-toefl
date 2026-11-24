@@ -1,0 +1,139 @@
+/* Speakbase responsive layout: phone-first refinements */
+:root{--mobile-gutter:clamp(14px,4vw,24px)}
+html{width:100%;min-width:320px;overflow-x:clip;scrollbar-gutter:stable}
+body{width:100%;min-width:320px;overflow-x:clip}
+button,a,input,select,textarea{touch-action:manipulation}
+button,.btn,.primary{min-height:42px}
+#app{min-width:0;width:100%}
+#app>*{min-width:0}
+img,video,iframe,canvas{max-width:100%}
+audio{display:block;width:100%;max-width:100%;min-width:0}
+p,li,blockquote,.note,.sub{overflow-wrap:anywhere}
+.panel,.hero,.focus,.col,.layout,.stack,.grid,.grammar-lecture{min-width:0}
+.panel{overflow-wrap:anywhere}
+.panel h2,.panel h3,.intro h1,.intro p{overflow-wrap:anywhere}
+fieldset{min-width:0;border:1px solid var(--line);border-radius:10px;padding:14px;display:grid;gap:12px}
+fieldset label{display:flex;align-items:flex-start;gap:10px;min-width:0}
+fieldset input[type=radio],input[type=checkbox]{width:20px;min-width:20px;min-height:20px;margin:2px 0;accent-color:var(--lime)}
+label{min-width:0}
+input,select,textarea{min-width:0;max-width:100%;font-size:16px}
+textarea{line-height:1.55}
+table{display:block;max-width:100%;overflow-x:auto}
+pre,code{max-width:100%;white-space:pre-wrap;overflow-wrap:anywhere}
+#modal{overscroll-behavior:contain}
+#box{min-width:0}
+#box>*{min-width:0}
+#box .row{align-items:flex-start}
+#box .actions{align-items:stretch}
+#box .actions>*{flex:0 1 auto}
+#box .primary,#box .btn{max-width:100%;white-space:normal}
+#box form{min-width:0}
+#box .grammar-lecture{min-width:0}
+#box .grammar-lecture blockquote{overflow-wrap:anywhere}
+.exam-word-bank{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
+.exam-word-bank button{max-width:100%;white-space:normal}
+.task>span:nth-child(2){min-width:0;flex:1 1 auto}
+.task .time{flex:0 0 auto}
+.intro>div{min-width:0}
+.intro>.btn,.intro>.primary{flex:0 0 auto}
+header>span{min-width:0}
+header .actions{min-width:0}
+header #profileSelect{min-width:0;max-width:100%}
+@media(max-width:810px){
+  aside{position:sticky;top:0;z-index:100;display:block;width:100%;padding:calc(8px + env(safe-area-inset-top)) var(--mobile-gutter) 0;border-right:0;border-bottom:1px solid var(--line);box-shadow:0 8px 24px #0003}
+  .brand{display:flex;align-items:center;gap:9px;padding:0;font-size:19px;line-height:1.2}
+  .brand .logo{flex:0 0 30px;width:30px;height:30px}
+  .brand span{display:inline;margin:0 0 0 auto;font-size:9px;letter-spacing:1.4px}
+  nav{display:flex;align-items:center;gap:5px;margin:9px calc(var(--mobile-gutter)*-1) 0;padding:0 var(--mobile-gutter) 8px;overflow-x:auto;overflow-y:hidden;overscroll-behavior-x:contain;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+  nav::-webkit-scrollbar{display:none}
+  nav button{flex:0 0 auto;width:auto;min-height:40px;margin:0;padding:8px 11px;border:1px solid transparent;border-radius:9px;font-size:13px;white-space:nowrap}
+  nav button.selected{border-color:#52663a;background:#26301f}
+  main{width:100%;max-width:none;min-width:0;margin:0;padding:0 var(--mobile-gutter) calc(34px + env(safe-area-inset-bottom))}
+  header{height:auto;min-height:52px;padding:9px 0;gap:8px}
+  header>span{font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  header em{margin:0 4px}
+  header .actions{gap:6px}
+  header #profileSelect{width:auto;max-width:38vw;padding:7px 9px;font-size:12px}
+  .intro{align-items:flex-start;gap:12px;margin:22px 0 18px}
+  .intro>div{flex:1 1 220px}
+  .intro h1{font-size:clamp(27px,5.6vw,36px);letter-spacing:-1px}
+  .intro p,.sub{font-size:14px;line-height:1.5}
+  .intro>.btn,.intro>.primary{flex:0 1 auto;max-width:100%;font-size:12px;padding:8px 10px}
+  .layout{grid-template-columns:minmax(0,1fr);gap:14px}
+  .col{gap:14px}
+  .panel,.hero{padding:clamp(15px,3.8vw,20px);border-radius:12px}
+  .hero{min-height:0;padding:20px}
+  .hero h2{max-width:100%;font-size:clamp(30px,7vw,42px);letter-spacing:-1.2px;line-height:1.08}
+  .hero p{max-width:100%;font-size:14px;line-height:1.5}
+  .hero canvas{display:none}
+  .hero .actions{display:flex;flex-wrap:wrap}
+  .hero .actions>*{flex:1 1 140px}
+  .meta{flex-wrap:wrap;font-size:12px}
+  .focusgrid{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}
+  .focus{padding:13px}
+  .week{gap:3px}
+  .day{min-width:0;font-size:12px}
+  .task{gap:10px;padding:12px 0}
+  .task .time{font-size:11px}
+  .grid{grid-template-columns:repeat(auto-fit,minmax(min(100%,230px),1fr));gap:10px}
+  .stack{gap:12px}
+  .head{align-items:flex-start}
+  .head h2{font-size:19px}
+  #modal{position:fixed;inset:auto 0 0;margin:0;width:100%;max-width:none;max-height:min(92dvh,900px);height:auto;border:1px solid #454c40;border-bottom:0;border-radius:18px 18px 0 0;padding:26px var(--mobile-gutter) calc(20px + env(safe-area-inset-bottom));overflow:auto;overscroll-behavior:contain}
+  #modal::backdrop{background:#0009}
+  #close{position:sticky;float:right;top:0;right:0;z-index:2;margin:-15px -7px 4px 8px}
+  #box{clear:both}
+  #box .row{gap:8px;flex-wrap:wrap}
+  #box h2{font-size:clamp(21px,5vw,27px);line-height:1.2}
+  #box h3{font-size:18px;line-height:1.35}
+  #box .eyebrow{font-size:10px}
+  #box .primary{width:100%;min-height:48px}
+  #box .btn{min-height:44px}
+  #box .actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}
+  #box .actions .primary{grid-column:1/-1}
+  .grammar-lecture{gap:11px}
+  .grammar-lecture h3{font-size:19px}
+  .grammar-lecture p,.grammar-lecture li{font-size:15px;line-height:1.65}
+  .grammar-lecture blockquote,blockquote{padding:13px;font-size:14px}
+  #lessonForm,#answerForm{gap:12px}
+  #lessonForm button,#answerForm button{width:100%;min-height:48px}
+  #examChoices{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+  #examChoices button{width:100%;min-width:0;white-space:normal}
+  dialog .stack{min-width:0}
+}
+@media(max-width:540px){
+  :root{--mobile-gutter:14px}
+  .brand{font-size:18px}
+  .brand span{font-size:8px;letter-spacing:1px}
+  nav button{font-size:12px;padding:8px 10px}
+  header>span{max-width:43%}
+  header #profileSelect{max-width:35vw}
+  .intro{flex-wrap:wrap}
+  .intro>.btn,.intro>.primary{margin-left:auto}
+  .hero h2{font-size:32px}
+  .focusgrid{gap:8px}
+  .focus{padding:11px}
+  .row{flex-wrap:wrap}
+  .task .icon{width:34px;height:34px}
+  .task b{font-size:14px}
+  .task small{font-size:12px;line-height:1.4}
+  .week .day{padding:5px 1px;font-size:11px}
+  .week .day small{font-size:9px}
+  #modal{max-height:94dvh;padding-top:23px}
+  #box .actions{grid-template-columns:1fr}
+  #box .actions .primary{grid-column:auto}
+  #examChoices{grid-template-columns:1fr}
+}
+@media(max-width:360px){
+  :root{--mobile-gutter:11px}
+  .brand span{display:none}
+  header{gap:5px}
+  header>span{max-width:40%;font-size:11px}
+  header #profileSelect{max-width:34vw;font-size:11px}
+  .intro h1{font-size:26px}
+  .hero{padding:15px}
+  .hero h2{font-size:29px}
+  .focusgrid{grid-template-columns:1fr 1fr}
+  .panel{padding:14px}
+}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
