@@ -185,7 +185,7 @@ function examReview(i){
     const result=a.answers[examKey(s,j)];
     return '<details><summary>'+ (j+1)+'. '+esc(item.type)+' · '+(!result?'Пропуск':result.correct===true?'Верно':result.correct===false?'Исправить':'Самопроверка')+'</summary><blockquote lang="en" style="white-space:pre-line">'+esc(item.source||'')+'</blockquote><p>'+esc(item.ask)+'</p>'+
     (result?.text?'<p>Твой ответ: '+esc(result.text)+'</p>':'')+(result?.audioId?btn('Моя запись','examReviewAudio(this,'+i+','+s+','+j+')'):'')+
-    (item.answer!=null?'<p>Ответ: '+esc([].concat(item.answer).join(' / '))+'</p>':'')+'<p>'+esc(item.why||'')+'</p></details>';
+    (item.answer!=null?'<p>Ответ: '+esc([].concat(item.answer).join(' / '))+'</p>':'')+'<p>'+esc(String(item.why||'').replace(/([.!?])\s*([.!?])+$/,'$1'))+'</p></details>';
   }).join('')).join(''));
 }
 async function examReviewAudio(button,i,s,j){const id=examStudioState().history[i]?.answers[examKey(s,j)]?.audioId;if(!id)return;const blob=await blobGet(id);if(!button.isConnected)return;if(!blob){button.textContent='Запись недоступна';return}examStopPlayback();const player=document.createElement('audio');player.controls=true;examPlaybackUrl=URL.createObjectURL(blob);player.src=examPlaybackUrl;button.after(player);button.disabled=true}

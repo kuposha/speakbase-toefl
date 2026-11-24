@@ -63,3 +63,13 @@
 - Strengthened test-course.cjs to assert all 46 topics are scheduled for each profile across the full 404-date span.
 - Strengthened test-browser.cjs to assert 46 unique calendar topics for each profile.
 - Both profiles now pass coverage: 404 dates, 46 topics, 808 date/skill builds each. Browser regression passed for both profiles; Marina also completed all 46 lesson catalog flows.
+
+
+## Auth and content QA (2026-11-24)
+- Added test-content-quality.cjs: all banks passed completeness, uniqueness, key presence and distribution, scrambled token bank, and audio checks. Reading answer-position distribution 118/123/112/127; Listening 283/282/280/283.
+- Spot-reviewed selected forms (1, 6, 12, 18, 24) across Reading/Listening and sampled Writing prompts. Answer/source alignment passed for sampled items; Listening rationales are often generic. This is sampling, not full independent editorial review.
+- Live Supabase project active/healthy. RLS enabled on learning_progress with owner-only SELECT/INSERT/UPDATE; private user-files bucket has owner-folder policies for all four operations.
+- Auth inventory: 4 users (registered + QA fixture per profile), all confirmed. Sign-in history exists but does not prove fresh login. 3 progress rows. QA_ACCOUNTS env missing, so real auth/sync browser test cannot run without disposable credentials.
+- Supabase advisors: no performance/health issues; security warning leaked-password protection disabled.
+- Full regression after review: 24 forms/2,880 answers, both synthetic profiles, public HTTP 200 desktop/mobile, all content banks and audio; no browser JS errors.
+- Added QA-REPORT.md. Remaining: fresh real login/recovery, cross-device sync, authenticated mic upload/download, full editorial review, leaked-password protection, verify Pages deployment SHA.
