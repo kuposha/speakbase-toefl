@@ -28,12 +28,14 @@ function learningQuestionKey(item){return item?.reviewKey||[item?.skill,String(i
 function dueLearningReviews(){return Object.values(db.reviewSchedule||{}).filter(item=>item.nextDue<=Date.now()).sort((a,b)=>a.nextDue-b.nextDue)}
 function updateReviewSchedule(item,result){
   if(!item||!result)return;
-  const score=selfReviewAverage(result.selfReview),wrong=result.correct===false||(result.issues||[]).length>0||(score!==null&&score<1.4);
-  if(result.correct===null&&score===null&&!(result.issues||[]).length)return;
+  const score=selfReviewAverage(result.selfReview),aiScore=Number.isFinite(result.aiReview?.practice_estimate)?result.aiReview.practice_estimate:null;
+  const reviewScore=score!==null&&aiScore!==null?(score+aiScore/2.5)/2:score!==null?score:aiScore!==null?aiScore/2.5:null;
+  const wrong=result.correct===false||(result.issues||[]).length>0||(reviewScore!==null&&reviewScore<1.4);
+  if(result.correct===null&&reviewScore===null&&!(result.issues||[]).length)return;
   db.reviewSchedule=db.reviewSchedule||{};
   const key=learningQuestionKey(item),previous=db.reviewSchedule[key]||{repetitions:0,lapses:0,intervalDays:1};
-  const interval=score!==null?(score<.8?1:score<1.4?3:7):wrong?1:Math.min(21,previous.intervalDays*(previous.repetitions?2:1));
-  db.reviewSchedule[key]={key,skill:item.skill,topic:item.topic||item.title||'Повторение',ask:item.ask||'',question:{...item,audioId:null},repetitions:wrong?0:previous.repetitions+1,lapses:previous.lapses+(wrong?1:0),intervalDays:interval,nextDue:Date.now()+interval*86400000,lastScore:score,lastCorrect:result.correct,updatedAt:new Date().toISOString()};
+  const interval=reviewScore!==null?(reviewScore<.8?1:reviewScore<1.4?3:7):wrong?1:Math.min(21,previous.intervalDays*(previous.repetitions?2:1));
+  db.reviewSchedule[key]={key,skill:item.skill,topic:item.topic||item.title||'Повторение',ask:item.ask||'',question:{...item,audioId:null},repetitions:wrong?0:previous.repetitions+1,lapses:previous.lapses+(wrong?1:0),intervalDays:interval,nextDue:Date.now()+interval*86400000,lastScore:score,lastAiScore:aiScore,lastCorrect:result.correct,updatedAt:new Date().toISOString()};
   persist();
 }
 function learningRecords(){
@@ -54,20 +56,22 @@ function learningInsights(){
     const reviews=rows.map(row=>selfReviewAverage(row.result.selfReview)).filter(value=>value!==null);
     const accuracy=objective.length?objective.filter(row=>row.result.correct===true).length/objective.length:null;
     const selfScore=reviews.length?reviews.reduce((sum,value)=>sum+value,0)/reviews.length:null;
+    const aiScores=rows.map(row=>row.result.aiReview?.practice_estimate).filter(Number.isFinite);
+    const aiAverage=aiScores.length?aiScores.reduce((sum,value)=>sum+value,0)/aiScores.length:null;
     const recent=rows.slice(-5),previous=rows.slice(-10,-5);
     const measure=group=>{
       const checked=group.filter(row=>row.result.correct===true||row.result.correct===false);
       if(checked.length)return checked.filter(row=>row.result.correct===true).length/checked.length;
-      const rated=group.map(row=>selfReviewAverage(row.result.selfReview)).filter(value=>value!==null);
+      const rated=group.map(row=>{const self=selfReviewAverage(row.result.selfReview);return self!==null?self:Number.isFinite(row.result.aiReview?.practice_estimate)?row.result.aiReview.practice_estimate/2.5:null}).filter(value=>value!==null);
       return rated.length? rated.reduce((sum,value)=>sum+value,0)/rated.length/2:null;
     };
     const current=measure(recent),before=measure(previous);
-    return {skill,label,count:rows.length,accuracy,selfScore,trend:current!==null&&before!==null?Math.round((current-before)*100):null,rows};
+    return {skill,label,count:rows.length,accuracy,selfScore,aiAverage,trend:current!==null&&before!==null?Math.round((current-before)*100):null,rows};
   });
-  const weak=skills.filter(row=>(row.accuracy!==null&&row.count>=3&&row.accuracy<.7)||(row.selfScore!==null&&row.selfScore<1.4)).sort((a,b)=>(a.accuracy??a.selfScore/2)-(b.accuracy??b.selfScore/2));
-  const recentErrors=records.filter(row=>row.result.correct===false||(row.result.issues||[]).length||(selfReviewAverage(row.result.selfReview)!==null&&selfReviewAverage(row.result.selfReview)<1.4)).slice(-30);
+  const weak=skills.filter(row=>(row.accuracy!==null&&row.count>=3&&row.accuracy<.7)||(row.selfScore!==null&&row.selfScore<1.4)||(row.aiAverage!==null&&row.rows.filter(item=>Number.isFinite(item.result.aiReview?.practice_estimate)).length>=3&&row.aiAverage<3.5)).sort((a,b)=>{const score=row=>row.accuracy!==null?row.accuracy:row.selfScore!==null?row.selfScore/2:row.aiAverage!==null?row.aiAverage/5:1;return score(a)-score(b)});
+  const recentErrors=records.filter(row=>row.result.correct===false||(row.result.issues||[]).length||(selfReviewAverage(row.result.selfReview)!==null&&selfReviewAverage(row.result.selfReview)<1.4)||(Number.isFinite(row.result.aiReview?.practice_estimate)&&row.result.aiReview.practice_estimate<3)||(row.result.aiReview?.issues||[]).length).slice(-30);
   const topics=[...new Set(recentErrors.map(row=>row.item.topic||row.item.title).filter(Boolean))].slice(-4).reverse();
-  const issueCounts=new Map();records.slice(-30).forEach(row=>(row.result.issues||[]).forEach(issue=>{const label=String(issue).split(' → ')[0].split(' — ')[0].trim();if(label)issueCounts.set(label,(issueCounts.get(label)||0)+1)}));
+  const issueCounts=new Map();records.slice(-30).forEach(row=>{const labels=[...(row.result.issues||[]).map(issue=>String(issue).split(' → ')[0].split(' — ')[0].trim()),...(row.result.aiReview?.issues||[]).map(issue=>String(issue.issue||issue.quote||'').trim())];labels.forEach(label=>{if(label)issueCounts.set(label,(issueCounts.get(label)||0)+1)})});
   const commonIssues=[...issueCounts.entries()].sort((a,b)=>b[1]-a[1]).slice(0,3);
   return {skills,weak,recentErrors,topics,commonIssues,records};
 }
@@ -100,15 +104,16 @@ function learningPlanMarkup(){
     const trend=row.trend===null?'':row.trend>0?' · рост +'+row.trend+' п.п.':row.trend<0?' · снижение '+row.trend+' п.п.':' · без изменений';
     const accuracy=row.accuracy===null?'':Math.round(row.accuracy*100)+'% по закрытым заданиям';
     const self=row.selfScore===null?'':'самооценка '+row.selfScore.toFixed(1)+'/2';
-    return '<div class="learning-skill"><span>'+row.label+'</span><small>'+([accuracy,self].filter(Boolean).join(' · ')||row.count+' ответов')+trend+'</small></div>';
+    const ai=row.aiAverage===null?'':'AI '+row.aiAverage.toFixed(1)+'/5';
+    return '<div class="learning-skill"><span>'+row.label+'</span><small>'+([accuracy,self,ai].filter(Boolean).join(' · ')||row.count+' ответов')+trend+'</small></div>';
   }).join('');
-  const recommendation=top?'<p><b>Приоритет сейчас: '+top.label+'.</b> '+(top.accuracy!==null?'Точность закрытых заданий — '+Math.round(top.accuracy*100)+'%. ':'')+(top.selfScore!==null?'Средняя самооценка — '+top.selfScore.toFixed(1)+'/2. ':'')+'Начни с короткой целевой тренировки.</p>':insights.records.length<5?'<p>Пока мало данных для надёжного вывода. Выполни ещё несколько заданий в разных навыках — рекомендации станут точнее.</p>':'<p>По текущим данным нет выраженного слабого навыка. Продолжай смешанную практику и проверяй динамику.</p>';
+  const recommendation=top?'<p><b>Приоритет сейчас: '+top.label+'.</b> '+(top.accuracy!==null?'Точность закрытых заданий — '+Math.round(top.accuracy*100)+'%. ':'')+(top.selfScore!==null?'Средняя самооценка — '+top.selfScore.toFixed(1)+'/2. ':'')+(top.aiAverage!==null?'Средняя AI-оценка открытых ответов — '+top.aiAverage.toFixed(1)+'/5. ':'')+'Начни с короткой целевой тренировки.</p>':insights.records.length<5?'<p>Пока мало данных для надёжного вывода. Выполни ещё несколько заданий в разных навыках — рекомендации станут точнее.</p>':'<p>По текущим данным нет выраженного слабого навыка. Продолжай смешанную практику и проверяй динамику.</p>';
   const topics=insights.topics.length?'<p class="note">Темы, к которым стоит вернуться: '+insights.topics.map(esc).join(' · ')+'.</p>':'';
   const due=dueLearningReviews().length;
   const dueNote=due?'<p><b>Пора повторить:</b> '+due+' заданий по твоему расписанию интервального повторения.</p>':'';
   const issueNote=insights.commonIssues.length?'<p class="note">Повторяющиеся ошибки: '+insights.commonIssues.map(([issue,count])=>esc(issue)+' ('+count+')').join(' · ')+'.</p>':'';
   const trendNote=trends.length?'<p class="note">Лучше всего растёт: '+trends[0].label+' ('+(trends[0].trend>0?'+':'')+trends[0].trend+' п.п. по последним пяти ответам относительно предыдущих пяти).</p>':'';
-  return '<section class="learning-plan"><div class="head"><h3>Персональный план повторения</h3><span class="chip">по твоим ответам</span></div>'+recommendation+'<div class="learning-skills">'+summary+'</div>'+dueNote+topics+issueNote+trendNote+'<button class="primary" type="button" onclick="startLearningReview()">Повторить слабые места</button><p class="note">Динамика — учебная аналитика по сохранённым ответам и твоим самооценкам, не прогноз результата ETS.</p></section>';
+  return '<section class="learning-plan"><div class="head"><h3>Персональный план повторения</h3><span class="chip">по твоим ответам</span></div>'+recommendation+'<div class="learning-skills">'+summary+'</div>'+dueNote+topics+issueNote+trendNote+'<button class="primary" type="button" onclick="startLearningReview()">Повторить слабые места</button><button class="secondary" type="button" onclick="configureAI()">Настроить бесплатную AI-проверку</button><p class="note">Динамика учитывает закрытые ответы, самооценку и доступные локальные AI-разборы; это учебная аналитика, не прогноз результата ETS.</p></section>';
 }
 const originalProgress=progress;
 progress=function(){return originalProgress()+learningPlanMarkup()};

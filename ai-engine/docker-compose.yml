@@ -1,0 +1,33 @@
+services:
+  ollama:
+    image: ollama/ollama:latest
+    container_name: speakbase-ollama
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:11434:11434"
+    volumes:
+      - ollama_models:/root/.ollama
+    environment:
+      OLLAMA_KEEP_ALIVE: "0"
+
+  ai-engine:
+    build: .
+    container_name: speakbase-ai-engine
+    restart: unless-stopped
+    depends_on:
+      - ollama
+    ports:
+      - "127.0.0.1:8765:8765"
+    volumes:
+      - pronunciation_models:/root/.cache
+    env_file:
+      - .env
+    environment:
+      OLLAMA_URL: "http://ollama:11434"
+      OLLAMA_MODEL: "qwen3:4b"
+      OPENPRONOUNCE_DEVICE: "cpu"
+      OPENPRONOUNCE_TTS: "piper"
+
+volumes:
+  ollama_models:
+  pronunciation_models:

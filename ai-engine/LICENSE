@@ -1,0 +1,7 @@
+SPDX-License-Identifier: AGPL-3.0-or-later
+
+This separate local AI engine is intended to be source-available under the GNU Affero General Public License version 3.0 or later.
+
+Full license text: https://www.gnu.org/licenses/agpl-3.0.txt
+
+OpenPronounce is an AGPL-3.0 dependency. This notice does not change the license of the rest of Speakbase.

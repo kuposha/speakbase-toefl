@@ -1,0 +1,5 @@
+fastapi>=0.115,<1
+uvicorn[standard]>=0.34,<1
+python-multipart>=0.0.20
+requests>=2.32,<3
+openpronounce[tts-piper]==1.1.0
