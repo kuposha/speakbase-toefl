@@ -28,7 +28,6 @@
     if(location.protocol==='https:'&&url.startsWith('http://')){if(status)status.textContent='Страница открыта по HTTPS: браузер заблокирует HTTP-сервис. Нужен HTTPS-туннель.';return}
     if(status)status.textContent='Проверяю локальный сервис…';
     const token=(document.getElementById('aiToken')?.value||config().token).trim();
-    if(status)status.textContent='???????? ????????? ???????';
     try{
       const response=await fetch(url+'/health',{method:'GET',headers:{'X-Speakbase-Token':token}});
       if(!response.ok)throw new Error('HTTP '+response.status);
@@ -61,7 +60,7 @@
     const pronunciationMetrics=Object.entries({accuracy:'\u0422\u043e\u0447\u043d\u043e\u0441\u0442\u044c \u0437\u0432\u0443\u043a\u043e\u0432',fluency:'\u0411\u0435\u0433\u043b\u043e\u0441\u0442\u044c',prosodic:'\u0423\u0434\u0430\u0440\u0435\u043d\u0438\u0435, \u0440\u0438\u0442\u043c \u0438 \u0438\u043d\u0442\u043e\u043d\u0430\u0446\u0438\u044f'}).filter(([key])=>Number.isFinite(pronScores[key])).map(([key,label])=>'<div class="ai-review-criterion"><span>'+label+'</span><b>'+Math.round(pronScores[key])+'/100</b></div>').join('');
     const pronunciationBlock=pronunciationMetrics?'<div class="ai-review-grid">'+pronunciationMetrics+'</div>':'';
     const deliveryNote=result.delivery_note||(result.pronunciation_assessed===false?'\u041f\u0440\u043e\u0438\u0437\u043d\u043e\u0448\u0435\u043d\u0438\u0435, \u0440\u0438\u0442\u043c \u0438 \u0442\u0435\u043c\u043f \u043d\u0435 \u043e\u0446\u0435\u043d\u0438\u0432\u0430\u043b\u0438\u0441\u044c \u0431\u0435\u0437 \u0430\u0443\u0434\u0438\u043e\u0437\u0430\u043f\u0438\u0441\u0438.':'');
-    const pronunciationNote=result.pronunciation?'<p class="note">\u0410\u043a\u0443\u0441\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u043f\u043e\u043a\u0430\u0437\u0430\u0442\u0435\u043b\u0438 OpenPronounce ? \u043e\u0440\u0438\u0435\u043d\u0442\u0438\u0440, \u0430 \u043d\u0435 \u043e\u0446\u0435\u043d\u043a\u0430 ETS. \u041c\u043e\u0434\u0435\u043b\u044c \u043e\u0431\u0443\u0447\u0430\u043b\u0430\u0441\u044c \u043f\u0440\u0435\u0438\u043c\u0443\u0449\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e \u043d\u0430 \u0447\u0442\u0435\u043d\u0438\u0438 \u043a\u043e\u0440\u043e\u0442\u043a\u0438\u0445 \u0444\u0440\u0430\u0437; \u043f\u043e\u043a\u0430\u0437\u0430\u0442\u0435\u043b\u0438 \u0441\u043f\u043e\u043d\u0442\u0430\u043d\u043d\u043e\u0433\u043e \u0438\u043d\u0442\u0435\u0440\u0432\u044c\u044e \u043e\u0441\u043e\u0431\u0435\u043d\u043d\u043e \u043f\u0440\u0438\u0431\u043b\u0438\u0437\u0438\u0442\u0435\u043b\u044c\u043d\u044b.</p>':'';
+    const pronunciationNote=result.pronunciation?'<p class="note">\u0410\u043a\u0443\u0441\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u043f\u043e\u043a\u0430\u0437\u0430\u0442\u0435\u043b\u0438 OpenPronounce &mdash; \u043e\u0440\u0438\u0435\u043d\u0442\u0438\u0440, \u0430 \u043d\u0435 \u043e\u0446\u0435\u043d\u043a\u0430 ETS. \u041c\u043e\u0434\u0435\u043b\u044c \u043e\u0431\u0443\u0447\u0430\u043b\u0430\u0441\u044c \u043f\u0440\u0435\u0438\u043c\u0443\u0449\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e \u043d\u0430 \u0447\u0442\u0435\u043d\u0438\u0438 \u043a\u043e\u0440\u043e\u0442\u043a\u0438\u0445 \u0444\u0440\u0430\u0437; \u043f\u043e\u043a\u0430\u0437\u0430\u0442\u0435\u043b\u0438 \u0441\u043f\u043e\u043d\u0442\u0430\u043d\u043d\u043e\u0433\u043e \u0438\u043d\u0442\u0435\u0440\u0432\u044c\u044e \u043e\u0441\u043e\u0431\u0435\u043d\u043d\u043e \u043f\u0440\u0438\u0431\u043b\u0438\u0437\u0438\u0442\u0435\u043b\u044c\u043d\u044b.</p>':'';
     return '<div class="ai-review-result">'+score+(criteria?'<div class="ai-review-grid">'+criteria+'</div>':'')+pronunciationBlock+qualityBlock+(strengths?'<h5>\u0427\u0442\u043e \u043f\u043e\u043b\u0443\u0447\u0438\u043b\u043e\u0441\u044c</h5><ul>'+strengths+'</ul>':'')+(issues?'<h5>\u0427\u0442\u043e \u0438\u0441\u043f\u0440\u0430\u0432\u0438\u0442\u044c</h5><ul class="ai-review-issues">'+issues+'</ul>':'')+wordBlock+unclearBlock+transcriptBlock+(next?'<h5>\u0421\u043b\u0435\u0434\u0443\u044e\u0449\u0438\u0435 \u0448\u0430\u0433\u0438</h5><ul>'+next+'</ul>':'')+(deliveryNote?'<p class="note">'+escapeHTML(deliveryNote)+'</p>':'')+pronunciationNote+'<p class="note">'+escapeHTML(result.disclaimer||'\u042d\u0442\u043e \u0443\u0447\u0435\u0431\u043d\u0430\u044f AI-\u043e\u0446\u0435\u043d\u043a\u0430, \u043d\u0435 \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439 \u0431\u0430\u043b\u043b ETS.')+'</p></div>';
   }
 
@@ -70,7 +69,8 @@
       const attempt=db.examStudio?.history?.[Number(record)];
       if(!attempt)return {};
       const parts=String(key||'').split('-').map(Number),section=parts[0],position=parts[1];
-      return {attempt,target:attempt.answers?.[key],item:examItems(attempt.form,section)[position]||{}};
+      const item=examItems(attempt.form,section)[position]||{};
+      return {attempt,target:attempt.answers?.[key],item:{...item,skill:examSections[section]?.skill}};
     }
     const target=db.h?.[Number(record)];
     return {target,item:target?.q||{}};

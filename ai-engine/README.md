@@ -37,10 +37,11 @@ From this directory, run in PowerShell:
 
 The script starts Docker Compose, creates a private random access token in `.env`, and downloads `qwen3:4b-instruct`. OpenPronounce downloads its two speech models on the first pronunciation assessment.
 
-Check:
+Check the connection from Speakbase: open AI settings, enter the local address and token from `.env`, and choose **Check connection**. The health endpoint requires the token header. To check it from PowerShell:
 
-~~~text
-http://127.0.0.1:8765/health
+~~~powershell
+$token = (Get-Content .env | Where-Object { $_ -like 'SPEAKBASE_AI_TOKEN=*' }) -replace '^SPEAKBASE_AI_TOKEN=', ''
+Invoke-RestMethod http://127.0.0.1:8765/health -Headers @{ 'X-Speakbase-Token' = $token }
 ~~~
 
 ## Using from a phone

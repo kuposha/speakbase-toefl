@@ -20,7 +20,7 @@ const sandbox={
   persist:()=>{sandbox.persisted=(sandbox.persisted||0)+1},
   updateReviewSchedule:item=>{sandbox.scheduled=true;sandbox.lastScheduledItem=item},
   examSections:[{skill:3},{skill:1},{skill:2},{skill:0}],
-  examItems:()=>[{skill:2,type:'Write an Email',source:'Write an email to the coordinator.',ask:'Explain the delay and request a new date.'}],
+  examItems:()=>[{type:'Write an Email',source:'Write an email to the coordinator.',ask:'Explain the delay and request a new date.'}],
   fetch:async()=>({ok:true,json:async()=>writingResult}),
   console,Blob,FormData,Date,Number,String,Math,Object,Array,Set,Map,JSON
 };
@@ -43,6 +43,7 @@ assert.equal(localStorage.getItem('speakbase.ai.token'),'test-token');
   await sandbox.checkAIConnection();
   assert.equal(healthRequest.url,'http://127.0.0.1:8765/health');
   assert.equal(healthRequest.options.method,'GET');
+  assert.equal(healthRequest.options.headers['X-Speakbase-Token'],'test-token');
   assert.ok(fields.aiConnectionStatus.textContent.includes('\u0421\u0435\u0440\u0432\u0438\u0441'));
 
   sandbox.fetch=async()=>({ok:true,json:async()=>writingResult});
