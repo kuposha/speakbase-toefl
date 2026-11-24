@@ -73,3 +73,8 @@
 - Supabase advisors: no performance/health issues; security warning leaked-password protection disabled.
 - Full regression after review: 24 forms/2,880 answers, both synthetic profiles, public HTTP 200 desktop/mobile, all content banks and audio; no browser JS errors.
 - Added QA-REPORT.md. Remaining: fresh real login/recovery, cross-device sync, authenticated mic upload/download, full editorial review, leaked-password protection, verify Pages deployment SHA.
+
+
+## Deployment SHA verification (2026-11-24)
+- GitHub Pages Actions deployment for b36ba3c succeeded. Normalized downloaded published files app.js, exam-studio.js, exam-reading-data.js, cloud.js and index.html match the local release files. Public smoke tests HTTP 200 on 1440px and 390px.
+- The Pages workflow now runs test-content-quality.cjs before deploying.
