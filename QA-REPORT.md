@@ -28,7 +28,7 @@
 3. Confirm microphone capture in each real account and cloud upload/download (previous physical mic test was performed outside authenticated account flow).
 4. Full independent editorial review; this report includes only automated checks and spot sampling.
 5. Enable leaked-password protection in Supabase Auth settings.
-6. Deployment verification: GitHub Actions Pages deployment for commit b36ba3c succeeded. Downloaded published app.js, exam-studio.js, exam-reading-data.js, cloud.js and index.html and compared with local copies after normalizing CRLF; all matched byte-for-byte normalized. Public-site smoke test passed HTTP 200 on desktop 1440px and mobile 390px.
+6. Deployment verification: GitHub Actions Pages deployment for commit 4a11fdc succeeded. Downloaded published course.js, style.css, app.js and index.html and compared with local copies after normalizing CRLF; all matched. Public-site smoke test passed HTTP 200 on desktop 1440px and mobile 390px.
 
 
 ## Learner feedback pass — 24 November 2026

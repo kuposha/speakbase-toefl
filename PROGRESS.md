@@ -76,7 +76,7 @@
 
 
 ## Deployment SHA verification (2026-11-24)
-- GitHub Pages Actions deployment for b36ba3c succeeded. Normalized downloaded published files app.js, exam-studio.js, exam-reading-data.js, cloud.js and index.html match the local release files. Public smoke tests HTTP 200 on 1440px and 390px.
+- GitHub Pages deployment for 4a11fdc succeeded. Normalized downloaded published files course.js, style.css, app.js and index.html match local files. Public smoke tests returned HTTP 200 on 1440px and 390px.
 - The Pages workflow now runs test-content-quality.cjs before deploying.
 
 
