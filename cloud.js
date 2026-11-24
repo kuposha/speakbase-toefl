@@ -11,6 +11,7 @@ gate.className='auth-gate';
 document.body.append(gate);
 const syncLabel=document.createElement('small');
 syncLabel.setAttribute('role','status');
+syncLabel.className='sync-status';
 document.querySelector('#profileSelect').before(syncLabel);
 function status(message){syncLabel.textContent=message}
 function lock(){document.querySelector('main').inert=true;document.querySelector('aside').inert=true;document.body.append(gate)}
@@ -122,6 +123,8 @@ async function pull(){
 }
 function refresh(){pullQueue=pullQueue.catch(()=>{}).then(pull).catch(syncFailure)}
 window.addEventListener('online',refresh); window.addEventListener('focus',refresh);
+document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='hidden'){clearTimeout(timer);syncNow().catch(syncFailure)}else refresh()});
+window.addEventListener('pagehide',()=>{clearTimeout(timer);syncNow().catch(syncFailure)});
 setInterval(()=>{if(document.visibilityState==='visible')refresh()},30000);
 switcher=function(){
  modal('<h2>Личный аккаунт</h2><p>'+esc(cloudUser?.email||'')+'</p>'+(conflict?'<p>На двух устройствах сохранены разные изменения. Скачай местный прогресс перед загрузкой облачной версии.</p><button id="resolveConflict">Скачать местную копию и загрузить облачную</button>':'')+'<button class="primary" onclick="logoutCloud()">Выйти / сменить аккаунт</button>');

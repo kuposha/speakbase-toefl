@@ -40,11 +40,36 @@ async function run() {
         await page.goto(origin);
         const nav = i=>page.locator('#nav button').nth(i).click();
         const click = sel=>page.locator(sel).click();
-        for(let i=0; i<8; i++) {
+        await click('#themeToggle');
+        assert.equal(await page.locator('html').getAttribute('data-theme'),'light','theme button should enable light mode');
+        assert.equal(await page.locator('html').evaluate(el=>getComputedStyle(el).getPropertyValue('--page').trim()),'#f4f6f2','light theme should apply its light surface token');
+        await page.waitForFunction(()=>getComputedStyle(document.body).backgroundColor==='rgb(244, 246, 242)');
+        await page.reload();
+        assert.equal(await page.locator('html').getAttribute('data-theme'),'light','theme choice should survive reload');
+        for(let i=0; i<9; i++) {
           await nav(i);
           assert.ok(await page.locator('#app h1,#app h2').count());
-          assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),'horizontal overflow on page '+i+' '+profile);
+          assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),'light theme overflow on page '+i+' '+profile);
         }
+        await click('#themeToggle');
+        assert.equal(await page.locator('html').getAttribute('data-theme'),'dark','theme button should restore dark mode');
+        for(let i=0; i<9; i++) {
+          await nav(i);
+          assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),'dark theme overflow on page '+i+' '+profile);
+        }
+        await nav(0);
+        await page.evaluate(()=>{
+          const cs=courseState();
+          const lessonDate='2026-11-24';
+          cs.calendarSessions={resume:{id:'resume-fixture',unit:3,lessonDate,diag:false,last:'Reading',pos:0,answers:[],draft:'',heard:false,started:Date.now(),minutes:90,items:buildLesson({unit:3,lessonDate,last:'Reading'})}};
+          persist();render();
+        });
+        assert.ok(await page.locator('[onclick="resumeCourseSession()"]').isVisible(),'dashboard should show interrupted practice');
+        await click('[onclick="resumeCourseSession()"]');
+        assert.match(await page.locator('#box .eyebrow').innerText(),/LESSON 04/,'interrupted practice should restore its original lesson');
+        assert.equal(await page.evaluate(()=>courseState().session.pos),0,'interrupted practice should restore the exact step');
+        await page.evaluate(()=>{courseState().session=null;persist()});
+        await click('#close');
         await nav(1);
         const calendar = await page.evaluate(async()=>{
           const seen = new Set();
@@ -128,7 +153,7 @@ async function run() {
         }
         if(profile==='marina') await testLessons(page,nav);
         assert.deepEqual(errors,[]);
-        console.log(profile,'OK: eight screens, schedule edit, materials, reload, Speaking, audio, answer history');
+        console.log(profile,'OK: nine screens, themes, session resume, schedule edit, materials, reload, Speaking, audio, answer history');
       } finally { await context.close(); }
     }
   } finally { await browser.close(); await new Promise(resolve=>server.close(resolve)); }
