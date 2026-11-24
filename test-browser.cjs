@@ -7,11 +7,11 @@ const fs = require('node:fs/promises');
 const path = require('node:path');
 const http = require('node:http');
 const root = __dirname;
-const resources = new Set(['/', '/index.html', '/style.css', '/vendor/supabase.js', '/favicon.ico', '/project-audio.mp3', '/project-image.png', '/toefl-structure.pdf']);
+const resources = new Set(['/', '/index.html', '/style.css', '/vendor/supabase.js', '/favicon.ico', '/favicon.svg', '/project-audio.mp3', '/project-image.png', '/toefl-structure.pdf']);
 async function run() {
   for (const name of await fs.readdir(root)) if (/^[\w.-]+\.js$/.test(name)) resources.add('/' + name);
   for (const name of await fs.readdir(path.join(root, 'audio'))) if (/^[\w.-]+\.mp3$/.test(name)) resources.add('/audio/' + name);
-  const mime = { '.html':'text/html; charset=utf-8', '.js':'text/javascript; charset=utf-8', '.css':'text/css; charset=utf-8', '.mp3':'audio/mpeg', '.png':'image/png', '.pdf':'application/pdf' };
+  const mime = { '.html':'text/html; charset=utf-8', '.js':'text/javascript; charset=utf-8', '.css':'text/css; charset=utf-8', '.mp3':'audio/mpeg', '.png':'image/png', '.svg':'image/svg+xml', '.pdf':'application/pdf' };
   const server = http.createServer(async (req,res) => {
     const pathname = new URL(req.url, 'http://localhost').pathname;
     if (!resources.has(pathname)) { res.writeHead(404).end(); return; }
