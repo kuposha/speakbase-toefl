@@ -1,11 +1,15 @@
 const fs=require('node:fs'),assert=require('node:assert/strict');
 const html=fs.readFileSync('index.html','utf8'),css=fs.readFileSync('style.css','utf8'),mobile=fs.readFileSync('mobile.css','utf8'),auth=fs.readFileSync('cloud.js','utf8');
 assert.ok(html.includes('name="viewport" content="width=device-width, initial-scale=1"'),'mobile viewport must use device width');
-assert.ok(html.includes('href="style.css?v=20261124-practice-feedback"'),'base CSS cache must be refreshed for the numbered lesson layout');
+assert.ok(html.includes('href="style.css?v=20261124-ai-review"'),'base CSS cache must be refreshed for AI assessment styles');
 assert.ok(html.includes('href="mobile.css?v=20261124-visual-refresh"'),'responsive stylesheet must load after base CSS');
 assert.ok(html.includes('src="course.js?v=20261124-lesson-ux"'),'daily lesson vocabulary action must not use a stale cached script');
 assert.ok(html.includes('src="app.js?v=20261124-release-readiness"'),'mobile navigation and vocabulary behavior must not use a stale cached script');
 assert.ok(html.includes('src="exam-studio.js?v=20261124-release-readiness"'),'mobile TOEFL exam studio must load the latest release build');
+assert.ok(html.includes('src="exam-reading-data.js?v=20261124-content-review"'),'mobile reading bank must load the revised content');
+assert.ok(html.includes('src="exam-writing-data.js?v=20261124-content-review"'),'mobile writing bank must load the revised prompts');
+assert.ok(html.includes('src="learning.js?v=20261124-ai-review"'),'mobile learning analytics must load the latest build');
+assert.ok(html.includes('src="ai-review.js?v=20261124-ai-review"'),'mobile AI review interface must load');
 assert.ok(mobile.includes('header #themeToggle{position:fixed'),'theme control must share the compact mobile brand row');
 assert.ok(mobile.includes('header>span{flex:0 1 48%;max-width:48%}'),'mobile breadcrumb must have a predictable width');
 assert.ok(mobile.includes('header #profileSelect{width:100%;max-width:100%'),'profile selector must fill its mobile column');
@@ -22,7 +26,8 @@ assert.ok(mobile.includes('input,select,textarea{min-width:0;max-width:100%;font
 assert.ok(css.includes('env(safe-area-inset-top)'),'authentication safe-area support missing');
 assert.ok(css.includes('100dvh'),'dynamic mobile viewport height support missing');
 assert.ok(css.includes('auth-gate form{width:calc(100vw - 32px)!important'),'auth form must fit narrow phone widths');
-assert.ok(auth.includes("const APP_URL='https://kuposha.github.io/speakbase-toefl/'"),'recovery must use hosted app URL, never localhost');
+assert.ok(auth.includes("const APP_URL=new URL('./',location.href).href"),'recovery must resolve the current app base URL, including the GitHub Pages subpath');
+assert.ok(!auth.includes('localhost:3000')&&!auth.includes('localhost:4173'),'password recovery must not hardcode a localhost redirect');
 assert.ok(auth.includes('redirectTo:APP_URL'),'password recovery must redirect to hosted app');
 assert.ok(auth.includes('inputmode="email" autocapitalize="none"'),'email field must be mobile-friendly');
 assert.ok(auth.includes('invalid_credentials'),'login errors should explain incorrect credentials');

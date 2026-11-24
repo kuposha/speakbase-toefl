@@ -8,7 +8,7 @@ services:
     volumes:
       - ollama_models:/root/.ollama
     environment:
-      OLLAMA_KEEP_ALIVE: "0"
+      OLLAMA_KEEP_ALIVE: "5m"
 
   ai-engine:
     build: .
@@ -24,9 +24,19 @@ services:
       - .env
     environment:
       OLLAMA_URL: "http://ollama:11434"
-      OLLAMA_MODEL: "qwen3:4b"
+      OLLAMA_MODEL: "qwen3:4b-instruct"
       OPENPRONOUNCE_DEVICE: "cpu"
       OPENPRONOUNCE_TTS: "piper"
+      OPENPRONOUNCE_PHONEME_MODEL: "OpenPronounce/wav2vec2-base-phones-en"
+
+  cloudflared:
+    image: cloudflare/cloudflared:latest
+    container_name: speakbase-cloudflared
+    profiles: ["phone"]
+    restart: unless-stopped
+    depends_on:
+      - ai-engine
+    command: tunnel --no-autoupdate --url http://ai-engine:8765
 
 volumes:
   ollama_models:

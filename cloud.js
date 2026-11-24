@@ -1,4 +1,4 @@
-const APP_URL='https://kuposha.github.io/speakbase-toefl/';
+const APP_URL=new URL('./',location.href).href;
 const cloud = supabase.createClient('https://arkxkmeqrmtgzkbomdmd.supabase.co','sb_publishable_FVDwXlJF5EPTd0KHMTiHRA_pH9L_ATN');
 const accountKey=id=>'speakbase.account.'+id;
 const stampKey=id=>accountKey(id)+'.base';

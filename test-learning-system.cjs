@@ -4,7 +4,7 @@ const assert=require('node:assert/strict');
 const handlers={};
 const sandbox={
   db:{reviewSchedule:{},h:[
-    {q:{skill:2,ask:'Write an email',topic:'Email'},correct:null,issues:[],selfReview:{criteria:{0:0,1:1,2:0,3:1,4:0},score:2}},
+    {q:{skill:2,ask:'Write an email',topic:'Email'},correct:null,issues:[],selfReview:{criteria:{0:0,1:1,2:0,3:1,4:0},score:2},aiReview:{practice_estimate:2,issues:[{issue:'Missing detail'}]}},
     {q:{skill:2,ask:'Join a discussion',topic:'Discussion'},correct:null,issues:[],selfReview:{criteria:{0:1,1:1,2:1,3:0,4:1},score:4}},
     {q:{skill:0,ask:'Describe a skill',topic:'Interview'},correct:null,issues:[],selfReview:{criteria:{0:1,1:0,2:1,3:1,4:0},score:3}},
     {q:{skill:3,ask:'Read a passage'},correct:false,issues:[]},
@@ -34,6 +34,13 @@ assert.equal(run("learningQuestionKey({skill:0,topic:'Topic · 2/5',ask:'Prompt'
 assert.match(run("selfReviewMarkup('practice',0,'',{skill:2,title:'Write an Email'},{})"),/Сохранить самооценку/);
 assert.equal(run("selfReviewMarkup('exam',0,'0-0',{skill:2,type:'Build a Sentence',answer:'x'},{})"),'');
 assert.ok(run("learningInsights().weak.some(item=>item.skill===2)"));
+assert.equal(run("learningInsights().skills.find(item=>item.skill===2).aiAverage"),2);
+assert.equal(run("learningInsights().skills.find(item=>item.skill===2).selfReviewCount"),2);
+assert.equal(run("learningInsights().skills.find(item=>item.skill===3).objectiveCount"),3);
+assert.ok(run("learningPlanMarkup()").includes('1 AI-\u0440\u0430\u0437\u0431\u043e\u0440'));
+assert.ok(!run("learningPlanMarkup()").includes('AI 2.0/5'));
+sandbox.db.h.push({q:{skill:4,ask:'Grammar review',topic:'Articles'},correct:null,issues:[],selfReview:{criteria:{0:0,1:0,2:0,3:0,4:0},score:0}});
+assert.ok(!run("learningInsights().weak.some(item=>item.skill===4)"),'one self-review must not classify a skill as weak');
 assert.match(run("progress()"),/Персональный план повторения/);
 const form={
  dataset:{source:'practice',record:'0',key:''},
@@ -47,6 +54,7 @@ assert.ok(prevented);
 assert.equal(sandbox.db.h[0].selfReview.score,4);
 assert.equal(sandbox.db.h[0].selfReview.notes,'Improve cohesion');
 assert.equal(Object.values(sandbox.db.reviewSchedule)[0].intervalDays,3);
+assert.equal(Object.values(sandbox.db.reviewSchedule)[0].lastAiScore,2);
 sandbox.db.reviewSchedule[Object.keys(sandbox.db.reviewSchedule)[0]].nextDue=0;
 run('startLearningReview()');
 assert.ok(sandbox.resumed);

@@ -54,4 +54,5 @@ let wav=0;
 for(let f=1;f<=24;f++)for(let j=1;j<=11;j++){const b=fs.readFileSync(path.join(__dirname,'audio','exam-speaking',f+'-'+j+'.wav'));assert.equal(b.toString('ascii',0,4),'RIFF');wav++;}
 let mp3=0;
 for(const q of listening.flat()){const b=fs.readFileSync(path.join(__dirname,q.audio));assert.ok(b.length>1024);assert.ok(b.toString('ascii',0,3)==='ID3'||(b[0]===255&&(b[1]&224)===224));mp3++;}
-console.log('QA passed: 24 forms; 72 cloze passages (70-100 words, 10 gaps); 48 daily-life texts (2-3 questions each); 72 academic passages (180-220 words, 5 questions each); Listening '+listening.flat().length+' items/'+mp3+' audio files; Writing '+writing.flat().length+' items; Speaking '+spoken.length+' items/'+wav+' WAV files.');
+const uniqueMp3=new Set(listening.flat().map(q=>q.audio)).size;assert.equal(uniqueMp3,696);
+console.log('QA passed: 24 forms; 72 cloze passages (70-100 words, 10 gaps); 48 daily-life texts (2-3 questions each); 72 academic passages (180-220 words, 5 question types balanced); Listening '+listening.flat().length+' items/'+uniqueMp3+' unique audio files; Writing '+writing.flat().length+' items; Speaking '+spoken.length+' items/'+wav+' WAV files.');

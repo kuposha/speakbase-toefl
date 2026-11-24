@@ -28,25 +28,16 @@ def word_error_rate(reference: str, hypothesis: str) -> float:
     return edit_distance(expected, heard) / len(expected)
 
 
-def as_percent(value) -> float | None:
-    if value is None:
-        return None
-    number = float(value)
-    if 0 <= number <= 1:
-        number *= 100
-    return max(0.0, min(100.0, number))
-
-
-def repeat_practice_estimate(reference: str, hypothesis: str, pronunciation_accuracy):
+def repeat_practice_estimate(reference: str, hypothesis: str, pronunciation_accuracy: float | None = None):
     error_rate = word_error_rate(reference, hypothesis)
     exactness = max(0.0, 1.0 - error_rate)
-    pronunciation = as_percent(pronunciation_accuracy)
-    if pronunciation is None:
-        pronunciation = exactness * 100
-    score = round(5 * (0.65 * exactness + 0.35 * pronunciation / 100))
+    if pronunciation_accuracy is None:
+        quality = exactness
+    else:
+        acoustic = max(0.0, min(100.0, float(pronunciation_accuracy))) / 100.0
+        quality = 0.65 * exactness + 0.35 * acoustic
     return {
-        "practice_estimate": max(0, min(5, score)),
+        "practice_estimate": max(0, min(5, round(5 * quality))),
         "exactness_percent": round(exactness * 100),
         "word_error_rate": round(error_rate, 3),
-        "pronunciation_accuracy": round(pronunciation),
     }

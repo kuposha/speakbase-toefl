@@ -40,8 +40,8 @@ for ($i = 0; $i -lt 30; $i++) {
 }
 if (-not $ollamaReady) { throw "Ollama did not become ready." }
 
-docker compose exec ollama ollama pull qwen3:4b
-if ($LASTEXITCODE -ne 0) { throw "Could not download qwen3:4b." }
+docker compose exec ollama ollama pull qwen3:4b-instruct
+if ($LASTEXITCODE -ne 0) { throw "Could not download qwen3:4b-instruct." }
 
 Write-Host "AI engine is starting at http://127.0.0.1:8765"
 Write-Host "The pronunciation model downloads on its first Speaking assessment."

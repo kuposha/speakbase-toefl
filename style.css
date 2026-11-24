@@ -452,3 +452,25 @@ button:disabled{cursor:not-allowed}
 .learning-skill{display:grid;grid-template-columns:100px minmax(0,1fr);gap:12px;align-items:baseline}
 .learning-skill small{color:var(--muted,#9ca3af);text-align:right}
 @media(max-width:600px){.self-review{padding:12px}.self-review-row{grid-template-columns:1fr;gap:6px}.learning-skill{grid-template-columns:1fr;gap:2px}.learning-skill small{text-align:left}}
+
+/* Local AI assessment */
+.ai-settings{display:grid;gap:12px}
+.ai-settings label{display:grid;gap:6px;font-size:.9rem}
+.ai-settings input{width:100%;min-width:0;padding:11px 12px;border:1px solid var(--line);border-radius:10px;background:var(--surface, #17191d);color:var(--text)}
+.ai-settings-actions{display:flex;flex-wrap:wrap;gap:8px}
+.ai-review-controls{display:grid;gap:10px;margin-top:14px;padding-top:12px;border-top:1px solid var(--line)}
+.ai-review-result{display:grid;gap:10px;padding:12px;border:1px solid var(--line);border-radius:12px;background:var(--surface, #17191d)}
+.ai-review-score{display:flex;align-items:center;gap:12px}
+.ai-review-score b{font-size:1.35rem;line-height:1}
+.ai-review-score span{color:var(--muted);font-size:.85rem}
+.ai-review-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px}
+.ai-review-criterion{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:8px 10px;border:1px solid var(--line);border-radius:9px;font-size:.84rem}
+.ai-review-criterion b{white-space:nowrap}
+.ai-review-result h5{margin:5px 0 0;font-size:.9rem}
+.ai-review-result ul{margin:0;padding-left:20px;display:grid;gap:6px}
+.ai-review-issues li{display:grid;gap:3px}
+.ai-review-issues li small{color:var(--muted)}
+.ai-review-warning{padding:12px;border:1px solid var(--warning, #a87935);border-radius:10px;color:var(--text)}
+.ai-transcript summary{cursor:pointer;color:var(--muted);font-size:.85rem}
+.ai-transcript p{white-space:pre-wrap;overflow-wrap:anywhere}
+@media(max-width:600px){.ai-review-grid{grid-template-columns:1fr}.ai-settings-actions>*{flex:1}}
