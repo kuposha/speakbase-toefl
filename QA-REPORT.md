@@ -29,3 +29,11 @@
 4. Full independent editorial review; this report includes only automated checks and spot sampling.
 5. Enable leaked-password protection in Supabase Auth settings.
 6. Deployment verification: GitHub Actions Pages deployment for commit b36ba3c succeeded. Downloaded published app.js, exam-studio.js, exam-reading-data.js, cloud.js and index.html and compared with local copies after normalizing CRLF; all matched byte-for-byte normalized. Public-site smoke test passed HTTP 200 on desktop 1440px and mobile 390px.
+
+
+## Learner feedback pass — 24 November 2026
+- Daily lessons show the weekday/date, the grammar topic being studied, and the daily skill focus being trained.
+- Daily grammar step is structured as a lecture: overview, existing explanatory notes, example, application prompt, contextual example, and expandable practice examples/common errors.
+- MCQs in the course now offer 4 unique choices with deterministic shuffle. Automated course audit checks 4 choices, unique values, and key presence across all calendar combinations for both profiles.
+- Answer feedback now styles correct answers green and incorrect answers red, and explicitly displays the correct form after an incorrect closed task.
+- Automated: `test-course.cjs`, `test-content-quality.cjs`, `test-exam-data.cjs`, and `test-content.cjs` passed. Browser UI suite was unavailable in this checkout due to missing `playwright-core`; visual behavior still requires user/browser confirmation after deployment.

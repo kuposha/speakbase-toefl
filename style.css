@@ -3,3 +3,21 @@
 header .actions{align-items:center}.hero .actions{align-items:center;margin-top:18px}.hero .actions .primary{margin:0}.hero h2{max-width:80%;font-size:clamp(30px,3.1vw,50px)}dialog .stack blockquote{overflow-wrap:anywhere}.profile{cursor:default}@media(max-width:540px){header #date{display:none}.hero h2{max-width:100%}}
 
 .auth-gate{position:fixed;inset:0;z-index:99999;background:#101112;display:grid;place-items:center;padding:20px}.auth-gate form{width:min(420px,100%)}
+
+/* Learning feedback + daily grammar lecture */
+.feedback-status{padding:10px 12px;border-radius:8px;background:#232624}.feedback-status.is-correct{color:#bdf77b;background:#20301f;border:1px solid #5a8a3d}.feedback-status.is-wrong{color:#ff9b98;background:#3a2323;border:1px solid #a34d4d}.answer-feedback.correct-answer{border-left-color:#bdf77b;background:#20301f;color:#dff8c8}.answer-feedback.wrong-answer{border-left-color:#ff7777;background:#3a2323;color:#ffd1cf}.correct-model{padding:10px 12px;border-radius:7px;background:#20301f;border-left:2px solid #bdf77b;color:#dff8c8}.grammar-lecture{display:grid;gap:12px}.grammar-lecture h3{font-size:20px}.grammar-lecture h4{margin:3px 0 0;color:var(--lime);font-size:15px}.grammar-lecture p{line-height:1.7}.grammar-lecture ul{padding-left:22px;display:grid;gap:9px}.grammar-lecture li{line-height:1.6}.grammar-lecture small{margin-top:3px}
+
+/* Learning feedback + daily grammar lecture */
+.feedback-status{padding:10px 12px;border-radius:8px;background:#232624}
+.feedback-status.is-correct{color:#bdf77b;background:#20301f;border:1px solid #5a8a3d}
+.feedback-status.is-wrong{color:#ff9b98;background:#3a2323;border:1px solid #a34d4d}
+.answer-feedback.correct-answer{border-left-color:#bdf77b;background:#20301f;color:#dff8c8}
+.answer-feedback.wrong-answer{border-left-color:#ff7777;background:#3a2323;color:#ffd1cf}
+.correct-model{padding:10px 12px;border-radius:7px;background:#20301f;border-left:2px solid #bdf77b;color:#dff8c8}
+.grammar-lecture{display:grid;gap:12px}
+.grammar-lecture h3{font-size:20px}
+.grammar-lecture h4{margin:3px 0 0;color:var(--lime);font-size:15px}
+.grammar-lecture p{line-height:1.7}
+.grammar-lecture ul{padding-left:22px;display:grid;gap:9px}
+.grammar-lecture li{line-height:1.6}
+.grammar-lecture small{margin-top:3px}

@@ -9,7 +9,8 @@ const segment = (source, start, end) => source.slice(source.indexOf(start), sour
 for (const file of ['course-data.js', 'grammar-notes.js']) run(read(file));
 run("let activeProfile; function courseState(){return {weak:[]}}");
 run(segment(read('app.js'), 'const calendarStart=', 'function plan('));
-run(segment(read('course.js'), 'function selectItem', 'function buildDiagnostic'));
+run(segment(read('course.js'), 'function makeDistractors', 'function buildLesson'));
+run(segment(read('course.js'), 'function buildLesson', 'function grammarWorkshop'));
 for (const profile of ['marina','vladlen']) {
   run('activeProfile='+JSON.stringify(profile));
   const totals = run(`(() => {
@@ -25,6 +26,7 @@ for (const profile of ['marina','vladlen']) {
         const stages = new Set(items.map(item => item.stage));
         if (stages.size !== 6) throw Error('Missing stage: '+lessonDate);
         if (items.some(item => item.choices && !item.choices.includes(item.model))) throw Error('Missing key: '+lessonDate);
+        if (items.some(item => item.choices && (item.choices.length < 4 || new Set(item.choices).size !== item.choices.length))) throw Error('Choice set must contain four unique options: '+lessonDate);
         for (const item of items) {
           if (item.stage === 5 && item.source && last === 'Reading') readings.add(item.source);
           if (item.stage === 3 && item.audio) recordings.add(item.audio);

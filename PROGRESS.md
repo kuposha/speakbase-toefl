@@ -78,3 +78,11 @@
 ## Deployment SHA verification (2026-11-24)
 - GitHub Pages Actions deployment for b36ba3c succeeded. Normalized downloaded published files app.js, exam-studio.js, exam-reading-data.js, cloud.js and index.html match the local release files. Public smoke tests HTTP 200 on 1440px and 390px.
 - The Pages workflow now runs test-content-quality.cjs before deploying.
+
+
+## Learner feedback fixes (2026-11-24)
+- Daily lesson screen now identifies weekday/date, today's grammar topic, and daily practice focus.
+- Grammar topic step is now a structured lecture block with topic overview, explanatory note, example, application prompt, contextual example, and expandable examples/typical errors before exercises.
+- Multiple-choice questions now generate four unique options with deterministic shuffling; course regression checks every scheduled lesson for option count, uniqueness, and answer-key presence.
+- Checked answers now have explicit green/red status and answer highlighting; incorrect closed-answer tasks show the correct answer separately.
+- `test-course.cjs` passed for both profiles: 808 date/skill combinations, 46 scheduled grammar topics each. Content QA, exam data, and course-content tests passed. Browser tests were not run in this environment because `playwright-core` is not installed in this local checkout.
