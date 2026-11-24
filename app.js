@@ -159,3 +159,96 @@ initMobileMenu();
 render();
 
 function vocabularyExample(word){return {"get ready":"I get ready for college before eight o’clock.","focus on":"I try to focus on one task at a time.","spend time":"I spend time reviewing new vocabulary every evening.","take a break":"I take a short break after each study session.","make progress":"I make progress when I practise consistently.","get enough sleep":"I need to get enough sleep before an exam.","keep up with":"It can be difficult to keep up with all my assignments.","fall behind":"I review my notes so I don't fall behind.","catch up on":"I use the weekend to catch up on missed work.","work on":"I am working on my speaking skills.","deal with":"Students learn to deal with unexpected problems.","stick to a routine":"I try to stick to a routine during exam preparation.","set a goal":"I set a goal before every study session.","stay motivated":"Small achievements help me stay motivated.","gain knowledge":"Reading academic texts helps students gain knowledge.","develop skills":"Group projects help us develop communication skills.","meet a deadline":"We need to meet the deadline on Friday.","hand in an assignment":"I handed in my assignment before class.","attend classes":"I attend classes regularly.","improve performance":"Regular feedback can improve students' performance.","pursue a degree":"She plans to pursue a degree in engineering.","overcome challenges":"Teamwork can help students overcome challenges.","make a mistake":"It is normal to make a mistake while learning.","learn from mistakes":"We should learn from our mistakes.","face a challenge":"Every new project gives us a chance to face a challenge.","solve a problem":"We worked together to solve the problem.","achieve a goal":"Consistent practice helps you achieve a goal.","teamwork":"Teamwork is essential in a successful research project.","scheduling conflict":"I have a scheduling conflict on Tuesday afternoon.","field trip":"Our class went on a field trip to a science museum.","attendance is required":"Attendance is required for this laboratory class.","make up a lab":"I need to make up a lab I missed last week.","submit a report":"Students must submit a report by Monday.","meet the requirements":"This course meets the requirements for graduation.","soil erosion":"Heavy rainfall can increase soil erosion.","repetition":"Repetition helps new words stay in your memory.","distributed practice":"Distributed practice is more effective than cramming.","effective approach":"This is an effective approach to learning vocabulary.","receive feedback":"Students receive feedback after each assignment.","achievable goal":"Reading ten pages a day is an achievable goal.","require patience":"Learning a language can require patience."}[word]||''}
+
+/* Multi-question practice sessions and lesson-style answer feedback */
+function buildPracticeSet(config){
+  const count=10, items=[];
+  if(config.skill===4){
+    const ranges=config.level==='A2'?[0,11]:config.level==='B1'?[12,29]:[30,units.length-1];
+    const available=[];
+    for(let unit=ranges[0];unit<=ranges[1];unit++){
+      const bank=grammarPractice[unit]||[];
+      bank.forEach(([ask,answer,wrong],index)=>available.push({unit,ask,answer,wrong,index}));
+    }
+    for(let i=0;i<count;i++){
+      const entry=available[i%available.length];
+      if(!entry)break;
+      const item=selectItem(1,units[entry.unit][0],entry.ask,entry.answer,[entry.wrong],grammarNotes[entry.unit]);
+      items.push({...item,opts:item.choices.slice(),choices:undefined,skill:4,topic:units[entry.unit][0],level:config.level,min:config.min});
+    }
+    return items;
+  }
+  for(let i=0;i<count;i++){
+    const topic=topics[(Math.max(0,topics.indexOf(config.topic))+i)%topics.length];
+    const item=exercise({...config,topic,level:config.level});
+    if(config.skill===0){item.drill=true;item.tip+=' Сначала собери короткий ответ, затем добавь деталь и запиши вторую версию.'}
+    item.topic=topic;
+    item.min=config.min;
+    items.push(item);
+  }
+  return items;
+}
+function start(config){
+  if(config.plan){const task=exercise(config);if(config.skill===0){task.drill=true;task.tip+=' Сначала собери короткий ответ, затем добавь деталь и запиши вторую версию.'}begin(task);return}
+  const items=buildPracticeSet(config);
+  if(!items.length){modal('<h2>Нет упражнений</h2><p>Для выбранного навыка пока не удалось собрать тренировку.</p>');return}
+  const totalMinutes=Math.max(1,Number(config.min)||15);
+  items.forEach((item,index)=>{item.topic=(item.topic||config.topic)+' · '+(index+1)+'/'+items.length});
+  db.draft={multi:true,items,index:0,answers:[],q:items[0],answer:'',listened:false,end:Date.now()+totalMinutes*60000};
+  persist();
+  resume();
+}
+function submitAnswer(answer){
+  clearInterval(clock);
+  if(q.mock&&Date.now()>=db.exam.end)return mockNext();
+  const d=db.draft;
+  const result={q:{...q},a:answer,day:today,...evaluate(q,answer)};
+  db.h.push(result);
+  if(q.mock){
+    db.exam.answers.push(db.h.length-1);db.exam.step++;db.exam.active=null;
+    persist();mockNext();return;
+  }
+  if(d?.multi){
+    d.answers.push(db.h.length-1);
+    d.lastAnswer=db.h.length-1;
+    d.answer=answer;
+    persist();
+    review(db.h.length-1);
+    return;
+  }
+  db.draft=null;persist();review(db.h.length-1);
+}
+function review(index){
+  const x=db.h[index],c=x.q,d=db.draft,multi=Boolean(d?.multi);
+  const hasErrors=x.correct===false||(x.correct===null&&x.issues.length>0);
+  const status=x.correct===true?'✓ Правильно':hasErrors?'✕ Найдены ошибки':'Разбор ответа';
+  const state=x.correct===true?'is-correct':hasErrors?'is-wrong':'';
+  const answerState=x.correct===true?'correct-answer':hasErrors?'wrong-answer':'';
+  const explanation=x.issues.length?x.issues.join(' '):(x.correct===null?'В открытом ответе автоматическая оценка не выставляется. Сверь полноту и естественность формулировки.':c.tip||'Сравни свой ответ с образцом.');
+  const progress=multi?'<p class="practice-progress">Упражнение '+(d.index+1)+' из '+d.items.length+' · выполнено '+d.answers.length+'</p>':'';
+  const action=multi?btn(d.index+1>=d.items.length?'Завершить тренировку':'Следующее упражнение','advancePractice()','primary'):((c.mock&&db.exam)?btn(db.exam.step===4?'Завершить пробник':'Следующее задание','mockNext()','primary'):btn('Попробовать ещё раз','retry('+index+')','primary'));
+  modal('<div class="eyebrow">'+esc(skills[c.skill])+' · '+esc(c.level)+'</div>'+progress+'<h2>Разбор ответа</h2><p>'+esc(c.ask)+'</p><h3 class="feedback-status '+state+'">'+status+'</h3><blockquote class="answer-feedback '+answerState+'">'+esc(x.a)+'</blockquote>'+(x.correct===false&&c.model?'<p class="correct-model"><b>Правильный ответ:</b> '+esc(c.model)+'</p>':'')+(x.correct===null&&hasErrors&&x.edited!==x.a?'<p class="correct-model"><b>Вариант после исправления:</b> '+esc(x.edited)+'</p>':'')+'<p>'+esc(explanation)+'</p>'+(x.correct===true&&c.model?'<p class="correct-model"><b>Образец:</b> '+esc(c.model)+'</p>':'')+(c.audioId?'<audio id="savedAudio" controls></audio>':'')+(x.advice?'<h3>Как улучшить ответ</h3><p>'+esc(x.advice)+'</p>':'')+action);
+  if(c.audioId)blobGet(c.audioId).then(blob=>{if(blob&&$('#savedAudio'))$('#savedAudio').src=URL.createObjectURL(blob)});
+}
+function advancePractice(){
+  const d=db.draft;
+  if(!d?.multi)return;
+  if(d.index+1>=d.items.length){finishPracticeSet();return}
+  d.index++;
+  d.q=d.items[d.index];
+  d.answer='';
+  d.listened=false;
+  persist();
+  resume();
+}
+function finishPracticeSet(){
+  const d=db.draft;
+  if(!d?.multi)return;
+  const results=d.answers.map(index=>db.h[index]).filter(Boolean);
+  const checked=results.filter(item=>item.correct!==null);
+  const correct=checked.filter(item=>item.correct===true).length;
+  const wrong=checked.filter(item=>item.correct===false).length;
+  const open=results.length-checked.length;
+  db.draft=null;persist();
+  modal('<div class="eyebrow">Practice complete</div><h2>Тренировка завершена</h2><p>Выполнено упражнений: '+results.length+' из '+d.items.length+'.</p><div class="practice-results"><div><b>'+correct+'</b><small>верно</small></div><div><b>'+wrong+'</b><small>ошибок</small></div><div><b>'+open+'</b><small>открытых ответов</small></div></div><p>Все попытки сохранены в истории. Ошибки можно открыть в разделе «Мои ошибки».</p>'+btn('Вернуться к тренажёру','closeModal();page=2;render()','primary'));
+}

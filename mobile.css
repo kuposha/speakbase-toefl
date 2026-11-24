@@ -210,3 +210,32 @@ header #profileSelect{min-width:0;max-width:100%}
 @media(max-width:810px){.brand{padding-right:96px}#mobileMenuToggle{right:48px}}
 
 @media(max-width:810px){header #themeToggle{z-index:130}#mobileMenuToggle{z-index:131}}
+
+/* Theme-aware mobile surfaces and calendar */
+:root[data-theme="light"] aside{background:var(--sidebar);border-color:var(--line);box-shadow:0 8px 24px rgba(38,54,35,.08)}
+:root[data-theme="light"] nav button.selected{background:#e7eee1;border-color:#d4dfca;color:#4e693f}
+:root[data-theme="light"] #mobileMenuToggle{background:#edf1e9;border-color:#d9e1d4;color:#43583a}
+:root[data-theme="light"] #navBackdrop{background:rgba(34,43,31,.28)}
+:root[data-theme="light"] header #themeToggle{background:#e9eee5;border-color:#d8e0d2;color:#43583a}
+:root[data-theme="light"] .calendar-collapsed{background:#f8faf6;border-color:var(--line)}
+:root[data-theme="light"] .calendar-nav,:root[data-theme="light"] .calendar-toggle{background:#edf1e9;color:#4d6840;border-color:#d9e1d4}
+:root[data-theme="light"] .calendar-day{background:#f0f3ed;color:#465244}
+:root[data-theme="light"] .calendar-day.active{background:#e1ecd9;border-color:#769665;color:#36542b}
+:root[data-theme="light"] .calendar-footer{border-color:var(--line)}
+:root[data-theme="light"] .calendar-footer b{color:var(--ink)}
+@media(max-width:810px){
+  .calendar{gap:9px}
+  .calendar-weekdays,.calendar-grid{gap:4px}
+  .calendar-weekdays{font-size:9px}
+  .calendar-day{height:clamp(32px,8vw,38px);border-radius:8px}
+  .calendar-head{grid-template-columns:34px minmax(0,1fr) 34px}
+  .calendar-nav{width:32px;height:32px}
+  .calendar-collapsed{min-height:62px}
+  header #profileSelect{border-radius:10px;max-width:44vw}
+}
+@media(max-width:540px){
+  .calendar-day{height:34px}
+  .calendar-head b{font-size:13px}
+  .calendar-footer{font-size:11px;gap:6px}
+  header #profileSelect{max-width:43vw}
+}
