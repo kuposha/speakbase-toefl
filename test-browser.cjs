@@ -42,8 +42,8 @@ async function run() {
         const click = sel=>page.locator(sel).click();
         await click('#themeToggle');
         assert.equal(await page.locator('html').getAttribute('data-theme'),'light','theme button should enable light mode');
-        assert.equal(await page.locator('html').evaluate(el=>getComputedStyle(el).getPropertyValue('--page').trim()),'#f4f6f2','light theme should apply its light surface token');
-        await page.waitForFunction(()=>getComputedStyle(document.body).backgroundColor==='rgb(244, 246, 242)');
+        assert.equal(await page.locator('html').evaluate(el=>getComputedStyle(el).getPropertyValue('--page').trim()),'#f1f3ef','light theme should apply its light surface token');
+        await page.waitForFunction(()=>getComputedStyle(document.body).backgroundColor==='rgb(241, 243, 239)');
         await page.reload();
         assert.equal(await page.locator('html').getAttribute('data-theme'),'light','theme choice should survive reload');
         for(let i=0; i<9; i++) {
@@ -71,6 +71,8 @@ async function run() {
         await page.evaluate(()=>{courseState().session=null;persist()});
         await click('#close');
         await nav(1);
+        assert.ok(await page.locator('.calendar-collapsed').isVisible(),'plan calendar should start collapsed');
+        await click('.calendar-toggle');
         const calendarUi=await page.evaluate(()=>{
           const before=calendarMonth;
           const expected=dayKey(new Date(dateObj(calendarMonth).getFullYear(),dateObj(calendarMonth).getMonth()+1,1));
@@ -84,9 +86,12 @@ async function run() {
         assert.equal(calendarUi.day,calendarUi.month.slice(0,7)+'-05','clicking a calendar date should select it');
         assert.equal(calendarUi.active,'5','selected date should be highlighted');
         await nav(0);
+        assert.ok(await page.locator('.calendar-collapsed').isVisible(),'dashboard calendar should start collapsed');
+        await click('.calendar-toggle');
         assert.equal(await page.evaluate(()=>calendarMonth),calendarUi.month,'dashboard and plan must share the calendar month');
         assert.equal(await page.locator('.calendar-day.active').innerText(),'5','dashboard should reflect the same selected date');
         await nav(1);
+        if(await page.locator('.calendar-collapsed').isVisible())await click('.calendar-toggle');
         const calendar = await page.evaluate(async()=>{
           const seen = new Set();
           let dates=0;

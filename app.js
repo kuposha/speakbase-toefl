@@ -49,28 +49,32 @@ function toggleTheme(){const next=document.documentElement.dataset.theme==='ligh
 function section(title,body,extra=''){return '<section class="panel"><div class="head"><h2>'+title+'</h2>'+extra+'</div>'+body+'</section>'}
 function suggested(skill){let attempts=db.h.filter(x=>x.q.skill===skill&&x.correct!==false&&!x.issues.length);let days=new Set(attempts.map(x=>x.day)).size;return days>=10&&attempts.length>=16?'B2':days>=3&&attempts.length>=4||skill===3?'B1':'A2'}
 function fromHex(value){return String.fromCodePoint(...value.split(' ').map(x=>parseInt(x,16)))}
+function trackedPracticeRows(){
+ const sectionSkills=[3,1,2,0];
+ const examRows=(db.examStudio?.history||[]).flatMap(attempt=>Object.entries(attempt.answers||{}).map(([key,result])=>({q:{skill:sectionSkills[Number(key.split('-')[0])]},correct:result.correct})).filter(item=>Number.isInteger(item.q.skill)));
+ return [...(db.h||[]),...examRows];
+}
 function goalProgress(){
  const reports=(db.course?.reports||[]).filter(x=>!x.diag),lessons=new Set(reports.map(x=>x.lessonDate||x.date+'|'+x.name)).size;
- const skillScores=[0,1,2,3].map(skill=>{const items=db.h.filter(x=>x.q.skill===skill),checked=items.filter(x=>x.correct!==null&&x.correct!==undefined),accuracy=checked.length?checked.filter(x=>x.correct===true).length/checked.length:0;return Math.min(1,items.length/20)*.7+accuracy*.3});
- const practice=skillScores.reduce((a,b)=>a+b,0)/skillScores.length;
- const tests=db.tests.filter(x=>(x.closed??0)>0),mockCoverage=Math.min(1,tests.length/3),mockAccuracy=tests.length?tests.reduce((a,x)=>a+x.right/Math.max(1,x.closed),0)/tests.length:0,mocks=mockCoverage*mockAccuracy;
- const score=Math.max(0,Math.min(100,Math.round(Math.min(1,lessons/46)*35+practice*40+mocks*25)));
- const stage=score<15?fromHex('0421 0442 0430 0440 0442 0020 043C 0430 0440 0448 0440 0443 0442 0430'):score<35?fromHex('0424 043E 0440 043C 0438 0440 0443 0435 043C 0020 0431 0430 0437 0443'):score<60?fromHex('0423 043A 0440 0435 043F 043B 044F 0435 043C 0020 043D 0430 0432 044B 043A 0438'):score<80?fromHex('0412 044B 0445 043E 0434 0438 043C 0020 043D 0430 0020 0443 0432 0435 0440 0435 043D 043D 044B 0439 0020 0443 0440 043E 0432 0435 043D 044C'):fromHex('0424 0438 043D 0430 043B 044C 043D 0430 044F 0020 043F 043E 0434 0433 043E 0442 043E 0432 043A 0430');return {score,stage,lessons,tasks:db.h.length,tests:db.tests.length};
+ const tasks=trackedPracticeRows().length;
+ const tests=(db.examStudio?.history||[]).filter(attempt=>attempt.sections?.length===4).length;
+ const score=Math.max(0,Math.min(100,Math.round(lessons/46*100)));
+ const stage=lessons===0?'Курс ещё не начат':lessons>=46?'Все 46 уроков пройдены':'Пройдено уроков курса';
+ return {score,stage,lessons,tasks,tests};
 }
-function goalCard(){const g=goalProgress(),target=activeProfile==='marina'?'B2 + '+fromHex('0433 043E 0442 043E 0432 043D 043E 0441 0442 044C 0020 043A')+' TOEFL iBT':fromHex('0413 043E 0442 043E 0432 043D 043E 0441 0442 044C 0020 043A')+' TOEFL iBT';return section(fromHex('0426 0435 043B 044C 0020 043F 043E 0434 0433 043E 0442 043E 0432 043A 0438'),'<div class="goal-summary"><div><div class="goal-target">'+target+'</div><div class="goal-stage">'+g.stage+'</div></div><strong class="goal-percent">'+g.score+'%</strong></div><div class="goal-meter" role="progressbar" aria-label="'+fromHex('041F 0440 043E 0433 0440 0435 0441 0441 0020 043A 0020 0446 0435 043B 0438 0020 043F 043E 0434 0433 043E 0442 043E 0432 043A 0438')+'" aria-valuemin="0" aria-valuemax="100" aria-valuenow="'+g.score+'"><i style="width:'+g.score+'%"></i><span style="left:'+g.score+'%"></span></div><div class="goal-stats"><span>'+g.lessons+' / 46 '+fromHex('0443 0440 043E 043A 043E 0432')+'</span><span>'+g.tasks+' '+fromHex('0437 0430 0434 0430 043D 0438 0439')+'</span><span>'+g.tests+' '+fromHex('043F 0440 043E 0431 043D 0438 043A 043E 0432')+'</span></div><p class="goal-caption">'+fromHex('041F 0440 043E 0433 0440 0435 0441 0441 0020 043E 0431 043D 043E 0432 043B 044F 0435 0442 0441 044F 0020 0430 0432 0442 043E 043C 0430 0442 0438 0447 0435 0441 043A 0438 0020 043F 043E 0441 043B 0435 0020 0443 0440 043E 043A 043E 0432 002C 0020 043F 0440 0430 043A 0442 0438 043A 0438 0020 0438 0020 043F 0440 043E 0431 043D 0438 043A 043E 0432 002E 0020 0422 043E 0447 043D 043E 0441 0442 044C 0020 043E 0442 0432 0435 0442 043E 0432 0020 0442 043E 0436 0435 0020 0443 0447 0438 0442 044B 0432 0430 0435 0442 0441 044F 002E')+'</p>'+(activeProfile==='marina'?btn(fromHex('041C 0430 0440 0448 0440 0443 0442 0020 043A')+' B2','roadmap()','link'):'') ,ico('target'))}
-function progress(){const labels=['Speaking','Listening','Writing','Reading','Грамматика'];return skills.map((s,i)=>{const items=db.h.filter(x=>x.q.skill===i),checked=items.filter(x=>x.correct!==null&&x.correct!==undefined),correct=checked.filter(x=>x.correct===true).length,accuracy=checked.length?Math.round(correct/checked.length*100):null;return '<div class="progressrow"><div class="row"><span style="color:'+colors[i]+'">'+(labels[i]||s)+'</span><small>'+items.length+' '+(items.length===1?'ответ':items.length<5?'ответа':'ответов')+(accuracy===null?' · пока нет данных':' · '+accuracy+'% верно')+'</small></div><div class="track"><i style="background:'+colors[i]+';width:'+(accuracy===null?0:accuracy)+'%"></i></div></div>'}).join('')+'<p class="note">Процент считается только по заданиям с проверяемым ответом. Для открытых ответов Speaking автоматическая оценка не выставляется — они учитываются как выполненные, но не как верные или ошибочные.</p>'}
-function intro(title,desc,action=''){return '<div class="intro"><div><h1>'+title+'</h1><p>'+desc+'</p></div>'+action+'</div>'}
+function goalCard(){const g=goalProgress(),target=activeProfile==='marina'?'Цель: B2 · TOEFL iBT':'Цель: TOEFL iBT';return section('Учебный прогресс','<div class="goal-summary"><div><div class="goal-target">'+target+'</div><div class="goal-stage">'+g.stage+'</div></div><strong class="goal-percent">'+g.score+'%</strong></div><div class="goal-meter" role="progressbar" aria-label="Завершение учебной программы" aria-valuemin="0" aria-valuemax="100" aria-valuenow="'+g.score+'"><i style="width:'+g.score+'%"></i><span style="left:'+g.score+'%"></span></div><div class="goal-stats"><span>'+g.lessons+' / 46 уроков</span><span>'+g.tasks+' ответов</span><span>'+g.tests+' попыток полного варианта</span></div><p class="goal-caption">Полоса показывает только прохождение учебной программы, а не готовность к экзамену и не прогноз балла ETS. Точность проверяемых заданий и открытые ответы отслеживаются отдельно.</p>'+(activeProfile==='marina'?btn('Маршрут к B2','roadmap()','link'):'') ,ico('target'))}
+function progress(){const labels=['Speaking','Listening','Writing','Reading','Грамматика'],all=trackedPracticeRows();return skills.map((s,i)=>{const items=all.filter(x=>x.q.skill===i),checked=items.filter(x=>x.correct!==null&&x.correct!==undefined),correct=checked.filter(x=>x.correct===true).length,accuracy=checked.length?Math.round(correct/checked.length*100):null,open=items.length-checked.length;return '<div class="progressrow"><div class="row"><span style="color:'+colors[i]+'">'+(labels[i]||s)+'</span><small>'+items.length+' ответов · '+checked.length+' проверяемых · '+open+' открытых'+(accuracy===null?'':' · '+accuracy+'% верно')+'</small></div><div class="track"><i style="background:'+colors[i]+';width:'+(accuracy===null?0:accuracy)+'%"></i></div></div>'}).join('')+'<p class="note">Точность считается только по ответам с однозначным ключом. Открытые Writing и Speaking не получают фиктивную автоматическую оценку; их нужно разбирать отдельно по критериям.</p>'}function intro(title,desc,action=''){return '<div class="intro"><div><h1>'+title+'</h1><p>'+desc+'</p></div>'+action+'</div>'}
 function pendingCourseSession(){const s=courseState().calendarSessions?.resume;return s?section('Незавершённая практика','<p>'+esc(s.items?.[s.pos]?.title||'У тебя осталось незавершённое занятие')+'</p>'+btn('Продолжить с того же места','resumeCourseSession()','primary')):''}
 function dash(){let p=plan(day),n=p.filter((_,i)=>seen(day,i)).length;return intro('Привет, '+profileNames[activeProfile],'Твоя персональная студия подготовки к TOEFL iBT.',btn(ico('sliders')+' Свободная практика','go(2)'))+'<div class="layout"><div class="col">'+lessonHero()+pendingCourseSession()+section('Дополнительная практика · '+(day===today?'сегодня':fmt(day,{day:'numeric',month:'long'})),rows(),'<span class="chip">'+n+' / '+p.length+'</span>')+'<div class="head" style="margin-bottom:-7px"><h2>Быстрая практика</h2>'+btn('Все навыки','go(2)','link')+'</div><div class="focusgrid">'+[0,1,2].map(i=>btn(tile(i)+'<b>'+skills[i]+'</b><small>'+['Свобода речи','Понимание на слух','Развитие мысли'][i]+'</small>','config('+i+')','focus')).join('')+'</div></div><div class="col">'+goalCard()+section('Календарь занятий',dashboardCalendarOpen?calendarView()+'<div class="row"><small>План на день</small><b>'+total(p)+' мин</b></div>':'<button type="button" class="calendar-collapsed" onclick="toggleDashboardCalendar()"><span>'+ico('calendar')+'<span><b>'+fmt(day,{weekday:'long',day:'numeric',month:'long'})+'</b><small>Открыть календарь занятий</small></span></span>'+ '<span class="calendar-chevron">›</span>'+'</button>','<button type="button" class="calendar-toggle" onclick="toggleDashboardCalendar()" aria-label="'+(dashboardCalendarOpen?'Свернуть календарь':'Открыть календарь')+'" aria-expanded="'+dashboardCalendarOpen+'">'+ico('calendar')+'</button>')+section('По навыкам',progress(),ico('chart'))+'</div></div>'}
 function wave(){let c=$('#wave');if(!c)return;let r=c.getBoundingClientRect(),w=r.width,h=r.height,d=devicePixelRatio;c.width=w*d;c.height=h*d;let g=c.getContext('2d');g.scale(d,d);for(let j=0;j<72;j++){let z=j/71;g.beginPath();for(let i=0;i<=170;i++){let t=i/170,x=t*w,y=h*(.57+.12*Math.sin(t*7-z*3)+(.08+.2*t)*Math.sin(t*11-z*4.2)+.11*Math.sin(t*18-z*3)+.19*(z-.5));i?g.lineTo(x,y):g.moveTo(x,y)}let grd=g.createLinearGradient(0,0,w,0);grd.addColorStop(0,'#a4ed5700');grd.addColorStop(.32,'#8ac84945');grd.addColorStop(.68,'#c3fa76c9');grd.addColorStop(1,'#bbf865a0');g.strokeStyle=grd;g.lineWidth=.78;g.stroke()}}
-function extended(){if(page===9)return vocabularyView();if(page===8)return grammarLibraryView();if(page===1)return intro(names[1],'Выбери день, чтобы изменить его программу.',btn('Редактировать','editPlan()'))+section(fmt(day,{weekday:'long',day:'numeric',month:'long'}),planCalendarOpen?calendarView():'<button type="button" class="calendar-collapsed" onclick="togglePlanCalendar()"><span>'+ico('calendar')+'<span><b>'+fmt(day,{weekday:'long',day:'numeric',month:'long'})+'</b><small>Открыть календарь занятий</small></span></span><span class="calendar-chevron">›</span></button>'+'<h3>Тема дня: '+esc(units[scheduledUnit(day)][0])+'</h3><p>'+esc(dayProgram(day).focus)+' · '+total(plan(day))+' min</p>'+btn('Начать урок по теме дня','startScheduledLesson()','primary')+rows(),'<button type="button" class="calendar-toggle" onclick="togglePlanCalendar()" aria-label="'+(planCalendarOpen?'Свернуть календарь':'Открыть календарь')+'" aria-expanded="'+planCalendarOpen+'">'+ico('calendar')+'</button>');
+function extended(){if(page===9)return vocabularyView();if(page===8)return grammarLibraryView();if(page===1)return intro(names[1],'Выбери день, чтобы изменить его программу.',btn('Редактировать','editPlan()'))+section(fmt(day,{weekday:'long',day:'numeric',month:'long'}),(planCalendarOpen?calendarView():'<button type="button" class="calendar-collapsed" onclick="togglePlanCalendar()"><span>'+ico('calendar')+'<span><b>'+fmt(day,{weekday:'long',day:'numeric',month:'long'})+'</b><small>Открыть календарь занятий</small></span></span><span class="calendar-chevron">›</span></button>')+'<h3>Тема дня: '+esc(units[scheduledUnit(day)][0])+'</h3><p>'+esc(dayProgram(day).focus)+' · '+total(plan(day))+' min</p>'+btn('Начать урок по теме дня','startScheduledLesson()','primary')+rows(),'<button type="button" class="calendar-toggle" onclick="togglePlanCalendar()" aria-label="'+(planCalendarOpen?'Свернуть календарь':'Открыть календарь')+'" aria-expanded="'+planCalendarOpen+'">'+ico('calendar')+'</button>');
 if(page===2)return intro('Тренажёр','Выбери навык и настрой практику под себя.')+'<div class="grid">'+skills.map((s,i)=>btn(tile(i)+'<h2>'+s+'</h2><p class="sub">'+titles[i]+'</p>','config('+i+')','focus')).join('')+'</div>'+(db.draft?btn('Открыть черновик','resume()'):'')+pendingCourseSession();
 if(page===3)return intro('TOEFL','Extended practice simulation')+section('Reading · Listening · Writing · Speaking','<div class="stack"><p>34 tasks, 60 minutes, four timed sections. This is an unofficial practice simulation, not an ETS score or adaptive exam.</p>'+btn(db.exam?'Продолжить пробник':'Начать пробник','mockStart()','primary')+'</div>')+section('История пробников',db.tests.map((t,i)=>'<p class="hist">'+esc(t.date)+' · '+t.done+'/'+(t.total||4)+' заданий · точность '+t.right+'/'+(t.closed??2)+btn('Review','mockResult('+i+')','link')+'</p>').join('')||'<p class="empty">Здесь появится первый результат.</p>');
 if(page===4)return intro(names[4],'Твой прогресс по сохранённым ответам.')+'<div class="grid">'+section('Выполнено заданий','<h1>'+db.h.length+'</h1>')+section('Дней практики','<h1>'+new Set(db.h.map(x=>x.day)).size+'</h1>')+section('По навыкам',progress())+'</div>';
 if(page===5)return intro('Мои ошибки','Повторяй трудные задания и сравнивай попытки.')+section('Из твоих ответов',historyRows(db.h.filter(x=>x.issues.length||x.correct===false)))+(activeProfile==='marina'?section('Listening · по разбору из проекта',['Источник информации','Причина отказа','Смысл реплики'].map((s,i)=>'<div class="hist row">'+s+btn('Повторить','weak('+i+')')+'</div>').join('')):'');
 if(page===6)return section('Отчёты уроков',reportList()||'<small>Здесь появится итог первого урока.</small>')+intro('История ответов','Открой разбор или вернись к заданию.')+section('Сохранённые попытки',historyRows(db.h));
 return materials()}
-function historyRows(arr){return arr.slice().reverse().map(x=>'<button class="task" onclick="review('+db.h.indexOf(x)+')">'+tile(x.q.skill)+'<span><b>'+skills[x.q.skill]+' · '+esc(x.q.topic)+'</b><small>'+x.day+' · '+x.q.level+'</small></span></button>').join('')||'<p class="empty">Пока нет сохранённых попыток в этом разделе.</p>'}
+function historyRows(arr){return arr.slice().reverse().map(x=>'<button class="task" onclick="review('+db.h.indexOf(x)+')">'+tile(x.q.skill)+'<span><b>'+skills[x.q.skill]+' · '+esc(x.q.topic)+'</b><small>'+x.day+' · '+esc(practiceLevelText(x.q))+'</small></span></button>').join('')||'<p class="empty">Пока нет сохранённых попыток в этом разделе.</p>'}
 function render(){if(!db.vocabulary){db.vocabulary=activeProfile==='marina'?vocabularySeed.map((w,id)=>({category:w[0],group:w[1],en:w[2],ru:w[3],id,status:'new',nextReview:today,interval:0,seen:0})):[];persist()} $('#profileSelect').textContent=profileNames[activeProfile]+' ⌄';$('.profile').innerHTML='<b>'+ (activeProfile==='marina'?'МГ':'В')+'</b><div>'+profileNames[activeProfile]+'<small>Личный профиль</small></div>'; $('#nav').innerHTML=names.map((s,i)=>({s,i})).map(({s,i})=>(i===0?'<div class="navlabel">Подготовка</div>':i===4?'<div class="navlabel">Моя практика</div>':i===8?'<div class="navlabel">Учебные материалы</div>':'')+btn(ico(navIcons[i])+s,'go('+i+')',page===i?'selected':'')).join('');$('#nav').querySelectorAll('button').forEach(button=>{const i=Number((button.getAttribute('onclick')||'').match(/go\((\d+)\)/)?.[1]);if(i===page)button.setAttribute('aria-current','page');else button.removeAttribute('aria-current')});if(matchMedia('(max-width:810px)').matches)$('#nav button[aria-current="page"]')?.scrollIntoView({block:'nearest',inline:'nearest',behavior:'auto'});applyTheme();$('#crumb').textContent=names[page];$('#date').textContent=fmt(today,{day:'numeric',month:'long',weekday:'short'});$('#app').innerHTML=page===0?dash():extended();if(page===9)filterVocabulary();wave()}
 function modal(html){$('#box').innerHTML='<div class="stack">'+html+'</div>';$('#modal').classList.remove('lesson-fullscreen');if(!$('#modal').open)$('#modal').showModal()}
 function closeModal(){$('#modal').close()}
@@ -78,7 +82,26 @@ $('#close').onclick=closeModal;$('#modal').onclose=()=>{sessionToken++;clearInte
 const opts=(a,v)=>a.map(x=>'<option '+(x===v?'selected':'')+'>'+esc(x)+'</option>').join('');
 function fields(c,prefix=''){return '<div class="grid"><label>Навык<select id="'+prefix+'sk">'+opts(skills,skills[c.skill])+'</select></label><label>Тема<select id="'+prefix+'tp">'+opts([...new Set([c.topic,...topics,...db.topics])],c.topic)+'</select></label><label>Сложность<select id="'+prefix+'lv">'+opts(levels,c.level)+'</select></label><label>Минуты<input id="'+prefix+'mn" type="number" min="1" max="180" required value="'+c.min+'"></label></div>'}
 function values(p=''){return {skill:skills.indexOf($('#'+p+'sk').value),topic:$('#'+p+'tp').value,level:$('#'+p+'lv').value,min:Number($('#'+p+'mn').value)}}
-function config(i=0){modal('<h2>Настроить практику</h2><form id="form" class="stack">'+fields({skill:i,topic:topics[0],level:i===3?'B1':'A2',min:15})+'<button class="primary">Начать занятие</button></form>');$('#form').onsubmit=e=>{e.preventDefault();start(values())}}
+function config(i=0){modal('<h2>Настроить практику</h2><form id="form" class="stack">'+fields({skill:i,topic:topics[0],level:i===3?'B1':'A2',min:15})+'<p class="note" id="practiceHint"></p><button class="primary">Начать занятие</button></form>');syncPracticeForm();$('#sk').onchange=syncPracticeForm;$('#form').onsubmit=e=>{e.preventDefault();start(values())}}
+function syncPracticeForm(){
+  const sk=skills.indexOf($('#sk').value),tp=$('#tp'),lv=$('#lv'),hint=$('#practiceHint');
+  if(!tp||!lv||!hint)return;
+  const tpLabel=tp.closest('label'),lvLabel=lv.closest('label');
+  if(sk===4){
+    tpLabel.firstChild.textContent='Тема';
+    tp.innerHTML='<option value="">Определяется уровнем</option>';
+    tp.disabled=true;
+  }else{
+    tp.disabled=false;
+    tpLabel.firstChild.textContent=sk===2?'Тип задания':'Тема';
+    tp.innerHTML='<option value="">Любая — смешанная практика</option>'+practiceTopicOptions(sk).map(o=>'<option value="'+esc(o.label)+'">'+esc(o.label)+' ('+o.count+')</option>').join('');
+  }
+  const marked=sk===2||sk===4;
+  lvLabel.firstChild.textContent=marked?'Уровень':'Целевой уровень';
+  hint.textContent=sk===4?'Grammar подбирается по уровню; тема определяется уровнем и отдельно не выбирается.'
+    :sk===2?'Writing размечен по уровням A2–B2, уровень влияет на подбор. «Тип задания» — названия заданий в банке (Email, Discussion, Build a Sentence).'
+    :'Уровень здесь — ваша цель тренировки. Задания этого навыка не размечены по CEFR, поэтому уровень не показывает их сложность и не влияет на подбор. Темы взяты из названий заданий в банке; если заданий по теме мало, остальные подбираются смешанно — об этом будет сказано.';
+}
 function editPlan(){let p=plan(day);modal('<h2>План на '+fmt(day,{day:'numeric',month:'long'})+'</h2><form id="form" class="stack">'+p.map((c,i)=>fields(c,'p'+i)).join('<hr>')+'<button class="primary">Сохранить план</button></form>');$('#form').onsubmit=e=>{e.preventDefault();db.plans[day]=p.map((_,i)=>values('p'+i));persist();closeModal();render()}}
 function startFocus(){let p=plan(day),i=p.findIndex(x=>x.skill===0);if(i>=0)openPlan(i);else config(0)}
 function start(c){let task=exercise(c);if(c.skill===0){task.drill=true;task.tip+=' Сначала собери фразу из подлежащего и глагола. Произнеси её дважды, добавь деталь и запиши вторую версию.'}begin(task)}
@@ -91,11 +114,11 @@ function blobStore(){return new Promise((res,rej)=>{let r=indexedDB.open('speakb
 async function blobPut(k,b){let db=await blobStore();await new Promise((res,rej)=>{let t=db.transaction('files','readwrite');t.objectStore('files').put(b,k);t.oncomplete=res;t.onerror=rej});db.close()}
 async function blobGet(k){let db=await blobStore();return new Promise((res,rej)=>{let r=db.transaction('files').objectStore('files').get(k);r.onsuccess=()=>{db.close();res(r.result)};r.onerror=rej})}
 function timedSpeaking(){let start=Date.now(),b=document.querySelector('#round');if(!b)return;b.disabled=true;let id=setInterval(()=>{if(!b.isConnected||!document.querySelector('#modal').open){clearInterval(id);return}let left=45-Math.floor((Date.now()-start)/1000);b.textContent=left>0?'Устный ответ · '+left+' с':'Повторить раунд · 45 с';if(left<=0){b.disabled=false;clearInterval(id)}},200)}
-function showTask(d){if(d.q.mock&&Date.now()>=d.end)return mockNext();if(d.q.skill===1&&!d.listened){clearInterval(clock);q=d.q;modal('<h2>Listening</h2><p>Прослушай сообщение. Затем открой вопрос.</p>'+btn('Прослушать','speak(q.source);document.querySelector(&quot;#unlock&quot;).disabled=false')+'<small id="speechStatus"></small><button disabled class="primary" id="unlock">Я прослушал(а)</button>');if(d.q.mock){const timer=document.createElement('p');timer.className='mono';$('#unlock').before(timer);const tick=()=>{let seconds=Math.ceil((d.end-Date.now())/1000);if(seconds<=0){clearInterval(clock);mockNext();return}timer.textContent=Math.floor(seconds/60)+':'+String(seconds%60).padStart(2,'0')};clock=setInterval(tick,500);tick()}$('#unlock').onclick=()=>{d.listened=true;persist();showTask(d)};return}sessionToken++;clearInterval(clock);q=d.q;let speaking=q.skill===0;modal('<div class="eyebrow">'+(q.mock?'Пробник · '+(db.exam.step+1)+' / 34':'Практика')+'</div><div class="row"><h2>'+skills[q.skill]+'</h2><span class="mono" id="clock"></span></div><div class="meta">'+esc(q.topic)+' · '+q.level+'</div>'+(q.mock?'':btn('Добавить слово в словарь','addVocabularyWord(true)'))+(q.source?(q.skill===1||q.repeat?btn(ico('phones')+' Прослушать','speak(q.source)'):'<blockquote>'+esc(q.source)+'</blockquote>'):'')+'<h3 lang="en">'+esc(q.ask)+'</h3>'+(speaking?(q.mock?'':'<p class="note">'+esc(q.tip)+'</p>')+'<button class="btn" id="round" onclick="timedSpeaking()">Устный раунд · 45 с</button><button class="btn" id="micBtn" onclick="mic()">Записать голос</button><audio controls hidden id="listenback"></audio>':'')+'<small id="speechStatus" role="status"></small><form id="answerForm" class="stack">'+(q.opts?'<label>Твой ответ<select id="answer" required><option value="">Выбери вариант</option>'+opts(q.opts,d.answer)+'</select></label>':'<label>'+(speaking?'Расшифровка ответа для разбора':'Твой ответ на английском')+'<textarea required id="answer" placeholder="Type your response…">'+esc(d.answer)+'</textarea></label>')+'<button class="primary">Сохранить и проверить</button></form>');if(q.audioId&&speaking)blobGet(q.audioId).then(b=>{if(b&&$('#listenback')){$('#listenback').src=URL.createObjectURL(b);$('#listenback').hidden=false}});$('#answer').oninput=e=>{d.answer=e.target.value;persist()};$('#answerForm').onsubmit=e=>{e.preventDefault();if(recorder?.state==='recording'){stopMic();$('#speechStatus').textContent='Запись сохранится через секунду. Затем нажми «Сохранить и проверить».';return}if($('#answer').value.trim())submitAnswer($('#answer').value.trim())};function tick(){let s=Math.max(0,Math.ceil((d.end-Date.now())/1000));$('#clock').textContent=Math.floor(s/60)+':'+String(s%60).padStart(2,'0');if(!s){clearInterval(clock);if(q.mock)mockNext();else $('#clock').textContent='Время вышло'}}clock=setInterval(tick,500);tick()}
+function showTask(d){if(d.q.mock&&Date.now()>=d.end)return mockNext();if(d.q.skill===1&&!d.listened){clearInterval(clock);q=d.q;modal('<h2>Listening</h2><p>Прослушай сообщение. Затем открой вопрос.</p>'+btn('Прослушать','speak(q.source);document.querySelector(&quot;#unlock&quot;).disabled=false')+'<small id="speechStatus"></small><button disabled class="primary" id="unlock">Я прослушал(а)</button>');if(d.q.mock){const timer=document.createElement('p');timer.className='mono';$('#unlock').before(timer);const tick=()=>{let seconds=Math.ceil((d.end-Date.now())/1000);if(seconds<=0){clearInterval(clock);mockNext();return}timer.textContent=Math.floor(seconds/60)+':'+String(seconds%60).padStart(2,'0')};clock=setInterval(tick,500);tick()}$('#unlock').onclick=()=>{d.listened=true;persist();showTask(d)};return}sessionToken++;clearInterval(clock);q=d.q;let speaking=q.skill===0;modal('<div class="eyebrow">'+(q.mock?'Пробник · '+(db.exam.step+1)+' / 34':'Практика')+'</div><div class="row"><h2>'+skills[q.skill]+'</h2><span class="mono" id="clock"></span></div><div class="meta">'+esc(q.topic)+' · '+esc(practiceLevelText(q))+'</div>'+(q.mock?'':btn('Добавить слово в словарь','addVocabularyWord(true)'))+(q.source?(q.skill===1||q.repeat?btn(ico('phones')+' Прослушать','speak(q.source)'):'<blockquote>'+esc(q.source)+'</blockquote>'):'')+'<h3 lang="en">'+esc(q.ask)+'</h3>'+(speaking?(q.mock?'':'<p class="note">'+esc(q.tip)+'</p>')+'<button class="btn" id="round" onclick="timedSpeaking()">Устный раунд · 45 с</button><button class="btn" id="micBtn" onclick="mic()">Записать голос</button><audio controls hidden id="listenback"></audio>':'')+'<small id="speechStatus" role="status"></small><form id="answerForm" class="stack">'+(q.opts?'<label>Твой ответ<select id="answer" required><option value="">Выбери вариант</option>'+opts(q.opts,d.answer)+'</select></label>':'<label>'+(speaking?'Расшифровка ответа для разбора':'Твой ответ на английском')+'<textarea required id="answer" placeholder="Type your response…">'+esc(d.answer)+'</textarea></label>')+'<button class="primary">Сохранить и проверить</button></form>');if(q.audioId&&speaking)blobGet(q.audioId).then(b=>{if(b&&$('#listenback')){$('#listenback').src=URL.createObjectURL(b);$('#listenback').hidden=false}});$('#answer').oninput=e=>{d.answer=e.target.value;persist()};$('#answerForm').onsubmit=e=>{e.preventDefault();if(recorder?.state==='recording'){stopMic();$('#speechStatus').textContent='Запись сохранится через секунду. Затем нажми «Сохранить и проверить».';return}if($('#answer').value.trim())submitAnswer($('#answer').value.trim())};function tick(){let s=Math.max(0,Math.ceil((d.end-Date.now())/1000));$('#clock').textContent=Math.floor(s/60)+':'+String(s%60).padStart(2,'0');if(!s){clearInterval(clock);if(q.mock)mockNext();else $('#clock').textContent='Время вышло'}}clock=setInterval(tick,500);tick()}
 function norm(s){return s.toLowerCase().normalize('NFKC').replace(/[^\p{L}\p{N}\s]/gu,'').replace(/\s+/g,' ').trim()}
 function evaluate(q,a){let issues=[],correct=null,edited=a;if(q.exact||q.opts||q.repeat)correct=norm(a)===norm(q.model);else for(let [re,to,why] of rules){let m=edited.match(re);if(m){issues.push(m[0]+' → '+to+'. '+why);edited=edited.replace(re,to)}}let advice=q.tip;if(correct===null){if(!/\b(because|since|so that|as a result)\b/i.test(a))advice+=' Уточни причину: What makes you think so?';if(!/\b(example|instance|last|when I|once)\b/i.test(a))advice+=' Добавь эпизод: For example, last week I…';if(q.skill===0)advice+=' Повтори ответ вслух по трём ключевым словам, затем ещё раз без подсказки.'}return {issues,correct,edited,advice}}
 function submitAnswer(a){clearInterval(clock);if(q.mock&&Date.now()>=db.exam.end)return mockNext();let x={q:{...q},a,day:today,...evaluate(q,a)};db.h.push(x);if(q.mock){db.exam.answers.push(db.h.length-1);db.exam.step++;db.exam.active=null}else db.draft=null;persist();if(q.mock){mockNext();return}review(db.h.length-1)}
-function review(i){let x=db.h[i],c=x.q;modal('<div class="eyebrow">'+skills[c.skill]+' · '+c.level+'</div><h2>Разбор ответа</h2><p>'+esc(c.ask)+'</p><blockquote>'+esc(x.a)+'</blockquote>'+(c.audioId?'<audio id="savedAudio" controls></audio>':'')+'<h3>'+(x.correct===true?'Верно':x.correct===false?'Сверь ответ с образцом':'Проверка по правилам')+'</h3><p>'+esc(x.issues.join(' ')||(x.correct===null?'В проверяемых конструкциях совпадений с типичными ошибками нет.':c.tip))+'</p>'+(x.issues.length?'<blockquote>'+esc(x.edited)+'</blockquote>':'')+'<h3>Образец ответа</h3><blockquote>'+esc(c.model)+'</blockquote><h3>Следующая попытка</h3><p>'+esc(x.advice)+'</p>'+((c.mock&&db.exam)?btn(db.exam.step===4?'Завершить пробник':'Следующее задание','mockNext()','primary'):btn('Попробовать ещё раз','retry('+i+')','primary')));if(c.audioId)blobGet(c.audioId).then(b=>{if(b&&$('#savedAudio'))$('#savedAudio').src=URL.createObjectURL(b)})}
+function review(i){let x=db.h[i],c=x.q;modal('<div class="eyebrow">'+skills[c.skill]+' · '+esc(practiceLevelText(c))+'</div><h2>Разбор ответа</h2><p>'+esc(c.ask)+'</p><blockquote>'+esc(x.a)+'</blockquote>'+(c.audioId?'<audio id="savedAudio" controls></audio>':'')+'<h3>'+(x.correct===true?'Верно':x.correct===false?'Сверь ответ с образцом':'Проверка по правилам')+'</h3><p>'+esc(x.issues.join(' ')||(x.correct===null?'В проверяемых конструкциях совпадений с типичными ошибками нет.':c.tip))+'</p>'+(x.issues.length?'<blockquote>'+esc(x.edited)+'</blockquote>':'')+'<h3>Образец ответа</h3><blockquote>'+esc(c.model)+'</blockquote><h3>Следующая попытка</h3><p>'+esc(x.advice)+'</p>'+((c.mock&&db.exam)?btn(db.exam.step===4?'Завершить пробник':'Следующее задание','mockNext()','primary'):btn('Попробовать ещё раз','retry('+i+')','primary')));if(c.audioId)blobGet(c.audioId).then(b=>{if(b&&$('#savedAudio'))$('#savedAudio').src=URL.createObjectURL(b)})}
 function retry(i){begin({...db.h[i].q,mock:false,audioId:null})}
 function weak(i){let source="I found out about the lecture in the department newsletter. I'd love to help with the party, but my class runs until six. Could we try another day?";begin({skill:1,topic:'Campus conversation',min:10,level:'B1',source,ask:['Where did the speaker hear about the lecture?','Why does the speaker decline?','What does the last question imply?'][i],opts:[['In a newsletter','In a lecture','From a friend'],['A class finishes late','The party is cancelled','The room is full'],['They want to reschedule','They dislike the idea','They forgot the date']][i],model:['In a newsletter','A class finishes late','They want to reschedule'][i],tip:['Newsletter называет источник новости.','После but говорящий объясняет причину отказа.','Could we try another day? — предложение перенести встречу.'][i]})}
 const extraMockBank=[["The library will close at six on Friday because staff are installing new computers. Books may still be returned using the outdoor box.","Why will the library close early?",["To install computers","To count returned books","To hold a lecture"]],["Students who register before Monday can attend the workshop free of charge. Later registrations cost ten dollars.","What is the benefit of registering early?",["Avoiding a fee","Choosing a different venue","Receiving a textbook"]],["The campus garden uses rainwater collected from nearby roofs. This reduces demand for treated water during dry periods.","What is the main benefit of the system?",["Lower demand for treated water","Faster roof construction","Higher rainfall"]],["The chemistry laboratory requires protective glasses even when students are only observing an experiment.","Who must wear protective glasses?",["Observers as well as participants","Only instructors","Only students mixing chemicals"]],["The museum moved its textile collection away from direct sunlight because prolonged exposure can weaken fibers.","Why was the collection moved?",["To prevent damage","To increase visitor numbers","To improve ventilation"]],["A survey found that students preferred longer opening hours to additional study rooms. The university therefore extended evening access.","What change did the university make?",["Extended opening hours","Built more rooms","Reduced evening access"]]];
@@ -168,26 +191,119 @@ function buildPracticeSet(config){
     const available=[];
     for(let unit=ranges[0];unit<=ranges[1];unit++){
       const bank=grammarPractice[unit]||[];
-      bank.forEach(([ask,answer,wrong],index)=>available.push({unit,ask,answer,wrong,index}));
+      bank.forEach(([ask,answer,wrong])=>available.push({unit,ask,answer,wrong}));
     }
+    const offset=db.h.filter(item=>item.q.skill===4).length%Math.max(1,available.length);
     for(let i=0;i<count;i++){
-      const entry=available[i%available.length];
+      const entry=available[(offset+i)%available.length];
       if(!entry)break;
       const item=selectItem(1,units[entry.unit][0],entry.ask,entry.answer,[entry.wrong],grammarNotes[entry.unit]);
-      items.push({...item,opts:item.choices.slice(),choices:undefined,skill:4,topic:units[entry.unit][0],level:config.level,min:config.min});
+      items.push({...item,opts:item.choices.slice(),choices:undefined,skill:4,topic:units[entry.unit][0],level:config.level,levelSource:'marked',min:config.min});
     }
     return items;
   }
-  for(let i=0;i<count;i++){
-    const topic=topics[(Math.max(0,topics.indexOf(config.topic))+i)%topics.length];
-    const item=exercise({...config,topic,level:config.level});
-    if(config.skill===0){item.drill=true;item.tip+=' Сначала собери короткий ответ, затем добавь деталь и запиши вторую версию.'}
-    item.topic=topic;
-    item.min=config.min;
-    items.push(item);
+
+  const bankName={0:'Speaking',1:'Listening',2:'Writing',3:'Reading'}[config.skill];
+  const bank=(practiceBooks?.[bankName]||[]).slice();
+  if(!bank.length)return items;
+  const completed=db.h.filter(item=>item.q.skill===config.skill).length;
+  const sessionNumber=Math.floor(completed/count);
+  let selected=[];
+
+  if(config.skill===1){
+    const groups=new Map();
+    bank.forEach(item=>{
+      if(!groups.has(item.source))groups.set(item.source,[]);
+      groups.get(item.source).push(item);
+    });
+    const sources=[...groups.values()];
+    const offset=completed%sources.length;
+    for(let i=0;i<Math.min(count,sources.length);i++){
+      const group=sources[(offset+i)%sources.length];
+      selected.push(group[sessionNumber%group.length]);
+    }
+  }else if(config.skill===0){
+    const groups=new Map();
+    bank.forEach(item=>{
+      const topic=item.title.replace(/\s+\u00b7\s+\d+$/,'');
+      if(!groups.has(topic))groups.set(topic,[]);
+      groups.get(topic).push(item);
+    });
+    const topicGroups=[...groups.values()];
+    const offset=(sessionNumber*count)%topicGroups.length;
+    for(let i=0;i<Math.min(count,topicGroups.length);i++){
+      const group=topicGroups[(offset+i)%topicGroups.length];
+      selected.push(group[sessionNumber%group.length]);
+    }
+  }else{
+    const candidates=config.skill===2?bank.filter(item=>item.level===config.level):bank;
+    const pool=candidates.length?candidates:bank;
+    const offset=completed%pool.length;
+    selected=Array.from({length:Math.min(count,pool.length)},(_,i)=>pool[(offset+i)%pool.length]);
   }
+
+  // Topic filter: only the bank's own labels (item title without the numeric suffix) are used.
+  const wantedTopic=String(config.topic||'').trim();
+  let topicReport=null;
+  let onTopicSet=new Set();
+  if(wantedTopic){
+    const levelScope=config.skill===2?bank.filter(item=>item.level===config.level):bank;
+    const scopeBank=levelScope.length?levelScope:bank;
+    const matching=scopeBank.filter(item=>practiceTopicLabel(item).toLowerCase()===wantedTopic.toLowerCase());
+    const shift=matching.length?completed%matching.length:0;
+    const chosen=matching.slice(shift).concat(matching.slice(0,shift)).slice(0,count);
+    const keyOf=item=>(config.skill===1||config.skill===3)?item.source:item.ask;
+    const used=new Set(chosen.map(keyOf));
+    const mixed=[];
+    for(const item of selected.concat(scopeBank.slice(completed%scopeBank.length),scopeBank)){
+      if(chosen.length+mixed.length>=count)break;
+      const key=keyOf(item);
+      if(used.has(key))continue;
+      used.add(key);
+      mixed.push(item);
+    }
+    onTopicSet=new Set(chosen);
+    selected=chosen.concat(mixed);
+    topicReport={topic:wantedTopic,requested:count,available:matching.length,onTopic:chosen.length,mixed:mixed.length,levelScope:config.skill===2?config.level:null};
+  }
+
+  selected.forEach(item=>{
+    const isWriting=config.skill===2;
+    const question={
+      ...item,
+      skill:config.skill,
+      topic:config.skill===0?item.title.replace(/\s+\u00b7\s+\d+$/,''):(item.title||bankName),
+      level:item.level||config.level,
+      levelSource:item.level?'marked':'target',
+      topicMatch:wantedTopic?onTopicSet.has(item):undefined,
+      min:config.min,
+      exact:isWriting?item.title==='Build a Sentence':Boolean(item.exact),
+      tip:item.tip||(config.skill===0?'Give a direct answer, explain your reason and add one specific example.':'')
+    };
+    if(item.other?.length&&item.model)question.opts=makeDistractors(item.model,item.other,item.ask);
+    if(config.skill===0){
+      question.drill=true;
+      question.tip+=' Start with a direct answer, add one detail, then record a second attempt.';
+    }
+    items.push(question);
+  });
+  items.practiceTopic=topicReport;
   return items;
 }
+function practiceTopicLabel(item){return String(item&&item.title||'').replace(/\s+\u00b7\s+\d+$/,'').trim()}
+function practiceTopicOptions(skill){
+  const name={0:'Speaking',1:'Listening',2:'Writing',3:'Reading'}[skill];
+  const counts=new Map();
+  ((typeof practiceBooks!=='undefined'&&practiceBooks[name])||[]).forEach(item=>{const label=practiceTopicLabel(item);if(label)counts.set(label,(counts.get(label)||0)+1)});
+  return [...counts.entries()].sort((a,b)=>a[0].localeCompare(b[0],'en')).map(([label,count])=>({label,count}));
+}
+function practiceNoticeText(report){
+  if(!report||report.onTopic>=report.requested)return '';
+  const scope=report.levelScope?' (уровень '+report.levelScope+')':'';
+  if(!report.onTopic)return 'По теме «'+report.topic+'»'+scope+' в банке нет заданий для этого навыка. Подобрана смешанная практика.';
+  return 'По теме «'+report.topic+'»'+scope+' в банке нашлось только '+report.onTopic+' из '+report.requested+' заданий. Остальные '+report.mixed+' — смешанная практика.';
+}
+function practiceLevelText(q){return q&&q.levelSource==='target'?'цель '+q.level:String(q&&q.level||'')}
 function start(config){
   if(config.plan){const task=exercise(config);if(config.skill===0){task.drill=true;task.tip+=' Сначала собери короткий ответ, затем добавь деталь и запиши вторую версию.'}begin(task);return}
   const items=buildPracticeSet(config);
@@ -196,6 +312,8 @@ function start(config){
   items.forEach((item,index)=>{item.topic=(item.topic||config.topic)+' · '+(index+1)+'/'+items.length});
   db.draft={multi:true,items,index:0,answers:[],q:items[0],answer:'',listened:false,end:Date.now()+totalMinutes*60000};
   persist();
+  const notice=practiceNoticeText(items.practiceTopic);
+  if(notice){modal('<h2>Подбор заданий</h2><p>'+esc(notice)+'</p>'+btn('Начать тренировку','resume()','primary'));return}
   resume();
 }
 function submitAnswer(answer){
@@ -227,7 +345,7 @@ function review(index){
   const explanation=x.issues.length?x.issues.join(' '):(x.correct===null?'В открытом ответе автоматическая оценка не выставляется. Сверь полноту и естественность формулировки.':c.tip||'Сравни свой ответ с образцом.');
   const progress=multi?'<p class="practice-progress">Упражнение '+(d.index+1)+' из '+d.items.length+' · выполнено '+d.answers.length+'</p>':'';
   const action=multi?btn(d.index+1>=d.items.length?'Завершить тренировку':'Следующее упражнение','advancePractice()','primary'):((c.mock&&db.exam)?btn(db.exam.step===4?'Завершить пробник':'Следующее задание','mockNext()','primary'):btn('Попробовать ещё раз','retry('+index+')','primary'));
-  modal('<div class="eyebrow">'+esc(skills[c.skill])+' · '+esc(c.level)+'</div>'+progress+'<h2>Разбор ответа</h2><p>'+esc(c.ask)+'</p><h3 class="feedback-status '+state+'">'+status+'</h3><blockquote class="answer-feedback '+answerState+'">'+esc(x.a)+'</blockquote>'+(x.correct===false&&c.model?'<p class="correct-model"><b>Правильный ответ:</b> '+esc(c.model)+'</p>':'')+(x.correct===null&&hasErrors&&x.edited!==x.a?'<p class="correct-model"><b>Вариант после исправления:</b> '+esc(x.edited)+'</p>':'')+'<p>'+esc(explanation)+'</p>'+(x.correct===true&&c.model?'<p class="correct-model"><b>Образец:</b> '+esc(c.model)+'</p>':'')+(c.audioId?'<audio id="savedAudio" controls></audio>':'')+(x.advice?'<h3>Как улучшить ответ</h3><p>'+esc(x.advice)+'</p>':'')+action);
+  modal('<div class="eyebrow">'+esc(skills[c.skill])+' · '+esc(practiceLevelText(c))+'</div>'+progress+'<h2>Разбор ответа</h2><p>'+esc(c.ask)+'</p><h3 class="feedback-status '+state+'">'+status+'</h3><blockquote class="answer-feedback '+answerState+'">'+esc(x.a)+'</blockquote>'+(x.correct===false&&c.model?'<p class="correct-model"><b>Правильный ответ:</b> '+esc(c.model)+'</p>':'')+(x.correct===null&&hasErrors&&x.edited!==x.a?'<p class="correct-model"><b>Вариант после исправления:</b> '+esc(x.edited)+'</p>':'')+'<p>'+esc(explanation)+'</p>'+(x.correct===true&&c.model?'<p class="correct-model"><b>Образец:</b> '+esc(c.model)+'</p>':'')+(c.audioId?'<audio id="savedAudio" controls></audio>':'')+(x.advice?'<h3>Как улучшить ответ</h3><p>'+esc(x.advice)+'</p>':'')+action);
   if(c.audioId)blobGet(c.audioId).then(blob=>{if(blob&&$('#savedAudio'))$('#savedAudio').src=URL.createObjectURL(blob)});
 }
 function advancePractice(){

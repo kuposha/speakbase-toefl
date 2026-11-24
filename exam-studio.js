@@ -24,15 +24,14 @@ function examCounts(form){return examSections.map((section,i)=>examItems(form,i)
 function examStudioState(){return db.examStudio||(db.examStudio={active:null,history:[]})}
 const oldExamView=extended;
 extended=function(){
-  const view=oldExamView();
-  if(page!==3) return view;
+  if(page!==3) return oldExamView();
   const state=examStudioState();
   const history=state.history.map((attempt,i)=>btn(esc(attempt.date)+' · '+esc(attempt.title),'examReview('+i+')')).reverse().join('');
   return intro('Экзаменационная практика','24 самостоятельных варианта по типам заданий TOEFL iBT 2026. Неофициальный фиксированный маршрут.')+
     section('Варианты по секциям','<label>Вариант<select id="examVariant">'+oralPracticeForms.map((row,i)=>'<option value="'+i+'">'+(i+1)+' · '+esc(row[0])+'</option>').join('')+'</select></label><div id="examChoices">'+examChoices(0)+'</div>'+
     (state.active?btn('Продолжить сохранённую попытку','examShow()','primary'):'')+
     '<p class="note">В полном варианте запись звучит один раз; в отдельных секциях доступно повторное прослушивание. Аудио синтезировано. Время ориентировочное, маршруты неадаптивные. Проверка по ключам — тренировочная; устные и развёрнутые письменные ответы оцениваются самостоятельно по критериям. Это не баллы ETS.</p>')+
-    (history?section('Результаты вариантов',history):'')+view;
+    (history?section('Результаты вариантов',history):'');
 };
 document.addEventListener('change',e=>{
   if(e.target.id==='examVariant') $('#examChoices').innerHTML=examChoices(Number(e.target.value));

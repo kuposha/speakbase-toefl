@@ -3,7 +3,7 @@ const course=fs.readFileSync('course.js','utf8'),app=fs.readFileSync('app.js','u
 const build=course.slice(course.indexOf('function buildLesson(s)'),course.indexOf('function grammarWorkshop'));
 assert(build.indexOf("items.push({stage:1,title:'Полная лекция")>=0);
 assert(build.indexOf("items.push({stage:1,title:'Полная лекция")<build.indexOf('const warm ='),'daily lecture must precede warm-up exercises');
-assert(course.includes("btn(s?'Продолжить занятие':'Начать урок','resumeCurrentSession()','primary')"),'home button must resume the current lesson or start the daily lesson');
+assert(course.includes("btn(s?'Продолжить урок':'Начать урок','resumeCurrentSession()','primary')"),'home button must resume the current lesson or start the daily lesson');
 assert(course.includes('function resumeCourseSession()'),'saved interrupted practice must be resumable');
 assert(app.includes('function pendingCourseSession()'),'dashboard must expose an interrupted practice session');
 assert(app.includes("if(page===8)return grammarLibraryView()"),'grammar catalogue must be routed');

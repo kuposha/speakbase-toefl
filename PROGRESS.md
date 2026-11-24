@@ -86,3 +86,11 @@
 - Multiple-choice questions now generate four unique options with deterministic shuffling; course regression checks every scheduled lesson for option count, uniqueness, and answer-key presence.
 - Checked answers now have explicit green/red status and answer highlighting; incorrect closed-answer tasks show the correct answer separately.
 - `test-course.cjs` passed for both profiles: 808 date/skill combinations, 46 scheduled grammar topics each. Content QA, exam data, and course-content tests passed. Browser QA was run with Edge and Playwright Core installed in a temporary QA folder: 46 lessons and 2,942 UI transitions for Marina; both profiles passed screen, schedule, materials, reload, Speaking, audio, and history checks. Daily lecture, four-option MCQs, red incorrect feedback, and correct-answer display were verified.
+
+
+## Release-readiness status (2026-11-24)
+- Current 2026 TOEFL fixed-route mock studio: 24 complete 120-item variants (Reading 50 / Listening 47 / Writing 12 / Speaking 11), 90 minutes of section base timing, with explicit disclosure that this is not ETS adaptive delivery or official scoring.
+- Removed the old 34-task / 60-minute legacy simulation from the visible TOEFL page to avoid presenting two conflicting mock formats.
+- Dashboard progress now reports 46-lesson course completion separately from practice activity. New exam-studio answers are included in skill activity; only objectively keyed answers contribute to accuracy, while open Writing/Speaking responses remain unscored.
+- Latest regression: goal-progress, practice bank/browser, exam browser, main browser for both profiles, interface and mobile compatibility passed. See QA-REPORT.md and WORK-REPORT.md.
+- Still required before calling the product fully ready: real two-account auth/recovery/sync and authenticated Storage tests; independent editorial/psychometric review; open-response self-review rubrics; Supabase leaked-password protection; explicit release approval, deployment and public verification.

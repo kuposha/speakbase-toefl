@@ -22,6 +22,7 @@ const server=http.createServer((req,res)=>{
  await page.goto('http://127.0.0.1:'+server.address().port);
  const navigate=()=>page.getByRole('button',{name:'Пробный TOEFL',exact:true}).click();
  await navigate();
+ assert.equal(await page.locator('#app').innerText().then(text=>text.includes('34 tasks, 60 minutes')),false,'legacy 34-task simulation must not be shown beside the 2026 exam studio');
  let answers=0,forms=0,sections=0,oralFiles=0;
  const sounds=await page.evaluate(()=>oralPracticeForms.flatMap((row,i)=>examItems(i,3).map(x=>x.audio)));
  assert.equal(new Set(sounds).size,264);
