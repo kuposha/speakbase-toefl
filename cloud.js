@@ -1,3 +1,4 @@
+const APP_URL='https://kuposha.github.io/speakbase-toefl/';
 const cloud = supabase.createClient('https://arkxkmeqrmtgzkbomdmd.supabase.co','sb_publishable_FVDwXlJF5EPTd0KHMTiHRA_pH9L_ATN');
 const accountKey=id=>'speakbase.account.'+id;
 const stampKey=id=>accountKey(id)+'.base';
@@ -16,7 +17,7 @@ function lock(){document.querySelector('main').inert=true;document.querySelector
 function form(recover=false){
  lock();
  gate.innerHTML='<form class="panel stack"><h1>Speakbase</h1><p>'+(recover?'Создай новый пароль для личного аккаунта.':'Вход в личную студию TOEFL')+'</p>'+
- (recover?'':'<label>Email<input name="email" type="email" autocomplete="username" required></label>')+
+ (recover?'':'<label>Email<input name="email" type="email" inputmode="email" autocapitalize="none" spellcheck="false" autocomplete="username" required></label>')+
  '<label>Пароль<input name="password" type="password" autocomplete="'+(recover?'new-password':'current-password')+'" '+(recover?'minlength="8"':'')+' required></label><button class="primary">'+(recover?'Сохранить новый пароль':'Войти')+'</button>'+
  (recover?'':'<button type="button" id="resetPassword">Восстановить пароль</button>')+
  '<p role="status" id="authStatus"></p></form>';
@@ -25,7 +26,7 @@ function form(recover=false){
  if(!recover)gate.querySelector('#resetPassword').onclick=async()=>{
   if(!f.elements.email.reportValidity())return;
   try{
-   const {error}=await cloud.auth.resetPasswordForEmail(f.elements.email.value.trim(),{redirectTo:location.origin+location.pathname});
+   const {error}=await cloud.auth.resetPasswordForEmail(f.elements.email.value.trim(),{redirectTo:APP_URL});
    if(error)throw error;
    hint('Если аккаунт зарегистрирован, на почту придёт ссылка для восстановления.');
   }catch(error){hint(error.message)}
@@ -43,7 +44,10 @@ function form(recover=false){
     if(error)throw error;
     await enter(data.user);
    }
-  }catch(error){hint(error.message)}finally{submit.disabled=false}
+  }catch(error){
+   const message=error?.message||'Не удалось выполнить вход.';
+   hint(error?.code==='invalid_credentials'?'Email или пароль не совпадают. Если пароль забыт, нажми «Восстановить пароль».':/network|fetch|load failed/i.test(message)?'Не удалось подключиться к серверу. Проверь интернет и попробуй ещё раз.':message);
+  }finally{submit.disabled=false}
  };
 }
 const local=localStorage;

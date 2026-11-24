@@ -21,3 +21,55 @@ header .actions{align-items:center}.hero .actions{align-items:center;margin-top:
 .grammar-lecture ul{padding-left:22px;display:grid;gap:9px}
 .grammar-lecture li{line-height:1.6}
 .grammar-lecture small{margin-top:3px}
+
+/* Mobile browser compatibility */
+html{min-width:320px;overflow-x:hidden;-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{min-width:320px;width:100%;overflow-x:hidden}
+.auth-gate{min-height:100vh;min-height:100dvh;overflow-y:auto;align-items:center;padding:calc(18px + env(safe-area-inset-top)) 16px calc(18px + env(safe-area-inset-bottom))}
+.auth-gate form{width:min(420px,100%);margin:auto;max-height:calc(100dvh - 36px - env(safe-area-inset-top) - env(safe-area-inset-bottom));overflow-y:auto}
+.auth-gate input{font-size:16px;min-height:46px}
+.auth-gate button{min-height:44px}
+@media(max-width:810px){
+ aside{position:sticky;top:0;z-index:50;width:100%;padding:calc(10px + env(safe-area-inset-top)) 14px 0;background:#161817}
+ nav{display:flex;overflow-x:auto;overflow-y:hidden;-webkit-overflow-scrolling:touch;scrollbar-width:none;overscroll-behavior-x:contain;padding-bottom:6px}
+ nav::-webkit-scrollbar{display:none}
+ nav button{flex:0 0 auto;min-height:42px;white-space:nowrap;scroll-snap-align:start}
+ main{width:100%;min-width:0;margin:0;padding:0 14px calc(30px + env(safe-area-inset-bottom))}
+ header{min-width:0;gap:8px}
+ header .actions{gap:6px;min-width:0}
+ header #profileSelect{max-width:48vw;overflow:hidden;text-overflow:ellipsis}
+ .layout,.col,.panel,.hero,.focus{min-width:0}
+ .intro{flex-wrap:wrap}
+ .hero p{max-width:100%}
+ .focusgrid{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .task{min-width:0}
+ dialog{width:calc(100vw - 20px);max-width:calc(100vw - 20px);max-height:calc(100dvh - env(safe-area-inset-top) - env(safe-area-inset-bottom) - 20px);margin:auto}
+}
+@media(max-width:450px){
+ aside{padding-left:9px;padding-right:9px}
+ nav{gap:3px}
+ nav button{font-size:12px;padding:8px 9px;gap:7px}
+ nav button svg{width:16px;height:16px}
+ main{padding-left:12px;padding-right:12px}
+ .intro{gap:10px}
+ .intro h1{font-size:29px}
+ .hero{padding:18px;min-height:200px}
+ .hero h2{max-width:100%;font-size:32px;letter-spacing:-1px}
+ .hero p{max-width:100%;font-size:14px}
+ .hero canvas{display:none}
+ .row{flex-wrap:wrap}
+ .task .time{font-size:11px}
+ dialog{padding:22px 16px}
+ .auth-gate{align-items:start;padding-top:calc(16px + env(safe-area-inset-top));padding-bottom:calc(16px + env(safe-area-inset-bottom))}
+ .auth-gate form{max-height:calc(100dvh - 32px - env(safe-area-inset-top) - env(safe-area-inset-bottom))}
+ .auth-gate h1{font-size:32px}
+}
+
+/* Keep the authentication card inside narrow mobile viewports. */
+.auth-gate{grid-template-columns:minmax(0,1fr);width:100%;min-width:0}
+.auth-gate form{width:100%;max-width:420px;min-width:0;box-sizing:border-box}
+.auth-gate label,.auth-gate input{min-width:0}
+
+@media(max-width:600px){.auth-gate{box-sizing:border-box;padding-left:16px;padding-right:16px}.auth-gate form{width:calc(100vw - 32px)!important;max-width:420px;min-width:0;margin-left:auto;margin-right:auto}.auth-gate input{width:100%;max-width:100%}}
+
+@media(max-width:810px){header>span{flex:1 1 auto;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}header .actions{flex:0 1 auto;min-width:0}header #profileSelect{flex:0 1 42vw;width:42vw;max-width:42vw;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;padding:8px 9px}}

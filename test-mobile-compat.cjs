@@ -1,0 +1,13 @@
+const fs=require('node:fs'),assert=require('node:assert/strict');
+const html=fs.readFileSync('index.html','utf8'),css=fs.readFileSync('style.css','utf8'),auth=fs.readFileSync('cloud.js','utf8');
+assert.match(html,/<meta name="viewport" content="width=device-width, initial-scale=1">/i,'mobile viewport must use device width');
+assert.match(css,/@media\s*\(max-width:\s*810px\)/,'tablet/mobile layout breakpoint missing');
+assert.match(css,/overflow-x:auto[^}]*-webkit-overflow-scrolling:touch|overflow-x:auto[^}]*scrollbar-width:none|overflow-x:auto/,'mobile nav must scroll horizontally');
+assert.match(css,/env\(safe-area-inset-top\)/,'safe-area support missing');
+assert.match(css,/100dvh/,'dynamic mobile viewport height support missing');
+assert.match(css,/auth-gate form\{width:calc\(100vw - 32px\)!important/,'auth form must fit narrow phone widths');
+assert.match(auth,/const APP_URL='https:\/\/kuposha\.github\.io\/speakbase-toefl\/'/,'recovery must use hosted app URL, never localhost');
+assert.match(auth,/resetPasswordForEmail\([^\n]+redirectTo:APP_URL/,'password recovery must redirect to hosted app');
+assert.match(auth,/inputmode="email" autocapitalize="none"/,'email field must be mobile-friendly');
+assert.match(auth,/invalid_credentials/,'login errors should explain incorrect credentials');
+console.log('Mobile compatibility checks passed: viewport, safe areas, scrolling navigation, phone-sized login form and hosted password recovery URL.');
