@@ -147,3 +147,42 @@ header #profileSelect{min-width:0;max-width:100%}
  .irregular-list span,.time-marker-list span{font-size:12px;overflow-wrap:anywhere}
  .grammar-warning{font-size:14px}
 }
+
+/* Mobile top bar: keep the brand, page title, theme and profile in predictable rows. */
+@media(max-width:810px){
+  html{scrollbar-gutter:auto}
+  aside{padding-top:calc(8px + env(safe-area-inset-top))}
+  .brand{padding-right:48px}
+  .brand span{display:none}
+  header{display:flex;flex-direction:row;justify-content:space-between;align-items:center;min-height:54px;height:auto;padding:9px 0;gap:8px}
+  header>span{flex:1 1 auto;min-width:0;max-width:none;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:12px}
+  header .actions{display:flex;flex:0 0 auto;align-items:center;justify-content:flex-end;gap:0;min-width:0;width:auto}
+  header #date{display:none}
+  header #profileSelect{display:flex;flex:0 1 auto;width:auto;min-width:0;max-width:46vw;min-height:40px;padding:7px 10px;font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  header #themeToggle{position:fixed;top:calc(env(safe-area-inset-top) + 7px);right:var(--mobile-gutter);z-index:102;display:grid;place-items:center;flex:0 0 40px;width:40px;min-width:40px;max-width:40px;height:40px;min-height:40px;padding:0;border-radius:12px;font-size:0;line-height:1}
+  header #themeToggle::before{content:'☀';font-size:19px;line-height:1}
+  :root[data-theme="light"] header #themeToggle::before{content:'☾'}
+  nav{scroll-padding-inline:var(--mobile-gutter);scroll-snap-type:x proximity}
+  nav button{scroll-snap-align:start}
+}
+@media(max-width:540px){
+  header{min-height:52px;padding:8px 0;gap:7px}
+  header>span{font-size:11px}
+  header #profileSelect{max-width:45vw;min-height:40px;padding:7px 9px;font-size:11px}
+  header em{margin:0 3px}
+}
+@media(max-width:360px){
+  header{gap:5px}
+  header>span{font-size:10px}
+  header #profileSelect{max-width:44vw;padding-inline:7px;font-size:10px}
+}
+
+@media(max-width:810px){
+  header>span{flex:0 1 48%;max-width:48%}
+  header .actions{flex:0 1 52%;width:52%;min-width:0}
+  header #profileSelect{width:100%;max-width:100%;justify-content:center}
+}
+@media(max-width:360px){
+  header>span{flex-basis:46%;max-width:46%}
+  header .actions{flex-basis:54%;width:54%}
+}
