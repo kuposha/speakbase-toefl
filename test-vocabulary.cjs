@@ -11,8 +11,9 @@ assert.equal(new Set(entries.map(x=>x[2])).size,41,'only the repeated make progr
 assert.equal(entries.filter(x=>x[2]==='make progress').length,2,'make progress remains in both categories');
 assert.equal(entries.filter(x=>x[0]==='Daily Life & Routine').length,14);
 assert.equal(entries.filter(x=>x[0]==='Education & Academic Life').length,28,'all supplied education subsection entries are included');
-assert.ok(app.includes("activeProfile==='marina'&&!db.vocabulary"),'dictionary seed is created only in Marina profile');
-assert.ok(app.includes("i!==9||activeProfile==='marina'"),'dictionary navigation is hidden for Vladlen');
+assert.ok(app.includes("activeProfile==='marina'?vocabularySeed.map"),'Marina receives the starter vocabulary while Vladlen starts with an empty list');
+assert.ok(app.includes("names.map((s,i)=>({s,i})).map"),'dictionary navigation is available in both profiles');
+assert.ok(app.includes('function addVocabularyWord(returnToTask=false)'),'users can add vocabulary manually and from a lesson');
 assert.ok(app.includes("function reviewVocabulary"),'spaced repetition controls exist');
 assert.ok(app.includes('function vocabularyExample(word)'),'each expression has a contextual example sentence');
 assert.ok(html.includes('id="mobileMenuToggle"')&&html.includes('id="navBackdrop"'),'mobile hamburger controls exist');

@@ -103,6 +103,13 @@ async function run() {
         assert.match(await page.locator('#box .eyebrow').first().innerText(),/[0-9]+.*[а-яa-z]+/i);
         assert.ok(await page.locator('.grammar-lecture').isVisible(),'daily lesson must begin with the full grammar lecture');
         await click('#box button.primary');
+        const lessonStep=await page.evaluate(()=>courseState().session.pos);
+        await click('[onclick="addVocabularyWord(\'lesson\')"]');
+        await page.locator('#newVocabEn').fill('lesson vocabulary '+profile);
+        await page.locator('#newVocabRu').fill('слово из урока');
+        await click('#vocabAddForm button.primary');
+        await page.locator('#lessonForm').waitFor();
+        assert.equal(await page.evaluate(()=>courseState().session.pos),lessonStep,'adding vocabulary must return to the same daily lesson step');
         for(let n=0;n<5;n++){
           const choices=await page.locator('#lessonAnswer option').count();
           assert.equal(choices,5,'four answer choices plus placeholder');
