@@ -181,3 +181,14 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,te
 #mobileMenuToggle{display:none}
 
 .vocab-example{margin-top:7px;color:var(--muted);font-size:13px;font-style:italic;line-height:1.45}
+
+/* Full-screen lesson lecture */
+dialog.lesson-fullscreen{position:fixed;inset:0;width:100vw;max-width:none;height:100dvh;max-height:none;margin:0;padding:clamp(20px,4vw,52px);border:0;border-radius:0;overflow-y:auto;overscroll-behavior:contain;box-sizing:border-box}
+dialog.lesson-fullscreen .stack{width:min(100%,980px);margin:0 auto;gap:18px}
+dialog.lesson-fullscreen .grammar-lecture{gap:17px}
+dialog.lesson-fullscreen .grammar-lecture h3{font-size:clamp(25px,3vw,36px)}
+dialog.lesson-fullscreen .grammar-lecture p,dialog.lesson-fullscreen .grammar-lecture li{font-size:16px;line-height:1.8}
+dialog.lesson-fullscreen .lecture-tools{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.lecture-extra{padding:18px;border:1px solid var(--line);border-radius:12px;background:var(--surface-raised);line-height:1.75}
+.lecture-extra[hidden]{display:none}
+@media(max-width:600px){dialog.lesson-fullscreen{padding:calc(18px + env(safe-area-inset-top)) 16px calc(22px + env(safe-area-inset-bottom))}dialog.lesson-fullscreen .stack{gap:14px}dialog.lesson-fullscreen .grammar-lecture p,dialog.lesson-fullscreen .grammar-lecture li{font-size:15px}}\n
