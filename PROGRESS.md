@@ -56,3 +56,10 @@
 - Packaged pages locally; all test suites listed above passed.
 - Fixed test harness committed and pushed: 29a8c4b. Working tree clean.
 - Real Supabase authentication/cross-device sync cannot be verified in this run: disposable QA credentials are not configured (QA_ACCOUNTS absent). No real credentials requested or exposed. Editorial/psychometric calibration remains outstanding.
+
+
+## Calendar topic coverage correction (2026-11-24)
+- Marina's dated calendar previously began at grammar unit index 3, so the 404-day route only exposed 43 of 46 topics. Changed the calendar progression to include the entire 46-topic sequence for both profiles; catalog/progress state remains separate.
+- Strengthened test-course.cjs to assert all 46 topics are scheduled for each profile across the full 404-date span.
+- Strengthened test-browser.cjs to assert 46 unique calendar topics for each profile.
+- Both profiles now pass coverage: 404 dates, 46 topics, 808 date/skill builds each. Browser regression passed for both profiles; Marina also completed all 46 lesson catalog flows.

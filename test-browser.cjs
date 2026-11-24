@@ -68,6 +68,7 @@ async function run() {
           return {dates,topics:seen.size};
         });
         assert.equal(calendar.dates,404);
+        assert.equal(calendar.topics,46,'calendar should cover all 46 grammar topics');
         console.log(profile,JSON.stringify(calendar));
         await click('[onclick="editPlan()"]');
         await page.locator('#p0mn').fill('32');

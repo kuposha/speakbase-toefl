@@ -16,7 +16,7 @@ function dayProgram(k){
  const selected=Date.UTC(date.getFullYear(),date.getMonth(),date.getDate());
  const elapsed=Math.max(0,Math.min(calendarEnd-calendarStart,selected-calendarStart))/calendarDay;
  const week=Math.floor(elapsed/7), weekday=elapsed%7;
- const first=activeProfile==='marina'?3:0;
+ const first=0;
  const last=units.length-1;
  const current=Math.min(last,first+Math.floor(week*(last-first)/53));
  const previous=Math.max(first,current-1-(week%3));

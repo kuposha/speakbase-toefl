@@ -15,9 +15,11 @@ for (const profile of ['marina','vladlen']) {
   const totals = run(`(() => {
     let count = 0;
     const readings = new Set(), recordings = new Set();
+    const scheduledTopics = new Set();
     for (let time = calendarStart; time <= calendarEnd; time += calendarDay) {
       const lessonDate = new Date(time).toISOString().slice(0, 10);
       const {unit} = dayProgram(lessonDate);
+      scheduledTopics.add(unit);
       for (const last of ['Reading','Writing']) {
         const items = buildLesson({unit,last,lessonDate});
         const stages = new Set(items.map(item => item.stage));
@@ -30,11 +32,12 @@ for (const profile of ['marina','vladlen']) {
         count++;
       }
     }
-    return [count,readings.size,recordings.size];
+    return [count,readings.size,recordings.size,scheduledTopics.size];
   })()`);
+  assert.equal(totals[3],46,profile+' calendar must cover every grammar topic');
   assert.equal(totals[0],808);
   assert.equal(totals[1],100);
   assert(totals[2]>=8);
-  console.log(profile + ': ' + totals[0] + ' date/skill combinations, ' + totals[1] + ' Reading texts, ' + totals[2] + ' Listening scripts');
+  console.log(profile + ': ' + totals[0] + ' date/skill combinations, ' + totals[1] + ' Reading texts, ' + totals[2] + ' Listening scripts, '+totals[3]+' scheduled grammar topics');
 }
 
