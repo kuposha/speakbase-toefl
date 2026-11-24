@@ -1,0 +1,11 @@
+const assert=require('node:assert/strict');
+const fs=require('node:fs');const vm=require('node:vm');const app=fs.readFileSync('app.js','utf8');
+const start=app.indexOf('function fromHex(value){'),end=app.indexOf('function goalCard(){',start);assert.ok(start>=0&&end>start,'goal progress calculator exists');
+const context=vm.createContext({db:{h:[],tests:[],course:{reports:[]}}});vm.runInContext(app.slice(start,end)+';globalThis.calculate=goalProgress',context);
+const initial=context.calculate();assert.equal(initial.score,0);assert.equal(initial.lessons,0);
+context.db.course.reports=Array.from({length:23},(_,i)=>({date:'2026-11-'+String(i+1).padStart(2,'0'),name:'Lesson '+i}));
+context.db.h=Array.from({length:20},(_,i)=>({q:{skill:i%4},correct:i%5!==0}));
+context.db.tests=[{closed:10,right:8,answers:[]}];
+const updated=context.calculate();assert.ok(updated.score>initial.score,'completed learning must move the indicator');assert.equal(updated.lessons,23);assert.equal(updated.tasks,20);assert.equal(updated.tests,1);assert.ok(updated.score<=100);
+context.db.course.reports.push({date:'2026-11-01',name:'Lesson 0'});assert.equal(context.calculate().lessons,23,'duplicate lesson report must not inflate lesson count');
+console.log('Goal progress calculation passed: lessons, four-skill practice, accuracy, mock exams, duplicate protection and 0?100 bounds.');

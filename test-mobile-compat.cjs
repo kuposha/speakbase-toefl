@@ -1,10 +1,10 @@
 const fs=require('node:fs'),assert=require('node:assert/strict');
 const html=fs.readFileSync('index.html','utf8'),css=fs.readFileSync('style.css','utf8'),mobile=fs.readFileSync('mobile.css','utf8'),auth=fs.readFileSync('cloud.js','utf8');
 assert.ok(html.includes('name="viewport" content="width=device-width, initial-scale=1"'),'mobile viewport must use device width');
-assert.ok(html.includes('href="style.css?v=20261124-ui"'),'base CSS cache must be refreshed for the numbered lesson layout');
-assert.ok(html.includes('href="mobile.css?v=20261124-mobile-header"'),'responsive stylesheet must load after base CSS');
+assert.ok(html.includes('href="style.css?v=20261124-goal-progress"'),'base CSS cache must be refreshed for the numbered lesson layout');
+assert.ok(html.includes('href="mobile.css?v=20261124-goal-progress"'),'responsive stylesheet must load after base CSS');
 assert.ok(html.includes('src="course.js?v=20261124-ui"'),'numbered grammar lesson content must not use a stale cached script');
-assert.ok(html.includes('src="app.js?v=20261124-mobile-header"'),'mobile navigation behavior must not use a stale cached script');
+assert.ok(html.includes('src="app.js?v=20261124-goal-progress"'),'mobile navigation behavior must not use a stale cached script');
 assert.ok(mobile.includes('header #themeToggle{position:fixed'),'theme control must share the compact mobile brand row');
 assert.ok(mobile.includes('header>span{flex:0 1 48%;max-width:48%}'),'mobile breadcrumb must have a predictable width');
 assert.ok(mobile.includes('header #profileSelect{width:100%;max-width:100%'),'profile selector must fill its mobile column');

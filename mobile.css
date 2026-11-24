@@ -186,3 +186,4 @@ header #profileSelect{min-width:0;max-width:100%}
   header>span{flex-basis:46%;max-width:46%}
   header .actions{flex-basis:54%;width:54%}
 }
+@media(max-width:450px){.goal-target{font-size:15px}.goal-percent{font-size:27px}.goal-stats{font-size:10px;gap:5px}.goal-caption{font-size:11px}}
