@@ -44,3 +44,15 @@
 - [x] Supabase configuration audit: two personal confirmed profiles, owner-only progress/storage policies, private user-files bucket. Real sign-in and cross-device sync require authorized account access and remain unverified.
 - [ ] Independent editorial and psychometric calibration of the entire bank (not a validated ETS adaptive exam).
 - [ ] Confirm deployment of this revision on GitHub Pages.
+
+
+## QA continuation (2026-11-24)
+- Installed Playwright Core globally on the development machine (no project dependency changes).
+- Fixed local browser-test server allowlist/MIME handling for the existing favicon.svg; this removed a false 404 regression.
+- Re-ran content, course and exam data tests successfully: 46 grammar units; 808 date/skill combinations per profile; 100 Reading and 120 Listening source counts per profile; 24/24 fixed-route forms with 2,880 distinct exam items.
+- Re-ran local browser regression successfully in Edge: both synthetic profiles, 46 lessons, 2,942 UI transitions, schedule editing, reload, audio and history; no favicon or page errors.
+- Re-ran exam browser test successfully: 24 forms, 96 sections, 2,880 responses, audio playback, persisted state, simulated microphone and timer expiry; no browser errors.
+- Re-ran public-site browser test successfully: published site returned HTTP 200 and passed desktop (1440px) and mobile (390px) checks, including 24-form bank and auth gate.
+- Packaged pages locally; all test suites listed above passed.
+- Fixed test harness committed and pushed: 29a8c4b. Working tree clean.
+- Real Supabase authentication/cross-device sync cannot be verified in this run: disposable QA credentials are not configured (QA_ACCOUNTS absent). No real credentials requested or exposed. Editorial/psychometric calibration remains outstanding.
