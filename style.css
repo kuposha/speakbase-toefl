@@ -73,3 +73,21 @@ body{min-width:320px;width:100%;overflow-x:hidden}
 @media(max-width:600px){.auth-gate{box-sizing:border-box;padding-left:16px;padding-right:16px}.auth-gate form{width:calc(100vw - 32px)!important;max-width:420px;min-width:0;margin-left:auto;margin-right:auto}.auth-gate input{width:100%;max-width:100%}}
 
 @media(max-width:810px){header>span{flex:1 1 auto;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}header .actions{flex:0 1 auto;min-width:0}header #profileSelect{flex:0 1 42vw;width:42vw;max-width:42vw;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;padding:8px 9px}}
+
+.lesson-kicker{display:inline-flex;align-items:center;gap:7px;color:var(--lime);font-size:11px;font-weight:800;letter-spacing:.14em}
+.lesson-kicker span{color:var(--muted);letter-spacing:.08em}
+.lecture-section{display:grid;gap:9px;padding:14px 0;border-top:1px solid var(--line)}
+.lecture-section h4{margin:0!important}
+.lecture-section p{margin:0}
+.grammar-formula-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,185px),1fr));gap:9px}
+.grammar-formula{display:grid;gap:7px;min-width:0;padding:13px;border:1px solid var(--line);border-radius:10px;background:#171a18}
+.grammar-formula b{color:var(--muted);font-size:12px}
+.grammar-formula strong{color:var(--lime);font-size:15px;overflow-wrap:anywhere}
+.grammar-formula span{font-size:14px}
+.grammar-formula small{color:var(--muted);font-size:12px}
+.irregular-list,.time-marker-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:8px}
+.irregular-list span,.time-marker-list span{padding:9px 11px;border:1px solid var(--line);border-radius:8px;background:#171a18;font-size:13px}
+.lecture-example{padding:11px 13px;border-left:2px solid var(--lime);background:#171a18;border-radius:0 8px 8px 0}
+.grammar-warning{padding:12px 14px;border-left:2px solid #e4b65c;background:#252218;border-radius:0 8px 8px 0;line-height:1.65}
+.wrong-example{text-decoration:line-through;color:#e18c8c}
+.grammar-lecture .hist{padding:12px;border:1px solid var(--line);border-radius:9px;background:#171a18}

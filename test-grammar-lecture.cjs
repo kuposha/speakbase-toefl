@@ -11,4 +11,8 @@ const data=JSON.parse(vm.runInNewContext(src,context));
 assert(!course.includes('\uFFFD'),'course source must not contain replacement characters');
 for(const key of ['count','notes','practice','context','translations','deepDive'])assert.equal(data[key],46,key+' must contain all 46 topics');
 for(let i=0;i<46;i++){assert(data.html[i].includes('Перевод:'),'topic '+i+' missing translation');assert(data.html[i].includes('Подробное объяснение и нюансы'),'topic '+i+' missing deep explanation');assert(!data.html[i].includes('undefined'),'topic '+i+' has undefined content');}
-console.log('Grammar lecture QA passed: daily lecture first; 46/46 full lecture pages render with translation, detailed explanation, examples and common errors.');
+const past=data.html[3];
+for(const phrase of ['LESSON 04','Subject + V2','Subject + did not + V1','Did + subject + V1?','was / were','yesterday','last night / week / year','did they buy'])assert(past.toLowerCase().includes(phrase.toLowerCase()),'Past Simple lecture missing: '+phrase);
+assert(data.html[4].includes('LESSON 05'),'next lesson must be numbered Lesson 05');
+for(const phrase of ['Повтори неправильные глаголы','Did you go?','What did you find, buy or learn','минимум три неправильных глагола'])assert(data.html[4].toLowerCase().includes(phrase.toLowerCase()),'Lesson 05 consolidation missing: '+phrase);
+console.log('Grammar lecture QA passed: 46/46 numbered lessons render; Lesson 04 includes complete Past Simple forms, irregular verbs, was/were, time markers and common errors.');

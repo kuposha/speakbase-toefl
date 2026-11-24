@@ -13,6 +13,13 @@ run(segment(read('course.js'), 'function makeDistractors', 'function buildLesson
 run(segment(read('course.js'), 'function buildLesson', 'function grammarWorkshop'));
 for (const profile of ['marina','vladlen']) {
   run('activeProfile='+JSON.stringify(profile));
+  if(profile==='marina'){
+    assert.equal(run("dayProgram('2026-11-24').unit"),3,'Marina resumes at Lesson 04 on 24 November');
+    assert.equal(run("dayProgram('2026-11-25').unit"),4,'Marina continues with Lesson 05 the next day');
+  } else {
+    assert.equal(run("dayProgram('2026-11-24').unit"),0,'Vladlen starts at Lesson 01 without inheriting Marina\'s progress');
+    assert.equal(run("dayProgram('2026-11-25').unit"),1,'Vladlen continues with Lesson 02 the next day');
+  }
   const totals = run(`(() => {
     let count = 0;
     const readings = new Set(), recordings = new Set();

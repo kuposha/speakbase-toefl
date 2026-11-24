@@ -15,13 +15,10 @@ function dayProgram(k){
  const date=dateObj(k);
  const selected=Date.UTC(date.getFullYear(),date.getMonth(),date.getDate());
  const elapsed=Math.max(0,Math.min(calendarEnd-calendarStart,selected-calendarStart))/calendarDay;
- const week=Math.floor(elapsed/7), weekday=elapsed%7;
- const first=0;
- const last=units.length-1;
- const current=Math.min(last,first+Math.floor(week*(last-first)/53));
- const previous=Math.max(first,current-1-(week%3));
- const sequence=[current,previous,current,Math.max(first,current-2),current,previous,current];
- const unit=sequence[weekday];
+ const weekday=elapsed%7;
+ const elapsedDays=Math.floor(elapsed);
+ const startUnit=activeProfile==='marina'?2:0;
+ const unit=activeProfile==='marina'?(startUnit+elapsedDays)%units.length:Math.max(0,elapsedDays-1)%units.length;
  return {unit,focus:calendarFocus[weekday],minutes:weekday<5?110:120,review:weekday===6};
 }
 function scheduledUnit(k){return dayProgram(k).unit}
