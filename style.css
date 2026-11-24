@@ -179,3 +179,5 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,te
 @media(max-width:540px){.vocab-summary{grid-template-columns:repeat(2,minmax(0,1fr))}.vocab-toolbar{grid-template-columns:1fr}.vocab-word h3{font-size:18px}}
 
 #mobileMenuToggle{display:none}
+
+.vocab-example{margin-top:7px;color:var(--muted);font-size:13px;font-style:italic;line-height:1.45}
