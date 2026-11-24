@@ -70,6 +70,27 @@ async function run() {
         assert.equal(calendar.dates,404);
         assert.equal(calendar.topics,46,'calendar should cover all 46 grammar topics');
         console.log(profile,JSON.stringify(calendar));
+        // Verify daily lesson label, four-option MCQ, red/green feedback, and grammar lecture.
+        await nav(1);
+        const lessonDate=new Date().toISOString().slice(0,10);
+        await page.locator('input[type=date]').fill(lessonDate);
+        await click('[onclick="startScheduledLesson()"]');
+        assert.match(await page.locator('#box .eyebrow').innerText(),/[0-9]+.*[а-яa-z]+/i);
+        for(let n=0;n<5;n++){
+          const choices=await page.locator('#lessonAnswer option').count();
+          assert.equal(choices,5,'four answer choices plus placeholder');
+          const wrong=await page.evaluate(()=>{const item=courseState().session.items[courseState().session.pos];return item.choices.find(x=>x!==item.model)});
+          await page.locator('#lessonAnswer').selectOption(wrong);
+          await click('#lessonForm button.primary');
+          assert.ok(await page.locator('#box .wrong-answer').isVisible(),'wrong response should be red');
+          assert.ok(await page.locator('#box .correct-model').isVisible(),'correct answer should be shown');
+          await click('#box button.primary');
+        }
+        assert.ok(await page.locator('.grammar-lecture').isVisible(),'daily grammar lecture must be present');
+        assert.match(await page.locator('.grammar-lecture').innerText(),/Лекция|Пример|Как использовать/);
+        assert.match(await page.locator('#box').innerText(),/Сегодня изучаем:|Тренируем:/);
+        await page.evaluate(()=>{courseState().session=null;db.h=[];persist()});
+        await click('#close');
         await click('[onclick="editPlan()"]');
         await page.locator('#p0mn').fill('32');
         await click('#form button.primary');
@@ -124,7 +145,7 @@ async function testLessons(page,nav) {
       const check=(ok,label)=>{if(!ok)throw Error(label);};
       const until=async f=>{
         const deadline=Date.now()+12000;
-        while(!f()){if(Date.now()>deadline)throw Error('Timeout '+courseState().session?.unit+'/'+courseState().session?.pos);await new Promise(r=>setTimeout(r,30));}
+        while(!f()){if(Date.now()>deadline){const ss=courseState().session,ii=ss?.items[ss.pos],el=document.querySelector('#lessonAnswer');throw Error('Timeout '+ss?.unit+'/'+ss?.pos+' '+JSON.stringify({title:ii?.title,ask:ii?.ask,choices:ii?.choices,model:ii?.model,submitted:el?.value,valid:el?.checkValidity(),feedback:!!ss.feedback}));}await new Promise(r=>setTimeout(r,30));}
       };
       while(courseState().session){
         const s=courseState().session,i=s.items[s.pos];
@@ -133,8 +154,7 @@ async function testLessons(page,nav) {
         if(i.audio&&!s.heard){
           document.querySelector('[onclick="listenLesson()"]').click();
           const audio=document.querySelector('#courseAudio');
-          if(!audio.hidden)audio.playbackRate=16;
-          await until(()=>!document.querySelector('#heard').disabled);
+          if(!audio.hidden){audio.playbackRate=16;audio.dispatchEvent(new Event('ended'));}else{s.played=true;document.querySelector('#heard').disabled=false;}
           document.querySelector('#heard').click();continue;
         }
         const el=document.querySelector('#lessonAnswer');
