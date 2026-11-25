@@ -1,0 +1,743 @@
+{
+  "id": "A2-12",
+  "level": "A2",
+  "sequence": "A2-12",
+  "grammarFamily": "A2-12",
+  "questionBankSource": "topic-specific-authored",
+  "sourceVerification": "draft; selected source text consulted; complete source-page and learner review pending",
+  "topicProfile": {
+    "label": "basic gerund and infinitive patterns",
+    "skillTarget": "gerund-infinitive-basic",
+    "core": "Gerund и infinitive — неличные формы глагола. В этой теме изучаем, какая форма используется после другого глагола: enjoy reading, want to read, can read. Русский перевод часто одинаков («читать»), поэтому нужно запоминать английский глагол вместе с его моделью. Форма -ing здесь не является автоматически Continuous: I enjoy reading — это Present Simple глагола enjoy.",
+    "form": "| Модель | Частотные глаголы | Пример |\n|---|---|---|\n| verb + V-ing | enjoy, finish, avoid, mind, suggest, keep | I enjoy reading. |\n| verb + to + V1 | want, hope, decide, plan, agree, promise, learn, need | We plan to study. |\n| verb + object + to V1 | want, ask, tell, advise, invite | She asked me to wait. |\n| modal + V1 | can, should, must | I can swim. |\n| make/let + person + V1 | make, let | Let me explain. |\n| help + (to) V1 | help | Help me (to) carry it. |\n| preposition + V-ing | interested in, good at, before, after | She's good at drawing. |\n| would like + to V1 | конкретное желание | I'd like to join. |",
+    "selection": "Найди первый глагол или предлог, который определяет форму следующего. Если это enjoy/finish/avoid/mind/suggest, обычно выбирай -ing. Если decide/hope/plan/want/learn/agree/promise — to V1. Если перед формой стоит modal, используй V1 без to. Если действие выполняет другой человек, проверь наличие object: I want to leave (я хочу уйти); I want you to leave (я хочу, чтобы ты ушла).",
+    "contrast": "| Пример | Значение |\n|---|---|\n| I enjoy studying. | Мне нравится заниматься. |\n| I want to study. | Я хочу заниматься. |\n| I want you to study. | Я хочу, чтобы ты занималась. |\n| I like reading. | Мне нравится чтение. |\n| I'd like to read this book. | Я хотела бы прочитать эту книгу. |\n| I stopped reading. | Я прекратила читать. |\n| I stopped to read the sign. | Я остановилась, чтобы прочитать вывеску. |",
+    "boundary": "Не ставь to после suggest в модели suggest doing: She suggested studying together. Возможна отдельная модель suggest that we study together, но не suggest us to study в обычной стандартной конструкции. Mind + V-ing, включая Would you mind opening the window? Help допускает to и bare infinitive; поэтому задание не должно объявлять один из этих вариантов ошибкой без специального требования. Make/let + object + V1: They made me wait, Let me go. В пассиве make требует to (I was made to wait) — позднейшая тема.",
+    "pronunciation": "To перед инфинитивом в связной речи часто безударно. В I'd like to LEARN выделяется смысловой глагол. Произноси -ing в reading, studying как /ɪŋ/ без добавочного /g/. Различай I like READING и I'd like to READ по всей фразе. Сокращение I'd здесь означает I would. Отдельная фонетическая сверка и аудиоматериалы ещё не проверены.",
+    "examples": [
+      [
+        "I enjoy listening to podcasts.",
+        "Мне нравится слушать подкасты.",
+        "Enjoy + V-ing."
+      ],
+      [
+        "She decided to join the club.",
+        "Она решила вступить в клуб.",
+        "Decide + to-infinitive."
+      ],
+      [
+        "We finished writing the report.",
+        "Мы закончили писать отчёт.",
+        "Finish + V-ing."
+      ],
+      [
+        "He asked me to send the link.",
+        "Он попросил меня отправить ссылку.",
+        "Ask + object + to V1."
+      ],
+      [
+        "I'd like to practise speaking.",
+        "Я хотела бы попрактиковаться в разговоре.",
+        "Would like + to; practise + -ing."
+      ],
+      [
+        "She's interested in learning Italian.",
+        "Она заинтересована в изучении итальянского.",
+        "Preposition in + -ing."
+      ]
+    ],
+    "traps": [
+      [
+        "I enjoy to read.",
+        "I enjoy reading.",
+        "Enjoy требует -ing."
+      ],
+      [
+        "He decided going home.",
+        "He decided to go home.",
+        "Decide + to V1."
+      ],
+      [
+        "She wants me help her.",
+        "She wants me to help her.",
+        "Want + object + to V1."
+      ],
+      [
+        "I can to swim.",
+        "I can swim.",
+        "После modal bare infinitive."
+      ],
+      [
+        "Would you mind to wait?",
+        "Would you mind waiting?",
+        "Mind требует -ing."
+      ]
+    ],
+    "toefl": "В Listening распознавай намерения, рекомендации, просьбы и предпочтения: The tutor suggested reviewing the notes; The student decided to revise. В Speaking употребляй устойчивые verb patterns, когда рассказываешь о хобби и планах. В Writing Email используй I'd like to ask…, Could you help me find…?. В Build a Sentence проверяй, какую форму требует первый глагол. Это авторская практика, не официальное задание ETS."
+  },
+  "title": "Basic gerund and infinitive patterns",
+  "description": "Использовать -ing и to-infinitive после частотных глаголов и выражений предпочтения",
+  "cardDescription": "Теория, guided practice, самостоятельные задания и выходная проверка по постоянному ID A2-12.",
+  "eyebrow": "Полный урок программы A2-12 · drafted",
+  "contentVersion": "1.1-draft",
+  "curriculumVersion": "1.0",
+  "prerequisites": [
+    "A1-05",
+    "A1-13"
+  ],
+  "outcomes": [
+    "Использовать -ing и to-infinitive после частотных глаголов и выражений предпочтения",
+    "Выбирать целевую конструкцию по контексту и смыслу.",
+    "Исправлять типичные ошибки и переносить правило в новый пример."
+  ],
+  "sourceRefs": [
+    "GR-01 U52-55",
+    "GR-02 U53-55",
+    "GR-02 U58-60",
+    "GR-03 U30-31",
+    "GR-05 A2 p58-71"
+  ],
+  "sourceStatus": "selected source text consulted; full page verification pending",
+  "status": "drafted",
+  "legacyCoverage": "Полное ядро",
+  "toeflLinks": [
+    "Writing: Build a Sentence",
+    "Writing: Write an Email"
+  ],
+  "thresholds": {
+    "independent": 7,
+    "exit": 4,
+    "criticalIds": [
+      "E1",
+      "E2",
+      "E3"
+    ]
+  },
+  "groups": {
+    "independent": "Самостоятельная практика",
+    "exit": "Выходная проверка"
+  },
+  "items": [
+    {
+      "id": "D1",
+      "group": "Входная диагностика",
+      "prompt": "Complete the enjoyment pattern: I enjoy ___ short stories.",
+      "options": [
+        "to read",
+        "reading",
+        "read"
+      ],
+      "answer": "reading",
+      "accepted": [
+        "reading"
+      ],
+      "why": "Enjoy + V-ing.",
+      "distractorWhy": "To-infinitive не модель enjoy.",
+      "distractorRationales": {
+        "to read": "To-infinitive не модель enjoy.",
+        "read": "Bare infinitive не подходит."
+      },
+      "skillTarget": "gerund-infinitive-basic",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D2",
+      "group": "Входная диагностика",
+      "prompt": "We decided ___ at home this evening.",
+      "options": [
+        "to study",
+        "studying",
+        "study"
+      ],
+      "answer": "to study",
+      "accepted": [
+        "to study"
+      ],
+      "why": "Decide + to V1.",
+      "distractorWhy": "Studying не обычная модель decide.",
+      "distractorRationales": {
+        "studying": "Studying не обычная модель decide.",
+        "study": "Пропущено to."
+      },
+      "skillTarget": "gerund-infinitive-basic",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D3",
+      "group": "Входная диагностика",
+      "prompt": "She finished ___ her homework before dinner.",
+      "options": [
+        "to write",
+        "write",
+        "writing"
+      ],
+      "answer": "writing",
+      "accepted": [
+        "writing"
+      ],
+      "why": "Finish + V-ing.",
+      "distractorWhy": "To write не модель finish.",
+      "distractorRationales": {
+        "to write": "To write не модель finish.",
+        "write": "Write без -ing неверно."
+      },
+      "skillTarget": "gerund-infinitive-basic",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D4",
+      "group": "Входная диагностика",
+      "prompt": "Choose the correct model with avoid.",
+      "options": [
+        "Avoid to touch the screen.",
+        "Avoid touching the screen.",
+        "Avoid touch the screen."
+      ],
+      "answer": "Avoid touching the screen.",
+      "accepted": [
+        "Avoid touching the screen."
+      ],
+      "why": "Avoid + V-ing.",
+      "distractorWhy": "После avoid не нужен to-infinitive.",
+      "distractorRationales": {
+        "Avoid to touch the screen.": "После avoid не нужен to-infinitive.",
+        "Avoid touch the screen.": "V1 не подходит."
+      },
+      "skillTarget": "gerund-infinitive-basic",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G1",
+      "group": "Управляемая практика",
+      "prompt": "I hope ___ the course next month.",
+      "options": [
+        "to start",
+        "starting",
+        "start"
+      ],
+      "answer": "to start",
+      "accepted": [
+        "to start"
+      ],
+      "why": "Hope + to V1.",
+      "distractorWhy": "Starting не модель hope.",
+      "distractorRationales": {
+        "starting": "Starting не модель hope.",
+        "start": "Пропущено to."
+      },
+      "skillTarget": "gerund-infinitive-basic",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G2",
+      "group": "Управляемая практика",
+      "prompt": "They agreed ___ the cost.",
+      "options": [
+        "sharing",
+        "share",
+        "to share"
+      ],
+      "answer": "to share",
+      "accepted": [
+        "to share"
+      ],
+      "why": "Agree + to V1 выражает согласие действовать.",
+      "distractorWhy": "Sharing не подходит в этой модели.",
+      "distractorRationales": {
+        "sharing": "Sharing не подходит в этой модели.",
+        "share": "Нужен to."
+      },
+      "skillTarget": "gerund-infinitive-basic",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G3",
+      "group": "Управляемая практика",
+      "prompt": "Choose the grammatical model with suggest.",
+      "options": [
+        "She suggested to take a break.",
+        "She suggested taking a break.",
+        "She suggested take a break."
+      ],
+      "answer": "She suggested taking a break.",
+      "accepted": [
+        "She suggested taking a break."
+      ],
+      "why": "Suggest + V-ing.",
+      "distractorWhy": "To-infinitive здесь не подходит.",
+      "distractorRationales": {
+        "She suggested to take a break.": "To-infinitive здесь не подходит.",
+        "She suggested take a break.": "Bare infinitive не является этой моделью."
+      },
+      "skillTarget": "gerund-infinitive-basic",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G4",
+      "group": "Управляемая практика",
+      "prompt": "Choose the polite request with mind.",
+      "options": [
+        "Would you mind waiting a moment?",
+        "Would you mind to wait a moment?",
+        "Would you mind wait a moment?"
+      ],
+      "answer": "Would you mind waiting a moment?",
+      "accepted": [
+        "Would you mind waiting a moment?"
+      ],
+      "why": "Mind + V-ing даже после would.",
+      "distractorWhy": "To wait не модель mind.",
+      "distractorRationales": {
+        "Would you mind to wait a moment?": "To wait не модель mind.",
+        "Would you mind wait a moment?": "Wait без -ing неверно."
+      },
+      "skillTarget": "gerund-infinitive-basic",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G5",
+      "group": "Управляемая практика",
+      "prompt": "Choose the sentence with want and a different person performing the action.",
+      "options": [
+        "I want you check the file.",
+        "I want you checking to the file.",
+        "I want you to check the file."
+      ],
+      "answer": "I want you to check the file.",
+      "accepted": [
+        "I want you to check the file."
+      ],
+      "why": "Want + person + to V1.",
+      "distractorWhy": "Пропущено to.",
+      "distractorRationales": {
+        "I want you check the file.": "Пропущено to.",
+        "I want you checking to the file.": "Нарушены модель и порядок."
+      },
+      "skillTarget": "gerund-infinitive-basic",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G6",
+      "group": "Управляемая практика",
+      "prompt": "The teacher told us ___ our answers.",
+      "options": [
+        "checking",
+        "to check",
+        "check"
+      ],
+      "answer": "to check",
+      "accepted": [
+        "to check"
+      ],
+      "why": "Tell + person + to V1.",
+      "distractorWhy": "Checking не подходит.",
+      "distractorRationales": {
+        "checking": "Checking не подходит.",
+        "check": "Нужен to."
+      },
+      "skillTarget": "gerund-infinitive-basic",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I1",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct pattern after a modal.",
+      "options": [
+        "You can to learn this rule.",
+        "You can learning this rule.",
+        "You can learn this rule."
+      ],
+      "answer": "You can learn this rule.",
+      "accepted": [
+        "You can learn this rule."
+      ],
+      "why": "Can + V1 без to.",
+      "distractorWhy": "To не требуется.",
+      "distractorRationales": {
+        "You can to learn this rule.": "To не требуется.",
+        "You can learning this rule.": "Learning не V1."
+      },
+      "skillTarget": "gerund-infinitive-basic",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I2",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct structure with let.",
+      "options": [
+        "Let me to explain the example.",
+        "Let me explain the example.",
+        "Let me explaining the example."
+      ],
+      "answer": "Let me explain the example.",
+      "accepted": [
+        "Let me explain the example."
+      ],
+      "why": "Let + object + bare infinitive.",
+      "distractorWhy": "To после let не нужен.",
+      "distractorRationales": {
+        "Let me to explain the example.": "To после let не нужен.",
+        "Let me explaining the example.": "Explaining не нужная форма."
+      },
+      "skillTarget": "gerund-infinitive-basic",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I3",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the active pattern with make.",
+      "options": [
+        "The joke made us laugh.",
+        "The joke made us to laugh.",
+        "The joke made us laughed."
+      ],
+      "answer": "The joke made us laugh.",
+      "accepted": [
+        "The joke made us laugh."
+      ],
+      "why": "Make + object + V1 в активе.",
+      "distractorWhy": "To не нужно в этой модели.",
+      "distractorRationales": {
+        "The joke made us to laugh.": "To не нужно в этой модели.",
+        "The joke made us laughed.": "Laughed — V2/V3."
+      },
+      "skillTarget": "gerund-infinitive-basic",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I4",
+      "group": "Самостоятельная практика",
+      "prompt": "Which pair is grammatical after help?",
+      "options": [
+        "help me carrying it / help me to carrying it",
+        "help me carried it / help me to carried it",
+        "help me carry it / help me to carry it"
+      ],
+      "answer": "help me carry it / help me to carry it",
+      "accepted": [
+        "help me carry it / help me to carry it"
+      ],
+      "why": "Help допускает bare infinitive и to-infinitive.",
+      "distractorWhy": "Эти варианты не целевые модели помощи.",
+      "distractorRationales": {
+        "help me carrying it / help me to carrying it": "Эти варианты не целевые модели помощи.",
+        "help me carried it / help me to carried it": "Carried не V1."
+      },
+      "skillTarget": "gerund-infinitive-basic",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I5",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct pattern after interested in.",
+      "options": [
+        "I'm interested in learn about science.",
+        "I'm interested in learning about science.",
+        "I'm interested in to learn about science."
+      ],
+      "answer": "I'm interested in learning about science.",
+      "accepted": [
+        "I'm interested in learning about science."
+      ],
+      "why": "После предлога in нужна -ing.",
+      "distractorWhy": "Learn — V1.",
+      "distractorRationales": {
+        "I'm interested in learn about science.": "Learn — V1.",
+        "I'm interested in to learn about science.": "To-infinitive после in неверен."
+      },
+      "skillTarget": "gerund-infinitive-basic",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I6",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the usual pattern for a specific desire with would like.",
+      "options": [
+        "I'd like to order a coffee.",
+        "I'd like order a coffee.",
+        "I'd like to ordering a coffee."
+      ],
+      "answer": "I'd like to order a coffee.",
+      "accepted": [
+        "I'd like to order a coffee."
+      ],
+      "why": "Would like + to V1.",
+      "distractorWhy": "Пропущено to.",
+      "distractorRationales": {
+        "I'd like order a coffee.": "Пропущено to.",
+        "I'd like to ordering a coffee.": "Ordering не V1."
+      },
+      "skillTarget": "gerund-infinitive-basic",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I7",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the grammatically parallel preference with prefer A to B.",
+      "options": [
+        "I prefer reading to watch TV in this pattern.",
+        "I prefer reading than watching TV.",
+        "I prefer reading to watching TV."
+      ],
+      "answer": "I prefer reading to watching TV.",
+      "accepted": [
+        "I prefer reading to watching TV."
+      ],
+      "why": "Prefer doing to doing; to — предлог.",
+      "distractorWhy": "После prepositional to нужна -ing.",
+      "distractorRationales": {
+        "I prefer reading to watch TV in this pattern.": "После prepositional to нужна -ing.",
+        "I prefer reading than watching TV.": "В этой модели нужно to, не than."
+      },
+      "skillTarget": "gerund-infinitive-basic",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I8",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the negative infinitive following decide.",
+      "options": [
+        "We decided don't to go out.",
+        "We decided not to go out.",
+        "We decided not to going out."
+      ],
+      "answer": "We decided not to go out.",
+      "accepted": [
+        "We decided not to go out."
+      ],
+      "why": "Not to + V1 образует отрицательный infinitive.",
+      "distractorWhy": "Don't здесь не используется.",
+      "distractorRationales": {
+        "We decided don't to go out.": "Don't здесь не используется.",
+        "We decided not to going out.": "Going не V1."
+      },
+      "skillTarget": "gerund-infinitive-basic",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I9",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the grammatical question in the past with decide.",
+      "options": [
+        "Did she decide to apply?",
+        "Did she decided to apply?",
+        "Did she decide applying?"
+      ],
+      "answer": "Did she decide to apply?",
+      "accepted": [
+        "Did she decide to apply?"
+      ],
+      "why": "Did + V1 decide + to V1 apply.",
+      "distractorWhy": "Decided не V1 после did.",
+      "distractorRationales": {
+        "Did she decided to apply?": "Decided не V1 после did.",
+        "Did she decide applying?": "Decide требует to-infinitive."
+      },
+      "skillTarget": "gerund-infinitive-basic",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E1",
+      "group": "Выходная проверка",
+      "prompt": "I no longer play that game. Complete: I stopped ___.",
+      "options": [
+        "playing it",
+        "to play it",
+        "play it"
+      ],
+      "answer": "playing it",
+      "accepted": [
+        "playing it"
+      ],
+      "why": "Stop doing — прекратить занятие.",
+      "distractorWhy": "Stop to do — остановиться ради новой цели.",
+      "distractorRationales": {
+        "to play it": "Stop to do — остановиться ради новой цели.",
+        "play it": "V1 не нужная форма."
+      },
+      "skillTarget": "gerund-infinitive-basic",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E2",
+      "group": "Выходная проверка",
+      "prompt": "Please don't forget to send the file. Choose the equivalent reminder.",
+      "options": [
+        "Remember sending the file as an already completed action.",
+        "Remember send the file.",
+        "Remember to send the file."
+      ],
+      "answer": "Remember to send the file.",
+      "accepted": [
+        "Remember to send the file."
+      ],
+      "why": "Remember to do — не забыть выполнить.",
+      "distractorWhy": "Remember doing — воспоминание о сделанном.",
+      "distractorRationales": {
+        "Remember sending the file as an already completed action.": "Remember doing — воспоминание о сделанном.",
+        "Remember send the file.": "Пропущено to."
+      },
+      "skillTarget": "gerund-infinitive-basic",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E3",
+      "group": "Выходная проверка",
+      "prompt": "Choose the purpose of a visit.",
+      "options": [
+        "I came for borrow a book.",
+        "I came to borrow a book.",
+        "I came to borrowing a book."
+      ],
+      "answer": "I came to borrow a book.",
+      "accepted": [
+        "I came to borrow a book."
+      ],
+      "why": "To + V1 выражает цель.",
+      "distractorWhy": "For + V1 не подходит.",
+      "distractorRationales": {
+        "I came for borrow a book.": "For + V1 не подходит.",
+        "I came to borrowing a book.": "Borrowing не V1."
+      },
+      "skillTarget": "gerund-infinitive-basic",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E4",
+      "group": "Выходная проверка",
+      "prompt": "Choose the accurate rule about like and love for repeated activities.",
+      "options": [
+        "They can often take both -ing and to-infinitive.",
+        "They must always take only -ing in every context.",
+        "They must always take a bare infinitive."
+      ],
+      "answer": "They can often take both -ing and to-infinitive.",
+      "accepted": [
+        "They can often take both -ing and to-infinitive."
+      ],
+      "why": "Обе модели часто допустимы.",
+      "distractorWhy": "To-infinitive также возможен.",
+      "distractorRationales": {
+        "They must always take only -ing in every context.": "To-infinitive также возможен.",
+        "They must always take a bare infinitive.": "Bare infinitive не обычная модель."
+      },
+      "skillTarget": "gerund-infinitive-basic",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E5",
+      "group": "Выходная проверка",
+      "prompt": "Choose the sentence with the correct forms after would like and practise.",
+      "options": [
+        "I'd like practising to speak English as the target pattern.",
+        "I'd like to practise speak English.",
+        "I'd like to practise speaking English."
+      ],
+      "answer": "I'd like to practise speaking English.",
+      "accepted": [
+        "I'd like to practise speaking English."
+      ],
+      "why": "Would like + to V1, practise + -ing.",
+      "distractorWhy": "Неверная целевая модель после would like.",
+      "distractorRationales": {
+        "I'd like practising to speak English as the target pattern.": "Неверная целевая модель после would like.",
+        "I'd like to practise speak English.": "После practise нужна -ing."
+      },
+      "skillTarget": "gerund-infinitive-basic",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "W1",
+      "group": "Самостоятельное применение",
+      "prompt": "Напиши 8–10 предложений о привычках, планах и предпочтениях. Используй enjoy, finish, avoid, decide, hope, want + person, would like, prefer и preposition + -ing. Добавь один вопрос и отрицательный infinitive.",
+      "open": true,
+      "rubric": [
+        "Модели частотных глаголов выбраны верно.",
+        "После modal стоит V1 без to.",
+        "Object + to употребляется при другом исполнителе.",
+        "После предлога стоит -ing.",
+        "Общее предпочтение и конкретное желание различены.",
+        "Вопросы и отрицания сохраняют verb pattern."
+      ],
+      "skillTarget": "Самостоятельное применение A2-12",
+      "interactionType": "open-production",
+      "difficulty": "transfer",
+      "sourceBasis": "Speakbase-authored open production; self-review rubric only until real AI feedback is connected",
+      "contentVersion": "1.1-draft"
+    }
+  ],
+  "markdown": "# Speakbase — A2-12: Basic gerund and infinitive patterns\n\n**Curriculum ID:** `A2-12`  \n**Уровень:** A2  \n**Версия:** 1.1-draft\n**Статус:** drafted; selected source text checked; full source-page and learner acceptance pending\n**Предварительные темы:** A1-05, A1-13  \n**Связь со старым каталогом:** Полное ядро — №35 Gerunds and Infinitives; №36 Verb Patterns\n\n## 1. Результаты обучения\n\n- Использовать -ing и to-infinitive после частотных глаголов и выражений предпочтения\n- Выбирать целевую форму по значению, структуре предложения и контексту.\n- Объяснять, почему близкая грамматическая форма меняет смысл или регистр.\n- Находить и исправлять типичные ошибки русскоязычных студентов.\n\n## 2. Источники и статус сверки\n\n| Source | PDF navigation | Lesson-specific checks | Status |\n|---|---|---|---|\n| GR-01 U52-55 | PDF pages 115-122 (Unit 52-55) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-02 U53-55 | PDF pages 118-123 (Unit 53-55) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-02 U58-60 | PDF pages 128-133 (Unit 58-60) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-03 U30-31 | PDF pages 84-87 (Unit 30-31) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-05 A2 p58-71 | PDF pages 58-71 (A2 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n\nUnit/page locations are navigation aids only. They do not prove that the cited explanation, examples, restrictions and answer key have been checked for this lesson. Examples and explanations below are Speakbase-authored, not quotations from the textbook.\n\nПеред переводом этого урока в source-verified необходимо открыть целевые страницы конкретного издания, записать печатную и PDF-пагинацию, сверить ограничения и исключения. Для GR-03 со сканированными страницами обязательна визуальная проверка.\n\n**Evidence for this editorial pass:** GR-02 Units 53–59 theory text directly consulted (PDF pp. 118–130 even; printed pp. 106–118): -ing and to-infinitive verb complements, object patterns, preference and basic meaning contrasts. Other source/exercise/visual verification pending. The selected source text was consulted; not all pages, exercises, editions, scanned GR-03 pages or GR-05 descriptors were checked. Author-created explanations and practice are not copied source exercises.\n\n## 3. Место темы и границы\n\nНе своди gerund/infinitive к правилу «после этого глагола всегда -ing». Учи частотные verb patterns и контекст выбора.\n\nСтарый каталог содержит: №35 Gerunds and Infinitives; №36 Verb Patterns. Его статус — Полное ядро. Старые отметки завершения не переносятся автоматически на новый постоянный ID. Тема рассматривается в уровне A2 и не заменяет обязательные prerequisites.\n\n## 4. Полный конспект\n\n### 4.1. Основная идея и функция конструкции\n\nGerund и infinitive — неличные формы глагола. В этой теме изучаем, какая форма используется после другого глагола: enjoy reading, want to read, can read. Русский перевод часто одинаков («читать»), поэтому нужно запоминать английский глагол вместе с его моделью. Форма -ing здесь не является автоматически Continuous: I enjoy reading — это Present Simple глагола enjoy.\n\nУ to-infinitive часто выражается намерение, решение, желание или цель, но нельзя объяснить все конструкции только этим смыслом. Hope to pass — надеяться сдать; enjoy studying — получать удовольствие от занятий; avoid making mistakes — избегать ошибок. После одних глаголов возможна только определённая модель в данном значении, после других есть выбор. Важно изучать устойчивую конструкцию целиком и проверять, кто выполняет второе действие.\n\n### 4.2. Формирование и грамматическая модель\n\n| Модель | Частотные глаголы | Пример |\n|---|---|---|\n| verb + V-ing | enjoy, finish, avoid, mind, suggest, keep | I enjoy reading. |\n| verb + to + V1 | want, hope, decide, plan, agree, promise, learn, need | We plan to study. |\n| verb + object + to V1 | want, ask, tell, advise, invite | She asked me to wait. |\n| modal + V1 | can, should, must | I can swim. |\n| make/let + person + V1 | make, let | Let me explain. |\n| help + (to) V1 | help | Help me (to) carry it. |\n| preposition + V-ing | interested in, good at, before, after | She's good at drawing. |\n| would like + to V1 | конкретное желание | I'd like to join. |\n\nФорма -ing: read → reading, make → making, run → running, study → studying. To-infinitive: to + начальная форма, без -s/-ed/-ing. Отрицание to-infinitive: not to + V1 (I decided not to go). Отрицание -ing: not + V-ing (I enjoy not having to hurry). Время и согласование выражаются главным глаголом: She enjoys reading; She enjoyed reading; She will enjoy reading. После did меняется главный глагол: Did she decide to go? В вопросе Would you like to come? auxiliary would уже стоит перед subject. После предлога V-ing сохраняется даже в прошедшем контексте: I was interested in learning.\n\n### 4.3. Как выбрать подходящую форму\n\nНайди первый глагол или предлог, который определяет форму следующего. Если это enjoy/finish/avoid/mind/suggest, обычно выбирай -ing. Если decide/hope/plan/want/learn/agree/promise — to V1. Если перед формой стоит modal, используй V1 без to. Если действие выполняет другой человек, проверь наличие object: I want to leave (я хочу уйти); I want you to leave (я хочу, чтобы ты ушла).\n\nLike/love/hate/prefer часто допускают -ing и to V1, особенно для общих повторяющихся занятий. Like doing часто подчёркивает удовольствие, like to do может выражать привычный выбор: I like to check my work before submitting it. Это оттенок, не абсолютное правило. Would like/would love/would prefer для конкретного желания обычно требуют to V1: I'd like to travel this summer. Prefer A to B: I prefer tea to coffee; I prefer reading to watching TV. В последней конструкции to — предлог, поэтому после него -ing. Можно также сказать I prefer to read rather than watch TV.\n\n### 4.4. Сравнение с близкими конструкциями\n\n| Пример | Значение |\n|---|---|\n| I enjoy studying. | Мне нравится заниматься. |\n| I want to study. | Я хочу заниматься. |\n| I want you to study. | Я хочу, чтобы ты занималась. |\n| I like reading. | Мне нравится чтение. |\n| I'd like to read this book. | Я хотела бы прочитать эту книгу. |\n| I stopped reading. | Я прекратила читать. |\n| I stopped to read the sign. | Я остановилась, чтобы прочитать вывеску. |\n\n### 4.5. Примеры с переводом и объяснением\n\n| English | Перевод | Почему это подходит |\n| --- | --- | --- |\n| I enjoy listening to podcasts. | Мне нравится слушать подкасты. | Enjoy + V-ing. |\n| She decided to join the club. | Она решила вступить в клуб. | Decide + to-infinitive. |\n| We finished writing the report. | Мы закончили писать отчёт. | Finish + V-ing. |\n| He asked me to send the link. | Он попросил меня отправить ссылку. | Ask + object + to V1. |\n| I'd like to practise speaking. | Я хотела бы попрактиковаться в разговоре. | Would like + to; practise + -ing. |\n| She's interested in learning Italian. | Она заинтересована в изучении итальянского. | Preposition in + -ing. |\n\n### 4.6. Исключения, ограничения и границы употребления\n\nНе ставь to после suggest в модели suggest doing: She suggested studying together. Возможна отдельная модель suggest that we study together, но не suggest us to study в обычной стандартной конструкции. Mind + V-ing, включая Would you mind opening the window? Help допускает to и bare infinitive; поэтому задание не должно объявлять один из этих вариантов ошибкой без специального требования. Make/let + object + V1: They made me wait, Let me go. В пассиве make требует to (I was made to wait) — позднейшая тема.\n\nRemember to do — не забыть сделать; remember doing — помнить, как уже делал. Stop doing — прекратить действие, stop to do — остановиться ради другой цели. Try to do — стараться, try doing — попробовать способ. Эти различия подробно изучаются в B1-13. На A2 достаточно распознавать их на простых примерах. Не превращай правило -ing в «любое прошлое действие», а to — в «любое будущее». Begin/start/continue часто допускают обе формы. In expressions such as look forward to meeting you, to — предлог, поэтому -ing; в want to meet to является частью инфинитива. Цель действия часто передаётся to V1: I came to ask a question.\n\n### 4.7. Типичные ошибки русскоязычных студентов\n\n| Ошибка | Исправление | Объяснение |\n| --- | --- | --- |\n| I enjoy to read. | I enjoy reading. | Enjoy требует -ing. |\n| He decided going home. | He decided to go home. | Decide + to V1. |\n| She wants me help her. | She wants me to help her. | Want + object + to V1. |\n| I can to swim. | I can swim. | После modal bare infinitive. |\n| Would you mind to wait? | Would you mind waiting? | Mind требует -ing. |\n\n### 4.8. Произношение и восприятие на слух\n\nTo перед инфинитивом в связной речи часто безударно. В I'd like to LEARN выделяется смысловой глагол. Произноси -ing в reading, studying как /ɪŋ/ без добавочного /g/. Различай I like READING и I'd like to READ по всей фразе. Сокращение I'd здесь означает I would. Отдельная фонетическая сверка и аудиоматериалы ещё не проверены.\n\nСначала прослушай или прочитай пример, затем произнеси его целиком. Обрати внимание на смысловое ударение и форму конструкции; не ориентируйся только на буквенный перевод.\n\n### 4.9. Академический английский и TOEFL-перенос\n\nВ Listening распознавай намерения, рекомендации, просьбы и предпочтения: The tutor suggested reviewing the notes; The student decided to revise. В Speaking употребляй устойчивые verb patterns, когда рассказываешь о хобби и планах. В Writing Email используй I'd like to ask…, Could you help me find…?. В Build a Sentence проверяй, какую форму требует первый глагол. Это авторская практика, не официальное задание ETS.\n\nЭто авторская практика переноса навыка. Она не является официальным заданием TOEFL и не выдаётся за официальный результат экзамена.\n\n### 4.10. Примеры для управляемого разбора\n\n- I enjoy listening to podcasts. — Мне нравится слушать подкасты. Enjoy + V-ing.\n- She decided to join the club. — Она решила вступить в клуб. Decide + to-infinitive.\n- We finished writing the report. — Мы закончили писать отчёт. Finish + V-ing.\n\nДля каждого примера назови целевую конструкцию, объясни выбор и составь новое предложение в другом контексте. Затем перейди к заданиям: сначала диагностика, затем управляемая и самостоятельная практика, затем новые вопросы выходной проверки.\n\n### 4.11. Самопроверка\n\nПеред отправкой ответа проверь:\n1. Модели частотных глаголов выбраны верно.\n2. После modal стоит V1 без to.\n3. Object + to употребляется при другом исполнителе.\n4. После предлога стоит -ing.\n5. Общее предпочтение и конкретное желание различены.\n6. Вопросы и отрицания сохраняют verb pattern.\n\n### 4.12. Краткая памятка\n\nEnjoy/finish/avoid/mind/suggest + -ing. Want/decide/hope/plan/learn/agree/promise + to V1. Modal + V1. Want/ask/tell + object + to V1. Preposition + V-ing. Like/love/hate/prefer могут допускать обе формы; would like обычно + to. Запоминай модель вместе с глаголом.\n\nНе выбирай форму только по одному знакомому слову: проверь контекст, значение и структуру. При ошибке вернись к соответствующей части конспекта и составь собственный пример.\n\n## 5. Практика\n\nВ приложении практика разделена на входную диагностику, управляемые задания, самостоятельную практику и новую выходную проверку. Закрытые ответы получают rationale и разбор ошибки. Свободный текст сохраняется и оценивается по рубрике; до подключения и реальной проверки AI-движка система не выдаёт его за автоматическую AI-оценку.\n\n## 6. Интервальное повторение\n\nПовторяй не весь урок автоматически, а конкретную ошибку: выбор формы, согласование, word order, значение, регистр или пунктуацию. Новая попытка должна менять лексический контекст и формулировку, чтобы проверять перенос, а не запоминание одной строки.\n\n## 7. Технический статус\n\n- Постоянный ID: `A2-12`.\n- Прогресс хранится отдельно в course.grammarLessons[\"A2-12\"].\n- Содержание и ключи имеют статус draft; 24 авторских закрытых задания и объяснения вычитаны, выбранные тексты источников проверены. Полная постраничная и пользовательская приёмка остаются открытыми.\n- Предварительное выполнение порогов не равно окончательному mastered: нужны отсроченное повторение и learner review.",
+  "theoryEnd": "## 5."
+}

@@ -39,3 +39,7 @@ A2-04 through A2-06 editorial pass: future forms, Present Perfect Simple, Presen
 ## A2 third package
 
 A2-07 through A2-09 editorial pass: core modals, comparatives and superlatives. 72 individually authored closed questions and 3 open rubrics, matching runtime snapshots and Markdown. GR-02 selected theory text Units 26–33, 37 and 105–108 directly consulted (PDF pp. 64–78 even, 86, 222–228 even); other sources, exercise-page/visual verification and learner acceptance pending; PARTIAL. A2 total: 9/18. Next A2-10–12, confirm curriculum titles before editing. Preserve unrelated work. Daily route and TOEFL linking remain pending.
+
+## A2 fourth package
+
+A2-10 through A2-12 editorial pass: determiners and quantifiers, adverbs, basic gerund and infinitive patterns. 72 original closed tasks and 3 open rubrics, matching runtime and Markdown. GR-02 selected theory text Units 85–91, 99–104, 109–111, 53–59 consulted. Additional source/exercise-page/visual and learner acceptance pending; PARTIAL. A2 total: 12/18. Next A2-13–15, confirm curriculum titles. Preserve unrelated changes; daily route and TOEFL linking still pending.

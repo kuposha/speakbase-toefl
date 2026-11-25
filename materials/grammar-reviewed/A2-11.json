@@ -1,0 +1,745 @@
+{
+  "id": "A2-11",
+  "level": "A2",
+  "sequence": "A2-11",
+  "grammarFamily": "A2-11",
+  "questionBankSource": "topic-specific-authored",
+  "sourceVerification": "draft; selected source text consulted; complete source-page and learner review pending",
+  "topicProfile": {
+    "label": "adverbs of manner, time, degree and sequence",
+    "skillTarget": "adverbs-manner-time-degree-sequence",
+    "core": "Adverb (наречие) уточняет действие, качество, другое наречие или целое высказывание. Наречия образа действия отвечают на how? (carefully), времени — when? (yesterday), частоты — how often? (usually), степени — how much? (very, too), последовательности — in what order? (first, then, finally). Важно не только выбрать слово, но и поставить его в естественную позицию.",
+    "form": "| Тип | Обычная позиция | Пример |\n|---|---|---|\n| Manner | после verb/object | She reads the text slowly. |\n| Place | после verb/object | We met at school. |\n| Time | в конце или начале | We met yesterday. |\n| Frequency | перед main verb | I often study at home. |\n| Frequency с be | после be | She is often busy. |\n| Frequency с auxiliary/modal | после первого auxiliary | I have never tried it. |\n| Degree | перед adjective/adverb | very tired, quite slowly |\n| Enough | после adjective/adverb, перед noun | warm enough, enough time |\n| Sequence | часто в начале | First, open the file. |",
+    "selection": "Определи, что именно уточняется: noun → adjective; действие → adverb of manner; степень качества → degree adverb; частота → frequency adverb. Для manner чаще ставь наречие после дополнения: She speaks English fluently. Не разделяй без необходимости короткий глагол и прямое дополнение. Для place/time обычно место перед временем: We studied at the library yesterday. Если нужно обозначить время как тему высказывания, вынеси его в начало.",
+    "contrast": "| Пример | Значение |\n|---|---|\n| He works hard. | Он усердно работает. |\n| He hardly works. | Он почти не работает. |\n| She arrived late. | Она пришла поздно. |\n| I haven't seen her lately. | Я не видела её в последнее время. |\n| The room is very cold. | В комнате очень холодно. |\n| The room is too cold to study in. | Слишком холодно, чтобы заниматься. |\n| The room is warm enough. | Достаточно тепло. |",
+    "boundary": "Too означает чрезмерную степень, которая мешает или превышает нужное: too heavy to carry. Very просто усиливает качество, не обязательно указывает проблему. Enough ставится после adjective/adverb: old enough, quickly enough; перед noun: enough chairs. So + adjective/adverb: so cold, so quickly; such + noun phrase: such a cold day. Quite может означать довольно или полностью в зависимости от прилагательного и варианта английского. Rather/fairly и even подробнее отрабатываются позднее; не назначай им фиксированную силу без контекста.",
+    "pronunciation": "Смысловое ударение зависит от фокуса: She speaks English VERY WELL. Hard и hardly различаются окончанием и значением; слушай полную фразу. В последовательности first/next/finally небольшие паузы помогают отделять этапы. Never и always могут выделяться для усиления контраста. Отдельная проверка словарного произношения пока не выполнена.",
+    "examples": [
+      [
+        "She checked the figures carefully.",
+        "Она внимательно проверила цифры.",
+        "Manner после object."
+      ],
+      [
+        "The soup smells wonderful.",
+        "Суп пахнет замечательно.",
+        "Adjective описывает впечатление от супа."
+      ],
+      [
+        "I usually arrive early.",
+        "Обычно я прихожу рано.",
+        "Frequency перед main verb, early без -ly."
+      ],
+      [
+        "He has already sent the email.",
+        "Он уже отправил письмо.",
+        "Already после auxiliary."
+      ],
+      [
+        "This box is too heavy to lift.",
+        "Эту коробку слишком тяжело поднимать.",
+        "Too + adjective + to-infinitive."
+      ],
+      [
+        "We have enough chairs for everyone.",
+        "У нас достаточно стульев для всех.",
+        "Enough перед noun."
+      ]
+    ],
+    "traps": [
+      [
+        "She speaks fluently English (нейтральный порядок).",
+        "She speaks English fluently.",
+        "Verb и object обычно рядом."
+      ],
+      [
+        "He works hardly (если усердно).",
+        "He works hard.",
+        "Hardly меняет значение на почти не."
+      ],
+      [
+        "The music sounds beautifully (если музыка красивая).",
+        "The music sounds beautiful.",
+        "Linking verb + adjective."
+      ],
+      [
+        "She is enough tall.",
+        "She is tall enough.",
+        "Enough после adjective."
+      ],
+      [
+        "He always is late (нейтральная полная фраза).",
+        "He is always late.",
+        "Frequency обычно после be."
+      ]
+    ],
+    "toefl": "В Listening различай степень, частоту и последовательность: hardly ever и often передают разные факты. В Reading учитывай ограничители too, enough, almost и already. В Speaking описывай действия и порядок решения задачи; в Writing ставь наречия так, чтобы было понятно, к какому слову они относятся. Например, The team carefully checked the data and then repeated the experiment."
+  },
+  "title": "Adverbs of manner, time, degree and sequence",
+  "description": "Описывать как/когда/насколько часто происходит действие; правильно размещать наречия",
+  "cardDescription": "Теория, guided practice, самостоятельные задания и выходная проверка по постоянному ID A2-11.",
+  "eyebrow": "Полный урок программы A2-11 · drafted",
+  "contentVersion": "1.1-draft",
+  "curriculumVersion": "1.0",
+  "prerequisites": [
+    "A1-11",
+    "A1-12"
+  ],
+  "outcomes": [
+    "Описывать как/когда/насколько часто происходит действие; правильно размещать наречия",
+    "Выбирать целевую конструкцию по контексту и смыслу.",
+    "Исправлять типичные ошибки и переносить правило в новый пример."
+  ],
+  "sourceRefs": [
+    "GR-01 U86-96",
+    "GR-02 U98-104",
+    "GR-02 U109-112",
+    "GR-03 U74-77",
+    "GR-05 A2 p10-14"
+  ],
+  "sourceStatus": "selected source text consulted; full page verification pending",
+  "status": "drafted",
+  "legacyCoverage": "Частично",
+  "toeflLinks": [
+    "Writing: Build a Sentence",
+    "Listening: tense/aspect, modality, weak forms and discourse cues",
+    "Speaking: Listen and Repeat / Take an Interview",
+    "Writing: Write an Email"
+  ],
+  "thresholds": {
+    "independent": 7,
+    "exit": 4,
+    "criticalIds": [
+      "E1",
+      "E2",
+      "E3"
+    ]
+  },
+  "groups": {
+    "independent": "Самостоятельная практика",
+    "exit": "Выходная проверка"
+  },
+  "items": [
+    {
+      "id": "D1",
+      "group": "Входная диагностика",
+      "prompt": "Choose the manner adverb: The technician checked the cable ___.",
+      "options": [
+        "careful",
+        "carefully",
+        "carefull"
+      ],
+      "answer": "carefully",
+      "accepted": [
+        "carefully"
+      ],
+      "why": "Carefully описывает способ проверки.",
+      "distractorWhy": "Careful — adjective.",
+      "distractorRationales": {
+        "careful": "Careful — adjective.",
+        "carefull": "Carefull неверно написано."
+      },
+      "skillTarget": "adverbs-manner-time-degree-sequence",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D2",
+      "group": "Входная диагностика",
+      "prompt": "Choose the adjective describing the taste of the soup.",
+      "options": [
+        "The soup tastes good.",
+        "The soup tastes well in flavour.",
+        "The soup tastes goodly."
+      ],
+      "answer": "The soup tastes good.",
+      "accepted": [
+        "The soup tastes good."
+      ],
+      "why": "Taste как linking verb требует adjective в этом значении.",
+      "distractorWhy": "Well не обычная оценка вкуса.",
+      "distractorRationales": {
+        "The soup tastes well in flavour.": "Well не обычная оценка вкуса.",
+        "The soup tastes goodly.": "Goodly не нужная форма."
+      },
+      "skillTarget": "adverbs-manner-time-degree-sequence",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D3",
+      "group": "Входная диагностика",
+      "prompt": "Choose the natural neutral word order with a short direct object.",
+      "options": [
+        "She explained clearly the rule.",
+        "She explained the rule clear.",
+        "She explained the rule clearly."
+      ],
+      "answer": "She explained the rule clearly.",
+      "accepted": [
+        "She explained the rule clearly."
+      ],
+      "why": "Verb + object, затем manner adverb.",
+      "distractorWhy": "Разделение короткого verb и object здесь не нейтрально.",
+      "distractorRationales": {
+        "She explained clearly the rule.": "Разделение короткого verb и object здесь не нейтрально.",
+        "She explained the rule clear.": "Clear — adjective, не нужное наречие."
+      },
+      "skillTarget": "adverbs-manner-time-degree-sequence",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D4",
+      "group": "Входная диагностика",
+      "prompt": "Choose the correct adverb of happy.",
+      "options": [
+        "happyly",
+        "happily",
+        "happilyly"
+      ],
+      "answer": "happily",
+      "accepted": [
+        "happily"
+      ],
+      "why": "Consonant + y → ily.",
+      "distractorWhy": "Y должна измениться на i.",
+      "distractorRationales": {
+        "happyly": "Y должна измениться на i.",
+        "happilyly": "Суффикс не дублируется."
+      },
+      "skillTarget": "adverbs-manner-time-degree-sequence",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G1",
+      "group": "Управляемая практика",
+      "prompt": "Choose the sentence meaning that he makes a lot of effort.",
+      "options": [
+        "He works hard.",
+        "He hardly works.",
+        "He works hardly in that sense."
+      ],
+      "answer": "He works hard.",
+      "accepted": [
+        "He works hard."
+      ],
+      "why": "Hard — наречие усердно.",
+      "distractorWhy": "Hardly означает почти не.",
+      "distractorRationales": {
+        "He hardly works.": "Hardly означает почти не.",
+        "He works hardly in that sense.": "Hardly не равно hard."
+      },
+      "skillTarget": "adverbs-manner-time-degree-sequence",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G2",
+      "group": "Управляемая практика",
+      "prompt": "Choose the sentence meaning that she almost never visits.",
+      "options": [
+        "She hard ever visits.",
+        "She hardly ever visit.",
+        "She hardly ever visits."
+      ],
+      "answer": "She hardly ever visits.",
+      "accepted": [
+        "She hardly ever visits."
+      ],
+      "why": "Hardly ever означает почти никогда.",
+      "distractorWhy": "Hard не образует эту фразу.",
+      "distractorRationales": {
+        "She hard ever visits.": "Hard не образует эту фразу.",
+        "She hardly ever visit.": "She требует visits."
+      },
+      "skillTarget": "adverbs-manner-time-degree-sequence",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G3",
+      "group": "Управляемая практика",
+      "prompt": "Choose the correct adverb after run.",
+      "options": [
+        "The dog runs fastly.",
+        "The dog runs fast.",
+        "The dog runs fasted."
+      ],
+      "answer": "The dog runs fast.",
+      "accepted": [
+        "The dog runs fast."
+      ],
+      "why": "Fast уже может быть adverb.",
+      "distractorWhy": "Fastly не обычная форма скорости.",
+      "distractorRationales": {
+        "The dog runs fastly.": "Fastly не обычная форма скорости.",
+        "The dog runs fasted.": "Fasted не нужная форма."
+      },
+      "skillTarget": "adverbs-manner-time-degree-sequence",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G4",
+      "group": "Управляемая практика",
+      "prompt": "Choose the sentence about recent contact using lately.",
+      "options": [
+        "Have you seen your tutor lately?",
+        "Have you seen your tutor latey?",
+        "Have you seen your tutor latestly?"
+      ],
+      "answer": "Have you seen your tutor lately?",
+      "accepted": [
+        "Have you seen your tutor lately?"
+      ],
+      "why": "Lately означает в последнее время.",
+      "distractorWhy": "Latey не существует.",
+      "distractorRationales": {
+        "Have you seen your tutor latey?": "Latey не существует.",
+        "Have you seen your tutor latestly?": "Latestly не стандартное наречие."
+      },
+      "skillTarget": "adverbs-manner-time-degree-sequence",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G5",
+      "group": "Управляемая практика",
+      "prompt": "Choose the ordinary frequency position with a main verb.",
+      "options": [
+        "I usual take notes.",
+        "I take usually notes.",
+        "I usually take notes."
+      ],
+      "answer": "I usually take notes.",
+      "accepted": [
+        "I usually take notes."
+      ],
+      "why": "Usually перед смысловым глаголом.",
+      "distractorWhy": "Usual — adjective.",
+      "distractorRationales": {
+        "I usual take notes.": "Usual — adjective.",
+        "I take usually notes.": "Не разрывай verb и короткий object в нейтральной фразе."
+      },
+      "skillTarget": "adverbs-manner-time-degree-sequence",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G6",
+      "group": "Управляемая практика",
+      "prompt": "Choose the usual frequency position with be.",
+      "options": [
+        "She often tired after class.",
+        "She is often tired after class.",
+        "She is oftenly tired after class."
+      ],
+      "answer": "She is often tired after class.",
+      "accepted": [
+        "She is often tired after class."
+      ],
+      "why": "Frequency после be.",
+      "distractorWhy": "Пропущено is.",
+      "distractorRationales": {
+        "She often tired after class.": "Пропущено is.",
+        "She is oftenly tired after class.": "Oftenly не стандартная форма."
+      },
+      "skillTarget": "adverbs-manner-time-degree-sequence",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I1",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct position of never in the present perfect.",
+      "options": [
+        "I've never miss a lesson.",
+        "I've not never missed a lesson.",
+        "I've never missed a lesson."
+      ],
+      "answer": "I've never missed a lesson.",
+      "accepted": [
+        "I've never missed a lesson."
+      ],
+      "why": "Never после have, затем V3.",
+      "distractorWhy": "Miss — V1.",
+      "distractorRationales": {
+        "I've never miss a lesson.": "Miss — V1.",
+        "I've not never missed a lesson.": "Отрицание never не требует второго not."
+      },
+      "skillTarget": "adverbs-manner-time-degree-sequence",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I2",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the usual order of place and time at the end.",
+      "options": [
+        "We met yesterday at the yesterday library.",
+        "We met at the library yesterday.",
+        "We met at yesterday the library."
+      ],
+      "answer": "We met at the library yesterday.",
+      "accepted": [
+        "We met at the library yesterday."
+      ],
+      "why": "Place обычно перед time.",
+      "distractorWhy": "Лишнее yesterday нарушает фразу.",
+      "distractorRationales": {
+        "We met yesterday at the yesterday library.": "Лишнее yesterday нарушает фразу.",
+        "We met at yesterday the library.": "Yesterday не определяет library так."
+      },
+      "skillTarget": "adverbs-manner-time-degree-sequence",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I3",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the sentence meaning that the activity continues now.",
+      "options": [
+        "She's still preparing the slides.",
+        "She's yet preparing the slides.",
+        "She's still prepare the slides."
+      ],
+      "answer": "She's still preparing the slides.",
+      "accepted": [
+        "She's still preparing the slides."
+      ],
+      "why": "Still выражает продолжение, is preparing — процесс.",
+      "distractorWhy": "Yet обычно в конце вопроса/отрицания.",
+      "distractorRationales": {
+        "She's yet preparing the slides.": "Yet обычно в конце вопроса/отрицания.",
+        "She's still prepare the slides.": "Prepare нужно в -ing."
+      },
+      "skillTarget": "adverbs-manner-time-degree-sequence",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I4",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the question about an expected completed result.",
+      "options": [
+        "Have you finish the worksheet yet?",
+        "Have you finished the worksheet still as the neutral form?",
+        "Have you finished the worksheet yet?"
+      ],
+      "answer": "Have you finished the worksheet yet?",
+      "accepted": [
+        "Have you finished the worksheet yet?"
+      ],
+      "why": "Yet обычно в конце такого вопроса; finished — V3.",
+      "distractorWhy": "Finish — V1.",
+      "distractorRationales": {
+        "Have you finish the worksheet yet?": "Finish — V1.",
+        "Have you finished the worksheet still as the neutral form?": "Still выражает продолжение, не обычный вопрос о достижении результата."
+      },
+      "skillTarget": "adverbs-manner-time-degree-sequence",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I5",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct negative expressing that a past habit no longer continues.",
+      "options": [
+        "She doesn't works here any more.",
+        "She doesn't work here any more.",
+        "She no longer work here."
+      ],
+      "answer": "She doesn't work here any more.",
+      "accepted": [
+        "She doesn't work here any more."
+      ],
+      "why": "Not…any more ставится в конце; после doesn't V1.",
+      "distractorWhy": "Works после doesn't неверно.",
+      "distractorRationales": {
+        "She doesn't works here any more.": "Works после doesn't неверно.",
+        "She no longer work here.": "She requires works с no longer."
+      },
+      "skillTarget": "adverbs-manner-time-degree-sequence",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I6",
+      "group": "Самостоятельная практика",
+      "prompt": "The bag is so heavy that you cannot lift it. Choose the excessive-degree expression.",
+      "options": [
+        "It's too heavy to lift.",
+        "It's enough heavy to lift.",
+        "It's heavy too to lift."
+      ],
+      "answer": "It's too heavy to lift.",
+      "accepted": [
+        "It's too heavy to lift."
+      ],
+      "why": "Too + adjective + to-infinitive выражает чрезмерность.",
+      "distractorWhy": "Enough после adjective и другой смысл.",
+      "distractorRationales": {
+        "It's enough heavy to lift.": "Enough после adjective и другой смысл.",
+        "It's heavy too to lift.": "Too стоит перед heavy в этом значении."
+      },
+      "skillTarget": "adverbs-manner-time-degree-sequence",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I7",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct order with enough and an adjective.",
+      "options": [
+        "The room is enough warm.",
+        "The room is warmly enough as a state.",
+        "The room is warm enough."
+      ],
+      "answer": "The room is warm enough.",
+      "accepted": [
+        "The room is warm enough."
+      ],
+      "why": "Enough после adjective.",
+      "distractorWhy": "Порядок неверен.",
+      "distractorRationales": {
+        "The room is enough warm.": "Порядок неверен.",
+        "The room is warmly enough as a state.": "Warmly — manner adverb, не состояние комнаты."
+      },
+      "skillTarget": "adverbs-manner-time-degree-sequence",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I8",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct order with enough and a noun.",
+      "options": [
+        "We have paper enoughs.",
+        "We have enough paper.",
+        "We have enoughly paper."
+      ],
+      "answer": "We have enough paper.",
+      "accepted": [
+        "We have enough paper."
+      ],
+      "why": "Enough перед noun.",
+      "distractorWhy": "Enough не получает -s.",
+      "distractorRationales": {
+        "We have paper enoughs.": "Enough не получает -s.",
+        "We have enoughly paper.": "Enoughly не стандартная форма."
+      },
+      "skillTarget": "adverbs-manner-time-degree-sequence",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I9",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the grammatical strong degree expression with so.",
+      "options": [
+        "She spoke so quietly that I couldn't hear her.",
+        "She spoke such quietly that I couldn't hear her.",
+        "She spoke so quietness that I couldn't hear her."
+      ],
+      "answer": "She spoke so quietly that I couldn't hear her.",
+      "accepted": [
+        "She spoke so quietly that I couldn't hear her."
+      ],
+      "why": "So + adverb + that.",
+      "distractorWhy": "Such требует noun phrase.",
+      "distractorRationales": {
+        "She spoke such quietly that I couldn't hear her.": "Such требует noun phrase.",
+        "She spoke so quietness that I couldn't hear her.": "Quietness — noun, не manner adverb."
+      },
+      "skillTarget": "adverbs-manner-time-degree-sequence",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E1",
+      "group": "Выходная проверка",
+      "prompt": "Choose the first step of a set of instructions.",
+      "options": [
+        "First, open the application.",
+        "Hardly, open the application.",
+        "Lately, open the application."
+      ],
+      "answer": "First, open the application.",
+      "accepted": [
+        "First, open the application."
+      ],
+      "why": "First вводит первый шаг.",
+      "distractorWhy": "Hardly выражает почти не.",
+      "distractorRationales": {
+        "Hardly, open the application.": "Hardly выражает почти не.",
+        "Lately, open the application.": "Lately означает недавно."
+      },
+      "skillTarget": "adverbs-manner-time-degree-sequence",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E2",
+      "group": "Выходная проверка",
+      "prompt": "Choose the marker of the final step.",
+      "options": [
+        "Usually, save the file as the last step marker.",
+        "Hardly, save the file.",
+        "Finally, save the file."
+      ],
+      "answer": "Finally, save the file.",
+      "accepted": [
+        "Finally, save the file."
+      ],
+      "why": "Finally обозначает последний этап.",
+      "distractorWhy": "Usually — частота.",
+      "distractorRationales": {
+        "Usually, save the file as the last step marker.": "Usually — частота.",
+        "Hardly, save the file.": "Hardly — почти не."
+      },
+      "skillTarget": "adverbs-manner-time-degree-sequence",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E3",
+      "group": "Выходная проверка",
+      "prompt": "Choose the correct distinction between adjective and adverb.",
+      "options": [
+        "She's a well speaker and speaks goodly.",
+        "She's a good speaker and speaks well.",
+        "She's a goodly speaker and speaks goodly."
+      ],
+      "answer": "She's a good speaker and speaks well.",
+      "accepted": [
+        "She's a good speaker and speaks well."
+      ],
+      "why": "Good описывает speaker, well — speaks.",
+      "distractorWhy": "Well не обычный adjective оценки speaker здесь.",
+      "distractorRationales": {
+        "She's a well speaker and speaks goodly.": "Well не обычный adjective оценки speaker здесь.",
+        "She's a goodly speaker and speaks goodly.": "Goodly не нужная форма."
+      },
+      "skillTarget": "adverbs-manner-time-degree-sequence",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E4",
+      "group": "Выходная проверка",
+      "prompt": "Choose the correct sentence with a degree adverb before another adverb.",
+      "options": [
+        "He answered extremely quickly.",
+        "He answered extremely quickness.",
+        "He answered extreme quickly."
+      ],
+      "answer": "He answered extremely quickly.",
+      "accepted": [
+        "He answered extremely quickly."
+      ],
+      "why": "Extremely усиливает quickly.",
+      "distractorWhy": "Quickness — noun.",
+      "distractorRationales": {
+        "He answered extremely quickness.": "Quickness — noun.",
+        "He answered extreme quickly.": "Extreme — adjective, не degree adverb."
+      },
+      "skillTarget": "adverbs-manner-time-degree-sequence",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E5",
+      "group": "Выходная проверка",
+      "prompt": "Choose the accurate meaning of 'afterwards'.",
+      "options": [
+        "It always proves that the previous event caused the next.",
+        "It always expresses the degree of an adjective.",
+        "It marks something happening later, not necessarily a cause."
+      ],
+      "answer": "It marks something happening later, not necessarily a cause.",
+      "accepted": [
+        "It marks something happening later, not necessarily a cause."
+      ],
+      "why": "Afterwards — последовательность.",
+      "distractorWhy": "Время не доказывает причинность.",
+      "distractorRationales": {
+        "It always proves that the previous event caused the next.": "Время не доказывает причинность.",
+        "It always expresses the degree of an adjective.": "Это не degree adverb."
+      },
+      "skillTarget": "adverbs-manner-time-degree-sequence",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "W1",
+      "group": "Самостоятельное применение",
+      "prompt": "Опиши свой учебный день или инструкцию в 8–10 предложениях. Используй manner, frequency, time, degree, sequence, пару hard/hardly, too/enough и still/yet. Объясни позицию четырёх наречий.",
+      "open": true,
+      "rubric": [
+        "Adjective/adverb различены по функции.",
+        "Наречия частоты стоят в естественной позиции.",
+        "Hard/hardly и late/lately не перепутаны.",
+        "Too/enough выражают правильное значение и порядок.",
+        "Временные и последовательные наречия логичны.",
+        "Грамматическая структура и смысл понятны."
+      ],
+      "skillTarget": "Самостоятельное применение A2-11",
+      "interactionType": "open-production",
+      "difficulty": "transfer",
+      "sourceBasis": "Speakbase-authored open production; self-review rubric only until real AI feedback is connected",
+      "contentVersion": "1.1-draft"
+    }
+  ],
+  "markdown": "# Speakbase — A2-11: Adverbs of manner, time, degree and sequence\n\n**Curriculum ID:** `A2-11`  \n**Уровень:** A2  \n**Версия:** 1.1-draft\n**Статус:** drafted; selected source text checked; full source-page and learner acceptance pending\n**Предварительные темы:** A1-11, A1-12  \n**Связь со старым каталогом:** Частично — №19 Adverbs\n\n## 1. Результаты обучения\n\n- Описывать как/когда/насколько часто происходит действие; правильно размещать наречия\n- Выбирать целевую форму по значению, структуре предложения и контексту.\n- Объяснять, почему близкая грамматическая форма меняет смысл или регистр.\n- Находить и исправлять типичные ошибки русскоязычных студентов.\n\n## 2. Источники и статус сверки\n\n| Source | PDF navigation | Lesson-specific checks | Status |\n|---|---|---|---|\n| GR-01 U86-96 | PDF pages 183-204 (Unit 86-96) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-02 U98-104 | PDF pages 208-221 (Unit 98-104) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-02 U109-112 | PDF pages 230-237 (Unit 109-112) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-03 U74-77 | PDF pages 172-179 (Unit 74-77) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-05 A2 p10-14 | PDF pages 10-14 (A2 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n\nUnit/page locations are navigation aids only. They do not prove that the cited explanation, examples, restrictions and answer key have been checked for this lesson. Examples and explanations below are Speakbase-authored, not quotations from the textbook.\n\nПеред переводом этого урока в source-verified необходимо открыть целевые страницы конкретного издания, записать печатную и PDF-пагинацию, сверить ограничения и исключения. Для GR-03 со сканированными страницами обязательна визуальная проверка.\n\n**Evidence for this editorial pass:** GR-02 Units 99–102, 109–111 selected theory text directly checked (PDF pp. 210, 212, 214, 216, 230, 232, 234; printed pp. 198–204, 218–222); Units 103–104 theory text also directly checked (PDF pp. 218, 220; printed pp. 206, 208); selected additional source verification pending. The selected source text was consulted; not all pages, exercises, editions, scanned GR-03 pages or GR-05 descriptors were checked. Author-created explanations and practice are not copied source exercises.\n\n## 3. Место темы и границы\n\nРазбери manner/time/degree/sequence adverbs и позицию наречий; проверь adjective/adverb, too/enough и частотные исключения.\n\nСтарый каталог содержит: №19 Adverbs. Его статус — Частично. Старые отметки завершения не переносятся автоматически на новый постоянный ID. Тема рассматривается в уровне A2 и не заменяет обязательные prerequisites.\n\n## 4. Полный конспект\n\n### 4.1. Основная идея и функция конструкции\n\nAdverb (наречие) уточняет действие, качество, другое наречие или целое высказывание. Наречия образа действия отвечают на how? (carefully), времени — when? (yesterday), частоты — how often? (usually), степени — how much? (very, too), последовательности — in what order? (first, then, finally). Важно не только выбрать слово, но и поставить его в естественную позицию.\n\nСравни a careful student и The student writes carefully. Careful описывает человека, carefully — способ действия. После be, look, feel, seem, smell, taste, sound в значении состояния/впечатления обычно употребляется adjective: She looks tired; The soup tastes good. Но если описываем действие самого глагола, нужен adverb: She looked carefully at the picture. Одно и то же слово может иметь разные функции в зависимости от контекста.\n\n### 4.2. Формирование и грамматическая модель\n\n| Тип | Обычная позиция | Пример |\n|---|---|---|\n| Manner | после verb/object | She reads the text slowly. |\n| Place | после verb/object | We met at school. |\n| Time | в конце или начале | We met yesterday. |\n| Frequency | перед main verb | I often study at home. |\n| Frequency с be | после be | She is often busy. |\n| Frequency с auxiliary/modal | после первого auxiliary | I have never tried it. |\n| Degree | перед adjective/adverb | very tired, quite slowly |\n| Enough | после adjective/adverb, перед noun | warm enough, enough time |\n| Sequence | часто в начале | First, open the file. |\n\nМногие наречия образуются добавлением -ly: slow → slowly, careful → carefully. Consonant + y → ily: happy → happily, easy → easily. После -le в simple/terrible обычно -ly с изменением основы: simply, terribly. Не все слова на -ly — наречия: friendly, lovely, lonely обычно прилагательные. Good — adjective, well — обычное наречие, но well также adjective в значении здоровый. Fast, hard, late, early могут быть и adjectives, и adverbs без -ly: run fast, work hard, arrive late, wake up early. Hardly означает почти не, lately — недавно/в последнее время. Не заменяй hard на hardly только для образования наречия.\n\n### 4.3. Как выбрать подходящую форму\n\nОпредели, что именно уточняется: noun → adjective; действие → adverb of manner; степень качества → degree adverb; частота → frequency adverb. Для manner чаще ставь наречие после дополнения: She speaks English fluently. Не разделяй без необходимости короткий глагол и прямое дополнение. Для place/time обычно место перед временем: We studied at the library yesterday. Если нужно обозначить время как тему высказывания, вынеси его в начало.\n\nAlways, usually, often, sometimes, rarely, never обычно стоят перед смысловым глаголом, после be и после первого auxiliary/modal: He often calls; He's often busy; He has often called. Sometimes допускает начало или конец предложения. Never/hardly already имеют отрицательный смысл: I hardly ever watch TV, не I don't hardly ever watch TV в стандартной письменной речи. Still обычно в середине и сообщает о продолжении: She is still working; yet обычно в конце вопроса/отрицания: Has she finished yet? Already часто в середине или конце: She has already finished. No longer — в середине, not…any more — в конце.\n\n### 4.4. Сравнение с близкими конструкциями\n\n| Пример | Значение |\n|---|---|\n| He works hard. | Он усердно работает. |\n| He hardly works. | Он почти не работает. |\n| She arrived late. | Она пришла поздно. |\n| I haven't seen her lately. | Я не видела её в последнее время. |\n| The room is very cold. | В комнате очень холодно. |\n| The room is too cold to study in. | Слишком холодно, чтобы заниматься. |\n| The room is warm enough. | Достаточно тепло. |\n\n### 4.5. Примеры с переводом и объяснением\n\n| English | Перевод | Почему это подходит |\n| --- | --- | --- |\n| She checked the figures carefully. | Она внимательно проверила цифры. | Manner после object. |\n| The soup smells wonderful. | Суп пахнет замечательно. | Adjective описывает впечатление от супа. |\n| I usually arrive early. | Обычно я прихожу рано. | Frequency перед main verb, early без -ly. |\n| He has already sent the email. | Он уже отправил письмо. | Already после auxiliary. |\n| This box is too heavy to lift. | Эту коробку слишком тяжело поднимать. | Too + adjective + to-infinitive. |\n| We have enough chairs for everyone. | У нас достаточно стульев для всех. | Enough перед noun. |\n\n### 4.6. Исключения, ограничения и границы употребления\n\nToo означает чрезмерную степень, которая мешает или превышает нужное: too heavy to carry. Very просто усиливает качество, не обязательно указывает проблему. Enough ставится после adjective/adverb: old enough, quickly enough; перед noun: enough chairs. So + adjective/adverb: so cold, so quickly; such + noun phrase: such a cold day. Quite может означать довольно или полностью в зависимости от прилагательного и варианта английского. Rather/fairly и even подробнее отрабатываются позднее; не назначай им фиксированную силу без контекста.\n\nНейтральный порядок слов не означает единственную допустимую позицию любого наречия. Slowly he opened the door возможно для выразительного эффекта; carefully check the figures — нормальная позиция перед глаголом. Не утверждай, что manner всегда стоит только в конце. First, next, then, after that, finally организуют последовательность; afterwards означает позднее, а не обязательно «поэтому». At first означает сначала, часто перед последующим изменением; first может обозначать первый шаг. Finally может выражать последний этап или долгожданный результат. В коротких инструкциях запятая после first/then может быть необязательной, но ясность важна. Слова too и also также могут означать добавление; too в конце предложения (I like it too) не означает чрезмерность.\n\n### 4.7. Типичные ошибки русскоязычных студентов\n\n| Ошибка | Исправление | Объяснение |\n| --- | --- | --- |\n| She speaks fluently English (нейтральный порядок). | She speaks English fluently. | Verb и object обычно рядом. |\n| He works hardly (если усердно). | He works hard. | Hardly меняет значение на почти не. |\n| The music sounds beautifully (если музыка красивая). | The music sounds beautiful. | Linking verb + adjective. |\n| She is enough tall. | She is tall enough. | Enough после adjective. |\n| He always is late (нейтральная полная фраза). | He is always late. | Frequency обычно после be. |\n\n### 4.8. Произношение и восприятие на слух\n\nСмысловое ударение зависит от фокуса: She speaks English VERY WELL. Hard и hardly различаются окончанием и значением; слушай полную фразу. В последовательности first/next/finally небольшие паузы помогают отделять этапы. Never и always могут выделяться для усиления контраста. Отдельная проверка словарного произношения пока не выполнена.\n\nСначала прослушай или прочитай пример, затем произнеси его целиком. Обрати внимание на смысловое ударение и форму конструкции; не ориентируйся только на буквенный перевод.\n\n### 4.9. Академический английский и TOEFL-перенос\n\nВ Listening различай степень, частоту и последовательность: hardly ever и often передают разные факты. В Reading учитывай ограничители too, enough, almost и already. В Speaking описывай действия и порядок решения задачи; в Writing ставь наречия так, чтобы было понятно, к какому слову они относятся. Например, The team carefully checked the data and then repeated the experiment.\n\nЭто авторская практика переноса навыка. Она не является официальным заданием TOEFL и не выдаётся за официальный результат экзамена.\n\n### 4.10. Примеры для управляемого разбора\n\n- She checked the figures carefully. — Она внимательно проверила цифры. Manner после object.\n- The soup smells wonderful. — Суп пахнет замечательно. Adjective описывает впечатление от супа.\n- I usually arrive early. — Обычно я прихожу рано. Frequency перед main verb, early без -ly.\n\nДля каждого примера назови целевую конструкцию, объясни выбор и составь новое предложение в другом контексте. Затем перейди к заданиям: сначала диагностика, затем управляемая и самостоятельная практика, затем новые вопросы выходной проверки.\n\n### 4.11. Самопроверка\n\nПеред отправкой ответа проверь:\n1. Adjective/adverb различены по функции.\n2. Наречия частоты стоят в естественной позиции.\n3. Hard/hardly и late/lately не перепутаны.\n4. Too/enough выражают правильное значение и порядок.\n5. Временные и последовательные наречия логичны.\n6. Грамматическая структура и смысл понятны.\n\n### 4.12. Краткая памятка\n\nAdjective описывает noun/состояние после linking verb; adverb описывает действие/степень/время. Manner часто после object, frequency перед main verb, после be/первого auxiliary. Hard ≠ hardly, late ≠ lately, good ≠ well. Too — чрезмерно; enough после adjective и перед noun. First/then/finally показывают порядок.\n\nНе выбирай форму только по одному знакомому слову: проверь контекст, значение и структуру. При ошибке вернись к соответствующей части конспекта и составь собственный пример.\n\n## 5. Практика\n\nВ приложении практика разделена на входную диагностику, управляемые задания, самостоятельную практику и новую выходную проверку. Закрытые ответы получают rationale и разбор ошибки. Свободный текст сохраняется и оценивается по рубрике; до подключения и реальной проверки AI-движка система не выдаёт его за автоматическую AI-оценку.\n\n## 6. Интервальное повторение\n\nПовторяй не весь урок автоматически, а конкретную ошибку: выбор формы, согласование, word order, значение, регистр или пунктуацию. Новая попытка должна менять лексический контекст и формулировку, чтобы проверять перенос, а не запоминание одной строки.\n\n## 7. Технический статус\n\n- Постоянный ID: `A2-11`.\n- Прогресс хранится отдельно в course.grammarLessons[\"A2-11\"].\n- Содержание и ключи имеют статус draft; 24 авторских закрытых задания и объяснения вычитаны, выбранные тексты источников проверены. Полная постраничная и пользовательская приёмка остаются открытыми.\n- Предварительное выполнение порогов не равно окончательному mastered: нужны отсроченное повторение и learner review.",
+  "theoryEnd": "## 5."
+}

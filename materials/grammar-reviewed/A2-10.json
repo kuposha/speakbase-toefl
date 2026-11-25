@@ -1,0 +1,742 @@
+{
+  "id": "A2-10",
+  "level": "A2",
+  "sequence": "A2-10",
+  "grammarFamily": "A2-10",
+  "questionBankSource": "topic-specific-authored",
+  "sourceVerification": "draft; selected source text consulted; complete source-page and learner review pending",
+  "topicProfile": {
+    "label": "determiners and quantifiers",
+    "skillTarget": "determiners-quantifiers-a2",
+    "core": "Determiners и quantifiers стоят перед существительными или заменяют целую именную группу. Они показывают количество, наличие, отсутствие и охват группы. Перед выбором слова выясни, можно ли посчитать предметы по отдельности: books — исчисляемое множественное, water — неисчисляемое. Затем реши, какое количество ты имеешь в виду: несколько, немного, всё, большинство, ни одного или любой из вариантов.",
+    "form": "| Слово | Сочетаемость | Смысл |\n|---|---|---|\n| many / (a) few | plural countable | много / мало или несколько |\n| much / (a) little | uncountable | много / мало или немного |\n| some / any | plural countable, uncountable | некоторое количество / какое-либо |\n| a lot of / plenty of | plural, uncountable | много / более чем достаточно |\n| no | noun | отсутствие |\n| none / none of | без noun / of + определённая группа | ни одного, нисколько |\n| all / most | plural или uncountable | все / большинство |\n| both | plural (двое) | оба |\n| either / neither | singular countable (из двух) | любой / ни один |\n| each / every | singular countable | каждый |\n| whole | обычно singular noun с determiner | целый |",
+    "selection": "Some обычно употребляется в положительных предложениях, any — в нейтральных вопросах и отрицаниях. We bought some fruit. We didn't buy any fruit. Do you have any fruit? Но в предложении чего-либо или просьбе часто some: Would you like some tea? Can I have some water? Если говорящий предполагает наличие предмета, some возможен и в другом вопросе. Any в утвердительном контексте может означать «любой»: Choose any seat.",
+    "contrast": "| Пример | Значение |\n|---|---|\n| We have a few chairs. | Несколько стульев есть. |\n| We have few chairs. | Стульев мало. |\n| We have a little time. | Есть немного времени. |\n| We have little time. | Времени мало. |\n| Both rooms are free. | Обе комнаты свободны. |\n| Either room is fine. | Подойдёт любая из двух. |\n| Neither room is free. | Ни одна из двух не свободна. |\n| Every student has a card. | Каждый студент имеет карточку. |",
+    "boundary": "Both/either/neither употребляются прежде всего для двух объектов; all/any/none — для группы в целом. Both + plural noun: Both answers are correct. Either/neither + singular noun: Neither answer is correct. После neither of + plural noun возможны singular и plural в зависимости от стиля; не объявляй один вариант всегда неправильным. После none of + plural noun тоже возможны обе формы. Every и each обычно сочетаются с singular noun и singular verb: Each student has a laptop. Each of the students has…; every one of the students has…; не every of the students.",
+    "pronunciation": "В связной речи some перед существительным и of в количественных группах часто безударны. Выделяй слово, которое несёт смысл количества: a FEW books, very LITTLE time, BOTH of them. В neither и either существуют разные стандартные варианты произношения. Не ориентируйся только на звучание a, проверяй смысл few/a few. Отдельная аудиопроверка пока не выполнена.",
+    "examples": [
+      [
+        "Could I have some water, please?",
+        "Можно мне немного воды?",
+        "Some естественно в просьбе."
+      ],
+      [
+        "There aren't any empty seats.",
+        "Свободных мест нет.",
+        "Any с отрицательным глаголом."
+      ],
+      [
+        "We have a few minutes before class.",
+        "У нас есть несколько минут до занятия.",
+        "A few + plural countable."
+      ],
+      [
+        "Most of my classmates live nearby.",
+        "Большинство моих одногруппников живёт рядом.",
+        "Of + определённая группа."
+      ],
+      [
+        "Neither answer is correct.",
+        "Ни один из двух ответов не верен.",
+        "Neither + singular noun."
+      ],
+      [
+        "I read the whole book yesterday.",
+        "Я прочитала всю книгу вчера.",
+        "Whole с singular noun."
+      ]
+    ],
+    "traps": [
+      [
+        "How much books do you need?",
+        "How many books do you need?",
+        "Books исчисляемое множественное."
+      ],
+      [
+        "I have a few money.",
+        "I have a little money.",
+        "Money неисчисляемое."
+      ],
+      [
+        "Most of students passed.",
+        "Most students passed.",
+        "Без определителя of не нужно."
+      ],
+      [
+        "Neither rooms are free.",
+        "Neither room is free.",
+        "После neither непосредственно singular noun."
+      ],
+      [
+        "Every students have a card.",
+        "Every student has a card.",
+        "Every + singular noun и verb."
+      ]
+    ],
+    "toefl": "В Reading различай all, most, some и few: утверждение о большинстве не доказывает, что речь обо всех. В Listening обращай внимание на правила, количество и доступность услуг. В Writing и Speaking описывай данные с подходящими количественными выражениями и не делай более сильных выводов, чем позволяют данные. Например, Most participants preferred the new method; a few preferred the old one."
+  },
+  "title": "Determiners and quantifiers",
+  "description": "Использовать much/many/few/little/a few/a little/some/any/no, all/most/both/either в подходящих контекстах",
+  "cardDescription": "Теория, guided practice, самостоятельные задания и выходная проверка по постоянному ID A2-10.",
+  "eyebrow": "Полный урок программы A2-10 · drafted",
+  "contentVersion": "1.1-draft",
+  "curriculumVersion": "1.0",
+  "prerequisites": [
+    "A1-10"
+  ],
+  "outcomes": [
+    "Использовать much/many/few/little/a few/a little/some/any/no, all/most/both/either в подходящих контекстах",
+    "Выбирать целевую конструкцию по контексту и смыслу.",
+    "Исправлять типичные ошибки и переносить правило в новый пример."
+  ],
+  "sourceRefs": [
+    "GR-01 U77-85",
+    "GR-02 U85-91",
+    "GR-03 U48-52",
+    "GR-05 A2 p27-28",
+    "GR-05 A2 p43-48"
+  ],
+  "sourceStatus": "selected source text consulted; full page verification pending",
+  "status": "drafted",
+  "legacyCoverage": "Полное ядро",
+  "toeflLinks": [
+    "Writing: Build a Sentence",
+    "Writing: Write an Email"
+  ],
+  "thresholds": {
+    "independent": 7,
+    "exit": 4,
+    "criticalIds": [
+      "E1",
+      "E2",
+      "E3"
+    ]
+  },
+  "groups": {
+    "independent": "Самостоятельная практика",
+    "exit": "Выходная проверка"
+  },
+  "items": [
+    {
+      "id": "D1",
+      "group": "Входная диагностика",
+      "prompt": "Choose the correct question about the number of printed copies.",
+      "options": [
+        "How much copies do you need?",
+        "How many copies do you need?",
+        "How little copies do you need?"
+      ],
+      "answer": "How many copies do you need?",
+      "accepted": [
+        "How many copies do you need?"
+      ],
+      "why": "Many + plural countable.",
+      "distractorWhy": "Much требует uncountable.",
+      "distractorRationales": {
+        "How much copies do you need?": "Much требует uncountable.",
+        "How little copies do you need?": "Little не сочетается с plural copies."
+      },
+      "skillTarget": "determiners-quantifiers-a2",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D2",
+      "group": "Входная диагностика",
+      "prompt": "Choose the correct question about the amount of milk.",
+      "options": [
+        "How much milk is left?",
+        "How many milk is left?",
+        "How few milk is left?"
+      ],
+      "answer": "How much milk is left?",
+      "accepted": [
+        "How much milk is left?"
+      ],
+      "why": "Milk неисчисляемое, much.",
+      "distractorWhy": "Many требует plural.",
+      "distractorRationales": {
+        "How many milk is left?": "Many требует plural.",
+        "How few milk is left?": "Few требует plural."
+      },
+      "skillTarget": "determiners-quantifiers-a2",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D3",
+      "group": "Входная диагностика",
+      "prompt": "There is enough time for a quick chat. Choose the positive small amount.",
+      "options": [
+        "We have a few time.",
+        "We have few time.",
+        "We have a little time."
+      ],
+      "answer": "We have a little time.",
+      "accepted": [
+        "We have a little time."
+      ],
+      "why": "A little + uncountable, некоторое количество.",
+      "distractorWhy": "A few требует plural noun.",
+      "distractorRationales": {
+        "We have a few time.": "A few требует plural noun.",
+        "We have few time.": "Few также требует plural."
+      },
+      "skillTarget": "determiners-quantifiers-a2",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D4",
+      "group": "Входная диагностика",
+      "prompt": "There are some spare notebooks, enough for our small group. Choose the suitable quantity phrase.",
+      "options": [
+        "We have a little spare notebooks.",
+        "We have a few spare notebooks.",
+        "We have much spare notebooks."
+      ],
+      "answer": "We have a few spare notebooks.",
+      "accepted": [
+        "We have a few spare notebooks."
+      ],
+      "why": "A few + plural countable, несколько.",
+      "distractorWhy": "A little требует uncountable.",
+      "distractorRationales": {
+        "We have a little spare notebooks.": "A little требует uncountable.",
+        "We have much spare notebooks.": "Much требует uncountable."
+      },
+      "skillTarget": "determiners-quantifiers-a2",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G1",
+      "group": "Управляемая практика",
+      "prompt": "Choose the phrase emphasising a shortage of uncountable energy.",
+      "options": [
+        "very little energy",
+        "very few energy",
+        "very many energy"
+      ],
+      "answer": "very little energy",
+      "accepted": [
+        "very little energy"
+      ],
+      "why": "Little + uncountable подчёркивает малое количество.",
+      "distractorWhy": "Few требует plural countable.",
+      "distractorRationales": {
+        "very few energy": "Few требует plural countable.",
+        "very many energy": "Many требует plural."
+      },
+      "skillTarget": "determiners-quantifiers-a2",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G2",
+      "group": "Управляемая практика",
+      "prompt": "Choose a natural polite offer.",
+      "options": [
+        "Would you like a few juice?",
+        "Would you like many juice?",
+        "Would you like some juice?"
+      ],
+      "answer": "Would you like some juice?",
+      "accepted": [
+        "Would you like some juice?"
+      ],
+      "why": "Some обычно используется в предложении напитка.",
+      "distractorWhy": "A few требует plural.",
+      "distractorRationales": {
+        "Would you like a few juice?": "A few требует plural.",
+        "Would you like many juice?": "Many требует plural."
+      },
+      "skillTarget": "determiners-quantifiers-a2",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G3",
+      "group": "Управляемая практика",
+      "prompt": "You do not know if there are seats. Choose the neutral question with any.",
+      "options": [
+        "Are there any seat available?",
+        "Are there any seats available?",
+        "Are there much seats available?"
+      ],
+      "answer": "Are there any seats available?",
+      "accepted": [
+        "Are there any seats available?"
+      ],
+      "why": "Any + plural seats в нейтральном вопросе.",
+      "distractorWhy": "Are there требует согласования с plural в этой модели.",
+      "distractorRationales": {
+        "Are there any seat available?": "Are there требует согласования с plural в этой модели.",
+        "Are there much seats available?": "Much не подходит к countable plural."
+      },
+      "skillTarget": "determiners-quantifiers-a2",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G4",
+      "group": "Управляемая практика",
+      "prompt": "Choose the standard negative with any.",
+      "options": [
+        "I didn't buy any pens.",
+        "I didn't buy no pens.",
+        "I didn't buy any penes."
+      ],
+      "answer": "I didn't buy any pens.",
+      "accepted": [
+        "I didn't buy any pens."
+      ],
+      "why": "Didn't + any + plural noun.",
+      "distractorWhy": "Двойное отрицание не стандартная модель.",
+      "distractorRationales": {
+        "I didn't buy no pens.": "Двойное отрицание не стандартная модель.",
+        "I didn't buy any penes.": "Plural pen → pens."
+      },
+      "skillTarget": "determiners-quantifiers-a2",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G5",
+      "group": "Управляемая практика",
+      "prompt": "Choose the correct affirmative-verb construction with no.",
+      "options": [
+        "There aren't no empty desks.",
+        "There are none empty desks.",
+        "There are no empty desks."
+      ],
+      "answer": "There are no empty desks.",
+      "accepted": [
+        "There are no empty desks."
+      ],
+      "why": "No + noun с affirmative verb.",
+      "distractorWhy": "Двойное отрицание.",
+      "distractorRationales": {
+        "There aren't no empty desks.": "Двойное отрицание.",
+        "There are none empty desks.": "None не ставят прямо перед noun."
+      },
+      "skillTarget": "determiners-quantifiers-a2",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G6",
+      "group": "Управляемая практика",
+      "prompt": "'How many tickets are left?' Choose the one-word answer meaning zero.",
+      "options": [
+        "No.",
+        "None.",
+        "Any."
+      ],
+      "answer": "None.",
+      "accepted": [
+        "None."
+      ],
+      "why": "None может употребляться самостоятельно.",
+      "distractorWhy": "No answers a yes/no question; none expresses zero quantity.",
+      "distractorRationales": {
+        "Any.": "Any не означает ноль.",
+        "No.": "No answers a yes/no question; none expresses zero quantity."
+      },
+      "skillTarget": "determiners-quantifiers-a2",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I1",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the general statement about most students.",
+      "options": [
+        "Most of students use email.",
+        "Most the students use email.",
+        "Most students use email."
+      ],
+      "answer": "Most students use email.",
+      "accepted": [
+        "Most students use email."
+      ],
+      "why": "Most + noun для общей группы.",
+      "distractorWhy": "Of требует determiner или pronoun.",
+      "distractorRationales": {
+        "Most of students use email.": "Of требует determiner или pronoun.",
+        "Most the students use email.": "Нарушен порядок слов."
+      },
+      "skillTarget": "determiners-quantifiers-a2",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I2",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the statement about a specific group using most of.",
+      "options": [
+        "Most of students passed.",
+        "Most of these students passed.",
+        "Most of they passed."
+      ],
+      "answer": "Most of these students passed.",
+      "accepted": [
+        "Most of these students passed."
+      ],
+      "why": "Most of + these + plural noun.",
+      "distractorWhy": "Без определителя of не употребляется.",
+      "distractorRationales": {
+        "Most of students passed.": "Без определителя of не употребляется.",
+        "Most of they passed.": "После of нужен them, не they."
+      },
+      "skillTarget": "determiners-quantifiers-a2",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I3",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct expression referring to two people including the speaker.",
+      "options": [
+        "Both of us are ready.",
+        "Both us are ready.",
+        "Both of we are ready."
+      ],
+      "answer": "Both of us are ready.",
+      "accepted": [
+        "Both of us are ready."
+      ],
+      "why": "Both of + object pronoun us.",
+      "distractorWhy": "Перед us обязательно of.",
+      "distractorRationales": {
+        "Both us are ready.": "Перед us обязательно of.",
+        "Both of we are ready.": "We — subject pronoun."
+      },
+      "skillTarget": "determiners-quantifiers-a2",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I4",
+      "group": "Самостоятельная практика",
+      "prompt": "Both rooms are available; you can pick one. Choose the expression meaning either one.",
+      "options": [
+        "You can choose either rooms.",
+        "You can choose neither room.",
+        "You can choose either room."
+      ],
+      "answer": "You can choose either room.",
+      "accepted": [
+        "You can choose either room."
+      ],
+      "why": "Either + singular noun — любая из двух.",
+      "distractorWhy": "После either непосредственно singular noun.",
+      "distractorRationales": {
+        "You can choose either rooms.": "После either непосредственно singular noun.",
+        "You can choose neither room.": "Neither означает ни одну."
+      },
+      "skillTarget": "determiners-quantifiers-a2",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I5",
+      "group": "Самостоятельная практика",
+      "prompt": "Two answers are wrong. Choose the negative statement about both.",
+      "options": [
+        "Neither answers is correct.",
+        "Neither answer is correct.",
+        "Both answers are correct."
+      ],
+      "answer": "Neither answer is correct.",
+      "accepted": [
+        "Neither answer is correct."
+      ],
+      "why": "Neither + singular noun/verb отрицает оба.",
+      "distractorWhy": "Answers должно быть singular.",
+      "distractorRationales": {
+        "Neither answers is correct.": "Answers должно быть singular.",
+        "Both answers are correct.": "Both correct противоречит условию."
+      },
+      "skillTarget": "determiners-quantifiers-a2",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I6",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct sentence with each.",
+      "options": [
+        "Each participant has a badge.",
+        "Each participants have a badge.",
+        "Each participant have a badge."
+      ],
+      "answer": "Each participant has a badge.",
+      "accepted": [
+        "Each participant has a badge."
+      ],
+      "why": "Each + singular noun + singular verb.",
+      "distractorWhy": "Participants здесь не подходит.",
+      "distractorRationales": {
+        "Each participants have a badge.": "Participants здесь не подходит.",
+        "Each participant have a badge.": "Participant требует has."
+      },
+      "skillTarget": "determiners-quantifiers-a2",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I7",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct expression with every one of.",
+      "options": [
+        "Every of the files is saved.",
+        "Every one of the file is saved.",
+        "Every one of the files is saved."
+      ],
+      "answer": "Every one of the files is saved.",
+      "accepted": [
+        "Every one of the files is saved."
+      ],
+      "why": "Every one of + plural group, one — singular.",
+      "distractorWhy": "Every of не употребляется.",
+      "distractorRationales": {
+        "Every of the files is saved.": "Every of не употребляется.",
+        "Every one of the file is saved.": "После of нужна группа files."
+      },
+      "skillTarget": "determiners-quantifiers-a2",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I8",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the expression meaning from morning until evening, not frequency.",
+      "options": [
+        "We studied every day.",
+        "We studied all day.",
+        "We studied all the days as one day."
+      ],
+      "answer": "We studied all day.",
+      "accepted": [
+        "We studied all day."
+      ],
+      "why": "All day — весь день.",
+      "distractorWhy": "Every day — ежедневно.",
+      "distractorRationales": {
+        "We studied every day.": "Every day — ежедневно.",
+        "We studied all the days as one day.": "Days означает несколько дней."
+      },
+      "skillTarget": "determiners-quantifiers-a2",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I9",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the normal expression meaning the entire book.",
+      "options": [
+        "the whole book",
+        "whole the book",
+        "the whole information"
+      ],
+      "answer": "the whole book",
+      "accepted": [
+        "the whole book"
+      ],
+      "why": "Determiner перед whole + singular countable.",
+      "distractorWhy": "Неверный порядок.",
+      "distractorRationales": {
+        "whole the book": "Неверный порядок.",
+        "the whole information": "Information обычно употребляется с all."
+      },
+      "skillTarget": "determiners-quantifiers-a2",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E1",
+      "group": "Выходная проверка",
+      "prompt": "Choose the sentence with an uncountable noun and all.",
+      "options": [
+        "I read all the information.",
+        "I read the whole informations.",
+        "I read all an information."
+      ],
+      "answer": "I read all the information.",
+      "accepted": [
+        "I read all the information."
+      ],
+      "why": "All the + uncountable information.",
+      "distractorWhy": "Information не имеет обычного plural.",
+      "distractorRationales": {
+        "I read the whole informations.": "Information не имеет обычного plural.",
+        "I read all an information.": "An нельзя поставить перед information."
+      },
+      "skillTarget": "determiners-quantifiers-a2",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E2",
+      "group": "Выходная проверка",
+      "prompt": "Choose the sentence meaning that any one of several seats is acceptable.",
+      "options": [
+        "You may take no seat.",
+        "You may take none seat.",
+        "You may take any seat."
+      ],
+      "answer": "You may take any seat.",
+      "accepted": [
+        "You may take any seat."
+      ],
+      "why": "Any в утверждении может значить любой.",
+      "distractorWhy": "No означает отсутствие.",
+      "distractorRationales": {
+        "You may take no seat.": "No означает отсутствие.",
+        "You may take none seat.": "None не определяет noun непосредственно."
+      },
+      "skillTarget": "determiners-quantifiers-a2",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E3",
+      "group": "Выходная проверка",
+      "prompt": "Choose a quantity expression that works with both water and chairs.",
+      "options": [
+        "many",
+        "a lot of",
+        "a few"
+      ],
+      "answer": "a lot of",
+      "accepted": [
+        "a lot of"
+      ],
+      "why": "A lot of + uncountable или plural countable.",
+      "distractorWhy": "Many только plural countable.",
+      "distractorRationales": {
+        "many": "Many только plural countable.",
+        "a few": "A few только plural countable."
+      },
+      "skillTarget": "determiners-quantifiers-a2",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E4",
+      "group": "Выходная проверка",
+      "prompt": "Choose the accurate rule for agreement after none of + plural noun.",
+      "options": [
+        "Both singular and plural agreement can occur.",
+        "Only plural is ever grammatical.",
+        "Only singular is ever grammatical."
+      ],
+      "answer": "Both singular and plural agreement can occur.",
+      "accepted": [
+        "Both singular and plural agreement can occur."
+      ],
+      "why": "Обе формы встречаются в зависимости от контекста и стиля.",
+      "distractorWhy": "Singular тоже возможен.",
+      "distractorRationales": {
+        "Only plural is ever grammatical.": "Singular тоже возможен.",
+        "Only singular is ever grammatical.": "Plural тоже возможен."
+      },
+      "skillTarget": "determiners-quantifiers-a2",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E5",
+      "group": "Выходная проверка",
+      "prompt": "Choose the expression meaning more than enough time.",
+      "options": [
+        "We have little time.",
+        "We have no time.",
+        "We have plenty of time."
+      ],
+      "answer": "We have plenty of time.",
+      "accepted": [
+        "We have plenty of time."
+      ],
+      "why": "Plenty of означает достаточно с запасом.",
+      "distractorWhy": "Little подчёркивает малое количество.",
+      "distractorRationales": {
+        "We have little time.": "Little подчёркивает малое количество.",
+        "We have no time.": "No означает отсутствие."
+      },
+      "skillTarget": "determiners-quantifiers-a2",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "W1",
+      "group": "Самостоятельное применение",
+      "prompt": "Опиши ресурсы для учебного проекта в 8–10 предложениях. Используй much/many, a few/few, a little/little, some/any, no/none, most of, both/either/neither и each/every. Объясни четыре выбора.",
+      "open": true,
+      "rubric": [
+        "Countability определена верно.",
+        "Few/a few и little/a little различены по смыслу.",
+        "Some/any/no/none употреблены в подходящем контексте.",
+        "Of используется перед определённой группой или местоимением.",
+        "Both/either/neither и each/every имеют правильное число.",
+        "Количественные утверждения логичны."
+      ],
+      "skillTarget": "Самостоятельное применение A2-10",
+      "interactionType": "open-production",
+      "difficulty": "transfer",
+      "sourceBasis": "Speakbase-authored open production; self-review rubric only until real AI feedback is connected",
+      "contentVersion": "1.1-draft"
+    }
+  ],
+  "markdown": "# Speakbase — A2-10: Determiners and quantifiers\n\n**Curriculum ID:** `A2-10`  \n**Уровень:** A2  \n**Версия:** 1.1-draft\n**Статус:** drafted; selected source text checked; full source-page and learner acceptance pending\n**Предварительные темы:** A1-10  \n**Связь со старым каталогом:** Полное ядро — №15 Countable and uncountable; №16 Quantifiers\n\n## 1. Результаты обучения\n\n- Использовать much/many/few/little/a few/a little/some/any/no, all/most/both/either в подходящих контекстах\n- Выбирать целевую форму по значению, структуре предложения и контексту.\n- Объяснять, почему близкая грамматическая форма меняет смысл или регистр.\n- Находить и исправлять типичные ошибки русскоязычных студентов.\n\n## 2. Источники и статус сверки\n\n| Source | PDF navigation | Lesson-specific checks | Status |\n|---|---|---|---|\n| GR-01 U77-85 | PDF pages 165-182 (Unit 77-85) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-02 U85-91 | PDF pages 182-195 (Unit 85-91) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-03 U48-52 | PDF pages 120-129 (Unit 48-52) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-05 A2 p27-28 | PDF pages 27-28 (A2 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-05 A2 p43-48 | PDF pages 43-48 (A2 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n\nUnit/page locations are navigation aids only. They do not prove that the cited explanation, examples, restrictions and answer key have been checked for this lesson. Examples and explanations below are Speakbase-authored, not quotations from the textbook.\n\nПеред переводом этого урока в source-verified необходимо открыть целевые страницы конкретного издания, записать печатную и PDF-пагинацию, сверить ограничения и исключения. Для GR-03 со сканированными страницами обязательна визуальная проверка.\n\n**Evidence for this editorial pass:** GR-02 Units 85–91, theory text consulted on PDF pp. 182–194 (even pages; printed pp. 170–182): some/any, no/none, quantity, of-phrases, both/either/neither, whole/every/each. Additional sources and exercise-page/visual verification pending. The selected source text was consulted; not all pages, exercises, editions, scanned GR-03 pages or GR-05 descriptors were checked. Author-created explanations and practice are not copied source exercises.\n\n## 3. Место темы и границы\n\nСистематизируй quantifiers по countability, числу и смыслу: small amount, none, whole, both/either/neither.\n\nСтарый каталог содержит: №15 Countable and uncountable; №16 Quantifiers. Его статус — Полное ядро. Старые отметки завершения не переносятся автоматически на новый постоянный ID. Тема рассматривается в уровне A2 и не заменяет обязательные prerequisites.\n\n## 4. Полный конспект\n\n### 4.1. Основная идея и функция конструкции\n\nDeterminers и quantifiers стоят перед существительными или заменяют целую именную группу. Они показывают количество, наличие, отсутствие и охват группы. Перед выбором слова выясни, можно ли посчитать предметы по отдельности: books — исчисляемое множественное, water — неисчисляемое. Затем реши, какое количество ты имеешь в виду: несколько, немного, всё, большинство, ни одного или любой из вариантов.\n\nСравни a few books (несколько книг), a little water (немного воды), few books (мало книг), little water (мало воды). Артикль a меняет оценку количества: a few/a little показывают, что некоторое количество есть; few/little подчёркивают недостаток или небольшое количество. Это не обязательно строго заданное число. I have a little time — есть немного времени, а I have little time — времени мало. Обращай внимание и на то, о какой группе говоришь: most students — большинство студентов вообще, most of the students — большинство конкретных студентов.\n\n### 4.2. Формирование и грамматическая модель\n\n| Слово | Сочетаемость | Смысл |\n|---|---|---|\n| many / (a) few | plural countable | много / мало или несколько |\n| much / (a) little | uncountable | много / мало или немного |\n| some / any | plural countable, uncountable | некоторое количество / какое-либо |\n| a lot of / plenty of | plural, uncountable | много / более чем достаточно |\n| no | noun | отсутствие |\n| none / none of | без noun / of + определённая группа | ни одного, нисколько |\n| all / most | plural или uncountable | все / большинство |\n| both | plural (двое) | оба |\n| either / neither | singular countable (из двух) | любой / ни один |\n| each / every | singular countable | каждый |\n| whole | обычно singular noun с determiner | целый |\n\nMuch особенно обычно в вопросах и отрицаниях: How much time do we have? We don't have much time. В разговорном утверждении естественно a lot of time; much допустимо в формальном стиле или с too/so/as: too much traffic. Many нормально и в утверждении, и в вопросе: Many students applied. How many students applied? A lot of / lots of употребляются с обеими категориями. Plenty of означает, что количества достаточно с запасом. Countable в singular требует подходящего определителя: a book, each book, neither book. Uncountable не получает a/an непосредственно: a piece of advice, some advice, not an advice.\n\n### 4.3. Как выбрать подходящую форму\n\nSome обычно употребляется в положительных предложениях, any — в нейтральных вопросах и отрицаниях. We bought some fruit. We didn't buy any fruit. Do you have any fruit? Но в предложении чего-либо или просьбе часто some: Would you like some tea? Can I have some water? Если говорящий предполагает наличие предмета, some возможен и в другом вопросе. Any в утвердительном контексте может означать «любой»: Choose any seat.\n\nNo + noun: There are no tickets. None без существительного: How many tickets are left? None. None of + the/my/these/them: None of the tickets are available. С отрицательным глаголом употребляй any: There aren't any tickets. В стандартном английском не дублируй отрицание: I said nothing или I didn't say anything. Если группа названа без определителя, употребляй some students, most students; с определённой группой — some of the students, most of my friends. All (of) the books и both (of) the books допускают of или его отсутствие; перед them/us/you of обязателен: both of us.\n\n### 4.4. Сравнение с близкими конструкциями\n\n| Пример | Значение |\n|---|---|\n| We have a few chairs. | Несколько стульев есть. |\n| We have few chairs. | Стульев мало. |\n| We have a little time. | Есть немного времени. |\n| We have little time. | Времени мало. |\n| Both rooms are free. | Обе комнаты свободны. |\n| Either room is fine. | Подойдёт любая из двух. |\n| Neither room is free. | Ни одна из двух не свободна. |\n| Every student has a card. | Каждый студент имеет карточку. |\n\n### 4.5. Примеры с переводом и объяснением\n\n| English | Перевод | Почему это подходит |\n| --- | --- | --- |\n| Could I have some water, please? | Можно мне немного воды? | Some естественно в просьбе. |\n| There aren't any empty seats. | Свободных мест нет. | Any с отрицательным глаголом. |\n| We have a few minutes before class. | У нас есть несколько минут до занятия. | A few + plural countable. |\n| Most of my classmates live nearby. | Большинство моих одногруппников живёт рядом. | Of + определённая группа. |\n| Neither answer is correct. | Ни один из двух ответов не верен. | Neither + singular noun. |\n| I read the whole book yesterday. | Я прочитала всю книгу вчера. | Whole с singular noun. |\n\n### 4.6. Исключения, ограничения и границы употребления\n\nBoth/either/neither употребляются прежде всего для двух объектов; all/any/none — для группы в целом. Both + plural noun: Both answers are correct. Either/neither + singular noun: Neither answer is correct. После neither of + plural noun возможны singular и plural в зависимости от стиля; не объявляй один вариант всегда неправильным. После none of + plural noun тоже возможны обе формы. Every и each обычно сочетаются с singular noun и singular verb: Each student has a laptop. Each of the students has…; every one of the students has…; не every of the students.\n\nEach выделяет отдельные элементы по одному, every рассматривает охват группы. Для двух объектов особенно естественно each. All day/the whole day означает весь день от начала до конца, every day — каждый день (частота). Whole употребляется обычно с исчисляемым существительным в единственном числе: the whole book; all the information — вся информация. Определитель перед whole, после all: my whole life / all my life. Most students — большинство студентов; the most expensive — другая конструкция, превосходная степень. Every one (два слова) может относиться к предметам и людям, everyone — ко всем людям. Для сложных согласований и less/fewer подробнее смотри B1.\n\n### 4.7. Типичные ошибки русскоязычных студентов\n\n| Ошибка | Исправление | Объяснение |\n| --- | --- | --- |\n| How much books do you need? | How many books do you need? | Books исчисляемое множественное. |\n| I have a few money. | I have a little money. | Money неисчисляемое. |\n| Most of students passed. | Most students passed. | Без определителя of не нужно. |\n| Neither rooms are free. | Neither room is free. | После neither непосредственно singular noun. |\n| Every students have a card. | Every student has a card. | Every + singular noun и verb. |\n\n### 4.8. Произношение и восприятие на слух\n\nВ связной речи some перед существительным и of в количественных группах часто безударны. Выделяй слово, которое несёт смысл количества: a FEW books, very LITTLE time, BOTH of them. В neither и either существуют разные стандартные варианты произношения. Не ориентируйся только на звучание a, проверяй смысл few/a few. Отдельная аудиопроверка пока не выполнена.\n\nСначала прослушай или прочитай пример, затем произнеси его целиком. Обрати внимание на смысловое ударение и форму конструкции; не ориентируйся только на буквенный перевод.\n\n### 4.9. Академический английский и TOEFL-перенос\n\nВ Reading различай all, most, some и few: утверждение о большинстве не доказывает, что речь обо всех. В Listening обращай внимание на правила, количество и доступность услуг. В Writing и Speaking описывай данные с подходящими количественными выражениями и не делай более сильных выводов, чем позволяют данные. Например, Most participants preferred the new method; a few preferred the old one.\n\nЭто авторская практика переноса навыка. Она не является официальным заданием TOEFL и не выдаётся за официальный результат экзамена.\n\n### 4.10. Примеры для управляемого разбора\n\n- Could I have some water, please? — Можно мне немного воды? Some естественно в просьбе.\n- There aren't any empty seats. — Свободных мест нет. Any с отрицательным глаголом.\n- We have a few minutes before class. — У нас есть несколько минут до занятия. A few + plural countable.\n\nДля каждого примера назови целевую конструкцию, объясни выбор и составь новое предложение в другом контексте. Затем перейди к заданиям: сначала диагностика, затем управляемая и самостоятельная практика, затем новые вопросы выходной проверки.\n\n### 4.11. Самопроверка\n\nПеред отправкой ответа проверь:\n1. Countability определена верно.\n2. Few/a few и little/a little различены по смыслу.\n3. Some/any/no/none употреблены в подходящем контексте.\n4. Of используется перед определённой группой или местоимением.\n5. Both/either/neither и each/every имеют правильное число.\n6. Количественные утверждения логичны.\n\n### 4.12. Краткая памятка\n\nMany/few — countable plural, much/little — uncountable; a few/a little — некоторое количество. Some/any зависят от смысла и контекста. No + noun, none без noun или none of. Most of + определённая группа. Both/either/neither — два объекта; each/every + singular. All day — весь день, every day — каждый день.\n\nНе выбирай форму только по одному знакомому слову: проверь контекст, значение и структуру. При ошибке вернись к соответствующей части конспекта и составь собственный пример.\n\n## 5. Практика\n\nВ приложении практика разделена на входную диагностику, управляемые задания, самостоятельную практику и новую выходную проверку. Закрытые ответы получают rationale и разбор ошибки. Свободный текст сохраняется и оценивается по рубрике; до подключения и реальной проверки AI-движка система не выдаёт его за автоматическую AI-оценку.\n\n## 6. Интервальное повторение\n\nПовторяй не весь урок автоматически, а конкретную ошибку: выбор формы, согласование, word order, значение, регистр или пунктуацию. Новая попытка должна менять лексический контекст и формулировку, чтобы проверять перенос, а не запоминание одной строки.\n\n## 7. Технический статус\n\n- Постоянный ID: `A2-10`.\n- Прогресс хранится отдельно в course.grammarLessons[\"A2-10\"].\n- Содержание и ключи имеют статус draft; 24 авторских закрытых задания и объяснения вычитаны, выбранные тексты источников проверены. Полная постраничная и пользовательская приёмка остаются открытыми.\n- Предварительное выполнение порогов не равно окончательному mastered: нужны отсроченное повторение и learner review.",
+  "theoryEnd": "## 5."
+}
