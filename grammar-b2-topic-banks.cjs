@@ -307,10 +307,10 @@ q("They spent the ___ afternoon reviewing the evidence.","whole","all","every","
 "B2-16":{base:"ellipsis",skillTarget:"ellipsis-substitution-and-parallel-structures",profile:{
 label:"ellipsis and substitution",
 core:"Ellipsis omits words that are recoverable from context, while substitution replaces a repeated phrase with one, do, so, not or another pro-form. These devices reduce repetition without making reference unclear.",
-form:"One/ones replace countable noun heads; do so substitutes a verb phrase; so/not can replace a clause after reporting verbs; auxiliary ellipsis in comparisons: I can, and she can too. Avoid omitting material needed for clarity.",
+form:"Reflexives mark subject/object identity or emphasis. One/ones replace countable noun heads; so/not substitute for clauses after selected verbs; so/neither + auxiliary + subject express agreement; do so replaces a verb phrase. Ellipsis can follow auxiliaries or retain to before an understood infinitive; this/these + summary noun clarifies reference.",
 selection:"Найди, какой элемент повторяется и можно ли восстановить его однозначно. Для noun head используй one/ones; для verb phrase — do so; для clause after think/hope/expect — so/not where licensed.",
-contrast:"I prefer the blue one (noun substitution). She promised to revise it and did so (verb phrase). I think so / I hope not (clause substitution).",
-boundary:"Substitution is restricted by grammar and context. One/ones generally replace countable nouns, not uncountable mass nouns; do so is more formal than simply do it in many contexts.",
+contrast:"I prefer the blue one (noun substitution). She promised to revise it and did so (verb phrase). I think so / I hope not (clause substitution). I can swim. So can I. I cannot attend. Neither can my colleague.",
+boundary:"Substitution is restricted by grammar and context. One/ones replace countable nouns, not uncountable mass nouns. So/not require a verb that licenses clause substitution; neither already contains negation. So/neither agreement requires auxiliary inversion. Do so is more formal than do it in many contexts. Ellipsis requires recoverable content and a licensed governing verb.",
 skillTarget:"ellipsis-substitution-and-parallel-structures"
 },drills:[
 q("I don't like the red folder. I'll take the blue ___.","one","ones","some","One substitutes for a singular countable noun folder.","Ones is plural and would refer to multiple folders.","Some does not substitute for one specific singular folder in this contrast."),
@@ -318,8 +318,8 @@ q("The first proposal was expensive, and the second ___ was impractical.","one",
 q("She promised to check the figures and ___ before the meeting.","did so","did one","made","Did so substitutes for the verb phrase check the figures.","Did one is not a standard substitute for a verb phrase.","Made changes the verb meaning and does not preserve the promised action."),
 q("I expect the results will improve, and I hope ___.","so","one","do so","Hope so substitutes for the clause that the results will improve.","One substitutes for a countable noun, not a clause.","Do so substitutes for an action/verb phrase, not the proposition here."),
 q("He said he would attend, but in the end he did ___.","not","no","none","Did not creates a negative elliptical clause with the omitted verb recoverable from context.","No is a determiner/adverb, not the required substitute after did.","None is a pronoun for a quantity/set, not a clause substitute."),
-q("The newer model is lighter than the previous ___.","one","ones","do","One replaces singular countable noun model.","Ones is plural and the comparison is singular.","Do cannot replace the noun model."),
-q("The committee approved the revised plan, and the board did ___ as well.","so","one","ones","Did so substitutes for approved the revised plan.","One replaces a singular countable noun.","Ones replaces plural countable nouns.")
+q("The researchers prepared the samples ___.","themselves","them","their","The subject researchers and the object of prepared refer to the same people, so the reflexive themselves is required.","Them is an object pronoun and does not mark subject/object identity in this construction.","Their is a possessive determiner and requires a following noun."),
+q("I cannot attend the meeting, and neither ___ my colleague.","can","does","is","Neither + modal + subject expresses agreement with the preceding negative statement; can matches cannot.","Does does not match the modal can in the preceding clause.","Is does not express the same ability/possibility meaning as can.")
 ]},
 "B2-11":{base:"articles",skillTarget:"advanced-articles-reference-generic-specific",profile:{
 label:"advanced articles and reference — generic and specific meaning",
