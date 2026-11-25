@@ -384,3 +384,18 @@ q("The initial results were consistent across all three groups; ___, the follow-
 q("Which sentence avoids a comma splice?","The data were incomplete, so the analysis was postponed.","The data were incomplete, the analysis was postponed.","The data were incomplete, however the analysis was postponed.","So coordinates the two clauses with a conjunction and comma.","This joins two independent clauses with only a comma.","However is a sentence adverbial and needs stronger punctuation, such as a semicolon followed by however and a comma.")
 ]}
 };
+
+module.exports['B2-14'].profile.examples = [
+  ['Although the evidence is limited, the conclusion remains useful.','???? ?????????????? ???????????, ????? ???????? ????????.','Although introduces a finite clause; the contrast is between limited evidence and a useful conclusion.'],
+  ['Despite the high cost, the method was adopted widely.','???????? ?? ??????? ?????????, ????? ??????? ??????? ???????????????.','Despite is followed by a noun phrase, not a finite clause.'],
+  ['However carefully the samples were stored, some uncertainty remained.','??? ?? ????????? ?? ??????? ???????, ????????? ???????????????? ???????????.','However + adverb + clause expresses concession regardless of degree.'],
+  ['Much as I respect the researcher, I disagree with this interpretation.','??? ?? ? ?? ??????? ?????????????, ? ?? ???????? ? ???? ??????????????.','Much as introduces a finite concessive clause.']
+];
+module.exports['B2-14'].profile.traps = [
+  ['Although the high cost, the method was adopted widely.','Despite the high cost, the method was adopted widely.','Although requires a finite clause; despite takes a noun phrase.'],
+  ['Despite the method was expensive, it was adopted widely.','Although the method was expensive, it was adopted widely.','Despite cannot introduce a finite clause directly.'],
+  ['However the method was expensive, it was adopted widely.','Although the method was expensive, it was adopted widely.','However is not used as a subordinating conjunction in this pattern.']
+];
+module.exports['B2-14'].profile.pronunciation = 'Practise sentence stress in concessive clauses and the reduced pronunciation of although, despite and however in connected speech.';
+module.exports['B2-14'].profile.toefl = 'In academic reading, identify whether the linker introduces a clause or noun phrase and track contrast. In writing, use concession to qualify a claim without weakening its logic.';
+module.exports['B2-14'].drills.splice(5,1,q('However carefully the researchers ___ the procedure, some uncertainty remained.','designed','designing','were design','However + adverb + finite clause expresses concession; designed is the finite past-tense verb.','Designing is non-finite and leaves the clause without a finite verb.','Were design is not a grammatical verb phrase; it would require were designing.'));

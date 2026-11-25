@@ -1569,11 +1569,11 @@ function buildMarkdown(topic,family,migration,prerequisites) {
   const bt=String.fromCharCode(96);
   const topicConfig=TOPIC_BANKS[topic.id];
   const topicDrills=topicConfig?.drills || DRILLS[family];
-  const authoredExamples=topicConfig?.profile?.examples?.length ? topicConfig.profile.examples : (f.examples || []).map(x=>[x[0],x[1],x[2] || f.core]);
-  const authoredTraps=topicConfig?.profile?.traps;
-  const examples=(authoredExamples?.length ? authoredExamples : topicDrills.slice(0,4).map(x=>[x[0].replace(/___/g,x[1]),'Translation pending editorial verification.',x[3]]))
-    .map(x=>'| '+bt+x[0]+bt+' | '+x[1]+' | '+(x[2] || f.core || f.skillTarget || 'The example illustrates the target form in context.')+' |').join('\n');
-  const traps=(authoredTraps?.length ? authoredTraps : topicDrills.slice(0,3).map(x=>[x[0].replace(/___/g,x[2]),x[0].replace(/___/g,x[1]),x[4]]))
+  const authoredExamples=topicConfig?.profile?.examples?.length ? topicConfig.profile.examples : null;
+  const authoredTraps=topicConfig?.profile?.traps?.length ? topicConfig.profile.traps : null;
+  const examples=(authoredExamples || topicDrills.slice(0,4).map(x=>[x[0].replace(/___/g,x[1]),'Translation not yet verified; lesson remains a draft.',x[4] || topicConfig?.profile?.core || topic.title]))
+    .map(x=>'| '+bt+x[0]+bt+' | '+x[1]+' | '+(x[2] || topicConfig?.profile?.core || topic.title)+' |').join('\n');
+  const traps=(authoredTraps || topicDrills.slice(0,3).map(x=>[x[0].replace(/___/g,x[2]),x[0].replace(/___/g,x[1]),x[5] || x[4]]))
     .map(x=>'| '+bt+x[0]+bt+' | '+bt+x[1]+bt+' | '+x[2]+' |').join('\n');
   const pronunciation=topicConfig?.profile?.pronunciation || ('Topic-specific pronunciation practice for '+topic.title+': focus on weak forms, endings and sentence stress. Phonetic examples still require dictionary-audio verification.');
   const toeflTransfer=topicConfig?.profile?.toefl || ('TOEFL transfer for '+topic.title+': use the target structure to interpret syntax in Reading/Listening and construct clear sentences in Writing/Speaking. This is skill transfer, not a separate exam task.');
@@ -1757,8 +1757,8 @@ function buildConfig(topic,migration,prerequisites,legacy,allTopics) {
       contrast:FAMILY[family].contrast,
       boundary:FAMILY[family].boundary,
       pronunciation:TOPIC_BANKS[topic.id]?.profile?.pronunciation || FAMILY[family].pronunciation || ('Topic-specific pronunciation practice for '+topic.title+'; verify phonetic examples against dictionary audio.'),
-      examples:TOPIC_BANKS[topic.id]?.profile?.examples || FAMILY[family].examples || [],
-      traps:TOPIC_BANKS[topic.id]?.profile?.traps || DRILLS[family].slice(0,3).map(x=>[x[0].replace(/___/g,x[2]),x[0].replace(/___/g,x[1]),x[3]]),
+      examples:TOPIC_BANKS[topic.id]?.profile?.examples || [],
+      traps:TOPIC_BANKS[topic.id]?.profile?.traps || [],
       toefl:TOPIC_BANKS[topic.id]?.profile?.toefl || FAMILY[family].toefl || ('TOEFL transfer for '+topic.title+': apply this structure to reading, listening, writing and speaking; this is skill transfer, not a separate exam task.')
     },
     title:topic.title,description:topic.outcome,
