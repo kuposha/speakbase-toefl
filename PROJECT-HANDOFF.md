@@ -17,3 +17,9 @@ Status: Task 01 IN_PROGRESS; vocabulary/navigation package AUTO_TESTED and PUSHE
 Review the existing uncommitted AI-engine changes (app.py, Dockerfile, compose, README, notices). Validate the grammar-review endpoint, auth, input limits, error handling and license constraints; use mocked tests without downloading models or starting a public tunnel. Preserve unrelated changes. Commit only verified files. Then review exam Listening/Writing changes, source matrices and remaining documentation. Do not restart the 91-lesson audit or begin task 02 until task 01 is accounted for.
 
 Remaining pre-existing work: 15 modified tracked files plus 4 untracked files immediately after package 1.1. Never discard user work or publish secrets. Real account/device QA and independent editorial review remain open.
+
+## Grammar priority override — 2026-11-25
+
+User explicitly moved B1, A2, A1, source review, practice coverage, daily integration and TOEFL linking ahead of the pending task 01 cleanup. Preserve all unrelated dirty files. Continue with B1-04.
+
+B1-01 (36641b6), B1-02 and B1-03 (654e1a2) have expanded theory, original 24 closed tasks each, open-task rubrics and matching runtime/Markdown snapshots. GR-02 theory text was checked; GR-03/GR-05, source exercise pages, visual review and learner acceptance are still pending. Keep PARTIAL in the manual review log. The new engine archives old draft answers when reviewed content version changes. Bulk browser and content-integrity tests passed; no real-account testing. Remote main matched 654e1a2. Next: B1-04 through B1-22, then A2 and A1, then source/coverage checks across all levels, daily route migration and TOEFL links. Never equate structural QA with editorial approval.
