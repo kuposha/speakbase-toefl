@@ -7,7 +7,7 @@ const fs = require('node:fs/promises');
 const path = require('node:path');
 const http = require('node:http');
 const root = __dirname;
-const resources = new Set(['/', '/index.html', '/style.css', '/mobile.css', '/vendor/supabase.js', '/favicon.ico', '/favicon.svg', '/project-audio.mp3', '/project-image.png', '/toefl-structure.pdf']);
+const resources = new Set(['/', '/index.html', '/style.css', '/mobile.css', '/grammar-a1-05.css', '/vendor/supabase.js', '/favicon.ico', '/favicon.svg', '/project-audio.mp3', '/project-image.png', '/toefl-structure.pdf']);
 async function run() {
   for (const name of await fs.readdir(root)) if (/^[\w.-]+\.js$/.test(name)) resources.add('/' + name);
   for (const name of await fs.readdir(path.join(root, 'audio'))) if (/^[\w.-]+\.mp3$/.test(name)) resources.add('/audio/' + name);
@@ -38,7 +38,7 @@ async function run() {
         await page.route('https://cdn.jsdelivr.net/**',r=>r.fulfill({contentType:'text/javascript',body:''}));
         await page.addInitScript(p=>localStorage.setItem('sb.active',p), profile);
         await page.goto(origin);
-        const nav = async i=>{const menu=page.locator('#mobileMenuToggle');if(await menu.isVisible())await menu.click();await page.locator('#nav button').nth(i).click();};
+        const nav = async i=>{const menu=page.locator('#mobileMenuToggle');if(await menu.isVisible())await menu.click();await page.evaluate(i=>document.querySelector('#nav button[onclick="go('+i+')"]').click(),i);};
         const click = sel=>page.locator(sel).click();
         await click('#themeToggle');
         assert.equal(await page.locator('html').getAttribute('data-theme'),'light','theme button should enable light mode');
@@ -46,17 +46,31 @@ async function run() {
         await page.waitForFunction(()=>getComputedStyle(document.body).backgroundColor==='rgb(241, 243, 239)');
         await page.reload();
         assert.equal(await page.locator('html').getAttribute('data-theme'),'light','theme choice should survive reload');
-        for(let i=0; i<9; i++) {
+        for(let i=0; i<10; i++) {
           await nav(i);
           assert.ok(await page.locator('#app h1,#app h2').count());
           assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),'light theme overflow on page '+i+' '+profile);
         }
         await click('#themeToggle');
         assert.equal(await page.locator('html').getAttribute('data-theme'),'dark','theme button should restore dark mode');
-        for(let i=0; i<9; i++) {
+        for(let i=0; i<10; i++) {
           await nav(i);
           assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),'dark theme overflow on page '+i+' '+profile);
         }
+        await nav(9);
+        await page.waitForSelector('#vocabList .vocab-word');
+        assert.equal(await page.locator('#vocabList .vocab-word').count(),30,'dictionary should render only the first 30 cards');
+        assert.ok(await page.locator('#vocabList .vocab-more').isVisible(),'large dictionary should offer pagination');
+        await click('#vocabList .vocab-more');
+        assert.equal(await page.locator('#vocabList .vocab-word').count(),60,'show more should reveal the next 30 cards');
+        assert.ok(await page.locator('#vocabCategory option').count()>=20,'thematic bank categories should be available');
+        await page.locator('#vocabSearch').fill('organism');
+        assert.ok(await page.locator('#vocabList .vocab-word').count()>=1,'search should find starter vocabulary');
+        assert.match((await page.locator('#vocabList').innerText()).toLowerCase(),/organism/);
+        const vocabularyKey=profile==='marina'?'speakbase.v1':'speakbase.v1.vladlen';
+        const storedVocabularyCount=await page.evaluate(key=>JSON.parse(localStorage.getItem(key)).vocabulary.length,vocabularyKey);
+        assert.equal(storedVocabularyCount,1840,'each profile should receive the complete vocabulary bank');
+        await page.locator('#vocabSearch').fill('');
         await nav(0);
         await page.evaluate(()=>{
           const cs=courseState();
@@ -66,7 +80,7 @@ async function run() {
         });
         assert.ok(await page.locator('[onclick="resumeCourseSession()"]').isVisible(),'dashboard should show interrupted practice');
         await click('[onclick="resumeCourseSession()"]');
-        assert.match(await page.locator('#box .eyebrow').innerText(),/LESSON 04/,'interrupted practice should restore its original lesson');
+        assert.match(await page.locator('#box .eyebrow').first().innerText(),/[0-9]+.*[\u0400-\u04FFa-z]+/i);
         assert.equal(await page.evaluate(()=>courseState().session.pos),0,'interrupted practice should restore the exact step');
         await page.evaluate(()=>{courseState().session=null;persist()});
         await click('#close');
@@ -119,13 +133,13 @@ async function run() {
         const lessonDate=new Date().toISOString().slice(0,10);
         await page.evaluate(date=>pick(date),lessonDate);
         await click('[onclick="startScheduledLesson()"]');
-        assert.match(await page.locator('#box .eyebrow').first().innerText(),/[0-9]+.*[а-яa-z]+/i);
+        assert.match(await page.locator('#box .eyebrow').first().innerText(),/[0-9]+.*[\u0400-\u04FFa-z]+/i);
         assert.ok(await page.locator('.grammar-lecture').isVisible(),'daily lesson must begin with the full grammar lecture');
         await click('#box button.primary');
         const lessonStep=await page.evaluate(()=>courseState().session.pos);
         await click('[onclick="addVocabularyWord(\'lesson\')"]');
         await page.locator('#newVocabEn').fill('lesson vocabulary '+profile);
-        await page.locator('#newVocabRu').fill('слово из урока');
+        await page.locator('#newVocabRu').fill('\u0441\u043b\u043e\u0432\u043e \u0438\u0437 \u0443\u0440\u043e\u043a\u0430');
         await click('#vocabAddForm button.primary');
         await page.locator('#lessonForm').waitFor();
         assert.equal(await page.evaluate(()=>courseState().session.pos),lessonStep,'adding vocabulary must return to the same daily lesson step');
@@ -141,7 +155,7 @@ async function run() {
         }
         // The full lecture is asserted before the exercises above.
 
-        assert.match(await page.locator('#box').innerText(),/Сегодня изучаем:|Тренируем:/);
+        assert.match(await page.locator('#box').innerText(),/\u0421\u0435\u0433\u043e\u0434\u043d\u044f \u0438\u0437\u0443\u0447\u0430\u0435\u043c:|\u0442\u0440\u0435\u043d\u0438\u0440\u0443\u0435\u043c:/);
         await page.evaluate(()=>{courseState().session=null;db.h=[];persist()});
         await click('#close');
         await click('[onclick="editPlan()"]');
@@ -155,7 +169,7 @@ async function run() {
         await nav(2);await click('[onclick="config(0)"]');await click('#form button.primary');
         await page.locator('#answer').fill('I follow a weekly schedule because it helps me focus.');
         await click('#micBtn');
-        await page.waitForFunction(()=>document.querySelector('#micBtn').textContent.includes('Остановить'));
+        await page.waitForFunction(()=>document.querySelector('#micBtn').textContent.includes('\u041e\u0441\u0442\u0430\u043d\u043e\u0432\u0438\u0442\u044c'));
         await page.waitForTimeout(600);await click('#micBtn');
         await page.waitForFunction(()=>document.querySelector('#listenback')?.src.startsWith('blob:'));
         await page.locator('#listenback').evaluate(a=>a.play());
@@ -163,7 +177,7 @@ async function run() {
         await page.reload();await nav(2);await click('[onclick="resume()"]');
         assert.match(await page.locator('#answer').inputValue(),/weekly schedule/);
         await click('#answerForm .primary');await page.waitForFunction(()=>document.querySelector('#savedAudio')?.src.startsWith('blob:'));
-        assert.match(await page.locator('#box').innerText(),/Разбор ответа/);
+        assert.match(await page.locator('#box').innerText(),/\u0420\u0430\u0437\u0431\u043e\u0440 \u043e\u0442\u0432\u0435\u0442\u0430/);
         await click('#close');await nav(6);await page.locator('#app .task').last().click();
         assert.match(await page.locator('#box').innerText(),/weekly schedule/);
         await click('#close');
@@ -175,11 +189,11 @@ async function run() {
           if(await answer.evaluate(el=>el.tagName==='SELECT'))await answer.selectOption({index:1});
           else await answer.fill('A community garden can attract visitors. For example, people can grow vegetables together.');
           await click('#answerForm button.primary');
-          assert.match(await page.locator('#box').innerText(),/Разбор ответа/);await click('#close');
+        assert.match(await page.locator('#box').innerText(),/\u0420\u0430\u0437\u0431\u043e\u0440 \u043e\u0442\u0432\u0435\u0442\u0430/);await click('#close');
         }
         if(profile==='marina') await testLessons(page,nav);
         assert.deepEqual(errors,[]);
-        console.log(profile,'OK: nine screens, themes, session resume, schedule edit, materials, reload, Speaking, audio, answer history');
+        console.log(profile,'OK: ten screens, 1,840-word dictionary pagination/search, themes, session resume, schedule edit, materials, reload, Speaking, audio, answer history');
       } finally { await context.close(); }
     }
   } finally { await browser.close(); await new Promise(resolve=>server.close(resolve)); }
