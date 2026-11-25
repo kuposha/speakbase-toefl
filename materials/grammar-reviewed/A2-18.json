@@ -1,0 +1,743 @@
+{
+  "id": "A2-18",
+  "level": "A2",
+  "sequence": "A2-18",
+  "grammarFamily": "A2-18",
+  "questionBankSource": "topic-specific-authored",
+  "sourceVerification": "draft; selected source text consulted; complete source-page and learner review pending",
+  "topicProfile": {
+    "label": "phrasal verbs — core meanings and patterns",
+    "skillTarget": "core-phrasal-verbs",
+    "core": "Phrasal verbs — сочетания глагола с частицей, например get up, turn off, look up. Частица может обозначать направление (come back) или создавать новое значение (give up — перестать пытаться, отказаться). Для практики полезно также изучать близкие многословные глаголы с предлогом, например look after. Главное — запоминать не только перевод, но и то, нужен ли объект и где он стоит.",
+    "form": "| Тип | Модель | Пример |\n|---|---|---|\n| Без объекта | verb + particle | The plane took off. |\n| Разделяемый с noun | verb + particle + noun | Turn off the screen. |\n| Разделяемый с noun | verb + noun + particle | Turn the screen off. |\n| Разделяемый с pronoun | verb + pronoun + particle | Turn it off. |\n| Неразделяемый verb + preposition | verb + preposition + object | Look after the cat. |\n| Неразделяемый с pronoun | verb + preposition + pronoun | Look after it. |\n| Трёхсловная конструкция | verb + particle + preposition + object | Look forward to the trip. |",
+    "selection": "Определи значение сочетания в предложении. Затем проверь, требуется ли объект. Если объект есть, выясни, разделяемая ли модель. Для turn on/off, pick up, put on, take off, write down, look up, fill in/out, throw away в целевых значениях возможны две позиции noun; pronoun ставится в середину. Для look for, look after, wait for, get on with и look forward to не переставляй объект перед предлогом.",
+    "contrast": "| Пример | Функция |\n|---|---|\n| I woke up at seven. | Без объекта: проснулась. |\n| I woke my brother up. | Разделяемый: разбудила брата. |\n| I woke him up. | Pronoun между частями. |\n| I looked up the word. | Нашла слово в справочнике. |\n| I looked for my keys. | Искала ключи. |\n| I looked after my dog. | Присматривала за собакой. |\n| I ran out of paper. | Бумага закончилась. |",
+    "boundary": "Не существует правила, что все сочетания с up или off разделяемы. Проверяй конкретный глагол и значение. Look up a word разделяется; look up at the ceiling описывает направление взгляда и другую структуру. Get on the bus — сесть в автобус; get on with a classmate — ладить; get on with work — продолжить работу. В некоторых грамматических описаниях look after и look for называют prepositional verbs, а не собственно phrasal verbs. В этом уроке они рассматриваются рядом для сравнения порядка слов.",
+    "pronunciation": "Частица нередко получает ударение в конце: turn it OFF, write it DOWN. Но ударение зависит от контекста. Слушай сочетание целиком, а не перевод каждой части. Произнеси get UP, come BACK, look AFTER it и turn it OFF; сравни порядок и смысл. Отдельная проверка аудио и вариантов произношения остаётся впереди.",
+    "examples": [
+      [
+        "I usually get up at seven.",
+        "Обычно я встаю в семь.",
+        "Get up без объекта."
+      ],
+      [
+        "Could you turn the monitor off?",
+        "Можешь выключить монитор?",
+        "Разделяемая конструкция с noun."
+      ],
+      [
+        "Please turn it off before you leave.",
+        "Пожалуйста, выключи его перед уходом.",
+        "Pronoun между verb и particle."
+      ],
+      [
+        "I'll look up the new word.",
+        "Я посмотрю новое слово в словаре.",
+        "Look up — поиск информации."
+      ],
+      [
+        "She looks after her dog every day.",
+        "Она каждый день заботится о своей собаке.",
+        "Look after не разделяется."
+      ],
+      [
+        "We ran out of paper during the lesson.",
+        "У нас закончилась бумага во время занятия.",
+        "Run out of + object."
+      ]
+    ],
+    "traps": [
+      [
+        "Please turn off it.",
+        "Please turn it off.",
+        "Object pronoun внутри разделяемого phrasal verb."
+      ],
+      [
+        "She looks her dog after.",
+        "She looks after her dog.",
+        "Look after — неразделяемое сочетание."
+      ],
+      [
+        "He getted up late.",
+        "He got up late.",
+        "Get имеет неправильную форму got."
+      ],
+      [
+        "I look forward to meet you.",
+        "I look forward to meeting you.",
+        "To здесь предлог, нужна -ing."
+      ],
+      [
+        "Did she took off her coat?",
+        "Did she take off her coat?",
+        "После did нужна V1."
+      ]
+    ],
+    "toefl": "В Listening phrasal verbs часто встречаются в учебных и бытовых диалогах: find out, hand in, pick up, run out of. В Reading распознавай carry out a study и figure out a problem. В Speaking и Writing Email используй привычные сочетания с правильным порядком объекта: I'll look it up and get back to you. Это авторская практика переноса, не официальный материал ETS."
+  },
+  "title": "Phrasal verbs — core patterns",
+  "description": "Понимать базовые phrasal verbs и порядок объекта/местоимения",
+  "cardDescription": "Теория, guided practice, самостоятельные задания и выходная проверка по постоянному ID A2-18.",
+  "eyebrow": "Полный урок программы A2-18 · drafted",
+  "contentVersion": "1.1-draft",
+  "curriculumVersion": "1.0",
+  "prerequisites": [
+    "A1-01",
+    "A1-05"
+  ],
+  "outcomes": [
+    "Понимать базовые phrasal verbs и порядок объекта/местоимения",
+    "Выбирать целевую конструкцию по контексту и смыслу.",
+    "Исправлять типичные ошибки и переносить правило в новый пример."
+  ],
+  "sourceRefs": [
+    "GR-01 U114-115",
+    "GR-02 U137-145",
+    "GR-03 U94",
+    "GR-05 A2 p71-72"
+  ],
+  "sourceStatus": "selected source text consulted; full page verification pending",
+  "status": "drafted",
+  "legacyCoverage": "Нет",
+  "toeflLinks": [
+    "Writing: Build a Sentence",
+    "Listening: tense/aspect, modality, weak forms and discourse cues",
+    "Writing: Write an Email"
+  ],
+  "thresholds": {
+    "independent": 7,
+    "exit": 4,
+    "criticalIds": [
+      "E1",
+      "E2",
+      "E3"
+    ]
+  },
+  "groups": {
+    "independent": "Самостоятельная практика",
+    "exit": "Выходная проверка"
+  },
+  "items": [
+    {
+      "id": "D1",
+      "group": "Входная диагностика",
+      "prompt": "Choose the phrase meaning to leave your bed in the morning.",
+      "options": [
+        "get on",
+        "get up",
+        "get back"
+      ],
+      "answer": "get up",
+      "accepted": [
+        "get up"
+      ],
+      "why": "Get up — встать.",
+      "distractorWhy": "Get on имеет другие значения.",
+      "distractorRationales": {
+        "get on": "Get on имеет другие значения.",
+        "get back": "Get back — вернуться."
+      },
+      "skillTarget": "core-phrasal-verbs",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D2",
+      "group": "Входная диагностика",
+      "prompt": "Choose the correct separable pattern with it for switching off a light.",
+      "options": [
+        "Turn it off.",
+        "Turn off it.",
+        "Turn it to off."
+      ],
+      "answer": "Turn it off.",
+      "accepted": [
+        "Turn it off."
+      ],
+      "why": "Object pronoun внутри separable turn off.",
+      "distractorWhy": "Pronoun нельзя поставить после off в этой модели.",
+      "distractorRationales": {
+        "Turn off it.": "Pronoun нельзя поставить после off в этой модели.",
+        "Turn it to off.": "To лишнее."
+      },
+      "skillTarget": "core-phrasal-verbs",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D3",
+      "group": "Входная диагностика",
+      "prompt": "Which pair contains two grammatical noun-object positions for switching on a device?",
+      "options": [
+        "turn on the computer / turn on it",
+        "turn the computer on / turn the on computer",
+        "turn on the computer / turn the computer on"
+      ],
+      "answer": "turn on the computer / turn the computer on",
+      "accepted": [
+        "turn on the computer / turn the computer on"
+      ],
+      "why": "Noun может стоять до или после частицы.",
+      "distractorWhy": "Turn on it неверно для местоимения.",
+      "distractorRationales": {
+        "turn on the computer / turn on it": "Turn on it неверно для местоимения.",
+        "turn the computer on / turn the on computer": "Нарушена структура noun phrase."
+      },
+      "skillTarget": "core-phrasal-verbs",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D4",
+      "group": "Входная диагностика",
+      "prompt": "Choose the correct expression with a pronoun meaning care for a pet.",
+      "options": [
+        "look it after",
+        "look after it",
+        "look after to it"
+      ],
+      "answer": "look after it",
+      "accepted": [
+        "look after it"
+      ],
+      "why": "Look after не разделяется.",
+      "distractorWhy": "It нельзя вставлять между look и after.",
+      "distractorRationales": {
+        "look it after": "It нельзя вставлять между look и after.",
+        "look after to it": "To лишнее."
+      },
+      "skillTarget": "core-phrasal-verbs",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G1",
+      "group": "Управляемая практика",
+      "prompt": "Choose the expression meaning search for a missing bag.",
+      "options": [
+        "look for the bag",
+        "look up the bag in a dictionary",
+        "look after the bag"
+      ],
+      "answer": "look for the bag",
+      "accepted": [
+        "look for the bag"
+      ],
+      "why": "Look for — искать пропавший предмет.",
+      "distractorWhy": "Look up — искать справочную информацию.",
+      "distractorRationales": {
+        "look up the bag in a dictionary": "Look up — искать справочную информацию.",
+        "look after the bag": "Look after — присматривать."
+      },
+      "skillTarget": "core-phrasal-verbs",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G2",
+      "group": "Управляемая практика",
+      "prompt": "Choose the expression meaning find a word's meaning in a dictionary.",
+      "options": [
+        "look the word after",
+        "look for up the word",
+        "look the word up"
+      ],
+      "answer": "look the word up",
+      "accepted": [
+        "look the word up"
+      ],
+      "why": "Look up — искать справочную информацию, separable.",
+      "distractorWhy": "Look after не разделяется и имеет другой смысл.",
+      "distractorRationales": {
+        "look the word after": "Look after не разделяется и имеет другой смысл.",
+        "look for up the word": "Неверная комбинация частиц."
+      },
+      "skillTarget": "core-phrasal-verbs",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G3",
+      "group": "Управляемая практика",
+      "prompt": "Choose the correct pronoun pattern for recording a number.",
+      "options": [
+        "Write down it.",
+        "Write it down.",
+        "Write it to down."
+      ],
+      "answer": "Write it down.",
+      "accepted": [
+        "Write it down."
+      ],
+      "why": "Write down разделяется; it в середине.",
+      "distractorWhy": "Pronoun после down неверно.",
+      "distractorRationales": {
+        "Write down it.": "Pronoun после down неверно.",
+        "Write it to down.": "To лишнее."
+      },
+      "skillTarget": "core-phrasal-verbs",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G4",
+      "group": "Управляемая практика",
+      "prompt": "Choose the expression meaning remove a jacket.",
+      "options": [
+        "take off the jacket",
+        "take up the jacket as remove it",
+        "take after the jacket"
+      ],
+      "answer": "take off the jacket",
+      "accepted": [
+        "take off the jacket"
+      ],
+      "why": "Take off — снимать одежду.",
+      "distractorWhy": "Take up имеет другие значения.",
+      "distractorRationales": {
+        "take up the jacket as remove it": "Take up имеет другие значения.",
+        "take after the jacket": "Take after означает быть похожим на родственника."
+      },
+      "skillTarget": "core-phrasal-verbs",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G5",
+      "group": "Управляемая практика",
+      "prompt": "Choose the correct pronoun form for putting on gloves.",
+      "options": [
+        "Put on them.",
+        "Put them to on.",
+        "Put them on."
+      ],
+      "answer": "Put them on.",
+      "accepted": [
+        "Put them on."
+      ],
+      "why": "Put on разделяется, pronoun внутри.",
+      "distractorWhy": "Them после on неверно в этой модели.",
+      "distractorRationales": {
+        "Put on them.": "Them после on неверно в этой модели.",
+        "Put them to on.": "To лишнее."
+      },
+      "skillTarget": "core-phrasal-verbs",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G6",
+      "group": "Управляемая практика",
+      "prompt": "Choose the sentence where take off needs no object (flight).",
+      "options": [
+        "The plane took it off at noon as a flight meaning.",
+        "The plane took off at noon.",
+        "The plane took off it at noon."
+      ],
+      "answer": "The plane took off at noon.",
+      "accepted": [
+        "The plane took off at noon."
+      ],
+      "why": "Take off в значении взлететь — intransitive.",
+      "distractorWhy": "It не нужен для значения взлёта.",
+      "distractorRationales": {
+        "The plane took it off at noon as a flight meaning.": "It не нужен для значения взлёта.",
+        "The plane took off it at noon.": "Объект лишний и порядок неверен."
+      },
+      "skillTarget": "core-phrasal-verbs",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I1",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the past form of get up.",
+      "options": [
+        "She getted up early yesterday.",
+        "She gets up early yesterday.",
+        "She got up early yesterday."
+      ],
+      "answer": "She got up early yesterday.",
+      "accepted": [
+        "She got up early yesterday."
+      ],
+      "why": "Got — V2 get.",
+      "distractorWhy": "Getted не стандартная форма.",
+      "distractorRationales": {
+        "She getted up early yesterday.": "Getted не стандартная форма.",
+        "She gets up early yesterday.": "Gets — настоящее."
+      },
+      "skillTarget": "core-phrasal-verbs",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I2",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct past question with a separable phrasal verb.",
+      "options": [
+        "Did you switched it off?",
+        "Did you switch it off?",
+        "Did you switch off it?"
+      ],
+      "answer": "Did you switch it off?",
+      "accepted": [
+        "Did you switch it off?"
+      ],
+      "why": "Did + V1; pronoun внутри.",
+      "distractorWhy": "Switched не V1.",
+      "distractorRationales": {
+        "Did you switched it off?": "Switched не V1.",
+        "Did you switch off it?": "It должно стоять перед off."
+      },
+      "skillTarget": "core-phrasal-verbs",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I3",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the negative sentence with pick up.",
+      "options": [
+        "I didn't pick it up.",
+        "I didn't picked it up.",
+        "I didn't pick up it."
+      ],
+      "answer": "I didn't pick it up.",
+      "accepted": [
+        "I didn't pick it up."
+      ],
+      "why": "Didn't + V1; pronoun в середине.",
+      "distractorWhy": "Picked не V1.",
+      "distractorRationales": {
+        "I didn't picked it up.": "Picked не V1.",
+        "I didn't pick up it.": "Неверная позиция it."
+      },
+      "skillTarget": "core-phrasal-verbs",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I4",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the expression meaning the car stopped working.",
+      "options": [
+        "The car broke up as a machine failure.",
+        "The car broke down it.",
+        "The car broke down."
+      ],
+      "answer": "The car broke down.",
+      "accepted": [
+        "The car broke down."
+      ],
+      "why": "Break down — перестать работать.",
+      "distractorWhy": "Break up имеет другие значения.",
+      "distractorRationales": {
+        "The car broke up as a machine failure.": "Break up имеет другие значения.",
+        "The car broke down it.": "В этом значении объект не требуется."
+      },
+      "skillTarget": "core-phrasal-verbs",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I5",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the expression meaning return to a place.",
+      "options": [
+        "come off as return",
+        "come back",
+        "come down as return in general"
+      ],
+      "answer": "come back",
+      "accepted": [
+        "come back"
+      ],
+      "why": "Come back — вернуться.",
+      "distractorWhy": "Come off имеет другие значения.",
+      "distractorRationales": {
+        "come off as return": "Come off имеет другие значения.",
+        "come down as return in general": "Come down обычно движение вниз, не общее возвращение."
+      },
+      "skillTarget": "core-phrasal-verbs",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I6",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the phrase meaning discover information about a timetable.",
+      "options": [
+        "find out when the class starts",
+        "find up when the class starts",
+        "find off when the class starts"
+      ],
+      "answer": "find out when the class starts",
+      "accepted": [
+        "find out when the class starts"
+      ],
+      "why": "Find out + embedded clause — узнать.",
+      "distractorWhy": "Find up не целевое сочетание.",
+      "distractorRationales": {
+        "find up when the class starts": "Find up не целевое сочетание.",
+        "find off when the class starts": "Find off не целевое сочетание."
+      },
+      "skillTarget": "core-phrasal-verbs",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I7",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the expression meaning stop trying.",
+      "options": [
+        "give back",
+        "give out as stop trying",
+        "give up"
+      ],
+      "answer": "give up",
+      "accepted": [
+        "give up"
+      ],
+      "why": "Give up — отказаться, перестать пытаться.",
+      "distractorWhy": "Give back — вернуть.",
+      "distractorRationales": {
+        "give back": "Give back — вернуть.",
+        "give out as stop trying": "Give out имеет другие значения."
+      },
+      "skillTarget": "core-phrasal-verbs",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I8",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct pattern after give up with an activity.",
+      "options": [
+        "give up to play the game",
+        "give up playing the game",
+        "give up play the game"
+      ],
+      "answer": "give up playing the game",
+      "accepted": [
+        "give up playing the game"
+      ],
+      "why": "Give up + V-ing означает прекратить занятие.",
+      "distractorWhy": "To play не целевая модель.",
+      "distractorRationales": {
+        "give up to play the game": "To play не целевая модель.",
+        "give up play the game": "Play не -ing."
+      },
+      "skillTarget": "core-phrasal-verbs",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I9",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the expression meaning all our milk has been used.",
+      "options": [
+        "We've run out of milk.",
+        "We've run milk out of.",
+        "We've run out milk of."
+      ],
+      "answer": "We've run out of milk.",
+      "accepted": [
+        "We've run out of milk."
+      ],
+      "why": "Run out of + noun не разделяется.",
+      "distractorWhy": "Нарушен порядок трёхсловной конструкции.",
+      "distractorRationales": {
+        "We've run milk out of.": "Нарушен порядок трёхсловной конструкции.",
+        "We've run out milk of.": "Of должно стоять перед milk."
+      },
+      "skillTarget": "core-phrasal-verbs",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E1",
+      "group": "Выходная проверка",
+      "prompt": "Choose the correct expression for anticipating a meeting with pleasure.",
+      "options": [
+        "I'm looking forward to meeting you.",
+        "I'm looking forward to meet you.",
+        "I'm looking to forward meeting you."
+      ],
+      "answer": "I'm looking forward to meeting you.",
+      "accepted": [
+        "I'm looking forward to meeting you."
+      ],
+      "why": "Look forward to + V-ing; to — предлог.",
+      "distractorWhy": "Meet не -ing.",
+      "distractorRationales": {
+        "I'm looking forward to meet you.": "Meet не -ing.",
+        "I'm looking to forward meeting you.": "Нарушен порядок слов."
+      },
+      "skillTarget": "core-phrasal-verbs",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E2",
+      "group": "Выходная проверка",
+      "prompt": "Choose the expression meaning complete a form with a pronoun.",
+      "options": [
+        "Fill in it.",
+        "Fill it to in.",
+        "Fill it in."
+      ],
+      "answer": "Fill it in.",
+      "accepted": [
+        "Fill it in."
+      ],
+      "why": "Fill in — separable; it внутри.",
+      "distractorWhy": "It после in неверно в этой модели.",
+      "distractorRationales": {
+        "Fill in it.": "It после in неверно в этой модели.",
+        "Fill it to in.": "To лишнее."
+      },
+      "skillTarget": "core-phrasal-verbs",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E3",
+      "group": "Выходная проверка",
+      "prompt": "Choose the grammatical expression meaning postpone a meeting.",
+      "options": [
+        "We put off it until Tuesday.",
+        "We put the meeting off until Tuesday.",
+        "We put the meeting to off until Tuesday."
+      ],
+      "answer": "We put the meeting off until Tuesday.",
+      "accepted": [
+        "We put the meeting off until Tuesday."
+      ],
+      "why": "Put off + noun допускает объект в середине.",
+      "distractorWhy": "Pronoun it должен стоять в середине.",
+      "distractorRationales": {
+        "We put off it until Tuesday.": "Pronoun it должен стоять в середине.",
+        "We put the meeting to off until Tuesday.": "To лишнее."
+      },
+      "skillTarget": "core-phrasal-verbs",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E4",
+      "group": "Выходная проверка",
+      "prompt": "Choose the expression meaning return a phone call to a person.",
+      "options": [
+        "I'll call you back.",
+        "I'll call back you.",
+        "I'll call you to back."
+      ],
+      "answer": "I'll call you back.",
+      "accepted": [
+        "I'll call you back."
+      ],
+      "why": "Call back разделяется, pronoun в середине.",
+      "distractorWhy": "You не ставится после back в этой модели.",
+      "distractorRationales": {
+        "I'll call back you.": "You не ставится после back в этой модели.",
+        "I'll call you to back.": "To лишнее."
+      },
+      "skillTarget": "core-phrasal-verbs",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E5",
+      "group": "Выходная проверка",
+      "prompt": "Choose the accurate rule about object pronouns in the target multiword verbs.",
+      "options": [
+        "Every multiword verb must put a pronoun between its two words.",
+        "Every phrasal verb requires an object.",
+        "A separable phrasal verb usually puts a pronoun between verb and particle; an inseparable pattern keeps it after the preposition."
+      ],
+      "answer": "A separable phrasal verb usually puts a pronoun between verb and particle; an inseparable pattern keeps it after the preposition.",
+      "accepted": [
+        "A separable phrasal verb usually puts a pronoun between verb and particle; an inseparable pattern keeps it after the preposition."
+      ],
+      "why": "Позиция зависит от типа конструкции.",
+      "distractorWhy": "Look after it не разделяется.",
+      "distractorRationales": {
+        "Every multiword verb must put a pronoun between its two words.": "Look after it не разделяется.",
+        "Every phrasal verb requires an object.": "Get up и другие intransitive формы не требуют объекта."
+      },
+      "skillTarget": "core-phrasal-verbs",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "W1",
+      "group": "Самостоятельное применение",
+      "prompt": "Напиши 8–10 предложений о своём дне или подготовке проекта. Используй минимум два сочетания без объекта, три separable с noun/pronoun, два inseparable и одно трёхсловное сочетание. Добавь прошедшее время и вопрос. Объясни порядок объекта в четырёх примерах.",
+      "open": true,
+      "rubric": [
+        "Значение сочетания соответствует контексту.",
+        "Intransitive формы не получают лишний объект.",
+        "Separable допускает noun в подходящей позиции.",
+        "Object pronoun стоит внутри separable формы.",
+        "Inseparable и трёхсловные конструкции не разрываются.",
+        "Время, вопрос и отрицание образованы правильно."
+      ],
+      "skillTarget": "Самостоятельное применение A2-18",
+      "interactionType": "open-production",
+      "difficulty": "transfer",
+      "sourceBasis": "Speakbase-authored open production; self-review rubric only until real AI feedback is connected",
+      "contentVersion": "1.1-draft"
+    }
+  ],
+  "markdown": "# Speakbase — A2-18: Phrasal verbs — core patterns\n\n**Curriculum ID:** `A2-18`  \n**Уровень:** A2  \n**Версия:** 1.1-draft\n**Статус:** drafted; selected source text checked; full source-page and learner acceptance pending\n**Предварительные темы:** A1-01, A1-05  \n**Связь со старым каталогом:** Нет — —\n\n## 1. Результаты обучения\n\n- Понимать базовые phrasal verbs и порядок объекта/местоимения\n- Выбирать целевую форму по значению, структуре предложения и контексту.\n- Объяснять, почему близкая грамматическая форма меняет смысл или регистр.\n- Находить и исправлять типичные ошибки русскоязычных студентов.\n\n## 2. Источники и статус сверки\n\n| Source | PDF navigation | Lesson-specific checks | Status |\n|---|---|---|---|\n| GR-01 U114-115 | PDF pages 239-242 (Unit 114-115) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-02 U137-145 | PDF pages 286-303 (Unit 137-145) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-03 U94 | PDF pages 212-213 (Unit 94) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-05 A2 p71-72 | PDF pages 71-72 (A2 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n\nUnit/page locations are navigation aids only. They do not prove that the cited explanation, examples, restrictions and answer key have been checked for this lesson. Examples and explanations below are Speakbase-authored, not quotations from the textbook.\n\nПеред переводом этого урока в source-verified необходимо открыть целевые страницы конкретного издания, записать печатную и PDF-пагинацию, сверить ограничения и исключения. Для GR-03 со сканированными страницами обязательна визуальная проверка.\n\n**Evidence for this editorial pass:** GR-02 Units 137–145, theory text directly consulted PDF pp. 286–302 (even pages; printed pp. 274–290): introductory separability, in/out, on/off, up/down, away/back and multiword combinations. GR-01, GR-03, GR-05, exercise-page and visual verification pending. The selected source text was consulted; not all pages, exercises, editions, scanned GR-03 pages or GR-05 descriptors were checked. Author-created explanations and practice are not copied source exercises.\n\n## 3. Место темы и границы\n\nPhrasal verbs: значение particle, transitivity, separability и место object pronoun. Не учи только перевод глагола.\n\nСтарый каталог содержит: —. Его статус — Нет. Старые отметки завершения не переносятся автоматически на новый постоянный ID. Тема рассматривается в уровне A2 и не заменяет обязательные prerequisites.\n\n## 4. Полный конспект\n\n### 4.1. Основная идея и функция конструкции\n\nPhrasal verbs — сочетания глагола с частицей, например get up, turn off, look up. Частица может обозначать направление (come back) или создавать новое значение (give up — перестать пытаться, отказаться). Для практики полезно также изучать близкие многословные глаголы с предлогом, например look after. Главное — запоминать не только перевод, но и то, нужен ли объект и где он стоит.\n\nСравни turn off the light и turn the light off. В обоих вариантах смысл одинаков. Но с местоимением правильно turn it off, не turn off it. Для look after the cat такой перестановки нет: look after it, не look it after. У get up в значении встать объект вообще не требуется. Эти три типа нужно различать. Некоторые сочетания могут менять тип и значение в зависимости от контекста: take off — взлетать без объекта, take off a coat — снимать пальто с объектом.\n\n### 4.2. Формирование и грамматическая модель\n\n| Тип | Модель | Пример |\n|---|---|---|\n| Без объекта | verb + particle | The plane took off. |\n| Разделяемый с noun | verb + particle + noun | Turn off the screen. |\n| Разделяемый с noun | verb + noun + particle | Turn the screen off. |\n| Разделяемый с pronoun | verb + pronoun + particle | Turn it off. |\n| Неразделяемый verb + preposition | verb + preposition + object | Look after the cat. |\n| Неразделяемый с pronoun | verb + preposition + pronoun | Look after it. |\n| Трёхсловная конструкция | verb + particle + preposition + object | Look forward to the trip. |\n\nВремя, лицо и отрицание выражаются формой первого глагола: She gets up early; She got up late; She didn't get up early; Has she got up yet? Частица сохраняется. Неправильные глаголы: take → took → taken, get → got → got/gotten (зависит от варианта и значения), give → gave → given, break → broke → broken. Вопрос с did требует V1: Did she turn it off? В отделяемой конструкции object pronoun it/them/me/us/him/her ставится между verb и particle. С длинным noun phrase часто естественнее расположить объект после particle.\n\n### 4.3. Как выбрать подходящую форму\n\nОпредели значение сочетания в предложении. Затем проверь, требуется ли объект. Если объект есть, выясни, разделяемая ли модель. Для turn on/off, pick up, put on, take off, write down, look up, fill in/out, throw away в целевых значениях возможны две позиции noun; pronoun ставится в середину. Для look for, look after, wait for, get on with и look forward to не переставляй объект перед предлогом.\n\nЧастотные группы: get up — вставать; wake up — просыпаться/будить; sit down — садиться; come back — возвращаться; go out — выходить; check in/out — регистрироваться/выезжать; turn on/off — включать/выключать; pick up — поднимать или забирать; put on/take off — надевать/снимать; look up — искать информацию; write down — записывать; give up — бросать/переставать пытаться; find out — узнавать; break down — ломаться; put off — откладывать; call back — перезванивать; run out of — исчерпать запас. У многих есть и другие значения. Учи сочетание с конкретной ситуацией: look up a word, pick up a bag, call someone back.\n\n### 4.4. Сравнение с близкими конструкциями\n\n| Пример | Функция |\n|---|---|\n| I woke up at seven. | Без объекта: проснулась. |\n| I woke my brother up. | Разделяемый: разбудила брата. |\n| I woke him up. | Pronoun между частями. |\n| I looked up the word. | Нашла слово в справочнике. |\n| I looked for my keys. | Искала ключи. |\n| I looked after my dog. | Присматривала за собакой. |\n| I ran out of paper. | Бумага закончилась. |\n\n### 4.5. Примеры с переводом и объяснением\n\n| English | Перевод | Почему это подходит |\n| --- | --- | --- |\n| I usually get up at seven. | Обычно я встаю в семь. | Get up без объекта. |\n| Could you turn the monitor off? | Можешь выключить монитор? | Разделяемая конструкция с noun. |\n| Please turn it off before you leave. | Пожалуйста, выключи его перед уходом. | Pronoun между verb и particle. |\n| I'll look up the new word. | Я посмотрю новое слово в словаре. | Look up — поиск информации. |\n| She looks after her dog every day. | Она каждый день заботится о своей собаке. | Look after не разделяется. |\n| We ran out of paper during the lesson. | У нас закончилась бумага во время занятия. | Run out of + object. |\n\n### 4.6. Исключения, ограничения и границы употребления\n\nНе существует правила, что все сочетания с up или off разделяемы. Проверяй конкретный глагол и значение. Look up a word разделяется; look up at the ceiling описывает направление взгляда и другую структуру. Get on the bus — сесть в автобус; get on with a classmate — ладить; get on with work — продолжить работу. В некоторых грамматических описаниях look after и look for называют prepositional verbs, а не собственно phrasal verbs. В этом уроке они рассматриваются рядом для сравнения порядка слов.\n\nПосле некоторых сочетаний может стоять -ing: give up smoking, put off doing the assignment, look forward to meeting you. В look forward to слово to — предлог. Find out может вводить придаточное: find out where the office is; не применяй механически перестановку к целой clause. Fill in и fill out часто взаимозаменяемы для формы. Get back to someone означает ответить или связаться позже; call someone back — перезвонить. Если значение неизвестно, лучше выбрать проверенную конструкцию, чем угадывать по частице. В академическом стиле некоторые phrasal verbs естественны (carry out a study), но не все разговорные выражения одинаково уместны.\n\n### 4.7. Типичные ошибки русскоязычных студентов\n\n| Ошибка | Исправление | Объяснение |\n| --- | --- | --- |\n| Please turn off it. | Please turn it off. | Object pronoun внутри разделяемого phrasal verb. |\n| She looks her dog after. | She looks after her dog. | Look after — неразделяемое сочетание. |\n| He getted up late. | He got up late. | Get имеет неправильную форму got. |\n| I look forward to meet you. | I look forward to meeting you. | To здесь предлог, нужна -ing. |\n| Did she took off her coat? | Did she take off her coat? | После did нужна V1. |\n\n### 4.8. Произношение и восприятие на слух\n\nЧастица нередко получает ударение в конце: turn it OFF, write it DOWN. Но ударение зависит от контекста. Слушай сочетание целиком, а не перевод каждой части. Произнеси get UP, come BACK, look AFTER it и turn it OFF; сравни порядок и смысл. Отдельная проверка аудио и вариантов произношения остаётся впереди.\n\nСначала прослушай или прочитай пример, затем произнеси его целиком. Обрати внимание на смысловое ударение и форму конструкции; не ориентируйся только на буквенный перевод.\n\n### 4.9. Академический английский и TOEFL-перенос\n\nВ Listening phrasal verbs часто встречаются в учебных и бытовых диалогах: find out, hand in, pick up, run out of. В Reading распознавай carry out a study и figure out a problem. В Speaking и Writing Email используй привычные сочетания с правильным порядком объекта: I'll look it up and get back to you. Это авторская практика переноса, не официальный материал ETS.\n\nЭто авторская практика переноса навыка. Она не является официальным заданием TOEFL и не выдаётся за официальный результат экзамена.\n\n### 4.10. Примеры для управляемого разбора\n\n- I usually get up at seven. — Обычно я встаю в семь. Get up без объекта.\n- Could you turn the monitor off? — Можешь выключить монитор? Разделяемая конструкция с noun.\n- Please turn it off before you leave. — Пожалуйста, выключи его перед уходом. Pronoun между verb и particle.\n\nДля каждого примера назови целевую конструкцию, объясни выбор и составь новое предложение в другом контексте. Затем перейди к заданиям: сначала диагностика, затем управляемая и самостоятельная практика, затем новые вопросы выходной проверки.\n\n### 4.11. Самопроверка\n\nПеред отправкой ответа проверь:\n1. Значение сочетания соответствует контексту.\n2. Intransitive формы не получают лишний объект.\n3. Separable допускает noun в подходящей позиции.\n4. Object pronoun стоит внутри separable формы.\n5. Inseparable и трёхсловные конструкции не разрываются.\n6. Время, вопрос и отрицание образованы правильно.\n\n### 4.12. Краткая памятка\n\nУчи значение + тип объекта + позицию. Без объекта: get up, come back. Separable: turn off the light / turn the light off, но turn it off. Inseparable: look after it, look for it. Время изменяет основной глагол, частица сохраняется. Некоторые сочетания имеют несколько значений.\n\nНе выбирай форму только по одному знакомому слову: проверь контекст, значение и структуру. При ошибке вернись к соответствующей части конспекта и составь собственный пример.\n\n## 5. Практика\n\nВ приложении практика разделена на входную диагностику, управляемые задания, самостоятельную практику и новую выходную проверку. Закрытые ответы получают rationale и разбор ошибки. Свободный текст сохраняется и оценивается по рубрике; до подключения и реальной проверки AI-движка система не выдаёт его за автоматическую AI-оценку.\n\n## 6. Интервальное повторение\n\nПовторяй не весь урок автоматически, а конкретную ошибку: выбор формы, согласование, word order, значение, регистр или пунктуацию. Новая попытка должна менять лексический контекст и формулировку, чтобы проверять перенос, а не запоминание одной строки.\n\n## 7. Технический статус\n\n- Постоянный ID: `A2-18`.\n- Прогресс хранится отдельно в course.grammarLessons[\"A2-18\"].\n- Содержание и ключи имеют статус draft; 24 авторских закрытых задания и объяснения вычитаны, выбранные тексты источников проверены. Полная постраничная и пользовательская приёмка остаются открытыми.\n- Предварительное выполнение порогов не равно окончательному mastered: нужны отсроченное повторение и learner review.",
+  "theoryEnd": "## 5."
+}

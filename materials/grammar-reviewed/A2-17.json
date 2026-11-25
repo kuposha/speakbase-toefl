@@ -1,0 +1,741 @@
+{
+  "id": "A2-17",
+  "level": "A2",
+  "sequence": "A2-17",
+  "grammarFamily": "A2-17",
+  "questionBankSource": "topic-specific-authored",
+  "sourceVerification": "draft; selected source text consulted; complete source-page and learner review pending",
+  "topicProfile": {
+    "label": "common dependent prepositions",
+    "skillTarget": "common-dependent-prepositions",
+    "core": "Prepositions связывают слова и показывают время, место, направление, способ или отношение. Предлог часто нельзя выбрать по буквальному русскому переводу: interested in — интересоваться, listen to — слушать, wait for — ждать. Поэтому изучаем одновременно общие пространственно-временные правила и устойчивые сочетания.",
+    "form": "| Значение | Предлог / модель | Примеры |\n|---|---|---|\n| Точное время | at | at eight, at noon |\n| День, дата | on | on Friday, on 5 May |\n| Месяц, год, сезон | in | in July, in 2026 |\n| Длительность / начало | for / since | for two hours, since Monday |\n| Крайний срок / продолжение | by / until | by Friday, until Friday |\n| Место-точка | at | at the door, at a meeting |\n| Внутри, город, страна | in | in a box, in Italy |\n| Поверхность | on | on the desk, on the wall |\n| Движение | to / into / out of | to school, into the room, out of the car |\n| Маршрут | across / through / along | across the street, through a tunnel, along the river |\n| Транспорт | by / on / in | by bus, on the bus, in a taxi |",
+    "selection": "Выбери категорию: время, место, движение или устойчивое сочетание. Для времени спроси: точка, день, период, длительность или срок? Для места: внутри, поверхность или точка? Для движения: к месту, внутрь, наружу, через или вдоль? Если это сочетание с глаголом или adjective, проверь его как целый chunk. Например, good at maths, interested in science, responsible for a task, proud of your work, afraid of spiders, worried about an exam, similar to mine.",
+    "contrast": "| Пример | Смысл |\n|---|---|\n| at six / on Friday / in May | Точка / день / месяц. |\n| in the room / at the entrance / on the wall | Внутри / у входа / на поверхности. |\n| go to school / go into the classroom | К месту / внутрь. |\n| by train / on the train | Способ передвижения / конкретный поезд. |\n| look at the keys / look for the keys | Смотреть на / искать. |\n| on time / in time | Вовремя по расписанию / достаточно рано. |\n| wait for the bus / depend on the bus schedule | Ждать / зависеть от. |",
+    "boundary": "Не все сочетания допускают только один предлог. Talk to и talk with возможны; different from распространено в разных вариантах английского, different to встречается в BrE, different than — в AmE. Surprised at/by оба возможны. Поэтому упражнения проверяют контекст или явно указанную модель. At school может описывать участие в школьной жизни или нахождение там; in the school подчёркивает здание. Для американского английского привычно in school в значении обучения.",
+    "pronunciation": "At, to, for, of часто произносятся без сильного ударения в связной речи. Учи целые группы: WAIT for, LOOK at, GOOD at. Ударение может выделять контраст in the bag или ON the bag. Отдельная словарная аудиосверка не завершена.",
+    "examples": [
+      [
+        "The lesson begins at nine on Monday.",
+        "Занятие начинается в девять в понедельник.",
+        "At + часы, on + день."
+      ],
+      [
+        "My notebook is in the bag, on the chair.",
+        "Моя тетрадь в сумке, которая лежит на стуле.",
+        "In — внутри, on — поверхность."
+      ],
+      [
+        "We arrived at the airport on time.",
+        "Мы прибыли в аэропорт вовремя по расписанию.",
+        "Arrive at + место, on time."
+      ],
+      [
+        "She walked across the street.",
+        "Она перешла улицу.",
+        "Across — с одной стороны на другую."
+      ],
+      [
+        "I'm interested in learning languages.",
+        "Я интересуюсь изучением языков.",
+        "Interested in + -ing."
+      ],
+      [
+        "We're waiting for the tutor.",
+        "Мы ждём преподавателя.",
+        "Wait for + noun."
+      ]
+    ],
+    "traps": [
+      [
+        "I was born on 2008.",
+        "I was born in 2008.",
+        "In + год."
+      ],
+      [
+        "We arrived to the station.",
+        "We arrived at the station.",
+        "Arrive at + точка/здание."
+      ],
+      [
+        "I go to home after college.",
+        "I go home after college.",
+        "Home после go без to."
+      ],
+      [
+        "She listens music.",
+        "She listens to music.",
+        "Listen to — устойчивое сочетание."
+      ],
+      [
+        "I'm good in drawing.",
+        "I'm good at drawing.",
+        "Good at + навык."
+      ]
+    ],
+    "toefl": "В Listening распознавай инструкции по маршруту и сроки, например by Friday и until Friday. В Reading анализируй noun/verb/adjective + preposition как смысловые блоки. В Writing Email уточняй, for which course you are applying и at what time a meeting starts. В Speaking описывай место, направление и интересы без буквального перевода предлогов. Это авторская практика."
+  },
+  "title": "Prepositions and dependent patterns — introduction",
+  "description": "Использовать предлоги времени/места/движения и частотные сочетания adjective/verb + preposition",
+  "cardDescription": "Теория, guided practice, самостоятельные задания и выходная проверка по постоянному ID A2-17.",
+  "eyebrow": "Полный урок программы A2-17 · drafted",
+  "contentVersion": "1.1-draft",
+  "curriculumVersion": "1.0",
+  "prerequisites": [
+    "A1-18"
+  ],
+  "outcomes": [
+    "Использовать предлоги времени/места/движения и частотные сочетания adjective/verb + preposition",
+    "Выбирать целевую конструкцию по контексту и смыслу.",
+    "Исправлять типичные ошибки и переносить правило в новый пример."
+  ],
+  "sourceRefs": [
+    "GR-01 U103-113",
+    "GR-02 U121-136",
+    "GR-03 U88-93"
+  ],
+  "sourceStatus": "selected source text consulted; full page verification pending",
+  "status": "drafted",
+  "legacyCoverage": "Частично",
+  "toeflLinks": [
+    "Writing: Build a Sentence",
+    "Reading: clause structure, reference, modifiers and logical relationships",
+    "Writing: Write an Email"
+  ],
+  "thresholds": {
+    "independent": 7,
+    "exit": 4,
+    "criticalIds": [
+      "E1",
+      "E2",
+      "E3"
+    ]
+  },
+  "groups": {
+    "independent": "Самостоятельная практика",
+    "exit": "Выходная проверка"
+  },
+  "items": [
+    {
+      "id": "D1",
+      "group": "Входная диагностика",
+      "prompt": "Choose the time preposition: The lesson begins ___ 8:30.",
+      "options": [
+        "on",
+        "at",
+        "in"
+      ],
+      "answer": "at",
+      "accepted": [
+        "at"
+      ],
+      "why": "At + точное время.",
+      "distractorWhy": "On используется с днями/датами.",
+      "distractorRationales": {
+        "on": "On используется с днями/датами.",
+        "in": "In используется с периодами."
+      },
+      "skillTarget": "common-dependent-prepositions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D2",
+      "group": "Входная диагностика",
+      "prompt": "Choose the preposition for a particular day: We meet ___ Thursday.",
+      "options": [
+        "on",
+        "at",
+        "in"
+      ],
+      "answer": "on",
+      "accepted": [
+        "on"
+      ],
+      "why": "On + день недели.",
+      "distractorWhy": "At не обычный предлог дня.",
+      "distractorRationales": {
+        "at": "At не обычный предлог дня.",
+        "in": "In не используется так с Thursday."
+      },
+      "skillTarget": "common-dependent-prepositions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D3",
+      "group": "Входная диагностика",
+      "prompt": "Choose the preposition for a month: The course starts ___ September.",
+      "options": [
+        "on",
+        "at",
+        "in"
+      ],
+      "answer": "in",
+      "accepted": [
+        "in"
+      ],
+      "why": "In + месяц.",
+      "distractorWhy": "On + дата/день.",
+      "distractorRationales": {
+        "on": "On + дата/день.",
+        "at": "At + точное время."
+      },
+      "skillTarget": "common-dependent-prepositions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D4",
+      "group": "Входная диагностика",
+      "prompt": "Choose the ordinary expression with next: We are travelling ___.",
+      "options": [
+        "in next week",
+        "next week",
+        "on next week"
+      ],
+      "answer": "next week",
+      "accepted": [
+        "next week"
+      ],
+      "why": "Перед next week обычно нет предлога.",
+      "distractorWhy": "In здесь лишний.",
+      "distractorRationales": {
+        "in next week": "In здесь лишний.",
+        "on next week": "On здесь лишний."
+      },
+      "skillTarget": "common-dependent-prepositions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G1",
+      "group": "Управляемая практика",
+      "prompt": "Choose the phrase meaning exactly according to the schedule.",
+      "options": [
+        "on time",
+        "in time",
+        "at the time ago"
+      ],
+      "answer": "on time",
+      "accepted": [
+        "on time"
+      ],
+      "why": "On time означает пунктуально.",
+      "distractorWhy": "In time означает достаточно рано.",
+      "distractorRationales": {
+        "in time": "In time означает достаточно рано.",
+        "at the time ago": "Последняя фраза неверна."
+      },
+      "skillTarget": "common-dependent-prepositions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G2",
+      "group": "Управляемая практика",
+      "prompt": "Choose the phrase meaning early enough to catch the train.",
+      "options": [
+        "on time for the exact schedule as a definition",
+        "at time to catch the train",
+        "in time to catch the train"
+      ],
+      "answer": "in time to catch the train",
+      "accepted": [
+        "in time to catch the train"
+      ],
+      "why": "In time означает достаточно рано.",
+      "distractorWhy": "On time обозначает соответствие расписанию, не саму достаточность.",
+      "distractorRationales": {
+        "on time for the exact schedule as a definition": "On time обозначает соответствие расписанию, не саму достаточность.",
+        "at time to catch the train": "At time не нужная конструкция."
+      },
+      "skillTarget": "common-dependent-prepositions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G3",
+      "group": "Управляемая практика",
+      "prompt": "Choose the correct preposition for a surface: The notice is ___ the wall.",
+      "options": [
+        "in",
+        "on",
+        "to"
+      ],
+      "answer": "on",
+      "accepted": [
+        "on"
+      ],
+      "why": "On обозначает поверхность.",
+      "distractorWhy": "In означало бы внутри стены.",
+      "distractorRationales": {
+        "in": "In означало бы внутри стены.",
+        "to": "To обозначает направление."
+      },
+      "skillTarget": "common-dependent-prepositions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G4",
+      "group": "Управляемая практика",
+      "prompt": "Choose the phrase for the contents of a closed box.",
+      "options": [
+        "in the box",
+        "at the box as contents",
+        "on the box"
+      ],
+      "answer": "in the box",
+      "accepted": [
+        "in the box"
+      ],
+      "why": "In — внутри.",
+      "distractorWhy": "At указывает точку рядом.",
+      "distractorRationales": {
+        "at the box as contents": "At указывает точку рядом.",
+        "on the box": "On — на поверхности."
+      },
+      "skillTarget": "common-dependent-prepositions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G5",
+      "group": "Управляемая практика",
+      "prompt": "Choose the standard meeting point expression: Meet me ___ the entrance.",
+      "options": [
+        "into",
+        "from",
+        "at"
+      ],
+      "answer": "at",
+      "accepted": [
+        "at"
+      ],
+      "why": "At обозначает точку встречи.",
+      "distractorWhy": "Into — движение внутрь.",
+      "distractorRationales": {
+        "into": "Into — движение внутрь.",
+        "from": "From — источник движения."
+      },
+      "skillTarget": "common-dependent-prepositions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G6",
+      "group": "Управляемая практика",
+      "prompt": "Choose the ordinary movement destination: We travelled ___ Italy last summer.",
+      "options": [
+        "at",
+        "to",
+        "on"
+      ],
+      "answer": "to",
+      "accepted": [
+        "to"
+      ],
+      "why": "Travel to + место.",
+      "distractorWhy": "At — местонахождение.",
+      "distractorRationales": {
+        "at": "At — местонахождение.",
+        "on": "On не обозначает направление к стране."
+      },
+      "skillTarget": "common-dependent-prepositions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I1",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the phrase meaning entering the classroom.",
+      "options": [
+        "walk at the classroom",
+        "walk on the classroom",
+        "walk into the classroom"
+      ],
+      "answer": "walk into the classroom",
+      "accepted": [
+        "walk into the classroom"
+      ],
+      "why": "Into выражает движение внутрь.",
+      "distractorWhy": "At обозначает точку, не вход.",
+      "distractorRationales": {
+        "walk at the classroom": "At обозначает точку, не вход.",
+        "walk on the classroom": "On обозначает поверхность."
+      },
+      "skillTarget": "common-dependent-prepositions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I2",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct arrival expression for a city.",
+      "options": [
+        "arrive to Milan",
+        "arrive in Milan",
+        "arrive on Milan"
+      ],
+      "answer": "arrive in Milan",
+      "accepted": [
+        "arrive in Milan"
+      ],
+      "why": "Arrive in + city.",
+      "distractorWhy": "Arrive to не стандартная модель.",
+      "distractorRationales": {
+        "arrive to Milan": "Arrive to не стандартная модель.",
+        "arrive on Milan": "On не подходит."
+      },
+      "skillTarget": "common-dependent-prepositions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I3",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct arrival expression for an airport.",
+      "options": [
+        "arrive at the airport",
+        "arrive to the airport",
+        "arrive on the airport"
+      ],
+      "answer": "arrive at the airport",
+      "accepted": [
+        "arrive at the airport"
+      ],
+      "why": "Arrive at + место-точка.",
+      "distractorWhy": "Arrive to не стандартная модель.",
+      "distractorRationales": {
+        "arrive to the airport": "Arrive to не стандартная модель.",
+        "arrive on the airport": "On не подходит."
+      },
+      "skillTarget": "common-dependent-prepositions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I4",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the ordinary phrase for returning to one's own home.",
+      "options": [
+        "go to home",
+        "go at home",
+        "go home"
+      ],
+      "answer": "go home",
+      "accepted": [
+        "go home"
+      ],
+      "why": "Home после go обычно без to.",
+      "distractorWhy": "To лишний.",
+      "distractorRationales": {
+        "go to home": "To лишний.",
+        "go at home": "At home выражает положение, не обычное направление."
+      },
+      "skillTarget": "common-dependent-prepositions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I5",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the expression describing a means of transport without an article.",
+      "options": [
+        "by the train",
+        "by train",
+        "on train"
+      ],
+      "answer": "by train",
+      "accepted": [
+        "by train"
+      ],
+      "why": "By + вид транспорта без determiner.",
+      "distractorWhy": "С конкретным поездом употребляют on the train.",
+      "distractorRationales": {
+        "by the train": "С конкретным поездом употребляют on the train.",
+        "on train": "On требует determiner в этой модели."
+      },
+      "skillTarget": "common-dependent-prepositions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I6",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the expression for travelling inside a particular taxi.",
+      "options": [
+        "in a taxi",
+        "on a taxi",
+        "by a taxi"
+      ],
+      "answer": "in a taxi",
+      "accepted": [
+        "in a taxi"
+      ],
+      "why": "In + car/taxi.",
+      "distractorWhy": "On не обычная форма для нахождения внутри такси.",
+      "distractorRationales": {
+        "on a taxi": "On не обычная форма для нахождения внутри такси.",
+        "by a taxi": "By + вид транспорта без a."
+      },
+      "skillTarget": "common-dependent-prepositions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I7",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the direction from one side of a road to the other.",
+      "options": [
+        "along the road",
+        "into the road as a crossing expression",
+        "across the road"
+      ],
+      "answer": "across the road",
+      "accepted": [
+        "across the road"
+      ],
+      "why": "Across обозначает пересечение.",
+      "distractorWhy": "Along — вдоль.",
+      "distractorRationales": {
+        "along the road": "Along — вдоль.",
+        "into the road as a crossing expression": "Into не обозначает переход на другую сторону."
+      },
+      "skillTarget": "common-dependent-prepositions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I8",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the phrase meaning a deadline no later than Friday.",
+      "options": [
+        "submit the report until Friday (single deadline)",
+        "submit the report by Friday",
+        "submit the report since Friday"
+      ],
+      "answer": "submit the report by Friday",
+      "accepted": [
+        "submit the report by Friday"
+      ],
+      "why": "By — крайний срок.",
+      "distractorWhy": "Until — продолжение до границы.",
+      "distractorRationales": {
+        "submit the report until Friday (single deadline)": "Until — продолжение до границы.",
+        "submit the report since Friday": "Since — начальная точка."
+      },
+      "skillTarget": "common-dependent-prepositions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I9",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the phrase showing a continued stay up to six.",
+      "options": [
+        "stay until six",
+        "stay since six as a future end",
+        "stay by six as a duration"
+      ],
+      "answer": "stay until six",
+      "accepted": [
+        "stay until six"
+      ],
+      "why": "Until — конечная граница продолжения.",
+      "distractorWhy": "Since показывает начало.",
+      "distractorRationales": {
+        "stay since six as a future end": "Since показывает начало.",
+        "stay by six as a duration": "By обозначает крайний срок, не длительность."
+      },
+      "skillTarget": "common-dependent-prepositions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E1",
+      "group": "Выходная проверка",
+      "prompt": "Choose the standard adjective pattern for a skill.",
+      "options": [
+        "good at solving puzzles",
+        "good in solving puzzles",
+        "good to solving puzzles"
+      ],
+      "answer": "good at solving puzzles",
+      "accepted": [
+        "good at solving puzzles"
+      ],
+      "why": "Good at + skill/V-ing.",
+      "distractorWhy": "In не целевой предлог.",
+      "distractorRationales": {
+        "good in solving puzzles": "In не целевой предлог.",
+        "good to solving puzzles": "To не подходит."
+      },
+      "skillTarget": "common-dependent-prepositions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E2",
+      "group": "Выходная проверка",
+      "prompt": "Choose the grammatical dependent pattern with interested.",
+      "options": [
+        "interested on studying abroad",
+        "interested in study abroad",
+        "interested in studying abroad"
+      ],
+      "answer": "interested in studying abroad",
+      "accepted": [
+        "interested in studying abroad"
+      ],
+      "why": "Interested in + V-ing.",
+      "distractorWhy": "On неверен.",
+      "distractorRationales": {
+        "interested on studying abroad": "On неверен.",
+        "interested in study abroad": "Study не форма после предлога."
+      },
+      "skillTarget": "common-dependent-prepositions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E3",
+      "group": "Выходная проверка",
+      "prompt": "Choose the verb pattern meaning to try to find lost keys.",
+      "options": [
+        "look at the keys",
+        "look for the keys",
+        "look after the keys"
+      ],
+      "answer": "look for the keys",
+      "accepted": [
+        "look for the keys"
+      ],
+      "why": "Look for — искать.",
+      "distractorWhy": "Look at — смотреть на.",
+      "distractorRationales": {
+        "look at the keys": "Look at — смотреть на.",
+        "look after the keys": "Look after — заботиться/присматривать."
+      },
+      "skillTarget": "common-dependent-prepositions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E4",
+      "group": "Выходная проверка",
+      "prompt": "Choose the correct pattern when listening to a podcast.",
+      "options": [
+        "listen to a podcast",
+        "listen at a podcast",
+        "listen a podcast"
+      ],
+      "answer": "listen to a podcast",
+      "accepted": [
+        "listen to a podcast"
+      ],
+      "why": "Listen to + object.",
+      "distractorWhy": "At не подходит.",
+      "distractorRationales": {
+        "listen at a podcast": "At не подходит.",
+        "listen a podcast": "Предлог to необходим."
+      },
+      "skillTarget": "common-dependent-prepositions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E5",
+      "group": "Выходная проверка",
+      "prompt": "Choose the sentence with a direct object and no unnecessary preposition.",
+      "options": [
+        "We discussed about the timetable.",
+        "We discussed to the timetable.",
+        "We discussed the timetable."
+      ],
+      "answer": "We discussed the timetable.",
+      "accepted": [
+        "We discussed the timetable."
+      ],
+      "why": "Discuss + direct object.",
+      "distractorWhy": "About лишний в этой модели.",
+      "distractorRationales": {
+        "We discussed about the timetable.": "About лишний в этой модели.",
+        "We discussed to the timetable.": "To не подходит."
+      },
+      "skillTarget": "common-dependent-prepositions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "W1",
+      "group": "Самостоятельное применение",
+      "prompt": "Напиши 10 предложений о дороге, расписании и учебных интересах: at/on/in, to/into/across, by/until, транспорт и минимум четыре dependent patterns. Добавь один пример с preposition + -ing. Объясни пять выборов.",
+      "open": true,
+      "rubric": [
+        "Предлоги времени выбраны по типу периода.",
+        "Предлоги места и движения различены.",
+        "Arrive/get/go home оформлены корректно.",
+        "By/until и способ транспорта не перепутаны.",
+        "Устойчивые сочетания употреблены правильно.",
+        "После предлога с глаголом используется -ing."
+      ],
+      "skillTarget": "Самостоятельное применение A2-17",
+      "interactionType": "open-production",
+      "difficulty": "transfer",
+      "sourceBasis": "Speakbase-authored open production; self-review rubric only until real AI feedback is connected",
+      "contentVersion": "1.1-draft"
+    }
+  ],
+  "markdown": "# Speakbase — A2-17: Prepositions and dependent patterns — introduction\n\n**Curriculum ID:** `A2-17`  \n**Уровень:** A2  \n**Версия:** 1.1-draft\n**Статус:** drafted; selected source text checked; full source-page and learner acceptance pending\n**Предварительные темы:** A1-18  \n**Связь со старым каталогом:** Частично — №12 Prepositions\n\n## 1. Результаты обучения\n\n- Использовать предлоги времени/места/движения и частотные сочетания adjective/verb + preposition\n- Выбирать целевую форму по значению, структуре предложения и контексту.\n- Объяснять, почему близкая грамматическая форма меняет смысл или регистр.\n- Находить и исправлять типичные ошибки русскоязычных студентов.\n\n## 2. Источники и статус сверки\n\n| Source | PDF navigation | Lesson-specific checks | Status |\n|---|---|---|---|\n| GR-01 U103-113 | PDF pages 217-238 (Unit 103-113) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-02 U121-136 | PDF pages 254-285 (Unit 121-136) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-03 U88-93 | PDF pages 200-211 (Unit 88-93) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n\nUnit/page locations are navigation aids only. They do not prove that the cited explanation, examples, restrictions and answer key have been checked for this lesson. Examples and explanations below are Speakbase-authored, not quotations from the textbook.\n\nПеред переводом этого урока в source-verified необходимо открыть целевые страницы конкретного издания, записать печатную и PDF-пагинацию, сверить ограничения и исключения. Для GR-03 со сканированными страницами обязательна визуальная проверка.\n\n**Evidence for this editorial pass:** GR-02 Units 121–136, selected theory text inspected PDF pp. 254–284 (even pages, printed pp. 242–272): time/place/movement, transport, fixed noun/adjective/verb combinations. Additional sources and exercise-page/visual review pending. The selected source text was consulted; not all pages, exercises, editions, scanned GR-03 pages or GR-05 descriptors were checked. Author-created explanations and practice are not copied source exercises.\n\n## 3. Место темы и границы\n\nСвяжи предлоги времени/места/движения с устойчивыми сочетаниями adjective/verb + preposition; учи их как chunks.\n\nСтарый каталог содержит: №12 Prepositions. Его статус — Частично. Старые отметки завершения не переносятся автоматически на новый постоянный ID. Тема рассматривается в уровне A2 и не заменяет обязательные prerequisites.\n\n## 4. Полный конспект\n\n### 4.1. Основная идея и функция конструкции\n\nPrepositions связывают слова и показывают время, место, направление, способ или отношение. Предлог часто нельзя выбрать по буквальному русскому переводу: interested in — интересоваться, listen to — слушать, wait for — ждать. Поэтому изучаем одновременно общие пространственно-временные правила и устойчивые сочетания.\n\nAt обычно показывает точку или событие, in — пространство или период, on — поверхность, день или дату. At the station может обозначать место встречи, in the station — внутри здания. Для движения к месту обычно используется to, для движения внутрь — into: go to the library, go into the room. Не каждый предлог имеет один перевод: on Monday, on the wall, on the bus — три разных ситуации.\n\n### 4.2. Формирование и грамматическая модель\n\n| Значение | Предлог / модель | Примеры |\n|---|---|---|\n| Точное время | at | at eight, at noon |\n| День, дата | on | on Friday, on 5 May |\n| Месяц, год, сезон | in | in July, in 2026 |\n| Длительность / начало | for / since | for two hours, since Monday |\n| Крайний срок / продолжение | by / until | by Friday, until Friday |\n| Место-точка | at | at the door, at a meeting |\n| Внутри, город, страна | in | in a box, in Italy |\n| Поверхность | on | on the desk, on the wall |\n| Движение | to / into / out of | to school, into the room, out of the car |\n| Маршрут | across / through / along | across the street, through a tunnel, along the river |\n| Транспорт | by / on / in | by bus, on the bus, in a taxi |\n\nAt night, in the morning/afternoon/evening; on Monday morning (конкретный день). At the weekend распространено в BrE, on the weekend — в AmE. Перед next, last, this, every обычно не ставят at/on/in: next week, last Monday, every morning. On time — по расписанию, in time — достаточно рано. At the end of the lesson — в конце занятия; in the end — в итоге. Go home, get home, arrive home — без to. Arrive in a city/country; arrive at a building/event; get to a place. By car/bus/train без артикля, on the bus/train с определителем; in a car/taxi. On foot — пешком.\n\n### 4.3. Как выбрать подходящую форму\n\nВыбери категорию: время, место, движение или устойчивое сочетание. Для времени спроси: точка, день, период, длительность или срок? Для места: внутри, поверхность или точка? Для движения: к месту, внутрь, наружу, через или вдоль? Если это сочетание с глаголом или adjective, проверь его как целый chunk. Например, good at maths, interested in science, responsible for a task, proud of your work, afraid of spiders, worried about an exam, similar to mine.\n\nЧастые verb + preposition: listen to music, look at a picture, wait for a bus, look for keys, look after a pet, depend on the weather, agree with a person, apply for a course, pay for a ticket, speak to/with a tutor, apologise to someone for a mistake, concentrate on a task. Некоторые глаголы уже имеют direct object без предлога: discuss the problem, answer the question, call Anna. Сравни reply to an email и answer an email. После предлога, если используется глагол, нужна -ing: interested in learning, good at drawing, thanks for helping.\n\n### 4.4. Сравнение с близкими конструкциями\n\n| Пример | Смысл |\n|---|---|\n| at six / on Friday / in May | Точка / день / месяц. |\n| in the room / at the entrance / on the wall | Внутри / у входа / на поверхности. |\n| go to school / go into the classroom | К месту / внутрь. |\n| by train / on the train | Способ передвижения / конкретный поезд. |\n| look at the keys / look for the keys | Смотреть на / искать. |\n| on time / in time | Вовремя по расписанию / достаточно рано. |\n| wait for the bus / depend on the bus schedule | Ждать / зависеть от. |\n\n### 4.5. Примеры с переводом и объяснением\n\n| English | Перевод | Почему это подходит |\n| --- | --- | --- |\n| The lesson begins at nine on Monday. | Занятие начинается в девять в понедельник. | At + часы, on + день. |\n| My notebook is in the bag, on the chair. | Моя тетрадь в сумке, которая лежит на стуле. | In — внутри, on — поверхность. |\n| We arrived at the airport on time. | Мы прибыли в аэропорт вовремя по расписанию. | Arrive at + место, on time. |\n| She walked across the street. | Она перешла улицу. | Across — с одной стороны на другую. |\n| I'm interested in learning languages. | Я интересуюсь изучением языков. | Interested in + -ing. |\n| We're waiting for the tutor. | Мы ждём преподавателя. | Wait for + noun. |\n\n### 4.6. Исключения, ограничения и границы употребления\n\nНе все сочетания допускают только один предлог. Talk to и talk with возможны; different from распространено в разных вариантах английского, different to встречается в BrE, different than — в AmE. Surprised at/by оба возможны. Поэтому упражнения проверяют контекст или явно указанную модель. At school может описывать участие в школьной жизни или нахождение там; in the school подчёркивает здание. Для американского английского привычно in school в значении обучения.\n\nBy и until не взаимозаменяемы: send by six — отправить не позже шести; stay until six — оставаться до шести. For и since различают длительность и начало: for three days, since Tuesday. Above/over могут обозначать более высокое положение, но over также движение над или через объект; under/below — ниже, с разными оттенками. Between обычно между определёнными отдельными объектами, among — среди группы. For a reason, reason for, answer to и solution to — полезные noun chunks. Смысловые различия и дополнительные dependent patterns подробно изучаются позднее.\n\n### 4.7. Типичные ошибки русскоязычных студентов\n\n| Ошибка | Исправление | Объяснение |\n| --- | --- | --- |\n| I was born on 2008. | I was born in 2008. | In + год. |\n| We arrived to the station. | We arrived at the station. | Arrive at + точка/здание. |\n| I go to home after college. | I go home after college. | Home после go без to. |\n| She listens music. | She listens to music. | Listen to — устойчивое сочетание. |\n| I'm good in drawing. | I'm good at drawing. | Good at + навык. |\n\n### 4.8. Произношение и восприятие на слух\n\nAt, to, for, of часто произносятся без сильного ударения в связной речи. Учи целые группы: WAIT for, LOOK at, GOOD at. Ударение может выделять контраст in the bag или ON the bag. Отдельная словарная аудиосверка не завершена.\n\nСначала прослушай или прочитай пример, затем произнеси его целиком. Обрати внимание на смысловое ударение и форму конструкции; не ориентируйся только на буквенный перевод.\n\n### 4.9. Академический английский и TOEFL-перенос\n\nВ Listening распознавай инструкции по маршруту и сроки, например by Friday и until Friday. В Reading анализируй noun/verb/adjective + preposition как смысловые блоки. В Writing Email уточняй, for which course you are applying и at what time a meeting starts. В Speaking описывай место, направление и интересы без буквального перевода предлогов. Это авторская практика.\n\nЭто авторская практика переноса навыка. Она не является официальным заданием TOEFL и не выдаётся за официальный результат экзамена.\n\n### 4.10. Примеры для управляемого разбора\n\n- The lesson begins at nine on Monday. — Занятие начинается в девять в понедельник. At + часы, on + день.\n- My notebook is in the bag, on the chair. — Моя тетрадь в сумке, которая лежит на стуле. In — внутри, on — поверхность.\n- We arrived at the airport on time. — Мы прибыли в аэропорт вовремя по расписанию. Arrive at + место, on time.\n\nДля каждого примера назови целевую конструкцию, объясни выбор и составь новое предложение в другом контексте. Затем перейди к заданиям: сначала диагностика, затем управляемая и самостоятельная практика, затем новые вопросы выходной проверки.\n\n### 4.11. Самопроверка\n\nПеред отправкой ответа проверь:\n1. Предлоги времени выбраны по типу периода.\n2. Предлоги места и движения различены.\n3. Arrive/get/go home оформлены корректно.\n4. By/until и способ транспорта не перепутаны.\n5. Устойчивые сочетания употреблены правильно.\n6. После предлога с глаголом используется -ing.\n\n### 4.12. Краткая памятка\n\nAt — точка/часы, on — поверхность/день, in — внутри/период. To — направление, into — внутрь, across/through/along — маршрут. By — способ или крайний срок; until — длительность до момента. Учи dependent patterns целиком: interested in, good at, wait for, listen to, depend on. После предлога обычно noun/pronoun или V-ing.\n\nНе выбирай форму только по одному знакомому слову: проверь контекст, значение и структуру. При ошибке вернись к соответствующей части конспекта и составь собственный пример.\n\n## 5. Практика\n\nВ приложении практика разделена на входную диагностику, управляемые задания, самостоятельную практику и новую выходную проверку. Закрытые ответы получают rationale и разбор ошибки. Свободный текст сохраняется и оценивается по рубрике; до подключения и реальной проверки AI-движка система не выдаёт его за автоматическую AI-оценку.\n\n## 6. Интервальное повторение\n\nПовторяй не весь урок автоматически, а конкретную ошибку: выбор формы, согласование, word order, значение, регистр или пунктуацию. Новая попытка должна менять лексический контекст и формулировку, чтобы проверять перенос, а не запоминание одной строки.\n\n## 7. Технический статус\n\n- Постоянный ID: `A2-17`.\n- Прогресс хранится отдельно в course.grammarLessons[\"A2-17\"].\n- Содержание и ключи имеют статус draft; 24 авторских закрытых задания и объяснения вычитаны, выбранные тексты источников проверены. Полная постраничная и пользовательская приёмка остаются открытыми.\n- Предварительное выполнение порогов не равно окончательному mastered: нужны отсроченное повторение и learner review.",
+  "theoryEnd": "## 5."
+}

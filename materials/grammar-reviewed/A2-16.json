@@ -1,0 +1,744 @@
+{
+  "id": "A2-16",
+  "level": "A2",
+  "sequence": "A2-16",
+  "grammarFamily": "A2-16",
+  "questionBankSource": "topic-specific-authored",
+  "sourceVerification": "draft; selected source text consulted; complete source-page and learner review pending",
+  "topicProfile": {
+    "label": "time clauses and basic reason, purpose and result",
+    "skillTarget": "time-reason-purpose-result-clauses",
+    "core": "Time clauses показывают, когда происходит действие. Reason объясняет причину, purpose — цель, result — результат. Например: I called Anna when I arrived (когда); I called her because I needed help (почему); I called her to ask a question (зачем); I needed help, so I called her (что из этого вышло). Одна ситуация может описываться с разных сторон, но союзы и грамматические структуры будут различаться.",
+    "form": "| Связь | Модель | Пример |\n|---|---|---|\n| Когда | when + subject + verb | Call me when you arrive. |\n| До / после | before/after + clause | I'll eat before I leave. |\n| Как только | as soon as + clause | I'll text as soon as I arrive. |\n| Пока, одновременно | while + clause | I listened while she spoke. |\n| До момента | until + clause | Wait until the class ends. |\n| Причина | because + clause | I stayed because it rained. |\n| Причина | because of + noun | I stayed because of the rain. |\n| Цель | to + V1 | I came to study. |\n| Цель | so that + clause | I spoke slowly so that she could understand. |\n| Результат | so + clause | It rained, so we stayed home. |",
+    "selection": "When обозначает момент или период, before — раньше, after — позже, as soon as — сразу после события, until — продолжение действия до границы, while — одновременность. By Friday означает не позже пятницы, until Friday — продолжение до пятницы. Сравни I'll finish by Friday и I'll stay here until Friday. Not…until означает, что действие не происходит до указанного момента: I won't leave until the meeting ends.",
+    "contrast": "| Пример | Значение |\n|---|---|\n| I'll wait until you finish. | Буду ждать до окончания. |\n| I'll call as soon as you finish. | Позвоню сразу после окончания. |\n| I'll finish by six. | Закончу не позже шести. |\n| We left because it was cold. | Причина ухода. |\n| We left to get some fresh air. | Цель ухода. |\n| It was cold, so we left. | Следствие холода. |\n| We left early so that we could catch the bus. | Цель раннего ухода. |",
+    "boundary": "В обычном будущем time clause не нужен will: I'll call when I get home. Но в прямом вопросе When will you get home? и встроенном вопросе I don't know when you will get home will грамматически допустим: это запрос времени, а не обстоятельственное придаточное. Present Perfect после when/as soon as подчёркивает завершение до следующего действия; если два действия совпадают во времени, обычно нужен Simple. While не требует Continuous автоматически: While I lived there, I walked to work.",
+    "pronunciation": "При начальном придаточном делай небольшую паузу после всей части: As soon as I FINish, I'll CALL. Because, so that и to часто произносятся без сильного ударения. Выделяй ключевые события и логическую связь. Аудиосверка отдельно не выполнена.",
+    "examples": [
+      [
+        "I'll send the notes as soon as I get home.",
+        "Я отправлю конспект, как только доберусь домой.",
+        "Будущее time clause с Present Simple."
+      ],
+      [
+        "Wait here until the receptionist returns.",
+        "Подожди здесь, пока не вернётся администратор.",
+        "Продолжение ожидания до границы."
+      ],
+      [
+        "Before you submit the file, check its name.",
+        "Перед отправкой файла проверь его название.",
+        "Начальное придаточное с запятой."
+      ],
+      [
+        "We were late because of the traffic.",
+        "Мы опоздали из-за пробок.",
+        "Because of + noun phrase."
+      ],
+      [
+        "She opened the app to practise English.",
+        "Она открыла приложение, чтобы практиковать английский.",
+        "Инфинитив цели."
+      ],
+      [
+        "The printer was broken, so we used another one.",
+        "Принтер сломался, поэтому мы воспользовались другим.",
+        "So вводит результат."
+      ]
+    ],
+    "traps": [
+      [
+        "I'll text you when I will arrive.",
+        "I'll text you when I arrive.",
+        "В обычном time clause для будущего нужен present."
+      ],
+      [
+        "We stayed home because of it was raining.",
+        "We stayed home because it was raining.",
+        "Because + clause, because of + noun."
+      ],
+      [
+        "I came here for ask a question.",
+        "I came here to ask a question.",
+        "Цель действия — to + V1."
+      ],
+      [
+        "Because the bus was late, so we walked.",
+        "Because the bus was late, we walked.",
+        "Не дублируй причинно-следственную связь."
+      ],
+      [
+        "Wait until I will finish.",
+        "Wait until I finish.",
+        "Until + present для будущего."
+      ]
+    ],
+    "toefl": "В Reading и Listening определяй последовательность, причину, намерение и фактический результат. В Speaking объясняй, зачем что-то сделал студент; в Writing Email уточняй сроки: I'll send the document as soon as I receive it. Не приписывай достигнутый результат намерению, выраженному so that. Это авторская практика, не официальный вопрос ETS."
+  },
+  "title": "Time clauses and basic reason/purpose/result",
+  "description": "Использовать when/before/after/as soon as/until и простые союзы причины/цели/результата",
+  "cardDescription": "Теория, guided practice, самостоятельные задания и выходная проверка по постоянному ID A2-16.",
+  "eyebrow": "Полный урок программы A2-16 · drafted",
+  "contentVersion": "1.1-draft",
+  "curriculumVersion": "1.0",
+  "prerequisites": [
+    "A1-17",
+    "A2-04"
+  ],
+  "outcomes": [
+    "Использовать when/before/after/as soon as/until и простые союзы причины/цели/результата",
+    "Выбирать целевую конструкцию по контексту и смыслу.",
+    "Исправлять типичные ошибки и переносить правило в новый пример."
+  ],
+  "sourceRefs": [
+    "GR-01 U98-100",
+    "GR-02 U25",
+    "GR-02 U113-120",
+    "GR-03 U79-81",
+    "GR-05 A2 p22-24"
+  ],
+  "sourceStatus": "selected source text consulted; full page verification pending",
+  "status": "drafted",
+  "legacyCoverage": "Частично",
+  "toeflLinks": [
+    "Writing: Build a Sentence",
+    "Reading: clause structure, reference, modifiers and logical relationships",
+    "Writing: Write an Email"
+  ],
+  "thresholds": {
+    "independent": 7,
+    "exit": 4,
+    "criticalIds": [
+      "E1",
+      "E2",
+      "E3"
+    ]
+  },
+  "groups": {
+    "independent": "Самостоятельная практика",
+    "exit": "Выходная проверка"
+  },
+  "items": [
+    {
+      "id": "D1",
+      "group": "Входная диагностика",
+      "prompt": "Choose the ordinary future time clause: I'll text you when I ___ home.",
+      "options": [
+        "will get",
+        "get",
+        "getting"
+      ],
+      "answer": "get",
+      "accepted": [
+        "get"
+      ],
+      "why": "В придаточном времени для будущего используется present.",
+      "distractorWhy": "Will здесь не нужен.",
+      "distractorRationales": {
+        "will get": "Will здесь не нужен.",
+        "getting": "Getting не личная форма."
+      },
+      "skillTarget": "time-reason-purpose-result-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D2",
+      "group": "Входная диагностика",
+      "prompt": "Choose the form after before: Check your bag before you ___ for college.",
+      "options": [
+        "leave",
+        "will leave",
+        "leaves"
+      ],
+      "answer": "leave",
+      "accepted": [
+        "leave"
+      ],
+      "why": "Before + subject + Present Simple в будущей инструкции.",
+      "distractorWhy": "Will не нужен.",
+      "distractorRationales": {
+        "will leave": "Will не нужен.",
+        "leaves": "You требует leave."
+      },
+      "skillTarget": "time-reason-purpose-result-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D3",
+      "group": "Входная диагностика",
+      "prompt": "Choose the future time clause with third-person agreement.",
+      "options": [
+        "We'll leave after Mia finish her work.",
+        "We'll leave after Mia will finishes her work.",
+        "We'll leave after Mia finishes her work."
+      ],
+      "answer": "We'll leave after Mia finishes her work.",
+      "accepted": [
+        "We'll leave after Mia finishes her work."
+      ],
+      "why": "Mia + finishes в обычном time clause.",
+      "distractorWhy": "Пропущено -es.",
+      "distractorRationales": {
+        "We'll leave after Mia finish her work.": "Пропущено -es.",
+        "We'll leave after Mia will finishes her work.": "Will и finishes неверно соединены."
+      },
+      "skillTarget": "time-reason-purpose-result-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D4",
+      "group": "Входная диагностика",
+      "prompt": "Which phrase means immediately after the lesson ends?",
+      "options": [
+        "until the lesson ends",
+        "as soon as the lesson ends",
+        "before the lesson ends"
+      ],
+      "answer": "as soon as the lesson ends",
+      "accepted": [
+        "as soon as the lesson ends"
+      ],
+      "why": "As soon as выражает ближайший момент после события.",
+      "distractorWhy": "Until показывает продолжение до границы.",
+      "distractorRationales": {
+        "until the lesson ends": "Until показывает продолжение до границы.",
+        "before the lesson ends": "Before означает раньше."
+      },
+      "skillTarget": "time-reason-purpose-result-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G1",
+      "group": "Управляемая практика",
+      "prompt": "Choose the sentence expressing continued waiting up to an event.",
+      "options": [
+        "I'll wait until the bus arrives.",
+        "I'll wait as soon as the bus arrives.",
+        "I'll wait because of the bus arrives."
+      ],
+      "answer": "I'll wait until the bus arrives.",
+      "accepted": [
+        "I'll wait until the bus arrives."
+      ],
+      "why": "Until обозначает продолжение до прибытия.",
+      "distractorWhy": "As soon as задаёт начало после события.",
+      "distractorRationales": {
+        "I'll wait as soon as the bus arrives.": "As soon as задаёт начало после события.",
+        "I'll wait because of the bus arrives.": "Because of не вводит finite clause."
+      },
+      "skillTarget": "time-reason-purpose-result-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G2",
+      "group": "Управляемая практика",
+      "prompt": "Choose the expression for a deadline meaning no later than Monday.",
+      "options": [
+        "until Monday",
+        "while Monday",
+        "by Monday"
+      ],
+      "answer": "by Monday",
+      "accepted": [
+        "by Monday"
+      ],
+      "why": "By указывает крайний срок.",
+      "distractorWhy": "Until — длительность до момента.",
+      "distractorRationales": {
+        "until Monday": "Until — длительность до момента.",
+        "while Monday": "While требует подходящую временную структуру."
+      },
+      "skillTarget": "time-reason-purpose-result-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G3",
+      "group": "Управляемая практика",
+      "prompt": "Choose the sentence with simultaneous past activities.",
+      "options": [
+        "While I was read, my friend was drawing.",
+        "While I was reading, my friend was drawing.",
+        "While I were reading, my friend was drawing."
+      ],
+      "answer": "While I was reading, my friend was drawing.",
+      "accepted": [
+        "While I was reading, my friend was drawing."
+      ],
+      "why": "While связывает параллельные процессы.",
+      "distractorWhy": "Read не -ing.",
+      "distractorRationales": {
+        "While I was read, my friend was drawing.": "Read не -ing.",
+        "While I were reading, my friend was drawing.": "I требует was."
+      },
+      "skillTarget": "time-reason-purpose-result-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G4",
+      "group": "Управляемая практика",
+      "prompt": "Choose the correctly punctuated initial time clause.",
+      "options": [
+        "After the meeting ends, we'll go home.",
+        "After, the meeting ends we'll go home.",
+        "After the meeting, ends we'll go home."
+      ],
+      "answer": "After the meeting ends, we'll go home.",
+      "accepted": [
+        "After the meeting ends, we'll go home."
+      ],
+      "why": "Запятая после целой clause.",
+      "distractorWhy": "Запятая после after разрывает союз и clause.",
+      "distractorRationales": {
+        "After, the meeting ends we'll go home.": "Запятая после after разрывает союз и clause.",
+        "After the meeting, ends we'll go home.": "Запятая между subject и verb лишняя."
+      },
+      "skillTarget": "time-reason-purpose-result-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G5",
+      "group": "Управляемая практика",
+      "prompt": "Choose a completed-action time clause with Present Perfect.",
+      "options": [
+        "I'll send it after I've check the figures.",
+        "I'll send it after I will have checked the figures.",
+        "I'll send it after I've checked the figures."
+      ],
+      "answer": "I'll send it after I've checked the figures.",
+      "accepted": [
+        "I'll send it after I've checked the figures."
+      ],
+      "why": "Present Perfect подчёркивает предварительное завершение.",
+      "distractorWhy": "Check не V3.",
+      "distractorRationales": {
+        "I'll send it after I've check the figures.": "Check не V3.",
+        "I'll send it after I will have checked the figures.": "Will have не обычная форма после after."
+      },
+      "skillTarget": "time-reason-purpose-result-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G6",
+      "group": "Управляемая практика",
+      "prompt": "Choose the correct reason clause.",
+      "options": [
+        "We stayed indoors because of it was cold.",
+        "We stayed indoors because it was cold.",
+        "We stayed indoors because cold."
+      ],
+      "answer": "We stayed indoors because it was cold.",
+      "accepted": [
+        "We stayed indoors because it was cold."
+      ],
+      "why": "Because + subject + verb.",
+      "distractorWhy": "Because of требует noun phrase.",
+      "distractorRationales": {
+        "We stayed indoors because of it was cold.": "Because of требует noun phrase.",
+        "We stayed indoors because cold.": "Пропущено subject и verb."
+      },
+      "skillTarget": "time-reason-purpose-result-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I1",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct reason phrase with a noun.",
+      "options": [
+        "The class was cancelled because the snow.",
+        "The class was cancelled because of it snowed.",
+        "The class was cancelled because of the snow."
+      ],
+      "answer": "The class was cancelled because of the snow.",
+      "accepted": [
+        "The class was cancelled because of the snow."
+      ],
+      "why": "Because of + noun phrase.",
+      "distractorWhy": "Because требует clause.",
+      "distractorRationales": {
+        "The class was cancelled because the snow.": "Because требует clause.",
+        "The class was cancelled because of it snowed.": "После because of нельзя обычное finite clause."
+      },
+      "skillTarget": "time-reason-purpose-result-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I2",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the sentence expressing why someone went to the library (purpose).",
+      "options": [
+        "I went to the library for borrow a book.",
+        "I went to the library to borrow a book.",
+        "I went to the library to borrowing a book."
+      ],
+      "answer": "I went to the library to borrow a book.",
+      "accepted": [
+        "I went to the library to borrow a book."
+      ],
+      "why": "To + V1 выражает цель.",
+      "distractorWhy": "For + V1 неверно.",
+      "distractorRationales": {
+        "I went to the library for borrow a book.": "For + V1 неверно.",
+        "I went to the library to borrowing a book.": "После infinitival to нужна V1."
+      },
+      "skillTarget": "time-reason-purpose-result-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I3",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the purpose clause with a different subject.",
+      "options": [
+        "I spoke slowly so that the children could understand.",
+        "I spoke slowly so that the children to understand.",
+        "I spoke slowly to the children could understand."
+      ],
+      "answer": "I spoke slowly so that the children could understand.",
+      "accepted": [
+        "I spoke slowly so that the children could understand."
+      ],
+      "why": "So that + subject + modal + V1.",
+      "distractorWhy": "To understand не finite verb.",
+      "distractorRationales": {
+        "I spoke slowly so that the children to understand.": "To understand не finite verb.",
+        "I spoke slowly to the children could understand.": "To не вводит такую clause."
+      },
+      "skillTarget": "time-reason-purpose-result-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I4",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the result connector: The computer crashed, ___ we restarted it.",
+      "options": [
+        "because of",
+        "until",
+        "so"
+      ],
+      "answer": "so",
+      "accepted": [
+        "so"
+      ],
+      "why": "So вводит следствие.",
+      "distractorWhy": "Because of требует noun phrase.",
+      "distractorRationales": {
+        "because of": "Because of требует noun phrase.",
+        "until": "Until указывает временную границу."
+      },
+      "skillTarget": "time-reason-purpose-result-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I5",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the sentence without a redundant cause/result connector.",
+      "options": [
+        "Because I was ill, so I stayed at home.",
+        "Because I was ill, I stayed at home.",
+        "Because of I was ill, I stayed at home."
+      ],
+      "answer": "Because I was ill, I stayed at home.",
+      "accepted": [
+        "Because I was ill, I stayed at home."
+      ],
+      "why": "Because уже выражает причину.",
+      "distractorWhy": "So дублирует связь.",
+      "distractorRationales": {
+        "Because I was ill, so I stayed at home.": "So дублирует связь.",
+        "Because of I was ill, I stayed at home.": "Because of не вводит обычную clause."
+      },
+      "skillTarget": "time-reason-purpose-result-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I6",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the grammatical description of a tool's function.",
+      "options": [
+        "This brush is for cleaning shoes.",
+        "This brush is for clean shoes.",
+        "This brush is for to clean shoes."
+      ],
+      "answer": "This brush is for cleaning shoes.",
+      "accepted": [
+        "This brush is for cleaning shoes."
+      ],
+      "why": "For + V-ing может обозначать назначение.",
+      "distractorWhy": "После for нужна -ing или noun.",
+      "distractorRationales": {
+        "This brush is for clean shoes.": "После for нужна -ing или noun.",
+        "This brush is for to clean shoes.": "For to не целевая модель."
+      },
+      "skillTarget": "time-reason-purpose-result-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I7",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the ordinary time expression for an action delayed up to six.",
+      "options": [
+        "I won't leave while six.",
+        "I won't leave before six untilly.",
+        "I won't leave until six."
+      ],
+      "answer": "I won't leave until six.",
+      "accepted": [
+        "I won't leave until six."
+      ],
+      "why": "Not…until показывает отсутствие действия до шести.",
+      "distractorWhy": "While не сочетается так с часом.",
+      "distractorRationales": {
+        "I won't leave while six.": "While не сочетается так с часом.",
+        "I won't leave before six untilly.": "Untilly не существует."
+      },
+      "skillTarget": "time-reason-purpose-result-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I8",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the embedded question where will is allowed.",
+      "options": [
+        "I don't know when will the bus arrive.",
+        "I don't know when the bus will arrive.",
+        "I don't know when the bus will arrives."
+      ],
+      "answer": "I don't know when the bus will arrive.",
+      "accepted": [
+        "I don't know when the bus will arrive."
+      ],
+      "why": "When вводит embedded question, will допустим.",
+      "distractorWhy": "Встроенный вопрос без инверсии.",
+      "distractorRationales": {
+        "I don't know when will the bus arrive.": "Встроенный вопрос без инверсии.",
+        "I don't know when the bus will arrives.": "После will нужна V1."
+      },
+      "skillTarget": "time-reason-purpose-result-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I9",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the sentence showing a precaution before a possible problem.",
+      "options": [
+        "Take a charger in case your phone runs out of power.",
+        "Take a charger in case your phone will runs out of power.",
+        "Take a charger because of your phone runs out of power."
+      ],
+      "answer": "Take a charger in case your phone runs out of power.",
+      "accepted": [
+        "Take a charger in case your phone runs out of power."
+      ],
+      "why": "In case вводит возможное событие, ради которого принимают меру.",
+      "distractorWhy": "Will runs неверно.",
+      "distractorRationales": {
+        "Take a charger in case your phone will runs out of power.": "Will runs неверно.",
+        "Take a charger because of your phone runs out of power.": "Because of не вводит finite clause."
+      },
+      "skillTarget": "time-reason-purpose-result-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E1",
+      "group": "Выходная проверка",
+      "prompt": "Choose the correct past time clause about a completed event.",
+      "options": [
+        "We went home after the concert ended.",
+        "We went home after the concert ends yesterday.",
+        "We went home after the concert will end yesterday."
+      ],
+      "answer": "We went home after the concert ended.",
+      "accepted": [
+        "We went home after the concert ended."
+      ],
+      "why": "Ended относится к прошлой последовательности.",
+      "distractorWhy": "Ends не соответствует вчерашнему событию.",
+      "distractorRationales": {
+        "We went home after the concert ends yesterday.": "Ends не соответствует вчерашнему событию.",
+        "We went home after the concert will end yesterday.": "Will end противоречит прошлому контексту."
+      },
+      "skillTarget": "time-reason-purpose-result-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E2",
+      "group": "Выходная проверка",
+      "prompt": "Which sentence expresses an intended purpose rather than a confirmed outcome?",
+      "options": [
+        "She saved the file, so a backup was created.",
+        "She opened the file yesterday.",
+        "She saved the file so that she could open it later."
+      ],
+      "answer": "She saved the file so that she could open it later.",
+      "accepted": [
+        "She saved the file so that she could open it later."
+      ],
+      "why": "So that показывает цель, не гарантирует её достижение.",
+      "distractorWhy": "So вводит результат.",
+      "distractorRationales": {
+        "She saved the file, so a backup was created.": "So вводит результат.",
+        "She opened the file yesterday.": "Это прошлый факт."
+      },
+      "skillTarget": "time-reason-purpose-result-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E3",
+      "group": "Выходная проверка",
+      "prompt": "Choose the statement where while introduces a past state, not necessarily a continuous form.",
+      "options": [
+        "While I was live in that town, I walked to college.",
+        "While I lived in that town, I walked to college.",
+        "While I were lived in that town, I walked to college."
+      ],
+      "answer": "While I lived in that town, I walked to college.",
+      "accepted": [
+        "While I lived in that town, I walked to college."
+      ],
+      "why": "While может вводить Past Simple состояние/период.",
+      "distractorWhy": "Was live не форма времени.",
+      "distractorRationales": {
+        "While I was live in that town, I walked to college.": "Was live не форма времени.",
+        "While I were lived in that town, I walked to college.": "Were lived не подходит."
+      },
+      "skillTarget": "time-reason-purpose-result-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E4",
+      "group": "Выходная проверка",
+      "prompt": "Choose the correct contrast of time and cause.",
+      "options": [
+        "I left when the lesson ended because I had another appointment.",
+        "I left when the lesson will ended because of I had another appointment.",
+        "I left when ended the lesson because had I another appointment."
+      ],
+      "answer": "I left when the lesson ended because I had another appointment.",
+      "accepted": [
+        "I left when the lesson ended because I had another appointment."
+      ],
+      "why": "When задаёт время, because — причину; обе clauses имеют прямой порядок.",
+      "distractorWhy": "Will ended и because of + clause неверны.",
+      "distractorRationales": {
+        "I left when the lesson will ended because of I had another appointment.": "Will ended и because of + clause неверны.",
+        "I left when ended the lesson because had I another appointment.": "Нарушен порядок слов."
+      },
+      "skillTarget": "time-reason-purpose-result-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E5",
+      "group": "Выходная проверка",
+      "prompt": "Choose the accurate distinction between so and so that in the target patterns.",
+      "options": [
+        "Both always introduce a completed result.",
+        "Both must always be followed only by a noun.",
+        "So can introduce a result; so that can introduce a purpose."
+      ],
+      "answer": "So can introduce a result; so that can introduce a purpose.",
+      "accepted": [
+        "So can introduce a result; so that can introduce a purpose."
+      ],
+      "why": "So и so that имеют разные функции в этих моделях.",
+      "distractorWhy": "Цель не гарантирует результат.",
+      "distractorRationales": {
+        "Both always introduce a completed result.": "Цель не гарантирует результат.",
+        "Both must always be followed only by a noun.": "После них здесь следуют clauses."
+      },
+      "skillTarget": "time-reason-purpose-result-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "W1",
+      "group": "Самостоятельное применение",
+      "prompt": "Напиши 8–10 предложений о подготовке и отправке учебной работы. Используй when, before, after, as soon as, until, because, because of, to, so that и so. Объясни разницу между целью и результатом, а также between until and by.",
+      "open": true,
+      "rubric": [
+        "Временные союзы передают правильную последовательность.",
+        "Будущее time clause содержит подходящую настоящую форму.",
+        "Because и because of сочетаются с нужной структурой.",
+        "To и so that выражают цель.",
+        "So выражает результат, не дублирует because.",
+        "Пунктуация и согласование корректны."
+      ],
+      "skillTarget": "Самостоятельное применение A2-16",
+      "interactionType": "open-production",
+      "difficulty": "transfer",
+      "sourceBasis": "Speakbase-authored open production; self-review rubric only until real AI feedback is connected",
+      "contentVersion": "1.1-draft"
+    }
+  ],
+  "markdown": "# Speakbase — A2-16: Time clauses and basic reason/purpose/result\n\n**Curriculum ID:** `A2-16`  \n**Уровень:** A2  \n**Версия:** 1.1-draft\n**Статус:** drafted; selected source text checked; full source-page and learner acceptance pending\n**Предварительные темы:** A1-17, A2-04  \n**Связь со старым каталогом:** Частично — №43 Concession and Contrast; №44 Cause and Result\n\n## 1. Результаты обучения\n\n- Использовать when/before/after/as soon as/until и простые союзы причины/цели/результата\n- Выбирать целевую форму по значению, структуре предложения и контексту.\n- Объяснять, почему близкая грамматическая форма меняет смысл или регистр.\n- Находить и исправлять типичные ошибки русскоязычных студентов.\n\n## 2. Источники и статус сверки\n\n| Source | PDF navigation | Lesson-specific checks | Status |\n|---|---|---|---|\n| GR-01 U98-100 | PDF pages 207-212 (Unit 98-100) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-02 U25 | PDF pages 62-63 (Unit 25) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-02 U113-120 | PDF pages 238-253 (Unit 113-120) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-03 U79-81 | PDF pages 182-187 (Unit 79-81) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-05 A2 p22-24 | PDF pages 22-24 (A2 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n\nUnit/page locations are navigation aids only. They do not prove that the cited explanation, examples, restrictions and answer key have been checked for this lesson. Examples and explanations below are Speakbase-authored, not quotations from the textbook.\n\nПеред переводом этого урока в source-verified необходимо открыть целевые страницы конкретного издания, записать печатную и PDF-пагинацию, сверить ограничения и исключения. Для GR-03 со сканированными страницами обязательна визуальная проверка.\n\n**Evidence for this editorial pass:** GR-02 Units 25, 64 and 113–116, theory text inspected at PDF pp. 62, 140, 238, 240, 242, 244 (printed pp. 50, 128, 226–232). Basic so/result and punctuation are author-supplemented; other source and exercise-page/visual checks pending. The selected source text was consulted; not all pages, exercises, editions, scanned GR-03 pages or GR-05 descriptors were checked. Author-created explanations and practice are not copied source exercises.\n\n## 3. Место темы и границы\n\nРазведи time clauses, reason, purpose и result. Проверь, вводит ли связка clause, noun phrase или infinitive.\n\nСтарый каталог содержит: №43 Concession and Contrast; №44 Cause and Result. Его статус — Частично. Старые отметки завершения не переносятся автоматически на новый постоянный ID. Тема рассматривается в уровне A2 и не заменяет обязательные prerequisites.\n\n## 4. Полный конспект\n\n### 4.1. Основная идея и функция конструкции\n\nTime clauses показывают, когда происходит действие. Reason объясняет причину, purpose — цель, result — результат. Например: I called Anna when I arrived (когда); I called her because I needed help (почему); I called her to ask a question (зачем); I needed help, so I called her (что из этого вышло). Одна ситуация может описываться с разных сторон, но союзы и грамматические структуры будут различаться.\n\nВ сложном предложении есть главная и зависимая части. В I will call you when I arrive главная часть сообщает о будущем звонке, а when I arrive указывает время. Хотя оба события будущие, в обычном придаточном времени вместо will используется настоящее время. В I went home because I was tired причина объясняет решение, а не задаёт время. Чтобы выбрать связь, сначала сформулируй вопрос к зависимой части: when? why? what for? what happened as a result?\n\n### 4.2. Формирование и грамматическая модель\n\n| Связь | Модель | Пример |\n|---|---|---|\n| Когда | when + subject + verb | Call me when you arrive. |\n| До / после | before/after + clause | I'll eat before I leave. |\n| Как только | as soon as + clause | I'll text as soon as I arrive. |\n| Пока, одновременно | while + clause | I listened while she spoke. |\n| До момента | until + clause | Wait until the class ends. |\n| Причина | because + clause | I stayed because it rained. |\n| Причина | because of + noun | I stayed because of the rain. |\n| Цель | to + V1 | I came to study. |\n| Цель | so that + clause | I spoke slowly so that she could understand. |\n| Результат | so + clause | It rained, so we stayed home. |\n\nВ придаточном времени с будущим значением после when, before, after, as soon as, until, while обычно используется Present Simple: I'll leave after the lesson ends. Present Perfect также возможен, если подчёркивается завершение первого действия: I'll send it after I've checked it. В главной части допустимы will, going to, modal или imperative: Wait until I return. Согласуй Present Simple с subject: after she finishes; before he leaves; until the bus arrives. В прошлом контексте используй подходящую прошлую форму: We left after the class ended; I was reading while she was cooking.\n\n### 4.3. Как выбрать подходящую форму\n\nWhen обозначает момент или период, before — раньше, after — позже, as soon as — сразу после события, until — продолжение действия до границы, while — одновременность. By Friday означает не позже пятницы, until Friday — продолжение до пятницы. Сравни I'll finish by Friday и I'll stay here until Friday. Not…until означает, что действие не происходит до указанного момента: I won't leave until the meeting ends.\n\nBecause вводит полноценное предложение с subject и verb. Because of вводит noun phrase: because of the traffic. To + V1 выражает цель того, кто совершает главное действие: I went to the library to borrow a book. Если нужен другой исполнитель или полное пояснение цели, используй so that: I wrote the date down so that my friend could remember it. So без that часто вводит результат: The bus was late, so I walked. For + -ing подходит для назначения предмета (a tool for cutting paper), но не для обычной цели визита человека (I came to help).\n\n### 4.4. Сравнение с близкими конструкциями\n\n| Пример | Значение |\n|---|---|\n| I'll wait until you finish. | Буду ждать до окончания. |\n| I'll call as soon as you finish. | Позвоню сразу после окончания. |\n| I'll finish by six. | Закончу не позже шести. |\n| We left because it was cold. | Причина ухода. |\n| We left to get some fresh air. | Цель ухода. |\n| It was cold, so we left. | Следствие холода. |\n| We left early so that we could catch the bus. | Цель раннего ухода. |\n\n### 4.5. Примеры с переводом и объяснением\n\n| English | Перевод | Почему это подходит |\n| --- | --- | --- |\n| I'll send the notes as soon as I get home. | Я отправлю конспект, как только доберусь домой. | Будущее time clause с Present Simple. |\n| Wait here until the receptionist returns. | Подожди здесь, пока не вернётся администратор. | Продолжение ожидания до границы. |\n| Before you submit the file, check its name. | Перед отправкой файла проверь его название. | Начальное придаточное с запятой. |\n| We were late because of the traffic. | Мы опоздали из-за пробок. | Because of + noun phrase. |\n| She opened the app to practise English. | Она открыла приложение, чтобы практиковать английский. | Инфинитив цели. |\n| The printer was broken, so we used another one. | Принтер сломался, поэтому мы воспользовались другим. | So вводит результат. |\n\n### 4.6. Исключения, ограничения и границы употребления\n\nВ обычном будущем time clause не нужен will: I'll call when I get home. Но в прямом вопросе When will you get home? и встроенном вопросе I don't know when you will get home will грамматически допустим: это запрос времени, а не обстоятельственное придаточное. Present Perfect после when/as soon as подчёркивает завершение до следующего действия; если два действия совпадают во времени, обычно нужен Simple. While не требует Continuous автоматически: While I lived there, I walked to work.\n\nНачальное обстоятельственное придаточное обычно отделяется запятой: Before you leave, check the door. Если оно в конце, запятая часто не нужна: Check the door before you leave. Между двумя самостоятельными частями с so обычно ставится запятая. Не дублируй связь because…so в стандартной конструкции: Because it rained, we stayed inside или It rained, so we stayed inside. So that обозначает намерение, но не обязательно достигнутый результат. In case показывает предупредительную меру: Take a charger in case the battery runs out. Although/despite выражают уступку, а не причину; подробный разбор на B1.\n\n### 4.7. Типичные ошибки русскоязычных студентов\n\n| Ошибка | Исправление | Объяснение |\n| --- | --- | --- |\n| I'll text you when I will arrive. | I'll text you when I arrive. | В обычном time clause для будущего нужен present. |\n| We stayed home because of it was raining. | We stayed home because it was raining. | Because + clause, because of + noun. |\n| I came here for ask a question. | I came here to ask a question. | Цель действия — to + V1. |\n| Because the bus was late, so we walked. | Because the bus was late, we walked. | Не дублируй причинно-следственную связь. |\n| Wait until I will finish. | Wait until I finish. | Until + present для будущего. |\n\n### 4.8. Произношение и восприятие на слух\n\nПри начальном придаточном делай небольшую паузу после всей части: As soon as I FINish, I'll CALL. Because, so that и to часто произносятся без сильного ударения. Выделяй ключевые события и логическую связь. Аудиосверка отдельно не выполнена.\n\nСначала прослушай или прочитай пример, затем произнеси его целиком. Обрати внимание на смысловое ударение и форму конструкции; не ориентируйся только на буквенный перевод.\n\n### 4.9. Академический английский и TOEFL-перенос\n\nВ Reading и Listening определяй последовательность, причину, намерение и фактический результат. В Speaking объясняй, зачем что-то сделал студент; в Writing Email уточняй сроки: I'll send the document as soon as I receive it. Не приписывай достигнутый результат намерению, выраженному so that. Это авторская практика, не официальный вопрос ETS.\n\nЭто авторская практика переноса навыка. Она не является официальным заданием TOEFL и не выдаётся за официальный результат экзамена.\n\n### 4.10. Примеры для управляемого разбора\n\n- I'll send the notes as soon as I get home. — Я отправлю конспект, как только доберусь домой. Будущее time clause с Present Simple.\n- Wait here until the receptionist returns. — Подожди здесь, пока не вернётся администратор. Продолжение ожидания до границы.\n- Before you submit the file, check its name. — Перед отправкой файла проверь его название. Начальное придаточное с запятой.\n\nДля каждого примера назови целевую конструкцию, объясни выбор и составь новое предложение в другом контексте. Затем перейди к заданиям: сначала диагностика, затем управляемая и самостоятельная практика, затем новые вопросы выходной проверки.\n\n### 4.11. Самопроверка\n\nПеред отправкой ответа проверь:\n1. Временные союзы передают правильную последовательность.\n2. Будущее time clause содержит подходящую настоящую форму.\n3. Because и because of сочетаются с нужной структурой.\n4. To и so that выражают цель.\n5. So выражает результат, не дублирует because.\n6. Пунктуация и согласование корректны.\n\n### 4.12. Краткая памятка\n\nAfter/when/as soon as/until + present для обычного будущего time clause; before/after задают порядок, until — границу продолжения. Because + clause, because of + noun, to + V1 и so that + clause — цель, so — результат. Проверяй контекст, согласование и пунктуацию.\n\nНе выбирай форму только по одному знакомому слову: проверь контекст, значение и структуру. При ошибке вернись к соответствующей части конспекта и составь собственный пример.\n\n## 5. Практика\n\nВ приложении практика разделена на входную диагностику, управляемые задания, самостоятельную практику и новую выходную проверку. Закрытые ответы получают rationale и разбор ошибки. Свободный текст сохраняется и оценивается по рубрике; до подключения и реальной проверки AI-движка система не выдаёт его за автоматическую AI-оценку.\n\n## 6. Интервальное повторение\n\nПовторяй не весь урок автоматически, а конкретную ошибку: выбор формы, согласование, word order, значение, регистр или пунктуацию. Новая попытка должна менять лексический контекст и формулировку, чтобы проверять перенос, а не запоминание одной строки.\n\n## 7. Технический статус\n\n- Постоянный ID: `A2-16`.\n- Прогресс хранится отдельно в course.grammarLessons[\"A2-16\"].\n- Содержание и ключи имеют статус draft; 24 авторских закрытых задания и объяснения вычитаны, выбранные тексты источников проверены. Полная постраничная и пользовательская приёмка остаются открытыми.\n- Предварительное выполнение порогов не равно окончательному mastered: нужны отсроченное повторение и learner review.",
+  "theoryEnd": "## 5."
+}
