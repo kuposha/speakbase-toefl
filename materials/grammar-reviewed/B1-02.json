@@ -1,0 +1,707 @@
+{
+  "id": "B1-02",
+  "level": "B1",
+  "sequence": "B1-02",
+  "grammarFamily": "B1-02",
+  "questionBankSource": "topic-specific-authored",
+  "sourceVerification": "draft; GR-02 theory text checked, GR-03/GR-05 and visual/exercise review pending",
+  "topicProfile": {
+    "label": "Past Perfect Simple",
+    "skillTarget": "past-perfect-simple",
+    "core": "Past Perfect Simple показывает событие, состояние или результат до прошлой точки отсчёта.",
+    "form": "subject + had + V3; had not + V3; Had + subject + V3?",
+    "selection": "Найди прошлую точку отсчёта и установи, что произошло до неё.",
+    "contrast": "When I arrived, the lecture had started — лекция началась раньше. When I arrived, the lecture started — она началась при моём приходе.",
+    "boundary": "Before/after могут сами показывать порядок; Past Simple часто достаточен. V3 не всегда совпадает с V2.",
+    "pronunciation": "Had сокращается до 'd; различай 'd + V3 (had) и 'd + V1 (would).",
+    "examples": [
+      [
+        "When I opened the folder, someone had deleted the document.",
+        "Когда я открыла папку, кто-то уже удалил документ.",
+        "Удаление произошло раньше."
+      ],
+      [
+        "Had the guests left before you came?",
+        "Гости ушли до твоего прихода?",
+        "Вопрос о более раннем событии."
+      ]
+    ],
+    "traps": [
+      [
+        "She had went home.",
+        "She had gone home.",
+        "Gone — V3."
+      ],
+      [
+        "Did you had seen it?",
+        "Had you seen it?",
+        "Вопрос без did."
+      ]
+    ],
+    "toefl": "Past forms важны в пересказе исследования, исторических процессов и личного опыта. В Writing следи за последовательностью временных точек и согласованием времён."
+  },
+  "title": "Past Perfect Simple",
+  "description": "Показывать, что одно прошлое событие произошло раньше другого",
+  "cardDescription": "Теория, guided practice, самостоятельные задания и выходная проверка по постоянному ID B1-02.",
+  "eyebrow": "Полный урок программы B1-02 · drafted",
+  "contentVersion": "1.1-draft",
+  "curriculumVersion": "1.0",
+  "prerequisites": [
+    "A2-01",
+    "A2-05"
+  ],
+  "outcomes": [
+    "Показывать, что одно прошлое событие произошло раньше другого",
+    "Выбирать целевую конструкцию по контексту и смыслу.",
+    "Исправлять типичные ошибки и переносить правило в новый пример."
+  ],
+  "sourceRefs": [
+    "GR-02 U15",
+    "GR-03 U5",
+    "GR-05 B1 p62-64"
+  ],
+  "sourceStatus": "GR-02 theory text checked; other source page verification pending",
+  "status": "drafted",
+  "legacyCoverage": "Полное ядро",
+  "toeflLinks": [
+    "Writing: Build a Sentence",
+    "Listening: tense/aspect, modality, weak forms and discourse cues",
+    "Writing: Academic Discussion"
+  ],
+  "thresholds": {
+    "independent": 7,
+    "exit": 4,
+    "criticalIds": [
+      "E1",
+      "E2",
+      "E3"
+    ]
+  },
+  "groups": {
+    "independent": "Самостоятельная практика",
+    "exit": "Выходная проверка"
+  },
+  "items": [
+    {
+      "id": "D1",
+      "group": "Входная диагностика",
+      "prompt": "At 9 a.m. the library opened. At 10 a.m. I arrived. Which sentence shows the correct order?",
+      "options": [
+        "The library had opened after I arrived.",
+        "The library had opened before I arrived.",
+        "The library has opened before I arrive."
+      ],
+      "answer": "The library had opened before I arrived.",
+      "accepted": [
+        "The library had opened before I arrived."
+      ],
+      "why": "Had opened относится к более раннему событию.",
+      "distractorWhy": "After меняет порядок.",
+      "distractorRationales": {
+        "The library had opened after I arrived.": "After меняет порядок.",
+        "The library has opened before I arrive.": "Present Perfect не соответствует прошлой точке."
+      },
+      "skillTarget": "past-perfect-simple",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; GR-02 Unit 15 theory text checked",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D2",
+      "group": "Входная диагностика",
+      "prompt": "By the time the interview began yesterday, she ___ her notes.",
+      "options": [
+        "had read",
+        "had reading",
+        "had reads"
+      ],
+      "answer": "had read",
+      "accepted": [
+        "had read"
+      ],
+      "why": "Read здесь V3 после had.",
+      "distractorWhy": "Reading — форма -ing.",
+      "distractorRationales": {
+        "had reading": "Reading — форма -ing.",
+        "had reads": "Reads — настоящее время."
+      },
+      "skillTarget": "past-perfect-simple",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; GR-02 Unit 15 theory text checked",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D3",
+      "group": "Входная диагностика",
+      "prompt": "When the alarm went off, I discovered that I ___ my phone at home.",
+      "options": [
+        "have leave",
+        "had leaving",
+        "had left"
+      ],
+      "answer": "had left",
+      "accepted": [
+        "had left"
+      ],
+      "why": "Оставила телефон до момента обнаружения.",
+      "distractorWhy": "Have leave не образует Perfect.",
+      "distractorRationales": {
+        "have leave": "Have leave не образует Perfect.",
+        "had leaving": "Leaving не V3."
+      },
+      "skillTarget": "past-perfect-simple",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; GR-02 Unit 15 theory text checked",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D4",
+      "group": "Входная диагностика",
+      "prompt": "Choose the correct negative Past Perfect sentence.",
+      "options": [
+        "We had not receive the agenda before the meeting.",
+        "We had not received the agenda before the meeting.",
+        "We had not receiving the agenda before the meeting."
+      ],
+      "answer": "We had not received the agenda before the meeting.",
+      "accepted": [
+        "We had not received the agenda before the meeting."
+      ],
+      "why": "Had not + V3.",
+      "distractorWhy": "Receive — V1.",
+      "distractorRationales": {
+        "We had not receive the agenda before the meeting.": "Receive — V1.",
+        "We had not receiving the agenda before the meeting.": "Receiving — форма -ing."
+      },
+      "skillTarget": "past-perfect-simple",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; GR-02 Unit 15 theory text checked",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G1",
+      "group": "Управляемая практика",
+      "prompt": "Which is a grammatical direct Past Perfect question?",
+      "options": [
+        "Had you seen the film before that evening?",
+        "Had you saw the film before that evening?",
+        "Did you had seen the film before that evening?"
+      ],
+      "answer": "Had you seen the film before that evening?",
+      "accepted": [
+        "Had you seen the film before that evening?"
+      ],
+      "why": "Had перед подлежащим, затем seen.",
+      "distractorWhy": "Saw — V2.",
+      "distractorRationales": {
+        "Had you saw the film before that evening?": "Saw — V2.",
+        "Did you had seen the film before that evening?": "Did здесь не нужен."
+      },
+      "skillTarget": "past-perfect-simple",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; GR-02 Unit 15 theory text checked",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G2",
+      "group": "Управляемая практика",
+      "prompt": "The train left at 6:00. We arrived at 6:10. When we arrived, the train ___.",
+      "options": [
+        "had already leave",
+        "had already leaving",
+        "had already left"
+      ],
+      "answer": "had already left",
+      "accepted": [
+        "had already left"
+      ],
+      "why": "Поезд ушёл раньше прибытия.",
+      "distractorWhy": "Leave — V1.",
+      "distractorRationales": {
+        "had already leave": "Leave — V1.",
+        "had already leaving": "Leaving — не V3."
+      },
+      "skillTarget": "past-perfect-simple",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; GR-02 Unit 15 theory text checked",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G3",
+      "group": "Управляемая практика",
+      "prompt": "Which sentence describes a result before a past reference point rather than before now?",
+      "options": [
+        "The team has completed its report.",
+        "By Friday last week, the team had completed its report.",
+        "The team is completing its report now."
+      ],
+      "answer": "By Friday last week, the team had completed its report.",
+      "accepted": [
+        "By Friday last week, the team had completed its report."
+      ],
+      "why": "Had completed соотносится с прошлой пятницей.",
+      "distractorWhy": "Has completed соотносится с настоящим.",
+      "distractorRationales": {
+        "The team has completed its report.": "Has completed соотносится с настоящим.",
+        "The team is completing its report now.": "Is completing — текущий процесс."
+      },
+      "skillTarget": "past-perfect-simple",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; GR-02 Unit 15 theory text checked",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G4",
+      "group": "Управляемая практика",
+      "prompt": "Choose the Past Perfect form of go.",
+      "options": [
+        "had gone",
+        "had went",
+        "had going"
+      ],
+      "answer": "had gone",
+      "accepted": [
+        "had gone"
+      ],
+      "why": "Gone — V3.",
+      "distractorWhy": "Went — V2.",
+      "distractorRationales": {
+        "had went": "Went — V2.",
+        "had going": "Going — форма -ing."
+      },
+      "skillTarget": "past-perfect-simple",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; GR-02 Unit 15 theory text checked",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G5",
+      "group": "Управляемая практика",
+      "prompt": "I was not hungry at noon because I ___ breakfast an hour earlier.",
+      "options": [
+        "had ate",
+        "had eating",
+        "had eaten"
+      ],
+      "answer": "had eaten",
+      "accepted": [
+        "had eaten"
+      ],
+      "why": "Завтрак предшествовал прошлому состоянию.",
+      "distractorWhy": "Ate — V2.",
+      "distractorRationales": {
+        "had ate": "Ate — V2.",
+        "had eating": "Eating — форма -ing."
+      },
+      "skillTarget": "past-perfect-simple",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; GR-02 Unit 15 theory text checked",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G6",
+      "group": "Управляемая практика",
+      "prompt": "At the time of the test, he had never used the software. What does this mean?",
+      "options": [
+        "He has still never used it today.",
+        "Before that test he had no experience using it.",
+        "He used it before that test every day."
+      ],
+      "answer": "Before that test he had no experience using it.",
+      "accepted": [
+        "Before that test he had no experience using it."
+      ],
+      "why": "Never относится к периоду до прошлой точки.",
+      "distractorWhy": "Опыт после теста неизвестен.",
+      "distractorRationales": {
+        "He has still never used it today.": "Опыт после теста неизвестен.",
+        "He used it before that test every day.": "Это противоречит never."
+      },
+      "skillTarget": "past-perfect-simple",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; GR-02 Unit 15 theory text checked",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I1",
+      "group": "Самостоятельная практика",
+      "prompt": "She'd finished the assignment before the deadline. Here 'd means ___.",
+      "options": [
+        "would",
+        "did",
+        "had"
+      ],
+      "answer": "had",
+      "accepted": [
+        "had"
+      ],
+      "why": "Перед V3 finished сокращение означает had.",
+      "distractorWhy": "Would требует V1 finish.",
+      "distractorRationales": {
+        "would": "Would требует V1 finish.",
+        "did": "Did здесь не сокращается до 'd."
+      },
+      "skillTarget": "past-perfect-simple",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; GR-02 Unit 15 theory text checked",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I2",
+      "group": "Самостоятельная практика",
+      "prompt": "Before the renovation, the room ___ empty for several months. Use Past Perfect of be.",
+      "options": [
+        "had was",
+        "had been",
+        "had being"
+      ],
+      "answer": "had been",
+      "accepted": [
+        "had been"
+      ],
+      "why": "Been — V3 глагола be.",
+      "distractorWhy": "Was — V2.",
+      "distractorRationales": {
+        "had was": "Was — V2.",
+        "had being": "Being — форма -ing."
+      },
+      "skillTarget": "past-perfect-simple",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; GR-02 Unit 15 theory text checked",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I3",
+      "group": "Самостоятельная практика",
+      "prompt": "The experiment began after we checked the equipment. Which sentence preserves the order?",
+      "options": [
+        "We had checked the equipment before the experiment began.",
+        "We had checked the equipment after the experiment began.",
+        "The experiment had begun before we checked the equipment."
+      ],
+      "answer": "We had checked the equipment before the experiment began.",
+      "accepted": [
+        "We had checked the equipment before the experiment began."
+      ],
+      "why": "Проверка была первой.",
+      "distractorWhy": "After меняет порядок.",
+      "distractorRationales": {
+        "We had checked the equipment after the experiment began.": "After меняет порядок.",
+        "The experiment had begun before we checked the equipment.": "Эксперимент не был первым."
+      },
+      "skillTarget": "past-perfect-simple",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; GR-02 Unit 15 theory text checked",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I4",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the grammatical chronological narrative without an explicit flashback.",
+      "options": [
+        "I had opened the file, checks the figures and sends the report.",
+        "I open the file yesterday and send the report yesterday.",
+        "I opened the file, checked the figures and sent the report."
+      ],
+      "answer": "I opened the file, checked the figures and sent the report.",
+      "accepted": [
+        "I opened the file, checked the figures and sent the report."
+      ],
+      "why": "Past Simple передаёт последовательность прошлых действий.",
+      "distractorWhy": "Времена смешаны неправильно.",
+      "distractorRationales": {
+        "I had opened the file, checks the figures and sends the report.": "Времена смешаны неправильно.",
+        "I open the file yesterday and send the report yesterday.": "Yesterday не соответствует формам настоящего."
+      },
+      "skillTarget": "past-perfect-simple",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; GR-02 Unit 15 theory text checked",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I5",
+      "group": "Самостоятельная практика",
+      "prompt": "The editor rejected the article yesterday because the author ___ a required citation.",
+      "options": [
+        "had omit",
+        "had omitted",
+        "had omitting"
+      ],
+      "answer": "had omitted",
+      "accepted": [
+        "had omitted"
+      ],
+      "why": "Пропуск ссылки предшествовал отказу.",
+      "distractorWhy": "Omit — V1.",
+      "distractorRationales": {
+        "had omit": "Omit — V1.",
+        "had omitting": "Omitting — форма -ing."
+      },
+      "skillTarget": "past-perfect-simple",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; GR-02 Unit 15 theory text checked",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I6",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct direct question about an earlier action.",
+      "options": [
+        "Why had they cancelled the lecture before we arrived?",
+        "Why they had cancelled the lecture before we arrived?",
+        "Why had they cancel the lecture before we arrived?"
+      ],
+      "answer": "Why had they cancelled the lecture before we arrived?",
+      "accepted": [
+        "Why had they cancelled the lecture before we arrived?"
+      ],
+      "why": "Why + had + subject + V3.",
+      "distractorWhy": "В прямом вопросе нужна инверсия.",
+      "distractorRationales": {
+        "Why they had cancelled the lecture before we arrived?": "В прямом вопросе нужна инверсия.",
+        "Why had they cancel the lecture before we arrived?": "Cancel — V1."
+      },
+      "skillTarget": "past-perfect-simple",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; GR-02 Unit 15 theory text checked",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I7",
+      "group": "Самостоятельная практика",
+      "prompt": "Correct: By 2018, the institute had wrote three reports.",
+      "options": [
+        "By 2018, the institute had write three reports.",
+        "By 2018, the institute had writing three reports.",
+        "By 2018, the institute had written three reports."
+      ],
+      "answer": "By 2018, the institute had written three reports.",
+      "accepted": [
+        "By 2018, the institute had written three reports."
+      ],
+      "why": "Written — V3.",
+      "distractorWhy": "Write — V1.",
+      "distractorRationales": {
+        "By 2018, the institute had write three reports.": "Write — V1.",
+        "By 2018, the institute had writing three reports.": "Writing — не V3."
+      },
+      "skillTarget": "past-perfect-simple",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; GR-02 Unit 15 theory text checked",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I8",
+      "group": "Самостоятельная практика",
+      "prompt": "Which sentence means that reading began only when the bell rang?",
+      "options": [
+        "When the bell rang, I had already started reading.",
+        "When the bell rang, I started reading.",
+        "Before the bell rang, I had started reading."
+      ],
+      "answer": "When the bell rang, I started reading.",
+      "accepted": [
+        "When the bell rang, I started reading."
+      ],
+      "why": "Past Simple здесь выражает начало при звонке.",
+      "distractorWhy": "Already показывает более раннее начало.",
+      "distractorRationales": {
+        "When the bell rang, I had already started reading.": "Already показывает более раннее начало.",
+        "Before the bell rang, I had started reading.": "Before указывает на более раннее начало."
+      },
+      "skillTarget": "past-perfect-simple",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; GR-02 Unit 15 theory text checked",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I9",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct indirect question.",
+      "options": [
+        "She asked whether I had sent the email.",
+        "She asked whether had I sent the email.",
+        "She asked whether I had send the email."
+      ],
+      "answer": "She asked whether I had sent the email.",
+      "accepted": [
+        "She asked whether I had sent the email."
+      ],
+      "why": "Whether + subject + had + V3.",
+      "distractorWhy": "В косвенном вопросе инверсия не нужна.",
+      "distractorRationales": {
+        "She asked whether had I sent the email.": "В косвенном вопросе инверсия не нужна.",
+        "She asked whether I had send the email.": "Send — V1."
+      },
+      "skillTarget": "past-perfect-simple",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; GR-02 Unit 15 theory text checked",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E1",
+      "group": "Выходная проверка",
+      "prompt": "At noon I realised that I had lost my ticket. Which event happened first?",
+      "options": [
+        "I lost my ticket.",
+        "I realised I had lost it.",
+        "Neither event occurred before noon."
+      ],
+      "answer": "I lost my ticket.",
+      "accepted": [
+        "I lost my ticket."
+      ],
+      "why": "Потеря произошла до осознания.",
+      "distractorWhy": "Осознание — последующая точка.",
+      "distractorRationales": {
+        "I realised I had lost it.": "Осознание — последующая точка.",
+        "Neither event occurred before noon.": "Потеря предшествовала полуденному осознанию."
+      },
+      "skillTarget": "past-perfect-simple",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; GR-02 Unit 15 theory text checked",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E2",
+      "group": "Выходная проверка",
+      "prompt": "Choose the correct negative perfect form.",
+      "options": [
+        "They hadn't submit the form by the deadline.",
+        "They didn't had submitted the form by the deadline.",
+        "They hadn't submitted the form by the deadline."
+      ],
+      "answer": "They hadn't submitted the form by the deadline.",
+      "accepted": [
+        "They hadn't submitted the form by the deadline."
+      ],
+      "why": "Hadn't + submitted.",
+      "distractorWhy": "Submit — V1.",
+      "distractorRationales": {
+        "They hadn't submit the form by the deadline.": "Submit — V1.",
+        "They didn't had submitted the form by the deadline.": "Didn't не сочетается с had здесь."
+      },
+      "skillTarget": "past-perfect-simple",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; GR-02 Unit 15 theory text checked",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E3",
+      "group": "Выходная проверка",
+      "prompt": "We arrived at seven. The film had already begun. What is certain?",
+      "options": [
+        "The film started only after our arrival.",
+        "The film started before our arrival.",
+        "The film had not started by our arrival."
+      ],
+      "answer": "The film started before our arrival.",
+      "accepted": [
+        "The film started before our arrival."
+      ],
+      "why": "Had already begun показывает более раннее начало.",
+      "distractorWhy": "After противоречит already begun.",
+      "distractorRationales": {
+        "The film started only after our arrival.": "After противоречит already begun.",
+        "The film had not started by our arrival.": "Исходное предложение утвердительное."
+      },
+      "skillTarget": "past-perfect-simple",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; GR-02 Unit 15 theory text checked",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E4",
+      "group": "Выходная проверка",
+      "prompt": "Choose the grammatical contrast of a present result and a past result.",
+      "options": [
+        "I have finished the report now; yesterday at noon I had finished only the outline.",
+        "I had finished the report now; yesterday at noon I have finished only the outline.",
+        "I have finish the report now; yesterday I had finish the outline."
+      ],
+      "answer": "I have finished the report now; yesterday at noon I had finished only the outline.",
+      "accepted": [
+        "I have finished the report now; yesterday at noon I had finished only the outline."
+      ],
+      "why": "Ориентиры сейчас и тогда различаются.",
+      "distractorWhy": "Временные ориентиры перепутаны.",
+      "distractorRationales": {
+        "I had finished the report now; yesterday at noon I have finished only the outline.": "Временные ориентиры перепутаны.",
+        "I have finish the report now; yesterday I had finish the outline.": "Нужна V3 в обеих формах."
+      },
+      "skillTarget": "past-perfect-simple",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; GR-02 Unit 15 theory text checked",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E5",
+      "group": "Выходная проверка",
+      "prompt": "The server stopped at midnight. Later the technician discovered that the system ___ a backup before the shutdown.",
+      "options": [
+        "had create",
+        "had creating",
+        "had created"
+      ],
+      "answer": "had created",
+      "accepted": [
+        "had created"
+      ],
+      "why": "Резервная копия создана до остановки.",
+      "distractorWhy": "Create — V1.",
+      "distractorRationales": {
+        "had create": "Create — V1.",
+        "had creating": "Creating — форма -ing."
+      },
+      "skillTarget": "past-perfect-simple",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; GR-02 Unit 15 theory text checked",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "W1",
+      "group": "Самостоятельное применение",
+      "prompt": "Напиши рассказ о двух событиях в прошлом (5–6 предложений). Используй Past Simple для последовательности, Past Perfect для двух предшествующих действий, отрицание и прямой вопрос. Объясни временную связь.",
+      "open": true,
+      "rubric": [
+        "Есть прошлая точка отсчёта.",
+        "Past Simple передаёт основную последовательность.",
+        "Два действия предшествуют ориентиру.",
+        "Had + V3 образовано правильно.",
+        "Есть отрицание и прямой вопрос.",
+        "Временная логика объяснена."
+      ],
+      "skillTarget": "Самостоятельное применение B1-02",
+      "interactionType": "open-production",
+      "difficulty": "transfer",
+      "sourceBasis": "Speakbase-authored open production; self-review rubric only until real AI feedback is connected",
+      "contentVersion": "1.1-draft"
+    }
+  ],
+  "markdown": "# Speakbase — B1-02: Past Perfect Simple\n\n**Curriculum ID:** `B1-02`  \n**Уровень:** B1  \n**Версия:** 1.1-draft\n**Статус:** drafted; GR-02 theory text reviewed; GR-03/GR-05 and learner acceptance pending\n**Предварительные темы:** A2-01, A2-05  \n**Связь со старым каталогом:** Полное ядро — №22 Past Perfect\n\n## 1. Результаты обучения\n\n- Показывать, что одно прошлое событие произошло раньше другого\n- Выбирать целевую форму по значению, структуре предложения и контексту.\n- Объяснять, почему близкая грамматическая форма меняет смысл или регистр.\n- Находить и исправлять типичные ошибки русскоязычных студентов.\n\n## 2. Источники и статус сверки\n\n| Source | PDF navigation | Lesson-specific checks | Status |\n|---|---|---|---|\n| GR-02 U15 | PDF p. 42 / printed p. 30 | Theory text checked: earlier past events, past vs present perfect, narrative sequence, negative and question | theory text reviewed; exercise pages and visual review pending |\n| GR-03 U5 | PDF pages 34-35 (Unit 5) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-05 B1 p62-64 | PDF pages 62-64 (B1 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n\nUnit/page locations are navigation aids only. They do not prove that the cited explanation, examples, restrictions and answer key have been checked for this lesson. Examples and explanations below are Speakbase-authored, not quotations from the textbook.\n\nПеред переводом этого урока в source-verified необходимо открыть целевые страницы конкретного издания, записать печатную и PDF-пагинацию, сверить ограничения и исключения. Для GR-03 со сканированными страницами обязательна визуальная проверка.\n\n## 3. Место темы и границы\n\nPast Perfect Simple обозначает более раннее прошлое относительно прошлого ориентира. Не используй его механически при каждом рассказе о двух событиях.\n\nСтарый каталог содержит: №22 Past Perfect. Его статус — Полное ядро. Старые отметки завершения не переносятся автоматически на новый постоянный ID. Тема рассматривается в уровне B1 и не заменяет обязательные prerequisites.\n\n## 4. Полный конспект\n\n### 4.1. Основная идея\nPast Perfect Simple (прошедшее совершенное) показывает действие, результат или состояние до определённой точки в прошлом. Например, в десять часов мы пришли в лабораторию, но оборудование подготовили к девяти тридцати: When we arrived, the technician had prepared the equipment. Подготовка произошла раньше нашего прихода. Важно не то, насколько давно это было, а порядок событий. Прошлый ориентир может быть выражен в предложении или понятен из предыдущей фразы. В русском языке отдельной формы для такого предшествования нет, поэтому нужно сначала определить временную связь, а не переводить слова механически.\n\n### 4.2. Формула и порядок слов\n| Тип | Формула | Пример |\n|---|---|---|\n| Утверждение | subject + had + V3 | She had finished. |\n| Отрицание | subject + had not + V3 | She hadn't finished. |\n| Общий вопрос | Had + subject + V3? | Had she finished? |\n| Специальный вопрос | Wh-word + had + subject + V3? | Why had she left? |\n\nHad одинаков для всех лиц и чисел. V3 — past participle, третья форма глагола: worked, finished, seen, gone, written, eaten, left, been. Для правильных глаголов V2 и V3 совпадают, у неправильных нужно проверять третью форму. Не путай went (V2) и gone (V3). Краткая форма I'd finished означает I had finished, а I'd finish означает I would finish. После had в этой конструкции не используется did. В вопросе had перемещается перед подлежащим, а в отрицании not следует за had.\n\n### 4.3. Основные случаи употребления\n1. Более раннее событие в рассказе: We reached the station, but the train had already left.\n2. Причина прошлого состояния: He couldn't enter because he had lost his key.\n3. Опыт до прошлого момента: Before the course, she had never used this software.\n4. Результат к прошлой точке: By Friday last week, they had completed the first report.\n5. Состояние до прошлого момента: They had known each other for years before they became colleagues.\n\nМожно начать рассказ с Past Simple, затем объяснить более раннее событие с помощью Past Perfect. После восстановления хронологии обычно возвращаются к Past Simple. Например: I arrived late. I had missed the bus. I apologised and took my seat. Приход, извинение и последующее действие образуют основную линию; пропущенный автобус объясняет причину опоздания.\n\n### 4.4. Маркеры и временная логика\n| Выражение | Функция | Пример |\n|---|---|---|\n| by + past time | не позднее прошлой границы | By 2020, the company had opened two offices. |\n| by the time + past clause | к прошлому событию | By the time we arrived, the show had begun. |\n| already / just / never | предшествование или опыт | She had already left. |\n| before / after | порядок событий | After she had checked the file, she sent it. |\n\nAlready, just, never обычно стоят между had и V3. Yet часто употребляется в конце отрицания или вопроса: They hadn't received the results yet. Маркеры помогают, но не требуют Past Perfect автоматически. Before и after часто сами показывают порядок: After she checked the file, she sent it — грамматически правильное предложение. Past Perfect дополнительно подчёркивает завершённость к следующему событию. By Friday означает не позднее пятницы, а не обязательно именно в пятницу. Не путай by (граница результата) и until (продолжение до границы).\n\n### 4.5. Сравнение с близкими временами\n| Форма | Временной фокус | Пример |\n|---|---|---|\n| Past Simple | событие в прошлом или последовательность | When I arrived, the lecture started. |\n| Past Perfect Simple | действие раньше прошлой точки | When I arrived, the lecture had started. |\n| Present Perfect Simple | результат или опыт до настоящего | I have seen this documentary before. |\n| Past Perfect Continuous | процесс или длительность до прошлого | I had been watching documentaries for hours. |\n\nВ первом предложении лекция началась при моём приходе; во втором она началась раньше. Present Perfect связывает опыт с настоящим, Past Perfect — с прошлой точкой. Состояние и завершённое количество обычно естественнее выражаются Past Perfect Simple. Длительность динамического процесса можно выделить с помощью Continuous; это подробно рассматривается в B1-03. Сравни I have already read the article (к настоящему моменту) и I had already read it when the teacher asked about it (до прошлого вопроса преподавателя).\n\n### 4.6. Ограничения и исключения\nНе используй Past Perfect только потому, что в предложении два действия в прошлом. I woke up, ate breakfast and went to college — обычная последовательность Past Simple. Past Perfect нужен, если более ранняя перспектива важна. Before/after могут сделать Past Simple достаточным. В вопросе Had you finished? не ставь did. В I wondered whether she had finished нет инверсии: это косвенный вопрос. Past Perfect встречается и в пересказе высказываний; полный набор правил согласования времён рассматривается позже. Отрицание had not done означает, что действие не было выполнено к указанному ориентиру; оно ничего не гарантирует о том, произошло ли действие после него. Учитывай контекст, а не делай выводы о настоящем из формы прошедшего времени.\n\n### 4.7. Примеры с переводом\n| English | Перевод | Объяснение |\n|---|---|---|\n| When I opened the folder, someone had deleted the document. | Когда я открыла папку, кто-то уже удалил документ. | Удаление произошло раньше. |\n| She wasn't nervous because she had practised the presentation. | Она не нервничала, потому что отрепетировала выступление. | Репетиция предшествовала состоянию. |\n| Had the guests left before you came? | Гости ушли до твоего прихода? | Вопрос о более раннем событии. |\n| By noon, we hadn't received the results. | К полудню мы ещё не получили результаты. | Отсутствие результата к сроку. |\n| Before that trip, I had never flown. | До той поездки я никогда не летала. | Опыт до прошлой точки. |\n| They had known each other for years before the project. | Они были знакомы много лет ещё до проекта. | Продолжающееся состояние. |\n\n### 4.8. Типичные ошибки\n| Ошибка | Правильно | Почему |\n|---|---|---|\n| She had went home. | She had gone home. | Gone — V3. |\n| We had finish the work. | We had finished the work. | После had нужна V3. |\n| Did you had seen it? | Had you seen it? | Вопрос с had без did. |\n| When I arrived, the lecture has started. | When I arrived, the lecture had started. | Ориентир в прошлом. |\n| She asked had I finished. | She asked whether I had finished. | Косвенный вопрос требует whether и обычного порядка слов. |\n| I had woke up, ate breakfast and left. | I woke up, ate breakfast and left. | Простая хронология, woke также не V3. |\n\n### 4.9. Произношение и восприятие\nВ разговорной речи had часто сокращается до 'd: she'd left, we'd arrived. Различай 'd + V3 (had) и 'd + V1 (would). Сравни she'd GONE и she'd GO. В Listening сначала найди точку рассказа, затем определи, какое действие произошло раньше. Для read, cut, put формы могут совпадать на письме, поэтому особенно важны контекст и вспомогательный глагол. В выражении had already left основное смысловое ударение обычно падает на смысловой глагол или выделяемое обстоятельство.\n\n### 4.10. Академический английский и TOEFL\nPast Perfect помогает описать порядок действий в исследовании: The researchers had calibrated the instrument before they collected the data. В Reading и Listening обращай внимание на предшествующие причины событий и достигнутый результат. В Writing и Speaking используй форму в рассказе о прошлом опыте, если временная связь важна. Не усложняй каждое предложение Past Perfect ради высокого балла. Ясность и точность важнее. Это авторская практика переноса навыка, а не официальный экзаменационный вопрос ETS. Прочитай короткий рассказ о лаборатории и составь его хронологию: сначала калибровка, затем сбор данных, затем анализ. Объясни, почему одно из действий можно описать Past Perfect, а остальные — Past Simple.\n\n### 4.11. Алгоритм выбора\n1. Найди момент, относительно которого ведётся рассказ.\n2. Определи, произошло ли другое событие раньше этой точки.\n3. Если нужно подчеркнуть более раннее событие, результат или состояние, используй had + V3.\n4. Проверь, не выражен ли порядок и без Perfect; в простой хронологии обычно достаточно Past Simple.\n5. Проверь V3, отрицание, порядок слов и контекст.\n\n### 4.12. Памятка\nPast Perfect Simple — had + V3 для события, результата или состояния до прошлого ориентира. Had not + V3 — отрицание; Had + subject + V3? — прямой вопрос. Не смешивай have/has (ориентир сейчас) и had (ориентир тогда); не путай V2 с V3. Перед выбором формы мысленно расположи события на временной линии: раннее событие → прошлая точка → настоящее. Если связь не имеет значения, не добавляй Perfect искусственно.\n\n## 5. Практика\n\nВ приложении практика разделена на входную диагностику, управляемые задания, самостоятельную практику и новую выходную проверку. Закрытые ответы получают rationale и разбор ошибки. Свободный текст сохраняется и оценивается по рубрике; до подключения и реальной проверки AI-движка система не выдаёт его за автоматическую AI-оценку.\n\n## 6. Интервальное повторение\n\nПовторяй не весь урок автоматически, а конкретную ошибку: выбор формы, согласование, word order, значение, регистр или пунктуацию. Новая попытка должна менять лексический контекст и формулировку, чтобы проверять перенос, а не запоминание одной строки.\n\n## 7. Технический статус\n\n- Постоянный ID: `B1-02`.\n- Прогресс хранится отдельно в course.grammarLessons[\"B1-02\"].\n- Содержание и ключи имеют статус draft; 24 авторских закрытых задания и объяснения вычитаны, текст GR-02 проверен; GR-03, GR-05, страницы упражнений и learner test остаются открытыми.\n- Предварительное выполнение порогов не равно окончательному mastered: нужны отсроченное повторение и learner review.",
+  "theoryEnd": "## 5."
+}

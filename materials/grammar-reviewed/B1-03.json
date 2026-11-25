@@ -1,0 +1,707 @@
+{
+  "id": "B1-03",
+  "level": "B1",
+  "sequence": "B1-03",
+  "grammarFamily": "B1-03",
+  "questionBankSource": "topic-specific-authored",
+  "sourceVerification": "draft; GR-02 theory text checked, GR-03/GR-05 and visual/exercise review pending",
+  "topicProfile": {
+    "label": "Past Perfect Continuous",
+    "skillTarget": "past-perfect-continuous",
+    "core": "Past Perfect Continuous выделяет процесс, длительность или повторение до прошлого ориентира, а не гарантированно завершённый результат.",
+    "form": "subject + had been + V-ing; had not been + V-ing; Had + subject + been + V-ing?",
+    "selection": "Установи прошлую точку и определи, важен ли процесс до неё; для результата или состояния проверь Simple.",
+    "contrast": "She had been reading for an hour — читала час, завершение неизвестно. She had read the entire chapter — вся глава была прочитана.",
+    "boundary": "Stative verbs обычно требуют Simple; live/work допускают обе формы. Continuous не утверждает обязательное завершение процесса.",
+    "pronunciation": "Различай she'd worked и she'd been working; слушай been, -ing и выражение длительности.",
+    "examples": [
+      [
+        "She was exhausted because she had been revising all night.",
+        "Она была уставшей, потому что всю ночь готовилась.",
+        "Предшествующий процесс."
+      ],
+      [
+        "How long had you been waiting before the doors opened?",
+        "Как долго ты ждал до открытия дверей?",
+        "Длительность до прошлого события."
+      ]
+    ],
+    "traps": [
+      [
+        "She had been study all night.",
+        "She had been studying all night.",
+        "После been нужна V-ing."
+      ],
+      [
+        "We had waiting for an hour.",
+        "We had been waiting for an hour.",
+        "Пропущено been."
+      ]
+    ],
+    "toefl": "Past forms важны в пересказе исследования, исторических процессов и личного опыта. В Writing следи за последовательностью временных точек и согласованием времён."
+  },
+  "title": "Past Perfect Continuous",
+  "description": "Описывать длительный процесс до определённого момента в прошлом",
+  "cardDescription": "Теория, guided practice, самостоятельные задания и выходная проверка по постоянному ID B1-03.",
+  "eyebrow": "Полный урок программы B1-03 · drafted",
+  "contentVersion": "1.1-draft",
+  "curriculumVersion": "1.0",
+  "prerequisites": [
+    "A2-02",
+    "B1-02"
+  ],
+  "outcomes": [
+    "Описывать длительный процесс до определённого момента в прошлом",
+    "Выбирать целевую конструкцию по контексту и смыслу.",
+    "Исправлять типичные ошибки и переносить правило в новый пример."
+  ],
+  "sourceRefs": [
+    "GR-02 U16",
+    "GR-03 U7",
+    "GR-05 B1 p62-64"
+  ],
+  "sourceStatus": "GR-02 theory text checked; other source page verification pending",
+  "status": "drafted",
+  "legacyCoverage": "Полное ядро",
+  "toeflLinks": [
+    "Writing: Build a Sentence",
+    "Listening: tense/aspect, modality, weak forms and discourse cues",
+    "Writing: Academic Discussion"
+  ],
+  "thresholds": {
+    "independent": 7,
+    "exit": 4,
+    "criticalIds": [
+      "E1",
+      "E2",
+      "E3"
+    ]
+  },
+  "groups": {
+    "independent": "Самостоятельная практика",
+    "exit": "Выходная проверка"
+  },
+  "items": [
+    {
+      "id": "D1",
+      "group": "Входная диагностика",
+      "prompt": "At six yesterday she was exhausted after several hours of revision. Choose the form that foregrounds the earlier activity.",
+      "options": [
+        "She has been revising for hours.",
+        "She had been revising for hours.",
+        "She had been revise for hours."
+      ],
+      "answer": "She had been revising for hours.",
+      "accepted": [
+        "She had been revising for hours."
+      ],
+      "why": "Had been + V-ing описывает процесс до прошлого ориентира.",
+      "distractorWhy": "Has been связывает процесс с настоящим.",
+      "distractorRationales": {
+        "She has been revising for hours.": "Has been связывает процесс с настоящим.",
+        "She had been revise for hours.": "Revise должно иметь -ing."
+      },
+      "skillTarget": "past-perfect-continuous",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; GR-02 Unit 16 theory text checked",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D2",
+      "group": "Входная диагностика",
+      "prompt": "By the time the bus arrived, we ___ for forty minutes.",
+      "options": [
+        "had been waiting",
+        "had waiting",
+        "had been wait"
+      ],
+      "answer": "had been waiting",
+      "accepted": [
+        "had been waiting"
+      ],
+      "why": "Had been waiting показывает длительность до прибытия.",
+      "distractorWhy": "Пропущено been.",
+      "distractorRationales": {
+        "had waiting": "Пропущено been.",
+        "had been wait": "Wait должно иметь -ing."
+      },
+      "skillTarget": "past-perfect-continuous",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; GR-02 Unit 16 theory text checked",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D3",
+      "group": "Входная диагностика",
+      "prompt": "Choose the direct question about duration before a past event.",
+      "options": [
+        "How long you had been studying before the exam began?",
+        "How long had you been study before the exam began?",
+        "How long had you been studying before the exam began?"
+      ],
+      "answer": "How long had you been studying before the exam began?",
+      "accepted": [
+        "How long had you been studying before the exam began?"
+      ],
+      "why": "How long + had + subject + been + V-ing.",
+      "distractorWhy": "В прямом вопросе нужна инверсия.",
+      "distractorRationales": {
+        "How long you had been studying before the exam began?": "В прямом вопросе нужна инверсия.",
+        "How long had you been study before the exam began?": "Study должно иметь -ing."
+      },
+      "skillTarget": "past-perfect-continuous",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; GR-02 Unit 16 theory text checked",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D4",
+      "group": "Входная диагностика",
+      "prompt": "Choose the correct negative form of Past Perfect Continuous.",
+      "options": [
+        "He hadn't been sleep well before the competition.",
+        "He hadn't been sleeping well before the competition.",
+        "He didn't had been sleeping well before the competition."
+      ],
+      "answer": "He hadn't been sleeping well before the competition.",
+      "accepted": [
+        "He hadn't been sleeping well before the competition."
+      ],
+      "why": "Hadn't been + V-ing.",
+      "distractorWhy": "Sleep должно иметь -ing.",
+      "distractorRationales": {
+        "He hadn't been sleep well before the competition.": "Sleep должно иметь -ing.",
+        "He didn't had been sleeping well before the competition.": "Didn't нельзя сочетать с вспомогательным had."
+      },
+      "skillTarget": "past-perfect-continuous",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; GR-02 Unit 16 theory text checked",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G1",
+      "group": "Управляемая практика",
+      "prompt": "When the engineer arrived, the machine was off but the casing was hot. Which sentence explains the earlier process relative to her arrival?",
+      "options": [
+        "The machine had been running.",
+        "The machine was running when she arrived.",
+        "The machine has been running."
+      ],
+      "answer": "The machine had been running.",
+      "accepted": [
+        "The machine had been running."
+      ],
+      "why": "Had been running описывает предшествующий процесс.",
+      "distractorWhy": "В момент прибытия машина была выключена.",
+      "distractorRationales": {
+        "The machine was running when she arrived.": "В момент прибытия машина была выключена.",
+        "The machine has been running.": "Present Perfect Continuous ориентирован на сейчас."
+      },
+      "skillTarget": "past-perfect-continuous",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; GR-02 Unit 16 theory text checked",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G2",
+      "group": "Управляемая практика",
+      "prompt": "Before he retired, he ___ the director for ten years. Choose the normal form for a state of acquaintance.",
+      "options": [
+        "had been knowing",
+        "had been know",
+        "had known"
+      ],
+      "answer": "had known",
+      "accepted": [
+        "had known"
+      ],
+      "why": "Know в значении знакомства обычно требует Simple.",
+      "distractorWhy": "Knowing не является обычной формой этого состояния.",
+      "distractorRationales": {
+        "had been knowing": "Knowing не является обычной формой этого состояния.",
+        "had been know": "Know не имеет -ing."
+      },
+      "skillTarget": "past-perfect-continuous",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; GR-02 Unit 16 theory text checked",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G3",
+      "group": "Управляемая практика",
+      "prompt": "Which sentence explicitly reports a completed number of samples before a past deadline?",
+      "options": [
+        "The team had been analysing samples all morning.",
+        "The team had analysed twenty samples by noon.",
+        "The team was analysing samples at noon."
+      ],
+      "answer": "The team had analysed twenty samples by noon.",
+      "accepted": [
+        "The team had analysed twenty samples by noon."
+      ],
+      "why": "Simple сообщает завершённое количество.",
+      "distractorWhy": "Continuous подчёркивает процесс, а не число.",
+      "distractorRationales": {
+        "The team had been analysing samples all morning.": "Continuous подчёркивает процесс, а не число.",
+        "The team was analysing samples at noon.": "Past Continuous описывает процесс в полдень."
+      },
+      "skillTarget": "past-perfect-continuous",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; GR-02 Unit 16 theory text checked",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G4",
+      "group": "Управляемая практика",
+      "prompt": "The workers had been painting the walls ___ three hours when the lights went out.",
+      "options": [
+        "for",
+        "since",
+        "ago"
+      ],
+      "answer": "for",
+      "accepted": [
+        "for"
+      ],
+      "why": "For вводит период.",
+      "distractorWhy": "Since вводит точку начала.",
+      "distractorRationales": {
+        "since": "Since вводит точку начала.",
+        "ago": "Ago обозначает расстояние до прошлой точки, а не длительность."
+      },
+      "skillTarget": "past-perfect-continuous",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; GR-02 Unit 16 theory text checked",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G5",
+      "group": "Управляемая практика",
+      "prompt": "By ten the librarian had been cataloguing books ___ dawn.",
+      "options": [
+        "for",
+        "ago",
+        "since"
+      ],
+      "answer": "since",
+      "accepted": [
+        "since"
+      ],
+      "why": "Since вводит начальную точку.",
+      "distractorWhy": "For dawn не является длительностью.",
+      "distractorRationales": {
+        "for": "For dawn не является длительностью.",
+        "ago": "Ago не вводит начало периода."
+      },
+      "skillTarget": "past-perfect-continuous",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; GR-02 Unit 16 theory text checked",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G6",
+      "group": "Управляемая практика",
+      "prompt": "Choose the correct indirect question about a past activity.",
+      "options": [
+        "He asked how long had we been waiting.",
+        "He asked how long we had been waiting.",
+        "He asked how long we had been wait."
+      ],
+      "answer": "He asked how long we had been waiting.",
+      "accepted": [
+        "He asked how long we had been waiting."
+      ],
+      "why": "В косвенном вопросе subject стоит перед had.",
+      "distractorWhy": "Инверсия прямого вопроса здесь не нужна.",
+      "distractorRationales": {
+        "He asked how long had we been waiting.": "Инверсия прямого вопроса здесь не нужна.",
+        "He asked how long we had been wait.": "Wait должно иметь -ing."
+      },
+      "skillTarget": "past-perfect-continuous",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; GR-02 Unit 16 theory text checked",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I1",
+      "group": "Самостоятельная практика",
+      "prompt": "Which sentence describes an activity in progress at a past observation without highlighting an earlier period?",
+      "options": [
+        "Before I entered, they had been discussing the plan for an hour.",
+        "They have been discussing the plan since Monday.",
+        "When I entered, they were discussing the plan."
+      ],
+      "answer": "When I entered, they were discussing the plan.",
+      "accepted": [
+        "When I entered, they were discussing the plan."
+      ],
+      "why": "Past Continuous описывает действие в момент наблюдения.",
+      "distractorWhy": "Past Perfect Continuous выделяет предшествующую длительность.",
+      "distractorRationales": {
+        "Before I entered, they had been discussing the plan for an hour.": "Past Perfect Continuous выделяет предшествующую длительность.",
+        "They have been discussing the plan since Monday.": "Present Perfect Continuous связан с настоящим."
+      },
+      "skillTarget": "past-perfect-continuous",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; GR-02 Unit 16 theory text checked",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I2",
+      "group": "Самостоятельная практика",
+      "prompt": "Yesterday her hands were dirty. She ___ with clay before lunch.",
+      "options": [
+        "has been working",
+        "had been working",
+        "had been work"
+      ],
+      "answer": "had been working",
+      "accepted": [
+        "had been working"
+      ],
+      "why": "Had been working связано с прошлым состоянием.",
+      "distractorWhy": "Has been working ориентируется на настоящее.",
+      "distractorRationales": {
+        "has been working": "Has been working ориентируется на настоящее.",
+        "had been work": "Work должно иметь -ing."
+      },
+      "skillTarget": "past-perfect-continuous",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; GR-02 Unit 16 theory text checked",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I3",
+      "group": "Самостоятельная практика",
+      "prompt": "We'd been rehearsing before the performance. Here 'd means ___.",
+      "options": [
+        "had",
+        "would",
+        "did"
+      ],
+      "answer": "had",
+      "accepted": [
+        "had"
+      ],
+      "why": "Перед been в этой форме 'd означает had.",
+      "distractorWhy": "Would требует be, а не been.",
+      "distractorRationales": {
+        "would": "Would требует be, а не been.",
+        "did": "Did не сокращается до 'd в этой конструкции."
+      },
+      "skillTarget": "past-perfect-continuous",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; GR-02 Unit 16 theory text checked",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I4",
+      "group": "Самостоятельная практика",
+      "prompt": "Which sentence describes duration before a past reference point rather than before now?",
+      "options": [
+        "I have been coding for four hours and am still coding now.",
+        "I am coding now.",
+        "At noon yesterday, I had been coding for four hours."
+      ],
+      "answer": "At noon yesterday, I had been coding for four hours.",
+      "accepted": [
+        "At noon yesterday, I had been coding for four hours."
+      ],
+      "why": "Had been coding относится к прошлому полудню.",
+      "distractorWhy": "Have been coding относится к настоящему.",
+      "distractorRationales": {
+        "I have been coding for four hours and am still coding now.": "Have been coding относится к настоящему.",
+        "I am coding now.": "Present Continuous описывает текущий процесс."
+      },
+      "skillTarget": "past-perfect-continuous",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; GR-02 Unit 16 theory text checked",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I5",
+      "group": "Самостоятельная практика",
+      "prompt": "Correct: They had been discuss the proposal before the vote.",
+      "options": [
+        "They had been discussed the proposal before the vote.",
+        "They had been discussing the proposal before the vote.",
+        "They had discussing the proposal before the vote."
+      ],
+      "answer": "They had been discussing the proposal before the vote.",
+      "accepted": [
+        "They had been discussing the proposal before the vote."
+      ],
+      "why": "Активный Continuous требует discussing.",
+      "distractorWhy": "Discussed — V3, а не V-ing.",
+      "distractorRationales": {
+        "They had been discussed the proposal before the vote.": "Discussed — V3, а не V-ing.",
+        "They had discussing the proposal before the vote.": "Пропущено been."
+      },
+      "skillTarget": "past-perfect-continuous",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; GR-02 Unit 16 theory text checked",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I6",
+      "group": "Самостоятельная практика",
+      "prompt": "Which statement does 'She had been writing the report before the call' itself guarantee?",
+      "options": [
+        "Writing took place before the call.",
+        "The whole report was definitely finished.",
+        "She was still writing at the exact moment of the call."
+      ],
+      "answer": "Writing took place before the call.",
+      "accepted": [
+        "Writing took place before the call."
+      ],
+      "why": "Форма показывает предшествующую активность.",
+      "distractorWhy": "Завершение отчёта не утверждается.",
+      "distractorRationales": {
+        "The whole report was definitely finished.": "Завершение отчёта не утверждается.",
+        "She was still writing at the exact moment of the call.": "Процесс мог закончиться до звонка."
+      },
+      "skillTarget": "past-perfect-continuous",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; GR-02 Unit 16 theory text checked",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I7",
+      "group": "Самостоятельная практика",
+      "prompt": "Before the new rule, the department had been holding weekly seminars for months. What does this describe?",
+      "options": [
+        "One seminar after the rule.",
+        "A guarantee that seminars continue today.",
+        "A repeated activity over a period before a past point."
+      ],
+      "answer": "A repeated activity over a period before a past point.",
+      "accepted": [
+        "A repeated activity over a period before a past point."
+      ],
+      "why": "Continuous может описывать повторение в течение периода.",
+      "distractorWhy": "Речь о повторяющейся активности до правила.",
+      "distractorRationales": {
+        "One seminar after the rule.": "Речь о повторяющейся активности до правила.",
+        "A guarantee that seminars continue today.": "Текущее положение не указано."
+      },
+      "skillTarget": "past-perfect-continuous",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; GR-02 Unit 16 theory text checked",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I8",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the normal form for a state of ownership before a sale.",
+      "options": [
+        "They had been owning the shop for years before they sold it.",
+        "They had owned the shop for years before they sold it.",
+        "They had been own the shop for years before they sold it."
+      ],
+      "answer": "They had owned the shop for years before they sold it.",
+      "accepted": [
+        "They had owned the shop for years before they sold it."
+      ],
+      "why": "Own в этом значении — состояние.",
+      "distractorWhy": "Continuous нетипичен для владения.",
+      "distractorRationales": {
+        "They had been owning the shop for years before they sold it.": "Continuous нетипичен для владения.",
+        "They had been own the shop for years before they sold it.": "Own не имеет -ing."
+      },
+      "skillTarget": "past-perfect-continuous",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; GR-02 Unit 16 theory text checked",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I9",
+      "group": "Самостоятельная практика",
+      "prompt": "The crew started repairing the road at eight yesterday. The supervisor arrived at eleven. Which sentence emphasizes duration up to that arrival?",
+      "options": [
+        "The crew had been repairing the road for three hours.",
+        "The crew has been repairing the road for three hours.",
+        "The crew had been repairing the road since three hours."
+      ],
+      "answer": "The crew had been repairing the road for three hours.",
+      "accepted": [
+        "The crew had been repairing the road for three hours."
+      ],
+      "why": "Had been repairing + for выражает длительность до прошлого момента.",
+      "distractorWhy": "Has been repairing связано с настоящим.",
+      "distractorRationales": {
+        "The crew has been repairing the road for three hours.": "Has been repairing связано с настоящим.",
+        "The crew had been repairing the road since three hours.": "Since требует начальную точку."
+      },
+      "skillTarget": "past-perfect-continuous",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; GR-02 Unit 16 theory text checked",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E1",
+      "group": "Выходная проверка",
+      "prompt": "Choose a Past Perfect Continuous question with the correct auxiliary and -ing form.",
+      "options": [
+        "Had the students been practising before the recital?",
+        "Did the students had been practising before the recital?",
+        "Had the students been practise before the recital?"
+      ],
+      "answer": "Had the students been practising before the recital?",
+      "accepted": [
+        "Had the students been practising before the recital?"
+      ],
+      "why": "Had + subject + been + V-ing.",
+      "distractorWhy": "Did не добавляется к had.",
+      "distractorRationales": {
+        "Did the students had been practising before the recital?": "Did не добавляется к had.",
+        "Had the students been practise before the recital?": "Practise должно иметь -ing."
+      },
+      "skillTarget": "past-perfect-continuous",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; GR-02 Unit 16 theory text checked",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E2",
+      "group": "Выходная проверка",
+      "prompt": "The lights were still on at nine because the researchers ___ on the project since the afternoon.",
+      "options": [
+        "had been worked",
+        "had been work",
+        "had been working"
+      ],
+      "answer": "had been working",
+      "accepted": [
+        "had been working"
+      ],
+      "why": "Процесс начался ранее и связан с прошлым ориентиром.",
+      "distractorWhy": "Worked — V3, а не активная V-ing.",
+      "distractorRationales": {
+        "had been worked": "Worked — V3, а не активная V-ing.",
+        "had been work": "Work — V1."
+      },
+      "skillTarget": "past-perfect-continuous",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; GR-02 Unit 16 theory text checked",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E3",
+      "group": "Выходная проверка",
+      "prompt": "Choose the sentence emphasizing an earlier process rather than a finished result.",
+      "options": [
+        "He had translated the entire document before the interruption.",
+        "He had been translating the document for two hours before the interruption.",
+        "He translated the document after the interruption."
+      ],
+      "answer": "He had been translating the document for two hours before the interruption.",
+      "accepted": [
+        "He had been translating the document for two hours before the interruption."
+      ],
+      "why": "Continuous с длительностью выделяет процесс.",
+      "distractorWhy": "Entire в Simple подчёркивает завершение.",
+      "distractorRationales": {
+        "He had translated the entire document before the interruption.": "Entire в Simple подчёркивает завершение.",
+        "He translated the document after the interruption.": "After указывает на другое время."
+      },
+      "skillTarget": "past-perfect-continuous",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; GR-02 Unit 16 theory text checked",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E4",
+      "group": "Выходная проверка",
+      "prompt": "Correct the negative question: Hadn't she been prepare before the presentation?",
+      "options": [
+        "Hadn't she been preparing before the presentation?",
+        "Hadn't she preparing before the presentation?",
+        "Didn't she had been preparing before the presentation?"
+      ],
+      "answer": "Hadn't she been preparing before the presentation?",
+      "accepted": [
+        "Hadn't she been preparing before the presentation?"
+      ],
+      "why": "Hadn't + subject + been + V-ing.",
+      "distractorWhy": "Пропущено been.",
+      "distractorRationales": {
+        "Hadn't she preparing before the presentation?": "Пропущено been.",
+        "Didn't she had been preparing before the presentation?": "Did не используется с вспомогательным had."
+      },
+      "skillTarget": "past-perfect-continuous",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; GR-02 Unit 16 theory text checked",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E5",
+      "group": "Выходная проверка",
+      "prompt": "Which sentence explicitly states an earlier completed result rather than an earlier process?",
+      "options": [
+        "By the time the call came, I had been reading the chapter for an hour.",
+        "When the call came, I was reading the chapter.",
+        "By the time the call came, I had read the entire chapter."
+      ],
+      "answer": "By the time the call came, I had read the entire chapter.",
+      "accepted": [
+        "By the time the call came, I had read the entire chapter."
+      ],
+      "why": "Simple с entire выражает завершение.",
+      "distractorWhy": "Continuous выражает длительность без гарантии завершения.",
+      "distractorRationales": {
+        "By the time the call came, I had been reading the chapter for an hour.": "Continuous выражает длительность без гарантии завершения.",
+        "When the call came, I was reading the chapter.": "Past Continuous помещает процесс в момент звонка."
+      },
+      "skillTarget": "past-perfect-continuous",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; GR-02 Unit 16 theory text checked",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "W1",
+      "group": "Самостоятельное применение",
+      "prompt": "Напиши 5–6 предложений о подготовке к прошедшему мероприятию. Используй for, since, предшествующий процесс с видимым результатом, прямой вопрос о длительности, отрицание и предложение о завершённом количестве с Past Perfect Simple.",
+      "open": true,
+      "rubric": [
+        "Указан прошлый ориентир.",
+        "For и since использованы по смыслу.",
+        "Past Perfect Continuous образован правильно.",
+        "Есть вопрос с had и отрицание.",
+        "Past Perfect Simple выражает завершённое количество.",
+        "Объяснено различие процесса и результата."
+      ],
+      "skillTarget": "Самостоятельное применение B1-03",
+      "interactionType": "open-production",
+      "difficulty": "transfer",
+      "sourceBasis": "Speakbase-authored open production; self-review rubric only until real AI feedback is connected",
+      "contentVersion": "1.1-draft"
+    }
+  ],
+  "markdown": "# Speakbase — B1-03: Past Perfect Continuous\n\n**Curriculum ID:** `B1-03`  \n**Уровень:** B1  \n**Версия:** 1.1-draft\n**Статус:** drafted; GR-02 theory text reviewed; GR-03/GR-05 and learner acceptance pending\n**Предварительные темы:** A2-02, B1-02  \n**Связь со старым каталогом:** Полное ядро — №23 Past Perfect Continuous\n\n## 1. Результаты обучения\n\n- Описывать длительный процесс до определённого момента в прошлом\n- Выбирать целевую форму по значению, структуре предложения и контексту.\n- Объяснять, почему близкая грамматическая форма меняет смысл или регистр.\n- Находить и исправлять типичные ошибки русскоязычных студентов.\n\n## 2. Источники и статус сверки\n\n| Source | PDF navigation | Lesson-specific checks | Status |\n|---|---|---|---|\n| GR-02 U16 | PDF p. 44 / printed p. 32 | Theory text checked: earlier process, duration before a past reference point, past vs present perfect continuous, stative verbs | theory text reviewed; exercise pages and visual review pending |\n| GR-03 U7 | PDF pages 38-39 (Unit 7) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-05 B1 p62-64 | PDF pages 62-64 (B1 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n\nUnit/page locations are navigation aids only. They do not prove that the cited explanation, examples, restrictions and answer key have been checked for this lesson. Examples and explanations below are Speakbase-authored, not quotations from the textbook.\n\nПеред переводом этого урока в source-verified необходимо открыть целевые страницы конкретного издания, записать печатную и PDF-пагинацию, сверить ограничения и исключения. Для GR-03 со сканированными страницами обязательна визуальная проверка.\n\n## 3. Место темы и границы\n\nPast Perfect Continuous выделяет длительность до прошлого момента; сравни с Past Perfect Simple и учти stative verbs.\n\nСтарый каталог содержит: №23 Past Perfect Continuous. Его статус — Полное ядро. Старые отметки завершения не переносятся автоматически на новый постоянный ID. Тема рассматривается в уровне B1 и не заменяет обязательные prerequisites.\n\n## 4. Полный конспект\n\n### 4.1. Основная идея\nPast Perfect Continuous (прошедшее совершенное длительное) описывает процесс, который происходил в течение некоторого времени до определённой точки в прошлом. Например, к шести вечера студентка устала после нескольких часов подготовки: At six, she was exhausted because she had been studying all afternoon. Подготовка началась до шести вечера, а состояние усталости наблюдалось в этот момент.\n\nФорма выделяет процесс или его длительность, а не гарантированно законченный результат. Действие может продолжаться в момент отсчёта, прекратиться непосредственно перед ним или происходить регулярно до него. Поэтому не следует автоматически переводить каждое had been doing как действие, которое обязательно всё ещё продолжается. Сначала найди прошлую точку отсчёта и выясни связь между ней и более ранним процессом.\n\n### 4.2. Формула и порядок слов\n| Тип | Формула | Пример |\n|---|---|---|\n| Утверждение | subject + had been + V-ing | I had been studying. |\n| Отрицание | subject + had not been + V-ing | I hadn't been studying. |\n| Общий вопрос | Had + subject + been + V-ing? | Had you been studying? |\n| Специальный вопрос | How long + had + subject + been + V-ing? | How long had you been studying? |\n\nHad не меняется в зависимости от лица и числа. Been — третья форма be, после неё обязателен смысловой глагол с -ing. Краткая форма I'd been studying означает I had been studying. Отрицание hadn't been образуется без did. В прямом вопросе had ставится перед подлежащим, а been остаётся после него. В косвенном вопросе сохраняется обычный порядок слов: She asked how long I had been studying. Обрати внимание на написание формы -ing: make → making, run → running, study → studying.\n\n### 4.3. Основные случаи употребления\n1. Длительность до прошлого события: We had been waiting for forty minutes when the bus arrived.\n2. Недавний относительно прошлой точки процесс объясняет состояние: His shirt was dirty because he had been repairing the machine.\n3. Повторяющаяся активность до изменения ситуации: They had been meeting every Monday before the timetable changed.\n4. Отрицание недавней активности относительно прошлого: She hadn't been sleeping well before the exam.\n\nСобытие, обозначающее ориентир, часто выражено Past Simple. В первом примере arrived устанавливает прошлую границу. Оно не обязано окончательно прекращать процесс во всех контекстах. Причина и результат также могут быть разделены во времени: человек уже закончил работать, но в момент наблюдения всё ещё был уставшим. В таком случае had been working естественно описывает более раннюю деятельность.\n\n### 4.4. Длительность и начальная точка\n| Маркер | Что он выражает | Пример |\n|---|---|---|\n| for + период | как долго | for two hours |\n| since + начало | с какого момента | since dawn |\n| since + придаточное | начальное событие | since the course began |\n| all morning / all night | весь указанный период | all morning |\n| how long | вопрос о длительности | How long had they been working? |\n\nFor + three weeks — длительность, since + March — начало. Не пиши since three weeks и обычно не добавляй for перед all morning. By midnight указывает на прошлую границу, а не длительность: By midnight, we had been travelling for ten hours. Сама форма не обязательно сообщает точный период: The ground was wet because it had been raining. Слова for, since, all morning помогают заметить связь, но не являются обязательным условием употребления формы. Если говорящий описывает законченное количество или состояние, даже с for может использоваться Past Perfect Simple.\n\n### 4.5. Сравнение с другими временами\n| Время | Фокус | Пример |\n|---|---|---|\n| Past Continuous | действие в момент прошлого наблюдения | When I entered, they were working. |\n| Past Perfect Continuous | процесс до прошлого наблюдения | Before I entered, they had been working for hours. |\n| Present Perfect Continuous | процесс до настоящего | They have been working since morning. |\n| Past Perfect Simple | результат, количество или состояние до прошлого | They had completed three tasks by noon. |\n\nPast Continuous описывает происходившее в момент наблюдения; Past Perfect Continuous подчёркивает предшествующую активность, которая может уже прекратиться. Present Perfect Continuous использует have/has been и ориентируется на сейчас; Past Perfect Continuous использует had been и ориентируется на тогда.\n\nPast Perfect Simple: By six, she had read the entire chapter (вся глава прочитана). Past Perfect Continuous: By six, she had been reading the chapter for an hour (читала час; неизвестно, закончила ли). Оба времени возможны при некоторых динамических глаголах: had worked for five years — факт периода работы; had been working for five years — акцент на процессе. Выбор определяется намерением говорящего, а не только маркером for.\n\n### 4.6. Ограничения и исключения\nГлаголы состояния know, own, believe, like и have в значении владения обычно не используются в Continuous: They had known each other for years. He had owned the car for ten years before selling it. Смысл глагола важен: had been having trouble может описывать повторяющиеся трудности, а владение предметом обычно выражается had had. С глаголами live/work возможны обе формы в зависимости от акцента. Для завершённого количества обычно выбирай Simple. Не считай Past Perfect Continuous обязательным при любой длительности в прошлом: Past Simple может сообщать о законченном периоде без отдельной прошлой точки отсчёта. Например, I worked there for two years сообщает факт прошлого опыта. I had been working there for two years when the company closed связывает процесс с моментом закрытия компании.\n\n### 4.7. Примеры с переводом\n| English | Перевод | Объяснение |\n|---|---|---|\n| She was exhausted because she had been revising all night. | Она была уставшей, потому что всю ночь готовилась. | Предшествующий процесс объясняет состояние. |\n| How long had you been waiting before the doors opened? | Как долго ты ждал до открытия дверей? | Вопрос о длительности до прошлого события. |\n| The screen was warm because the computer had been running for hours. | Экран был тёплым, потому что компьютер работал несколько часов. | Процесс до наблюдения. |\n| He hadn't been exercising regularly before the race. | До забега он не тренировался регулярно. | Отрицание повторяющейся активности. |\n| They had known the professor for years before the seminar. | Они были знакомы с профессором много лет до семинара. | Состояние: Simple. |\n| The team had written three reports before the meeting. | К совещанию команда написала три отчёта. | Завершённое количество: Simple. |\n\n### 4.8. Типичные ошибки\n| Ошибка | Правильно | Почему |\n|---|---|---|\n| She had been study all night. | She had been studying all night. | После been нужна V-ing. |\n| We had waiting for an hour. | We had been waiting for an hour. | Пропущено been. |\n| How long they had been working? | How long had they been working? | В прямом вопросе had перед подлежащим. |\n| Yesterday I was tired because I have been working. | Yesterday I was tired because I had been working. | Ориентир в прошлом. |\n| They had been knowing him for years. | They had known him for years. | Know — состояние. |\n| We had been waiting since two hours. | We had been waiting for two hours. | Two hours — длительность. |\n\n### 4.9. Произношение и восприятие\nHad часто сокращается до 'd: she'd been working. Сравни she'd WORKED (had + V3) и she'd been WORKing (had been + V-ing). В потоке речи слушай been, окончание -ing и выражение длительности. Наличие for не доказывает выбор Continuous: сначала определи, о состоянии или процессе говорится. При аудировании попробуй восстановить временную линию, даже если вспомогательный глагол произнесён слабо: когда наблюдали результат и что происходило до этого?\n\n### 4.10. Академический английский и TOEFL\nФорма полезна для объяснения причин прошлого результата: The equipment failed after the team had been running tests for several hours. Если нужно сообщить завершённое количество: The team had completed twelve tests before the failure. В Reading и Listening ищи временной ориентир и различай процесс и результат. В Writing и Speaking выбирай форму осознанно, чтобы передать длительность и причины событий. Это авторские примеры переноса навыка, не официальные задания ETS. Попробуй пересказать историю эксперимента: исследователи несколько часов проверяли прибор, затем обнаружили неисправность. После этого объясни разницу между had been running tests и had completed twelve tests. Первый вариант характеризует активность, второй — достигнутое количество.\n\n### 4.11. Алгоритм выбора\n1. Установи, находится ли точка отсчёта в прошлом.\n2. Определи, происходил ли процесс до этой точки или именно в момент наблюдения.\n3. Если важна предшествующая активность или длительность, используй had been + V-ing.\n4. Если важно состояние или завершённое количество, проверь had + V3.\n5. Проверь been, -ing, порядок слов, for/since и временную линию.\n\n### 4.12. Памятка\nHad been + V-ing — процесс или повторяющаяся активность до прошлого ориентира; had + V3 — результат или состояние до этого ориентира. Past Continuous — процесс в прошлом моменте. Present Perfect Continuous — процесс до настоящего. Контекст важнее маркера времени. При выборе формы сначала представь временную линию, затем определи смысл: предшествующий процесс, более ранний завершённый результат или действие в момент наблюдения.\n\n## 5. Практика\n\nВ приложении практика разделена на входную диагностику, управляемые задания, самостоятельную практику и новую выходную проверку. Закрытые ответы получают rationale и разбор ошибки. Свободный текст сохраняется и оценивается по рубрике; до подключения и реальной проверки AI-движка система не выдаёт его за автоматическую AI-оценку.\n\n## 6. Интервальное повторение\n\nПовторяй не весь урок автоматически, а конкретную ошибку: выбор формы, согласование, word order, значение, регистр или пунктуацию. Новая попытка должна менять лексический контекст и формулировку, чтобы проверять перенос, а не запоминание одной строки.\n\n## 7. Технический статус\n\n- Постоянный ID: `B1-03`.\n- Прогресс хранится отдельно в course.grammarLessons[\"B1-03\"].\n- Содержание и ключи имеют статус draft; 24 авторских закрытых задания и объяснения вычитаны, текст GR-02 проверен; GR-03, GR-05, страницы упражнений и learner test остаются открытыми.\n- Предварительное выполнение порогов не равно окончательному mastered: нужны отсроченное повторение и learner review.",
+  "theoryEnd": "## 5."
+}

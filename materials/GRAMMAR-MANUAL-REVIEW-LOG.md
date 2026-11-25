@@ -72,6 +72,8 @@ Do not infer completion from automated structural tests or source navigation che
 | ID | Status | Evidence |
 |---|---|---|
 | B1-01 | PARTIAL | GR-02 Units 9-12 theory text checked directly (PDF pp. 30, 32, 34, 36; printed pp. 18, 20, 22, 24). Expanded Russian theory with tense contrasts, for/since, stative restrictions, recurrent activity, questions, translated examples and errors. Replaced all 24 learner-facing closed items with individually authored prompts and specific rationales; tailored open task. Fixed actual JS payload, not only Markdown; retained correct-answer position distribution. Other source texts, exercise pages, visual verification and learner acceptance pending. |
+| B1-02 | PARTIAL | GR-02 Unit 15 theory text checked directly (PDF p. 42; printed p. 30). Expanded Russian theory and translated examples, reviewed all 24 learner-facing closed tasks and rationales, and tailored open task. Runtime snapshot matches Markdown; answer positions preserved. GR-03/GR-05, exercise pages, visual review and learner acceptance pending. |
+| B1-03 | PARTIAL | GR-02 Unit 16 theory text checked directly (PDF p. 44; printed p. 32). Expanded Russian theory and translated examples, reviewed all 24 learner-facing closed tasks and rationales, and tailored open task. Runtime snapshot matches Markdown; answer positions preserved. GR-03/GR-05, exercise pages, visual review and learner acceptance pending. |
 
 ## Encoding repair in this pass
 
