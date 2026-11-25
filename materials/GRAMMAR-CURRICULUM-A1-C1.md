@@ -23,7 +23,7 @@
 | ID | Тема | Что должен уметь ученик | Источники |
 |---|---|---|---|
 | A1-01 | Sentence building and basic word order | Строить простое утверждение с подлежащим и сказуемым; понимать роли subject, verb, object и complement | GR-05 A1 p. 8; EXT-01–EXT-04 (page-checked) |
-| A1-02 | Subject pronouns and verb *be* — affirmative | Использовать I/you/he/she/it/we/they + am/is/are; давать базовую информацию о себе | GR-01; GR-05 A1 |
+| A1-02 | Subject pronouns and verb *be* — affirmative | Использовать I/you/he/she/it/we/they + am/is/are; давать базовую информацию о себе | GR-01 U1 (toc-mapped); EXT-08–EXT-11 (cross-checked) |
 | A1-03 | *Be* — negatives, questions and short answers | Строить отрицания и вопросы с be, давать краткие ответы | GR-01; GR-05 A1 |
 | A1-04 | Singular/plural nouns and *a/an* | Образовывать множественное число, использовать a/an с исчисляемыми существительными в единственном числе | GR-01; GR-05 A1 |
 | A1-05 | Present Simple — affirmative | Говорить о привычках, фактах и регулярных действиях; правильно использовать -s/-es | GR-01; GR-02 U2; GR-05 A1 |

@@ -90,8 +90,11 @@
   window.grammarLibraryView=function(){
     const state=courseState();
     if(state.grammarA105?.mode&&state.grammarA105.mode!=='catalog')return a105View();
+    if(state.activeGrammarLessonId)return legacyGrammarLibraryView();
     const original=legacyGrammarLibraryView();
-    return '<section class="panel a105-launch"><div><div class="eyebrow">Новый формат · пилот</div><h3>A1-05 · Present Simple: утвердительные предложения</h3><p>Полный конспект до практики, задания по уровням сложности и сохранение ответов. Проверь новый формат обучения.</p></div><button class="primary" onclick="openGrammarA105()">Открыть пилотный урок</button></section>'+original;
+    const a102Card=window.grammarA102CardView?window.grammarA102CardView():'';
+    const pilotCard='<section class="panel a105-launch"><div><div class="eyebrow">Новый формат · пилот</div><h3>A1-05 · Present Simple: утвердительные предложения</h3><p>Полный конспект до практики, задания по уровням сложности и сохранение ответов. Проверь новый формат обучения.</p></div><button class="primary" onclick="openGrammarA105()">Открыть пилотный урок</button></section>';
+    return a102Card+pilotCard+original;
   };
 })();
 /* A1-01: permanent-ID lesson, layered over the legacy grammar catalogue. */
@@ -239,6 +242,8 @@
   window.grammarLibraryView=function(){
     const cs=courseState();
     if(cs.activeGrammarLessonId==='A1-01')return a101View();
+    if(cs.activeGrammarLessonId)return previousGrammarLibraryView();
+    if(cs.grammarA105?.mode&&cs.grammarA105.mode!=='catalog')return previousGrammarLibraryView();
     const state=cs.grammarLessons?.['A1-01'];
     const answered=Object.keys(state?.answers||{}).length;
     return '<section class="panel a105-launch"><div><div class="eyebrow">Новая постоянная программа · A1-01</div><h3>Sentence building and basic word order</h3><p>Первый блок курса: подлежащее, глагол, базовый порядок слов и модели простого предложения. Сохранение прогресса по постоянному ID A1-01.</p></div><button class="primary" onclick="openGrammarA101()">'+(answered?'Продолжить A1-01 ('+answered+'/27)':'Начать A1-01')+'</button></section>'+previousGrammarLibraryView();
