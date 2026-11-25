@@ -55,3 +55,7 @@ A2-16 through A2-18: time clauses, reason/purpose/result, prepositions and depen
 ## A1 first package
 
 A1-03, A1-04 and A1-06 editorial pass: be negatives/questions/short answers, singular/plural nouns and a/an, Present Simple negatives and questions. GR-01 Essential Grammar in Use (2017 Russian edition) selected theory Units 1–2, 6–8, 66–69 directly inspected; GR-02 Units 2, 71, 79 also consulted. 72 original closed questions with individual explanations and 3 open rubrics. Full exercise-page, additional source, visual, audio and learner verification pending; PARTIAL. A1 new lessons: 3/16. Existing A1-01, A1-02 and A1-05 unchanged. Next A1-07–09. Preserve unrelated work and real account data. Daily/TOEFL linking remains pending.
+
+## A1 second package
+
+A1-07–09: have/have got, there is/are, possessives and demonstratives. 72 original closed questions with separate explanations, 3 open rubrics, GR-01 selected theory Units 10, 38–39, 59, 61–63, 65, 75 consulted; full sources, exercises, visual/audio and learner review pending. A1 new lessons 6/16; next A1-10–19. PARTIAL.

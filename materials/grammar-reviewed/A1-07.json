@@ -1,0 +1,736 @@
+{
+  "id": "A1-07",
+  "level": "A1",
+  "sequence": "A1-07",
+  "grammarFamily": "A1-07",
+  "questionBankSource": "topic-specific-authored",
+  "sourceVerification": "draft; selected source text consulted; complete source-page and learner review pending",
+  "topicProfile": {
+    "label": "have and have got — possession and relationships",
+    "skillTarget": "have-have-got-possession",
+    "core": "Have и have got обозначают наличие, принадлежность, родственные связи и некоторые состояния. I have a bike и I've got a bike обычно означают одно и то же: у меня есть велосипед. В русском «у меня есть» не содержит глагола «иметь», но в английском нужен have или have got.",
+    "form": "| Subject | Have | Have got |\n|---|---|---|\n| I/you/we/they | have | have got |\n| he/she/it | has | has got |\n| I/you/we/they (negative) | don't have | haven't got |\n| he/she/it (negative) | doesn't have | hasn't got |\n| Вопрос | Do/Does + subject + have? | Have/Has + subject + got? |",
+    "selection": "Выбери, сообщаешь ли ты о наличии или о действии. Для наличия можно использовать любую из двух моделей. Выбрав have got, сохраняй got в утверждении, вопросе и отрицании; выбрав have, применяй do/does в обычных вопросах и отрицаниях.",
+    "contrast": "| Наличие | Действие |\n|---|---|\n| I have a laptop. / I've got a laptop. | I have lunch at noon. |\n| She has a sister. / She's got a sister. | She has a shower every morning. |\n| Do you have a pen? / Have you got a pen? | Do you have breakfast at home? |",
+    "boundary": "Не делай have got универсальным эквивалентом have. В I have got a new job речь о нынешнем наличии работы или, в другом контексте, о получении работы. Не используем got для обычного описания повторяющегося завтрака.",
+    "pronunciation": "Произноси I've got и she's got целиком. В коротких ответах Yes, I have и Yes, I do не сокращай положительную форму. Слушай has и have перед got; отдельная аудиосверка пока не выполнена.",
+    "examples": [
+      [
+        "I have two notebooks.",
+        "У меня две тетради.",
+        "I + have."
+      ],
+      [
+        "She's got a blue bag.",
+        "У неё синяя сумка.",
+        "She + has got."
+      ],
+      [
+        "Do you have any spare paper?",
+        "У тебя есть запасная бумага?",
+        "Do + subject + have."
+      ],
+      [
+        "Has he got a key?",
+        "У него есть ключ?",
+        "Has + subject + got."
+      ],
+      [
+        "We don't have a car.",
+        "У нас нет машины.",
+        "Don't + have."
+      ],
+      [
+        "I have breakfast at eight.",
+        "Я завтракаю в восемь.",
+        "Have означает действие."
+      ]
+    ],
+    "traps": [
+      [
+        "She have a phone.",
+        "She has a phone.",
+        "She требует has."
+      ],
+      [
+        "Does he has a bike?",
+        "Does he have a bike?",
+        "После does — have."
+      ],
+      [
+        "Do you have got a pen?",
+        "Have you got a pen?",
+        "Не смешивай модели."
+      ],
+      [
+        "I have got breakfast every morning (routine).",
+        "I have breakfast every morning.",
+        "Для регулярного действия have."
+      ]
+    ],
+    "toefl": "В учебных диалогах различай наличие учебных материалов и привычные действия. В Speaking отвечай Do you have a computer? — Yes, I do. I use it every day. В Writing Email уточняй доступность материалов. Это базовая тренировка, не официальный TOEFL."
+  },
+  "title": "Have / have got",
+  "description": "Говорить о владении, характеристиках и отношениях; различать have как основной и вспомогательный элемент",
+  "cardDescription": "Теория, guided practice, самостоятельные задания и выходная проверка по постоянному ID A1-07.",
+  "eyebrow": "Полный урок программы A1-07 · drafted",
+  "contentVersion": "1.1-draft",
+  "curriculumVersion": "1.0",
+  "prerequisites": [
+    "A1-02",
+    "A1-05"
+  ],
+  "outcomes": [
+    "Говорить о владении, характеристиках и отношениях; различать have как основной и вспомогательный элемент",
+    "Выбирать целевую конструкцию по контексту и смыслу.",
+    "Исправлять типичные ошибки и переносить правило в новый пример."
+  ],
+  "sourceRefs": [
+    "GR-01 U10",
+    "GR-02 U17",
+    "GR-05 A1-A2"
+  ],
+  "sourceStatus": "selected source text consulted; full page verification pending",
+  "status": "drafted",
+  "legacyCoverage": "Нет",
+  "toeflLinks": [
+    "Writing: Build a Sentence",
+    "Writing: Write an Email"
+  ],
+  "thresholds": {
+    "independent": 7,
+    "exit": 4,
+    "criticalIds": [
+      "E1",
+      "E2",
+      "E3"
+    ]
+  },
+  "groups": {
+    "independent": "Самостоятельная практика",
+    "exit": "Выходная проверка"
+  },
+  "items": [
+    {
+      "id": "D1",
+      "group": "Входная диагностика",
+      "prompt": "I ___ a new backpack.",
+      "options": [
+        "has",
+        "have",
+        "am have"
+      ],
+      "answer": "have",
+      "accepted": [
+        "have"
+      ],
+      "why": "I требует have.",
+      "distractorWhy": "Has для he/she/it.",
+      "distractorRationales": {
+        "has": "Has для he/she/it.",
+        "am have": "Am не вспомогательное здесь."
+      },
+      "skillTarget": "have-have-got-possession",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D2",
+      "group": "Входная диагностика",
+      "prompt": "Leo ___ a sister.",
+      "options": [
+        "has",
+        "have",
+        "is have"
+      ],
+      "answer": "has",
+      "accepted": [
+        "has"
+      ],
+      "why": "Leo singular, has.",
+      "distractorWhy": "Have для I/you/we/they.",
+      "distractorRationales": {
+        "have": "Have для I/you/we/they.",
+        "is have": "Is have неверно."
+      },
+      "skillTarget": "have-have-got-possession",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D3",
+      "group": "Входная диагностика",
+      "prompt": "They ___ got two bikes.",
+      "options": [
+        "has",
+        "are",
+        "have"
+      ],
+      "answer": "have",
+      "accepted": [
+        "have"
+      ],
+      "why": "Have got с they.",
+      "distractorWhy": "Has не согласуется.",
+      "distractorRationales": {
+        "has": "Has не согласуется.",
+        "are": "Are не образует have got."
+      },
+      "skillTarget": "have-have-got-possession",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D4",
+      "group": "Входная диагностика",
+      "prompt": "Mia ___ got a notebook.",
+      "options": [
+        "have",
+        "has",
+        "is"
+      ],
+      "answer": "has",
+      "accepted": [
+        "has"
+      ],
+      "why": "Mia требует has got.",
+      "distractorWhy": "Have не согласуется.",
+      "distractorRationales": {
+        "have": "Have не согласуется.",
+        "is": "Is got не целевая форма."
+      },
+      "skillTarget": "have-have-got-possession",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G1",
+      "group": "Управляемая практика",
+      "prompt": "Choose ordinary have question about a pen.",
+      "options": [
+        "Do you have a pen?",
+        "Do you has a pen?",
+        "Are you have a pen?"
+      ],
+      "answer": "Do you have a pen?",
+      "accepted": [
+        "Do you have a pen?"
+      ],
+      "why": "Do + have.",
+      "distractorWhy": "Has не V1.",
+      "distractorRationales": {
+        "Do you has a pen?": "Has не V1.",
+        "Are you have a pen?": "Are не вопрос have."
+      },
+      "skillTarget": "have-have-got-possession",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G2",
+      "group": "Управляемая практика",
+      "prompt": "Choose have got question about a pen.",
+      "options": [
+        "Do you have got a pen?",
+        "Have you get a pen?",
+        "Have you got a pen?"
+      ],
+      "answer": "Have you got a pen?",
+      "accepted": [
+        "Have you got a pen?"
+      ],
+      "why": "Have + subject + got.",
+      "distractorWhy": "Do лишнее.",
+      "distractorRationales": {
+        "Do you have got a pen?": "Do лишнее.",
+        "Have you get a pen?": "Нужно got."
+      },
+      "skillTarget": "have-have-got-possession",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G3",
+      "group": "Управляемая практика",
+      "prompt": "Choose ordinary have negative with he.",
+      "options": [
+        "He doesn't has a car.",
+        "He doesn't have a car.",
+        "He don't have a car."
+      ],
+      "answer": "He doesn't have a car.",
+      "accepted": [
+        "He doesn't have a car."
+      ],
+      "why": "Doesn't + have.",
+      "distractorWhy": "Has не V1.",
+      "distractorRationales": {
+        "He doesn't has a car.": "Has не V1.",
+        "He don't have a car.": "He требует doesn't."
+      },
+      "skillTarget": "have-have-got-possession",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G4",
+      "group": "Управляемая практика",
+      "prompt": "Choose have got negative with she.",
+      "options": [
+        "She hasn't got a car.",
+        "She doesn't got a car.",
+        "She haven't got a car."
+      ],
+      "answer": "She hasn't got a car.",
+      "accepted": [
+        "She hasn't got a car."
+      ],
+      "why": "Hasn't got.",
+      "distractorWhy": "Doesn't got смешивает модели.",
+      "distractorRationales": {
+        "She doesn't got a car.": "Doesn't got смешивает модели.",
+        "She haven't got a car.": "She требует hasn't."
+      },
+      "skillTarget": "have-have-got-possession",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G5",
+      "group": "Управляемая практика",
+      "prompt": "Choose ordinary have question about Anna's keys.",
+      "options": [
+        "Does Anna has her keys?",
+        "Do Anna have her keys?",
+        "Does Anna have her keys?"
+      ],
+      "answer": "Does Anna have her keys?",
+      "accepted": [
+        "Does Anna have her keys?"
+      ],
+      "why": "Does + have.",
+      "distractorWhy": "Has после does неверно.",
+      "distractorRationales": {
+        "Does Anna has her keys?": "Has после does неверно.",
+        "Do Anna have her keys?": "Anna singular."
+      },
+      "skillTarget": "have-have-got-possession",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G6",
+      "group": "Управляемая практика",
+      "prompt": "Choose have got question about Anna's bag.",
+      "options": [
+        "Does Anna got her bag?",
+        "Has Anna got her bag?",
+        "Have Anna got her bag?"
+      ],
+      "answer": "Has Anna got her bag?",
+      "accepted": [
+        "Has Anna got her bag?"
+      ],
+      "why": "Has + Anna + got.",
+      "distractorWhy": "Does не сочетается с got.",
+      "distractorRationales": {
+        "Does Anna got her bag?": "Does не сочетается с got.",
+        "Have Anna got her bag?": "Anna требует has."
+      },
+      "skillTarget": "have-have-got-possession",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I1",
+      "group": "Самостоятельная практика",
+      "prompt": "'Do you have a charger?' Answer yes.",
+      "options": [
+        "Yes, I has.",
+        "Yes, I am.",
+        "Yes, I do."
+      ],
+      "answer": "Yes, I do.",
+      "accepted": [
+        "Yes, I do."
+      ],
+      "why": "Do повторяет вопрос.",
+      "distractorWhy": "Has не согласуется с I.",
+      "distractorRationales": {
+        "Yes, I has.": "Has не согласуется с I.",
+        "Yes, I am.": "Am не auxiliary вопроса."
+      },
+      "skillTarget": "have-have-got-possession",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I2",
+      "group": "Самостоятельная практика",
+      "prompt": "'Have you got a charger?' Answer no.",
+      "options": [
+        "No, I don't got.",
+        "No, I haven't.",
+        "No, I hasn't."
+      ],
+      "answer": "No, I haven't.",
+      "accepted": [
+        "No, I haven't."
+      ],
+      "why": "Have not соответствует have got.",
+      "distractorWhy": "Don't got неверно.",
+      "distractorRationales": {
+        "No, I don't got.": "Don't got неверно.",
+        "No, I hasn't.": "I требует haven't."
+      },
+      "skillTarget": "have-have-got-possession",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I3",
+      "group": "Самостоятельная практика",
+      "prompt": "'Has he got a ticket?' Answer yes.",
+      "options": [
+        "Yes, he has.",
+        "Yes, he does got.",
+        "Yes, he have."
+      ],
+      "answer": "Yes, he has.",
+      "accepted": [
+        "Yes, he has."
+      ],
+      "why": "Has повторяет вопрос.",
+      "distractorWhy": "Does got неверно.",
+      "distractorRationales": {
+        "Yes, he does got.": "Does got неверно.",
+        "Yes, he have.": "He требует has."
+      },
+      "skillTarget": "have-have-got-possession",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I4",
+      "group": "Самостоятельная практика",
+      "prompt": "'Does she have a dictionary?' Answer no.",
+      "options": [
+        "No, she don't.",
+        "No, she hasn't got.",
+        "No, she doesn't."
+      ],
+      "answer": "No, she doesn't.",
+      "accepted": [
+        "No, she doesn't."
+      ],
+      "why": "Doesn't соответствует вопросу.",
+      "distractorWhy": "She требует doesn't.",
+      "distractorRationales": {
+        "No, she don't.": "She требует doesn't.",
+        "No, she hasn't got.": "В целевом кратком ответе повторяем does."
+      },
+      "skillTarget": "have-have-got-possession",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I5",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose a daily activity with have.",
+      "options": [
+        "I have got lunch every day as an activity.",
+        "I have lunch at twelve.",
+        "I has lunch at twelve."
+      ],
+      "answer": "I have lunch at twelve.",
+      "accepted": [
+        "I have lunch at twelve."
+      ],
+      "why": "Have lunch обозначает действие.",
+      "distractorWhy": "Have got не обычная модель действия.",
+      "distractorRationales": {
+        "I have got lunch every day as an activity.": "Have got не обычная модель действия.",
+        "I has lunch at twelve.": "I требует have."
+      },
+      "skillTarget": "have-have-got-possession",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I6",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose an action happening now.",
+      "options": [
+        "I'm having a shower.",
+        "I'm have a shower.",
+        "I've got a shower now as an activity."
+      ],
+      "answer": "I'm having a shower.",
+      "accepted": [
+        "I'm having a shower."
+      ],
+      "why": "Am having — процесс.",
+      "distractorWhy": "После am нужна -ing.",
+      "distractorRationales": {
+        "I'm have a shower.": "После am нужна -ing.",
+        "I've got a shower now as an activity.": "Have got означает наличие."
+      },
+      "skillTarget": "have-have-got-possession",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I7",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose past possession: Yesterday we ___ enough time.",
+      "options": [
+        "have got",
+        "has",
+        "had"
+      ],
+      "answer": "had",
+      "accepted": [
+        "had"
+      ],
+      "why": "Had — прошлое.",
+      "distractorWhy": "Have got здесь настоящее.",
+      "distractorRationales": {
+        "have got": "Have got здесь настоящее.",
+        "has": "Has не прошлое и не we."
+      },
+      "skillTarget": "have-have-got-possession",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I8",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose past question with have.",
+      "options": [
+        "Did you had a bike at school?",
+        "Did you have a bike at school?",
+        "Had you got a bike yesterday as the standard simple past pattern?"
+      ],
+      "answer": "Did you have a bike at school?",
+      "accepted": [
+        "Did you have a bike at school?"
+      ],
+      "why": "Did + have.",
+      "distractorWhy": "Had не V1.",
+      "distractorRationales": {
+        "Did you had a bike at school?": "Had не V1.",
+        "Had you got a bike yesterday as the standard simple past pattern?": "Целевая базовая модель did."
+      },
+      "skillTarget": "have-have-got-possession",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I9",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose future possession.",
+      "options": [
+        "I'll have a new timetable tomorrow.",
+        "I'll has a new timetable tomorrow.",
+        "I'll got a new timetable tomorrow."
+      ],
+      "answer": "I'll have a new timetable tomorrow.",
+      "accepted": [
+        "I'll have a new timetable tomorrow."
+      ],
+      "why": "Will + have.",
+      "distractorWhy": "Has не V1.",
+      "distractorRationales": {
+        "I'll has a new timetable tomorrow.": "Has не V1.",
+        "I'll got a new timetable tomorrow.": "Got не V1."
+      },
+      "skillTarget": "have-have-got-possession",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E1",
+      "group": "Выходная проверка",
+      "prompt": "Choose contraction meaning she has got.",
+      "options": [
+        "She's got",
+        "She've got",
+        "She're got"
+      ],
+      "answer": "She's got",
+      "accepted": [
+        "She's got"
+      ],
+      "why": "She's = she has здесь.",
+      "distractorWhy": "She не принимает have.",
+      "distractorRationales": {
+        "She've got": "She не принимает have.",
+        "She're got": "She не принимает are."
+      },
+      "skillTarget": "have-have-got-possession",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E2",
+      "group": "Выходная проверка",
+      "prompt": "Choose ordinary have negative about any paper.",
+      "options": [
+        "We doesn't have any paper.",
+        "We don't has any paper.",
+        "We don't have any paper."
+      ],
+      "answer": "We don't have any paper.",
+      "accepted": [
+        "We don't have any paper."
+      ],
+      "why": "We + don't + have.",
+      "distractorWhy": "Doesn't не с we.",
+      "distractorRationales": {
+        "We doesn't have any paper.": "Doesn't не с we.",
+        "We don't has any paper.": "Has не V1."
+      },
+      "skillTarget": "have-have-got-possession",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E3",
+      "group": "Выходная проверка",
+      "prompt": "Choose have got question about several people.",
+      "options": [
+        "Has they got any questions?",
+        "Have they got any questions?",
+        "Do they got any questions?"
+      ],
+      "answer": "Have they got any questions?",
+      "accepted": [
+        "Have they got any questions?"
+      ],
+      "why": "They + have got.",
+      "distractorWhy": "Has не с they.",
+      "distractorRationales": {
+        "Has they got any questions?": "Has не с they.",
+        "Do they got any questions?": "Do + got неверно."
+      },
+      "skillTarget": "have-have-got-possession",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E4",
+      "group": "Выходная проверка",
+      "prompt": "Choose correct possession phrase with an article.",
+      "options": [
+        "I've got an umbrella.",
+        "I've got a umbrella.",
+        "I've got an umbrellas."
+      ],
+      "answer": "I've got an umbrella.",
+      "accepted": [
+        "I've got an umbrella."
+      ],
+      "why": "An перед гласным звуком.",
+      "distractorWhy": "A перед согласным.",
+      "distractorRationales": {
+        "I've got a umbrella.": "A перед согласным.",
+        "I've got an umbrellas.": "An только singular."
+      },
+      "skillTarget": "have-have-got-possession",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E5",
+      "group": "Выходная проверка",
+      "prompt": "Which pair has equivalent possession meaning?",
+      "options": [
+        "I have a dog. / I'm having a dog as a current activity.",
+        "I have a dog. / I haven't got a dog.",
+        "I have a dog. / I've got a dog."
+      ],
+      "answer": "I have a dog. / I've got a dog.",
+      "accepted": [
+        "I have a dog. / I've got a dog."
+      ],
+      "why": "Обе модели выражают наличие.",
+      "distractorWhy": "Continuous не обычное владение.",
+      "distractorRationales": {
+        "I have a dog. / I'm having a dog as a current activity.": "Continuous не обычное владение.",
+        "I have a dog. / I haven't got a dog.": "Вторая фраза отрицательная."
+      },
+      "skillTarget": "have-have-got-possession",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "W1",
+      "group": "Самостоятельное применение",
+      "prompt": "Составь диалог из 8–10 реплик о наличии учебных принадлежностей и обычном распорядке. Используй обе модели, два вопроса, два отрицания и короткие ответы.",
+      "open": true,
+      "rubric": [
+        "Have/has согласованы.",
+        "Got сохранено в нужной модели.",
+        "Do/does не смешаны с have got.",
+        "После does стоит have.",
+        "Наличие отличается от действия.",
+        "Краткие ответы соответствуют вопросу."
+      ],
+      "skillTarget": "Самостоятельное применение A1-07",
+      "interactionType": "open-production",
+      "difficulty": "transfer",
+      "sourceBasis": "Speakbase-authored open production; self-review rubric only until real AI feedback is connected",
+      "contentVersion": "1.1-draft"
+    }
+  ],
+  "markdown": "# Speakbase — A1-07: Have / have got\n\n**Curriculum ID:** `A1-07`  \n**Уровень:** A1  \n**Версия:** 1.1-draft\n**Статус:** drafted; selected source text checked; full source-page and learner acceptance pending\n**Предварительные темы:** A1-02, A1-05  \n**Связь со старым каталогом:** Нет — —\n\n## 1. Результаты обучения\n\n- Говорить о владении, характеристиках и отношениях; различать have как основной и вспомогательный элемент\n- Выбирать целевую форму по значению, структуре предложения и контексту.\n- Объяснять, почему близкая грамматическая форма меняет смысл или регистр.\n- Находить и исправлять типичные ошибки русскоязычных студентов.\n\n## 2. Источники и статус сверки\n\n| Source | PDF navigation | Lesson-specific checks | Status |\n|---|---|---|---|\n| GR-01 U10 | PDF pages 31-32 (Unit 10) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-02 U17 | PDF pages 46-47 (Unit 17) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-05 A1-A2 | Consult the source register and level/topic section; exact page locator pending. | Compare the rule, examples, restrictions and exercises against this lesson | unit mapped; exact page review pending |\n\nUnit/page locations are navigation aids only. They do not prove that the cited explanation, examples, restrictions and answer key have been checked for this lesson. Examples and explanations below are Speakbase-authored, not quotations from the textbook.\n\nПеред переводом этого урока в source-verified необходимо открыть целевые страницы конкретного издания, записать печатную и PDF-пагинацию, сверить ограничения и исключения. Для GR-03 со сканированными страницами обязательна визуальная проверка.\n\n**Evidence for this editorial pass:** GR-01 Units 10 and 59, theory text inspected PDF pp. 31, 129 (printed 30, 128); additional sources and exercise-page/visual verification pending. The selected source text was consulted; not all pages, exercises, editions, scanned GR-03 pages or GR-05 descriptors were checked. Author-created explanations and practice are not copied source exercises.\n\n## 3. Место темы и границы\n\nСопоставь have как possession/relationship и have как activity. Have got — вариант для владения; have breakfast/a meeting — обычный смысловой глагол.\n\nСтарый каталог содержит: —. Его статус — Нет. Старые отметки завершения не переносятся автоматически на новый постоянный ID. Тема рассматривается в уровне A1 и не заменяет обязательные prerequisites.\n\n## 4. Полный конспект\n\n### 4.1. Основная идея и функция конструкции\n\nHave и have got обозначают наличие, принадлежность, родственные связи и некоторые состояния. I have a bike и I've got a bike обычно означают одно и то же: у меня есть велосипед. В русском «у меня есть» не содержит глагола «иметь», но в английском нужен have или have got.\n\nHave got особенно распространено в разговорном британском английском, обычное have широко используется и в американском. Не смешивай их вопросительные и отрицательные модели. Have также входит в выражения действий: have breakfast, have a shower, have a lesson. Для действия have got не используется в том же значении.\n\n### 4.2. Формирование и грамматическая модель\n\n| Subject | Have | Have got |\n|---|---|---|\n| I/you/we/they | have | have got |\n| he/she/it | has | has got |\n| I/you/we/they (negative) | don't have | haven't got |\n| he/she/it (negative) | doesn't have | hasn't got |\n| Вопрос | Do/Does + subject + have? | Have/Has + subject + got? |\n\nВ обычной модели после does и doesn't всегда have, даже если в утверждении has. В модели have got сокращения I've got, she's got, we've got означают have/has got. Got обязательно в этой модели: She hasn't got a pen. Have/has перемещается перед subject в вопросе: Has she got a pen? Короткий ответ повторяет вспомогательное слово: Yes, she does или Yes, she has, в зависимости от вопроса.\n\n### 4.3. Как выбрать подходящую форму\n\nВыбери, сообщаешь ли ты о наличии или о действии. Для наличия можно использовать любую из двух моделей. Выбрав have got, сохраняй got в утверждении, вопросе и отрицании; выбрав have, применяй do/does в обычных вопросах и отрицаниях.\n\nДля прошлой принадлежности используй had, didn't have, Did…have? В будущем will have. Для регулярного действия I have breakfast at seven; для текущего процесса I'm having breakfast. Have got a headache обозначает состояние, а have a shower — действие.\n\n### 4.4. Сравнение с близкими конструкциями\n\n| Наличие | Действие |\n|---|---|\n| I have a laptop. / I've got a laptop. | I have lunch at noon. |\n| She has a sister. / She's got a sister. | She has a shower every morning. |\n| Do you have a pen? / Have you got a pen? | Do you have breakfast at home? |\n\n### 4.5. Примеры с переводом и объяснением\n\n| English | Перевод | Почему это подходит |\n| --- | --- | --- |\n| I have two notebooks. | У меня две тетради. | I + have. |\n| She's got a blue bag. | У неё синяя сумка. | She + has got. |\n| Do you have any spare paper? | У тебя есть запасная бумага? | Do + subject + have. |\n| Has he got a key? | У него есть ключ? | Has + subject + got. |\n| We don't have a car. | У нас нет машины. | Don't + have. |\n| I have breakfast at eight. | Я завтракаю в восемь. | Have означает действие. |\n\n### 4.6. Исключения, ограничения и границы употребления\n\nНе делай have got универсальным эквивалентом have. В I have got a new job речь о нынешнем наличии работы или, в другом контексте, о получении работы. Не используем got для обычного описания повторяющегося завтрака.\n\nВ учебной нейтральной модели владения не употребляй I'm having a bike. Но having breakfast правильно, поскольку это деятельность. Have you a pen? возможно в некоторых вариантах английского; на A1 осваиваем распространённые Do you have…? и Have you got…?. Has got — не has get. A/an и any выбираются независимо от have: a pen, any pens, any money.\n\n### 4.7. Типичные ошибки русскоязычных студентов\n\n| Ошибка | Исправление | Объяснение |\n| --- | --- | --- |\n| She have a phone. | She has a phone. | She требует has. |\n| Does he has a bike? | Does he have a bike? | После does — have. |\n| Do you have got a pen? | Have you got a pen? | Не смешивай модели. |\n| I have got breakfast every morning (routine). | I have breakfast every morning. | Для регулярного действия have. |\n\n### 4.8. Произношение и восприятие на слух\n\nПроизноси I've got и she's got целиком. В коротких ответах Yes, I have и Yes, I do не сокращай положительную форму. Слушай has и have перед got; отдельная аудиосверка пока не выполнена.\n\nСначала прослушай или прочитай пример, затем произнеси его целиком. Обрати внимание на смысловое ударение и форму конструкции; не ориентируйся только на буквенный перевод.\n\n### 4.9. Академический английский и TOEFL-перенос\n\nВ учебных диалогах различай наличие учебных материалов и привычные действия. В Speaking отвечай Do you have a computer? — Yes, I do. I use it every day. В Writing Email уточняй доступность материалов. Это базовая тренировка, не официальный TOEFL.\n\nЭто авторская практика переноса навыка. Она не является официальным заданием TOEFL и не выдаётся за официальный результат экзамена.\n\n### 4.10. Примеры для управляемого разбора\n\n- I have two notebooks. — У меня две тетради. I + have.\n- She's got a blue bag. — У неё синяя сумка. She + has got.\n- Do you have any spare paper? — У тебя есть запасная бумага? Do + subject + have.\n\nДля каждого примера назови целевую конструкцию, объясни выбор и составь новое предложение в другом контексте. Затем перейди к заданиям: сначала диагностика, затем управляемая и самостоятельная практика, затем новые вопросы выходной проверки.\n\n### 4.11. Самопроверка\n\nПеред отправкой ответа проверь:\n1. Have/has согласованы.\n2. Got сохранено в нужной модели.\n3. Do/does не смешаны с have got.\n4. После does стоит have.\n5. Наличие отличается от действия.\n6. Краткие ответы соответствуют вопросу.\n\n### 4.12. Краткая памятка\n\nHave/has или have/has got — наличие. Do/does + have и have/has + subject + got — разные вопросы. Don't/doesn't have и haven't/hasn't got — разные отрицания. Had — прошлое. Have breakfast — действие.\n\nНе выбирай форму только по одному знакомому слову: проверь контекст, значение и структуру. При ошибке вернись к соответствующей части конспекта и составь собственный пример.\n\n## 5. Практика\n\nВ приложении практика разделена на входную диагностику, управляемые задания, самостоятельную практику и новую выходную проверку. Закрытые ответы получают rationale и разбор ошибки. Свободный текст сохраняется и оценивается по рубрике; до подключения и реальной проверки AI-движка система не выдаёт его за автоматическую AI-оценку.\n\n## 6. Интервальное повторение\n\nПовторяй не весь урок автоматически, а конкретную ошибку: выбор формы, согласование, word order, значение, регистр или пунктуацию. Новая попытка должна менять лексический контекст и формулировку, чтобы проверять перенос, а не запоминание одной строки.\n\n## 7. Технический статус\n\n- Постоянный ID: `A1-07`.\n- Прогресс хранится отдельно в course.grammarLessons[\"A1-07\"].\n- Содержание и ключи имеют статус draft; 24 авторских закрытых задания и объяснения вычитаны, выбранные тексты источников проверены. Полная постраничная и пользовательская приёмка остаются открытыми.\n- Предварительное выполнение порогов не равно окончательному mastered: нужны отсроченное повторение и learner review.",
+  "theoryEnd": "## 5."
+}

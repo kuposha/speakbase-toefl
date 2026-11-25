@@ -1,0 +1,736 @@
+{
+  "id": "A1-09",
+  "level": "A1",
+  "sequence": "A1-09",
+  "grammarFamily": "possessive",
+  "questionBankSource": "topic-specific-authored",
+  "sourceVerification": "draft; selected source text consulted; complete source-page and learner review pending",
+  "topicProfile": {
+    "label": "possessives and demonstratives",
+    "core": "Possessive determiners показывают, кому принадлежит предмет: my book, her phone. Possessive pronouns заменяют всю именную группу: The book is mine. Demonstratives показывают, какой именно предмет имеется в виду: this book, those books.",
+    "form": "| Владелец | Перед noun | Без noun |\n|---|---|---|\n| I | my | mine |\n| you | your | yours |\n| he | his | his |\n| she | her | hers |\n| it | its | обычно не используется отдельно |\n| we | our | ours |\n| they | their | theirs |\n\n| Указание | Singular | Plural |\n|---|---|---|\n| Ближе | this | these |\n| Дальше | that | those |",
+    "selection": "Если после формы есть noun, выбирай my, your, his, her и т.д. Если noun уже известен и его нужно заменить, выбирай mine, yours, hers и т.д. Затем для demonstrative определяй число и контекст расстояния: this/that + singular, these/those + plural.",
+    "contrast": "| Перед noun | Самостоятельно |\n|---|---|\n| This is my pen. | This pen is mine. |\n| Those are her shoes. | Those shoes are hers. |\n| These are our books. | These books are ours. |\n| That's their car. | That car is theirs. |\n| This is his bag. | This bag is his. |",
+    "boundary": "This/that могут указывать на ситуацию, не только на физическое расстояние: That's right. This is… используется при знакомстве или по телефону. В учебных упражнениях близость/удалённость явно задаётся контекстом.",
+    "pronunciation": "This/these различаются гласным и конечным звуком; that/those также. У this, that, these, those начальный звонкий th. Произноси my bag и mine без лишнего s. Whose и who's звучат одинаково; смысл определяется структурой. Аудиосверка открыта.",
+    "examples": [
+      [
+        "This is my pencil.",
+        "Это мой карандаш.",
+        "My + noun."
+      ],
+      [
+        "The red pencil is hers.",
+        "Красный карандаш её.",
+        "Hers заменяет her pencil."
+      ],
+      [
+        "These are our bags.",
+        "Это наши сумки.",
+        "These plural + are."
+      ],
+      [
+        "That building over there is a library.",
+        "То здание — библиотека.",
+        "That указывает на один удалённый объект."
+      ],
+      [
+        "Whose keys are these?",
+        "Чьи это ключи?",
+        "Whose спрашивает владельца."
+      ],
+      [
+        "It's my brother's bike.",
+        "Это велосипед моего брата.",
+        "'s после singular owner."
+      ]
+    ],
+    "traps": [
+      [
+        "This pen is my.",
+        "This pen is mine.",
+        "Без noun нужен mine."
+      ],
+      [
+        "These is my books.",
+        "These are my books.",
+        "These plural."
+      ],
+      [
+        "It's tail is long.",
+        "Its tail is long.",
+        "Its — принадлежность без апострофа."
+      ],
+      [
+        "My parents's car.",
+        "My parents' car.",
+        "Regular plural на s + apostrophe."
+      ]
+    ],
+    "toefl": "В Reading отслеживай, к кому относятся his/her/their. В Listening понимай указания this/that. В Speaking представляй людей и вещи: This is my classmate. В Writing проверяй ясность ссылок. Это базовая практика."
+  },
+  "title": "Possessives and demonstratives",
+  "description": "Использовать my/your/his/her/our/their, mine/yours, this/that/these/those",
+  "cardDescription": "Теория, guided practice, самостоятельные задания и выходная проверка по постоянному ID A1-09.",
+  "eyebrow": "Полный урок программы A1-09 · drafted",
+  "contentVersion": "1.1-draft",
+  "curriculumVersion": "1.0",
+  "prerequisites": [
+    "A1-02",
+    "A1-04"
+  ],
+  "outcomes": [
+    "Использовать my/your/his/her/our/their, mine/yours, this/that/these/those",
+    "Выбирать целевую конструкцию по контексту и смыслу.",
+    "Исправлять типичные ошибки и переносить правило в новый пример."
+  ],
+  "sourceRefs": [
+    "GR-01 U61-65",
+    "GR-01 U75",
+    "GR-02 U82-84",
+    "GR-05 A1 p14"
+  ],
+  "sourceStatus": "selected source text consulted; full page verification pending",
+  "status": "drafted",
+  "legacyCoverage": "Нет",
+  "toeflLinks": [
+    "Writing: Build a Sentence",
+    "Writing: Write an Email"
+  ],
+  "thresholds": {
+    "independent": 7,
+    "exit": 4,
+    "criticalIds": [
+      "E1",
+      "E2",
+      "E3"
+    ]
+  },
+  "groups": {
+    "independent": "Самостоятельная практика",
+    "exit": "Выходная проверка"
+  },
+  "items": [
+    {
+      "id": "D1",
+      "group": "Входная диагностика",
+      "prompt": "The notebook belongs to me. This is ___ notebook.",
+      "options": [
+        "mine",
+        "my",
+        "me"
+      ],
+      "answer": "my",
+      "accepted": [
+        "my"
+      ],
+      "why": "My перед noun.",
+      "distractorWhy": "Mine без noun.",
+      "distractorRationales": {
+        "mine": "Mine без noun.",
+        "me": "Me объектное местоимение."
+      },
+      "skillTarget": "possessive",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D2",
+      "group": "Входная диагностика",
+      "prompt": "The notebook belongs to me. It is ___.",
+      "options": [
+        "mine",
+        "my",
+        "I"
+      ],
+      "answer": "mine",
+      "accepted": [
+        "mine"
+      ],
+      "why": "Mine самостоятельно.",
+      "distractorWhy": "My требует noun.",
+      "distractorRationales": {
+        "my": "My требует noun.",
+        "I": "I subject pronoun."
+      },
+      "skillTarget": "possessive",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D3",
+      "group": "Входная диагностика",
+      "prompt": "The bag belongs to you. This is ___ bag.",
+      "options": [
+        "yours",
+        "you",
+        "your"
+      ],
+      "answer": "your",
+      "accepted": [
+        "your"
+      ],
+      "why": "Your + noun.",
+      "distractorWhy": "Yours самостоятельно.",
+      "distractorRationales": {
+        "yours": "Yours самостоятельно.",
+        "you": "You не possessive determiner."
+      },
+      "skillTarget": "possessive",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D4",
+      "group": "Входная диагностика",
+      "prompt": "The bag belongs to you. It is ___.",
+      "options": [
+        "your",
+        "yours",
+        "you"
+      ],
+      "answer": "yours",
+      "accepted": [
+        "yours"
+      ],
+      "why": "Yours заменяет your bag.",
+      "distractorWhy": "Your требует noun.",
+      "distractorRationales": {
+        "your": "Your требует noun.",
+        "you": "You не possessive."
+      },
+      "skillTarget": "possessive",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G1",
+      "group": "Управляемая практика",
+      "prompt": "The bike belongs to Leo. It is ___ bike.",
+      "options": [
+        "his",
+        "he",
+        "him"
+      ],
+      "answer": "his",
+      "accepted": [
+        "his"
+      ],
+      "why": "His перед noun.",
+      "distractorWhy": "He subject.",
+      "distractorRationales": {
+        "he": "He subject.",
+        "him": "Him object."
+      },
+      "skillTarget": "possessive",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G2",
+      "group": "Управляемая практика",
+      "prompt": "The bike belongs to Leo. It is ___.",
+      "options": [
+        "he",
+        "hims",
+        "his"
+      ],
+      "answer": "his",
+      "accepted": [
+        "his"
+      ],
+      "why": "His также самостоятельная форма.",
+      "distractorWhy": "He не possessive.",
+      "distractorRationales": {
+        "he": "He не possessive.",
+        "hims": "Hims не существует."
+      },
+      "skillTarget": "possessive",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G3",
+      "group": "Управляемая практика",
+      "prompt": "The scarf belongs to Mia. It is ___ scarf.",
+      "options": [
+        "hers",
+        "her",
+        "she"
+      ],
+      "answer": "her",
+      "accepted": [
+        "her"
+      ],
+      "why": "Her + noun.",
+      "distractorWhy": "Hers без noun.",
+      "distractorRationales": {
+        "hers": "Hers без noun.",
+        "she": "She subject."
+      },
+      "skillTarget": "possessive",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G4",
+      "group": "Управляемая практика",
+      "prompt": "The scarf belongs to Mia. It is ___.",
+      "options": [
+        "hers",
+        "her",
+        "she"
+      ],
+      "answer": "hers",
+      "accepted": [
+        "hers"
+      ],
+      "why": "Hers самостоятельно.",
+      "distractorWhy": "Her здесь требует noun.",
+      "distractorRationales": {
+        "her": "Her здесь требует noun.",
+        "she": "She не possessive."
+      },
+      "skillTarget": "possessive",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G5",
+      "group": "Управляемая практика",
+      "prompt": "The house belongs to us. It is ___ house.",
+      "options": [
+        "ours",
+        "us",
+        "our"
+      ],
+      "answer": "our",
+      "accepted": [
+        "our"
+      ],
+      "why": "Our перед noun.",
+      "distractorWhy": "Ours без noun.",
+      "distractorRationales": {
+        "ours": "Ours без noun.",
+        "us": "Us object."
+      },
+      "skillTarget": "possessive",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G6",
+      "group": "Управляемая практика",
+      "prompt": "The house belongs to us. It is ___.",
+      "options": [
+        "our",
+        "ours",
+        "we"
+      ],
+      "answer": "ours",
+      "accepted": [
+        "ours"
+      ],
+      "why": "Ours заменяет our house.",
+      "distractorWhy": "Our требует noun.",
+      "distractorRationales": {
+        "our": "Our требует noun.",
+        "we": "We subject."
+      },
+      "skillTarget": "possessive",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I1",
+      "group": "Самостоятельная практика",
+      "prompt": "The books belong to them. They are ___ books.",
+      "options": [
+        "theirs",
+        "they",
+        "their"
+      ],
+      "answer": "their",
+      "accepted": [
+        "their"
+      ],
+      "why": "Their + noun.",
+      "distractorWhy": "Theirs без noun.",
+      "distractorRationales": {
+        "theirs": "Theirs без noun.",
+        "they": "They subject."
+      },
+      "skillTarget": "possessive",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I2",
+      "group": "Самостоятельная практика",
+      "prompt": "The books belong to them. They are ___.",
+      "options": [
+        "their",
+        "theirs",
+        "them"
+      ],
+      "answer": "theirs",
+      "accepted": [
+        "theirs"
+      ],
+      "why": "Theirs самостоятельно.",
+      "distractorWhy": "Their требует noun.",
+      "distractorRationales": {
+        "their": "Their требует noun.",
+        "them": "Them object."
+      },
+      "skillTarget": "possessive",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I3",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the possessive form for a cat's tail.",
+      "options": [
+        "its tail",
+        "it's tail",
+        "it tail"
+      ],
+      "answer": "its tail",
+      "accepted": [
+        "its tail"
+      ],
+      "why": "Its — принадлежность.",
+      "distractorWhy": "It's = it is/has.",
+      "distractorRationales": {
+        "it's tail": "It's = it is/has.",
+        "it tail": "It не determiner."
+      },
+      "skillTarget": "possessive",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I4",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the expansion of 'they're ready'.",
+      "options": [
+        "their ready",
+        "they have ready",
+        "they are ready"
+      ],
+      "answer": "they are ready",
+      "accepted": [
+        "they are ready"
+      ],
+      "why": "They're = they are.",
+      "distractorWhy": "Their possessive.",
+      "distractorRationales": {
+        "their ready": "Their possessive.",
+        "they have ready": "Have не значение contraction."
+      },
+      "skillTarget": "possessive",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I5",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the demonstrative for one book in your hand.",
+      "options": [
+        "these book",
+        "this book",
+        "those book"
+      ],
+      "answer": "this book",
+      "accepted": [
+        "this book"
+      ],
+      "why": "This singular near.",
+      "distractorWhy": "These plural.",
+      "distractorRationales": {
+        "these book": "These plural.",
+        "those book": "Those plural far."
+      },
+      "skillTarget": "possessive",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I6",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the demonstrative for several keys in your hand.",
+      "options": [
+        "these keys",
+        "this keys",
+        "that keys"
+      ],
+      "answer": "these keys",
+      "accepted": [
+        "these keys"
+      ],
+      "why": "These plural near.",
+      "distractorWhy": "This singular.",
+      "distractorRationales": {
+        "this keys": "This singular.",
+        "that keys": "That singular."
+      },
+      "skillTarget": "possessive",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I7",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the demonstrative for one house far across the river.",
+      "options": [
+        "those house",
+        "these house",
+        "that house"
+      ],
+      "answer": "that house",
+      "accepted": [
+        "that house"
+      ],
+      "why": "That singular far.",
+      "distractorWhy": "Those plural.",
+      "distractorRationales": {
+        "those house": "Those plural.",
+        "these house": "These plural near."
+      },
+      "skillTarget": "possessive",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I8",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the demonstrative for several trees far away.",
+      "options": [
+        "that trees",
+        "those trees",
+        "this trees"
+      ],
+      "answer": "those trees",
+      "accepted": [
+        "those trees"
+      ],
+      "why": "Those plural far.",
+      "distractorWhy": "That singular.",
+      "distractorRationales": {
+        "that trees": "That singular.",
+        "this trees": "This singular near."
+      },
+      "skillTarget": "possessive",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I9",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct agreement pointing at two nearby pencils.",
+      "options": [
+        "These are pencils.",
+        "These is pencils.",
+        "This are pencils."
+      ],
+      "answer": "These are pencils.",
+      "accepted": [
+        "These are pencils."
+      ],
+      "why": "These + are.",
+      "distractorWhy": "Is не с plural.",
+      "distractorRationales": {
+        "These is pencils.": "Is не с plural.",
+        "This are pencils.": "This singular."
+      },
+      "skillTarget": "possessive",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E1",
+      "group": "Выходная проверка",
+      "prompt": "Choose the question asking about ownership.",
+      "options": [
+        "Whose bag is this?",
+        "Who's bag is this?",
+        "Who bag is this?"
+      ],
+      "answer": "Whose bag is this?",
+      "accepted": [
+        "Whose bag is this?"
+      ],
+      "why": "Whose — чей.",
+      "distractorWhy": "Who's = who is/has.",
+      "distractorRationales": {
+        "Who's bag is this?": "Who's = who is/has.",
+        "Who bag is this?": "Who не possessive."
+      },
+      "skillTarget": "possessive",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E2",
+      "group": "Выходная проверка",
+      "prompt": "Choose possession by one student.",
+      "options": [
+        "the students' desk (one owner)",
+        "the student desk's as ownership",
+        "the student's desk"
+      ],
+      "answer": "the student's desk",
+      "accepted": [
+        "the student's desk"
+      ],
+      "why": "Singular student + 's.",
+      "distractorWhy": "Students' несколько студентов.",
+      "distractorRationales": {
+        "the students' desk (one owner)": "Students' несколько студентов.",
+        "the student desk's as ownership": "Апостроф относится к desk, не owner."
+      },
+      "skillTarget": "possessive",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E3",
+      "group": "Выходная проверка",
+      "prompt": "Choose a car belonging to both parents.",
+      "options": [
+        "my parent's car (both parents)",
+        "my parents' car",
+        "my parents's car"
+      ],
+      "answer": "my parents' car",
+      "accepted": [
+        "my parents' car"
+      ],
+      "why": "Regular plural parents + '.",
+      "distractorWhy": "Parent's один родитель.",
+      "distractorRationales": {
+        "my parent's car (both parents)": "Parent's один родитель.",
+        "my parents's car": "Лишнее s."
+      },
+      "skillTarget": "possessive",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E4",
+      "group": "Выходная проверка",
+      "prompt": "Choose a toy belonging to children.",
+      "options": [
+        "the children's toy",
+        "the childrens' toy",
+        "the childrens toy"
+      ],
+      "answer": "the children's toy",
+      "accepted": [
+        "the children's toy"
+      ],
+      "why": "Irregular plural children + 's.",
+      "distractorWhy": "Childrens неверно.",
+      "distractorRationales": {
+        "the childrens' toy": "Childrens неверно.",
+        "the childrens toy": "Нет possessive marker."
+      },
+      "skillTarget": "possessive",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E5",
+      "group": "Выходная проверка",
+      "prompt": "Choose the phrase meaning one of my friends.",
+      "options": [
+        "a friend of my",
+        "a friend of I",
+        "a friend of mine"
+      ],
+      "answer": "a friend of mine",
+      "accepted": [
+        "a friend of mine"
+      ],
+      "why": "Mine самостоятельная possessive форма.",
+      "distractorWhy": "My требует noun.",
+      "distractorRationales": {
+        "a friend of my": "My требует noun.",
+        "a friend of I": "I subject."
+      },
+      "skillTarget": "possessive",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "W1",
+      "group": "Самостоятельное применение",
+      "prompt": "Составь диалог из 8–10 реплик о потерянных вещах: my/mine, her/hers, their/theirs, this/that/these/those, whose и две формы 's.",
+      "open": true,
+      "rubric": [
+        "Determiner стоит перед noun.",
+        "Pronoun заменяет noun phrase.",
+        "This/that и these/those согласованы.",
+        "Its и it's различены.",
+        "Whose и possessive 's употреблены верно.",
+        "Владелец однозначно понятен."
+      ],
+      "skillTarget": "Самостоятельное применение possessive",
+      "interactionType": "open-production",
+      "difficulty": "transfer",
+      "sourceBasis": "Speakbase-authored open production; self-review rubric only until real AI feedback is connected",
+      "contentVersion": "1.1-draft"
+    }
+  ],
+  "markdown": "# Speakbase — A1-09: Possessives and demonstratives\n\n**Curriculum ID:** `A1-09`  \n**Уровень:** A1  \n**Версия:** 1.1-draft\n**Статус:** drafted; selected source text checked; full source-page and learner acceptance pending\n**Предварительные темы:** A1-02, A1-04  \n**Связь со старым каталогом:** Нет — —\n\n## 1. Результаты обучения\n\n- Использовать my/your/his/her/our/their, mine/yours, this/that/these/those\n- Выбирать целевую форму по значению, структуре предложения и контексту.\n- Объяснять, почему близкая грамматическая форма меняет смысл или регистр.\n- Находить и исправлять типичные ошибки русскоязычных студентов.\n\n## 2. Источники и статус сверки\n\n| Source | PDF navigation | Lesson-specific checks | Status |\n|---|---|---|---|\n| GR-01 U61-65 | PDF pages 133-142 (Unit 61-65) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-01 U75 | PDF pages 161-162 (Unit 75) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-02 U82-84 | PDF pages 176-181 (Unit 82-84) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-05 A1 p14 | PDF pages 14 (A1 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n\nUnit/page locations are navigation aids only. They do not prove that the cited explanation, examples, restrictions and answer key have been checked for this lesson. Examples and explanations below are Speakbase-authored, not quotations from the textbook.\n\nПеред переводом этого урока в source-verified необходимо открыть целевые страницы конкретного издания, записать печатную и PDF-пагинацию, сверить ограничения и исключения. Для GR-03 со сканированными страницами обязательна визуальная проверка.\n\n**Evidence for this editorial pass:** GR-01 Units 61–63, 65 and 75, theory text inspected PDF pp. 133, 135, 137, 141, 161 (printed 131, 134, 136, 140, 160); additional source and exercise-page/visual verification pending. The selected source text was consulted; not all pages, exercises, editions, scanned GR-03 pages or GR-05 descriptors were checked. Author-created explanations and practice are not copied source exercises.\n\n## 3. Место темы и границы\n\nРазличай possessive determiners (my, your) и possessive pronouns (mine, yours); demonstratives меняются по числу и дистанции.\n\nСтарый каталог содержит: —. Его статус — Нет. Старые отметки завершения не переносятся автоматически на новый постоянный ID. Тема рассматривается в уровне A1 и не заменяет обязательные prerequisites.\n\n## 4. Полный конспект\n\n### 4.1. Основная идея и функция конструкции\n\nPossessive determiners показывают, кому принадлежит предмет: my book, her phone. Possessive pronouns заменяют всю именную группу: The book is mine. Demonstratives показывают, какой именно предмет имеется в виду: this book, those books.\n\nРусское «свой» переводится по владельцу: I like my room, she likes her room, they like their room. Форма не зависит от пола или числа самого предмета: my pen, my pens. В английском нет отдельного универсального possessive determiner «свой».\n\n### 4.2. Формирование и грамматическая модель\n\n| Владелец | Перед noun | Без noun |\n|---|---|---|\n| I | my | mine |\n| you | your | yours |\n| he | his | his |\n| she | her | hers |\n| it | its | обычно не используется отдельно |\n| we | our | ours |\n| they | their | theirs |\n\n| Указание | Singular | Plural |\n|---|---|---|\n| Ближе | this | these |\n| Дальше | that | those |\n\nMy/your/his/her/its/our/their стоят перед noun; mine/yours/his/hers/ours/theirs употребляются самостоятельно. His одинаков в обеих позициях. Its без апострофа обозначает принадлежность; it's = it is/it has. Their обозначает принадлежность, they're = they are. Не добавляй article к my/this: my book, this book, не the my book.\n\n### 4.3. Как выбрать подходящую форму\n\nЕсли после формы есть noun, выбирай my, your, his, her и т.д. Если noun уже известен и его нужно заменить, выбирай mine, yours, hers и т.д. Затем для demonstrative определяй число и контекст расстояния: this/that + singular, these/those + plural.\n\nWhose спрашивает принадлежность: Whose bag is this? It's mine. Whose не равно who's (who is/has). Для владельца-существительного используем 's: Anna's book; regular plural owners — apostrophe после s: my parents' car; irregular plural children's toys. Можно опустить известный предмет: It's Anna's.\n\n### 4.4. Сравнение с близкими конструкциями\n\n| Перед noun | Самостоятельно |\n|---|---|\n| This is my pen. | This pen is mine. |\n| Those are her shoes. | Those shoes are hers. |\n| These are our books. | These books are ours. |\n| That's their car. | That car is theirs. |\n| This is his bag. | This bag is his. |\n\n### 4.5. Примеры с переводом и объяснением\n\n| English | Перевод | Почему это подходит |\n| --- | --- | --- |\n| This is my pencil. | Это мой карандаш. | My + noun. |\n| The red pencil is hers. | Красный карандаш её. | Hers заменяет her pencil. |\n| These are our bags. | Это наши сумки. | These plural + are. |\n| That building over there is a library. | То здание — библиотека. | That указывает на один удалённый объект. |\n| Whose keys are these? | Чьи это ключи? | Whose спрашивает владельца. |\n| It's my brother's bike. | Это велосипед моего брата. | 's после singular owner. |\n\n### 4.6. Исключения, ограничения и границы употребления\n\nThis/that могут указывать на ситуацию, не только на физическое расстояние: That's right. This is… используется при знакомстве или по телефону. В учебных упражнениях близость/удалённость явно задаётся контекстом.\n\nНе используй hers book или this books. This/that согласуются с is; these/those с are. Possessive 's может встречаться и у организаций, времени и неодушевлённых предметов; не считай of единственным вариантом. Для A1 сначала изучаем принадлежность человеку. A friend of mine означает один из моих друзей. Не путай subject I, object me и possessive my/mine.\n\n### 4.7. Типичные ошибки русскоязычных студентов\n\n| Ошибка | Исправление | Объяснение |\n| --- | --- | --- |\n| This pen is my. | This pen is mine. | Без noun нужен mine. |\n| These is my books. | These are my books. | These plural. |\n| It's tail is long. | Its tail is long. | Its — принадлежность без апострофа. |\n| My parents's car. | My parents' car. | Regular plural на s + apostrophe. |\n\n### 4.8. Произношение и восприятие на слух\n\nThis/these различаются гласным и конечным звуком; that/those также. У this, that, these, those начальный звонкий th. Произноси my bag и mine без лишнего s. Whose и who's звучат одинаково; смысл определяется структурой. Аудиосверка открыта.\n\nСначала прослушай или прочитай пример, затем произнеси его целиком. Обрати внимание на смысловое ударение и форму конструкции; не ориентируйся только на буквенный перевод.\n\n### 4.9. Академический английский и TOEFL-перенос\n\nВ Reading отслеживай, к кому относятся his/her/their. В Listening понимай указания this/that. В Speaking представляй людей и вещи: This is my classmate. В Writing проверяй ясность ссылок. Это базовая практика.\n\nЭто авторская практика переноса навыка. Она не является официальным заданием TOEFL и не выдаётся за официальный результат экзамена.\n\n### 4.10. Примеры для управляемого разбора\n\n- This is my pencil. — Это мой карандаш. My + noun.\n- The red pencil is hers. — Красный карандаш её. Hers заменяет her pencil.\n- These are our bags. — Это наши сумки. These plural + are.\n\nДля каждого примера назови целевую конструкцию, объясни выбор и составь новое предложение в другом контексте. Затем перейди к заданиям: сначала диагностика, затем управляемая и самостоятельная практика, затем новые вопросы выходной проверки.\n\n### 4.11. Самопроверка\n\nПеред отправкой ответа проверь:\n1. Determiner стоит перед noun.\n2. Pronoun заменяет noun phrase.\n3. This/that и these/those согласованы.\n4. Its и it's различены.\n5. Whose и possessive 's употреблены верно.\n6. Владелец однозначно понятен.\n\n### 4.12. Краткая памятка\n\nMy/your/his/her/its/our/their + noun; mine/yours/his/hers/ours/theirs — без noun. This/that — singular; these/those — plural. Its ≠ it's. Whose — чей. Singular owner + 's, plural на s + '.\n\nНе выбирай форму только по одному знакомому слову: проверь контекст, значение и структуру. При ошибке вернись к соответствующей части конспекта и составь собственный пример.\n\n## 5. Практика\n\nВ приложении практика разделена на входную диагностику, управляемые задания, самостоятельную практику и новую выходную проверку. Закрытые ответы получают rationale и разбор ошибки. Свободный текст сохраняется и оценивается по рубрике; до подключения и реальной проверки AI-движка система не выдаёт его за автоматическую AI-оценку.\n\n## 6. Интервальное повторение\n\nПовторяй не весь урок автоматически, а конкретную ошибку: выбор формы, согласование, word order, значение, регистр или пунктуацию. Новая попытка должна менять лексический контекст и формулировку, чтобы проверять перенос, а не запоминание одной строки.\n\n## 7. Технический статус\n\n- Постоянный ID: `A1-09`.\n- Прогресс хранится отдельно в course.grammarLessons[\"A1-09\"].\n- Содержание и ключи имеют статус draft; 24 авторских закрытых задания и объяснения вычитаны, выбранные тексты источников проверены. Полная постраничная и пользовательская приёмка остаются открытыми.\n- Предварительное выполнение порогов не равно окончательному mastered: нужны отсроченное повторение и learner review.",
+  "theoryEnd": "## 5."
+}
