@@ -19,47 +19,44 @@ q("Seldom ___ a proposal of this scope been accepted so quickly.","has","have","
 ]},
 "C1-02":{base:"conditional",skillTarget:"inverted-and-ellipted-conditionals",profile:{
 label:"inverted and ellipted conditionals",
-core:"Formal conditional inversion removes if and places had, were or should before the subject. It preserves the conditional meaning while creating a more formal, concise register.",
-form:"Had + subject + V3 = If subject had V3. Were + subject + (to-infinitive/adjective/noun) = If subject were… . Should + subject + base verb = If subject should… .",
-selection:"Определи тип условия и время. Past unreal → Had + subject + V3; hypothetical present/future → Were + subject…; remote/contingent possibility → Should + subject + base verb.",
-contrast:"Had we known, we would have acted. Were the proposal accepted, funding would follow. Should you require assistance, contact the office.",
-boundary:"Do not use do-support after the inverted auxiliary. Inversion is formal; it does not change the underlying conditional time or result clause.",
-skillTarget:"inverted-and-ellipted-conditionals"
+core:"Formal conditional inversion removes if and places should, had or were before the subject. Unit 84 covers contingent should, past-perfect had and hypothetical were-to patterns; Units 83 and 85 provide real/unreal and hypothetical background.",
+form:"Should + subject + base verb; Had + subject + V3; Were + subject + to-infinitive/complement. Keep the result clause in normal order and choose its tense by meaning, including mixed conditionals.",
+selection:"Restore the if-clause, identify time and likelihood, choose should/had/were, remove if and invert only the auxiliary. Check the result clause separately.",
+contrast:"Should you need more information, telephone us. Had the company not rejected the proposal, it would be successful now. Were the election to be held today, the Liberals would win.",
+boundary:"Inversion is formal. If you should happen to... is not inversion because if remains. Do not invert the result clause; distinguish hypothetical were patterns from past-perfect had."
 },drills:[
 q("___ the committee known about the conflict, it would have postponed the vote.","Had","Were","Should","Had + subject + V3 is the formal inversion of if + Past Perfect.","Were introduces a hypothetical present/future condition, not past perfect.","Should expresses a contingent possibility rather than an unreal past condition."),
 q("___ the proposal to be approved, the project would begin in June.","Were","Had","Should","Were + subject + to-infinitive forms an inverted hypothetical condition.","Had requires a past participle and refers to an unreal past.","Should introduces a possible event, not the hypothetical were-to construction."),
 q("___ any further information be required, please contact the registrar.","Should","Had","Were","Should + subject + base verb is a formal contingent condition equivalent to if it should be required.","Had would require V3 and a past unreal condition.","Were would need a different predicate structure."),
 q("___ it not been for the external funding, the study would have ended early.","Had","Were","Should","Had it not been for expresses an unreal past condition.","Were it not for expresses a present counterfactual condition, not a past one.","Should it not be is a different contingent construction and does not match been for."),
 q("___ it not for the revised methodology, the results would be unreliable.","Were","Had","Should","Were it not for expresses a hypothetical present condition.","Had requires a past participle and refers to the past.","Should does not form this present counterfactual phrase."),
-q("___ the reviewers raised an objection, the editor would reconsider the decision.","Should","Had","Were","Should + subject + base verb introduces a remote possible condition.","Had raised would be past perfect and imply an unreal past condition.","Were raised would be passive/subjunctive and change the structure."),
+q("___ the reviewers raise an objection, the editor will reconsider the decision.","Should","Had","Were","Should + subject + base verb introduces a remote possible condition.","Had raised would be past perfect and imply an unreal past condition.","Were raise is not a grammatical hypothetical pattern; were would require a complement or to-infinitive."),
 q("Had the warning been issued earlier, fewer participants ___ affected.","would have been","would be now","will be","The result clause refers to an unreal past outcome: would have been + V3.","Would be now is present result; no present time point is given.","Will be is a real future form.")
 ]},
 "C1-03":{base:"cleft",skillTarget:"advanced-cleft-fronting-emphasis",profile:{
-label:"advanced cleft clauses, fronting and emphasis",
-core:"Advanced cleft and fronting structures manipulate information flow: they distinguish presupposed background from a focused element, correct a prior assumption and foreground a clause or phrase.",
-form:"It-cleft: It was not X but Y that… . Wh-cleft: What matters/concerns/needs emphasis is… . All-cleft: All that was required was… . Emphatic do: subject + do/does/did + base verb.",
-selection:"Определи, какой элемент противопоставляется или выносится в фокус. Выбери it-cleft для focused constituent, wh-cleft для focus as clause complement, and emphatic do for contrastive verb emphasis.",
-contrast:"It was not the cost but the delay that caused the problem. What the results demonstrate is a strong interaction. The team did identify the source.",
-boundary:"Clefts and emphatic do are marked information structures, not decorative alternatives. Maintain agreement, relative marker and parallelism in coordinated focus.",
-skillTarget:"advanced-cleft-fronting-emphasis"
+label:"advanced cleft clauses and inversion for emphasis",
+core:"It-clefts and what-clefts focus a constituent or clause. Other inversion patterns move an auxiliary before the subject after recognised triggers such as not only, negative/restrictive adverbials, so/such and neither/nor; place/direction expressions may invert with a full noun subject.",
+form:"It + be + focus + that/who-clause; What + clause + be + focus; Not only + auxiliary + subject + verb; so + adjective + auxiliary/be + subject + that; here/there + verb + full noun subject.",
+selection:"Identify whether the sentence needs a cleft for focus or a recognised inversion trigger. Fronting alone does not cause inversion; check the subject type and required auxiliary.",
+contrast:"It was the delay that caused the problem. What the results demonstrate is a strong interaction. Not only did the plan fail, but it also caused harm. Here comes the bus / Here it comes.",
+boundary:"Clefts are focus structures, not inversion. Fronting alone does not trigger inversion. Place inversion with pronoun subjects keeps normal order; negative inversion is covered in C1-01 and conditional inversion in C1-02."
 },drills:[
 q("It was not the initial sample but the second trial ___ exposed the flaw.","that","where","what","That introduces the cleft clause focused on the second trial.","Where refers to place, not the focused subject.","What does not introduce this it-cleft structure."),
 q("What the committee objected to ___ the lack of transparency.","was","were","did","The wh-cleft clause is treated as a singular subject in this construction; was links it to the focus.","Were incorrectly uses plural agreement with lack.","Did cannot function as the linking verb here."),
 q("All that the review established ___ that the data were incomplete.","was","were","has","All that… forms a singular focus clause in this sentence; was introduces its complement.","Were mismatches the singular all-clause focus.","Has does not link the clause to a that-complement in this pattern."),
 q("The team ___ identify the source of the discrepancy, despite the initial difficulty.","did","does","was","Did provides emphatic past simple auxiliary before the base verb identify.","Does is present tense and does not match the past context.","Was cannot directly precede the base verb identify."),
 q("It was the timing, rather than the cost, ___ ultimately determined the outcome.","that","who","where","That introduces the cleft clause focusing timing.","Who is used for people.","Where refers to place."),
-q("What is particularly important ___ whether the control group was comparable.","is","are","do","The wh-cleft subject is singular in this construction and takes is.","Are incorrectly treats the clause as plural.","Do is not a linking verb and cannot introduce the complement."),
-q("The researchers ___ acknowledge the limitations in the final paper.","did","were","have to did","Did is used for emphatic past simple + base verb acknowledge.","Were does not form an emphatic active past verb phrase here.","Have to did stacks auxiliaries and has an incorrect verb form.")
+q("Not only ___ the first trial fail, but it also produced misleading data.","did","was","has","Not only at the beginning triggers inversion; Past Simple uses did + subject + base verb.","Was would make fail a bare verb after be and does not fit the active clause.","Has would require a past participle and changes the tense pattern."),
+q("Here ___ the results of the second experiment.","come","comes","does come","A plural full noun subject follows the verb after fronted here: Here come the results.","Comes incorrectly agrees with the singular form rather than plural results.","Does come is not the normal here + verb + full subject pattern.")
 ]},
 
 "C1-04":{base:"participle",skillTarget:"advanced-non-finite-clauses",profile:{
 label:"advanced non-finite clauses",
-core:"Advanced non-finite clauses compress complex relations of time, cause, concession and condition. Perfect and passive participles distinguish anteriority and voice; absolute constructions may have their own explicit subject.",
-form:"Having + V3 (prior active); having been + V3 (prior passive); being + adjective/V3; given/considering/provided + noun phrase/clause; noun phrase + participle (absolute construction).",
-selection:"Восстанови полную finite clause и определи временное отношение и voice. Проверь, у кого есть собственный subject, и не допускай dangling modifier.",
-contrast:"Having completed the analysis, the team published the report (team completed). Having been reviewed, the report was published (report was reviewed). The data having been verified, the panel approved the model (absolute clause).",
-boundary:"Non-finite clauses can be concise but syntactically dense. Use explicit finite clauses when the subject or temporal relation could be misread; commas alone do not repair a dangling modifier.",
-skillTarget:"advanced-non-finite-clauses"
+core:"Participle clauses reduce adverbial and relative clauses. Present/perfect and passive participles express different time and voice relations; prepositions and conjunctions may introduce -ing or reduced participle clauses. The understood subject must be clear.",
+form:"-ing (active/simultaneous); having + V3 (earlier active); V3 / being + V3 (passive); having been + V3 (earlier passive); preposition + -ing; conjunction + participle; noun phrase + participle in an absolute clause.",
+selection:"?????????? finite clause, ???????? voice/time relation, ??????? preposition/conjunction and the understood subject.",
+contrast:"Having checked the figures, the analyst submitted the report. Although criticised, the paper was accepted. By working carefully, the team reduced errors. The data having been verified, the panel approved the model.",
+boundary:"The understood subject normally matches the main-clause subject; some absolute clauses have their own explicit subject. Use full clauses when the relationship is unclear."
 },drills:[
 q("___ subjected to repeated testing, the material showed no structural change.","Having been","Having","Being have","Having been + V3 marks an earlier passive process.","Having + V3 is active; the material receives testing.","Being have is not a grammatical non-finite pattern."),
 q("The evidence ___, the committee approved the recommendation.","having been reviewed","having reviewed","reviewing it","The absolute construction has the evidence as its own subject; passive perfect participle shows it was reviewed first.","Having reviewed would mean the evidence performed the review.","Reviewing it introduces an object and changes the subject relationship."),
