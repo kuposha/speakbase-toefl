@@ -1,0 +1,736 @@
+{
+  "id": "A1-14",
+  "level": "A1",
+  "sequence": "A1-14",
+  "grammarFamily": "simpleContinuous",
+  "questionBankSource": "topic-specific-authored",
+  "sourceVerification": "draft; selected source text consulted; complete source-page and learner review pending",
+  "topicProfile": {
+    "label": "Present Simple vs Present Continuous",
+    "core": "Present Simple описывает привычки, регулярность, факты и обычные состояния. Present Continuous описывает действие в процессе сейчас или временную деятельность. I read every evening — я читаю каждый вечер. I'm reading now — я сейчас читаю. Русский перевод настоящего времени похож, поэтому различай значение.",
+    "form": "| Тип | Present Simple | Present Continuous |\n|---|---|---|\n| I | I work. | I am working. |\n| she | She works. | She is working. |\n| Negative | She doesn't work. | She isn't working. |\n| Question | Does she work? | Is she working? |\n| Wh | Where does she work? | What is she doing? |",
+    "selection": "Сначала спроси: речь о привычке или процессе? Every day, usually, often, on Mondays часто указывают на Simple. Now, at the moment, Look!, Listen!, this week часто помогают распознать Continuous. Но выбирай по смыслу: I know the answer now — Simple, потому что know описывает состояние.",
+    "contrast": "| Simple | Continuous |\n|---|---|\n| I walk to college every day. | I'm walking to college now. |\n| She usually works at home. | She's working at the library this week. |\n| Does he play chess? | Is he playing chess now? |\n| I don't watch TV often. | I'm not watching TV now. |\n| I know her. | I'm talking to her. |",
+    "boundary": "Постоянность и временность — полезный ориентир, но не единственный. I live in Milan обычно сообщает место проживания; I'm living in Milan this month — временную ситуацию. Simple может описывать действия, которые происходят в данный период регулярно, а Continuous — текущую временную тенденцию.",
+    "pronunciation": "Слушай auxiliary и окончание: does she WORK или is she WORKing. В обычных фразах auxiliary часто безударно. Произноси пары every day / right now, сохраняя правильную форму. Аудиосверка открыта.",
+    "examples": [
+      [
+        "I usually study at home.",
+        "Я обычно занимаюсь дома.",
+        "Simple, привычка."
+      ],
+      [
+        "I'm studying at the library now.",
+        "Я сейчас занимаюсь в библиотеке.",
+        "Continuous, процесс."
+      ],
+      [
+        "Does she work on Mondays?",
+        "Она работает по понедельникам?",
+        "Simple question."
+      ],
+      [
+        "Is she working right now?",
+        "Она сейчас работает?",
+        "Continuous question."
+      ],
+      [
+        "I don't understand this word.",
+        "Я не понимаю это слово.",
+        "Состояние в Simple."
+      ],
+      [
+        "He has a bike, but he's taking the bus today.",
+        "У него есть велосипед, но сегодня он едет на автобусе.",
+        "Владение и текущая деятельность."
+      ]
+    ],
+    "traps": [
+      [
+        "She study every day.",
+        "She studies every day.",
+        "Simple, singular she + -s."
+      ],
+      [
+        "She is study now.",
+        "She is studying now.",
+        "Continuous требует -ing."
+      ],
+      [
+        "Does he working now?",
+        "Is he working now?",
+        "Вопрос о процессе через be."
+      ],
+      [
+        "I am knowing him.",
+        "I know him.",
+        "Know обычно Simple."
+      ]
+    ],
+    "toefl": "В Listening различай распорядок и происходящее в момент диалога. В Speaking отвечай на вопросы о привычках и текущей работе разными формами. В Writing Build a Sentence проверяй auxiliary и окончание. Это базовая авторская практика."
+  },
+  "title": "Present Simple vs Present Continuous",
+  "description": "Различать регулярность/общий факт и действие/временную ситуацию вокруг настоящего",
+  "cardDescription": "Теория, guided practice, самостоятельные задания и выходная проверка по постоянному ID A1-14.",
+  "eyebrow": "Полный урок программы A1-14 · drafted",
+  "contentVersion": "1.1-draft",
+  "curriculumVersion": "1.0",
+  "prerequisites": [
+    "A1-05",
+    "A1-13"
+  ],
+  "outcomes": [
+    "Различать регулярность/общий факт и действие/временную ситуацию вокруг настоящего",
+    "Выбирать целевую конструкцию по контексту и смыслу.",
+    "Исправлять типичные ошибки и переносить правило в новый пример."
+  ],
+  "sourceRefs": [
+    "GR-01 U9",
+    "GR-02 U3-4",
+    "GR-03 U1-2",
+    "GR-05 A2 p53"
+  ],
+  "sourceStatus": "selected source text consulted; full page verification pending",
+  "status": "drafted",
+  "legacyCoverage": "Полное ядро",
+  "toeflLinks": [
+    "Writing: Build a Sentence",
+    "Writing: Write an Email"
+  ],
+  "thresholds": {
+    "independent": 7,
+    "exit": 4,
+    "criticalIds": [
+      "E1",
+      "E2",
+      "E3"
+    ]
+  },
+  "groups": {
+    "independent": "Самостоятельная практика",
+    "exit": "Выходная проверка"
+  },
+  "items": [
+    {
+      "id": "D1",
+      "group": "Входная диагностика",
+      "prompt": "Choose the usual habit: I ___ English every morning.",
+      "options": [
+        "am study",
+        "study",
+        "studying"
+      ],
+      "answer": "study",
+      "accepted": [
+        "study"
+      ],
+      "why": "Simple для привычки, I + study.",
+      "distractorWhy": "Am study неверно.",
+      "distractorRationales": {
+        "am study": "Am study неверно.",
+        "studying": "Нет личной формы."
+      },
+      "skillTarget": "simpleContinuous",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D2",
+      "group": "Входная диагностика",
+      "prompt": "Choose the action in progress: Be quiet! I ___ English now.",
+      "options": [
+        "am studying",
+        "am study",
+        "studies"
+      ],
+      "answer": "am studying",
+      "accepted": [
+        "am studying"
+      ],
+      "why": "Процесс сейчас, am studying.",
+      "distractorWhy": "Study не -ing.",
+      "distractorRationales": {
+        "am study": "Study не -ing.",
+        "studies": "I не требует studies."
+      },
+      "skillTarget": "simpleContinuous",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D3",
+      "group": "Входная диагностика",
+      "prompt": "Choose the regular action with she.",
+      "options": [
+        "She read before bed every night (present habit).",
+        "She is read before bed every night.",
+        "She reads before bed every night."
+      ],
+      "answer": "She reads before bed every night.",
+      "accepted": [
+        "She reads before bed every night."
+      ],
+      "why": "She + reads в Simple.",
+      "distractorWhy": "Нет -s.",
+      "distractorRationales": {
+        "She read before bed every night (present habit).": "Нет -s.",
+        "She is read before bed every night.": "Is read не Continuous."
+      },
+      "skillTarget": "simpleContinuous",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D4",
+      "group": "Входная диагностика",
+      "prompt": "Choose the current process with she.",
+      "options": [
+        "She is read a novel right now.",
+        "She is reading a novel right now.",
+        "She reading a novel right now."
+      ],
+      "answer": "She is reading a novel right now.",
+      "accepted": [
+        "She is reading a novel right now."
+      ],
+      "why": "Is + V-ing.",
+      "distractorWhy": "Нет -ing.",
+      "distractorRationales": {
+        "She is read a novel right now.": "Нет -ing.",
+        "She reading a novel right now.": "Нет is."
+      },
+      "skillTarget": "simpleContinuous",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G1",
+      "group": "Управляемая практика",
+      "prompt": "Choose the regular weather pattern.",
+      "options": [
+        "It often rains in autumn.",
+        "It often rain in autumn.",
+        "It often raining in autumn."
+      ],
+      "answer": "It often rains in autumn.",
+      "accepted": [
+        "It often rains in autumn."
+      ],
+      "why": "Общая закономерность, it + rains.",
+      "distractorWhy": "Нет -s.",
+      "distractorRationales": {
+        "It often rain in autumn.": "Нет -s.",
+        "It often raining in autumn.": "Нет auxiliary."
+      },
+      "skillTarget": "simpleContinuous",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G2",
+      "group": "Управляемая практика",
+      "prompt": "Choose the rain happening now.",
+      "options": [
+        "Look! It raining.",
+        "Look! It are raining.",
+        "Look! It's raining."
+      ],
+      "answer": "Look! It's raining.",
+      "accepted": [
+        "Look! It's raining."
+      ],
+      "why": "It is raining — процесс.",
+      "distractorWhy": "Нет is.",
+      "distractorRationales": {
+        "Look! It raining.": "Нет is.",
+        "Look! It are raining.": "It требует is."
+      },
+      "skillTarget": "simpleContinuous",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G3",
+      "group": "Управляемая практика",
+      "prompt": "Choose the question about a regular activity.",
+      "options": [
+        "Is Ben play tennis on Sundays?",
+        "Does Ben play tennis on Sundays?",
+        "Does Ben plays tennis on Sundays?"
+      ],
+      "answer": "Does Ben play tennis on Sundays?",
+      "accepted": [
+        "Does Ben play tennis on Sundays?"
+      ],
+      "why": "Does + V1 для привычки.",
+      "distractorWhy": "Is не с V1.",
+      "distractorRationales": {
+        "Is Ben play tennis on Sundays?": "Is не с V1.",
+        "Does Ben plays tennis on Sundays?": "После does нет -s."
+      },
+      "skillTarget": "simpleContinuous",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G4",
+      "group": "Управляемая практика",
+      "prompt": "Choose the question about the current game.",
+      "options": [
+        "Is Ben playing tennis right now?",
+        "Does Ben playing tennis right now?",
+        "Is Ben play tennis right now?"
+      ],
+      "answer": "Is Ben playing tennis right now?",
+      "accepted": [
+        "Is Ben playing tennis right now?"
+      ],
+      "why": "Is + subject + V-ing.",
+      "distractorWhy": "Does не образует Continuous.",
+      "distractorRationales": {
+        "Does Ben playing tennis right now?": "Does не образует Continuous.",
+        "Is Ben play tennis right now?": "Play не -ing."
+      },
+      "skillTarget": "simpleContinuous",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G5",
+      "group": "Управляемая практика",
+      "prompt": "Choose the negative about a habit.",
+      "options": [
+        "I am not watch TV often.",
+        "I doesn't watch TV often.",
+        "I don't watch TV often."
+      ],
+      "answer": "I don't watch TV often.",
+      "accepted": [
+        "I don't watch TV often."
+      ],
+      "why": "Don't + V1.",
+      "distractorWhy": "Am not не с V1.",
+      "distractorRationales": {
+        "I am not watch TV often.": "Am not не с V1.",
+        "I doesn't watch TV often.": "I требует don't."
+      },
+      "skillTarget": "simpleContinuous",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G6",
+      "group": "Управляемая практика",
+      "prompt": "Choose the negative about a current action.",
+      "options": [
+        "I don't watching TV right now.",
+        "I'm not watching TV right now.",
+        "I'm not watch TV right now."
+      ],
+      "answer": "I'm not watching TV right now.",
+      "accepted": [
+        "I'm not watching TV right now."
+      ],
+      "why": "Am not + V-ing.",
+      "distractorWhy": "Don't не с -ing.",
+      "distractorRationales": {
+        "I don't watching TV right now.": "Don't не с -ing.",
+        "I'm not watch TV right now.": "Watch не -ing."
+      },
+      "skillTarget": "simpleContinuous",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I1",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the ordinary form of liking a subject.",
+      "options": [
+        "I'm liking biology as a general preference.",
+        "I likes biology.",
+        "I like biology."
+      ],
+      "answer": "I like biology.",
+      "accepted": [
+        "I like biology."
+      ],
+      "why": "Like обычно Simple, I + like.",
+      "distractorWhy": "Не обычная форма состояния.",
+      "distractorRationales": {
+        "I'm liking biology as a general preference.": "Не обычная форма состояния.",
+        "I likes biology.": "I не требует -s."
+      },
+      "skillTarget": "simpleContinuous",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I2",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the normal form for wanting something now.",
+      "options": [
+        "I'm want some water now.",
+        "I want some water now.",
+        "I wanting some water now."
+      ],
+      "answer": "I want some water now.",
+      "accepted": [
+        "I want some water now."
+      ],
+      "why": "Want обычно состояние, Simple.",
+      "distractorWhy": "Am want неверно.",
+      "distractorRationales": {
+        "I'm want some water now.": "Am want неверно.",
+        "I wanting some water now.": "Нет finite verb."
+      },
+      "skillTarget": "simpleContinuous",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I3",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the ordinary question about knowledge.",
+      "options": [
+        "Do you know the answer?",
+        "Are you knowing the answer as knowledge?",
+        "Do you knows the answer?"
+      ],
+      "answer": "Do you know the answer?",
+      "accepted": [
+        "Do you know the answer?"
+      ],
+      "why": "Know обычно Simple, do + V1.",
+      "distractorWhy": "Continuous не обычное знание.",
+      "distractorRationales": {
+        "Are you knowing the answer as knowledge?": "Continuous не обычное знание.",
+        "Do you knows the answer?": "Knows не V1."
+      },
+      "skillTarget": "simpleContinuous",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I4",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the sentence expressing a current lack of understanding.",
+      "options": [
+        "I'm not understand this sentence.",
+        "I doesn't understand this sentence.",
+        "I don't understand this sentence."
+      ],
+      "answer": "I don't understand this sentence.",
+      "accepted": [
+        "I don't understand this sentence."
+      ],
+      "why": "Understand обычно Simple, don't.",
+      "distractorWhy": "Am not + V1 неверно.",
+      "distractorRationales": {
+        "I'm not understand this sentence.": "Am not + V1 неверно.",
+        "I doesn't understand this sentence.": "I требует don't."
+      },
+      "skillTarget": "simpleContinuous",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I5",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the possession statement.",
+      "options": [
+        "He is having a computer (ownership).",
+        "He has a computer.",
+        "He have a computer."
+      ],
+      "answer": "He has a computer.",
+      "accepted": [
+        "He has a computer."
+      ],
+      "why": "Has для постоянного владения.",
+      "distractorWhy": "Continuous не обычное владение.",
+      "distractorRationales": {
+        "He is having a computer (ownership).": "Continuous не обычное владение.",
+        "He have a computer.": "He требует has."
+      },
+      "skillTarget": "simpleContinuous",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I6",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the ongoing meal.",
+      "options": [
+        "He's having dinner now.",
+        "He's have dinner now.",
+        "He has dinner now (target ongoing action)."
+      ],
+      "answer": "He's having dinner now.",
+      "accepted": [
+        "He's having dinner now."
+      ],
+      "why": "Is having — процесс еды.",
+      "distractorWhy": "Нет -ing.",
+      "distractorRationales": {
+        "He's have dinner now.": "Нет -ing.",
+        "He has dinner now (target ongoing action).": "Has — Simple, не целевая форма."
+      },
+      "skillTarget": "simpleContinuous",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I7",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the usual work routine.",
+      "options": [
+        "Mia work in a shop every Saturday.",
+        "Mia is work in a shop every Saturday.",
+        "Mia works in a shop every Saturday."
+      ],
+      "answer": "Mia works in a shop every Saturday.",
+      "accepted": [
+        "Mia works in a shop every Saturday."
+      ],
+      "why": "Mia + works для привычки.",
+      "distractorWhy": "Нет -s.",
+      "distractorRationales": {
+        "Mia work in a shop every Saturday.": "Нет -s.",
+        "Mia is work in a shop every Saturday.": "Is work неверно."
+      },
+      "skillTarget": "simpleContinuous",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I8",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the temporary current-week arrangement.",
+      "options": [
+        "Mia is work at the library this week.",
+        "Mia is working at the library this week.",
+        "Mia working at the library this week."
+      ],
+      "answer": "Mia is working at the library this week.",
+      "accepted": [
+        "Mia is working at the library this week."
+      ],
+      "why": "Is working показывает временную деятельность.",
+      "distractorWhy": "Нет -ing.",
+      "distractorRationales": {
+        "Mia is work at the library this week.": "Нет -ing.",
+        "Mia working at the library this week.": "Пропущено is."
+      },
+      "skillTarget": "simpleContinuous",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I9",
+      "group": "Самостоятельная практика",
+      "prompt": "'Does she study here?' Answer yes.",
+      "options": [
+        "Yes, she does.",
+        "Yes, she is.",
+        "Yes, she do."
+      ],
+      "answer": "Yes, she does.",
+      "accepted": [
+        "Yes, she does."
+      ],
+      "why": "Повторяем does.",
+      "distractorWhy": "Is не auxiliary вопроса.",
+      "distractorRationales": {
+        "Yes, she is.": "Is не auxiliary вопроса.",
+        "Yes, she do.": "She требует does."
+      },
+      "skillTarget": "simpleContinuous",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E1",
+      "group": "Выходная проверка",
+      "prompt": "'Is she studying now?' Answer no.",
+      "options": [
+        "No, she isn't.",
+        "No, she doesn't.",
+        "No, she aren't."
+      ],
+      "answer": "No, she isn't.",
+      "accepted": [
+        "No, she isn't."
+      ],
+      "why": "Is → isn't.",
+      "distractorWhy": "Doesn't относится к Simple.",
+      "distractorRationales": {
+        "No, she doesn't.": "Doesn't относится к Simple.",
+        "No, she aren't.": "She требует is."
+      },
+      "skillTarget": "simpleContinuous",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E2",
+      "group": "Выходная проверка",
+      "prompt": "Which sentence uses be with an adjective, not Continuous?",
+      "options": [
+        "The students are studying.",
+        "The students are writing.",
+        "The students are tired."
+      ],
+      "answer": "The students are tired.",
+      "accepted": [
+        "The students are tired."
+      ],
+      "why": "Tired — adjective состояния.",
+      "distractorWhy": "Studying — V-ing.",
+      "distractorRationales": {
+        "The students are studying.": "Studying — V-ing.",
+        "The students are writing.": "Writing — V-ing."
+      },
+      "skillTarget": "simpleContinuous",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E3",
+      "group": "Выходная проверка",
+      "prompt": "Choose the grammatical contrast of opinion and current thought.",
+      "options": [
+        "I am think it's useful, and I'm thinking about using it.",
+        "I think it's useful, and I'm thinking about using it.",
+        "I think it's useful, and I are thinking about using it."
+      ],
+      "answer": "I think it's useful, and I'm thinking about using it.",
+      "accepted": [
+        "I think it's useful, and I'm thinking about using it."
+      ],
+      "why": "Think мнение, am thinking процесс.",
+      "distractorWhy": "Am think неверно.",
+      "distractorRationales": {
+        "I am think it's useful, and I'm thinking about using it.": "Am think неверно.",
+        "I think it's useful, and I are thinking about using it.": "I требует am."
+      },
+      "skillTarget": "simpleContinuous",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E4",
+      "group": "Выходная проверка",
+      "prompt": "Choose the correct contrast of a routine and now.",
+      "options": [
+        "He usually takes the bus, but he's walking today.",
+        "He usually take the bus, but he's walking today.",
+        "He usually takes the bus, but he's walk today."
+      ],
+      "answer": "He usually takes the bus, but he's walking today.",
+      "accepted": [
+        "He usually takes the bus, but he's walking today."
+      ],
+      "why": "Takes — Simple; is walking — Continuous.",
+      "distractorWhy": "Нет -s.",
+      "distractorRationales": {
+        "He usually take the bus, but he's walking today.": "Нет -s.",
+        "He usually takes the bus, but he's walk today.": "Нет -ing."
+      },
+      "skillTarget": "simpleContinuous",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E5",
+      "group": "Выходная проверка",
+      "prompt": "Choose the accurate tense-selection rule.",
+      "options": [
+        "Now always makes Present Simple impossible.",
+        "Every sentence with is is Present Continuous.",
+        "Use meaning and context, not only one time word."
+      ],
+      "answer": "Use meaning and context, not only one time word.",
+      "accepted": [
+        "Use meaning and context, not only one time word."
+      ],
+      "why": "Контекст решает форму.",
+      "distractorWhy": "I know now возможен.",
+      "distractorRationales": {
+        "Now always makes Present Simple impossible.": "I know now возможен.",
+        "Every sentence with is is Present Continuous.": "Is может быть обычным be."
+      },
+      "skillTarget": "simpleContinuous",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "W1",
+      "group": "Самостоятельное применение",
+      "prompt": "Составь рассказ о своём обычном дне и сегодняшнем необычном дне в 8–10 предложениях. Используй оба времени, вопросы, отрицания и два глагола состояния. Объясни три выбора.",
+      "open": true,
+      "rubric": [
+        "Привычка и процесс различены.",
+        "Simple имеет правильное согласование.",
+        "Continuous содержит be + V-ing.",
+        "Auxiliary в вопросах и отрицаниях соответствует времени.",
+        "Глаголы состояния употреблены по значению.",
+        "Временной контекст понятен."
+      ],
+      "skillTarget": "Самостоятельное применение simpleContinuous",
+      "interactionType": "open-production",
+      "difficulty": "transfer",
+      "sourceBasis": "Speakbase-authored open production; self-review rubric only until real AI feedback is connected",
+      "contentVersion": "1.1-draft"
+    }
+  ],
+  "markdown": "# Speakbase — A1-14: Present Simple vs Present Continuous\n\n**Curriculum ID:** `A1-14`  \n**Уровень:** A1  \n**Версия:** 1.1-draft\n**Статус:** drafted; selected source text checked; full source-page and learner acceptance pending\n**Предварительные темы:** A1-05, A1-13  \n**Связь со старым каталогом:** Полное ядро — №3 Simple vs Continuous\n\n## 1. Результаты обучения\n\n- Различать регулярность/общий факт и действие/временную ситуацию вокруг настоящего\n- Выбирать целевую форму по значению, структуре предложения и контексту.\n- Объяснять, почему близкая грамматическая форма меняет смысл или регистр.\n- Находить и исправлять типичные ошибки русскоязычных студентов.\n\n## 2. Источники и статус сверки\n\n| Source | PDF navigation | Lesson-specific checks | Status |\n|---|---|---|---|\n| GR-01 U9 | PDF pages 29-30 (Unit 9) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-02 U3-4 | PDF pages 18-21 (Unit 3-4) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-03 U1-2 | PDF pages 26-29 (Unit 1-2) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-05 A2 p53 | PDF pages 53 (A2 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n\nUnit/page locations are navigation aids only. They do not prove that the cited explanation, examples, restrictions and answer key have been checked for this lesson. Examples and explanations below are Speakbase-authored, not quotations from the textbook.\n\nПеред переводом этого урока в source-verified необходимо открыть целевые страницы конкретного издания, записать печатную и PDF-пагинацию, сверить ограничения и исключения. Для GR-03 со сканированными страницами обязательна визуальная проверка.\n\n**Evidence for this editorial pass:** GR-01 Unit 9, theory text inspected PDF p. 29 (printed p. 28); support Units 4–8 PDF pp. 19, 21, 23, 25, 27; additional source/exercise-page/visual review pending. The selected source text was consulted; not all pages, exercises, editions, scanned GR-03 pages or GR-05 descriptors were checked. Author-created explanations and practice are not copied source exercises.\n\n## 3. Место темы и границы\n\nГлавный контраст — привычка/состояние против процесса/временной ситуации. Разбери stative verbs и случаи, когда глагол меняет значение в Continuous.\n\nСтарый каталог содержит: №3 Simple vs Continuous. Его статус — Полное ядро. Старые отметки завершения не переносятся автоматически на новый постоянный ID. Тема рассматривается в уровне A1 и не заменяет обязательные prerequisites.\n\n## 4. Полный конспект\n\n### 4.1. Основная идея и функция конструкции\n\nPresent Simple описывает привычки, регулярность, факты и обычные состояния. Present Continuous описывает действие в процессе сейчас или временную деятельность. I read every evening — я читаю каждый вечер. I'm reading now — я сейчас читаю. Русский перевод настоящего времени похож, поэтому различай значение.\n\nОдин человек может делать оба действия в разных смыслах: Mia studies English every day, but she's watching a film now. Первая часть описывает обычное занятие, вторая — происходящее сейчас. Continuous не обязательно означает действие, которое происходит в одну секунду; this week может обозначать временную ситуацию.\n\n### 4.2. Формирование и грамматическая модель\n\n| Тип | Present Simple | Present Continuous |\n|---|---|---|\n| I | I work. | I am working. |\n| she | She works. | She is working. |\n| Negative | She doesn't work. | She isn't working. |\n| Question | Does she work? | Is she working? |\n| Wh | Where does she work? | What is she doing? |\n\nВ Simple с he/she/it добавляется -s/-es в утверждении; после do/does/don't/doesn't используется V1. Continuous требует am/is/are + V-ing во всех формах. В отрицании not после be, в вопросе be перед subject. Краткие ответы соответствуют форме: Does she work? — Yes, she does. Is she working? — Yes, she is.\n\n### 4.3. Как выбрать подходящую форму\n\nСначала спроси: речь о привычке или процессе? Every day, usually, often, on Mondays часто указывают на Simple. Now, at the moment, Look!, Listen!, this week часто помогают распознать Continuous. Но выбирай по смыслу: I know the answer now — Simple, потому что know описывает состояние.\n\nГлаголы like, love, want, need, know, understand, believe, remember обычно Simple в основных значениях. Think может обозначать мнение (I think it's good) или размышление (I'm thinking about the problem). Have — владение (I have a phone) или деятельность (I'm having lunch). Эти различия не нужно превращать в жёсткий запрет на все значения глагола.\n\n### 4.4. Сравнение с близкими конструкциями\n\n| Simple | Continuous |\n|---|---|\n| I walk to college every day. | I'm walking to college now. |\n| She usually works at home. | She's working at the library this week. |\n| Does he play chess? | Is he playing chess now? |\n| I don't watch TV often. | I'm not watching TV now. |\n| I know her. | I'm talking to her. |\n\n### 4.5. Примеры с переводом и объяснением\n\n| English | Перевод | Почему это подходит |\n| --- | --- | --- |\n| I usually study at home. | Я обычно занимаюсь дома. | Simple, привычка. |\n| I'm studying at the library now. | Я сейчас занимаюсь в библиотеке. | Continuous, процесс. |\n| Does she work on Mondays? | Она работает по понедельникам? | Simple question. |\n| Is she working right now? | Она сейчас работает? | Continuous question. |\n| I don't understand this word. | Я не понимаю это слово. | Состояние в Simple. |\n| He has a bike, but he's taking the bus today. | У него есть велосипед, но сегодня он едет на автобусе. | Владение и текущая деятельность. |\n\n### 4.6. Исключения, ограничения и границы употребления\n\nПостоянность и временность — полезный ориентир, но не единственный. I live in Milan обычно сообщает место проживания; I'm living in Milan this month — временную ситуацию. Simple может описывать действия, которые происходят в данный период регулярно, а Continuous — текущую временную тенденцию.\n\nС be как самостоятельным глаголом: She is tired — Simple be, не Continuous только потому, что есть is. She is studying — Continuous, поскольку studying является V-ing. В вопросах be и do не смешивай. Always обычно относится к привычке, но Continuous с always возможен при особом эмоциональном оттенке на более высоком уровне. На A1 учимся нейтральным моделям.\n\n### 4.7. Типичные ошибки русскоязычных студентов\n\n| Ошибка | Исправление | Объяснение |\n| --- | --- | --- |\n| She study every day. | She studies every day. | Simple, singular she + -s. |\n| She is study now. | She is studying now. | Continuous требует -ing. |\n| Does he working now? | Is he working now? | Вопрос о процессе через be. |\n| I am knowing him. | I know him. | Know обычно Simple. |\n\n### 4.8. Произношение и восприятие на слух\n\nСлушай auxiliary и окончание: does she WORK или is she WORKing. В обычных фразах auxiliary часто безударно. Произноси пары every day / right now, сохраняя правильную форму. Аудиосверка открыта.\n\nСначала прослушай или прочитай пример, затем произнеси его целиком. Обрати внимание на смысловое ударение и форму конструкции; не ориентируйся только на буквенный перевод.\n\n### 4.9. Академический английский и TOEFL-перенос\n\nВ Listening различай распорядок и происходящее в момент диалога. В Speaking отвечай на вопросы о привычках и текущей работе разными формами. В Writing Build a Sentence проверяй auxiliary и окончание. Это базовая авторская практика.\n\nЭто авторская практика переноса навыка. Она не является официальным заданием TOEFL и не выдаётся за официальный результат экзамена.\n\n### 4.10. Примеры для управляемого разбора\n\n- I usually study at home. — Я обычно занимаюсь дома. Simple, привычка.\n- I'm studying at the library now. — Я сейчас занимаюсь в библиотеке. Continuous, процесс.\n- Does she work on Mondays? — Она работает по понедельникам? Simple question.\n\nДля каждого примера назови целевую конструкцию, объясни выбор и составь новое предложение в другом контексте. Затем перейди к заданиям: сначала диагностика, затем управляемая и самостоятельная практика, затем новые вопросы выходной проверки.\n\n### 4.11. Самопроверка\n\nПеред отправкой ответа проверь:\n1. Привычка и процесс различены.\n2. Simple имеет правильное согласование.\n3. Continuous содержит be + V-ing.\n4. Auxiliary в вопросах и отрицаниях соответствует времени.\n5. Глаголы состояния употреблены по значению.\n6. Временной контекст понятен.\n\n### 4.12. Краткая памятка\n\nSimple — привычка, факт, состояние: V1/-s, do/does. Continuous — процесс/временная деятельность: be + V-ing. Выбирай по смыслу, а не одному маркеру. Know, like, want обычно Simple. Вопросы и отрицания требуют соответствующего auxiliary.\n\nНе выбирай форму только по одному знакомому слову: проверь контекст, значение и структуру. При ошибке вернись к соответствующей части конспекта и составь собственный пример.\n\n## 5. Практика\n\nВ приложении практика разделена на входную диагностику, управляемые задания, самостоятельную практику и новую выходную проверку. Закрытые ответы получают rationale и разбор ошибки. Свободный текст сохраняется и оценивается по рубрике; до подключения и реальной проверки AI-движка система не выдаёт его за автоматическую AI-оценку.\n\n## 6. Интервальное повторение\n\nПовторяй не весь урок автоматически, а конкретную ошибку: выбор формы, согласование, word order, значение, регистр или пунктуацию. Новая попытка должна менять лексический контекст и формулировку, чтобы проверять перенос, а не запоминание одной строки.\n\n## 7. Технический статус\n\n- Постоянный ID: `A1-14`.\n- Прогресс хранится отдельно в course.grammarLessons[\"A1-14\"].\n- Содержание и ключи имеют статус draft; 24 авторских закрытых задания и объяснения вычитаны, выбранные тексты источников проверены. Полная постраничная и пользовательская приёмка остаются открытыми.\n- Предварительное выполнение порогов не равно окончательному mastered: нужны отсроченное повторение и learner review.",
+  "theoryEnd": "## 5."
+}

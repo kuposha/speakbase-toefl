@@ -1,0 +1,736 @@
+{
+  "id": "A1-13",
+  "level": "A1",
+  "sequence": "A1-13",
+  "grammarFamily": "presentContinuous",
+  "questionBankSource": "topic-specific-authored",
+  "sourceVerification": "draft; selected source text consulted; complete source-page and learner review pending",
+  "topicProfile": {
+    "label": "Present Continuous",
+    "core": "Present Continuous описывает действие, которое происходит сейчас или в текущий период. I am reading — я сейчас читаю. В русском языке нет отдельного длительного настоящего времени, поэтому важен контекст. В английском форма обязательно содержит be и глагол с -ing.",
+    "form": "| Subject | Утверждение | Отрицание | Вопрос |\n|---|---|---|---|\n| I | I am reading. | I'm not reading. | Am I reading? |\n| he/she/it | She is reading. | She isn't reading. | Is she reading? |\n| you/we/they | They are reading. | They aren't reading. | Are they reading? |",
+    "selection": "Найди subject и выбери be: I am, singular he/she/it is, plural и you are. Затем образуй -ing. Если предложение отрицательное, добавь not; если вопросительное, поставь be перед subject. Для wh-question добавь what/where/why в начало. Вопрос к subject может быть Who is calling?",
+    "contrast": "| Форма | Пример |\n|---|---|\n| Affirmative | She is writing a letter. |\n| Negative | She isn't writing a letter. |\n| Yes/no question | Is she writing a letter? |\n| Wh-question | What is she writing? |\n| Habit (Simple) | She writes a letter every week. |",
+    "boundary": "Глаголы know, like, want, need, understand обычно не используют в Continuous в их основных значениях состояния: I know the answer. Некоторые глаголы меняют значение: I have a bike — владение, I'm having lunch — действие. Не считай каждое now обязательным сигналом Continuous.",
+    "pronunciation": "Произноси I'm reading, she's writing, they're working целиком. Окончание -ing обычно /ɪŋ/, без добавочного /g/. В вопросе What are you doing? выделяй doing; отдельная аудиосверка пока не выполнена.",
+    "examples": [
+      [
+        "I'm writing a message now.",
+        "Я сейчас пишу сообщение.",
+        "I + am + writing."
+      ],
+      [
+        "The bus is coming.",
+        "Автобус подъезжает.",
+        "Singular bus + is coming."
+      ],
+      [
+        "They aren't watching TV.",
+        "Они сейчас не смотрят телевизор.",
+        "Are not + -ing."
+      ],
+      [
+        "What are you doing?",
+        "Что ты сейчас делаешь?",
+        "Wh + are + subject + -ing."
+      ],
+      [
+        "Is it raining? — Yes, it is.",
+        "Идёт дождь? — Да.",
+        "Вопрос с is, ответ повторяет is."
+      ],
+      [
+        "We're working on a project this week.",
+        "Мы работаем над проектом на этой неделе.",
+        "Временная деятельность."
+      ]
+    ],
+    "traps": [
+      [
+        "I reading now.",
+        "I'm reading now.",
+        "Пропущено am."
+      ],
+      [
+        "She is write a message.",
+        "She is writing a message.",
+        "После is нужна -ing."
+      ],
+      [
+        "They is working.",
+        "They are working.",
+        "They требует are."
+      ],
+      [
+        "Do you are studying?",
+        "Are you studying?",
+        "Do не нужен."
+      ]
+    ],
+    "toefl": "В Listening различай деятельность сейчас и привычку. В Speaking опиши, что происходит вокруг, в Writing Email сообщи, чем сейчас занимаешься. Это базовая тренировка для дальнейшей подготовки, не официальный TOEFL."
+  },
+  "title": "Present Continuous — form and core uses",
+  "description": "Описывать происходящее сейчас и временные ситуации; образовывать am/is/are + -ing",
+  "cardDescription": "Теория, guided practice, самостоятельные задания и выходная проверка по постоянному ID A1-13.",
+  "eyebrow": "Полный урок программы A1-13 · drafted",
+  "contentVersion": "1.1-draft",
+  "curriculumVersion": "1.0",
+  "prerequisites": [
+    "A1-01",
+    "A1-02"
+  ],
+  "outcomes": [
+    "Описывать происходящее сейчас и временные ситуации; образовывать am/is/are + -ing",
+    "Выбирать целевую конструкцию по контексту и смыслу.",
+    "Исправлять типичные ошибки и переносить правило в новый пример."
+  ],
+  "sourceRefs": [
+    "GR-01 U4-5",
+    "GR-02 U1",
+    "GR-03 U1-2",
+    "GR-05 A2 p53"
+  ],
+  "sourceStatus": "selected source text consulted; full page verification pending",
+  "status": "drafted",
+  "legacyCoverage": "Полное ядро",
+  "toeflLinks": [
+    "Writing: Build a Sentence",
+    "Writing: Write an Email"
+  ],
+  "thresholds": {
+    "independent": 7,
+    "exit": 4,
+    "criticalIds": [
+      "E1",
+      "E2",
+      "E3"
+    ]
+  },
+  "groups": {
+    "independent": "Самостоятельная практика",
+    "exit": "Выходная проверка"
+  },
+  "items": [
+    {
+      "id": "D1",
+      "group": "Входная диагностика",
+      "prompt": "Choose the current process with I: I ___ a book right now.",
+      "options": [
+        "is reading",
+        "am reading",
+        "reading"
+      ],
+      "answer": "am reading",
+      "accepted": [
+        "am reading"
+      ],
+      "why": "I + am + V-ing.",
+      "distractorWhy": "Is не с I.",
+      "distractorRationales": {
+        "is reading": "Is не с I.",
+        "reading": "Пропущено am."
+      },
+      "skillTarget": "presentContinuous",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D2",
+      "group": "Входная диагностика",
+      "prompt": "Choose the current process with Leo: Leo ___ a message now.",
+      "options": [
+        "is writing",
+        "are writing",
+        "is write"
+      ],
+      "answer": "is writing",
+      "accepted": [
+        "is writing"
+      ],
+      "why": "Leo singular + is writing.",
+      "distractorWhy": "Are не с singular.",
+      "distractorRationales": {
+        "are writing": "Are не с singular.",
+        "is write": "Write нужна -ing."
+      },
+      "skillTarget": "presentContinuous",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D3",
+      "group": "Входная диагностика",
+      "prompt": "Choose the ongoing action with two children.",
+      "options": [
+        "The children is drawing.",
+        "The children are draw.",
+        "The children are drawing."
+      ],
+      "answer": "The children are drawing.",
+      "accepted": [
+        "The children are drawing."
+      ],
+      "why": "Plural + are + drawing.",
+      "distractorWhy": "Is не согласуется.",
+      "distractorRationales": {
+        "The children is drawing.": "Is не согласуется.",
+        "The children are draw.": "Draw не -ing."
+      },
+      "skillTarget": "presentContinuous",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D4",
+      "group": "Входная диагностика",
+      "prompt": "Choose the correct negative with I.",
+      "options": [
+        "I don't sleeping.",
+        "I'm not sleeping.",
+        "I not am sleeping."
+      ],
+      "answer": "I'm not sleeping.",
+      "accepted": [
+        "I'm not sleeping."
+      ],
+      "why": "Am not + -ing.",
+      "distractorWhy": "Don't не образует Continuous.",
+      "distractorRationales": {
+        "I don't sleeping.": "Don't не образует Continuous.",
+        "I not am sleeping.": "Not после am."
+      },
+      "skillTarget": "presentContinuous",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G1",
+      "group": "Управляемая практика",
+      "prompt": "Choose the correct negative with she.",
+      "options": [
+        "She isn't listening.",
+        "She doesn't listening.",
+        "She aren't listening."
+      ],
+      "answer": "She isn't listening.",
+      "accepted": [
+        "She isn't listening."
+      ],
+      "why": "Isn't + V-ing.",
+      "distractorWhy": "Doesn't не с listening.",
+      "distractorRationales": {
+        "She doesn't listening.": "Doesn't не с listening.",
+        "She aren't listening.": "She требует is."
+      },
+      "skillTarget": "presentContinuous",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G2",
+      "group": "Управляемая практика",
+      "prompt": "Choose the correct negative with they.",
+      "options": [
+        "They isn't talking.",
+        "They don't talking.",
+        "They aren't talking."
+      ],
+      "answer": "They aren't talking.",
+      "accepted": [
+        "They aren't talking."
+      ],
+      "why": "They + aren't + -ing.",
+      "distractorWhy": "Isn't singular.",
+      "distractorRationales": {
+        "They isn't talking.": "Isn't singular.",
+        "They don't talking.": "Don't не Continuous."
+      },
+      "skillTarget": "presentContinuous",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G3",
+      "group": "Управляемая практика",
+      "prompt": "Choose the direct question about an ongoing action.",
+      "options": [
+        "Do you cooking now?",
+        "Are you cooking now?",
+        "Are you cook now?"
+      ],
+      "answer": "Are you cooking now?",
+      "accepted": [
+        "Are you cooking now?"
+      ],
+      "why": "Are + subject + -ing.",
+      "distractorWhy": "Do не нужен.",
+      "distractorRationales": {
+        "Do you cooking now?": "Do не нужен.",
+        "Are you cook now?": "Cook не -ing."
+      },
+      "skillTarget": "presentContinuous",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G4",
+      "group": "Управляемая практика",
+      "prompt": "Choose the question about a single person working now.",
+      "options": [
+        "Is Ben working today?",
+        "Is working Ben today?",
+        "Does Ben working today?"
+      ],
+      "answer": "Is Ben working today?",
+      "accepted": [
+        "Is Ben working today?"
+      ],
+      "why": "Is + subject + V-ing.",
+      "distractorWhy": "Subject должен быть после is.",
+      "distractorRationales": {
+        "Is working Ben today?": "Subject должен быть после is.",
+        "Does Ben working today?": "Does не образует Continuous."
+      },
+      "skillTarget": "presentContinuous",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G5",
+      "group": "Управляемая практика",
+      "prompt": "Choose the wh-question about a current activity.",
+      "options": [
+        "What they are doing now?",
+        "What do they doing now?",
+        "What are they doing now?"
+      ],
+      "answer": "What are they doing now?",
+      "accepted": [
+        "What are they doing now?"
+      ],
+      "why": "What + are + subject + -ing.",
+      "distractorWhy": "Нет инверсии.",
+      "distractorRationales": {
+        "What they are doing now?": "Нет инверсии.",
+        "What do they doing now?": "Do не нужен."
+      },
+      "skillTarget": "presentContinuous",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G6",
+      "group": "Управляемая практика",
+      "prompt": "Choose a question about current destination.",
+      "options": [
+        "Where is going Mia?",
+        "Where is Mia going?",
+        "Where does Mia going?"
+      ],
+      "answer": "Where is Mia going?",
+      "accepted": [
+        "Where is Mia going?"
+      ],
+      "why": "Where + is + subject + going.",
+      "distractorWhy": "Subject перед going.",
+      "distractorRationales": {
+        "Where is going Mia?": "Subject перед going.",
+        "Where does Mia going?": "Does не нужен."
+      },
+      "skillTarget": "presentContinuous",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I1",
+      "group": "Самостоятельная практика",
+      "prompt": "'Are you leaving now?' Answer yes.",
+      "options": [
+        "Yes, I'm.",
+        "Yes, I do.",
+        "Yes, I am."
+      ],
+      "answer": "Yes, I am.",
+      "accepted": [
+        "Yes, I am."
+      ],
+      "why": "Повторяем am с I.",
+      "distractorWhy": "Положительный краткий ответ не сокращается.",
+      "distractorRationales": {
+        "Yes, I'm.": "Положительный краткий ответ не сокращается.",
+        "Yes, I do.": "Do не соответствует."
+      },
+      "skillTarget": "presentContinuous",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I2",
+      "group": "Самостоятельная практика",
+      "prompt": "'Is the dog sleeping?' Answer no.",
+      "options": [
+        "No, it doesn't.",
+        "No, it isn't.",
+        "No, they aren't."
+      ],
+      "answer": "No, it isn't.",
+      "accepted": [
+        "No, it isn't."
+      ],
+      "why": "Dog → it, is not.",
+      "distractorWhy": "Doesn't не соответствует.",
+      "distractorRationales": {
+        "No, it doesn't.": "Doesn't не соответствует.",
+        "No, they aren't.": "They не один dog."
+      },
+      "skillTarget": "presentContinuous",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I3",
+      "group": "Самостоятельная практика",
+      "prompt": "'Are your friends studying?' Answer yes.",
+      "options": [
+        "Yes, they are.",
+        "Yes, they're.",
+        "Yes, they do."
+      ],
+      "answer": "Yes, they are.",
+      "accepted": [
+        "Yes, they are."
+      ],
+      "why": "Plural friends → they are.",
+      "distractorWhy": "В положительном ответе полная форма.",
+      "distractorRationales": {
+        "Yes, they're.": "В положительном ответе полная форма.",
+        "Yes, they do.": "Do не соответствует."
+      },
+      "skillTarget": "presentContinuous",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I4",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the -ing form of write.",
+      "options": [
+        "writeing",
+        "writting",
+        "writing"
+      ],
+      "answer": "writing",
+      "accepted": [
+        "writing"
+      ],
+      "why": "Немая e исчезает.",
+      "distractorWhy": "Лишняя e.",
+      "distractorRationales": {
+        "writeing": "Лишняя e.",
+        "writting": "T не удваивается здесь."
+      },
+      "skillTarget": "presentContinuous",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I5",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the -ing form of sit.",
+      "options": [
+        "siting",
+        "sitting",
+        "sitteing"
+      ],
+      "answer": "sitting",
+      "accepted": [
+        "sitting"
+      ],
+      "why": "Sit удваивает t.",
+      "distractorWhy": "Пропущено удвоение.",
+      "distractorRationales": {
+        "siting": "Пропущено удвоение.",
+        "sitteing": "Лишняя e."
+      },
+      "skillTarget": "presentContinuous",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I6",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the -ing form of swim.",
+      "options": [
+        "swimming",
+        "swiming",
+        "swimmeng"
+      ],
+      "answer": "swimming",
+      "accepted": [
+        "swimming"
+      ],
+      "why": "Swim удваивает m.",
+      "distractorWhy": "Пропущено удвоение.",
+      "distractorRationales": {
+        "swiming": "Пропущено удвоение.",
+        "swimmeng": "Окончание -ing."
+      },
+      "skillTarget": "presentContinuous",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I7",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the -ing form of lie (be horizontal).",
+      "options": [
+        "lieing",
+        "lieying",
+        "lying"
+      ],
+      "answer": "lying",
+      "accepted": [
+        "lying"
+      ],
+      "why": "Ie → y + ing.",
+      "distractorWhy": "Lieing неверно.",
+      "distractorRationales": {
+        "lieing": "Lieing неверно.",
+        "lieying": "Лишняя ie."
+      },
+      "skillTarget": "presentContinuous",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I8",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the -ing form of study.",
+      "options": [
+        "studiing",
+        "studying",
+        "studyng"
+      ],
+      "answer": "studying",
+      "accepted": [
+        "studying"
+      ],
+      "why": "Y сохраняется.",
+      "distractorWhy": "Не меняй y на i.",
+      "distractorRationales": {
+        "studiing": "Не меняй y на i.",
+        "studyng": "Пропущено i в ing."
+      },
+      "skillTarget": "presentContinuous",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I9",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the -ing form of see.",
+      "options": [
+        "seeing",
+        "seing",
+        "seeving"
+      ],
+      "answer": "seeing",
+      "accepted": [
+        "seeing"
+      ],
+      "why": "See сохраняет ee.",
+      "distractorWhy": "Пропущена e.",
+      "distractorRationales": {
+        "seing": "Пропущена e.",
+        "seeving": "V не нужна."
+      },
+      "skillTarget": "presentContinuous",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E1",
+      "group": "Выходная проверка",
+      "prompt": "Choose the ongoing weather statement.",
+      "options": [
+        "It's raining now.",
+        "It raining now.",
+        "It are raining now."
+      ],
+      "answer": "It's raining now.",
+      "accepted": [
+        "It's raining now."
+      ],
+      "why": "It + is + raining.",
+      "distractorWhy": "Пропущено is.",
+      "distractorRationales": {
+        "It raining now.": "Пропущено is.",
+        "It are raining now.": "It требует is."
+      },
+      "skillTarget": "presentContinuous",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E2",
+      "group": "Выходная проверка",
+      "prompt": "Choose the sentence describing a temporary project this week.",
+      "options": [
+        "We preparing a presentation this week.",
+        "We're prepare a presentation this week.",
+        "We're preparing a presentation this week."
+      ],
+      "answer": "We're preparing a presentation this week.",
+      "accepted": [
+        "We're preparing a presentation this week."
+      ],
+      "why": "Are + preparing показывает текущую деятельность.",
+      "distractorWhy": "Нет are.",
+      "distractorRationales": {
+        "We preparing a presentation this week.": "Нет are.",
+        "We're prepare a presentation this week.": "Prepare не -ing."
+      },
+      "skillTarget": "presentContinuous",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E3",
+      "group": "Выходная проверка",
+      "prompt": "Choose the ordinary present form of a state of knowledge.",
+      "options": [
+        "I'm knowing the answer as knowledge.",
+        "I know the answer.",
+        "I are knowing the answer."
+      ],
+      "answer": "I know the answer.",
+      "accepted": [
+        "I know the answer."
+      ],
+      "why": "Know обычно Simple.",
+      "distractorWhy": "Continuous не обычное состояние.",
+      "distractorRationales": {
+        "I'm knowing the answer as knowledge.": "Continuous не обычное состояние.",
+        "I are knowing the answer.": "I не с are."
+      },
+      "skillTarget": "presentContinuous",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E4",
+      "group": "Выходная проверка",
+      "prompt": "Choose the grammatical current activity with have lunch.",
+      "options": [
+        "She's having lunch now.",
+        "She's have lunch now.",
+        "She have lunch now as an ongoing process."
+      ],
+      "answer": "She's having lunch now.",
+      "accepted": [
+        "She's having lunch now."
+      ],
+      "why": "Is having — деятельность сейчас.",
+      "distractorWhy": "Have нужна -ing.",
+      "distractorRationales": {
+        "She's have lunch now.": "Have нужна -ing.",
+        "She have lunch now as an ongoing process.": "Нет нужной формы."
+      },
+      "skillTarget": "presentContinuous",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E5",
+      "group": "Выходная проверка",
+      "prompt": "Choose the accurate rule.",
+      "options": [
+        "Present Continuous needs only -ing.",
+        "Present Continuous uses do/does before -ing.",
+        "Present Continuous needs am/is/are and a verb in -ing."
+      ],
+      "answer": "Present Continuous needs am/is/are and a verb in -ing.",
+      "accepted": [
+        "Present Continuous needs am/is/are and a verb in -ing."
+      ],
+      "why": "Обе части обязательны.",
+      "distractorWhy": "Пропущено be.",
+      "distractorRationales": {
+        "Present Continuous needs only -ing.": "Пропущено be.",
+        "Present Continuous uses do/does before -ing.": "Do/does не образуют Continuous."
+      },
+      "skillTarget": "presentContinuous",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "W1",
+      "group": "Самостоятельное применение",
+      "prompt": "Опиши происходящее в вымышленной аудитории в 8–10 репликах: утверждения, два отрицания, два вопроса, краткие ответы и минимум пять разных V-ing.",
+      "open": true,
+      "rubric": [
+        "Be согласовано с subject.",
+        "Во всех Continuous есть V-ing.",
+        "Написание -ing корректно.",
+        "Not стоит после be.",
+        "Вопросы и краткие ответы корректны.",
+        "Действия имеют подходящий текущий контекст."
+      ],
+      "skillTarget": "Самостоятельное применение presentContinuous",
+      "interactionType": "open-production",
+      "difficulty": "transfer",
+      "sourceBasis": "Speakbase-authored open production; self-review rubric only until real AI feedback is connected",
+      "contentVersion": "1.1-draft"
+    }
+  ],
+  "markdown": "# Speakbase — A1-13: Present Continuous — form and core uses\n\n**Curriculum ID:** `A1-13`  \n**Уровень:** A1  \n**Версия:** 1.1-draft\n**Статус:** drafted; selected source text checked; full source-page and learner acceptance pending\n**Предварительные темы:** A1-01, A1-02  \n**Связь со старым каталогом:** Полное ядро — №2 Present Continuous\n\n## 1. Результаты обучения\n\n- Описывать происходящее сейчас и временные ситуации; образовывать am/is/are + -ing\n- Выбирать целевую форму по значению, структуре предложения и контексту.\n- Объяснять, почему близкая грамматическая форма меняет смысл или регистр.\n- Находить и исправлять типичные ошибки русскоязычных студентов.\n\n## 2. Источники и статус сверки\n\n| Source | PDF navigation | Lesson-specific checks | Status |\n|---|---|---|---|\n| GR-01 U4-5 | PDF pages 19-22 (Unit 4-5) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-02 U1 | PDF pages 14-15 (Unit 1) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-03 U1-2 | PDF pages 26-29 (Unit 1-2) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-05 A2 p53 | PDF pages 53 (A2 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n\nUnit/page locations are navigation aids only. They do not prove that the cited explanation, examples, restrictions and answer key have been checked for this lesson. Examples and explanations below are Speakbase-authored, not quotations from the textbook.\n\nПеред переводом этого урока в source-verified необходимо открыть целевые страницы конкретного издания, записать печатную и PDF-пагинацию, сверить ограничения и исключения. Для GR-03 со сканированными страницами обязательна визуальная проверка.\n\n**Evidence for this editorial pass:** GR-01 Units 4–5, theory text inspected PDF pp. 19 and 21 (printed pp. 18, 20); additional source/exercise-page/visual verification pending. The selected source text was consulted; not all pages, exercises, editions, scanned GR-03 pages or GR-05 descriptors were checked. Author-created explanations and practice are not copied source exercises.\n\n## 3. Место темы и границы\n\nВключи образование am/is/are + V-ing, spelling -ing и значения действия сейчас/временной ситуации вокруг настоящего.\n\nСтарый каталог содержит: №2 Present Continuous. Его статус — Полное ядро. Старые отметки завершения не переносятся автоматически на новый постоянный ID. Тема рассматривается в уровне A1 и не заменяет обязательные prerequisites.\n\n## 4. Полный конспект\n\n### 4.1. Основная идея и функция конструкции\n\nPresent Continuous описывает действие, которое происходит сейчас или в текущий период. I am reading — я сейчас читаю. В русском языке нет отдельного длительного настоящего времени, поэтому важен контекст. В английском форма обязательно содержит be и глагол с -ing.\n\nЕсли человек уже начал действие и оно ещё продолжается, используй am/is/are + V-ing. Look! The bus is coming. Событие не обязательно происходит буквально в эту секунду: I'm studying for an exam this week может обозначать текущую временную деятельность. Сравнение с постоянной привычкой подробно в A1-14.\n\n### 4.2. Формирование и грамматическая модель\n\n| Subject | Утверждение | Отрицание | Вопрос |\n|---|---|---|---|\n| I | I am reading. | I'm not reading. | Am I reading? |\n| he/she/it | She is reading. | She isn't reading. | Is she reading? |\n| you/we/they | They are reading. | They aren't reading. | Are they reading? |\n\nСокращения: I'm, he's, she's, it's, you're, we're, they're. В отрицании not стоит после be: I'm not, she isn't/she's not, they aren't/they're not. В вопросе переставляй только be: What are you reading? Краткие ответы: Yes, I am; No, I'm not; Yes, she is; No, they aren't. В положительном кратком ответе be не сокращается.\n\n### 4.3. Как выбрать подходящую форму\n\nНайди subject и выбери be: I am, singular he/she/it is, plural и you are. Затем образуй -ing. Если предложение отрицательное, добавь not; если вопросительное, поставь be перед subject. Для wh-question добавь what/where/why в начало. Вопрос к subject может быть Who is calling?\n\nНаписание -ing: work → working, read → reading; конечная немая e обычно исчезает: make → making, write → writing; y сохраняется: study → studying; короткое CVC часто удваивает последнюю согласную: sit → sitting, run → running, swim → swimming; lie → lying, die → dying. W/x/y обычно не удваиваются. У многосложных слов учитывается ударение: begin → beginning, visit → visiting. See → seeing, be → being.\n\n### 4.4. Сравнение с близкими конструкциями\n\n| Форма | Пример |\n|---|---|\n| Affirmative | She is writing a letter. |\n| Negative | She isn't writing a letter. |\n| Yes/no question | Is she writing a letter? |\n| Wh-question | What is she writing? |\n| Habit (Simple) | She writes a letter every week. |\n\n### 4.5. Примеры с переводом и объяснением\n\n| English | Перевод | Почему это подходит |\n| --- | --- | --- |\n| I'm writing a message now. | Я сейчас пишу сообщение. | I + am + writing. |\n| The bus is coming. | Автобус подъезжает. | Singular bus + is coming. |\n| They aren't watching TV. | Они сейчас не смотрят телевизор. | Are not + -ing. |\n| What are you doing? | Что ты сейчас делаешь? | Wh + are + subject + -ing. |\n| Is it raining? — Yes, it is. | Идёт дождь? — Да. | Вопрос с is, ответ повторяет is. |\n| We're working on a project this week. | Мы работаем над проектом на этой неделе. | Временная деятельность. |\n\n### 4.6. Исключения, ограничения и границы употребления\n\nГлаголы know, like, want, need, understand обычно не используют в Continuous в их основных значениях состояния: I know the answer. Некоторые глаголы меняют значение: I have a bike — владение, I'm having lunch — действие. Не считай каждое now обязательным сигналом Continuous.\n\nBe в Continuous — вспомогательная часть, а не самостоятельное описание: I am tired содержит adjective, I am working — глагол с -ing. Do/does не нужны при вопросе с be. В A2 узнаешь будущие договорённости с Present Continuous; здесь основной фокус — процесс сейчас или в текущий период. At the moment, now, right now, Look!, Listen! могут помогать понять контекст.\n\n### 4.7. Типичные ошибки русскоязычных студентов\n\n| Ошибка | Исправление | Объяснение |\n| --- | --- | --- |\n| I reading now. | I'm reading now. | Пропущено am. |\n| She is write a message. | She is writing a message. | После is нужна -ing. |\n| They is working. | They are working. | They требует are. |\n| Do you are studying? | Are you studying? | Do не нужен. |\n\n### 4.8. Произношение и восприятие на слух\n\nПроизноси I'm reading, she's writing, they're working целиком. Окончание -ing обычно /ɪŋ/, без добавочного /g/. В вопросе What are you doing? выделяй doing; отдельная аудиосверка пока не выполнена.\n\nСначала прослушай или прочитай пример, затем произнеси его целиком. Обрати внимание на смысловое ударение и форму конструкции; не ориентируйся только на буквенный перевод.\n\n### 4.9. Академический английский и TOEFL-перенос\n\nВ Listening различай деятельность сейчас и привычку. В Speaking опиши, что происходит вокруг, в Writing Email сообщи, чем сейчас занимаешься. Это базовая тренировка для дальнейшей подготовки, не официальный TOEFL.\n\nЭто авторская практика переноса навыка. Она не является официальным заданием TOEFL и не выдаётся за официальный результат экзамена.\n\n### 4.10. Примеры для управляемого разбора\n\n- I'm writing a message now. — Я сейчас пишу сообщение. I + am + writing.\n- The bus is coming. — Автобус подъезжает. Singular bus + is coming.\n- They aren't watching TV. — Они сейчас не смотрят телевизор. Are not + -ing.\n\nДля каждого примера назови целевую конструкцию, объясни выбор и составь новое предложение в другом контексте. Затем перейди к заданиям: сначала диагностика, затем управляемая и самостоятельная практика, затем новые вопросы выходной проверки.\n\n### 4.11. Самопроверка\n\nПеред отправкой ответа проверь:\n1. Be согласовано с subject.\n2. Во всех Continuous есть V-ing.\n3. Написание -ing корректно.\n4. Not стоит после be.\n5. Вопросы и краткие ответы корректны.\n6. Действия имеют подходящий текущий контекст.\n\n### 4.12. Краткая памятка\n\nPresent Continuous = am/is/are + V-ing. Not после be, вопрос с be перед subject. Правильно образуй -ing. Состояния know/like/want обычно Simple. Форма описывает процесс сейчас или в текущем периоде.\n\nНе выбирай форму только по одному знакомому слову: проверь контекст, значение и структуру. При ошибке вернись к соответствующей части конспекта и составь собственный пример.\n\n## 5. Практика\n\nВ приложении практика разделена на входную диагностику, управляемые задания, самостоятельную практику и новую выходную проверку. Закрытые ответы получают rationale и разбор ошибки. Свободный текст сохраняется и оценивается по рубрике; до подключения и реальной проверки AI-движка система не выдаёт его за автоматическую AI-оценку.\n\n## 6. Интервальное повторение\n\nПовторяй не весь урок автоматически, а конкретную ошибку: выбор формы, согласование, word order, значение, регистр или пунктуацию. Новая попытка должна менять лексический контекст и формулировку, чтобы проверять перенос, а не запоминание одной строки.\n\n## 7. Технический статус\n\n- Постоянный ID: `A1-13`.\n- Прогресс хранится отдельно в course.grammarLessons[\"A1-13\"].\n- Содержание и ключи имеют статус draft; 24 авторских закрытых задания и объяснения вычитаны, выбранные тексты источников проверены. Полная постраничная и пользовательская приёмка остаются открытыми.\n- Предварительное выполнение порогов не равно окончательному mastered: нужны отсроченное повторение и learner review.",
+  "theoryEnd": "## 5."
+}

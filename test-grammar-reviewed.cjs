@@ -7,7 +7,7 @@ const engine=ctx.window.GrammarLessonEngine;
 const ids=Array.from({length:22},(_,i)=>'B1-'+String(i+1).padStart(2,'0'));
 const a2=Array.from({length:18},(_,i)=>'A2-'+String(i+1).padStart(2,'0'));
 ids.push(...a2);
-const a1=['A1-03','A1-04','A1-06','A1-07','A1-08','A1-09','A1-10','A1-11','A1-12'];
+const a1=['A1-03','A1-04','A1-06','A1-07','A1-08','A1-09','A1-10','A1-11','A1-12','A1-13','A1-14','A1-15'];
 ids.push(...a1);
 const log=fs.readFileSync('materials/GRAMMAR-MANUAL-REVIEW-LOG.md','utf8');
 const norm=s=>s.replace(/\r\n/g,'\n');
@@ -42,7 +42,8 @@ for(const id of ids){
  assert.equal(migrated.previousVersions[0].answers.D1.value,'old',id);
  assert.equal(migrated.previousVersions[0].drafts.W1,'old draft',id);
  engine.getState(id);assert.equal(migrated.previousVersions.length,1,id);assert.equal(saves,before+1,id);
- assert.ok(engine.view(id).includes(lesson.title),id+' render');
+ const escapedTitle=lesson.title.replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
+ assert.ok(engine.view(id).includes('<h2>'+escapedTitle+'</h2>'),id+' render');
 }
 assert.equal(prompts.size,ids.length*24);
 assert.equal(positions.reduce((a,b)=>a+b,0),ids.length*24);

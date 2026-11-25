@@ -1,0 +1,735 @@
+{
+  "id": "A1-15",
+  "level": "A1",
+  "sequence": "A1-15",
+  "grammarFamily": "modalCan",
+  "questionBankSource": "topic-specific-authored",
+  "sourceVerification": "draft; selected source text consulted; complete source-page and learner review pending",
+  "topicProfile": {
+    "label": "Can / can’t and basic modality",
+    "core": "Can — модальный глагол. Он выражает способность, возможность или разрешение: I can swim — я умею плавать; Can I sit here? — можно здесь сесть? Can't означает отсутствие способности/возможности или запрет в соответствующем контексте.",
+    "form": "| Функция | Модель | Пример |\n|---|---|---|\n| Способность | can + V1 | She can swim. |\n| Нет способности | can't + V1 | She can't swim. |\n| Вопрос | Can + subject + V1? | Can she swim? |\n| Разрешение | Can I + V1? | Can I use this pen? |\n| Просьба | Can/Could you + V1? | Could you wait? |\n| Совет | should + V1 | You should rest. |\n| Требование | must + V1 | You must register. |\n| Запрет | mustn't + V1 | You mustn't enter. |",
+    "selection": "Определи, речь о навыке, просьбе, разрешении или правиле. Для навыка используй can/can't. Для просьбы Can you…? или Could you…?. Для разрешения Can I…?. Should — совет, must — необходимость, mustn't — запрет. Don't have to — необязательно, а не запрещено.",
+    "contrast": "| Пример | Значение |\n|---|---|\n| I can read English. | Умею читать. |\n| I can't come today. | Не могу прийти. |\n| Can I open the window? | Можно открыть? |\n| Can you open the window? | Можешь открыть? |\n| You should check it. | Стоит проверить. |\n| You mustn't touch it. | Нельзя трогать. |\n| You don't have to bring it. | Приносить необязательно. |",
+    "boundary": "Не смешивай can't как запрет и don't have to как отсутствие необходимости. You can't enter this room — вход не разрешён. You don't have to enter — входить необязательно. Should и must различаются силой требования, но must может также выражать настоятельную рекомендацию. На A1 тренируем ясно заданные правила.",
+    "pronunciation": "Can часто произносится слабо, can't обычно выделяется; смысл зависит также от варианта английского. Произноси Can I…? и Can you…? целиком. В ответах Yes, I can и No, I can't auxiliary может быть ударным. Аудиосверка открыта.",
+    "examples": [
+      [
+        "I can play chess.",
+        "Я умею играть в шахматы.",
+        "Can + V1."
+      ],
+      [
+        "She can't come today.",
+        "Она не может прийти сегодня.",
+        "Can't + V1."
+      ],
+      [
+        "Can I borrow your pencil?",
+        "Можно одолжить карандаш?",
+        "Разрешение."
+      ],
+      [
+        "Could you repeat that, please?",
+        "Не могли бы вы повторить?",
+        "Вежливая просьба."
+      ],
+      [
+        "You should check your answer.",
+        "Тебе стоит проверить ответ.",
+        "Совет."
+      ],
+      [
+        "You mustn't use your phone here.",
+        "Здесь нельзя пользоваться телефоном.",
+        "Запрет."
+      ]
+    ],
+    "traps": [
+      [
+        "She cans swim.",
+        "She can swim.",
+        "Can не меняется."
+      ],
+      [
+        "I can to speak English.",
+        "I can speak English.",
+        "После can V1 без to."
+      ],
+      [
+        "Do you can help?",
+        "Can you help?",
+        "Can сам образует вопрос."
+      ],
+      [
+        "You mustn't bring it (если необязательно).",
+        "You don't have to bring it.",
+        "Запрет ≠ необязательно."
+      ]
+    ],
+    "toefl": "В Listening различай просьбу и вопрос о навыке, в Speaking вежливо попроси повторить вопрос, в Writing Email уточняй разрешение. Это A1, не официальный экзаменационный материал."
+  },
+  "title": "Can / can't and basic modality",
+  "description": "Выражать способность, простую возможность, разрешение и просьбу",
+  "cardDescription": "Теория, guided practice, самостоятельные задания и выходная проверка по постоянному ID A1-15.",
+  "eyebrow": "Полный урок программы A1-15 · drafted",
+  "contentVersion": "1.1-draft",
+  "curriculumVersion": "1.0",
+  "prerequisites": [
+    "A1-02"
+  ],
+  "outcomes": [
+    "Выражать способность, простую возможность, разрешение и просьбу",
+    "Выбирать целевую конструкцию по контексту и смыслу.",
+    "Исправлять типичные ошибки и переносить правило в новый пример."
+  ],
+  "sourceRefs": [
+    "GR-02 U26",
+    "GR-03 U15",
+    "GR-05 A1 p16",
+    "GR-05 A1 p18"
+  ],
+  "sourceStatus": "selected source text consulted; full page verification pending",
+  "status": "drafted",
+  "legacyCoverage": "Частично",
+  "toeflLinks": [
+    "Writing: Build a Sentence",
+    "Writing: Write an Email"
+  ],
+  "thresholds": {
+    "independent": 7,
+    "exit": 4,
+    "criticalIds": [
+      "E1",
+      "E2",
+      "E3"
+    ]
+  },
+  "groups": {
+    "independent": "Самостоятельная практика",
+    "exit": "Выходная проверка"
+  },
+  "items": [
+    {
+      "id": "D1",
+      "group": "Входная диагностика",
+      "prompt": "Choose the ability statement with I.",
+      "options": [
+        "I can to ride a bike.",
+        "I can ride a bike.",
+        "I can riding a bike."
+      ],
+      "answer": "I can ride a bike.",
+      "accepted": [
+        "I can ride a bike."
+      ],
+      "why": "Can + V1.",
+      "distractorWhy": "To лишнее.",
+      "distractorRationales": {
+        "I can to ride a bike.": "To лишнее.",
+        "I can riding a bike.": "Riding не V1."
+      },
+      "skillTarget": "modalCan",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D2",
+      "group": "Входная диагностика",
+      "prompt": "Choose the ability statement with she.",
+      "options": [
+        "She can dance.",
+        "She cans dance.",
+        "She can dances."
+      ],
+      "answer": "She can dance.",
+      "accepted": [
+        "She can dance."
+      ],
+      "why": "Can одинаков для всех лиц.",
+      "distractorWhy": "Cans не modal.",
+      "distractorRationales": {
+        "She cans dance.": "Cans не modal.",
+        "She can dances.": "Dances не V1."
+      },
+      "skillTarget": "modalCan",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D3",
+      "group": "Входная диагностика",
+      "prompt": "Choose the negative ability with he.",
+      "options": [
+        "He doesn't can swim.",
+        "He can't swims.",
+        "He can't swim."
+      ],
+      "answer": "He can't swim.",
+      "accepted": [
+        "He can't swim."
+      ],
+      "why": "Can't + V1.",
+      "distractorWhy": "Doesn't не нужен.",
+      "distractorRationales": {
+        "He doesn't can swim.": "Doesn't не нужен.",
+        "He can't swims.": "Swims не V1."
+      },
+      "skillTarget": "modalCan",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D4",
+      "group": "Входная диагностика",
+      "prompt": "Choose the full negative form of can.",
+      "options": [
+        "cannots",
+        "cannot",
+        "cannt"
+      ],
+      "answer": "cannot",
+      "accepted": [
+        "cannot"
+      ],
+      "why": "Cannot — полная форма.",
+      "distractorWhy": "Modal не получает -s.",
+      "distractorRationales": {
+        "cannots": "Modal не получает -s.",
+        "cannt": "Cannt неверно."
+      },
+      "skillTarget": "modalCan",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G1",
+      "group": "Управляемая практика",
+      "prompt": "Choose the direct ability question.",
+      "options": [
+        "Can you play chess?",
+        "Do you can play chess?",
+        "Can you to play chess?"
+      ],
+      "answer": "Can you play chess?",
+      "accepted": [
+        "Can you play chess?"
+      ],
+      "why": "Can + subject + V1.",
+      "distractorWhy": "Do не нужен.",
+      "distractorRationales": {
+        "Do you can play chess?": "Do не нужен.",
+        "Can you to play chess?": "To лишнее."
+      },
+      "skillTarget": "modalCan",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G2",
+      "group": "Управляемая практика",
+      "prompt": "Choose the question about a singular person's ability.",
+      "options": [
+        "Can Mia speaks French?",
+        "Does Mia can speak French?",
+        "Can Mia speak French?"
+      ],
+      "answer": "Can Mia speak French?",
+      "accepted": [
+        "Can Mia speak French?"
+      ],
+      "why": "Can + Mia + V1.",
+      "distractorWhy": "Speaks не V1.",
+      "distractorRationales": {
+        "Can Mia speaks French?": "Speaks не V1.",
+        "Does Mia can speak French?": "Does не нужен."
+      },
+      "skillTarget": "modalCan",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G3",
+      "group": "Управляемая практика",
+      "prompt": "'Can you drive?' Answer yes.",
+      "options": [
+        "Yes, I do.",
+        "Yes, I can.",
+        "Yes, I am."
+      ],
+      "answer": "Yes, I can.",
+      "accepted": [
+        "Yes, I can."
+      ],
+      "why": "Повторяем can.",
+      "distractorWhy": "Do не modal.",
+      "distractorRationales": {
+        "Yes, I do.": "Do не modal.",
+        "Yes, I am.": "Am не соответствует."
+      },
+      "skillTarget": "modalCan",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G4",
+      "group": "Управляемая практика",
+      "prompt": "'Can he swim?' Answer no.",
+      "options": [
+        "No, he can't.",
+        "No, he doesn't.",
+        "No, he isn't."
+      ],
+      "answer": "No, he can't.",
+      "accepted": [
+        "No, he can't."
+      ],
+      "why": "Can → can't.",
+      "distractorWhy": "Doesn't не соответствует.",
+      "distractorRationales": {
+        "No, he doesn't.": "Doesn't не соответствует.",
+        "No, he isn't.": "Isn't не соответствует."
+      },
+      "skillTarget": "modalCan",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G5",
+      "group": "Управляемая практика",
+      "prompt": "Choose the request for permission to sit.",
+      "options": [
+        "Can you sit here? (asking for your own permission)",
+        "I can sit here? (neutral request)",
+        "Can I sit here?"
+      ],
+      "answer": "Can I sit here?",
+      "accepted": [
+        "Can I sit here?"
+      ],
+      "why": "Can I + V1 спрашивает разрешение.",
+      "distractorWhy": "Can you обращено к другому.",
+      "distractorRationales": {
+        "Can you sit here? (asking for your own permission)": "Can you обращено к другому.",
+        "I can sit here? (neutral request)": "Нейтральный вопрос требует inversion."
+      },
+      "skillTarget": "modalCan",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G6",
+      "group": "Управляемая практика",
+      "prompt": "Choose the request asking another person to close a door.",
+      "options": [
+        "Can I close the door? (asking the listener to act)",
+        "Can you close the door, please?",
+        "Can you closes the door, please?"
+      ],
+      "answer": "Can you close the door, please?",
+      "accepted": [
+        "Can you close the door, please?"
+      ],
+      "why": "Can you + V1 просит действие.",
+      "distractorWhy": "Can I спрашивает своё разрешение.",
+      "distractorRationales": {
+        "Can I close the door? (asking the listener to act)": "Can I спрашивает своё разрешение.",
+        "Can you closes the door, please?": "Closes не V1."
+      },
+      "skillTarget": "modalCan",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I1",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the polite classroom request using could to hear a word again.",
+      "options": [
+        "Could you to repeat the word?",
+        "Could you repeated the word?",
+        "Could you repeat the word?"
+      ],
+      "answer": "Could you repeat the word?",
+      "accepted": [
+        "Could you repeat the word?"
+      ],
+      "why": "Could + subject + V1.",
+      "distractorWhy": "To лишнее.",
+      "distractorRationales": {
+        "Could you to repeat the word?": "To лишнее.",
+        "Could you repeated the word?": "Repeated не V1."
+      },
+      "skillTarget": "modalCan",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I2",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose a polite request for some water.",
+      "options": [
+        "Can I has some water, please?",
+        "Can I have some water, please?",
+        "Can I having some water, please?"
+      ],
+      "answer": "Can I have some water, please?",
+      "accepted": [
+        "Can I have some water, please?"
+      ],
+      "why": "Can I + have + some water.",
+      "distractorWhy": "Has не V1.",
+      "distractorRationales": {
+        "Can I has some water, please?": "Has не V1.",
+        "Can I having some water, please?": "Having не V1."
+      },
+      "skillTarget": "modalCan",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I3",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the general past ability.",
+      "options": [
+        "When I was six, I could swim.",
+        "When I was six, I can swim (past ability).",
+        "When I was six, I could swam."
+      ],
+      "answer": "When I was six, I could swim.",
+      "accepted": [
+        "When I was six, I could swim."
+      ],
+      "why": "Could — прошлый навык.",
+      "distractorWhy": "Can относится к настоящему.",
+      "distractorRationales": {
+        "When I was six, I can swim (past ability).": "Can относится к настоящему.",
+        "When I was six, I could swam.": "Swam не V1."
+      },
+      "skillTarget": "modalCan",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I4",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the negative about not being available tonight.",
+      "options": [
+        "I can't comes tonight.",
+        "I don't can come tonight.",
+        "I can't come tonight."
+      ],
+      "answer": "I can't come tonight.",
+      "accepted": [
+        "I can't come tonight."
+      ],
+      "why": "Can't + V1.",
+      "distractorWhy": "Comes не V1.",
+      "distractorRationales": {
+        "I can't comes tonight.": "Comes не V1.",
+        "I don't can come tonight.": "Don't не нужен."
+      },
+      "skillTarget": "modalCan",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I5",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the recommendation with should.",
+      "options": [
+        "You should to drink some water.",
+        "You should drink some water.",
+        "You should drinking some water."
+      ],
+      "answer": "You should drink some water.",
+      "accepted": [
+        "You should drink some water."
+      ],
+      "why": "Should + V1.",
+      "distractorWhy": "To лишнее.",
+      "distractorRationales": {
+        "You should to drink some water.": "To лишнее.",
+        "You should drinking some water.": "Drinking не V1."
+      },
+      "skillTarget": "modalCan",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I6",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the negative recommendation.",
+      "options": [
+        "You shouldn't skip the lesson.",
+        "You shouldn't skips the lesson.",
+        "You don't should skip the lesson."
+      ],
+      "answer": "You shouldn't skip the lesson.",
+      "accepted": [
+        "You shouldn't skip the lesson."
+      ],
+      "why": "Shouldn't + V1.",
+      "distractorWhy": "Skips не V1.",
+      "distractorRationales": {
+        "You shouldn't skips the lesson.": "Skips не V1.",
+        "You don't should skip the lesson.": "Don't не нужен."
+      },
+      "skillTarget": "modalCan",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I7",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the rule requiring an ID.",
+      "options": [
+        "You must to show your ID.",
+        "You must shows your ID.",
+        "You must show your ID."
+      ],
+      "answer": "You must show your ID.",
+      "accepted": [
+        "You must show your ID."
+      ],
+      "why": "Must + V1.",
+      "distractorWhy": "To лишнее.",
+      "distractorRationales": {
+        "You must to show your ID.": "To лишнее.",
+        "You must shows your ID.": "Shows не V1."
+      },
+      "skillTarget": "modalCan",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I8",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the strict prohibition about touching an exhibit.",
+      "options": [
+        "You don't have to touch the exhibit.",
+        "You mustn't touch the exhibit.",
+        "You should touch the exhibit."
+      ],
+      "answer": "You mustn't touch the exhibit.",
+      "accepted": [
+        "You mustn't touch the exhibit."
+      ],
+      "why": "Mustn't запрещает.",
+      "distractorWhy": "Don't have to — необязательно.",
+      "distractorRationales": {
+        "You don't have to touch the exhibit.": "Don't have to — необязательно.",
+        "You should touch the exhibit.": "Should — совет."
+      },
+      "skillTarget": "modalCan",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I9",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the expression meaning that printing is optional.",
+      "options": [
+        "You don't have to print the file.",
+        "You mustn't print the file.",
+        "You can't print the file."
+      ],
+      "answer": "You don't have to print the file.",
+      "accepted": [
+        "You don't have to print the file."
+      ],
+      "why": "Нет необходимости.",
+      "distractorWhy": "Mustn't запрет.",
+      "distractorRationales": {
+        "You mustn't print the file.": "Mustn't запрет.",
+        "You can't print the file.": "Can't запрет/невозможность."
+      },
+      "skillTarget": "modalCan",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E1",
+      "group": "Выходная проверка",
+      "prompt": "Choose the third-person necessity with have to.",
+      "options": [
+        "Mia has to leave at six.",
+        "Mia have to leave at six.",
+        "Mia has to leaving at six."
+      ],
+      "answer": "Mia has to leave at six.",
+      "accepted": [
+        "Mia has to leave at six."
+      ],
+      "why": "Mia + has to + V1.",
+      "distractorWhy": "Have не согласуется.",
+      "distractorRationales": {
+        "Mia have to leave at six.": "Have не согласуется.",
+        "Mia has to leaving at six.": "Leaving не V1."
+      },
+      "skillTarget": "modalCan",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E2",
+      "group": "Выходная проверка",
+      "prompt": "Choose the ordinary question with have to.",
+      "options": [
+        "Do you has to work today?",
+        "Are you have to work today?",
+        "Do you have to work today?"
+      ],
+      "answer": "Do you have to work today?",
+      "accepted": [
+        "Do you have to work today?"
+      ],
+      "why": "Do + subject + have to.",
+      "distractorWhy": "Has не V1.",
+      "distractorRationales": {
+        "Do you has to work today?": "Has не V1.",
+        "Are you have to work today?": "Are не образует вопрос have to."
+      },
+      "skillTarget": "modalCan",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E3",
+      "group": "Выходная проверка",
+      "prompt": "Choose the correct future ability expression.",
+      "options": [
+        "I'll can help tomorrow.",
+        "I'll be able to help tomorrow.",
+        "I'll be able help tomorrow."
+      ],
+      "answer": "I'll be able to help tomorrow.",
+      "accepted": [
+        "I'll be able to help tomorrow."
+      ],
+      "why": "Will be able to.",
+      "distractorWhy": "Will can нельзя.",
+      "distractorRationales": {
+        "I'll can help tomorrow.": "Will can нельзя.",
+        "I'll be able help tomorrow.": "Не хватает to."
+      },
+      "skillTarget": "modalCan",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E4",
+      "group": "Выходная проверка",
+      "prompt": "Which sentence expresses permission rather than a personal skill?",
+      "options": [
+        "You can use this seat.",
+        "I can speak English.",
+        "She can swim fast."
+      ],
+      "answer": "You can use this seat.",
+      "accepted": [
+        "You can use this seat."
+      ],
+      "why": "Разрешение пользоваться местом.",
+      "distractorWhy": "Способность говорить.",
+      "distractorRationales": {
+        "I can speak English.": "Способность говорить.",
+        "She can swim fast.": "Навык плавания."
+      },
+      "skillTarget": "modalCan",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E5",
+      "group": "Выходная проверка",
+      "prompt": "Choose the accurate modal rule.",
+      "options": [
+        "Can takes -s with he and she.",
+        "Can always requires to before the main verb.",
+        "Can does not take -s and is followed by V1 without to."
+      ],
+      "answer": "Can does not take -s and is followed by V1 without to.",
+      "accepted": [
+        "Can does not take -s and is followed by V1 without to."
+      ],
+      "why": "Can неизменен, bare infinitive.",
+      "distractorWhy": "Cans неверно.",
+      "distractorRationales": {
+        "Can takes -s with he and she.": "Cans неверно.",
+        "Can always requires to before the main verb.": "To не требуется."
+      },
+      "skillTarget": "modalCan",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "W1",
+      "group": "Самостоятельное применение",
+      "prompt": "Составь диалог из 8–10 реплик в учебной аудитории: способность, отрицание, два вопроса, разрешение, вежливая просьба, совет, правило и запрет.",
+      "open": true,
+      "rubric": [
+        "Modal не меняется по лицу.",
+        "После modal V1 без to.",
+        "Вопросы и отрицания правильны.",
+        "Просьба и разрешение различены.",
+        "Совет, запрет и отсутствие необходимости различены.",
+        "Короткие ответы соответствуют вопросу."
+      ],
+      "skillTarget": "Самостоятельное применение modalCan",
+      "interactionType": "open-production",
+      "difficulty": "transfer",
+      "sourceBasis": "Speakbase-authored open production; self-review rubric only until real AI feedback is connected",
+      "contentVersion": "1.1-draft"
+    }
+  ],
+  "markdown": "# Speakbase — A1-15: Can / can't and basic modality\n\n**Curriculum ID:** `A1-15`  \n**Уровень:** A1  \n**Версия:** 1.1-draft\n**Статус:** drafted; selected source text checked; full source-page and learner acceptance pending\n**Предварительные темы:** A1-02  \n**Связь со старым каталогом:** Частично — №10 Modal verbs\n\n## 1. Результаты обучения\n\n- Выражать способность, простую возможность, разрешение и просьбу\n- Выбирать целевую форму по значению, структуре предложения и контексту.\n- Объяснять, почему близкая грамматическая форма меняет смысл или регистр.\n- Находить и исправлять типичные ошибки русскоязычных студентов.\n\n## 2. Источники и статус сверки\n\n| Source | PDF navigation | Lesson-specific checks | Status |\n|---|---|---|---|\n| GR-02 U26 | PDF pages 64-65 (Unit 26) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-03 U15 | PDF pages 54-55 (Unit 15) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-05 A1 p16 | PDF pages 16 (A1 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-05 A1 p18 | PDF pages 18 (A1 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n\nUnit/page locations are navigation aids only. They do not prove that the cited explanation, examples, restrictions and answer key have been checked for this lesson. Examples and explanations below are Speakbase-authored, not quotations from the textbook.\n\nПеред переводом этого урока в source-verified необходимо открыть целевые страницы конкретного издания, записать печатную и PDF-пагинацию, сверить ограничения и исключения. Для GR-03 со сканированными страницами обязательна визуальная проверка.\n\n**Evidence for this editorial pass:** GR-01 Units 31–34, selected theory text inspected PDF pp. 73, 75, 77, 79 (printed pp. 72–78); curriculum GR-02/GR-03/GR-05 alignment and exercise-page/visual review pending. The selected source text was consulted; not all pages, exercises, editions, scanned GR-03 pages or GR-05 descriptors were checked. Author-created explanations and practice are not copied source exercises.\n\n## 3. Место темы и границы\n\nРаздели способность, разрешение, просьбу и возможность; после can/can’t используется bare infinitive. Сопоставь can и be able to только в пределах необходимого A1 scope.\n\nСтарый каталог содержит: №10 Modal verbs. Его статус — Частично. Старые отметки завершения не переносятся автоматически на новый постоянный ID. Тема рассматривается в уровне A1 и не заменяет обязательные prerequisites.\n\n## 4. Полный конспект\n\n### 4.1. Основная идея и функция конструкции\n\nCan — модальный глагол. Он выражает способность, возможность или разрешение: I can swim — я умею плавать; Can I sit here? — можно здесь сесть? Can't означает отсутствие способности/возможности или запрет в соответствующем контексте.\n\nCan одинаков для всех лиц: I can, she can, they can. После него используется начальная форма без to и без -s. В вопросе can перемещается перед subject, в отрицании добавляется not: can't/cannot. Вежливый вопрос Can you help me? просит действие; Could you help me? звучит более мягко.\n\n### 4.2. Формирование и грамматическая модель\n\n| Функция | Модель | Пример |\n|---|---|---|\n| Способность | can + V1 | She can swim. |\n| Нет способности | can't + V1 | She can't swim. |\n| Вопрос | Can + subject + V1? | Can she swim? |\n| Разрешение | Can I + V1? | Can I use this pen? |\n| Просьба | Can/Could you + V1? | Could you wait? |\n| Совет | should + V1 | You should rest. |\n| Требование | must + V1 | You must register. |\n| Запрет | mustn't + V1 | You mustn't enter. |\n\nCan, could, should, must не изменяются по лицу. После них V1: can speak, should read, must go. Don't/doesn't не используются для их отрицаний: can't, couldn't, shouldn't, mustn't. Краткие ответы: Can you swim? — Yes, I can / No, I can't. Could также выражает прошлую способность: I could swim at six. Have to — отдельная модель необходимости: I have to, she has to, Do you have to…?\n\n### 4.3. Как выбрать подходящую форму\n\nОпредели, речь о навыке, просьбе, разрешении или правиле. Для навыка используй can/can't. Для просьбы Can you…? или Could you…?. Для разрешения Can I…?. Should — совет, must — необходимость, mustn't — запрет. Don't have to — необязательно, а не запрещено.\n\nCan I have some water? — просьба о предмете. Can you open the window? — просьба к собеседнику. Can you swim? — вопрос о способности. Контекст определяет значение. Could в просьбе не означает прошлое время. Для настоящего навыка — can, для прошлого — could; более подробные случаи на A2.\n\n### 4.4. Сравнение с близкими конструкциями\n\n| Пример | Значение |\n|---|---|\n| I can read English. | Умею читать. |\n| I can't come today. | Не могу прийти. |\n| Can I open the window? | Можно открыть? |\n| Can you open the window? | Можешь открыть? |\n| You should check it. | Стоит проверить. |\n| You mustn't touch it. | Нельзя трогать. |\n| You don't have to bring it. | Приносить необязательно. |\n\n### 4.5. Примеры с переводом и объяснением\n\n| English | Перевод | Почему это подходит |\n| --- | --- | --- |\n| I can play chess. | Я умею играть в шахматы. | Can + V1. |\n| She can't come today. | Она не может прийти сегодня. | Can't + V1. |\n| Can I borrow your pencil? | Можно одолжить карандаш? | Разрешение. |\n| Could you repeat that, please? | Не могли бы вы повторить? | Вежливая просьба. |\n| You should check your answer. | Тебе стоит проверить ответ. | Совет. |\n| You mustn't use your phone here. | Здесь нельзя пользоваться телефоном. | Запрет. |\n\n### 4.6. Исключения, ограничения и границы употребления\n\nНе смешивай can't как запрет и don't have to как отсутствие необходимости. You can't enter this room — вход не разрешён. You don't have to enter — входить необязательно. Should и must различаются силой требования, но must может также выражать настоятельную рекомендацию. На A1 тренируем ясно заданные правила.\n\nНельзя ставить два обычных modal подряд: will can неверно; для будущей способности — will be able to. Can относится и к возможности, не только к умению. May/might и другие оттенки будут на A2. Не путай cannot (одно слово в обычной отрицательной форме) и can not в специальных контрастных конструкциях. Can не требует be перед собой.\n\n### 4.7. Типичные ошибки русскоязычных студентов\n\n| Ошибка | Исправление | Объяснение |\n| --- | --- | --- |\n| She cans swim. | She can swim. | Can не меняется. |\n| I can to speak English. | I can speak English. | После can V1 без to. |\n| Do you can help? | Can you help? | Can сам образует вопрос. |\n| You mustn't bring it (если необязательно). | You don't have to bring it. | Запрет ≠ необязательно. |\n\n### 4.8. Произношение и восприятие на слух\n\nCan часто произносится слабо, can't обычно выделяется; смысл зависит также от варианта английского. Произноси Can I…? и Can you…? целиком. В ответах Yes, I can и No, I can't auxiliary может быть ударным. Аудиосверка открыта.\n\nСначала прослушай или прочитай пример, затем произнеси его целиком. Обрати внимание на смысловое ударение и форму конструкции; не ориентируйся только на буквенный перевод.\n\n### 4.9. Академический английский и TOEFL-перенос\n\nВ Listening различай просьбу и вопрос о навыке, в Speaking вежливо попроси повторить вопрос, в Writing Email уточняй разрешение. Это A1, не официальный экзаменационный материал.\n\nЭто авторская практика переноса навыка. Она не является официальным заданием TOEFL и не выдаётся за официальный результат экзамена.\n\n### 4.10. Примеры для управляемого разбора\n\n- I can play chess. — Я умею играть в шахматы. Can + V1.\n- She can't come today. — Она не может прийти сегодня. Can't + V1.\n- Can I borrow your pencil? — Можно одолжить карандаш? Разрешение.\n\nДля каждого примера назови целевую конструкцию, объясни выбор и составь новое предложение в другом контексте. Затем перейди к заданиям: сначала диагностика, затем управляемая и самостоятельная практика, затем новые вопросы выходной проверки.\n\n### 4.11. Самопроверка\n\nПеред отправкой ответа проверь:\n1. Modal не меняется по лицу.\n2. После modal V1 без to.\n3. Вопросы и отрицания правильны.\n4. Просьба и разрешение различены.\n5. Совет, запрет и отсутствие необходимости различены.\n6. Короткие ответы соответствуют вопросу.\n\n### 4.12. Краткая памятка\n\nCan + V1, can't + V1, Can + subject + V1? Одинаково для всех лиц. Can I — разрешение, Can/Could you — просьба. Should — совет, must — необходимость, mustn't — запрет; don't have to — необязательно.\n\nНе выбирай форму только по одному знакомому слову: проверь контекст, значение и структуру. При ошибке вернись к соответствующей части конспекта и составь собственный пример.\n\n## 5. Практика\n\nВ приложении практика разделена на входную диагностику, управляемые задания, самостоятельную практику и новую выходную проверку. Закрытые ответы получают rationale и разбор ошибки. Свободный текст сохраняется и оценивается по рубрике; до подключения и реальной проверки AI-движка система не выдаёт его за автоматическую AI-оценку.\n\n## 6. Интервальное повторение\n\nПовторяй не весь урок автоматически, а конкретную ошибку: выбор формы, согласование, word order, значение, регистр или пунктуацию. Новая попытка должна менять лексический контекст и формулировку, чтобы проверять перенос, а не запоминание одной строки.\n\n## 7. Технический статус\n\n- Постоянный ID: `A1-15`.\n- Прогресс хранится отдельно в course.grammarLessons[\"A1-15\"].\n- Содержание и ключи имеют статус draft; 24 авторских закрытых задания и объяснения вычитаны, выбранные тексты источников проверены. Полная постраничная и пользовательская приёмка остаются открытыми.\n- Предварительное выполнение порогов не равно окончательному mastered: нужны отсроченное повторение и learner review.",
+  "theoryEnd": "## 5."
+}

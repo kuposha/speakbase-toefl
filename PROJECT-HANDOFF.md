@@ -63,3 +63,7 @@ A1-07–09: have/have got, there is/are, possessives and demonstratives. 72 orig
 ## A1 third package
 
 A1-10–12: countability and basic quantities, adjectives and adverbs, frequency and word order. 72 original closed questions and 3 open rubrics. GR-01 selected theory Units 67–69, 77–87, 95–96 consulted. Full sources, exercise pages, visual/audio and learner verification pending. A1 new lessons 9/16. Next A1-13–19. PARTIAL.
+
+## A1 fourth package
+
+A1-13–15: Present Continuous, Present Simple vs Continuous, can/cannot and core modality. 72 original closed tasks and 3 open rubrics; GR-01 selected theory Units 4–9, 31–34 inspected. Full additional source, exercise-page, visual/audio and learner verification pending. A1 new lessons 12/16. Next A1-16–19. PARTIAL.
