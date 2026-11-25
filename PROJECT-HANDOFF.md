@@ -71,3 +71,7 @@ A1-13–15: Present Continuous, Present Simple vs Continuous, can/cannot and cor
 ## A1 final package — editorial pass complete
 
 A1-16–19: imperatives and suggestions, basic conjunctions, time/place prepositions, introductory Past Simple. 96 original closed tasks with separate explanations and 4 open rubrics. GR-01 selected theory Units 11–13, 36, 98, 103–110 inspected. A1 new lessons 16/16; A1-01, A1-02 and approved A1-05 unchanged. A2 18/18; B1 22/22. Combined editorial pass: 56 new lessons, 1344 closed items and 56 open rubrics. Full additional-source alignment, exercise-page checks, visual/audio and learner verification still pending (PARTIAL). B2/C1 remain preliminary. Next: consolidate source/QA evidence, finish B2/C1 manual review where necessary, daily grammar integration and TOEFL linking. Preserve unrelated work and account data.
+
+## C1 second editorial pass, package 1
+
+C1-01–03: negative inversion, inverted conditionals, clefts/fronting/emphatic do. Visually reopened GR-03 theory Units 84, 98–100 (PDF pp. 192, 220, 222, 224). Replaced repetitive generated practice with 72 individually authored questions and 3 open rubrics; fixed the erroneous Should + raised key and expanded coverage. Existing prior source evidence retained. Full GR-05 and learner acceptance remain pending. Editorial pass: C1 3/14; combined A1–B1/C1 59 lessons. Next C1-04–06. No real-account changes.

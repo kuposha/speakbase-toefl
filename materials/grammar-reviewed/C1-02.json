@@ -1,0 +1,744 @@
+{
+  "id": "C1-02",
+  "level": "C1",
+  "sequence": "C1-02",
+  "grammarFamily": "C1-02",
+  "questionBankSource": "topic-specific-authored",
+  "sourceVerification": "draft; selected source text consulted; complete source-page and learner review pending",
+  "topicProfile": {
+    "label": "inverted and ellipted conditionals",
+    "skillTarget": "inverted-and-ellipted-conditionals",
+    "core": "Conditional inversion — формальная альтернатива некоторым if-clauses. Условный союз if опускается, а had, were или should ставится перед subject. Had the data been available, we would have revised the conclusion = If the data had been available, we would have revised the conclusion. Смысл условия и временная перспектива сохраняются; меняется регистр и порядок слов.",
+    "form": "| Тип условия | If-clause | Inverted clause |\n|---|---|---|\n| Прошлое контрфактическое | If she had known | Had she known |\n| Прошлое passive | If the file had been lost | Had the file been lost |\n| Гипотеза с be | If he were available | Were he available |\n| Гипотетическое будущее | If the plan were to fail | Were the plan to fail |\n| Возможный случай | If you should need help | Should you need help |\n| Возможный passive | If further proof should be required | Should further proof be required |\n| Отрицательное условие | If she had not noticed | Had she not noticed |",
+    "selection": "Начни с развёрнутого if-clause и определи первый глагол. If + Past Perfect → Had. If + were / were to → Were. If + should + V1 → Should. Сохрани negation и passive. Затем проверь соответствие result clause: Had we left earlier, we might have arrived on time; Were the plan to change, we would inform you; Should the schedule change, please check the website.",
+    "contrast": "| Условие | Значение |\n|---|---|\n| Had the server failed yesterday, we would have lost the data. | Нереализованное прошлое. |\n| Were the server to fail tomorrow, we would need a backup. | Гипотетическая перспектива. |\n| Should the server fail, contact support. | Возможный предусмотренный случай. |\n| Had we acted sooner, we would be ready now. | Mixed: прошлое условие, настоящий результат. |\n| Were it not for the backup, we would be in trouble. | Нынешний фактор. |",
+    "boundary": "Не заменяй произвольное if-clause инверсией: If she arrives early нельзя превратить в Arrives she early; возможна формальная перестройка Should she arrive early, но оттенок условия меняется. Should в условии не обозначает совет. Inverted conditional может стоять в конце: We would have acted differently had we known. В начале обычно нужна запятая между частями; в конце она обычно не нужна. Различай условную инверсию и общий вопрос Had you finished? по синтаксису и смыслу.",
+    "pronunciation": "Произноси условную часть как смысловую группу, с паузой на границе при начальной позиции. Had, were и should должны быть различимы; не добавляй вопросительную интонацию только из-за инверсии. Аудиосверка открыта.",
+    "examples": [
+      [
+        "Had the backup failed, the team would have lost its records.",
+        "Если бы резервная копия не сработала, команда потеряла бы записи.",
+        "Had + V3, прошлое контрфактическое."
+      ],
+      [
+        "Were the budget to increase, we could extend the trial.",
+        "Если бы бюджет увеличился, мы могли бы продлить испытание.",
+        "Were + to-infinitive."
+      ],
+      [
+        "Should you encounter any difficulty, contact the tutor.",
+        "Если возникнут затруднения, свяжитесь с преподавателем.",
+        "Should + V1, предусмотренный случай."
+      ],
+      [
+        "Had she not intervened, the error would have persisted.",
+        "Если бы она не вмешалась, ошибка сохранилась бы.",
+        "Not после subject."
+      ],
+      [
+        "Were it not for the grant, the course would be unaffordable.",
+        "Если бы не грант, курс был бы недоступен по цене.",
+        "Нынешний фактор."
+      ],
+      [
+        "Had we prepared earlier, we would be ready now.",
+        "Если бы подготовились раньше, сейчас были бы готовы.",
+        "Смешанное условие."
+      ]
+    ],
+    "traps": [
+      [
+        "Should the reviewers raised an objection, we will respond.",
+        "Should the reviewers raise an objection, we will respond.",
+        "После should только V1."
+      ],
+      [
+        "Had we know the answer, we would have acted.",
+        "Had we known the answer, we would have acted.",
+        "Had + V3."
+      ],
+      [
+        "Were the plan fail, we would stop.",
+        "Were the plan to fail, we would stop.",
+        "Were + to-infinitive."
+      ],
+      [
+        "If had we checked, we would have noticed.",
+        "Had we checked, we would have noticed.",
+        "If опускается при инверсии."
+      ],
+      [
+        "Had not the committee checked, it would have missed the error.",
+        "Had the committee not checked, it would have missed the error.",
+        "Not после subject в целевой модели."
+      ]
+    ],
+    "toefl": "В Reading различай формальные условия и утверждения о реальных результатах. В Speaking/Writing предпочитай прозрачную if-конструкцию, если инверсия усложняет понимание. В аргументации используй контрфактическое условие только при корректной временной логике."
+  },
+  "title": "Inverted and ellipted conditionals",
+  "description": "Строить условные конструкции с should/were/had и опускать if в формальном стиле",
+  "cardDescription": "Теория, guided practice, самостоятельные задания и выходная проверка по постоянному ID C1-02.",
+  "eyebrow": "Полный урок программы C1-02 · drafted",
+  "contentVersion": "1.1-draft",
+  "curriculumVersion": "1.0",
+  "prerequisites": [
+    "B1-05",
+    "B1-06",
+    "B2-01"
+  ],
+  "outcomes": [
+    "Строить условные конструкции с should/were/had и опускать if в формальном стиле",
+    "Выбирать целевую конструкцию по контексту и смыслу.",
+    "Исправлять типичные ошибки и переносить правило в новый пример."
+  ],
+  "sourceRefs": [
+    "GR-03 U83-87",
+    "GR-03 U99",
+    "GR-05 C1 p9",
+    "GR-05 C1 p33"
+  ],
+  "sourceStatus": "selected source text consulted; full page verification pending",
+  "status": "drafted",
+  "legacyCoverage": "Нет",
+  "toeflLinks": [
+    "Writing: Build a Sentence",
+    "Speaking: Listen and Repeat / Take an Interview",
+    "Writing: Academic Discussion"
+  ],
+  "thresholds": {
+    "independent": 7,
+    "exit": 4,
+    "criticalIds": [
+      "E1",
+      "E2",
+      "E3"
+    ]
+  },
+  "groups": {
+    "independent": "Самостоятельная практика",
+    "exit": "Выходная проверка"
+  },
+  "items": [
+    {
+      "id": "D1",
+      "group": "Входная диагностика",
+      "prompt": "Complete the counterfactual past condition: ___ the team checked the backup, it would have detected the fault.",
+      "options": [
+        "Should",
+        "Had",
+        "Were"
+      ],
+      "answer": "Had",
+      "accepted": [
+        "Had"
+      ],
+      "why": "Had + subject + V3.",
+      "distractorWhy": "Should требует V1 check.",
+      "distractorRationales": {
+        "Should": "Should требует V1 check.",
+        "Were": "Were требует complement/to-infinitive."
+      },
+      "skillTarget": "inverted-and-ellipted-conditionals",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D2",
+      "group": "Входная диагностика",
+      "prompt": "Complete the hypothetical future condition: ___ the grant to be withdrawn, the course would close.",
+      "options": [
+        "Were",
+        "Had",
+        "Should"
+      ],
+      "answer": "Were",
+      "accepted": [
+        "Were"
+      ],
+      "why": "Were + to-infinitive.",
+      "distractorWhy": "Had + V3, не to-infinitive.",
+      "distractorRationales": {
+        "Had": "Had + V3, не to-infinitive.",
+        "Should": "Should + bare V1."
+      },
+      "skillTarget": "inverted-and-ellipted-conditionals",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D3",
+      "group": "Входная диагностика",
+      "prompt": "Complete the formal contingency: ___ the reviewers raise an objection, the editor will respond.",
+      "options": [
+        "Had",
+        "Were",
+        "Should"
+      ],
+      "answer": "Should",
+      "accepted": [
+        "Should"
+      ],
+      "why": "Should + V1 raise.",
+      "distractorWhy": "Had требует raised.",
+      "distractorRationales": {
+        "Had": "Had требует raised.",
+        "Were": "Were требует to raise."
+      },
+      "skillTarget": "inverted-and-ellipted-conditionals",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D4",
+      "group": "Входная диагностика",
+      "prompt": "Choose the equivalent of 'If the file had been encrypted'.",
+      "options": [
+        "Had the file be encrypted",
+        "Had the file been encrypted",
+        "Should the file been encrypted"
+      ],
+      "answer": "Had the file been encrypted",
+      "accepted": [
+        "Had the file been encrypted"
+      ],
+      "why": "Had + been + V3, passive perfect.",
+      "distractorWhy": "Be не V3.",
+      "distractorRationales": {
+        "Had the file be encrypted": "Be не V3.",
+        "Should the file been encrypted": "Should требует be."
+      },
+      "skillTarget": "inverted-and-ellipted-conditionals",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G1",
+      "group": "Управляемая практика",
+      "prompt": "Choose the correct hypothetical passive future.",
+      "options": [
+        "Were the offer to be accepted, we would proceed.",
+        "Were the offer be accepted, we would proceed.",
+        "Were the offer to been accepted, we would proceed."
+      ],
+      "answer": "Were the offer to be accepted, we would proceed.",
+      "accepted": [
+        "Were the offer to be accepted, we would proceed."
+      ],
+      "why": "Were + to be + V3.",
+      "distractorWhy": "Нет to.",
+      "distractorRationales": {
+        "Were the offer be accepted, we would proceed.": "Нет to.",
+        "Were the offer to been accepted, we would proceed.": "После to — be."
+      },
+      "skillTarget": "inverted-and-ellipted-conditionals",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G2",
+      "group": "Управляемая практика",
+      "prompt": "Choose a contingent passive condition with should.",
+      "options": [
+        "Should additional evidence been required, notify us.",
+        "Should additional evidence is required, notify us.",
+        "Should additional evidence be required, notify us."
+      ],
+      "answer": "Should additional evidence be required, notify us.",
+      "accepted": [
+        "Should additional evidence be required, notify us."
+      ],
+      "why": "Should + be + V3.",
+      "distractorWhy": "Been не V1.",
+      "distractorRationales": {
+        "Should additional evidence been required, notify us.": "Been не V1.",
+        "Should additional evidence is required, notify us.": "Is не V1."
+      },
+      "skillTarget": "inverted-and-ellipted-conditionals",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G3",
+      "group": "Управляемая практика",
+      "prompt": "Choose the negative past inverted condition.",
+      "options": [
+        "Had we not check, we would have missed the fault.",
+        "Had we not checked, we would have missed the fault.",
+        "Had we didn't check, we would have missed the fault."
+      ],
+      "answer": "Had we not checked, we would have missed the fault.",
+      "accepted": [
+        "Had we not checked, we would have missed the fault."
+      ],
+      "why": "Not после subject, V3 checked.",
+      "distractorWhy": "Check не V3.",
+      "distractorRationales": {
+        "Had we not check, we would have missed the fault.": "Check не V3.",
+        "Had we didn't check, we would have missed the fault.": "Didn't лишнее."
+      },
+      "skillTarget": "inverted-and-ellipted-conditionals",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G4",
+      "group": "Управляемая практика",
+      "prompt": "Choose the negative hypothetical condition with were to.",
+      "options": [
+        "Were the plan not to succeed, we would reconsider it.",
+        "Were the plan not succeed, we would reconsider it.",
+        "Were the plan doesn't succeed, we would reconsider it."
+      ],
+      "answer": "Were the plan not to succeed, we would reconsider it.",
+      "accepted": [
+        "Were the plan not to succeed, we would reconsider it."
+      ],
+      "why": "Not + to-infinitive.",
+      "distractorWhy": "Нет to.",
+      "distractorRationales": {
+        "Were the plan not succeed, we would reconsider it.": "Нет to.",
+        "Were the plan doesn't succeed, we would reconsider it.": "Doesn't не входит в модель."
+      },
+      "skillTarget": "inverted-and-ellipted-conditionals",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G5",
+      "group": "Управляемая практика",
+      "prompt": "Choose the negative contingency with should.",
+      "options": [
+        "Should you not received a reply, contact us.",
+        "Should not you receives a reply, contact us.",
+        "Should you not receive a reply, contact us."
+      ],
+      "answer": "Should you not receive a reply, contact us.",
+      "accepted": [
+        "Should you not receive a reply, contact us."
+      ],
+      "why": "Not после subject, receive V1.",
+      "distractorWhy": "Received не V1.",
+      "distractorRationales": {
+        "Should you not received a reply, contact us.": "Received не V1.",
+        "Should not you receives a reply, contact us.": "Позиция not и receives неверны."
+      },
+      "skillTarget": "inverted-and-ellipted-conditionals",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G6",
+      "group": "Управляемая практика",
+      "prompt": "Choose the correct inverted condition without redundant if.",
+      "options": [
+        "If had we consulted the expert, we would have saved time.",
+        "Had we consulted the expert, we would have saved time.",
+        "Had if we consulted the expert, we would have saved time."
+      ],
+      "answer": "Had we consulted the expert, we would have saved time.",
+      "accepted": [
+        "Had we consulted the expert, we would have saved time."
+      ],
+      "why": "If опускается при inversion.",
+      "distractorWhy": "If нельзя перед inverted had.",
+      "distractorRationales": {
+        "If had we consulted the expert, we would have saved time.": "If нельзя перед inverted had.",
+        "Had if we consulted the expert, we would have saved time.": "Had if неверно."
+      },
+      "skillTarget": "inverted-and-ellipted-conditionals",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I1",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the grammatical past conditional with a modal result.",
+      "options": [
+        "Had we act sooner, we might have prevented the delay.",
+        "Had we acted sooner, we might have prevent the delay.",
+        "Had we acted sooner, we might have prevented the delay."
+      ],
+      "answer": "Had we acted sooner, we might have prevented the delay.",
+      "accepted": [
+        "Had we acted sooner, we might have prevented the delay."
+      ],
+      "why": "Had + V3; might have + V3.",
+      "distractorWhy": "Act не V3.",
+      "distractorRationales": {
+        "Had we act sooner, we might have prevented the delay.": "Act не V3.",
+        "Had we acted sooner, we might have prevent the delay.": "Prevent не V3."
+      },
+      "skillTarget": "inverted-and-ellipted-conditionals",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I2",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the hypothetical current condition with a complement.",
+      "options": [
+        "Were the equipment be available, we would begin now.",
+        "Were the equipment available, we would begin now.",
+        "Should the equipment available, we would begin now."
+      ],
+      "answer": "Were the equipment available, we would begin now.",
+      "accepted": [
+        "Were the equipment available, we would begin now."
+      ],
+      "why": "Were + subject + adjective.",
+      "distractorWhy": "Be лишнее.",
+      "distractorRationales": {
+        "Were the equipment be available, we would begin now.": "Be лишнее.",
+        "Should the equipment available, we would begin now.": "Should требует be."
+      },
+      "skillTarget": "inverted-and-ellipted-conditionals",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I3",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the current meaning of 'Were it not for the subsidy'.",
+      "options": [
+        "If it were not for the subsidy",
+        "If it had not been for the subsidy (past)",
+        "If the subsidy were not paid yesterday (specific past event)"
+      ],
+      "answer": "If it were not for the subsidy",
+      "accepted": [
+        "If it were not for the subsidy"
+      ],
+      "why": "Were it not for — present hypothetical.",
+      "distractorWhy": "Это прошлая модель.",
+      "distractorRationales": {
+        "If it had not been for the subsidy (past)": "Это прошлая модель.",
+        "If the subsidy were not paid yesterday (specific past event)": "Меняет время и содержание."
+      },
+      "skillTarget": "inverted-and-ellipted-conditionals",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I4",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the past meaning of 'Had it not been for the warning'.",
+      "options": [
+        "If it were not for the warning (present)",
+        "If it should be for the warning",
+        "If it had not been for the warning"
+      ],
+      "answer": "If it had not been for the warning",
+      "accepted": [
+        "If it had not been for the warning"
+      ],
+      "why": "Had it not been for — past unreal.",
+      "distractorWhy": "Were относится к настоящему.",
+      "distractorRationales": {
+        "If it were not for the warning (present)": "Were относится к настоящему.",
+        "If it should be for the warning": "Should не контрфактическое прошлое."
+      },
+      "skillTarget": "inverted-and-ellipted-conditionals",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I5",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose a mixed conditional: past cause, present consequence.",
+      "options": [
+        "Had I save the notes, I would have them now.",
+        "Had I saved the notes, I would have them now.",
+        "Had I saved the notes, I would had them now."
+      ],
+      "answer": "Had I saved the notes, I would have them now.",
+      "accepted": [
+        "Had I saved the notes, I would have them now."
+      ],
+      "why": "Past perfect condition, current would + have.",
+      "distractorWhy": "Save не V3.",
+      "distractorRationales": {
+        "Had I save the notes, I would have them now.": "Save не V3.",
+        "Had I saved the notes, I would had them now.": "Had не V1."
+      },
+      "skillTarget": "inverted-and-ellipted-conditionals",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I6",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the result clause for a past missed opportunity.",
+      "options": [
+        "Had she applied last year, she could have received funding.",
+        "Had she applied last year, she could have receive funding.",
+        "Had she applied last year, she could received funding."
+      ],
+      "answer": "Had she applied last year, she could have received funding.",
+      "accepted": [
+        "Had she applied last year, she could have received funding."
+      ],
+      "why": "Could have + V3.",
+      "distractorWhy": "Receive не V3.",
+      "distractorRationales": {
+        "Had she applied last year, she could have receive funding.": "Receive не V3.",
+        "Had she applied last year, she could received funding.": "После could нужен V1 have."
+      },
+      "skillTarget": "inverted-and-ellipted-conditionals",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I7",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the formal equivalent of 'If you should need assistance'.",
+      "options": [
+        "Should you needs assistance",
+        "Should you needed assistance",
+        "Should you need assistance"
+      ],
+      "answer": "Should you need assistance",
+      "accepted": [
+        "Should you need assistance"
+      ],
+      "why": "Should + V1.",
+      "distractorWhy": "Needs не V1.",
+      "distractorRationales": {
+        "Should you needs assistance": "Needs не V1.",
+        "Should you needed assistance": "Needed не V1."
+      },
+      "skillTarget": "inverted-and-ellipted-conditionals",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I8",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the equivalent of 'Were the timetable to change'.",
+      "options": [
+        "If the timetable had changed yesterday",
+        "If the timetable were to change",
+        "If the timetable should changed"
+      ],
+      "answer": "If the timetable were to change",
+      "accepted": [
+        "If the timetable were to change"
+      ],
+      "why": "Were to сохраняется в if-форме.",
+      "distractorWhy": "Другая временная перспектива.",
+      "distractorRationales": {
+        "If the timetable had changed yesterday": "Другая временная перспектива.",
+        "If the timetable should changed": "После should V1."
+      },
+      "skillTarget": "inverted-and-ellipted-conditionals",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I9",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the punctuation for a fronted inverted condition.",
+      "options": [
+        "Should the office close, call this number.",
+        "Should, the office close call this number.",
+        "Should the office, close call this number."
+      ],
+      "answer": "Should the office close, call this number.",
+      "accepted": [
+        "Should the office close, call this number."
+      ],
+      "why": "Запятая после полной clause.",
+      "distractorWhy": "Не разделяй auxiliary и subject.",
+      "distractorRationales": {
+        "Should, the office close call this number.": "Не разделяй auxiliary и subject.",
+        "Should the office, close call this number.": "Не разделяй subject и verb."
+      },
+      "skillTarget": "inverted-and-ellipted-conditionals",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E1",
+      "group": "Выходная проверка",
+      "prompt": "Choose the ordinary punctuation with an inverted condition at the end.",
+      "options": [
+        "We would have helped had we known.",
+        "We would have helped had, we known.",
+        "We would have helped had we, known."
+      ],
+      "answer": "We would have helped had we known.",
+      "accepted": [
+        "We would have helped had we known."
+      ],
+      "why": "Condition в конце без лишней запятой.",
+      "distractorWhy": "Had и subject не разделяются.",
+      "distractorRationales": {
+        "We would have helped had, we known.": "Had и subject не разделяются.",
+        "We would have helped had we, known.": "Subject и V3 не разделяются."
+      },
+      "skillTarget": "inverted-and-ellipted-conditionals",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E2",
+      "group": "Выходная проверка",
+      "prompt": "Which sentence is a question rather than an inverted condition?",
+      "options": [
+        "Had you already left, we would have called.",
+        "Had you already left, the door would have been locked.",
+        "Had you already left?"
+      ],
+      "answer": "Had you already left?",
+      "accepted": [
+        "Had you already left?"
+      ],
+      "why": "Самостоятельный вопрос.",
+      "distractorWhy": "Условие с result clause.",
+      "distractorRationales": {
+        "Had you already left, we would have called.": "Условие с result clause.",
+        "Had you already left, the door would have been locked.": "This is a counterfactual condition with a separate hypothetical result about the door, not an independent question."
+      },
+      "skillTarget": "inverted-and-ellipted-conditionals",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E3",
+      "group": "Выходная проверка",
+      "prompt": "Which structure is an elliptical if-clause, not conditional inversion?",
+      "options": [
+        "Should you need help, consult the handbook.",
+        "If necessary, consult the handbook.",
+        "Were it necessary, we would consult the handbook."
+      ],
+      "answer": "If necessary, consult the handbook.",
+      "accepted": [
+        "If necessary, consult the handbook."
+      ],
+      "why": "If necessary — сокращение if it is necessary.",
+      "distractorWhy": "Should — inversion.",
+      "distractorRationales": {
+        "Should you need help, consult the handbook.": "Should — inversion.",
+        "Were it necessary, we would consult the handbook.": "Were — inversion."
+      },
+      "skillTarget": "inverted-and-ellipted-conditionals",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E4",
+      "group": "Выходная проверка",
+      "prompt": "Choose the correct conversion of 'If the room is free, use it' into a formal contingency.",
+      "options": [
+        "Should the room be free, use it.",
+        "Is the room free, use it (conditional inversion).",
+        "Should the room is free, use it."
+      ],
+      "answer": "Should the room be free, use it.",
+      "accepted": [
+        "Should the room be free, use it."
+      ],
+      "why": "Should + be, с оттенком предусмотренной возможности.",
+      "distractorWhy": "Is не используется так для inversion.",
+      "distractorRationales": {
+        "Is the room free, use it (conditional inversion).": "Is не используется так для inversion.",
+        "Should the room is free, use it.": "Is не V1."
+      },
+      "skillTarget": "inverted-and-ellipted-conditionals",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E5",
+      "group": "Выходная проверка",
+      "prompt": "Choose the accurate rule for conditional inversion.",
+      "options": [
+        "Every if-clause can be inverted without any change of form.",
+        "Should in conditional inversion is always a recommendation.",
+        "Had, were and should introduce distinct conditional patterns; the result follows the intended time and meaning."
+      ],
+      "answer": "Had, were and should introduce distinct conditional patterns; the result follows the intended time and meaning.",
+      "accepted": [
+        "Had, were and should introduce distinct conditional patterns; the result follows the intended time and meaning."
+      ],
+      "why": "Три модели различны.",
+      "distractorWhy": "Не каждое if-clause инвертируется.",
+      "distractorRationales": {
+        "Every if-clause can be inverted without any change of form.": "Не каждое if-clause инвертируется.",
+        "Should in conditional inversion is always a recommendation.": "Should здесь условная возможность."
+      },
+      "skillTarget": "inverted-and-ellipted-conditionals",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "W1",
+      "group": "Самостоятельное применение",
+      "prompt": "Составь 7–9 предложений о рисках учебного проекта. Используй had, were, were to, should, отрицательную и пассивную формы, одно mixed conditional. Для пяти предложений запиши эквивалент с if и объясни временную перспективу.",
+      "open": true,
+      "rubric": [
+        "Had требует V3.",
+        "Were имеет complement или to-infinitive.",
+        "Should требует bare infinitive.",
+        "If отсутствует, not после subject.",
+        "Passive и mixed result логически корректны.",
+        "Формальный регистр уместен."
+      ],
+      "skillTarget": "Самостоятельное применение C1-02",
+      "interactionType": "open-production",
+      "difficulty": "transfer",
+      "sourceBasis": "Speakbase-authored open production; self-review rubric only until real AI feedback is connected",
+      "contentVersion": "1.1-draft"
+    }
+  ],
+  "markdown": "# Speakbase — C1-02: Inverted conditional clauses\n\n**Curriculum ID:** `C1-02`  \n**Уровень:** C1  \n**Версия:** 1.1-draft\n**Статус:** drafted; selected source text checked; full source-page and learner acceptance pending\n**Предварительные темы:** B1-05, B1-06, B2-01  \n**Связь со старым каталогом:** Нет — —\n\n## 1. Результаты обучения\n\n- Строить условные конструкции с should/were/had и опускать if в формальном стиле\n- Выбирать целевую форму по значению, структуре предложения и контексту.\n- Объяснять, почему близкая грамматическая форма меняет смысл или регистр.\n- Находить и исправлять типичные ошибки русскоязычных студентов.\n\n## 2. Источники и статус сверки\n\n| Source | PDF navigation | Lesson-specific checks | Status |\n|---|---|---|---|\n| GR-03 U83 | PDF pages 190-191 (printed pp. 166-167, Unit 83) | Real/unreal conditional background; reviewed as context, not as the inversion rule | visually checked; contextual |\n| GR-03 U84 | PDF pages 192-193 (printed pp. 168-169, Unit 84) | Conditional patterns with should, had and were to; examples and exercises visually checked | visually checked; unit-text checked |\n| GR-03 U85 | PDF pages 194-195 (printed pp. 170-171, Unit 85) | Hypothetical were, were to, if I were you, as if/as though; used to distinguish related non-inverted forms | visually checked; contextual |\n| GR-03 U86 | PDF pages 196-197 (printed pp. 172-173, Unit 86) | Unless/if not and if/whether; not used as core inversion rules | visually checked; contextual |\n| GR-03 U87 | PDF pages 198-199 (printed pp. 174-175, Unit 87) | Sentence connectors and discourse markers; contextual scope only | visually checked; contextual |\n| GR-05 C1 p9 | PDF pages 9 (C1 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-05 C1 p33 | PDF pages 33 (C1 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n\nUnit/page locations are navigation aids only. They do not prove that the cited explanation, examples, restrictions and answer key have been checked for this lesson. Examples and explanations below are Speakbase-authored, not quotations from the textbook.\n\nПеред переводом этого урока в source-verified необходимо открыть целевые страницы конкретного издания, записать печатную и PDF-пагинацию, сверить ограничения и исключения. Для GR-03 со сканированными страницами обязательна визуальная проверка.\n\n**Evidence for this editorial pass:** GR-03 Units 84 and 99 rendered theory pages inspected PDF pp. 192 and 222 (printed pp. 168 and 198); earlier journal records Units 83–87 contextual checks. GR-05 and full exercise/learner review pending. The selected source text was consulted; not all pages, exercises, editions, scanned GR-03 pages or GR-05 descriptors were checked. Author-created explanations and practice are not copied source exercises.\n\n## 3. Место темы и границы\n\nInverted/ellipted conditionals: Had/Were/Should + subject; формальный регистр и точный временной смысл.\n\nСтарый каталог содержит: —. Его статус — Нет. Старые отметки завершения не переносятся автоматически на новый постоянный ID. Тема рассматривается в уровне C1 и не заменяет обязательные prerequisites.\n\n## 4. Полный конспект\n\n### 4.1. Основная идея и функция конструкции\n\nConditional inversion — формальная альтернатива некоторым if-clauses. Условный союз if опускается, а had, were или should ставится перед subject. Had the data been available, we would have revised the conclusion = If the data had been available, we would have revised the conclusion. Смысл условия и временная перспектива сохраняются; меняется регистр и порядок слов.\n\nВ отличие от отрицательной инверсии C1-01 здесь нет вынесенного negative adverbial: первый auxiliary сам маркирует условие. Три главные модели имеют разные значения. Had — нереализованное прошлое условие; were (to) — гипотетическое настоящее/будущее; should — условная возможность или предусмотренный случай. Они не взаимозаменяемы автоматически. Не следует добавлять would или will в условие только из-за будущего значения.\n\n### 4.2. Формирование и грамматические модели\n\n| Тип условия | If-clause | Inverted clause |\n|---|---|---|\n| Прошлое контрфактическое | If she had known | Had she known |\n| Прошлое passive | If the file had been lost | Had the file been lost |\n| Гипотеза с be | If he were available | Were he available |\n| Гипотетическое будущее | If the plan were to fail | Were the plan to fail |\n| Возможный случай | If you should need help | Should you need help |\n| Возможный passive | If further proof should be required | Should further proof be required |\n| Отрицательное условие | If she had not noticed | Had she not noticed |\n\nHad + subject + V3. Were + subject + complement или to-infinitive. Should + subject + bare infinitive. При отрицании not стоит после subject: Had we not checked, Were it not for…, Should you not receive… . В формальном письме обычно избегают сокращения отрицания в таких инверсиях. Не ставь if одновременно с инверсией и не добавляй do-support. Результат строится по смыслу исходного условия: would have + V3, would + V1, could/might, imperative, will — в соответствующем контексте.\n\n### 4.3. Как выбрать подходящую форму\n\nНачни с развёрнутого if-clause и определи первый глагол. If + Past Perfect → Had. If + were / were to → Were. If + should + V1 → Should. Сохрани negation и passive. Затем проверь соответствие result clause: Had we left earlier, we might have arrived on time; Were the plan to change, we would inform you; Should the schedule change, please check the website.\n\nWere it not for X — гипотетическое условие отсутствия фактора сейчас; Had it not been for X — контрфактическое условие отсутствия фактора в прошлом. Inversion с had требует perfect, а не просто possessive had: If I had more time, I would read more обычно преобразуется через Were I to have more time, а не механическое Had I more time в нейтральной современной модели. Последняя возможна как более редкая формальная конструкция; на данном уроке не используется как целевая.\n\n### 4.4. Сравнение с близкими конструкциями\n\n| Условие | Значение |\n|---|---|\n| Had the server failed yesterday, we would have lost the data. | Нереализованное прошлое. |\n| Were the server to fail tomorrow, we would need a backup. | Гипотетическая перспектива. |\n| Should the server fail, contact support. | Возможный предусмотренный случай. |\n| Had we acted sooner, we would be ready now. | Mixed: прошлое условие, настоящий результат. |\n| Were it not for the backup, we would be in trouble. | Нынешний фактор. |\n\n### 4.5. Примеры с переводом и объяснением\n\n| English | Перевод | Почему это подходит |\n| --- | --- | --- |\n| Had the backup failed, the team would have lost its records. | Если бы резервная копия не сработала, команда потеряла бы записи. | Had + V3, прошлое контрфактическое. |\n| Were the budget to increase, we could extend the trial. | Если бы бюджет увеличился, мы могли бы продлить испытание. | Were + to-infinitive. |\n| Should you encounter any difficulty, contact the tutor. | Если возникнут затруднения, свяжитесь с преподавателем. | Should + V1, предусмотренный случай. |\n| Had she not intervened, the error would have persisted. | Если бы она не вмешалась, ошибка сохранилась бы. | Not после subject. |\n| Were it not for the grant, the course would be unaffordable. | Если бы не грант, курс был бы недоступен по цене. | Нынешний фактор. |\n| Had we prepared earlier, we would be ready now. | Если бы подготовились раньше, сейчас были бы готовы. | Смешанное условие. |\n\n### 4.6. Исключения, ограничения и границы употребления\n\nНе заменяй произвольное if-clause инверсией: If she arrives early нельзя превратить в Arrives she early; возможна формальная перестройка Should she arrive early, но оттенок условия меняется. Should в условии не обозначает совет. Inverted conditional может стоять в конце: We would have acted differently had we known. В начале обычно нужна запятая между частями; в конце она обычно не нужна. Различай условную инверсию и общий вопрос Had you finished? по синтаксису и смыслу.\n\nWere + noun/adjective (Were the room available) и were + to-infinitive (Were the room to become available) не одинаковые по форме. Passive после should — be + V3; после had — been + V3; после were to — to be + V3. Mixed conditionals допустимы, если причинно-временная логика обоснована. Elliptical if necessary/if possible — отдельные сокращённые условия, не пример had/were/should inversion. Не приписывай формальной форме большую вероятность события: она не гарантирует результат.\n\n### 4.7. Типичные ошибки русскоязычных студентов\n\n| Ошибка | Исправление | Объяснение |\n| --- | --- | --- |\n| Should the reviewers raised an objection, we will respond. | Should the reviewers raise an objection, we will respond. | После should только V1. |\n| Had we know the answer, we would have acted. | Had we known the answer, we would have acted. | Had + V3. |\n| Were the plan fail, we would stop. | Were the plan to fail, we would stop. | Were + to-infinitive. |\n| If had we checked, we would have noticed. | Had we checked, we would have noticed. | If опускается при инверсии. |\n| Had not the committee checked, it would have missed the error. | Had the committee not checked, it would have missed the error. | Not после subject в целевой модели. |\n\n### 4.8. Произношение и восприятие на слух\n\nПроизноси условную часть как смысловую группу, с паузой на границе при начальной позиции. Had, were и should должны быть различимы; не добавляй вопросительную интонацию только из-за инверсии. Аудиосверка открыта.\n\nСначала прослушай или прочитай пример, затем произнеси его целиком. Обрати внимание на смысловое ударение и форму конструкции; не ориентируйся только на буквенный перевод.\n\n### 4.9. Академический английский и TOEFL-перенос\n\nВ Reading различай формальные условия и утверждения о реальных результатах. В Speaking/Writing предпочитай прозрачную if-конструкцию, если инверсия усложняет понимание. В аргументации используй контрфактическое условие только при корректной временной логике.\n\nЭто авторская практика переноса навыка. Она не является официальным заданием TOEFL и не выдаётся за официальный результат экзамена.\n\n### 4.10. Примеры для управляемого разбора\n\n- Had the backup failed, the team would have lost its records. — Если бы резервная копия не сработала, команда потеряла бы записи. Had + V3, прошлое контрфактическое.\n- Were the budget to increase, we could extend the trial. — Если бы бюджет увеличился, мы могли бы продлить испытание. Were + to-infinitive.\n- Should you encounter any difficulty, contact the tutor. — Если возникнут затруднения, свяжитесь с преподавателем. Should + V1, предусмотренный случай.\n\nДля каждого примера назови целевую конструкцию, объясни выбор и составь новое предложение в другом контексте. Затем перейди к заданиям: сначала диагностика, затем управляемая и самостоятельная практика, затем новые вопросы выходной проверки.\n\n### 4.11. Самопроверка\n\nПеред отправкой ответа проверь:\n1. Had требует V3.\n2. Were имеет complement или to-infinitive.\n3. Should требует bare infinitive.\n4. If отсутствует, not после subject.\n5. Passive и mixed result логически корректны.\n6. Формальный регистр уместен.\n\n### 4.12. Краткая памятка\n\nHad + subject + V3; Were + subject + complement/to V1; Should + subject + V1. If опускается. Not после subject. Сохраняй время, passive и смысл результата. Had it not been for — прошлое, were it not for — настоящее. Инверсия формальна, не обязательна.\n\nНе выбирай форму только по одному знакомому слову: проверь контекст, значение и структуру. При ошибке вернись к соответствующей части конспекта и составь собственный пример.\n\n## 5. Практика\n\nВ приложении практика разделена на входную диагностику, управляемые задания, самостоятельную практику и новую выходную проверку. Закрытые ответы получают rationale и разбор ошибки. Свободный текст сохраняется и оценивается по рубрике; до подключения и реальной проверки AI-движка система не выдаёт его за автоматическую AI-оценку.\n\n## 6. Интервальное повторение\n\nПовторяй не весь урок автоматически, а конкретную ошибку: выбор формы, согласование, word order, значение, регистр или пунктуацию. Новая попытка должна менять лексический контекст и формулировку, чтобы проверять перенос, а не запоминание одной строки.\n\n## 7. Технический статус\n\n- Постоянный ID: `C1-02`.\n- Прогресс хранится отдельно в course.grammarLessons[\"C1-02\"].\n- Содержание и ключи имеют статус draft; 24 авторских закрытых задания и объяснения вычитаны, выбранные тексты источников проверены. Полная постраничная и пользовательская приёмка остаются открытыми.\n- Предварительное выполнение порогов не равно окончательному mastered: нужны отсроченное повторение и learner review.",
+  "theoryEnd": "## 5."
+}

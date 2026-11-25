@@ -1,0 +1,741 @@
+{
+  "id": "C1-03",
+  "level": "C1",
+  "sequence": "C1-03",
+  "grammarFamily": "C1-03",
+  "questionBankSource": "topic-specific-authored",
+  "sourceVerification": "draft; selected source text consulted; complete source-page and learner review pending",
+  "topicProfile": {
+    "label": "advanced cleft clauses, fronting and emphasis",
+    "skillTarget": "advanced-cleft-fronting-emphasis",
+    "core": "Cleft sentence разделяет сообщение на фокус и фон. Вместо нейтрального The delayed shipment caused the problem можно сказать It was the delayed shipment that caused the problem. Говорящий выделяет именно отправление, предполагая, что вопрос о причине уже понятен. What-cleft выделяет информацию через what-clause и be. Fronting перемещает элемент в начало, чтобы изменить распределение темы и фокуса, а не обязательно вызывает инверсию.",
+    "form": "| Модель | Структура | Пример |\n|---|---|---|\n| It-cleft | It + be + focus + that/who + clause | It was the timetable that changed. |\n| Negative contrast | It + be + not X but Y + that-clause | It was not the price but the delay that mattered. |\n| What-cleft | What + clause + be + focus | What we need is more time. |\n| Reverse cleft | Focus + be + what-clause | More time is what we need. |\n| Action focus | What + subject + do + be + (to) V1 | What she did was (to) check the file. |\n| All-cleft | All (that) + clause + be + focus | All we need is a signature. |\n| Emphatic do | subject + do/does/did + V1 | The team did verify the data. |\n| Fronting | fronted constituent + clause | This point we must not overlook. |",
+    "selection": "Установи, какую информацию хочешь выделить. Для отдельного noun phrase, time/place phrase, причины или способа используй it-cleft. Для нового содержания, объяснения, инструкции или действия — what-cleft; reverse cleft меняет расположение фокуса. Для ограничения до одного требования — all-cleft. Для опровержения утверждения о действии — emphatic do. Для тематического контраста можно вынести object без изменения порядка subject–verb.",
+    "contrast": "| Нейтральное сообщение | Маркированный вариант |\n|---|---|\n| The second trial revealed the error. | It was the second trial that revealed the error. |\n| We need more evidence. | What we need is more evidence. |\n| We need only a signature. | All we need is a signature. |\n| She checked the data. | What she did was check the data. |\n| They verified the result. | They did verify the result. |\n| I will not ignore this limitation. | This limitation I will not ignore. |",
+    "boundary": "Cleft и fronting — стилистически маркированные средства, а не универсальные замены. It-cleft не равен безличному it в It is raining. What-cleft содержит what как fused relative (то, что), не вопрос с инверсией. Не применяй одно правило согласования к любому what-clause: What we need is a plan; What we need are two volunteers также употребляется. В упражнениях на singular be использован однозначный complement.",
+    "pronunciation": "Ядерное ударение обычно выделяет focus: It was the SECOND trial that revealed the error. В emphatic do ударение падает на auxiliary: We DID check. Сравни произнесение нейтрального и маркированного предложения. Аудиосверка пока не выполнена.",
+    "examples": [
+      [
+        "It was the revised protocol that reduced the error rate.",
+        "Именно обновлённый протокол снизил частоту ошибок.",
+        "Focus — protocol."
+      ],
+      [
+        "It was not the cost but the timing that concerned us.",
+        "Нас беспокоила не стоимость, а сроки.",
+        "Параллельный contrast."
+      ],
+      [
+        "What the report reveals is a serious limitation.",
+        "Отчёт выявляет серьёзное ограничение.",
+        "What-clause + singular focus."
+      ],
+      [
+        "What she did was recheck the figures.",
+        "Она сделала именно повторную проверку цифр.",
+        "Action focus с V1."
+      ],
+      [
+        "The team did validate the result yesterday.",
+        "Команда действительно проверила результат вчера.",
+        "Emphatic did + V1."
+      ],
+      [
+        "This limitation we cannot overlook.",
+        "Это ограничение мы не можем игнорировать.",
+        "Object fronting без do-support."
+      ]
+    ],
+    "traps": [
+      [
+        "It was the protocol what reduced errors.",
+        "It was the protocol that reduced errors.",
+        "That вводит cleft clause."
+      ],
+      [
+        "What did we need is a plan.",
+        "What we need is a plan.",
+        "В what-cleft не вопросительная инверсия."
+      ],
+      [
+        "What she did was checked the file.",
+        "What she did was check the file.",
+        "Action focus: V1 или to V1."
+      ],
+      [
+        "The team did validated the result.",
+        "The team did validate the result.",
+        "Did + V1."
+      ],
+      [
+        "It were the students who raised the issue.",
+        "It was the students who raised the issue.",
+        "It + singular be."
+      ]
+    ],
+    "toefl": "В Reading распознавай фон и выделенный элемент, особенно при исправлении предположения. В Speaking и Writing применяй cleft для ясного противопоставления, но не для искусственной сложности. В Build a Sentence важно сохранить порядок what-clause и форму глагола после emphatic do. Это авторская практика, не официальные вопросы ETS."
+  },
+  "title": "Advanced cleft clauses, fronting and emphasis",
+  "description": "Управлять фокусом через wh-/what-clefts, fronting и фиксированные emphatic patterns",
+  "cardDescription": "Теория, guided practice, самостоятельные задания и выходная проверка по постоянному ID C1-03.",
+  "eyebrow": "Полный урок программы C1-03 · drafted",
+  "contentVersion": "1.1-draft",
+  "curriculumVersion": "1.0",
+  "prerequisites": [
+    "B2-15",
+    "B2-17"
+  ],
+  "outcomes": [
+    "Управлять фокусом через wh-/what-clefts, fronting и фиксированные emphatic patterns",
+    "Выбирать целевую конструкцию по контексту и смыслу.",
+    "Исправлять типичные ошибки и переносить правило в новый пример."
+  ],
+  "sourceRefs": [
+    "GR-03 U95-100",
+    "GR-05 C1 p29"
+  ],
+  "sourceStatus": "selected source text consulted; full page verification pending",
+  "status": "drafted",
+  "legacyCoverage": "Нет",
+  "toeflLinks": [
+    "Writing: Build a Sentence",
+    "Reading: clause structure, reference, modifiers and logical relationships",
+    "Writing: Academic Discussion"
+  ],
+  "thresholds": {
+    "independent": 7,
+    "exit": 4,
+    "criticalIds": [
+      "E1",
+      "E2",
+      "E3"
+    ]
+  },
+  "groups": {
+    "independent": "Самостоятельная практика",
+    "exit": "Выходная проверка"
+  },
+  "items": [
+    {
+      "id": "D1",
+      "group": "Входная диагностика",
+      "prompt": "Choose the it-cleft focusing the second experiment.",
+      "options": [
+        "It was the second experiment what exposed the flaw.",
+        "It was the second experiment that exposed the flaw.",
+        "It were the second experiment that exposed the flaw."
+      ],
+      "answer": "It was the second experiment that exposed the flaw.",
+      "accepted": [
+        "It was the second experiment that exposed the flaw."
+      ],
+      "why": "It was + focus + that-clause.",
+      "distractorWhy": "What не заменяет that здесь.",
+      "distractorRationales": {
+        "It was the second experiment what exposed the flaw.": "What не заменяет that здесь.",
+        "It were the second experiment that exposed the flaw.": "It требует was."
+      },
+      "skillTarget": "advanced-cleft-fronting-emphasis",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D2",
+      "group": "Входная диагностика",
+      "prompt": "Choose the it-cleft focusing a person with who.",
+      "options": [
+        "It was the supervisor who approved the change.",
+        "It was the supervisor what approved the change.",
+        "It were the supervisor who approved the change."
+      ],
+      "answer": "It was the supervisor who approved the change.",
+      "accepted": [
+        "It was the supervisor who approved the change."
+      ],
+      "why": "Who допустимо для person focus.",
+      "distractorWhy": "What не relative marker здесь.",
+      "distractorRationales": {
+        "It was the supervisor what approved the change.": "What не relative marker здесь.",
+        "It were the supervisor who approved the change.": "It требует was."
+      },
+      "skillTarget": "advanced-cleft-fronting-emphasis",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D3",
+      "group": "Входная диагностика",
+      "prompt": "Choose the cleft focusing time rather than the person.",
+      "options": [
+        "It was she who submitted the report on Tuesday.",
+        "It was the report that she submitted on Tuesday.",
+        "It was on Tuesday that she submitted the report."
+      ],
+      "answer": "It was on Tuesday that she submitted the report.",
+      "accepted": [
+        "It was on Tuesday that she submitted the report."
+      ],
+      "why": "Фокус on Tuesday.",
+      "distractorWhy": "Фокус she.",
+      "distractorRationales": {
+        "It was she who submitted the report on Tuesday.": "Фокус she.",
+        "It was the report that she submitted on Tuesday.": "Фокус report."
+      },
+      "skillTarget": "advanced-cleft-fronting-emphasis",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D4",
+      "group": "Входная диагностика",
+      "prompt": "Choose the cleft focusing a method.",
+      "options": [
+        "It was by checking the logs how we found the cause.",
+        "It was by checking the logs that we found the cause.",
+        "It was by checking the logs what we found the cause."
+      ],
+      "answer": "It was by checking the logs that we found the cause.",
+      "accepted": [
+        "It was by checking the logs that we found the cause."
+      ],
+      "why": "That после method focus.",
+      "distractorWhy": "How не заменяет that в этой модели.",
+      "distractorRationales": {
+        "It was by checking the logs how we found the cause.": "How не заменяет that в этой модели.",
+        "It was by checking the logs what we found the cause.": "What не marker."
+      },
+      "skillTarget": "advanced-cleft-fronting-emphasis",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G1",
+      "group": "Управляемая практика",
+      "prompt": "Choose the correct cleft with plural focus.",
+      "options": [
+        "It was the students who raised the concern.",
+        "It were the students who raised the concern.",
+        "They was the students who raised the concern."
+      ],
+      "answer": "It was the students who raised the concern.",
+      "accepted": [
+        "It was the students who raised the concern."
+      ],
+      "why": "It was даже с plural focus.",
+      "distractorWhy": "Were не согласуется с it.",
+      "distractorRationales": {
+        "It were the students who raised the concern.": "Were не согласуется с it.",
+        "They was the students who raised the concern.": "They was неверно."
+      },
+      "skillTarget": "advanced-cleft-fronting-emphasis",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G2",
+      "group": "Управляемая практика",
+      "prompt": "Choose the parallel contrast between two causes.",
+      "options": [
+        "It was not the cost but the delay who mattered.",
+        "It was not cost but the delay what mattered.",
+        "It was not the cost but the delay that mattered."
+      ],
+      "answer": "It was not the cost but the delay that mattered.",
+      "accepted": [
+        "It was not the cost but the delay that mattered."
+      ],
+      "why": "Два параллельных noun phrases + that.",
+      "distractorWhy": "Who refers to people; the nonhuman focus requires that in this construction.",
+      "distractorRationales": {
+        "It was not the cost but the delay who mattered.": "Who refers to people; the nonhuman focus requires that in this construction.",
+        "It was not cost but the delay what mattered.": "What не marker."
+      },
+      "skillTarget": "advanced-cleft-fronting-emphasis",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G3",
+      "group": "Управляемая практика",
+      "prompt": "Choose the wh-cleft with an ordinary clause order.",
+      "options": [
+        "What do we need is a reliable method.",
+        "What we need is a reliable method.",
+        "What we needs is a reliable method."
+      ],
+      "answer": "What we need is a reliable method.",
+      "accepted": [
+        "What we need is a reliable method."
+      ],
+      "why": "What + subject + verb + be + focus.",
+      "distractorWhy": "Не вопросительная инверсия.",
+      "distractorRationales": {
+        "What do we need is a reliable method.": "Не вопросительная инверсия.",
+        "What we needs is a reliable method.": "We не требует needs."
+      },
+      "skillTarget": "advanced-cleft-fronting-emphasis",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G4",
+      "group": "Управляемая практика",
+      "prompt": "Choose the singular agreement with a singular focus.",
+      "options": [
+        "What the team needs is a new server.",
+        "What the team needs are a new server.",
+        "What the team needs do a new server."
+      ],
+      "answer": "What the team needs is a new server.",
+      "accepted": [
+        "What the team needs is a new server."
+      ],
+      "why": "Singular focus a server, is.",
+      "distractorWhy": "Are не согласуется с этим complement.",
+      "distractorRationales": {
+        "What the team needs are a new server.": "Are не согласуется с этим complement.",
+        "What the team needs do a new server.": "Do не linking be."
+      },
+      "skillTarget": "advanced-cleft-fronting-emphasis",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G5",
+      "group": "Управляемая практика",
+      "prompt": "Choose the reverse cleft focusing a clearer explanation.",
+      "options": [
+        "A clearer explanation what we need is.",
+        "A clearer explanation is what do we need.",
+        "A clearer explanation is what we need."
+      ],
+      "answer": "A clearer explanation is what we need.",
+      "accepted": [
+        "A clearer explanation is what we need."
+      ],
+      "why": "Focus + be + what-clause.",
+      "distractorWhy": "Неверный порядок.",
+      "distractorRationales": {
+        "A clearer explanation what we need is.": "Неверный порядок.",
+        "A clearer explanation is what do we need.": "What-clause не вопрос."
+      },
+      "skillTarget": "advanced-cleft-fronting-emphasis",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G6",
+      "group": "Управляемая практика",
+      "prompt": "Choose the action cleft with a bare infinitive.",
+      "options": [
+        "What the analyst did was rechecked the figures.",
+        "What the analyst did was recheck the figures.",
+        "What the analyst did was rechecks the figures."
+      ],
+      "answer": "What the analyst did was recheck the figures.",
+      "accepted": [
+        "What the analyst did was recheck the figures."
+      ],
+      "why": "Action focus допускает V1.",
+      "distractorWhy": "V2 не целевая форма.",
+      "distractorRationales": {
+        "What the analyst did was rechecked the figures.": "V2 не целевая форма.",
+        "What the analyst did was rechecks the figures.": "Third-person -s не V1."
+      },
+      "skillTarget": "advanced-cleft-fronting-emphasis",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I1",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the action cleft with a to-infinitive.",
+      "options": [
+        "What the editor did was to shortened the introduction.",
+        "What the editor did was to shortening the introduction.",
+        "What the editor did was to shorten the introduction."
+      ],
+      "answer": "What the editor did was to shorten the introduction.",
+      "accepted": [
+        "What the editor did was to shorten the introduction."
+      ],
+      "why": "To + V1 допустимо.",
+      "distractorWhy": "Shortened не V1.",
+      "distractorRationales": {
+        "What the editor did was to shortened the introduction.": "Shortened не V1.",
+        "What the editor did was to shortening the introduction.": "Shortening не V1."
+      },
+      "skillTarget": "advanced-cleft-fronting-emphasis",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I2",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the cleft limiting the requirement to one signature.",
+      "options": [
+        "All we need are a signature.",
+        "All we need is a signature.",
+        "All do we need is a signature."
+      ],
+      "answer": "All we need is a signature.",
+      "accepted": [
+        "All we need is a signature."
+      ],
+      "why": "All-clause + singular focus.",
+      "distractorWhy": "Are не согласуется.",
+      "distractorRationales": {
+        "All we need are a signature.": "Are не согласуется.",
+        "All do we need is a signature.": "Нет вопросительной инверсии."
+      },
+      "skillTarget": "advanced-cleft-fronting-emphasis",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I3",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the grammatical emphatic present with she.",
+      "options": [
+        "She does understand the problem.",
+        "She does understands the problem.",
+        "She do understand the problem."
+      ],
+      "answer": "She does understand the problem.",
+      "accepted": [
+        "She does understand the problem."
+      ],
+      "why": "Does + V1 для she.",
+      "distractorWhy": "Understands не V1.",
+      "distractorRationales": {
+        "She does understands the problem.": "Understands не V1.",
+        "She do understand the problem.": "She требует does."
+      },
+      "skillTarget": "advanced-cleft-fronting-emphasis",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I4",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the emphatic past correcting a claim about yesterday.",
+      "options": [
+        "We did submitted the form yesterday.",
+        "We do submitted the form yesterday.",
+        "We did submit the form yesterday."
+      ],
+      "answer": "We did submit the form yesterday.",
+      "accepted": [
+        "We did submit the form yesterday."
+      ],
+      "why": "Did + V1, past.",
+      "distractorWhy": "Submitted не V1.",
+      "distractorRationales": {
+        "We did submitted the form yesterday.": "Submitted не V1.",
+        "We do submitted the form yesterday.": "Do + submitted неверно."
+      },
+      "skillTarget": "advanced-cleft-fronting-emphasis",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I5",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the emphatic plural present.",
+      "options": [
+        "They does support the proposal.",
+        "They do support the proposal.",
+        "They do supports the proposal."
+      ],
+      "answer": "They do support the proposal.",
+      "accepted": [
+        "They do support the proposal."
+      ],
+      "why": "They + do + V1.",
+      "distractorWhy": "Does не с they.",
+      "distractorRationales": {
+        "They does support the proposal.": "Does не с they.",
+        "They do supports the proposal.": "Supports не V1."
+      },
+      "skillTarget": "advanced-cleft-fronting-emphasis",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I6",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the emphasized perfect without adding do.",
+      "options": [
+        "She HAS checked the references.",
+        "She does has checked the references.",
+        "She did has checked the references."
+      ],
+      "answer": "She HAS checked the references.",
+      "accepted": [
+        "She HAS checked the references."
+      ],
+      "why": "Ударение на имеющемся has.",
+      "distractorWhy": "Do не добавляется к perfect.",
+      "distractorRationales": {
+        "She does has checked the references.": "Do не добавляется к perfect.",
+        "She did has checked the references.": "Did + has неверно."
+      },
+      "skillTarget": "advanced-cleft-fronting-emphasis",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I7",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the emphasized modal without extra do.",
+      "options": [
+        "We do can solve this problem.",
+        "We can solves this problem.",
+        "We CAN solve this problem."
+      ],
+      "answer": "We CAN solve this problem.",
+      "accepted": [
+        "We CAN solve this problem."
+      ],
+      "why": "Modal выделяется сам.",
+      "distractorWhy": "Do не добавляется.",
+      "distractorRationales": {
+        "We do can solve this problem.": "Do не добавляется.",
+        "We can solves this problem.": "Solves не V1."
+      },
+      "skillTarget": "advanced-cleft-fronting-emphasis",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I8",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the object-fronting sentence without negative inversion.",
+      "options": [
+        "This issue must we address (ordinary object fronting).",
+        "This issue we must address.",
+        "This issue do we must address."
+      ],
+      "answer": "This issue we must address.",
+      "accepted": [
+        "This issue we must address."
+      ],
+      "why": "Object fronting, ordinary subject–aux order.",
+      "distractorWhy": "Не нужна инверсия после object.",
+      "distractorRationales": {
+        "This issue must we address (ordinary object fronting).": "Не нужна инверсия после object.",
+        "This issue do we must address.": "Do нельзя с must."
+      },
+      "skillTarget": "advanced-cleft-fronting-emphasis",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I9",
+      "group": "Самостоятельная практика",
+      "prompt": "Which sentence uses negative inversion rather than simple object fronting?",
+      "options": [
+        "Only then did we understand the cause.",
+        "This cause we understand.",
+        "This conclusion we accept."
+      ],
+      "answer": "Only then did we understand the cause.",
+      "accepted": [
+        "Only then did we understand the cause."
+      ],
+      "why": "Only then + did inversion.",
+      "distractorWhy": "Fronted object без inversion.",
+      "distractorRationales": {
+        "This cause we understand.": "Fronted object без inversion.",
+        "This conclusion we accept.": "The conclusion is a fronted object; the subject we still precedes the verb accept."
+      },
+      "skillTarget": "advanced-cleft-fronting-emphasis",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E1",
+      "group": "Выходная проверка",
+      "prompt": "Which sentence contains ordinary impersonal it rather than a cleft?",
+      "options": [
+        "It is snowing.",
+        "It was the snow that delayed the bus.",
+        "It was yesterday that the bus was delayed."
+      ],
+      "answer": "It is snowing.",
+      "accepted": [
+        "It is snowing."
+      ],
+      "why": "Weather it без focus clause.",
+      "distractorWhy": "It-cleft noun focus.",
+      "distractorRationales": {
+        "It was the snow that delayed the bus.": "It-cleft noun focus.",
+        "It was yesterday that the bus was delayed.": "It-cleft time focus."
+      },
+      "skillTarget": "advanced-cleft-fronting-emphasis",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E2",
+      "group": "Выходная проверка",
+      "prompt": "Choose the neutral equivalent of 'It was the delay that upset the client.'",
+      "options": [
+        "The client upset the delay.",
+        "The delay did not upset the client.",
+        "The delay upset the client."
+      ],
+      "answer": "The delay upset the client.",
+      "accepted": [
+        "The delay upset the client."
+      ],
+      "why": "Сохраняет исходный факт.",
+      "distractorWhy": "Меняет роли.",
+      "distractorRationales": {
+        "The client upset the delay.": "Меняет роли.",
+        "The delay did not upset the client.": "Меняет polarity."
+      },
+      "skillTarget": "advanced-cleft-fronting-emphasis",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E3",
+      "group": "Выходная проверка",
+      "prompt": "Choose the cleft clarifying a reason phrase.",
+      "options": [
+        "It was because the file was corrupted why we restarted the system.",
+        "It was because the file was corrupted that we restarted the system.",
+        "It was because the file was corrupted what we restarted the system."
+      ],
+      "answer": "It was because the file was corrupted that we restarted the system.",
+      "accepted": [
+        "It was because the file was corrupted that we restarted the system."
+      ],
+      "why": "That после reason focus.",
+      "distractorWhy": "Why не заменяет that здесь.",
+      "distractorRationales": {
+        "It was because the file was corrupted why we restarted the system.": "Why не заменяет that здесь.",
+        "It was because the file was corrupted what we restarted the system.": "What неверно."
+      },
+      "skillTarget": "advanced-cleft-fronting-emphasis",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E4",
+      "group": "Выходная проверка",
+      "prompt": "Choose the appropriate context for emphatic 'We did test it.'",
+      "options": [
+        "Someone has claimed that no test was performed.",
+        "Someone asks what colour the device is.",
+        "Someone asks where the device was manufactured."
+      ],
+      "answer": "Someone has claimed that no test was performed.",
+      "accepted": [
+        "Someone has claimed that no test was performed."
+      ],
+      "why": "Did опровергает отрицательное предположение.",
+      "distractorWhy": "Вопрос о цвете не требует этого контраста.",
+      "distractorRationales": {
+        "Someone asks what colour the device is.": "Вопрос о цвете не требует этого контраста.",
+        "Someone asks where the device was manufactured.": "Вопрос о месте не требует этого контраста."
+      },
+      "skillTarget": "advanced-cleft-fronting-emphasis",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E5",
+      "group": "Выходная проверка",
+      "prompt": "Choose the accurate distinction in information structure.",
+      "options": [
+        "Every formal sentence must contain a cleft.",
+        "Every fronted object requires subject–auxiliary inversion.",
+        "Clefts and fronting can highlight a selected element; they should serve a clear contrast or topic."
+      ],
+      "answer": "Clefts and fronting can highlight a selected element; they should serve a clear contrast or topic.",
+      "accepted": [
+        "Clefts and fronting can highlight a selected element; they should serve a clear contrast or topic."
+      ],
+      "why": "Фокус определяется контекстом.",
+      "distractorWhy": "Cleft не обязательна.",
+      "distractorRationales": {
+        "Every formal sentence must contain a cleft.": "Cleft не обязательна.",
+        "Every fronted object requires subject–auxiliary inversion.": "Object fronting не автоматически inversion."
+      },
+      "skillTarget": "advanced-cleft-fronting-emphasis",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "W1",
+      "group": "Самостоятельное применение",
+      "prompt": "Напиши аналитический диалог или абзац из 8–10 предложений о причинах ошибки. Используй it-cleft, what-cleft, reverse cleft, action focus, emphatic do и fronting. Для четырёх форм укажи нейтральный эквивалент и фокус.",
+      "open": true,
+      "rubric": [
+        "It-cleft сохраняет правильное be и marker.",
+        "What-clause имеет обычный порядок слов.",
+        "Action focus употребляет V1 или to V1.",
+        "Emphatic do сохраняет время и V1.",
+        "Fronting и inversion различены.",
+        "Фокус и контраст уместны в контексте."
+      ],
+      "skillTarget": "Самостоятельное применение C1-03",
+      "interactionType": "open-production",
+      "difficulty": "transfer",
+      "sourceBasis": "Speakbase-authored open production; self-review rubric only until real AI feedback is connected",
+      "contentVersion": "1.1-draft"
+    }
+  ],
+  "markdown": "# Speakbase — C1-03: Advanced cleft clauses, fronting and emphasis\n\n**Curriculum ID:** `C1-03`  \n**Уровень:** C1  \n**Версия:** 1.1-draft\n**Статус:** drafted; selected source text checked; full source-page and learner acceptance pending\n**Предварительные темы:** B2-15, B2-17  \n**Связь со старым каталогом:** Нет — —\n\n## 1. Результаты обучения\n\n- Управлять фокусом через wh-/what-clefts, fronting и фиксированные emphatic patterns\n- Выбирать целевую форму по значению, структуре предложения и контексту.\n- Объяснять, почему близкая грамматическая форма меняет смысл или регистр.\n- Находить и исправлять типичные ошибки русскоязычных студентов.\n\n## 2. Источники и статус сверки\n\n| Source | PDF navigation | Lesson-specific checks | Status |\n|---|---|---|---|\n| GR-03 U98 | PDF pages 220-221 (printed pp. 196-197, Unit 98) | It-clefts and what-clefts: focus placement, patterns and exercises visually checked | visually checked; unit-text checked |\n| GR-03 U99 | PDF pages 222-223 (printed pp. 198-199, Unit 99) | Inversion for emphasis, place/direction inversion and conditional inversion cross-reference visually checked | visually checked; unit-text checked |\n| GR-03 U100 | PDF pages 224-225 (printed pp. 200-201, Unit 100) | Other inversion patterns after negative adverbials, so/such, not only, neither/nor; examples and exercises visually checked | visually checked; unit-text checked |\n| GR-05 C1 p29 | PDF pages 29 (C1 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n\nUnit/page locations are navigation aids only. They do not prove that the cited explanation, examples, restrictions and answer key have been checked for this lesson. Examples and explanations below are Speakbase-authored, not quotations from the textbook.\n\nПеред переводом этого урока в source-verified необходимо открыть целевые страницы конкретного издания, записать печатную и PDF-пагинацию, сверить ограничения и исключения. Для GR-03 со сканированными страницами обязательна визуальная проверка.\n\n**Evidence for this editorial pass:** GR-03 Units 98–100, rendered theory pages inspected PDF pp. 220, 222, 224 (printed pp. 196, 198, 200). Emphatic do and all-clefts are author-supplemented; additional source and learner verification pending. The selected source text was consulted; not all pages, exercises, editions, scanned GR-03 pages or GR-05 descriptors were checked. Author-created explanations and practice are not copied source exercises.\n\n## 3. Место темы и границы\n\nAdvanced clefts, fronting and emphasis; различай it-cleft, wh-cleft, topicalisation и emphatic do.\n\nСтарый каталог содержит: —. Его статус — Нет. Старые отметки завершения не переносятся автоматически на новый постоянный ID. Тема рассматривается в уровне C1 и не заменяет обязательные prerequisites.\n\n## 4. Полный конспект\n\n### 4.1. Основная идея и функция конструкции\n\nCleft sentence разделяет сообщение на фокус и фон. Вместо нейтрального The delayed shipment caused the problem можно сказать It was the delayed shipment that caused the problem. Говорящий выделяет именно отправление, предполагая, что вопрос о причине уже понятен. What-cleft выделяет информацию через what-clause и be. Fronting перемещает элемент в начало, чтобы изменить распределение темы и фокуса, а не обязательно вызывает инверсию.\n\nИнформационная структура зависит от контекста. В ответ на Who approved the request? фокус — лицо: It was the director who approved it. В ответ на When was it approved? фокус — время: It was on Monday that it was approved. What we need is a clearer explanation выделяет новое содержание после be. A cleft не просто усложняет предложение; она помогает исправить предположение, противопоставить альтернативы или ввести тему.\n\n### 4.2. Формирование и грамматические модели\n\n| Модель | Структура | Пример |\n|---|---|---|\n| It-cleft | It + be + focus + that/who + clause | It was the timetable that changed. |\n| Negative contrast | It + be + not X but Y + that-clause | It was not the price but the delay that mattered. |\n| What-cleft | What + clause + be + focus | What we need is more time. |\n| Reverse cleft | Focus + be + what-clause | More time is what we need. |\n| Action focus | What + subject + do + be + (to) V1 | What she did was (to) check the file. |\n| All-cleft | All (that) + clause + be + focus | All we need is a signature. |\n| Emphatic do | subject + do/does/did + V1 | The team did verify the data. |\n| Fronting | fronted constituent + clause | This point we must not overlook. |\n\nIt-cleft сохраняет it + singular be даже при plural focus: It was the students who raised the issue. Глагол внутри относительной части согласуется с тем, что является её subject: who raised / who are… . That подходит для разных типов focus; who допустимо для людей, where/when встречаются в соответствующих контекстах, особенно разговорных; how/why не заменяют that механически. It was by checking the logs that we solved it. What-cleft часто использует singular be, особенно при singular или clausal focus; при plural complement возможны варианты согласования, поэтому задания явно задают контекст.\n\n### 4.3. Как выбрать подходящую форму\n\nУстанови, какую информацию хочешь выделить. Для отдельного noun phrase, time/place phrase, причины или способа используй it-cleft. Для нового содержания, объяснения, инструкции или действия — what-cleft; reverse cleft меняет расположение фокуса. Для ограничения до одного требования — all-cleft. Для опровержения утверждения о действии — emphatic do. Для тематического контраста можно вынести object без изменения порядка subject–verb.\n\nWhat…did was (to) + V1 выделяет действие: What the analyst did was recheck the figures. В этой конструкции bare infinitive и to-infinitive возможны. Для emphatic do сохраняй время: I do agree, she does agree, they did agree yesterday. Не добавляй do к modal или perfect; выделяй уже имеющийся auxiliary: She HAS checked it. Fronting объекта (This proposal I support) не тождественно negative inversion (Only then did I support it).\n\n### 4.4. Сравнение с близкими конструкциями\n\n| Нейтральное сообщение | Маркированный вариант |\n|---|---|\n| The second trial revealed the error. | It was the second trial that revealed the error. |\n| We need more evidence. | What we need is more evidence. |\n| We need only a signature. | All we need is a signature. |\n| She checked the data. | What she did was check the data. |\n| They verified the result. | They did verify the result. |\n| I will not ignore this limitation. | This limitation I will not ignore. |\n\n### 4.5. Примеры с переводом и объяснением\n\n| English | Перевод | Почему это подходит |\n| --- | --- | --- |\n| It was the revised protocol that reduced the error rate. | Именно обновлённый протокол снизил частоту ошибок. | Focus — protocol. |\n| It was not the cost but the timing that concerned us. | Нас беспокоила не стоимость, а сроки. | Параллельный contrast. |\n| What the report reveals is a serious limitation. | Отчёт выявляет серьёзное ограничение. | What-clause + singular focus. |\n| What she did was recheck the figures. | Она сделала именно повторную проверку цифр. | Action focus с V1. |\n| The team did validate the result yesterday. | Команда действительно проверила результат вчера. | Emphatic did + V1. |\n| This limitation we cannot overlook. | Это ограничение мы не можем игнорировать. | Object fronting без do-support. |\n\n### 4.6. Исключения, ограничения и границы употребления\n\nCleft и fronting — стилистически маркированные средства, а не универсальные замены. It-cleft не равен безличному it в It is raining. What-cleft содержит what как fused relative (то, что), не вопрос с инверсией. Не применяй одно правило согласования к любому what-clause: What we need is a plan; What we need are two volunteers также употребляется. В упражнениях на singular be использован однозначный complement.\n\nЕсли focus содержит отрицание not X but Y, обеспечь параллельность частей. После emphatic did используй V1, не V2. Не путай It was Monday when we arrived (в зависимости от контекста time statement) с cleft It was on Monday that we arrived. В академической речи нейтральный порядок часто предпочтительнее; cleft полезен, когда имеется ясный контраст. Полная инверсия и отрицательная инверсия изучены в C1-01.\n\n### 4.7. Типичные ошибки русскоязычных студентов\n\n| Ошибка | Исправление | Объяснение |\n| --- | --- | --- |\n| It was the protocol what reduced errors. | It was the protocol that reduced errors. | That вводит cleft clause. |\n| What did we need is a plan. | What we need is a plan. | В what-cleft не вопросительная инверсия. |\n| What she did was checked the file. | What she did was check the file. | Action focus: V1 или to V1. |\n| The team did validated the result. | The team did validate the result. | Did + V1. |\n| It were the students who raised the issue. | It was the students who raised the issue. | It + singular be. |\n\n### 4.8. Произношение и восприятие на слух\n\nЯдерное ударение обычно выделяет focus: It was the SECOND trial that revealed the error. В emphatic do ударение падает на auxiliary: We DID check. Сравни произнесение нейтрального и маркированного предложения. Аудиосверка пока не выполнена.\n\nСначала прослушай или прочитай пример, затем произнеси его целиком. Обрати внимание на смысловое ударение и форму конструкции; не ориентируйся только на буквенный перевод.\n\n### 4.9. Академический английский и TOEFL-перенос\n\nВ Reading распознавай фон и выделенный элемент, особенно при исправлении предположения. В Speaking и Writing применяй cleft для ясного противопоставления, но не для искусственной сложности. В Build a Sentence важно сохранить порядок what-clause и форму глагола после emphatic do. Это авторская практика, не официальные вопросы ETS.\n\nЭто авторская практика переноса навыка. Она не является официальным заданием TOEFL и не выдаётся за официальный результат экзамена.\n\n### 4.10. Примеры для управляемого разбора\n\n- It was the revised protocol that reduced the error rate. — Именно обновлённый протокол снизил частоту ошибок. Focus — protocol.\n- It was not the cost but the timing that concerned us. — Нас беспокоила не стоимость, а сроки. Параллельный contrast.\n- What the report reveals is a serious limitation. — Отчёт выявляет серьёзное ограничение. What-clause + singular focus.\n\nДля каждого примера назови целевую конструкцию, объясни выбор и составь новое предложение в другом контексте. Затем перейди к заданиям: сначала диагностика, затем управляемая и самостоятельная практика, затем новые вопросы выходной проверки.\n\n### 4.11. Самопроверка\n\nПеред отправкой ответа проверь:\n1. It-cleft сохраняет правильное be и marker.\n2. What-clause имеет обычный порядок слов.\n3. Action focus употребляет V1 или to V1.\n4. Emphatic do сохраняет время и V1.\n5. Fronting и inversion различены.\n6. Фокус и контраст уместны в контексте.\n\n### 4.12. Краткая памятка\n\nIt-cleft выделяет constituent; what-cleft выделяет содержание вне what-clause; reverse cleft меняет позицию. What…did was (to) V1 выделяет действие. All-cleft ограничивает требования. Emphatic do + V1. Fronting не всегда вызывает инверсию; выбирай форму по информационному фокусу.\n\nНе выбирай форму только по одному знакомому слову: проверь контекст, значение и структуру. При ошибке вернись к соответствующей части конспекта и составь собственный пример.\n\n## 5. Практика\n\nВ приложении практика разделена на входную диагностику, управляемые задания, самостоятельную практику и новую выходную проверку. Закрытые ответы получают rationale и разбор ошибки. Свободный текст сохраняется и оценивается по рубрике; до подключения и реальной проверки AI-движка система не выдаёт его за автоматическую AI-оценку.\n\n## 6. Интервальное повторение\n\nПовторяй не весь урок автоматически, а конкретную ошибку: выбор формы, согласование, word order, значение, регистр или пунктуацию. Новая попытка должна менять лексический контекст и формулировку, чтобы проверять перенос, а не запоминание одной строки.\n\n## 7. Технический статус\n\n- Постоянный ID: `C1-03`.\n- Прогресс хранится отдельно в course.grammarLessons[\"C1-03\"].\n- Содержание и ключи имеют статус draft; 24 авторских закрытых задания и объяснения вычитаны, выбранные тексты источников проверены. Полная постраничная и пользовательская приёмка остаются открытыми.\n- Предварительное выполнение порогов не равно окончательному mastered: нужны отсроченное повторение и learner review.",
+  "theoryEnd": "## 5."
+}

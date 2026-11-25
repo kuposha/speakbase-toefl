@@ -13,7 +13,9 @@ for (const id of ids) {
   assert.ok(fs.existsSync(file), `Missing lesson file: ${id}`);
   const text = fs.readFileSync(file, 'utf8');
   assert.ok(!/\?{3,}/.test(text), `${id} contains a repeated question-mark placeholder`);
-  assert.ok(text.includes('1.0-draft'), `${id} must remain draft until manual review is complete`);
+  const snapshot = path.join(__dirname, 'materials', 'grammar-reviewed', id + '.json');
+  const version = fs.existsSync(snapshot) ? '1.1-draft' : '1.0-draft';
+  assert.ok(text.includes(version), `${id} must remain draft until manual review is complete`);
 }
 
 const c1Banks = require('./grammar-c1-topic-banks.cjs');
