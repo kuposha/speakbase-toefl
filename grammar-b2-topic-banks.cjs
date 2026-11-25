@@ -169,21 +169,19 @@ q("Either the laboratory manager or the technicians ___ responsible for locking 
 q("A series of carefully controlled tests ___ been conducted.","has","have","are","The head noun series is singular in this expression; use has.","Have incorrectly agrees with tests inside the of-phrase.","Are does not form the present perfect passive and is plural.")
 ]},
 
-"B2-13":{base:"adverb",skillTarget:"adverb-position-focus-viewpoint",profile:{
-label:"adverb position, degree, focus and viewpoint",
-core:"Adverb position affects scope and information focus. Focus adverbs such as only, even, just and particularly can change which element is restricted or emphasised; stance adverbs express the speaker's evaluation of a whole proposition.",
-form:"Mid-position adverbs commonly precede the main verb but follow be/first auxiliary. Focus adverbs are placed close to the constituent they modify. Sentence adverbs often occur initially or parenthetically with commas.",
-selection:"Определи scope: какое слово или утверждение ограничивается/усиливается? Поставь focus adverb рядом с этим элементом. Для stance adverb проверь, относится ли он ко всему proposition.",
-contrast:"Only Maria reviewed the paper (nobody else). Maria only reviewed the paper (did nothing else). Maria reviewed only the paper (nothing else was reviewed).",
-boundary:"Some adverbs allow more than one position with a change in focus or style. Avoid ambiguous placement when the intended scope matters in academic writing.",
-skillTarget:"adverb-position-focus-viewpoint"
+"B2-13":{base:"adverb",skillTarget:"adverb-position-focus-viewpoint",profile:{label:"adjective/adverb position, degree, focus and viewpoint",
+core:"This lesson combines adjective/adverb choices, degree and comparison, word order and adverb scope. Focus adverbs restrict a constituent; stance/comment/viewpoint adverbs qualify a proposition; position changes interpretation.",
+form:"-ing/-ed adjectives; adjective order and linking-verb complements; adjective vs adverb; good/well, hard/hardly, late/lately; so/such; too/enough; quite/pretty/rather/fairly; comparatives/superlatives; verb-object-place-time order; mid-position adverbs; still/already/yet/no longer; even + focus/comparative/concession.",
+selection:"Identify the grammatical target and meaning first. Check adjective/adverb form, degree and comparison, then position the adverb next to its target. Use time adverbs according to whether a situation continues, has stopped or is still expected.",
+contrast:"An interesting film / interested viewers. So difficult / such a difficult task. Too heavy to carry / not light enough. The more you practise, the easier it becomes. She is usually late / she usually arrives late. Only Maria... / Maria only...",
+boundary:"Adjective/adverb patterns are partly lexical. Quite has two meanings; hard/hardly and late/lately differ. Verb and object normally stay together. Focus adverb position changes meaning; even if is hypothetical, even though factual."
 },drills:[
 q("___ the final chapter discusses the limitations; the earlier chapters do not.","Only","Even","Almost","Only directly restricts the subject/focus to the final chapter.","Even adds unexpected emphasis, not the intended restriction.","Almost means nearly and does not restrict the set in this way."),
 q("The findings were ___ statistically significant.","barely","bare","bareness","Barely is an adverb modifying the adjective phrase statistically significant.","Bare is an adjective and cannot modify the adjective phrase here.","Bareness is a noun."),
 q("The team ___ agreed to revise the protocol, not to abandon it.","merely","mere","mereness","Merely modifies the verb phrase and limits the action to agreeing to revise.","Mere is an adjective and cannot modify agreed.","Mereness is a noun."),
 q("___, the evidence does not support the stronger claim.","Arguably","Arguable","Argument","Arguably is a stance adverb modifying the whole proposition.","Arguable is an adjective, not a sentence adverb.","Argument is a noun."),
-q("The participants were ___ informed about the risks.","fully","full","fullness","Fully is an adverb modifying informed.","Full is an adjective, not the required adverb.","Fullness is a noun."),
-q("She ___ only reviewed the introduction; she did not edit it.","briefly","brief","briefness","Briefly modifies the action reviewed and gives its duration/manner.","Brief is an adjective and does not modify the verb directly.","Briefness is a noun."),
+q("The film was ___, so the audience became bored.","boring","bored","bore","Boring describes the thing that causes the feeling; the audience became bored.","Bored describes the audience, not the film in this sentence.","Bore is a verb/noun and does not fit as an adjective here."),
+q("The second estimate is far ___ than the first.","more accurate","most accurate","as accurate","Far can intensify a comparative form: far more accurate than.","Most accurate is a superlative and does not fit than the first.","As accurate requires an as...as structure."),
 q("The results are ___ consistent with the earlier study.","broadly","broad","breadth","Broadly is an adverb of viewpoint/degree modifying consistent.","Broad is an adjective.","Breadth is a noun.")
 ]},
 "B2-14":{base:"clause",skillTarget:"advanced-concession-contrast-linking",profile:{
