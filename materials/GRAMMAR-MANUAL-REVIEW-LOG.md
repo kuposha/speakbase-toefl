@@ -26,7 +26,7 @@ Do not infer completion from automated structural tests or source navigation che
 
 | Lesson | Status | Evidence / remaining work |
 |---|---|---|
-| C1-01 | NOT_REVIEWED | Existing source/key audit claims require fresh lesson-by-lesson confirmation; inspect topic bank profile text and all seven keys. |
+| C1-01 | PARTIAL | Visually checked GR-03 Unit 100, PDF pp. 224-225 / printed pp. 200-201. Reviewed the lesson scope, forms, exceptions, examples and all seven closed keys/rationales. Replaced two potentially ambiguous distractors. GR-05 exact page review, app rendering and learner test remain open. |
 | C1-02 | NOT_REVIEWED | Review conditional inversion against exact GR-03 units and verify all keys, explanations and boundaries. |
 | C1-03 | NOT_REVIEWED | Review cleft/fronting scope, source units, keys and distinction from C1-01/C1-02. |
 | C1-04 | NOT_REVIEWED | Review non-finite clauses, dangling modifiers, source units and all keys. |
