@@ -1,0 +1,738 @@
+{
+  "id": "B1-20",
+  "level": "B1",
+  "sequence": "B1-20",
+  "grammarFamily": "B1-20",
+  "questionBankSource": "topic-specific-authored",
+  "sourceVerification": "draft; selected source text consulted; complete source-page and learner review pending",
+  "topicProfile": {
+    "label": "phrasal verbs and dependent prepositions",
+    "skillTarget": "phrasal-verbs-dependent-prepositions-b1",
+    "core": "Multi-word verbs — устойчивые сочетания глагола с частицей или предлогом. Phrasal verbs часто содержат наречную частицу (turn off, pick up), prepositional verbs требуют конкретного предлога (depend on, deal with), а трёхчастные сочетания включают оба элемента (put up with). Значение и управление необходимо учить вместе.",
+    "form": "| Модель | Пример | Правило |\n|---|---|---|\n| Separable verb + particle | turn off the light / turn the light off | Noun допускает две позиции. |\n| Separable verb + pronoun | turn it off | Местоимение перед частицей. |\n| Prepositional verb | depend on the result / depend on it | Объект после предлога. |\n| Three-part verb | put up with the noise | Сохраняется порядок частей. |\n| Preposition + V-ing | look forward to meeting you | После предлога нужна -ing. |\n| Intransitive phrasal verb | The plane took off. | Объект не нужен. |",
+    "selection": "Определи значение по контексту, затем выбери полное сочетание. Проверь, нужен ли объект и допускается ли разделение глагола и частицы. Если объект — местоимение, для separable verb оно обычно ставится перед частицей. После предлога используй noun или V-ing.",
+    "contrast": "| Пример | Значение |\n|---|---|\n| We carried out the experiment. | Провели эксперимент. |\n| We looked up the term. | Нашли значение термина. |\n| We looked into the complaint. | Изучили жалобу. |\n| Turn it off. | Выключи это. |\n| Deal with it. | Разберись с этим. |\n| I look forward to hearing from you. | Жду вашего ответа. |",
+    "boundary": "Не все multi-word verbs допускают перестановку объекта. Даже один глагол в разных значениях может иметь разные структуры. To в look forward to — предлог; поэтому нужен gerund. Take off означает взлететь или снять одежду: The plane took off; Take your coat off.",
+    "pronunciation": "Частицы phrasal verbs часто получают ударение, особенно в конце фразы: turn it OFF, look it UP. В prepositional verbs предлог часто слабее, а ударение падает на дополнение. Слушай полное сочетание.",
+    "examples": [
+      [
+        "We carried out a survey among students.",
+        "Мы провели опрос среди студентов.",
+        "Carry out = conduct."
+      ],
+      [
+        "Could you look up this word?",
+        "Можешь найти это слово в словаре?",
+        "Separable verb."
+      ],
+      [
+        "The committee is looking into the complaint.",
+        "Комитет изучает жалобу.",
+        "Inseparable look into."
+      ],
+      [
+        "I applied for a scholarship.",
+        "Я подала заявку на стипендию.",
+        "Apply for + объект заявки."
+      ],
+      [
+        "I look forward to hearing from you.",
+        "Жду вашего ответа.",
+        "To — предлог."
+      ],
+      [
+        "Please turn it off.",
+        "Пожалуйста, выключи это.",
+        "Местоимение перед частицей."
+      ]
+    ],
+    "traps": [
+      [
+        "Turn off it.",
+        "Turn it off.",
+        "Местоимение внутри separable verb."
+      ],
+      [
+        "We looked the complaint into.",
+        "We looked into the complaint.",
+        "Look into не разделяется."
+      ],
+      [
+        "I look forward to meet you.",
+        "I look forward to meeting you.",
+        "После prepositional to нужна -ing."
+      ],
+      [
+        "We discussed about the problem.",
+        "We discussed the problem.",
+        "Discuss принимает прямое дополнение."
+      ]
+    ],
+    "toefl": "В Reading и Listening распознавай carry out research, hand in a report, look into a problem. В Speaking используй естественные сочетания вместо буквального перевода. В Writing выбирай регистр: conduct a survey и carry out a survey возможны. Проверяй предлоги и позицию местоимений."
+  },
+  "title": "Phrasal verbs and dependent prepositions",
+  "description": "Использовать phrasal/multi-word verbs и verb/noun/adjective + preposition",
+  "cardDescription": "Теория, guided practice, самостоятельные задания и выходная проверка по постоянному ID B1-20.",
+  "eyebrow": "Полный урок программы B1-20 · drafted",
+  "contentVersion": "1.1-draft",
+  "curriculumVersion": "1.0",
+  "prerequisites": [
+    "A2-17",
+    "A2-18"
+  ],
+  "outcomes": [
+    "Использовать phrasal/multi-word verbs и verb/noun/adjective + preposition",
+    "Выбирать целевую конструкцию по контексту и смыслу.",
+    "Исправлять типичные ошибки и переносить правило в новый пример."
+  ],
+  "sourceRefs": [
+    "GR-01 U112-115",
+    "GR-02 U129-145",
+    "GR-03 U88-94",
+    "GR-05 B1 p88-91"
+  ],
+  "sourceStatus": "selected source text consulted; full page verification pending",
+  "status": "drafted",
+  "legacyCoverage": "Частично",
+  "toeflLinks": [
+    "Writing: Build a Sentence",
+    "Listening: tense/aspect, modality, weak forms and discourse cues",
+    "Writing: Academic Discussion"
+  ],
+  "thresholds": {
+    "independent": 7,
+    "exit": 4,
+    "criticalIds": [
+      "E1",
+      "E2",
+      "E3"
+    ]
+  },
+  "groups": {
+    "independent": "Самостоятельная практика",
+    "exit": "Выходная проверка"
+  },
+  "items": [
+    {
+      "id": "D1",
+      "group": "Входная диагностика",
+      "prompt": "The research team will carry ___ a series of interviews.",
+      "options": [
+        "off",
+        "out",
+        "after"
+      ],
+      "answer": "out",
+      "accepted": [
+        "out"
+      ],
+      "why": "Carry out = провести интервью.",
+      "distractorWhy": "Carry off имеет другое значение.",
+      "distractorRationales": {
+        "off": "Carry off имеет другое значение.",
+        "after": "Carry after не выражает проведение."
+      },
+      "skillTarget": "phrasal-verbs-dependent-prepositions-b1",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D2",
+      "group": "Входная диагностика",
+      "prompt": "The committee agreed to look ___ the complaint.",
+      "options": [
+        "into",
+        "up",
+        "off"
+      ],
+      "answer": "into",
+      "accepted": [
+        "into"
+      ],
+      "why": "Look into = изучить жалобу.",
+      "distractorWhy": "Look up = найти сведения в справочнике.",
+      "distractorRationales": {
+        "up": "Look up = найти сведения в справочнике.",
+        "off": "Look off не это сочетание."
+      },
+      "skillTarget": "phrasal-verbs-dependent-prepositions-b1",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D3",
+      "group": "Входная диагностика",
+      "prompt": "We need to come ___ a better solution.",
+      "options": [
+        "up to",
+        "out of",
+        "up with"
+      ],
+      "answer": "up with",
+      "accepted": [
+        "up with"
+      ],
+      "why": "Come up with = придумать.",
+      "distractorWhy": "Come up to имеет другие значения.",
+      "distractorRationales": {
+        "up to": "Come up to имеет другие значения.",
+        "out of": "Come out of не означает придумать."
+      },
+      "skillTarget": "phrasal-verbs-dependent-prepositions-b1",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D4",
+      "group": "Входная диагностика",
+      "prompt": "Choose the correct closing phrase in a formal email.",
+      "options": [
+        "I look forward to receive your reply.",
+        "I look forward to receiving your reply.",
+        "I look forward receiving your reply."
+      ],
+      "answer": "I look forward to receiving your reply.",
+      "accepted": [
+        "I look forward to receiving your reply."
+      ],
+      "why": "После prepositional to нужна -ing.",
+      "distractorWhy": "Receive — V1.",
+      "distractorRationales": {
+        "I look forward to receive your reply.": "Receive — V1.",
+        "I look forward receiving your reply.": "Пропущен to."
+      },
+      "skillTarget": "phrasal-verbs-dependent-prepositions-b1",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G1",
+      "group": "Управляемая практика",
+      "prompt": "The manager had to deal ___ several unexpected problems.",
+      "options": [
+        "with",
+        "about",
+        "for"
+      ],
+      "answer": "with",
+      "accepted": [
+        "with"
+      ],
+      "why": "Deal with = заниматься проблемой.",
+      "distractorWhy": "About не управление deal здесь.",
+      "distractorRationales": {
+        "about": "About не управление deal здесь.",
+        "for": "For не нужный предлог."
+      },
+      "skillTarget": "phrasal-verbs-dependent-prepositions-b1",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G2",
+      "group": "Управляемая практика",
+      "prompt": "She cannot put ___ the constant noise any longer.",
+      "options": [
+        "up to",
+        "out of",
+        "up with"
+      ],
+      "answer": "up with",
+      "accepted": [
+        "up with"
+      ],
+      "why": "Put up with = терпеть.",
+      "distractorWhy": "Put up to не означает терпеть.",
+      "distractorRationales": {
+        "up to": "Put up to не означает терпеть.",
+        "out of": "Put out of не эта модель."
+      },
+      "skillTarget": "phrasal-verbs-dependent-prepositions-b1",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G3",
+      "group": "Управляемая практика",
+      "prompt": "Choose the correct pronoun position with turn off.",
+      "options": [
+        "Please turn off it.",
+        "Please turn it off.",
+        "Please turn it of."
+      ],
+      "answer": "Please turn it off.",
+      "accepted": [
+        "Please turn it off."
+      ],
+      "why": "Местоимение перед частицей.",
+      "distractorWhy": "It нельзя ставить после off в этой модели.",
+      "distractorRationales": {
+        "Please turn off it.": "It нельзя ставить после off в этой модели.",
+        "Please turn it of.": "Of не частица off."
+      },
+      "skillTarget": "phrasal-verbs-dependent-prepositions-b1",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G4",
+      "group": "Управляемая практика",
+      "prompt": "Choose a correct separable pick-up construction.",
+      "options": [
+        "She picked the book up.",
+        "She picked up it.",
+        "She picked the book to up."
+      ],
+      "answer": "She picked the book up.",
+      "accepted": [
+        "She picked the book up."
+      ],
+      "why": "Noun допускается между verb и particle.",
+      "distractorWhy": "Pronoun должен предшествовать up.",
+      "distractorRationales": {
+        "She picked up it.": "Pronoun должен предшествовать up.",
+        "She picked the book to up.": "To лишнее."
+      },
+      "skillTarget": "phrasal-verbs-dependent-prepositions-b1",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G5",
+      "group": "Управляемая практика",
+      "prompt": "Choose the correct pronoun position with look into.",
+      "options": [
+        "They looked it into.",
+        "They looked into to it.",
+        "They looked into it."
+      ],
+      "answer": "They looked into it.",
+      "accepted": [
+        "They looked into it."
+      ],
+      "why": "Look into сохраняет порядок.",
+      "distractorWhy": "Не разделяется в значении расследовать.",
+      "distractorRationales": {
+        "They looked it into.": "Не разделяется в значении расследовать.",
+        "They looked into to it.": "Дополнительный to лишний."
+      },
+      "skillTarget": "phrasal-verbs-dependent-prepositions-b1",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G6",
+      "group": "Управляемая практика",
+      "prompt": "To find the meaning of this word in a dictionary, I should look it ___.",
+      "options": [
+        "into",
+        "up",
+        "after"
+      ],
+      "answer": "up",
+      "accepted": [
+        "up"
+      ],
+      "why": "Look up = найти в словаре.",
+      "distractorWhy": "Look into = исследовать вопрос.",
+      "distractorRationales": {
+        "into": "Look into = исследовать вопрос.",
+        "after": "Look after = присматривать."
+      },
+      "skillTarget": "phrasal-verbs-dependent-prepositions-b1",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I1",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct application phrase for a scholarship.",
+      "options": [
+        "She applied to a scholarship.",
+        "She applied on a scholarship.",
+        "She applied for a scholarship."
+      ],
+      "answer": "She applied for a scholarship.",
+      "accepted": [
+        "She applied for a scholarship."
+      ],
+      "why": "Apply for + объект заявки.",
+      "distractorWhy": "Apply to обычно указывает организацию.",
+      "distractorRationales": {
+        "She applied to a scholarship.": "Apply to обычно указывает организацию.",
+        "She applied on a scholarship.": "On не нужный предлог."
+      },
+      "skillTarget": "phrasal-verbs-dependent-prepositions-b1",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I2",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct application phrase for an institution.",
+      "options": [
+        "He applied on the university.",
+        "He applied to the university.",
+        "He applied at to the university."
+      ],
+      "answer": "He applied to the university.",
+      "accepted": [
+        "He applied to the university."
+      ],
+      "why": "Apply to + учреждение.",
+      "distractorWhy": "On не управление здесь.",
+      "distractorRationales": {
+        "He applied on the university.": "On не управление здесь.",
+        "He applied at to the university.": "Два предлога нарушают модель."
+      },
+      "skillTarget": "phrasal-verbs-dependent-prepositions-b1",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I3",
+      "group": "Самостоятельная практика",
+      "prompt": "We rely ___ accurate information.",
+      "options": [
+        "on",
+        "to",
+        "of"
+      ],
+      "answer": "on",
+      "accepted": [
+        "on"
+      ],
+      "why": "Rely on = полагаться на.",
+      "distractorWhy": "To не управление rely.",
+      "distractorRationales": {
+        "to": "To не управление rely.",
+        "of": "Of не нужный предлог."
+      },
+      "skillTarget": "phrasal-verbs-dependent-prepositions-b1",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I4",
+      "group": "Самостоятельная практика",
+      "prompt": "The students must hand ___ their assignments by Friday.",
+      "options": [
+        "out of",
+        "after",
+        "in"
+      ],
+      "answer": "in",
+      "accepted": [
+        "in"
+      ],
+      "why": "Hand in = сдать работу.",
+      "distractorWhy": "Hand out означает раздавать, out of не подходит.",
+      "distractorRationales": {
+        "out of": "Hand out означает раздавать, out of не подходит.",
+        "after": "Hand after не эта модель."
+      },
+      "skillTarget": "phrasal-verbs-dependent-prepositions-b1",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I5",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the phrase meaning discover information.",
+      "options": [
+        "We found up what had happened.",
+        "We found out what had happened.",
+        "We found after what had happened."
+      ],
+      "answer": "We found out what had happened.",
+      "accepted": [
+        "We found out what had happened."
+      ],
+      "why": "Find out = выяснить.",
+      "distractorWhy": "Find up не это сочетание.",
+      "distractorRationales": {
+        "We found up what had happened.": "Find up не это сочетание.",
+        "We found after what had happened.": "Find after не передаёт выяснение."
+      },
+      "skillTarget": "phrasal-verbs-dependent-prepositions-b1",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I6",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the phrase meaning organise a meeting.",
+      "options": [
+        "Let's set up a meeting.",
+        "Let's set off a meeting.",
+        "Let's set in a meeting."
+      ],
+      "answer": "Let's set up a meeting.",
+      "accepted": [
+        "Let's set up a meeting."
+      ],
+      "why": "Set up = организовать.",
+      "distractorWhy": "Set off = отправиться или вызвать срабатывание.",
+      "distractorRationales": {
+        "Let's set off a meeting.": "Set off = отправиться или вызвать срабатывание.",
+        "Let's set in a meeting.": "Set in = начаться."
+      },
+      "skillTarget": "phrasal-verbs-dependent-prepositions-b1",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I7",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the verb without an unnecessary preposition.",
+      "options": [
+        "We discussed about the issue.",
+        "We discussed on the issue.",
+        "We discussed the issue."
+      ],
+      "answer": "We discussed the issue.",
+      "accepted": [
+        "We discussed the issue."
+      ],
+      "why": "Discuss + direct object.",
+      "distractorWhy": "About лишний.",
+      "distractorRationales": {
+        "We discussed about the issue.": "About лишний.",
+        "We discussed on the issue.": "On также не требуется."
+      },
+      "skillTarget": "phrasal-verbs-dependent-prepositions-b1",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I8",
+      "group": "Самостоятельная практика",
+      "prompt": "She succeeded ___ completing the course.",
+      "options": [
+        "to",
+        "in",
+        "on"
+      ],
+      "answer": "in",
+      "accepted": [
+        "in"
+      ],
+      "why": "Succeed in + V-ing.",
+      "distractorWhy": "To не управление здесь.",
+      "distractorRationales": {
+        "to": "To не управление здесь.",
+        "on": "On не нужный предлог."
+      },
+      "skillTarget": "phrasal-verbs-dependent-prepositions-b1",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I9",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the grammatical apology for a late arrival.",
+      "options": [
+        "He apologised for arriving late.",
+        "He apologised to arriving late.",
+        "He apologised for arrive late."
+      ],
+      "answer": "He apologised for arriving late.",
+      "accepted": [
+        "He apologised for arriving late."
+      ],
+      "why": "Apologise for + причина.",
+      "distractorWhy": "To вводит адресата.",
+      "distractorRationales": {
+        "He apologised to arriving late.": "To вводит адресата.",
+        "He apologised for arrive late.": "После for нужна -ing."
+      },
+      "skillTarget": "phrasal-verbs-dependent-prepositions-b1",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E1",
+      "group": "Выходная проверка",
+      "prompt": "Choose the sentence where take off means depart into the air.",
+      "options": [
+        "The plane took off at noon.",
+        "The pilot took his coat off at noon.",
+        "The pilot took off his glasses at noon."
+      ],
+      "answer": "The plane took off at noon.",
+      "accepted": [
+        "The plane took off at noon."
+      ],
+      "why": "Take off без объекта = взлететь.",
+      "distractorWhy": "Take a coat off = снять пальто.",
+      "distractorRationales": {
+        "The pilot took his coat off at noon.": "Take a coat off = снять пальто.",
+        "The pilot took off his glasses at noon.": "Take glasses off = снять очки."
+      },
+      "skillTarget": "phrasal-verbs-dependent-prepositions-b1",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E2",
+      "group": "Выходная проверка",
+      "prompt": "Choose the correct pronoun position for submitting a report.",
+      "options": [
+        "Please hand in it tomorrow.",
+        "Please hand it to in tomorrow.",
+        "Please hand it in tomorrow."
+      ],
+      "answer": "Please hand it in tomorrow.",
+      "accepted": [
+        "Please hand it in tomorrow."
+      ],
+      "why": "Pronoun между hand и in.",
+      "distractorWhy": "После in местоимение здесь неверно.",
+      "distractorRationales": {
+        "Please hand in it tomorrow.": "После in местоимение здесь неверно.",
+        "Please hand it to in tomorrow.": "To лишнее."
+      },
+      "skillTarget": "phrasal-verbs-dependent-prepositions-b1",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E3",
+      "group": "Выходная проверка",
+      "prompt": "The professor will ___ the issue more closely. Choose the phrase meaning investigate.",
+      "options": [
+        "look after",
+        "look into",
+        "look up to"
+      ],
+      "answer": "look into",
+      "accepted": [
+        "look into"
+      ],
+      "why": "Look into = исследовать.",
+      "distractorWhy": "Look after = присматривать.",
+      "distractorRationales": {
+        "look after": "Look after = присматривать.",
+        "look up to": "Look up to = уважать."
+      },
+      "skillTarget": "phrasal-verbs-dependent-prepositions-b1",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E4",
+      "group": "Выходная проверка",
+      "prompt": "Choose the grammatical insist-on pattern.",
+      "options": [
+        "She insisted on checking the figures.",
+        "She insisted to checking the figures.",
+        "She insisted on check the figures."
+      ],
+      "answer": "She insisted on checking the figures.",
+      "accepted": [
+        "She insisted on checking the figures."
+      ],
+      "why": "Insist on + V-ing.",
+      "distractorWhy": "To не нужный предлог.",
+      "distractorRationales": {
+        "She insisted to checking the figures.": "To не нужный предлог.",
+        "She insisted on check the figures.": "После on нужна -ing."
+      },
+      "skillTarget": "phrasal-verbs-dependent-prepositions-b1",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E5",
+      "group": "Выходная проверка",
+      "prompt": "Choose the correct word order for tolerating a situation.",
+      "options": [
+        "I can't put it up with.",
+        "I can't put up it with.",
+        "I can't put up with it."
+      ],
+      "answer": "I can't put up with it.",
+      "accepted": [
+        "I can't put up with it."
+      ],
+      "why": "Put up with сохраняет части перед объектом.",
+      "distractorWhy": "It нельзя перемещать внутрь.",
+      "distractorRationales": {
+        "I can't put it up with.": "It нельзя перемещать внутрь.",
+        "I can't put up it with.": "With должно предшествовать объекту."
+      },
+      "skillTarget": "phrasal-verbs-dependent-prepositions-b1",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "W1",
+      "group": "Самостоятельное применение",
+      "prompt": "Напиши 8 предложений о подготовке проекта с минимум шестью multi-word verbs. Два предложения содержат местоимение с separable verb, два — inseparable verb, одно — look forward to + V-ing. Объясни значение и управление.",
+      "open": true,
+      "rubric": [
+        "Сочетания соответствуют смыслу.",
+        "Частицы и предлоги корректны.",
+        "Местоимения стоят в нужной позиции.",
+        "После предлога используется V-ing.",
+        "Есть академические и повседневные контексты.",
+        "Лишние предлоги отсутствуют."
+      ],
+      "skillTarget": "Самостоятельное применение B1-20",
+      "interactionType": "open-production",
+      "difficulty": "transfer",
+      "sourceBasis": "Speakbase-authored open production; self-review rubric only until real AI feedback is connected",
+      "contentVersion": "1.1-draft"
+    }
+  ],
+  "markdown": "# Speakbase — B1-20: Phrasal verbs and dependent prepositions\n\n**Curriculum ID:** `B1-20`  \n**Уровень:** B1  \n**Версия:** 1.1-draft\n**Статус:** drafted; selected source text checked; full source-page and learner acceptance pending\n**Предварительные темы:** A2-17, A2-18  \n**Связь со старым каталогом:** Частично — №12 Prepositions\n\n## 1. Результаты обучения\n\n- Использовать phrasal/multi-word verbs и verb/noun/adjective + preposition\n- Выбирать целевую форму по значению, структуре предложения и контексту.\n- Объяснять, почему близкая грамматическая форма меняет смысл или регистр.\n- Находить и исправлять типичные ошибки русскоязычных студентов.\n\n## 2. Источники и статус сверки\n\n| Source | PDF navigation | Lesson-specific checks | Status |\n|---|---|---|---|\n| GR-01 U112-115 | PDF pages 235-242 (Unit 112-115) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-02 U129-145 | PDF pages 270-303 (Unit 129-145) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-03 U88-94 | PDF pages 200-213 (Unit 88-94) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-05 B1 p88-91 | PDF pages 88-91 (B1 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n\nUnit/page locations are navigation aids only. They do not prove that the cited explanation, examples, restrictions and answer key have been checked for this lesson. Examples and explanations below are Speakbase-authored, not quotations from the textbook.\n\nПеред переводом этого урока в source-verified необходимо открыть целевые страницы конкретного издания, записать печатную и PDF-пагинацию, сверить ограничения и исключения. Для GR-03 со сканированными страницами обязательна визуальная проверка.\n\n**Evidence for this editorial pass:** GR-02 selected theory text consulted during B1 audit: Units 129–145 (PDF theory pages 270–302, even pages; printed 258–290); complete exercise-page and GR-01/03/05 checks pending. The selected source text was consulted; not all pages, exercises, editions, scanned GR-03 pages or GR-05 descriptors were checked. Author-created explanations and practice are not copied source exercises.\n\n## 3. Место темы и границы\n\nСопоставь phrasal verbs и dependent prepositions; обращай внимание на separability, pronoun placement и регистр.\n\nСтарый каталог содержит: №12 Prepositions. Его статус — Частично. Старые отметки завершения не переносятся автоматически на новый постоянный ID. Тема рассматривается в уровне B1 и не заменяет обязательные prerequisites.\n\n## 4. Полный конспект\n\n### 4.1. Основная идея и функция конструкции\n\nMulti-word verbs — устойчивые сочетания глагола с частицей или предлогом. Phrasal verbs часто содержат наречную частицу (turn off, pick up), prepositional verbs требуют конкретного предлога (depend on, deal with), а трёхчастные сочетания включают оба элемента (put up with). Значение и управление необходимо учить вместе.\n\nCarry out an experiment означает провести эксперимент, look into a problem — изучить проблему, look up a word — найти слово в справочнике. Нельзя выбирать частицу только по переводу. Позиция дополнения зависит от конкретного сочетания: turn the light off / turn off the light, но turn it off; look into the problem / look into it, но не look the problem into.\n\n### 4.2. Формирование и грамматическая модель\n\n| Модель | Пример | Правило |\n|---|---|---|\n| Separable verb + particle | turn off the light / turn the light off | Noun допускает две позиции. |\n| Separable verb + pronoun | turn it off | Местоимение перед частицей. |\n| Prepositional verb | depend on the result / depend on it | Объект после предлога. |\n| Three-part verb | put up with the noise | Сохраняется порядок частей. |\n| Preposition + V-ing | look forward to meeting you | После предлога нужна -ing. |\n| Intransitive phrasal verb | The plane took off. | Объект не нужен. |\n\nУчи словосочетания: carry out a survey — провести опрос; set up a meeting — организовать встречу; hand in an assignment — сдать работу; find out the answer — выяснить ответ; look up a word — найти слово; deal with a problem — решать проблему; rely on a source — полагаться на источник; apply for a scholarship — подавать заявку; come up with an idea — придумать идею; put up with noise — терпеть шум. Словарь помогает проверить значение и допустимую позицию объекта.\n\n### 4.3. Как выбрать подходящую форму\n\nОпредели значение по контексту, затем выбери полное сочетание. Проверь, нужен ли объект и допускается ли разделение глагола и частицы. Если объект — местоимение, для separable verb оно обычно ставится перед частицей. После предлога используй noun или V-ing.\n\nLook up — поиск сведений, look into — изучение проблемы, look after — присмотр. Apply for a scholarship — подать заявку на стипендию; apply to a university — обратиться в университет. Depend on, listen to, apologise for, succeed in, insist on имеют собственное управление. Не добавляй предлог к discuss the topic, enter the room, contact the office.\n\n### 4.4. Сравнение с близкими конструкциями\n\n| Пример | Значение |\n|---|---|\n| We carried out the experiment. | Провели эксперимент. |\n| We looked up the term. | Нашли значение термина. |\n| We looked into the complaint. | Изучили жалобу. |\n| Turn it off. | Выключи это. |\n| Deal with it. | Разберись с этим. |\n| I look forward to hearing from you. | Жду вашего ответа. |\n\n### 4.5. Примеры с переводом и объяснением\n\n| English | Перевод | Почему это подходит |\n| --- | --- | --- |\n| We carried out a survey among students. | Мы провели опрос среди студентов. | Carry out = conduct. |\n| Could you look up this word? | Можешь найти это слово в словаре? | Separable verb. |\n| The committee is looking into the complaint. | Комитет изучает жалобу. | Inseparable look into. |\n| I applied for a scholarship. | Я подала заявку на стипендию. | Apply for + объект заявки. |\n| I look forward to hearing from you. | Жду вашего ответа. | To — предлог. |\n| Please turn it off. | Пожалуйста, выключи это. | Местоимение перед частицей. |\n\n### 4.6. Исключения, ограничения и границы употребления\n\nНе все multi-word verbs допускают перестановку объекта. Даже один глагол в разных значениях может иметь разные структуры. To в look forward to — предлог; поэтому нужен gerund. Take off означает взлететь или снять одежду: The plane took off; Take your coat off.\n\nНе подменяй устойчивое сочетание формальным синонимом автоматически: conduct a survey и carry out a survey допустимы, но контекст и регистр могут различаться. Глаголы с предлогом обычно не разрываются объектом. Для длинного существительного в separable конструкции часто удобнее позиция после частицы: turn off all the machines in the laboratory. Учитывай, что put up with не разделяется ни существительным, ни местоимением.\n\n### 4.7. Типичные ошибки русскоязычных студентов\n\n| Ошибка | Исправление | Объяснение |\n| --- | --- | --- |\n| Turn off it. | Turn it off. | Местоимение внутри separable verb. |\n| We looked the complaint into. | We looked into the complaint. | Look into не разделяется. |\n| I look forward to meet you. | I look forward to meeting you. | После prepositional to нужна -ing. |\n| We discussed about the problem. | We discussed the problem. | Discuss принимает прямое дополнение. |\n\n### 4.8. Произношение и восприятие на слух\n\nЧастицы phrasal verbs часто получают ударение, особенно в конце фразы: turn it OFF, look it UP. В prepositional verbs предлог часто слабее, а ударение падает на дополнение. Слушай полное сочетание.\n\nСначала прослушай или прочитай пример, затем произнеси его целиком. Обрати внимание на смысловое ударение и форму конструкции; не ориентируйся только на буквенный перевод.\n\n### 4.9. Академический английский и TOEFL-перенос\n\nВ Reading и Listening распознавай carry out research, hand in a report, look into a problem. В Speaking используй естественные сочетания вместо буквального перевода. В Writing выбирай регистр: conduct a survey и carry out a survey возможны. Проверяй предлоги и позицию местоимений.\n\nЭто авторская практика переноса навыка. Она не является официальным заданием TOEFL и не выдаётся за официальный результат экзамена.\n\n### 4.10. Примеры для управляемого разбора\n\n- We carried out a survey among students. — Мы провели опрос среди студентов. Carry out = conduct.\n- Could you look up this word? — Можешь найти это слово в словаре? Separable verb.\n- The committee is looking into the complaint. — Комитет изучает жалобу. Inseparable look into.\n\nДля каждого примера назови целевую конструкцию, объясни выбор и составь новое предложение в другом контексте. Затем перейди к заданиям: сначала диагностика, затем управляемая и самостоятельная практика, затем новые вопросы выходной проверки.\n\n### 4.11. Самопроверка\n\nПеред отправкой ответа проверь:\n1. Сочетания соответствуют смыслу.\n2. Частицы и предлоги корректны.\n3. Местоимения стоят в нужной позиции.\n4. После предлога используется V-ing.\n5. Есть академические и повседневные контексты.\n6. Лишние предлоги отсутствуют.\n\n### 4.12. Краткая памятка\n\nУчи значение, управление и позицию объекта вместе. Separable: turn it off; inseparable: look into it; three-part: put up with it. После предлога noun/V-ing. Apply for a scholarship, depend on, deal with, look forward to + V-ing.\n\nНе выбирай форму только по одному знакомому слову: проверь контекст, значение и структуру. При ошибке вернись к соответствующей части конспекта и составь собственный пример.\n\n## 5. Практика\n\nВ приложении практика разделена на входную диагностику, управляемые задания, самостоятельную практику и новую выходную проверку. Закрытые ответы получают rationale и разбор ошибки. Свободный текст сохраняется и оценивается по рубрике; до подключения и реальной проверки AI-движка система не выдаёт его за автоматическую AI-оценку.\n\n## 6. Интервальное повторение\n\nПовторяй не весь урок автоматически, а конкретную ошибку: выбор формы, согласование, word order, значение, регистр или пунктуацию. Новая попытка должна менять лексический контекст и формулировку, чтобы проверять перенос, а не запоминание одной строки.\n\n## 7. Технический статус\n\n- Постоянный ID: `B1-20`.\n- Прогресс хранится отдельно в course.grammarLessons[\"B1-20\"].\n- Содержание и ключи имеют статус draft; 24 авторских закрытых задания и объяснения вычитаны, выбранные тексты источников проверены. Полная постраничная и пользовательская приёмка остаются открытыми.\n- Предварительное выполнение порогов не равно окончательному mastered: нужны отсроченное повторение и learner review.",
+  "theoryEnd": "## 5."
+}

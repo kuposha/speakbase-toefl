@@ -1,0 +1,737 @@
+{
+  "id": "B1-22",
+  "level": "B1",
+  "sequence": "B1-22",
+  "grammarFamily": "B1-22",
+  "questionBankSource": "topic-specific-authored",
+  "sourceVerification": "draft; selected source text consulted; complete source-page and learner review pending",
+  "topicProfile": {
+    "label": "advanced comparison and degree modifiers",
+    "skillTarget": "advanced-comparatives-degree-modifiers",
+    "core": "Углублённое сравнение позволяет выразить степень различия, равенство, постепенное изменение и зависимость между явлениями. Выбирай comparative, superlative или as…as по смыслу, затем подходящий модификатор. Much better означает значительно лучше, slightly better — немного лучше. The more you practise, the more fluent you become описывает взаимосвязанное изменение.",
+    "form": "| Значение | Модель | Пример |\n|---|---|---|\n| Большая разница | much/far/a lot + comparative | much better |\n| Небольшая разница | slightly/a little/a bit + comparative | slightly lower |\n| Усиление superlative | by far + the + superlative | by far the best |\n| Равная степень | as + adjective/adverb + as | as reliable as |\n| Неравная степень | not as + adjective/adverb + as | not as fast as |\n| Постепенное изменение | comparative + and + comparative | better and better |\n| Длинное прилагательное | more and more + adjective | more and more expensive |\n| Пропорциональная связь | the + comparative…, the + comparative… | The sooner, the better. |",
+    "selection": "Определи, сравниваешь ли два объекта, выделяешь крайний объект из группы, сообщаешь равенство или изменение. Для большой разницы подходят much/far/considerably, для малой — slightly/a little. Для двух взаимосвязанных изменений используй the more…, the more/less… . By far усиливает превосходную степень, если различие действительно существенное.",
+    "contrast": "| Пример | Смысл |\n|---|---|\n| This method is much faster than the old one. | Значительно быстрее. |\n| This method is slightly faster than the old one. | Незначительно быстрее. |\n| This method is as fast as the old one. | Одинаковая скорость. |\n| This method is no faster than the old one. | Не быстрее прежнего. |\n| The task is getting harder and harder. | Постепенное изменение. |\n| The harder we work, the sooner we finish. | Зависимость изменений. |",
+    "boundary": "Very обычно усиливает обычное прилагательное (very useful), но не обычную сравнительную степень: much more useful, а не very more useful. Enough и too выражают достаточность и избыток, а не comparative: fast enough, too expensive. No faster than означает отсутствие преимущества по скорости, но не обязательно точное равенство.",
+    "pronunciation": "В double comparative выделяй сравнительные группы: The MORE you practise, the BETTER you speak. Пауза между частями помогает услышать зависимость. В much better или slightly better ударение может подчёркивать величину различия.",
+    "examples": [
+      [
+        "The new method is considerably more accurate.",
+        "Новый метод значительно точнее.",
+        "Большая разница."
+      ],
+      [
+        "The second test was slightly harder than the first.",
+        "Второй тест был немного сложнее первого.",
+        "Малая разница."
+      ],
+      [
+        "This device is by far the cheapest in the range.",
+        "Этот прибор намного дешевле всех остальных в линейке.",
+        "Усиление superlative."
+      ],
+      [
+        "The more carefully we check the data, the fewer errors we find later.",
+        "Чем тщательнее мы проверяем данные, тем меньше ошибок находим позже.",
+        "Пропорциональная связь."
+      ],
+      [
+        "The software is becoming more and more reliable.",
+        "Программа становится всё надёжнее.",
+        "Постепенное изменение."
+      ],
+      [
+        "The cost of plan A is lower than that of plan B.",
+        "Стоимость плана A ниже стоимости плана B.",
+        "Сопоставимые величины."
+      ]
+    ],
+    "traps": [
+      [
+        "This method is more better.",
+        "This method is better.",
+        "Не удваивай comparative."
+      ],
+      [
+        "This task is very harder.",
+        "This task is much harder.",
+        "Much усиливает comparative."
+      ],
+      [
+        "More you study, better you write.",
+        "The more you study, the better you write.",
+        "The нужен в обеих частях."
+      ],
+      [
+        "The cost is lower than the old plan.",
+        "The cost is lower than that of the old plan.",
+        "Сравнивай стоимость со стоимостью."
+      ]
+    ],
+    "toefl": "В Reading различай размер различия и направление изменения. В Writing сравнивай данные сопоставимо: Group A's average score was slightly higher than group B's. Не выводи причинность из одного сравнительного утверждения. В Speaking объясняй преимущества и недостатки, используя точные degree modifiers и пропорциональные конструкции при наличии логической связи."
+  },
+  "title": "Advanced comparison and modifiers",
+  "description": "Использовать as…as, comparative clauses, усилители и конструкции the… the…",
+  "cardDescription": "Теория, guided practice, самостоятельные задания и выходная проверка по постоянному ID B1-22.",
+  "eyebrow": "Полный урок программы B1-22 · drafted",
+  "contentVersion": "1.1-draft",
+  "curriculumVersion": "1.0",
+  "prerequisites": [
+    "A2-08",
+    "A2-09",
+    "A2-11"
+  ],
+  "outcomes": [
+    "Использовать as…as, comparative clauses, усилители и конструкции the… the…",
+    "Выбирать целевую конструкцию по контексту и смыслу.",
+    "Исправлять типичные ошибки и переносить правило в новый пример."
+  ],
+  "sourceRefs": [
+    "GR-02 U105-108",
+    "GR-03 U72-73",
+    "GR-05 B1 p3-14"
+  ],
+  "sourceStatus": "selected source text consulted; full page verification pending",
+  "status": "drafted",
+  "legacyCoverage": "Частично",
+  "toeflLinks": [
+    "Writing: Build a Sentence",
+    "Writing: Academic Discussion"
+  ],
+  "thresholds": {
+    "independent": 7,
+    "exit": 4,
+    "criticalIds": [
+      "E1",
+      "E2",
+      "E3"
+    ]
+  },
+  "groups": {
+    "independent": "Самостоятельная практика",
+    "exit": "Выходная проверка"
+  },
+  "items": [
+    {
+      "id": "D1",
+      "group": "Входная диагностика",
+      "prompt": "The new system is considerably faster. Choose the equivalent comparative modifier.",
+      "options": [
+        "very faster",
+        "much faster",
+        "more faster"
+      ],
+      "answer": "much faster",
+      "accepted": [
+        "much faster"
+      ],
+      "why": "Much усиливает comparative.",
+      "distractorWhy": "Very обычно не усиливает сравнительную степень.",
+      "distractorRationales": {
+        "very faster": "Very обычно не усиливает сравнительную степень.",
+        "more faster": "More дублирует -er."
+      },
+      "skillTarget": "advanced-comparatives-degree-modifiers",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D2",
+      "group": "Входная диагностика",
+      "prompt": "The first result is 50 and the second is 51. Choose a small-difference description.",
+      "options": [
+        "The second result is slightly higher.",
+        "The second result is enormously higher.",
+        "The second result is very higher."
+      ],
+      "answer": "The second result is slightly higher.",
+      "accepted": [
+        "The second result is slightly higher."
+      ],
+      "why": "Slightly соответствует малой разнице.",
+      "distractorWhy": "Enormously преувеличивает различие.",
+      "distractorRationales": {
+        "The second result is enormously higher.": "Enormously преувеличивает различие.",
+        "The second result is very higher.": "Very higher не стандартная модель."
+      },
+      "skillTarget": "advanced-comparatives-degree-modifiers",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D3",
+      "group": "Входная диагностика",
+      "prompt": "Choose the correct comparative of good in this context.",
+      "options": [
+        "This solution is more better than the previous one.",
+        "This solution is gooder than the previous one.",
+        "This solution is better than the previous one."
+      ],
+      "answer": "This solution is better than the previous one.",
+      "accepted": [
+        "This solution is better than the previous one."
+      ],
+      "why": "Better — неправильная сравнительная форма.",
+      "distractorWhy": "More дублирует comparative.",
+      "distractorRationales": {
+        "This solution is more better than the previous one.": "More дублирует comparative.",
+        "This solution is gooder than the previous one.": "Gooder не стандартная форма."
+      },
+      "skillTarget": "advanced-comparatives-degree-modifiers",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D4",
+      "group": "Входная диагностика",
+      "prompt": "Choose the correct strengthened superlative.",
+      "options": [
+        "It is by far the more efficient method in the entire range.",
+        "It is by far the most efficient method.",
+        "It is the most efficientest method."
+      ],
+      "answer": "It is by far the most efficient method.",
+      "accepted": [
+        "It is by far the most efficient method."
+      ],
+      "why": "By far усиливает superlative.",
+      "distractorWhy": "Для выделения из всей группы нужен superlative.",
+      "distractorRationales": {
+        "It is by far the more efficient method in the entire range.": "Для выделения из всей группы нужен superlative.",
+        "It is the most efficientest method.": "Most и -est не удваиваются."
+      },
+      "skillTarget": "advanced-comparatives-degree-modifiers",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G1",
+      "group": "Управляемая практика",
+      "prompt": "The two devices have equal speeds. Choose the equality construction.",
+      "options": [
+        "The first device is as fast as the second.",
+        "The first device is as faster as the second.",
+        "The first device is as fast than the second."
+      ],
+      "answer": "The first device is as fast as the second.",
+      "accepted": [
+        "The first device is as fast as the second."
+      ],
+      "why": "As + base adjective + as выражает равенство.",
+      "distractorWhy": "Faster не базовая форма.",
+      "distractorRationales": {
+        "The first device is as faster as the second.": "Faster не базовая форма.",
+        "The first device is as fast than the second.": "Than не завершает as…as."
+      },
+      "skillTarget": "advanced-comparatives-degree-modifiers",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G2",
+      "group": "Управляемая практика",
+      "prompt": "Choose the correct expression for gradual improvement.",
+      "options": [
+        "The results are getting more better and better.",
+        "The results are getting best and best.",
+        "The results are getting better and better."
+      ],
+      "answer": "The results are getting better and better.",
+      "accepted": [
+        "The results are getting better and better."
+      ],
+      "why": "Повтор comparative показывает изменение.",
+      "distractorWhy": "More дублирует better.",
+      "distractorRationales": {
+        "The results are getting more better and better.": "More дублирует better.",
+        "The results are getting best and best.": "Superlative не используется в этой модели."
+      },
+      "skillTarget": "advanced-comparatives-degree-modifiers",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G3",
+      "group": "Управляемая практика",
+      "prompt": "Choose the gradual-change expression with a long adjective.",
+      "options": [
+        "The course is becoming expensiver and expensiver.",
+        "The course is becoming more and more expensive.",
+        "The course is becoming most and most expensive."
+      ],
+      "answer": "The course is becoming more and more expensive.",
+      "accepted": [
+        "The course is becoming more and more expensive."
+      ],
+      "why": "More and more + adjective.",
+      "distractorWhy": "Expensiver не стандартная форма.",
+      "distractorRationales": {
+        "The course is becoming expensiver and expensiver.": "Expensiver не стандартная форма.",
+        "The course is becoming most and most expensive.": "Most — superlative, не gradual comparative."
+      },
+      "skillTarget": "advanced-comparatives-degree-modifiers",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G4",
+      "group": "Управляемая практика",
+      "prompt": "Choose the correct proportional relationship.",
+      "options": [
+        "The more you practise, the better you perform.",
+        "More you practise, better you perform.",
+        "The more you practise, better you perform."
+      ],
+      "answer": "The more you practise, the better you perform.",
+      "accepted": [
+        "The more you practise, the better you perform."
+      ],
+      "why": "The требуется в обеих сравнительных частях.",
+      "distractorWhy": "Оба the отсутствуют.",
+      "distractorRationales": {
+        "More you practise, better you perform.": "Оба the отсутствуют.",
+        "The more you practise, better you perform.": "Вторая часть требует the."
+      },
+      "skillTarget": "advanced-comparatives-degree-modifiers",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G5",
+      "group": "Управляемая практика",
+      "prompt": "Choose the natural abbreviated double comparative.",
+      "options": [
+        "Sooner, better.",
+        "The soonest, the best.",
+        "The sooner, the better."
+      ],
+      "answer": "The sooner, the better.",
+      "accepted": [
+        "The sooner, the better."
+      ],
+      "why": "The + comparative в каждой части.",
+      "distractorWhy": "Пропущены оба the.",
+      "distractorRationales": {
+        "Sooner, better.": "Пропущены оба the.",
+        "The soonest, the best.": "Superlatives меняют конструкцию."
+      },
+      "skillTarget": "advanced-comparatives-degree-modifiers",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G6",
+      "group": "Управляемая практика",
+      "prompt": "Choose the correct comparison with countable errors in formal writing.",
+      "options": [
+        "The less errors we make, the clearer the report becomes.",
+        "The fewer errors we make, the clearer the report becomes.",
+        "The few errors we make, the clearer the report becomes."
+      ],
+      "answer": "The fewer errors we make, the clearer the report becomes.",
+      "accepted": [
+        "The fewer errors we make, the clearer the report becomes."
+      ],
+      "why": "Fewer + plural countable noun.",
+      "distractorWhy": "Less с countable plural встречается, но здесь требуется формальный стандарт.",
+      "distractorRationales": {
+        "The less errors we make, the clearer the report becomes.": "Less с countable plural встречается, но здесь требуется формальный стандарт.",
+        "The few errors we make, the clearer the report becomes.": "Few не сравнительная степень."
+      },
+      "skillTarget": "advanced-comparatives-degree-modifiers",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I1",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct comparison with uncountable money.",
+      "options": [
+        "The fewer money we spend, the more we save.",
+        "The little money we spend, the more we save.",
+        "The less money we spend, the more we save."
+      ],
+      "answer": "The less money we spend, the more we save.",
+      "accepted": [
+        "The less money we spend, the more we save."
+      ],
+      "why": "Less + uncountable money.",
+      "distractorWhy": "Fewer требует countable plural.",
+      "distractorRationales": {
+        "The fewer money we spend, the more we save.": "Fewer требует countable plural.",
+        "The little money we spend, the more we save.": "Little не comparative."
+      },
+      "skillTarget": "advanced-comparatives-degree-modifiers",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I2",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the sentence comparing like with like.",
+      "options": [
+        "The cost of the new plan is lower than the old plan.",
+        "The cost of the new plan is lower than that of the old plan.",
+        "The cost of the new plan is lower that of the old plan."
+      ],
+      "answer": "The cost of the new plan is lower than that of the old plan.",
+      "accepted": [
+        "The cost of the new plan is lower than that of the old plan."
+      ],
+      "why": "That заменяет cost, чем обеспечена сопоставимость.",
+      "distractorWhy": "Стоимость не сравнивают с самим планом.",
+      "distractorRationales": {
+        "The cost of the new plan is lower than the old plan.": "Стоимость не сравнивают с самим планом.",
+        "The cost of the new plan is lower that of the old plan.": "Не хватает than."
+      },
+      "skillTarget": "advanced-comparatives-degree-modifiers",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I3",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the accurate meaning of 'This model is no faster than the old one'.",
+      "options": [
+        "It does not have a speed advantage over the old model.",
+        "It is certainly much faster.",
+        "It must be exactly the same speed in every condition."
+      ],
+      "answer": "It does not have a speed advantage over the old model.",
+      "accepted": [
+        "It does not have a speed advantage over the old model."
+      ],
+      "why": "No faster означает отсутствие преимущества.",
+      "distractorWhy": "Утверждение исключает превосходство по скорости.",
+      "distractorRationales": {
+        "It is certainly much faster.": "Утверждение исключает превосходство по скорости.",
+        "It must be exactly the same speed in every condition.": "Точное равенство во всех условиях не гарантируется."
+      },
+      "skillTarget": "advanced-comparatives-degree-modifiers",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I4",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct comparative modifier for a modest difference.",
+      "options": [
+        "The room is very larger than before.",
+        "The room is a little largest than before.",
+        "The room is a little larger than before."
+      ],
+      "answer": "The room is a little larger than before.",
+      "accepted": [
+        "The room is a little larger than before."
+      ],
+      "why": "A little усиливает comparative небольшой степени.",
+      "distractorWhy": "Very не подходит к обычному comparative.",
+      "distractorRationales": {
+        "The room is very larger than before.": "Very не подходит к обычному comparative.",
+        "The room is a little largest than before.": "Largest — superlative."
+      },
+      "skillTarget": "advanced-comparatives-degree-modifiers",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I5",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the standard negative equality construction.",
+      "options": [
+        "This version is not as more reliable as the original.",
+        "This version is not as reliable as the original.",
+        "This version is not as reliable than the original."
+      ],
+      "answer": "This version is not as reliable as the original.",
+      "accepted": [
+        "This version is not as reliable as the original."
+      ],
+      "why": "Not as + adjective + as.",
+      "distractorWhy": "More лишний внутри as…as.",
+      "distractorRationales": {
+        "This version is not as more reliable as the original.": "More лишний внутри as…as.",
+        "This version is not as reliable than the original.": "Than не завершает конструкцию."
+      },
+      "skillTarget": "advanced-comparatives-degree-modifiers",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I6",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct irregular comparative of bad.",
+      "options": [
+        "The situation became worse.",
+        "The situation became badder.",
+        "The situation became more worse."
+      ],
+      "answer": "The situation became worse.",
+      "accepted": [
+        "The situation became worse."
+      ],
+      "why": "Worse — неправильная сравнительная форма.",
+      "distractorWhy": "Badder не стандартная форма.",
+      "distractorRationales": {
+        "The situation became badder.": "Badder не стандартная форма.",
+        "The situation became more worse.": "More дублирует worse."
+      },
+      "skillTarget": "advanced-comparatives-degree-modifiers",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I7",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the proportional sentence about departure time.",
+      "options": [
+        "The earlier do we leave, the sooner do we arrive.",
+        "The earliest we leave, the soonest we arrive.",
+        "The earlier we leave, the sooner we arrive."
+      ],
+      "answer": "The earlier we leave, the sooner we arrive.",
+      "accepted": [
+        "The earlier we leave, the sooner we arrive."
+      ],
+      "why": "Внутри double comparative обычный порядок слов.",
+      "distractorWhy": "Вопросительная инверсия здесь не нужна.",
+      "distractorRationales": {
+        "The earlier do we leave, the sooner do we arrive.": "Вопросительная инверсия здесь не нужна.",
+        "The earliest we leave, the soonest we arrive.": "Superlatives не образуют эту модель."
+      },
+      "skillTarget": "advanced-comparatives-degree-modifiers",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I8",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct comparison of plural results.",
+      "options": [
+        "The results of group A were better than that of group B.",
+        "The results of group A were better than those of group B.",
+        "The results of group A were better than group B."
+      ],
+      "answer": "The results of group A were better than those of group B.",
+      "accepted": [
+        "The results of group A were better than those of group B."
+      ],
+      "why": "Those заменяет plural results.",
+      "distractorWhy": "That заменяет singular/uncountable noun.",
+      "distractorRationales": {
+        "The results of group A were better than that of group B.": "That заменяет singular/uncountable noun.",
+        "The results of group A were better than group B.": "Результаты нужно сравнивать с результатами."
+      },
+      "skillTarget": "advanced-comparatives-degree-modifiers",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I9",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the grammatical superlative with a possessive determiner.",
+      "options": [
+        "This is my best result.",
+        "This is my the best result.",
+        "This is my most best result."
+      ],
+      "answer": "This is my best result.",
+      "accepted": [
+        "This is my best result."
+      ],
+      "why": "My уже determiner, best — superlative.",
+      "distractorWhy": "The после my лишний.",
+      "distractorRationales": {
+        "This is my the best result.": "The после my лишний.",
+        "This is my most best result.": "Most дублирует best."
+      },
+      "skillTarget": "advanced-comparatives-degree-modifiers",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E1",
+      "group": "Выходная проверка",
+      "prompt": "Choose the comparison with an adverb of manner.",
+      "options": [
+        "She speaks more clearly than before.",
+        "She speaks more clear than before in formal standard English.",
+        "She speaks clearlier than before."
+      ],
+      "answer": "She speaks more clearly than before.",
+      "accepted": [
+        "She speaks more clearly than before."
+      ],
+      "why": "Clearly — adverb, comparative more clearly.",
+      "distractorWhy": "Clear здесь adjective, а требуется adverb.",
+      "distractorRationales": {
+        "She speaks more clear than before in formal standard English.": "Clear здесь adjective, а требуется adverb.",
+        "She speaks clearlier than before.": "Clearlier не стандартная форма."
+      },
+      "skillTarget": "advanced-comparatives-degree-modifiers",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E2",
+      "group": "Выходная проверка",
+      "prompt": "Choose the sentence expressing sufficient speed, not a comparison.",
+      "options": [
+        "The computer is much faster than the old one.",
+        "The computer is as fast as the old one.",
+        "The computer is fast enough for the task."
+      ],
+      "answer": "The computer is fast enough for the task.",
+      "accepted": [
+        "The computer is fast enough for the task."
+      ],
+      "why": "Enough после adjective выражает достаточность.",
+      "distractorWhy": "Это comparative.",
+      "distractorRationales": {
+        "The computer is much faster than the old one.": "Это comparative.",
+        "The computer is as fast as the old one.": "Это равенство."
+      },
+      "skillTarget": "advanced-comparatives-degree-modifiers",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E3",
+      "group": "Выходная проверка",
+      "prompt": "Which sentence correctly describes a large difference without doubling the comparative?",
+      "options": [
+        "The second route is far more shorter than the first.",
+        "The second route is far shorter than the first.",
+        "The second route is very shortest than the first."
+      ],
+      "answer": "The second route is far shorter than the first.",
+      "accepted": [
+        "The second route is far shorter than the first."
+      ],
+      "why": "Far + shorter усиливает разницу.",
+      "distractorWhy": "More лишний перед shorter.",
+      "distractorRationales": {
+        "The second route is far more shorter than the first.": "More лишний перед shorter.",
+        "The second route is very shortest than the first.": "Shortest — superlative."
+      },
+      "skillTarget": "advanced-comparatives-degree-modifiers",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E4",
+      "group": "Выходная проверка",
+      "prompt": "Choose the standard expression selecting the better of two options.",
+      "options": [
+        "This is the better of the two options.",
+        "This is the more better of the two options.",
+        "This is the bestest of the two options."
+      ],
+      "answer": "This is the better of the two options.",
+      "accepted": [
+        "This is the better of the two options."
+      ],
+      "why": "The better of two — стандартная модель.",
+      "distractorWhy": "More дублирует better.",
+      "distractorRationales": {
+        "This is the more better of the two options.": "More дублирует better.",
+        "This is the bestest of the two options.": "Bestest не стандартная форма."
+      },
+      "skillTarget": "advanced-comparatives-degree-modifiers",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E5",
+      "group": "Выходная проверка",
+      "prompt": "Choose the correct proportional relationship involving careful work.",
+      "options": [
+        "The more careful we check the data, the fewer mistakes we make.",
+        "The more carefully we check the data, fewer mistakes we make.",
+        "The more carefully we check the data, the fewer mistakes we make."
+      ],
+      "answer": "The more carefully we check the data, the fewer mistakes we make.",
+      "accepted": [
+        "The more carefully we check the data, the fewer mistakes we make."
+      ],
+      "why": "More carefully — adverbial comparative, the в обеих частях.",
+      "distractorWhy": "Careful не нужная форма наречия.",
+      "distractorRationales": {
+        "The more careful we check the data, the fewer mistakes we make.": "Careful не нужная форма наречия.",
+        "The more carefully we check the data, fewer mistakes we make.": "Вторая часть требует the."
+      },
+      "skillTarget": "advanced-comparatives-degree-modifiers",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "W1",
+      "group": "Самостоятельное применение",
+      "prompt": "Напиши восемь предложений: большая и малая разница, равенство, отсутствие преимущества, усиление superlative, постепенное изменение и два double comparatives. Используй учебный или академический контекст.",
+      "open": true,
+      "rubric": [
+        "Comparative и superlative образованы корректно.",
+        "Модификаторы соответствуют величине различий.",
+        "As…as и no + comparative употреблены по смыслу.",
+        "Double comparative содержит the в обеих частях.",
+        "Сравниваются сопоставимые сущности.",
+        "Выводы не преувеличивают исходные данные."
+      ],
+      "skillTarget": "Самостоятельное применение B1-22",
+      "interactionType": "open-production",
+      "difficulty": "transfer",
+      "sourceBasis": "Speakbase-authored open production; self-review rubric only until real AI feedback is connected",
+      "contentVersion": "1.1-draft"
+    }
+  ],
+  "markdown": "# Speakbase — B1-22: Advanced comparison and modifiers\n\n**Curriculum ID:** `B1-22`  \n**Уровень:** B1  \n**Версия:** 1.1-draft\n**Статус:** drafted; selected source text checked; full source-page and learner acceptance pending\n**Предварительные темы:** A2-08, A2-09, A2-11  \n**Связь со старым каталогом:** Частично — №17 Comparatives; №18 Superlatives\n\n## 1. Результаты обучения\n\n- Использовать as…as, comparative clauses, усилители и конструкции the… the…\n- Выбирать целевую форму по значению, структуре предложения и контексту.\n- Объяснять, почему близкая грамматическая форма меняет смысл или регистр.\n- Находить и исправлять типичные ошибки русскоязычных студентов.\n\n## 2. Источники и статус сверки\n\n| Source | PDF navigation | Lesson-specific checks | Status |\n|---|---|---|---|\n| GR-02 U105-108 | PDF pages 222-229 (Unit 105-108) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-03 U72-73 | PDF pages 168-171 (Unit 72-73) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-05 B1 p3-14 | PDF pages 3-14 (B1 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n\nUnit/page locations are navigation aids only. They do not prove that the cited explanation, examples, restrictions and answer key have been checked for this lesson. Examples and explanations below are Speakbase-authored, not quotations from the textbook.\n\nПеред переводом этого урока в source-verified необходимо открыть целевые страницы конкретного издания, записать печатную и PDF-пагинацию, сверить ограничения и исключения. Для GR-03 со сканированными страницами обязательна визуальная проверка.\n\n**Evidence for this editorial pass:** GR-02 selected theory text consulted during B1 audit: Units 105–108 (PDF pp. 222, 224, 226, 228; printed pp. 210–216); full GR-03/05 and exercise-page checks pending. The selected source text was consulted; not all pages, exercises, editions, scanned GR-03 pages or GR-05 descriptors were checked. Author-created explanations and practice are not copied source exercises.\n\n## 3. Место темы и границы\n\nУсложни comparison: comparative clauses, modifiers (far/much/slightly), the… the… и as…as.\n\nСтарый каталог содержит: №17 Comparatives; №18 Superlatives. Его статус — Частично. Старые отметки завершения не переносятся автоматически на новый постоянный ID. Тема рассматривается в уровне B1 и не заменяет обязательные prerequisites.\n\n## 4. Полный конспект\n\n### 4.1. Основная идея и функция конструкции\n\nУглублённое сравнение позволяет выразить степень различия, равенство, постепенное изменение и зависимость между явлениями. Выбирай comparative, superlative или as…as по смыслу, затем подходящий модификатор. Much better означает значительно лучше, slightly better — немного лучше. The more you practise, the more fluent you become описывает взаимосвязанное изменение.\n\nВ сравнении важно определить основание: скорость, стоимость, количество или качество. Far more reliable и a little more reliable грамматически верны, но выражают разную величину различия. Не используй сильные модификаторы без основания. The sooner, the better — краткая форма конструкции double comparative: чем раньше, тем лучше.\n\n### 4.2. Формирование и грамматическая модель\n\n| Значение | Модель | Пример |\n|---|---|---|\n| Большая разница | much/far/a lot + comparative | much better |\n| Небольшая разница | slightly/a little/a bit + comparative | slightly lower |\n| Усиление superlative | by far + the + superlative | by far the best |\n| Равная степень | as + adjective/adverb + as | as reliable as |\n| Неравная степень | not as + adjective/adverb + as | not as fast as |\n| Постепенное изменение | comparative + and + comparative | better and better |\n| Длинное прилагательное | more and more + adjective | more and more expensive |\n| Пропорциональная связь | the + comparative…, the + comparative… | The sooner, the better. |\n\nКороткие adjectives обычно получают -er/-est (small, smaller, smallest), длинные — more/most (more reliable, most reliable). Некоторые двусложные прилагательные допускают варианты. Неправильные формы: good/well–better–best, bad/badly–worse–worst. Не удваивай comparative: more better неверно. В double comparative the ставится перед обеими сравнительными группами, а обычный порядок слов внутри каждой части сохраняется.\n\n### 4.3. Как выбрать подходящую форму\n\nОпредели, сравниваешь ли два объекта, выделяешь крайний объект из группы, сообщаешь равенство или изменение. Для большой разницы подходят much/far/considerably, для малой — slightly/a little. Для двух взаимосвязанных изменений используй the more…, the more/less… . By far усиливает превосходную степень, если различие действительно существенное.\n\nThe earlier we leave, the sooner we arrive. В первой части изменение условия, во второй — изменение результата. С less используются неисчисляемые количества, с fewer — исчисляемые plural nouns в стандартном формальном употреблении: The less money you spend, the more you save; The fewer errors you make, the clearer your answer becomes. Вторая часть не обязана начинаться с more. Краткий вариант The sooner, the better не требует явно выраженных подлежащих и сказуемых.\n\n### 4.4. Сравнение с близкими конструкциями\n\n| Пример | Смысл |\n|---|---|\n| This method is much faster than the old one. | Значительно быстрее. |\n| This method is slightly faster than the old one. | Незначительно быстрее. |\n| This method is as fast as the old one. | Одинаковая скорость. |\n| This method is no faster than the old one. | Не быстрее прежнего. |\n| The task is getting harder and harder. | Постепенное изменение. |\n| The harder we work, the sooner we finish. | Зависимость изменений. |\n\n### 4.5. Примеры с переводом и объяснением\n\n| English | Перевод | Почему это подходит |\n| --- | --- | --- |\n| The new method is considerably more accurate. | Новый метод значительно точнее. | Большая разница. |\n| The second test was slightly harder than the first. | Второй тест был немного сложнее первого. | Малая разница. |\n| This device is by far the cheapest in the range. | Этот прибор намного дешевле всех остальных в линейке. | Усиление superlative. |\n| The more carefully we check the data, the fewer errors we find later. | Чем тщательнее мы проверяем данные, тем меньше ошибок находим позже. | Пропорциональная связь. |\n| The software is becoming more and more reliable. | Программа становится всё надёжнее. | Постепенное изменение. |\n| The cost of plan A is lower than that of plan B. | Стоимость плана A ниже стоимости плана B. | Сопоставимые величины. |\n\n### 4.6. Исключения, ограничения и границы употребления\n\nVery обычно усиливает обычное прилагательное (very useful), но не обычную сравнительную степень: much more useful, а не very more useful. Enough и too выражают достаточность и избыток, а не comparative: fast enough, too expensive. No faster than означает отсутствие преимущества по скорости, но не обязательно точное равенство.\n\nСравнивай сопоставимые сущности: The cost of the new plan is lower than that of the old plan, а не lower than the old plan. Для множественного аналога можно использовать those: The results of group A were better than those of group B. Comparative с of the two возможен: the better of the two options. В superlative обычно используется the, но притяжательный determiner может заменить артикль: my best result. В double comparative the является частью конструкции, а не обычным определённым артиклем существительного.\n\n### 4.7. Типичные ошибки русскоязычных студентов\n\n| Ошибка | Исправление | Объяснение |\n| --- | --- | --- |\n| This method is more better. | This method is better. | Не удваивай comparative. |\n| This task is very harder. | This task is much harder. | Much усиливает comparative. |\n| More you study, better you write. | The more you study, the better you write. | The нужен в обеих частях. |\n| The cost is lower than the old plan. | The cost is lower than that of the old plan. | Сравнивай стоимость со стоимостью. |\n\n### 4.8. Произношение и восприятие на слух\n\nВ double comparative выделяй сравнительные группы: The MORE you practise, the BETTER you speak. Пауза между частями помогает услышать зависимость. В much better или slightly better ударение может подчёркивать величину различия.\n\nСначала прослушай или прочитай пример, затем произнеси его целиком. Обрати внимание на смысловое ударение и форму конструкции; не ориентируйся только на буквенный перевод.\n\n### 4.9. Академический английский и TOEFL-перенос\n\nВ Reading различай размер различия и направление изменения. В Writing сравнивай данные сопоставимо: Group A's average score was slightly higher than group B's. Не выводи причинность из одного сравнительного утверждения. В Speaking объясняй преимущества и недостатки, используя точные degree modifiers и пропорциональные конструкции при наличии логической связи.\n\nЭто авторская практика переноса навыка. Она не является официальным заданием TOEFL и не выдаётся за официальный результат экзамена.\n\n### 4.10. Примеры для управляемого разбора\n\n- The new method is considerably more accurate. — Новый метод значительно точнее. Большая разница.\n- The second test was slightly harder than the first. — Второй тест был немного сложнее первого. Малая разница.\n- This device is by far the cheapest in the range. — Этот прибор намного дешевле всех остальных в линейке. Усиление superlative.\n\nДля каждого примера назови целевую конструкцию, объясни выбор и составь новое предложение в другом контексте. Затем перейди к заданиям: сначала диагностика, затем управляемая и самостоятельная практика, затем новые вопросы выходной проверки.\n\n### 4.11. Самопроверка\n\nПеред отправкой ответа проверь:\n1. Comparative и superlative образованы корректно.\n2. Модификаторы соответствуют величине различий.\n3. As…as и no + comparative употреблены по смыслу.\n4. Double comparative содержит the в обеих частях.\n5. Сравниваются сопоставимые сущности.\n6. Выводы не преувеличивают исходные данные.\n\n### 4.12. Краткая памятка\n\nMuch/far/a lot + comparative — большая разница; slightly/a little + comparative — малая; by far + superlative — усиление превосходной степени. As…as — равенство; comparative and comparative — постепенное изменение; the comparative…, the comparative… — взаимосвязь. Проверяй сопоставимость объектов.\n\nНе выбирай форму только по одному знакомому слову: проверь контекст, значение и структуру. При ошибке вернись к соответствующей части конспекта и составь собственный пример.\n\n## 5. Практика\n\nВ приложении практика разделена на входную диагностику, управляемые задания, самостоятельную практику и новую выходную проверку. Закрытые ответы получают rationale и разбор ошибки. Свободный текст сохраняется и оценивается по рубрике; до подключения и реальной проверки AI-движка система не выдаёт его за автоматическую AI-оценку.\n\n## 6. Интервальное повторение\n\nПовторяй не весь урок автоматически, а конкретную ошибку: выбор формы, согласование, word order, значение, регистр или пунктуацию. Новая попытка должна менять лексический контекст и формулировку, чтобы проверять перенос, а не запоминание одной строки.\n\n## 7. Технический статус\n\n- Постоянный ID: `B1-22`.\n- Прогресс хранится отдельно в course.grammarLessons[\"B1-22\"].\n- Содержание и ключи имеют статус draft; 24 авторских закрытых задания и объяснения вычитаны, выбранные тексты источников проверены. Полная постраничная и пользовательская приёмка остаются открытыми.\n- Предварительное выполнение порогов не равно окончательному mastered: нужны отсроченное повторение и learner review.",
+  "theoryEnd": "## 5."
+}

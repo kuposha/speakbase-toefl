@@ -1,0 +1,737 @@
+{
+  "id": "B1-21",
+  "level": "B1",
+  "sequence": "B1-21",
+  "grammarFamily": "B1-21",
+  "questionBankSource": "topic-specific-authored",
+  "sourceVerification": "draft; selected source text consulted; complete source-page and learner review pending",
+  "topicProfile": {
+    "label": "participle clauses and reduced relatives — introduction",
+    "skillTarget": "participle-clauses-introduction",
+    "core": "Participle clauses используют -ing, V3 или having + V3, чтобы кратко выразить характеристику, дополнительное действие или причину. Reduced relative clauses сокращают относительное придаточное. Определи, кто выполняет действие и кто испытывает его: активная -ing противопоставляется пассивной V3.",
+    "form": "| Форма | Значение | Пример |\n|---|---|---|\n| noun + V-ing | активная характеристика | the students waiting outside |\n| noun + V3 | пассивная характеристика | the documents signed yesterday |\n| V-ing, main clause | одновременность или причина | Feeling tired, I went home. |\n| Having + V3, main clause | предшествующее завершение | Having finished the task, we left. |\n| Not + V-ing | отрицательная причина | Not knowing the answer, I asked. |\n| While/when + V-ing | одновременность | While travelling, I read. |",
+    "selection": "В relative clause проверь, выполняет ли noun действие или получает его. В первом случае часто подходит -ing, во втором — V3. В обстоятельственной конструкции проверь одновременность, причину или последовательность. Having + V3 выделяет действие, завершившееся раньше основного.",
+    "contrast": "| Полная конструкция | Сокращённая |\n|---|---|\n| The woman who is talking to the tutor | The woman talking to the tutor |\n| The report that was published yesterday | The report published yesterday |\n| Because I knew the answer, I replied. | Knowing the answer, I replied. |\n| After we had finished the work, we left. | Having finished the work, we left. |\n| While she was walking home, she called me. | While walking home, she called me. |",
+    "boundary": "Dangling modifier возникает, когда исполнитель причастия не совпадает с подлежащим главной части: Walking to college, the rain started. Получается, что шёл дождь. Исправление: Walking to college, I noticed the rain или While I was walking to college, it started raining.",
+    "pronunciation": "Начальная participle clause обычно отделяется паузой. Слушай -ing и V3; формы помогают различать активное и пассивное значение. Найди head noun и границы уточнения, прежде чем определить главное сказуемое.",
+    "examples": [
+      [
+        "The students waiting outside are ready.",
+        "Студенты, ожидающие снаружи, готовы.",
+        "Активная -ing."
+      ],
+      [
+        "The documents signed yesterday are on the desk.",
+        "Документы, подписанные вчера, на столе.",
+        "Пассивная V3."
+      ],
+      [
+        "Having read the instructions, we started the task.",
+        "Прочитав инструкцию, мы начали задание.",
+        "Предшествование."
+      ],
+      [
+        "Knowing the deadline, she submitted the report early.",
+        "Зная срок, она сдала отчёт заранее.",
+        "Причина."
+      ],
+      [
+        "While walking home, I called my tutor.",
+        "По дороге домой я позвонила преподавателю.",
+        "Одновременность."
+      ],
+      [
+        "Not knowing the answer, he asked for help.",
+        "Не зная ответа, он попросил помощи.",
+        "Отрицательная причина."
+      ]
+    ],
+    "traps": [
+      [
+        "The students waited outside are tired.",
+        "The students waiting outside are tired.",
+        "Students сами ждут."
+      ],
+      [
+        "The documents signing yesterday are ready.",
+        "The documents signed yesterday are ready.",
+        "Документы подписали."
+      ],
+      [
+        "Having finish the task, we left.",
+        "Having finished the task, we left.",
+        "Having + V3."
+      ],
+      [
+        "Walking home, the rain started.",
+        "While I was walking home, it started raining.",
+        "Исполнители различаются."
+      ]
+    ],
+    "toefl": "В Reading такие конструкции сжимают описание исследований: The samples collected during the experiment were analysed. Найди сказуемое were analysed и уточнение collected. В Writing сокращай только при ясной связи, избегай dangling modifiers. В Speaking полная clause допустима, если помогает сохранить точность."
+  },
+  "title": "Participle clauses and reduced relatives — introduction",
+  "description": "Распознавать и строить простые -ing/-ed clauses без потери логического субъекта",
+  "cardDescription": "Теория, guided practice, самостоятельные задания и выходная проверка по постоянному ID B1-21.",
+  "eyebrow": "Полный урок программы B1-21 · drafted",
+  "contentVersion": "1.1-draft",
+  "curriculumVersion": "1.0",
+  "prerequisites": [
+    "A2-02",
+    "A2-14"
+  ],
+  "outcomes": [
+    "Распознавать и строить простые -ing/-ed clauses без потери логического субъекта",
+    "Выбирать целевую конструкцию по контексту и смыслу.",
+    "Исправлять типичные ошибки и переносить правило в новый пример."
+  ],
+  "sourceRefs": [
+    "GR-02 U97",
+    "GR-03 U58-59",
+    "GR-05 B1 p58-60"
+  ],
+  "sourceStatus": "selected source text consulted; full page verification pending",
+  "status": "drafted",
+  "legacyCoverage": "Полное ядро",
+  "toeflLinks": [
+    "Writing: Build a Sentence",
+    "Reading: clause structure, reference, modifiers and logical relationships",
+    "Writing: Academic Discussion"
+  ],
+  "thresholds": {
+    "independent": 7,
+    "exit": 4,
+    "criticalIds": [
+      "E1",
+      "E2",
+      "E3"
+    ]
+  },
+  "groups": {
+    "independent": "Самостоятельная практика",
+    "exit": "Выходная проверка"
+  },
+  "items": [
+    {
+      "id": "D1",
+      "group": "Входная диагностика",
+      "prompt": "The students ___ outside the classroom are waiting for the tutor.",
+      "options": [
+        "stood",
+        "standing",
+        "stand"
+      ],
+      "answer": "standing",
+      "accepted": [
+        "standing"
+      ],
+      "why": "Students сами стоят; active -ing уточняет noun.",
+      "distractorWhy": "Stood не нужная активная форма.",
+      "distractorRationales": {
+        "stood": "Stood не нужная активная форма.",
+        "stand": "Stand создаёт лишнее личное сказуемое."
+      },
+      "skillTarget": "participle-clauses-introduction",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D2",
+      "group": "Входная диагностика",
+      "prompt": "The documents ___ yesterday are on the desk.",
+      "options": [
+        "signed",
+        "signing",
+        "sign"
+      ],
+      "answer": "signed",
+      "accepted": [
+        "signed"
+      ],
+      "why": "Documents были подписаны; V3 пассивна.",
+      "distractorWhy": "Signing представляло бы документы исполнителем.",
+      "distractorRationales": {
+        "signing": "Signing представляло бы документы исполнителем.",
+        "sign": "Sign — V1."
+      },
+      "skillTarget": "participle-clauses-introduction",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D3",
+      "group": "Входная диагностика",
+      "prompt": "___ the instructions, we started the task. Emphasize the earlier completed action.",
+      "options": [
+        "Have read",
+        "Reading had",
+        "Having read"
+      ],
+      "answer": "Having read",
+      "accepted": [
+        "Having read"
+      ],
+      "why": "Having + V3 подчёркивает предшествование.",
+      "distractorWhy": "Have read не нужная non-finite clause.",
+      "distractorRationales": {
+        "Have read": "Have read не нужная non-finite clause.",
+        "Reading had": "Reading had нарушает порядок."
+      },
+      "skillTarget": "participle-clauses-introduction",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D4",
+      "group": "Входная диагностика",
+      "prompt": "The woman ___ near the entrance is our new lecturer.",
+      "options": [
+        "waited",
+        "waiting",
+        "wait"
+      ],
+      "answer": "waiting",
+      "accepted": [
+        "waiting"
+      ],
+      "why": "Woman сама ждёт; -ing clause.",
+      "distractorWhy": "Waited не нужная активная форма.",
+      "distractorRationales": {
+        "waited": "Waited не нужная активная форма.",
+        "wait": "Wait создаёт второе личное сказуемое."
+      },
+      "skillTarget": "participle-clauses-introduction",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G1",
+      "group": "Управляемая практика",
+      "prompt": "The article ___ by the committee was published online.",
+      "options": [
+        "approved",
+        "approving",
+        "approve"
+      ],
+      "answer": "approved",
+      "accepted": [
+        "approved"
+      ],
+      "why": "Article получает действие; approved — V3.",
+      "distractorWhy": "Approving сделало бы article исполнителем.",
+      "distractorRationales": {
+        "approving": "Approving сделало бы article исполнителем.",
+        "approve": "Approve — V1."
+      },
+      "skillTarget": "participle-clauses-introduction",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G2",
+      "group": "Управляемая практика",
+      "prompt": "___ the deadline, the team submitted the report early.",
+      "options": [
+        "Known",
+        "Know",
+        "Knowing"
+      ],
+      "answer": "Knowing",
+      "accepted": [
+        "Knowing"
+      ],
+      "why": "Team знает срок; -ing выражает причину.",
+      "distractorWhy": "Known не передаёт этот активный смысл.",
+      "distractorRationales": {
+        "Known": "Known не передаёт этот активный смысл.",
+        "Know": "Know не образует non-finite clause."
+      },
+      "skillTarget": "participle-clauses-introduction",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G3",
+      "group": "Управляемая практика",
+      "prompt": "Choose the active reduced relative about people in the hall.",
+      "options": [
+        "The people waited in the hall are students.",
+        "The people waiting in the hall are students.",
+        "The people wait in the hall are students."
+      ],
+      "answer": "The people waiting in the hall are students.",
+      "accepted": [
+        "The people waiting in the hall are students."
+      ],
+      "why": "Waiting сокращает who are waiting.",
+      "distractorWhy": "Waited не нужная активная форма.",
+      "distractorRationales": {
+        "The people waited in the hall are students.": "Waited не нужная активная форма.",
+        "The people wait in the hall are students.": "Wait создаёт лишнее finite verb."
+      },
+      "skillTarget": "participle-clauses-introduction",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G4",
+      "group": "Управляемая практика",
+      "prompt": "Choose the passive reduced relative about samples.",
+      "options": [
+        "The samples collected yesterday are ready.",
+        "The samples collecting yesterday are ready.",
+        "The samples collect yesterday are ready."
+      ],
+      "answer": "The samples collected yesterday are ready.",
+      "accepted": [
+        "The samples collected yesterday are ready."
+      ],
+      "why": "Collected = that were collected.",
+      "distractorWhy": "Collecting сделало бы samples исполнителем.",
+      "distractorRationales": {
+        "The samples collecting yesterday are ready.": "Collecting сделало бы samples исполнителем.",
+        "The samples collect yesterday are ready.": "Collect не подходит."
+      },
+      "skillTarget": "participle-clauses-introduction",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G5",
+      "group": "Управляемая практика",
+      "prompt": "Choose the sentence with a clear logical subject for walking.",
+      "options": [
+        "Walking to class, the rain started.",
+        "Walking to class, the building appeared.",
+        "Walking to class, I noticed the rain."
+      ],
+      "answer": "Walking to class, I noticed the rain.",
+      "accepted": [
+        "Walking to class, I noticed the rain."
+      ],
+      "why": "I — тот, кто шёл.",
+      "distractorWhy": "Rain не может идти в колледж.",
+      "distractorRationales": {
+        "Walking to class, the rain started.": "Rain не может идти в колледж.",
+        "Walking to class, the building appeared.": "Building не исполнитель walking."
+      },
+      "skillTarget": "participle-clauses-introduction",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G6",
+      "group": "Управляемая практика",
+      "prompt": "Choose the grammatical correction of a dangling modifier about reading.",
+      "options": [
+        "Reading the book, the lights went out.",
+        "While I was reading, the lights went out.",
+        "Having read the book, the lights went out."
+      ],
+      "answer": "While I was reading, the lights went out.",
+      "accepted": [
+        "While I was reading, the lights went out."
+      ],
+      "why": "Полная clause называет I как читателя.",
+      "distractorWhy": "Lights не читают книгу.",
+      "distractorRationales": {
+        "Reading the book, the lights went out.": "Lights не читают книгу.",
+        "Having read the book, the lights went out.": "Lights не исполнитель having read."
+      },
+      "skillTarget": "participle-clauses-introduction",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I1",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the negative participle clause about uncertainty.",
+      "options": [
+        "Don't knowing the answer, I asked for help.",
+        "Not know the answer, I asked for help.",
+        "Not knowing the answer, I asked for help."
+      ],
+      "answer": "Not knowing the answer, I asked for help.",
+      "accepted": [
+        "Not knowing the answer, I asked for help."
+      ],
+      "why": "Not + V-ing формирует отрицательную причину.",
+      "distractorWhy": "Don't не образует non-finite clause.",
+      "distractorRationales": {
+        "Don't knowing the answer, I asked for help.": "Don't не образует non-finite clause.",
+        "Not know the answer, I asked for help.": "Know должно иметь -ing."
+      },
+      "skillTarget": "participle-clauses-introduction",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I2",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct past participle after having in a sentence about a report.",
+      "options": [
+        "Having wrote the report, she sent it.",
+        "Having written the report, she sent it.",
+        "Having write the report, she sent it."
+      ],
+      "answer": "Having written the report, she sent it.",
+      "accepted": [
+        "Having written the report, she sent it."
+      ],
+      "why": "Written — V3.",
+      "distractorWhy": "Wrote — V2.",
+      "distractorRationales": {
+        "Having wrote the report, she sent it.": "Wrote — V2.",
+        "Having write the report, she sent it.": "Write — V1."
+      },
+      "skillTarget": "participle-clauses-introduction",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I3",
+      "group": "Самостоятельная практика",
+      "prompt": "Which sentence explicitly emphasizes completion of locking before leaving?",
+      "options": [
+        "Having locked the door, we left.",
+        "While locking the door, we talked.",
+        "Locking the door, we heard a noise."
+      ],
+      "answer": "Having locked the door, we left.",
+      "accepted": [
+        "Having locked the door, we left."
+      ],
+      "why": "Having + V3 подчёркивает завершение раньше.",
+      "distractorWhy": "While показывает одновременность.",
+      "distractorRationales": {
+        "While locking the door, we talked.": "While показывает одновременность.",
+        "Locking the door, we heard a noise.": "V-ing здесь описывает сопутствующее действие."
+      },
+      "skillTarget": "participle-clauses-introduction",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I4",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the simultaneous action clause with while.",
+      "options": [
+        "While walk home, I called my friend.",
+        "While walked home, I called my friend.",
+        "While walking home, I called my friend."
+      ],
+      "answer": "While walking home, I called my friend.",
+      "accepted": [
+        "While walking home, I called my friend."
+      ],
+      "why": "While + V-ing при общем субъекте.",
+      "distractorWhy": "Walk не нужная форма.",
+      "distractorRationales": {
+        "While walk home, I called my friend.": "Walk не нужная форма.",
+        "While walked home, I called my friend.": "Walked — V2/V3."
+      },
+      "skillTarget": "participle-clauses-introduction",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I5",
+      "group": "Самостоятельная практика",
+      "prompt": "Expand 'the report published yesterday' into a relative clause.",
+      "options": [
+        "the report that published something yesterday",
+        "the report that was published yesterday",
+        "the report that is publishing yesterday"
+      ],
+      "answer": "the report that was published yesterday",
+      "accepted": [
+        "the report that was published yesterday"
+      ],
+      "why": "V3 передаёт пассивную relative clause.",
+      "distractorWhy": "Report не исполнитель publishing.",
+      "distractorRationales": {
+        "the report that published something yesterday": "Report не исполнитель publishing.",
+        "the report that is publishing yesterday": "Active continuous меняет смысл."
+      },
+      "skillTarget": "participle-clauses-introduction",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I6",
+      "group": "Самостоятельная практика",
+      "prompt": "Expand 'the children playing outside' into a relative clause.",
+      "options": [
+        "the children who are playing outside",
+        "the children who are played outside",
+        "the children who playing outside"
+      ],
+      "answer": "the children who are playing outside",
+      "accepted": [
+        "the children who are playing outside"
+      ],
+      "why": "Active -ing = who are playing.",
+      "distractorWhy": "Are played — пассив с другим смыслом.",
+      "distractorRationales": {
+        "the children who are played outside": "Are played — пассив с другим смыслом.",
+        "the children who playing outside": "Пропущен auxiliary are."
+      },
+      "skillTarget": "participle-clauses-introduction",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I7",
+      "group": "Самостоятельная практика",
+      "prompt": "Identify the main finite verb: The equipment tested yesterday works well.",
+      "options": [
+        "tested",
+        "yesterday",
+        "works"
+      ],
+      "answer": "works",
+      "accepted": [
+        "works"
+      ],
+      "why": "Works — главное сказуемое.",
+      "distractorWhy": "Tested — reduced relative.",
+      "distractorRationales": {
+        "tested": "Tested — reduced relative.",
+        "yesterday": "Yesterday — наречие."
+      },
+      "skillTarget": "participle-clauses-introduction",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I8",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correctly punctuated initial participle clause about data.",
+      "options": [
+        "Having, checked the data the team submitted the report.",
+        "Having checked the data, the team submitted the report.",
+        "Having checked, the data the team submitted the report."
+      ],
+      "answer": "Having checked the data, the team submitted the report.",
+      "accepted": [
+        "Having checked the data, the team submitted the report."
+      ],
+      "why": "Запятая отделяет целую начальную конструкцию.",
+      "distractorWhy": "Нельзя отделять having от V3.",
+      "distractorRationales": {
+        "Having, checked the data the team submitted the report.": "Нельзя отделять having от V3.",
+        "Having checked, the data the team submitted the report.": "Запятая разрывает глагол и объект."
+      },
+      "skillTarget": "participle-clauses-introduction",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I9",
+      "group": "Самостоятельная практика",
+      "prompt": "Which form appropriately expresses a reason with the same subject?",
+      "options": [
+        "Feeling ill, she stayed home.",
+        "Felt ill, she stayed home.",
+        "Feel ill, she stayed home."
+      ],
+      "answer": "Feeling ill, she stayed home.",
+      "accepted": [
+        "Feeling ill, she stayed home."
+      ],
+      "why": "Feeling — -ing clause причины.",
+      "distractorWhy": "Felt не нужное активное причастие.",
+      "distractorRationales": {
+        "Felt ill, she stayed home.": "Felt не нужное активное причастие.",
+        "Feel ill, she stayed home.": "Feel — V1."
+      },
+      "skillTarget": "participle-clauses-introduction",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E1",
+      "group": "Выходная проверка",
+      "prompt": "Choose the active reduced relative in a past context.",
+      "options": [
+        "The man sitting beside me yesterday was a lecturer.",
+        "The man sit beside me yesterday was a lecturer.",
+        "The man sitting beside me yesterday were a lecturer."
+      ],
+      "answer": "The man sitting beside me yesterday was a lecturer.",
+      "accepted": [
+        "The man sitting beside me yesterday was a lecturer."
+      ],
+      "why": "-ing получает время из контекста.",
+      "distractorWhy": "Sit не причастие.",
+      "distractorRationales": {
+        "The man sit beside me yesterday was a lecturer.": "Sit не причастие.",
+        "The man sitting beside me yesterday were a lecturer.": "Man требует was."
+      },
+      "skillTarget": "participle-clauses-introduction",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E2",
+      "group": "Выходная проверка",
+      "prompt": "Choose the sentence that preserves two separate subjects.",
+      "options": [
+        "Being bad weather, we stayed inside.",
+        "Having been bad weather, we stayed inside.",
+        "Because the weather was bad, we stayed inside."
+      ],
+      "answer": "Because the weather was bad, we stayed inside.",
+      "accepted": [
+        "Because the weather was bad, we stayed inside."
+      ],
+      "why": "Finite clause отдельно называет weather и we.",
+      "distractorWhy": "Неявный субъект оказался we.",
+      "distractorRationales": {
+        "Being bad weather, we stayed inside.": "Неявный субъект оказался we.",
+        "Having been bad weather, we stayed inside.": "Having been также создаёт несоответствие."
+      },
+      "skillTarget": "participle-clauses-introduction",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E3",
+      "group": "Выходная проверка",
+      "prompt": "Choose the passive reduced relative with the irregular verb write.",
+      "options": [
+        "The letter wrote last week was delivered today.",
+        "The letter written last week was delivered today.",
+        "The letter writing last week was delivered today."
+      ],
+      "answer": "The letter written last week was delivered today.",
+      "accepted": [
+        "The letter written last week was delivered today."
+      ],
+      "why": "Written — V3.",
+      "distractorWhy": "Wrote — V2.",
+      "distractorRationales": {
+        "The letter wrote last week was delivered today.": "Wrote — V2.",
+        "The letter writing last week was delivered today.": "Writing давало бы активное значение."
+      },
+      "skillTarget": "participle-clauses-introduction",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E4",
+      "group": "Выходная проверка",
+      "prompt": "Which statement about shortening relative clauses is accurate?",
+      "options": [
+        "Some clauses should remain full to preserve tense, modality or meaning.",
+        "Every relative clause can be shortened without changing meaning.",
+        "Every shortened relative must use having."
+      ],
+      "answer": "Some clauses should remain full to preserve tense, modality or meaning.",
+      "accepted": [
+        "Some clauses should remain full to preserve tense, modality or meaning."
+      ],
+      "why": "Сокращение зависит от структуры и смысла.",
+      "distractorWhy": "Не все придаточные допускают равнозначное сокращение.",
+      "distractorRationales": {
+        "Every relative clause can be shortened without changing meaning.": "Не все придаточные допускают равнозначное сокращение.",
+        "Every shortened relative must use having.": "Возможны -ing и V3."
+      },
+      "skillTarget": "participle-clauses-introduction",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E5",
+      "group": "Выходная проверка",
+      "prompt": "Choose the sentence describing revision before submission with the same subject.",
+      "options": [
+        "Having revised the essay, it was submitted.",
+        "Having revise the essay, I submitted it.",
+        "Having revised the essay, I submitted it."
+      ],
+      "answer": "Having revised the essay, I submitted it.",
+      "accepted": [
+        "Having revised the essay, I submitted it."
+      ],
+      "why": "I — исполнитель обоих действий; having + V3.",
+      "distractorWhy": "It не может быть исполнителем revision.",
+      "distractorRationales": {
+        "Having revised the essay, it was submitted.": "It не может быть исполнителем revision.",
+        "Having revise the essay, I submitted it.": "Revise — V1."
+      },
+      "skillTarget": "participle-clauses-introduction",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "W1",
+      "group": "Самостоятельное применение",
+      "prompt": "Напиши шесть предложений: две reduced relatives (актив и пассив), одновременное действие, причина, предшествующее действие с having и исправление dangling modifier. Восстанови полные придаточные.",
+      "open": true,
+      "rubric": [
+        "Активная -ing и пассивная V3 различены.",
+        "Главное сказуемое сохранено.",
+        "Having сопровождается V3.",
+        "Логический субъект совпадает с исполнителем.",
+        "Начальные clauses отделены запятыми.",
+        "Сокращение сохраняет смысл."
+      ],
+      "skillTarget": "Самостоятельное применение B1-21",
+      "interactionType": "open-production",
+      "difficulty": "transfer",
+      "sourceBasis": "Speakbase-authored open production; self-review rubric only until real AI feedback is connected",
+      "contentVersion": "1.1-draft"
+    }
+  ],
+  "markdown": "# Speakbase — B1-21: Participle clauses and reduced relatives — introduction\n\n**Curriculum ID:** `B1-21`  \n**Уровень:** B1  \n**Версия:** 1.1-draft\n**Статус:** drafted; selected source text checked; full source-page and learner acceptance pending\n**Предварительные темы:** A2-02, A2-14  \n**Связь со старым каталогом:** Полное ядро — №46 Participle Clauses\n\n## 1. Результаты обучения\n\n- Распознавать и строить простые -ing/-ed clauses без потери логического субъекта\n- Выбирать целевую форму по значению, структуре предложения и контексту.\n- Объяснять, почему близкая грамматическая форма меняет смысл или регистр.\n- Находить и исправлять типичные ошибки русскоязычных студентов.\n\n## 2. Источники и статус сверки\n\n| Source | PDF navigation | Lesson-specific checks | Status |\n|---|---|---|---|\n| GR-02 U97 | PDF pages 206-207 (Unit 97) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-03 U58-59 | PDF pages 140-143 (Unit 58-59) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-05 B1 p58-60 | PDF pages 58-60 (B1 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n\nUnit/page locations are navigation aids only. They do not prove that the cited explanation, examples, restrictions and answer key have been checked for this lesson. Examples and explanations below are Speakbase-authored, not quotations from the textbook.\n\nПеред переводом этого урока в source-verified необходимо открыть целевые страницы конкретного издания, записать печатную и PDF-пагинацию, сверить ограничения и исключения. Для GR-03 со сканированными страницами обязательна визуальная проверка.\n\n**Evidence for this editorial pass:** GR-02 selected theory text consulted: Units 68 and 97 (PDF pp. 148 and 206; printed pp. 136 and 194); full GR-03/05 and exercise-page checks pending. The selected source text was consulted; not all pages, exercises, editions, scanned GR-03 pages or GR-05 descriptors were checked. Author-created explanations and practice are not copied source exercises.\n\n## 3. Место темы и границы\n\nВведение в participle clauses/reduced relatives: активное -ing, пассивное -ed и совпадение логического субъекта.\n\nСтарый каталог содержит: №46 Participle Clauses. Его статус — Полное ядро. Старые отметки завершения не переносятся автоматически на новый постоянный ID. Тема рассматривается в уровне B1 и не заменяет обязательные prerequisites.\n\n## 4. Полный конспект\n\n### 4.1. Основная идея и функция конструкции\n\nParticiple clauses используют -ing, V3 или having + V3, чтобы кратко выразить характеристику, дополнительное действие или причину. Reduced relative clauses сокращают относительное придаточное. Определи, кто выполняет действие и кто испытывает его: активная -ing противопоставляется пассивной V3.\n\nThe students who are waiting outside → the students waiting outside. Студенты сами ждут, поэтому -ing. The documents that were signed yesterday → the documents signed yesterday. Документы были подписаны, поэтому V3. Having finished the task, we went home показывает завершение первого действия до возвращения домой. Причастие не является самостоятельным личным сказуемым; время определяется контекстом.\n\n### 4.2. Формирование и грамматическая модель\n\n| Форма | Значение | Пример |\n|---|---|---|\n| noun + V-ing | активная характеристика | the students waiting outside |\n| noun + V3 | пассивная характеристика | the documents signed yesterday |\n| V-ing, main clause | одновременность или причина | Feeling tired, I went home. |\n| Having + V3, main clause | предшествующее завершение | Having finished the task, we left. |\n| Not + V-ing | отрицательная причина | Not knowing the answer, I asked. |\n| While/when + V-ing | одновременность | While travelling, I read. |\n\nВ reduced relative существительное предшествует причастию, которое его уточняет. В начальной обстоятельственной конструкции подразумеваемый исполнитель обычно совпадает с подлежащим главного предложения. Запятая отделяет начальную конструкцию: Having checked the figures, the researcher submitted the report. Форма -ing не означает автоматически настоящее: The man sitting there yesterday was my tutor.\n\n### 4.3. Как выбрать подходящую форму\n\nВ relative clause проверь, выполняет ли noun действие или получает его. В первом случае часто подходит -ing, во втором — V3. В обстоятельственной конструкции проверь одновременность, причину или последовательность. Having + V3 выделяет действие, завершившееся раньше основного.\n\nThe students waiting outside are tired — студенты ждут. The students invited to the seminar are tired — студентов пригласили. Не меняй активное значение на пассивное. Having read the instructions, we started the task предполагает, что именно we прочитали инструкцию. Если исполнители различны, сохраняй полное придаточное с отдельным subject.\n\n### 4.4. Сравнение с близкими конструкциями\n\n| Полная конструкция | Сокращённая |\n|---|---|\n| The woman who is talking to the tutor | The woman talking to the tutor |\n| The report that was published yesterday | The report published yesterday |\n| Because I knew the answer, I replied. | Knowing the answer, I replied. |\n| After we had finished the work, we left. | Having finished the work, we left. |\n| While she was walking home, she called me. | While walking home, she called me. |\n\n### 4.5. Примеры с переводом и объяснением\n\n| English | Перевод | Почему это подходит |\n| --- | --- | --- |\n| The students waiting outside are ready. | Студенты, ожидающие снаружи, готовы. | Активная -ing. |\n| The documents signed yesterday are on the desk. | Документы, подписанные вчера, на столе. | Пассивная V3. |\n| Having read the instructions, we started the task. | Прочитав инструкцию, мы начали задание. | Предшествование. |\n| Knowing the deadline, she submitted the report early. | Зная срок, она сдала отчёт заранее. | Причина. |\n| While walking home, I called my tutor. | По дороге домой я позвонила преподавателю. | Одновременность. |\n| Not knowing the answer, he asked for help. | Не зная ответа, он попросил помощи. | Отрицательная причина. |\n\n### 4.6. Исключения, ограничения и границы употребления\n\nDangling modifier возникает, когда исполнитель причастия не совпадает с подлежащим главной части: Walking to college, the rain started. Получается, что шёл дождь. Исправление: Walking to college, I noticed the rain или While I was walking to college, it started raining.\n\nНе всякую relative clause можно сократить без смысловых потерь. The student who passed the exam не обязательно равнозначно the student passing the exam: -ing может изменить аспект. Если важны модальность, время или отдельный исполнитель, оставляй полную конструкцию. V3 может выступать прилагательным: a broken window. Having been + V3 — пассивное перфектное причастие: Having been warned, we took precautions. Это вводное знакомство, не требование использовать усложнённую конструкцию в каждом тексте.\n\n### 4.7. Типичные ошибки русскоязычных студентов\n\n| Ошибка | Исправление | Объяснение |\n| --- | --- | --- |\n| The students waited outside are tired. | The students waiting outside are tired. | Students сами ждут. |\n| The documents signing yesterday are ready. | The documents signed yesterday are ready. | Документы подписали. |\n| Having finish the task, we left. | Having finished the task, we left. | Having + V3. |\n| Walking home, the rain started. | While I was walking home, it started raining. | Исполнители различаются. |\n\n### 4.8. Произношение и восприятие на слух\n\nНачальная participle clause обычно отделяется паузой. Слушай -ing и V3; формы помогают различать активное и пассивное значение. Найди head noun и границы уточнения, прежде чем определить главное сказуемое.\n\nСначала прослушай или прочитай пример, затем произнеси его целиком. Обрати внимание на смысловое ударение и форму конструкции; не ориентируйся только на буквенный перевод.\n\n### 4.9. Академический английский и TOEFL-перенос\n\nВ Reading такие конструкции сжимают описание исследований: The samples collected during the experiment were analysed. Найди сказуемое were analysed и уточнение collected. В Writing сокращай только при ясной связи, избегай dangling modifiers. В Speaking полная clause допустима, если помогает сохранить точность.\n\nЭто авторская практика переноса навыка. Она не является официальным заданием TOEFL и не выдаётся за официальный результат экзамена.\n\n### 4.10. Примеры для управляемого разбора\n\n- The students waiting outside are ready. — Студенты, ожидающие снаружи, готовы. Активная -ing.\n- The documents signed yesterday are on the desk. — Документы, подписанные вчера, на столе. Пассивная V3.\n- Having read the instructions, we started the task. — Прочитав инструкцию, мы начали задание. Предшествование.\n\nДля каждого примера назови целевую конструкцию, объясни выбор и составь новое предложение в другом контексте. Затем перейди к заданиям: сначала диагностика, затем управляемая и самостоятельная практика, затем новые вопросы выходной проверки.\n\n### 4.11. Самопроверка\n\nПеред отправкой ответа проверь:\n1. Активная -ing и пассивная V3 различены.\n2. Главное сказуемое сохранено.\n3. Having сопровождается V3.\n4. Логический субъект совпадает с исполнителем.\n5. Начальные clauses отделены запятыми.\n6. Сокращение сохраняет смысл.\n\n### 4.12. Краткая памятка\n\nNoun + V-ing — активная характеристика; noun + V3 — обычно пассивная. V-ing clause может выражать причину или одновременность; having + V3 — предшествование. Проверяй логический субъект, сохраняй полную clause, если сокращение меняет смысл.\n\nНе выбирай форму только по одному знакомому слову: проверь контекст, значение и структуру. При ошибке вернись к соответствующей части конспекта и составь собственный пример.\n\n## 5. Практика\n\nВ приложении практика разделена на входную диагностику, управляемые задания, самостоятельную практику и новую выходную проверку. Закрытые ответы получают rationale и разбор ошибки. Свободный текст сохраняется и оценивается по рубрике; до подключения и реальной проверки AI-движка система не выдаёт его за автоматическую AI-оценку.\n\n## 6. Интервальное повторение\n\nПовторяй не весь урок автоматически, а конкретную ошибку: выбор формы, согласование, word order, значение, регистр или пунктуацию. Новая попытка должна менять лексический контекст и формулировку, чтобы проверять перенос, а не запоминание одной строки.\n\n## 7. Технический статус\n\n- Постоянный ID: `B1-21`.\n- Прогресс хранится отдельно в course.grammarLessons[\"B1-21\"].\n- Содержание и ключи имеют статус draft; 24 авторских закрытых задания и объяснения вычитаны, выбранные тексты источников проверены. Полная постраничная и пользовательская приёмка остаются открытыми.\n- Предварительное выполнение порогов не равно окончательному mastered: нужны отсроченное повторение и learner review.",
+  "theoryEnd": "## 5."
+}

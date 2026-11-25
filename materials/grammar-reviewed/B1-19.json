@@ -1,0 +1,739 @@
+{
+  "id": "B1-19",
+  "level": "B1",
+  "sequence": "B1-19",
+  "grammarFamily": "B1-19",
+  "questionBankSource": "topic-specific-authored",
+  "sourceVerification": "draft; selected source text consulted; complete source-page and learner review pending",
+  "topicProfile": {
+    "label": "noun phrases, determiners and agreement",
+    "skillTarget": "noun-phrase-head-and-agreement",
+    "core": "В длинной noun phrase главное существительное (head noun) определяет число и часто согласование со сказуемым. Слова перед ним и после него могут уточнять значение, принадлежность, количество или состав, но не обязательно меняют грамматическое число ядра.",
+    "form": "| Группа | Обычное согласование | Пример |\n|---|---|---|\n| Singular head | singular verb | The list of names is long. |\n| Plural head | plural verb | The names on the list are correct. |\n| a number of + plural noun | plural verb | A number of students have applied. |\n| the number of + plural noun | singular verb | The number of students has risen. |\n| one of + plural noun | singular verb | One of the reports is missing. |\n| every/each + singular noun | singular verb | Every student has a card. |\n| uncountable noun | singular verb | The information is useful. |\n| both + plural noun | plural verb | Both methods work. |",
+    "selection": "Найди основное существительное, а не ближайшее к глаголу. Затем проверь, является ли вся группа обычной именной группой или особым количественным выражением (a number of, the number of, one of). Определи countable/uncountable и выбери determiner. Проверь, что глагол соответствует числу подлежащего.",
+    "contrast": "| Пример | Ядро / значение |\n|---|---|\n| The quality of the pictures is poor. | quality, singular. |\n| The pictures in the folder are clear. | pictures, plural. |\n| A number of students are absent. | Количество студентов = несколько, plural. |\n| The number of students is rising. | Само число = singular. |\n| Much information is missing. | Uncountable information. |\n| Many files are missing. | Countable plural files. |",
+    "boundary": "Collective nouns (team, committee, government) могут согласовываться с singular или plural в зависимости от варианта английского и того, мыслится ли группа как единое целое или отдельные участники. None/all/some могут допускать разные формы в зависимости от объекта. Не объявляй единственный вариант универсальным там, где есть реальная вариативность.",
+    "pronunciation": "В длинной именной группе не теряй главное слово на слух. Ударение часто помогает выделить head noun, но согласование проверяется грамматикой. Сравни THE NUMBER of students HAS risen и A NUMBER of students HAVE applied.",
+    "examples": [
+      [
+        "The list of required documents is online.",
+        "Список необходимых документов находится в интернете.",
+        "Head list — singular."
+      ],
+      [
+        "A number of students have applied.",
+        "Несколько студентов подали заявки.",
+        "A number of + plural verb."
+      ],
+      [
+        "The number of applicants has increased.",
+        "Количество абитуриентов выросло.",
+        "The number of + singular verb."
+      ],
+      [
+        "Every one of the participants has an ID.",
+        "У каждого участника есть удостоверение.",
+        "Every one — singular."
+      ],
+      [
+        "The equipment is ready.",
+        "Оборудование готово.",
+        "Uncountable singular."
+      ],
+      [
+        "A few students arrived early.",
+        "Несколько студентов пришли рано.",
+        "Countable plural, положительное значение."
+      ]
+    ],
+    "traps": [
+      [
+        "The list of documents are ready.",
+        "The list of documents is ready.",
+        "Ядро list, не documents."
+      ],
+      [
+        "The number of students have increased.",
+        "The number of students has increased.",
+        "The number — singular."
+      ],
+      [
+        "She gave me an advice.",
+        "She gave me a piece of advice.",
+        "Advice неисчисляемое."
+      ],
+      [
+        "Every students have a card.",
+        "Every student has a card.",
+        "Every + singular noun и singular verb."
+      ]
+    ],
+    "toefl": "В Reading определяй head noun длинных академических групп, чтобы правильно понять, к чему относится сказуемое. В Writing проверяй agreement при of-phrases и количественных выражениях. В Speaking используй many/much/few/little по типу существительного; это снижает частые ошибки согласования."
+  },
+  "title": "Noun phrases, determiners and agreement",
+  "description": "Строить более длинные noun phrases, использовать compound nouns, согласовывать подлежащее и сказуемое",
+  "cardDescription": "Теория, guided practice, самостоятельные задания и выходная проверка по постоянному ID B1-19.",
+  "eyebrow": "Полный урок программы B1-19 · drafted",
+  "contentVersion": "1.1-draft",
+  "curriculumVersion": "1.0",
+  "prerequisites": [
+    "A2-10",
+    "A2-14"
+  ],
+  "outcomes": [
+    "Строить более длинные noun phrases, использовать compound nouns, согласовывать подлежащее и сказуемое",
+    "Выбирать целевую конструкцию по контексту и смыслу.",
+    "Исправлять типичные ошибки и переносить правило в новый пример."
+  ],
+  "sourceRefs": [
+    "GR-02 U79-81",
+    "GR-02 U85-91",
+    "GR-03 U40-43",
+    "GR-03 U48-52",
+    "GR-05 B1 p52-56"
+  ],
+  "sourceStatus": "selected source text consulted; full page verification pending",
+  "status": "drafted",
+  "legacyCoverage": "Частично",
+  "toeflLinks": [
+    "Writing: Build a Sentence",
+    "Reading: clause structure, reference, modifiers and logical relationships",
+    "Writing: Academic Discussion"
+  ],
+  "thresholds": {
+    "independent": 7,
+    "exit": 4,
+    "criticalIds": [
+      "E1",
+      "E2",
+      "E3"
+    ]
+  },
+  "groups": {
+    "independent": "Самостоятельная практика",
+    "exit": "Выходная проверка"
+  },
+  "items": [
+    {
+      "id": "D1",
+      "group": "Входная диагностика",
+      "prompt": "The list of required documents ___ on the website.",
+      "options": [
+        "are",
+        "is",
+        "have"
+      ],
+      "answer": "is",
+      "accepted": [
+        "is"
+      ],
+      "why": "Head noun list — singular.",
+      "distractorWhy": "Are согласовалось бы с plural documents, но это не ядро.",
+      "distractorRationales": {
+        "are": "Are согласовалось бы с plural documents, но это не ядро.",
+        "have": "Have не подходит для singular subject и состояния."
+      },
+      "skillTarget": "noun-phrase-head-and-agreement",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D2",
+      "group": "Входная диагностика",
+      "prompt": "A number of students ___ applied for the scholarship.",
+      "options": [
+        "have",
+        "has",
+        "is"
+      ],
+      "answer": "have",
+      "accepted": [
+        "have"
+      ],
+      "why": "A number of + plural noun обычно plural verb.",
+      "distractorWhy": "Has не соответствует этой количественной модели.",
+      "distractorRationales": {
+        "has": "Has не соответствует этой количественной модели.",
+        "is": "Is не образует Present Perfect."
+      },
+      "skillTarget": "noun-phrase-head-and-agreement",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D3",
+      "group": "Входная диагностика",
+      "prompt": "The number of applicants ___ increased this year.",
+      "options": [
+        "have",
+        "are",
+        "has"
+      ],
+      "answer": "has",
+      "accepted": [
+        "has"
+      ],
+      "why": "The number — singular subject.",
+      "distractorWhy": "Have не согласуется с number.",
+      "distractorRationales": {
+        "have": "Have не согласуется с number.",
+        "are": "Are не образует Present Perfect."
+      },
+      "skillTarget": "noun-phrase-head-and-agreement",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D4",
+      "group": "Входная диагностика",
+      "prompt": "One of the experiments ___ produced a different result.",
+      "options": [
+        "have",
+        "has",
+        "are"
+      ],
+      "answer": "has",
+      "accepted": [
+        "has"
+      ],
+      "why": "One — singular head.",
+      "distractorWhy": "Have согласовалось бы с experiments, но ядро one.",
+      "distractorRationales": {
+        "have": "Have согласовалось бы с experiments, но ядро one.",
+        "are": "Are не образует Perfect."
+      },
+      "skillTarget": "noun-phrase-head-and-agreement",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G1",
+      "group": "Управляемая практика",
+      "prompt": "The results of the final analysis ___ available online.",
+      "options": [
+        "are",
+        "is",
+        "has"
+      ],
+      "answer": "are",
+      "accepted": [
+        "are"
+      ],
+      "why": "Results — plural head.",
+      "distractorWhy": "Is не согласуется с results.",
+      "distractorRationales": {
+        "is": "Is не согласуется с results.",
+        "has": "Has не выражает это состояние."
+      },
+      "skillTarget": "noun-phrase-head-and-agreement",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G2",
+      "group": "Управляемая практика",
+      "prompt": "Every one of the participants ___ received an ID card.",
+      "options": [
+        "have",
+        "are",
+        "has"
+      ],
+      "answer": "has",
+      "accepted": [
+        "has"
+      ],
+      "why": "Every one — singular.",
+      "distractorWhy": "Have не согласуется с every one.",
+      "distractorRationales": {
+        "have": "Have не согласуется с every one.",
+        "are": "Are не образует Perfect."
+      },
+      "skillTarget": "noun-phrase-head-and-agreement",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G3",
+      "group": "Управляемая практика",
+      "prompt": "The quality of the printed images ___ poor.",
+      "options": [
+        "are",
+        "is",
+        "have"
+      ],
+      "answer": "is",
+      "accepted": [
+        "is"
+      ],
+      "why": "Quality — singular head.",
+      "distractorWhy": "Are относится к plural images, не ядру.",
+      "distractorRationales": {
+        "are": "Are относится к plural images, не ядру.",
+        "have": "Have не выражает нужное состояние."
+      },
+      "skillTarget": "noun-phrase-head-and-agreement",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G4",
+      "group": "Управляемая практика",
+      "prompt": "Choose the correct sentence with uncountable information.",
+      "options": [
+        "The information is useful.",
+        "The informations are useful.",
+        "An information is useful."
+      ],
+      "answer": "The information is useful.",
+      "accepted": [
+        "The information is useful."
+      ],
+      "why": "Information неисчисляемое и singular.",
+      "distractorWhy": "Обычного plural informations нет.",
+      "distractorRationales": {
+        "The informations are useful.": "Обычного plural informations нет.",
+        "An information is useful.": "A/an не употребляется прямо с information."
+      },
+      "skillTarget": "noun-phrase-head-and-agreement",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G5",
+      "group": "Управляемая практика",
+      "prompt": "Choose the correct determiner for plural countable files.",
+      "options": [
+        "Much files are missing.",
+        "A little files are missing.",
+        "Many files are missing."
+      ],
+      "answer": "Many files are missing.",
+      "accepted": [
+        "Many files are missing."
+      ],
+      "why": "Many + plural countable.",
+      "distractorWhy": "Much + uncountable.",
+      "distractorRationales": {
+        "Much files are missing.": "Much + uncountable.",
+        "A little files are missing.": "A little + uncountable."
+      },
+      "skillTarget": "noun-phrase-head-and-agreement",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G6",
+      "group": "Управляемая практика",
+      "prompt": "Choose the correct quantity expression with water.",
+      "options": [
+        "Many water was wasted.",
+        "Much water was wasted.",
+        "A few water was wasted."
+      ],
+      "answer": "Much water was wasted.",
+      "accepted": [
+        "Much water was wasted."
+      ],
+      "why": "Much + uncountable noun.",
+      "distractorWhy": "Many требует countable plural.",
+      "distractorRationales": {
+        "Many water was wasted.": "Many требует countable plural.",
+        "A few water was wasted.": "A few требует countable plural."
+      },
+      "skillTarget": "noun-phrase-head-and-agreement",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I1",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct singular countable noun after every.",
+      "options": [
+        "Every students have a card.",
+        "Every student have a card.",
+        "Every student has a card."
+      ],
+      "answer": "Every student has a card.",
+      "accepted": [
+        "Every student has a card."
+      ],
+      "why": "Every + singular noun и singular verb.",
+      "distractorWhy": "Every не определяет plural students здесь.",
+      "distractorRationales": {
+        "Every students have a card.": "Every не определяет plural students здесь.",
+        "Every student have a card.": "Student требует has."
+      },
+      "skillTarget": "noun-phrase-head-and-agreement",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I2",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct phrase with a unit of advice.",
+      "options": [
+        "An advice",
+        "A piece of advice",
+        "A piece of advices"
+      ],
+      "answer": "A piece of advice",
+      "accepted": [
+        "A piece of advice"
+      ],
+      "why": "Piece выделяет единицу неисчисляемого advice.",
+      "distractorWhy": "Advice не принимает a/an напрямую.",
+      "distractorRationales": {
+        "An advice": "Advice не принимает a/an напрямую.",
+        "A piece of advices": "Advices не обычный plural."
+      },
+      "skillTarget": "noun-phrase-head-and-agreement",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I3",
+      "group": "Самостоятельная практика",
+      "prompt": "A pair of scissors ___ on the desk.",
+      "options": [
+        "is",
+        "are",
+        "have"
+      ],
+      "answer": "is",
+      "accepted": [
+        "is"
+      ],
+      "why": "Head pair — singular.",
+      "distractorWhy": "Scissors внутри of-phrase не ядро.",
+      "distractorRationales": {
+        "are": "Scissors внутри of-phrase не ядро.",
+        "have": "Have не выражает состояние."
+      },
+      "skillTarget": "noun-phrase-head-and-agreement",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I4",
+      "group": "Самостоятельная практика",
+      "prompt": "The scissors ___ on the table. Choose the standard plural agreement.",
+      "options": [
+        "is",
+        "has",
+        "are"
+      ],
+      "answer": "are",
+      "accepted": [
+        "are"
+      ],
+      "why": "Scissors — plural noun.",
+      "distractorWhy": "Is не согласуется с scissors.",
+      "distractorRationales": {
+        "is": "Is не согласуется с scissors.",
+        "has": "Has не подходит для состояния."
+      },
+      "skillTarget": "noun-phrase-head-and-agreement",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I5",
+      "group": "Самостоятельная практика",
+      "prompt": "Some of the water ___ already gone. Use the correct perfect auxiliary.",
+      "options": [
+        "have",
+        "has",
+        "are"
+      ],
+      "answer": "has",
+      "accepted": [
+        "has"
+      ],
+      "why": "Water — uncountable singular; has gone.",
+      "distractorWhy": "Have не согласуется с water.",
+      "distractorRationales": {
+        "have": "Have не согласуется с water.",
+        "are": "Are gone не целевой Perfect auxiliary."
+      },
+      "skillTarget": "noun-phrase-head-and-agreement",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I6",
+      "group": "Самостоятельная практика",
+      "prompt": "Some of the books ___ already been returned.",
+      "options": [
+        "have",
+        "has",
+        "is"
+      ],
+      "answer": "have",
+      "accepted": [
+        "have"
+      ],
+      "why": "Books — plural; have been returned.",
+      "distractorWhy": "Has не согласуется с books.",
+      "distractorRationales": {
+        "has": "Has не согласуется с books.",
+        "is": "Is been не модель Perfect passive."
+      },
+      "skillTarget": "noun-phrase-head-and-agreement",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I7",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the sentence expressing a small positive countable quantity.",
+      "options": [
+        "A little students offered to help.",
+        "Much students offered to help.",
+        "A few students offered to help."
+      ],
+      "answer": "A few students offered to help.",
+      "accepted": [
+        "A few students offered to help."
+      ],
+      "why": "A few + countable plural.",
+      "distractorWhy": "A little требует uncountable.",
+      "distractorRationales": {
+        "A little students offered to help.": "A little требует uncountable.",
+        "Much students offered to help.": "Much не сочетается с countable plural."
+      },
+      "skillTarget": "noun-phrase-head-and-agreement",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I8",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the grammatical expression for a small positive uncountable quantity.",
+      "options": [
+        "We have a few time left.",
+        "We have a little time left.",
+        "We have many time left."
+      ],
+      "answer": "We have a little time left.",
+      "accepted": [
+        "We have a little time left."
+      ],
+      "why": "A little + uncountable time.",
+      "distractorWhy": "A few требует countable plural.",
+      "distractorRationales": {
+        "We have a few time left.": "A few требует countable plural.",
+        "We have many time left.": "Many не определяет uncountable time."
+      },
+      "skillTarget": "noun-phrase-head-and-agreement",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I9",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct comparative for countable plural errors in formal writing.",
+      "options": [
+        "The new version contains fewer errors.",
+        "The new version contains much errors.",
+        "The new version contains a little errors."
+      ],
+      "answer": "The new version contains fewer errors.",
+      "accepted": [
+        "The new version contains fewer errors."
+      ],
+      "why": "Fewer + plural countable noun.",
+      "distractorWhy": "Much требует uncountable.",
+      "distractorRationales": {
+        "The new version contains much errors.": "Much требует uncountable.",
+        "The new version contains a little errors.": "A little требует uncountable."
+      },
+      "skillTarget": "noun-phrase-head-and-agreement",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E1",
+      "group": "Выходная проверка",
+      "prompt": "Choose the correct plural of university library.",
+      "options": [
+        "University libraries",
+        "Universities library",
+        "University librarys"
+      ],
+      "answer": "University libraries",
+      "accepted": [
+        "University libraries"
+      ],
+      "why": "Plural marking on head libraries.",
+      "distractorWhy": "Первое существительное обычно modifier singular.",
+      "distractorRationales": {
+        "Universities library": "Первое существительное обычно modifier singular.",
+        "University librarys": "Library → libraries."
+      },
+      "skillTarget": "noun-phrase-head-and-agreement",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E2",
+      "group": "Выходная проверка",
+      "prompt": "Both of the methods ___ effective.",
+      "options": [
+        "is",
+        "has",
+        "are"
+      ],
+      "answer": "are",
+      "accepted": [
+        "are"
+      ],
+      "why": "Both refers to two methods, plural agreement.",
+      "distractorWhy": "Is не согласуется с both.",
+      "distractorRationales": {
+        "is": "Is не согласуется с both.",
+        "has": "Has не подходит для состояния."
+      },
+      "skillTarget": "noun-phrase-head-and-agreement",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E3",
+      "group": "Выходная проверка",
+      "prompt": "Choose the grammatical sentence where a total sum is treated as a unit.",
+      "options": [
+        "Ten dollars has enough for the ticket.",
+        "Ten dollars is enough for the ticket.",
+        "Ten dollars am enough for the ticket."
+      ],
+      "answer": "Ten dollars is enough for the ticket.",
+      "accepted": [
+        "Ten dollars is enough for the ticket."
+      ],
+      "why": "Сумма как единое количество допускает singular is.",
+      "distractorWhy": "Has не выражает это состояние.",
+      "distractorRationales": {
+        "Ten dollars has enough for the ticket.": "Has не выражает это состояние.",
+        "Ten dollars am enough for the ticket.": "Am используется только с I."
+      },
+      "skillTarget": "noun-phrase-head-and-agreement",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E4",
+      "group": "Выходная проверка",
+      "prompt": "Choose the accurate statement about collective-noun agreement.",
+      "options": [
+        "Team can take singular or plural agreement depending on variety and meaning.",
+        "Team must always take plural agreement in every variety.",
+        "Team is an uncountable noun that can never be plural."
+      ],
+      "answer": "Team can take singular or plural agreement depending on variety and meaning.",
+      "accepted": [
+        "Team can take singular or plural agreement depending on variety and meaning."
+      ],
+      "why": "Collective agreement допускает вариативность.",
+      "distractorWhy": "Singular также используется.",
+      "distractorRationales": {
+        "Team must always take plural agreement in every variety.": "Singular также используется.",
+        "Team is an uncountable noun that can never be plural.": "Team — countable noun."
+      },
+      "skillTarget": "noun-phrase-head-and-agreement",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E5",
+      "group": "Выходная проверка",
+      "prompt": "Choose the correct agreement in a long academic noun phrase.",
+      "options": [
+        "The effect of the new regulations are unclear.",
+        "The effect of the new regulations have unclear.",
+        "The effect of the new regulations is unclear."
+      ],
+      "answer": "The effect of the new regulations is unclear.",
+      "accepted": [
+        "The effect of the new regulations is unclear."
+      ],
+      "why": "Effect — singular head.",
+      "distractorWhy": "Regulations не ядро подлежащего.",
+      "distractorRationales": {
+        "The effect of the new regulations are unclear.": "Regulations не ядро подлежащего.",
+        "The effect of the new regulations have unclear.": "Have не выражает состояние."
+      },
+      "skillTarget": "noun-phrase-head-and-agreement",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "W1",
+      "group": "Самостоятельное применение",
+      "prompt": "Напиши 8 предложений об учебной группе или исследовании: длинная singular и plural noun phrase, a/the number of, one of, each/every, uncountable noun и количественный determiner. Подчеркни head noun.",
+      "open": true,
+      "rubric": [
+        "Грамматическое ядро определено правильно.",
+        "Verb согласован с подлежащим.",
+        "A number и the number различены.",
+        "Each/every/one of корректны.",
+        "Countability и determiners согласованы.",
+        "Объяснения не игнорируют вариативность."
+      ],
+      "skillTarget": "Самостоятельное применение B1-19",
+      "interactionType": "open-production",
+      "difficulty": "transfer",
+      "sourceBasis": "Speakbase-authored open production; self-review rubric only until real AI feedback is connected",
+      "contentVersion": "1.1-draft"
+    }
+  ],
+  "markdown": "# Speakbase — B1-19: Noun phrases, determiners and agreement\n\n**Curriculum ID:** `B1-19`  \n**Уровень:** B1  \n**Версия:** 1.1-draft\n**Статус:** drafted; selected source text checked; full source-page and learner acceptance pending\n**Предварительные темы:** A2-10, A2-14  \n**Связь со старым каталогом:** Частично — №15 Countable and uncountable; №16 Quantifiers\n\n## 1. Результаты обучения\n\n- Строить более длинные noun phrases, использовать compound nouns, согласовывать подлежащее и сказуемое\n- Выбирать целевую форму по значению, структуре предложения и контексту.\n- Объяснять, почему близкая грамматическая форма меняет смысл или регистр.\n- Находить и исправлять типичные ошибки русскоязычных студентов.\n\n## 2. Источники и статус сверки\n\n| Source | PDF navigation | Lesson-specific checks | Status |\n|---|---|---|---|\n| GR-02 U79-81 | PDF pages 170-175 (Unit 79-81) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-02 U85-91 | PDF pages 182-195 (Unit 85-91) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-03 U40-43 | PDF pages 104-111 (Unit 40-43) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-03 U48-52 | PDF pages 120-129 (Unit 48-52) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-05 B1 p52-56 | PDF pages 52-56 (B1 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n\nUnit/page locations are navigation aids only. They do not prove that the cited explanation, examples, restrictions and answer key have been checked for this lesson. Examples and explanations below are Speakbase-authored, not quotations from the textbook.\n\nПеред переводом этого урока в source-verified необходимо открыть целевые страницы конкретного издания, записать печатную и PDF-пагинацию, сверить ограничения и исключения. Для GR-03 со сканированными страницами обязательна визуальная проверка.\n\n**Evidence for this editorial pass:** GR-02 selected theory text: Units 79–81 and 85–91, PDF pp. 170–174 and 182–194 (even pages; printed pp. 158–162 and 170–182); GR-05 B1 pp. 52 and 56 selected noun-phrase context; full agreement-specific alignment pending. The selected source text was consulted; not all pages, exercises, editions, scanned GR-03 pages or GR-05 descriptors were checked. Author-created explanations and practice are not copied source exercises.\n\n## 3. Место темы и границы\n\nРасширяй noun phrases и учи agreement по head noun; различай premodifiers/postmodifiers, determiners и compound nouns.\n\nСтарый каталог содержит: №15 Countable and uncountable; №16 Quantifiers. Его статус — Частично. Старые отметки завершения не переносятся автоматически на новый постоянный ID. Тема рассматривается в уровне B1 и не заменяет обязательные prerequisites.\n\n## 4. Полный конспект\n\n### 4.1. Основная идея и функция конструкции\n\nВ длинной noun phrase главное существительное (head noun) определяет число и часто согласование со сказуемым. Слова перед ним и после него могут уточнять значение, принадлежность, количество или состав, но не обязательно меняют грамматическое число ядра.\n\nThe list of documents is ready. Главное слово list в единственном числе, а documents внутри of-phrase — множественное, но не подлежащее всей группы. The documents on the list are ready — главным стало documents. Чтобы не ошибиться, мысленно убери уточнение и проверь грамматическое ядро. Некоторые количественные выражения имеют специальные правила согласования.\n\n### 4.2. Формирование и грамматическая модель\n\n| Группа | Обычное согласование | Пример |\n|---|---|---|\n| Singular head | singular verb | The list of names is long. |\n| Plural head | plural verb | The names on the list are correct. |\n| a number of + plural noun | plural verb | A number of students have applied. |\n| the number of + plural noun | singular verb | The number of students has risen. |\n| one of + plural noun | singular verb | One of the reports is missing. |\n| every/each + singular noun | singular verb | Every student has a card. |\n| uncountable noun | singular verb | The information is useful. |\n| both + plural noun | plural verb | Both methods work. |\n\nDeterminers должны согласовываться с типом существительного: many/few/fewer + plural countable; much/little/less + uncountable; a lot of подходит обоим типам. Each/every + singular countable noun. Some of/the rest of + noun phrase могут согласовываться по количеству и значению: Some of the water is gone; some of the books are missing. Noun + noun часто имеет первое существительное в singular (a university library), а множественное число выражается на head: university libraries.\n\n### 4.3. Как выбрать подходящую форму\n\nНайди основное существительное, а не ближайшее к глаголу. Затем проверь, является ли вся группа обычной именной группой или особым количественным выражением (a number of, the number of, one of). Определи countable/uncountable и выбери determiner. Проверь, что глагол соответствует числу подлежащего.\n\nEvery one of the students has… — подлежащее every one, singular. A pair of scissors is… — ядро pair, singular, а The scissors are… — plural noun. Количество как единый период/сумма может согласовываться в singular: Ten dollars is enough. Если отдельные элементы выступают как предметы, plural возможно. В академической речи проверяй также data: традиционный plural встречается наряду с mass singular в разных дисциплинах.\n\n### 4.4. Сравнение с близкими конструкциями\n\n| Пример | Ядро / значение |\n|---|---|\n| The quality of the pictures is poor. | quality, singular. |\n| The pictures in the folder are clear. | pictures, plural. |\n| A number of students are absent. | Количество студентов = несколько, plural. |\n| The number of students is rising. | Само число = singular. |\n| Much information is missing. | Uncountable information. |\n| Many files are missing. | Countable plural files. |\n\n### 4.5. Примеры с переводом и объяснением\n\n| English | Перевод | Почему это подходит |\n| --- | --- | --- |\n| The list of required documents is online. | Список необходимых документов находится в интернете. | Head list — singular. |\n| A number of students have applied. | Несколько студентов подали заявки. | A number of + plural verb. |\n| The number of applicants has increased. | Количество абитуриентов выросло. | The number of + singular verb. |\n| Every one of the participants has an ID. | У каждого участника есть удостоверение. | Every one — singular. |\n| The equipment is ready. | Оборудование готово. | Uncountable singular. |\n| A few students arrived early. | Несколько студентов пришли рано. | Countable plural, положительное значение. |\n\n### 4.6. Исключения, ограничения и границы употребления\n\nCollective nouns (team, committee, government) могут согласовываться с singular или plural в зависимости от варианта английского и того, мыслится ли группа как единое целое или отдельные участники. None/all/some могут допускать разные формы в зависимости от объекта. Не объявляй единственный вариант универсальным там, где есть реальная вариативность.\n\nInformation, advice, equipment, furniture обычно неисчисляемые; нельзя писать informations или an advice. A piece of advice, a piece of equipment — способы выделить единицу. Few и little часто означают недостаточное количество, a few/a little — некоторое количество. Fewer обычно используется для исчисляемых plural nouns, less для неисчисляемых; less также встречается с измерениями времени, суммы и расстояния.\n\n### 4.7. Типичные ошибки русскоязычных студентов\n\n| Ошибка | Исправление | Объяснение |\n| --- | --- | --- |\n| The list of documents are ready. | The list of documents is ready. | Ядро list, не documents. |\n| The number of students have increased. | The number of students has increased. | The number — singular. |\n| She gave me an advice. | She gave me a piece of advice. | Advice неисчисляемое. |\n| Every students have a card. | Every student has a card. | Every + singular noun и singular verb. |\n\n### 4.8. Произношение и восприятие на слух\n\nВ длинной именной группе не теряй главное слово на слух. Ударение часто помогает выделить head noun, но согласование проверяется грамматикой. Сравни THE NUMBER of students HAS risen и A NUMBER of students HAVE applied.\n\nСначала прослушай или прочитай пример, затем произнеси его целиком. Обрати внимание на смысловое ударение и форму конструкции; не ориентируйся только на буквенный перевод.\n\n### 4.9. Академический английский и TOEFL-перенос\n\nВ Reading определяй head noun длинных академических групп, чтобы правильно понять, к чему относится сказуемое. В Writing проверяй agreement при of-phrases и количественных выражениях. В Speaking используй many/much/few/little по типу существительного; это снижает частые ошибки согласования.\n\nЭто авторская практика переноса навыка. Она не является официальным заданием TOEFL и не выдаётся за официальный результат экзамена.\n\n### 4.10. Примеры для управляемого разбора\n\n- The list of required documents is online. — Список необходимых документов находится в интернете. Head list — singular.\n- A number of students have applied. — Несколько студентов подали заявки. A number of + plural verb.\n- The number of applicants has increased. — Количество абитуриентов выросло. The number of + singular verb.\n\nДля каждого примера назови целевую конструкцию, объясни выбор и составь новое предложение в другом контексте. Затем перейди к заданиям: сначала диагностика, затем управляемая и самостоятельная практика, затем новые вопросы выходной проверки.\n\n### 4.11. Самопроверка\n\nПеред отправкой ответа проверь:\n1. Грамматическое ядро определено правильно.\n2. Verb согласован с подлежащим.\n3. A number и the number различены.\n4. Each/every/one of корректны.\n5. Countability и determiners согласованы.\n6. Объяснения не игнорируют вариативность.\n\n### 4.12. Краткая памятка\n\nСогласование обычно определяется head noun, а не ближайшим существительным. A number of + plural; the number of + singular; one of + singular. Each/every + singular; many/few — countable plural, much/little — uncountable. Учитывай реальные вариации collective nouns.\n\nНе выбирай форму только по одному знакомому слову: проверь контекст, значение и структуру. При ошибке вернись к соответствующей части конспекта и составь собственный пример.\n\n## 5. Практика\n\nВ приложении практика разделена на входную диагностику, управляемые задания, самостоятельную практику и новую выходную проверку. Закрытые ответы получают rationale и разбор ошибки. Свободный текст сохраняется и оценивается по рубрике; до подключения и реальной проверки AI-движка система не выдаёт его за автоматическую AI-оценку.\n\n## 6. Интервальное повторение\n\nПовторяй не весь урок автоматически, а конкретную ошибку: выбор формы, согласование, word order, значение, регистр или пунктуацию. Новая попытка должна менять лексический контекст и формулировку, чтобы проверять перенос, а не запоминание одной строки.\n\n## 7. Технический статус\n\n- Постоянный ID: `B1-19`.\n- Прогресс хранится отдельно в course.grammarLessons[\"B1-19\"].\n- Содержание и ключи имеют статус draft; 24 авторских закрытых задания и объяснения вычитаны, выбранные тексты источников проверены. Полная постраничная и пользовательская приёмка остаются открытыми.\n- Предварительное выполнение порогов не равно окончательному mastered: нужны отсроченное повторение и learner review.",
+  "theoryEnd": "## 5."
+}

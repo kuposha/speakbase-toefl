@@ -1,0 +1,732 @@
+{
+  "id": "B1-17",
+  "level": "B1",
+  "sequence": "B1-17",
+  "grammarFamily": "B1-17",
+  "questionBankSource": "topic-specific-authored",
+  "sourceVerification": "draft; selected source text consulted; complete source-page and learner review pending",
+  "topicProfile": {
+    "label": "adverbial clauses: reason, purpose, result and contrast",
+    "skillTarget": "adverbial-clauses-reason-purpose-result-contrast",
+    "core": "Обстоятельственные придаточные и близкие конструкции связывают причины, цели, последствия и противопоставления. Важны два решения: какое логическое отношение выражается и какая грамматическая структура следует после связующего слова.",
+    "form": "| Отношение | Модель | Пример |\n|---|---|---|\n| Причина | because/since/as + subject + verb | We stayed because it rained. |\n| Причина | because of + noun/V-ing | We stayed because of the rain. |\n| Цель | to/in order to + V1 | I called to ask a question. |\n| Цель | so that + subject + verb | I called so that she could help. |\n| Следствие | so + clause | It rained, so we stayed. |\n| Степень и следствие | so + adjective/adverb + that | It was so cold that we left. |\n| Степень и следствие | such + noun phrase + that | It was such a cold day that we left. |\n| Уступка | although/even though + clause | Although it rained, we left. |\n| Уступка | despite/in spite of + noun/V-ing | Despite the rain, we left. |\n| Сопоставление | whereas/while + clause | A is cheap, whereas B is fast. |",
+    "selection": "Определи, отвечает ли вторая часть на «почему?», «зачем?», «что из этого вышло?» или «вопреки чему?». После союза because/although проверяй наличие подлежащего и сказуемого, после because of/despite — именной группы. Для цели с тем же исполнителем часто достаточно to V1, для отдельного подлежащего — so that + clause.",
+    "contrast": "| Пример | Функция |\n|---|---|\n| Because the road was icy, we drove slowly. | Причина. |\n| Because of the ice, we drove slowly. | Та же причина с noun phrase. |\n| We drove slowly so that we could stay safe. | Цель. |\n| The road was icy, so we drove slowly. | Следствие. |\n| Although the road was icy, we continued. | Уступка. |\n| Despite the ice, we continued. | Уступка с noun phrase. |",
+    "boundary": "Не соединяй Although X, but Y в стандартной структуре одного сложного предложения. Используй Although X, Y или X, but Y. Similarly, Because X, so Y обычно требует выбора одной связи. Despite не требует of; in spite of требует of. Не путай so + adjective с such + noun phrase.",
+    "pronunciation": "Начальная обстоятельственная часть обычно отделяется небольшой паузой: Although it was LATE, we continued. Выделяй смысловое противопоставление или причину, а не все служебные слова подряд. В so that и in order to служебные слова часто безударны.",
+    "examples": [
+      [
+        "Although the room was small, the event was successful.",
+        "Хотя комната была маленькой, мероприятие прошло успешно.",
+        "Уступка с придаточным."
+      ],
+      [
+        "Despite the delay, we completed the test.",
+        "Несмотря на задержку, мы завершили тест.",
+        "Уступка с существительным."
+      ],
+      [
+        "We left early in order to avoid traffic.",
+        "Мы вышли рано, чтобы избежать пробок.",
+        "Цель."
+      ],
+      [
+        "She spoke slowly so that everyone could understand.",
+        "Она говорила медленно, чтобы все могли понять.",
+        "Цель с отдельным subject."
+      ],
+      [
+        "It was such a difficult task that we needed help.",
+        "Задание было настолько сложным, что нам потребовалась помощь.",
+        "Степень и следствие."
+      ]
+    ],
+    "traps": [
+      [
+        "Despite it was raining, we left.",
+        "Although it was raining, we left.",
+        "После despite не ставят обычное придаточное."
+      ],
+      [
+        "Although it was late, but we stayed.",
+        "Although it was late, we stayed.",
+        "But лишний при although."
+      ],
+      [
+        "I went there for asking a question.",
+        "I went there to ask a question.",
+        "Цель действия — инфинитив."
+      ],
+      [
+        "It was so a difficult task that we stopped.",
+        "It was such a difficult task that we stopped.",
+        "Such + noun phrase."
+      ]
+    ],
+    "toefl": "В Reading различай причины и результаты, не принимай уступку за причинно-следственное утверждение. В Writing обосновывай решения и показывай ограничения: Although the sample was small, the pattern was consistent. В Speaking объясняй, зачем предпринималось действие, и какое следствие действительно наблюдалось."
+  },
+  "title": "Adverbial clauses: reason, purpose, result and contrast",
+  "description": "Выражать причинно-следственные и уступительные отношения разными грамматическими формами",
+  "cardDescription": "Теория, guided practice, самостоятельные задания и выходная проверка по постоянному ID B1-17.",
+  "eyebrow": "Полный урок программы B1-17 · drafted",
+  "contentVersion": "1.1-draft",
+  "curriculumVersion": "1.0",
+  "prerequisites": [
+    "A2-16"
+  ],
+  "outcomes": [
+    "Выражать причинно-следственные и уступительные отношения разными грамматическими формами",
+    "Выбирать целевую конструкцию по контексту и смыслу.",
+    "Исправлять типичные ошибки и переносить правило в новый пример."
+  ],
+  "sourceRefs": [
+    "GR-01 U98-100",
+    "GR-02 U113-120",
+    "GR-03 U79-82",
+    "GR-05 B1 p21-24"
+  ],
+  "sourceStatus": "selected source text consulted; full page verification pending",
+  "status": "drafted",
+  "legacyCoverage": "Частично",
+  "toeflLinks": [
+    "Writing: Build a Sentence",
+    "Reading: clause structure, reference, modifiers and logical relationships",
+    "Writing: Academic Discussion"
+  ],
+  "thresholds": {
+    "independent": 7,
+    "exit": 4,
+    "criticalIds": [
+      "E1",
+      "E2",
+      "E3"
+    ]
+  },
+  "groups": {
+    "independent": "Самостоятельная практика",
+    "exit": "Выходная проверка"
+  },
+  "items": [
+    {
+      "id": "D1",
+      "group": "Входная диагностика",
+      "prompt": "___ the sample was small, the pattern was consistent.",
+      "options": [
+        "Despite",
+        "Although",
+        "Because of"
+      ],
+      "answer": "Although",
+      "accepted": [
+        "Although"
+      ],
+      "why": "Although вводит придаточное с subject и verb.",
+      "distractorWhy": "Despite требует noun/V-ing или the fact that.",
+      "distractorRationales": {
+        "Despite": "Despite требует noun/V-ing или the fact that.",
+        "Because of": "Because of требует именную группу."
+      },
+      "skillTarget": "adverbial-clauses-reason-purpose-result-contrast",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D2",
+      "group": "Входная диагностика",
+      "prompt": "___ the heavy rain, the event continued.",
+      "options": [
+        "Despite",
+        "Although",
+        "Because"
+      ],
+      "answer": "Despite",
+      "accepted": [
+        "Despite"
+      ],
+      "why": "Despite + noun phrase выражает уступку.",
+      "distractorWhy": "Although требует clause.",
+      "distractorRationales": {
+        "Although": "Although требует clause.",
+        "Because": "Because требует clause."
+      },
+      "skillTarget": "adverbial-clauses-reason-purpose-result-contrast",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D3",
+      "group": "Входная диагностика",
+      "prompt": "The team repeated the test so that it ___ verify the result.",
+      "options": [
+        "to",
+        "because",
+        "could"
+      ],
+      "answer": "could",
+      "accepted": [
+        "could"
+      ],
+      "why": "So that + subject + modal + V1 выражает цель.",
+      "distractorWhy": "To не образует сказуемое здесь.",
+      "distractorRationales": {
+        "to": "To не образует сказуемое здесь.",
+        "because": "Because не является глаголом."
+      },
+      "skillTarget": "adverbial-clauses-reason-purpose-result-contrast",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D4",
+      "group": "Входная диагностика",
+      "prompt": "The researchers used a control group in order ___ reduce bias.",
+      "options": [
+        "that",
+        "to",
+        "for"
+      ],
+      "answer": "to",
+      "accepted": [
+        "to"
+      ],
+      "why": "In order to + V1 выражает цель.",
+      "distractorWhy": "That без subject/verb не подходит.",
+      "distractorRationales": {
+        "that": "That без subject/verb не подходит.",
+        "for": "For не вводит эту модель."
+      },
+      "skillTarget": "adverbial-clauses-reason-purpose-result-contrast",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G1",
+      "group": "Управляемая практика",
+      "prompt": "The evidence was incomplete, ___ the conclusion remained tentative. Choose the result connector.",
+      "options": [
+        "so",
+        "although",
+        "despite"
+      ],
+      "answer": "so",
+      "accepted": [
+        "so"
+      ],
+      "why": "So вводит следствие.",
+      "distractorWhy": "Although вводит уступку.",
+      "distractorRationales": {
+        "although": "Although вводит уступку.",
+        "despite": "Despite требует noun phrase."
+      },
+      "skillTarget": "adverbial-clauses-reason-purpose-result-contrast",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G2",
+      "group": "Управляемая практика",
+      "prompt": "The lecture was so complicated ___ many students asked for help.",
+      "options": [
+        "because of",
+        "despite",
+        "that"
+      ],
+      "answer": "that",
+      "accepted": [
+        "that"
+      ],
+      "why": "So + adjective + that-clause передаёт следствие степени.",
+      "distractorWhy": "Because of требует noun.",
+      "distractorRationales": {
+        "because of": "Because of требует noun.",
+        "despite": "Despite означает уступку."
+      },
+      "skillTarget": "adverbial-clauses-reason-purpose-result-contrast",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G3",
+      "group": "Управляемая практика",
+      "prompt": "The first method is fast, whereas the second ___ more accurate.",
+      "options": [
+        "although",
+        "is",
+        "despite"
+      ],
+      "answer": "is",
+      "accepted": [
+        "is"
+      ],
+      "why": "Whereas вводит полноценное придаточное; is — сказуемое.",
+      "distractorWhy": "Although не является сказуемым.",
+      "distractorRationales": {
+        "although": "Although не является сказуемым.",
+        "despite": "Despite не является сказуемым."
+      },
+      "skillTarget": "adverbial-clauses-reason-purpose-result-contrast",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G4",
+      "group": "Управляемая практика",
+      "prompt": "Choose the correct reason with a noun phrase.",
+      "options": [
+        "The flight was cancelled because of the storm.",
+        "The flight was cancelled because the storm.",
+        "The flight was cancelled because of it stormed."
+      ],
+      "answer": "The flight was cancelled because of the storm.",
+      "accepted": [
+        "The flight was cancelled because of the storm."
+      ],
+      "why": "Because of + noun phrase.",
+      "distractorWhy": "Because требует clause.",
+      "distractorRationales": {
+        "The flight was cancelled because the storm.": "Because требует clause.",
+        "The flight was cancelled because of it stormed.": "После because of нельзя ставить обычное finite clause."
+      },
+      "skillTarget": "adverbial-clauses-reason-purpose-result-contrast",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G5",
+      "group": "Управляемая практика",
+      "prompt": "Choose the grammatical reason clause.",
+      "options": [
+        "We stayed inside because of it was raining.",
+        "We stayed inside because raining it was.",
+        "We stayed inside because it was raining."
+      ],
+      "answer": "We stayed inside because it was raining.",
+      "accepted": [
+        "We stayed inside because it was raining."
+      ],
+      "why": "Because + subject + verb.",
+      "distractorWhy": "Because of не вводит такую clause.",
+      "distractorRationales": {
+        "We stayed inside because of it was raining.": "Because of не вводит такую clause.",
+        "We stayed inside because raining it was.": "Неверный порядок слов."
+      },
+      "skillTarget": "adverbial-clauses-reason-purpose-result-contrast",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G6",
+      "group": "Управляемая практика",
+      "prompt": "Choose the correct purpose of a person's action.",
+      "options": [
+        "I went to the library for borrow a book.",
+        "I went to the library to borrow a book.",
+        "I went to the library for to borrow a book."
+      ],
+      "answer": "I went to the library to borrow a book.",
+      "accepted": [
+        "I went to the library to borrow a book."
+      ],
+      "why": "To + V1 выражает цель действия.",
+      "distractorWhy": "For + V1 неверно.",
+      "distractorRationales": {
+        "I went to the library for borrow a book.": "For + V1 неверно.",
+        "I went to the library for to borrow a book.": "For to не стандартная модель."
+      },
+      "skillTarget": "adverbial-clauses-reason-purpose-result-contrast",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I1",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the sentence expressing the purpose with a different subject.",
+      "options": [
+        "I opened the window to everyone could get fresh air.",
+        "I opened the window so that everyone to get fresh air.",
+        "I opened the window so that everyone could get fresh air."
+      ],
+      "answer": "I opened the window so that everyone could get fresh air.",
+      "accepted": [
+        "I opened the window so that everyone could get fresh air."
+      ],
+      "why": "So that + subject + modal + V1.",
+      "distractorWhy": "To не вводит полноценное придаточное.",
+      "distractorRationales": {
+        "I opened the window to everyone could get fresh air.": "To не вводит полноценное придаточное.",
+        "I opened the window so that everyone to get fresh air.": "To get не finite verb."
+      },
+      "skillTarget": "adverbial-clauses-reason-purpose-result-contrast",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I2",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct negative purpose.",
+      "options": [
+        "We left quietly in order don't wake the baby.",
+        "We left quietly in order not to wake the baby.",
+        "We left quietly in order not wake the baby."
+      ],
+      "answer": "We left quietly in order not to wake the baby.",
+      "accepted": [
+        "We left quietly in order not to wake the baby."
+      ],
+      "why": "In order not to + V1.",
+      "distractorWhy": "Don't не форма инфинитива.",
+      "distractorRationales": {
+        "We left quietly in order don't wake the baby.": "Don't не форма инфинитива.",
+        "We left quietly in order not wake the baby.": "Пропущено to."
+      },
+      "skillTarget": "adverbial-clauses-reason-purpose-result-contrast",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I3",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct such-that construction.",
+      "options": [
+        "It was such an interesting lecture that we stayed late.",
+        "It was so an interesting lecture that we stayed late.",
+        "It was such interesting lecture that we stayed late."
+      ],
+      "answer": "It was such an interesting lecture that we stayed late.",
+      "accepted": [
+        "It was such an interesting lecture that we stayed late."
+      ],
+      "why": "Such + a/an + adjective + singular noun.",
+      "distractorWhy": "So не определяет так noun phrase.",
+      "distractorRationales": {
+        "It was so an interesting lecture that we stayed late.": "So не определяет так noun phrase.",
+        "It was such interesting lecture that we stayed late.": "Не хватает an."
+      },
+      "skillTarget": "adverbial-clauses-reason-purpose-result-contrast",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I4",
+      "group": "Самостоятельная практика",
+      "prompt": "There were ___ many applicants that interviews took two days.",
+      "options": [
+        "such",
+        "such a",
+        "so"
+      ],
+      "answer": "so",
+      "accepted": [
+        "so"
+      ],
+      "why": "So many + plural noun.",
+      "distractorWhy": "Such many не стандартная модель.",
+      "distractorRationales": {
+        "such": "Such many не стандартная модель.",
+        "such a": "Such a не сочетается с plural."
+      },
+      "skillTarget": "adverbial-clauses-reason-purpose-result-contrast",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I5",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correctly formed concession with despite.",
+      "options": [
+        "Despite of being tired, she finished the report.",
+        "Despite being tired, she finished the report.",
+        "Despite she was tired, she finished the report."
+      ],
+      "answer": "Despite being tired, she finished the report.",
+      "accepted": [
+        "Despite being tired, she finished the report."
+      ],
+      "why": "Despite + V-ing.",
+      "distractorWhy": "Of после despite лишнее.",
+      "distractorRationales": {
+        "Despite of being tired, she finished the report.": "Of после despite лишнее.",
+        "Despite she was tired, she finished the report.": "Обычная clause требует although."
+      },
+      "skillTarget": "adverbial-clauses-reason-purpose-result-contrast",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I6",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct concession with in spite of.",
+      "options": [
+        "In spite of the noise, we continued.",
+        "In spite the noise, we continued.",
+        "In spite of it was noisy, we continued."
+      ],
+      "answer": "In spite of the noise, we continued.",
+      "accepted": [
+        "In spite of the noise, we continued."
+      ],
+      "why": "In spite of + noun phrase.",
+      "distractorWhy": "Пропущено of.",
+      "distractorRationales": {
+        "In spite the noise, we continued.": "Пропущено of.",
+        "In spite of it was noisy, we continued.": "После of здесь не ставят finite clause."
+      },
+      "skillTarget": "adverbial-clauses-reason-purpose-result-contrast",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I7",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the standard sentence without redundant contrast conjunctions.",
+      "options": [
+        "Although it was late, but we stayed.",
+        "Although it was late, despite we stayed.",
+        "Although it was late, we stayed."
+      ],
+      "answer": "Although it was late, we stayed.",
+      "accepted": [
+        "Although it was late, we stayed."
+      ],
+      "why": "Although уже выражает уступку.",
+      "distractorWhy": "But дублирует связь.",
+      "distractorRationales": {
+        "Although it was late, but we stayed.": "But дублирует связь.",
+        "Although it was late, despite we stayed.": "Despite не вводит полноценную главную часть."
+      },
+      "skillTarget": "adverbial-clauses-reason-purpose-result-contrast",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I8",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the sentence using whereas for contrast.",
+      "options": [
+        "The old system is cheap, whereas the new one more reliable.",
+        "The old system is cheap, whereas the new one is more reliable.",
+        "The old system is cheap, whereas of the new one."
+      ],
+      "answer": "The old system is cheap, whereas the new one is more reliable.",
+      "accepted": [
+        "The old system is cheap, whereas the new one is more reliable."
+      ],
+      "why": "Whereas + subject + verb сопоставляет факты.",
+      "distractorWhy": "Пропущен is.",
+      "distractorRationales": {
+        "The old system is cheap, whereas the new one more reliable.": "Пропущен is.",
+        "The old system is cheap, whereas of the new one.": "Whereas of не нужная модель."
+      },
+      "skillTarget": "adverbial-clauses-reason-purpose-result-contrast",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I9",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct purpose expression for an instrument's function.",
+      "options": [
+        "This device is for measuring temperature.",
+        "This device is for measure temperature.",
+        "This device is for to measure temperature."
+      ],
+      "answer": "This device is for measuring temperature.",
+      "accepted": [
+        "This device is for measuring temperature."
+      ],
+      "why": "For + V-ing может описывать назначение.",
+      "distractorWhy": "После for нужна -ing.",
+      "distractorRationales": {
+        "This device is for measure temperature.": "После for нужна -ing.",
+        "This device is for to measure temperature.": "For to не стандартная форма."
+      },
+      "skillTarget": "adverbial-clauses-reason-purpose-result-contrast",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E1",
+      "group": "Выходная проверка",
+      "prompt": "Choose the correct despite-the-fact construction.",
+      "options": [
+        "Despite the fact that it was cold, we went out.",
+        "Despite that it was cold, we went out.",
+        "Despite the fact it cold, we went out."
+      ],
+      "answer": "Despite the fact that it was cold, we went out.",
+      "accepted": [
+        "Despite the fact that it was cold, we went out."
+      ],
+      "why": "Despite the fact that + clause.",
+      "distractorWhy": "В этой модели нужно the fact.",
+      "distractorRationales": {
+        "Despite that it was cold, we went out.": "В этой модели нужно the fact.",
+        "Despite the fact it cold, we went out.": "Пропущено was."
+      },
+      "skillTarget": "adverbial-clauses-reason-purpose-result-contrast",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E2",
+      "group": "Выходная проверка",
+      "prompt": "What is expressed by 'We revised early so that we could rest later'?",
+      "options": [
+        "A proven result of resting earlier.",
+        "A contrast between two unrelated events.",
+        "The intended purpose of revising early."
+      ],
+      "answer": "The intended purpose of revising early.",
+      "accepted": [
+        "The intended purpose of revising early."
+      ],
+      "why": "So that вводит цель.",
+      "distractorWhy": "Предложение не подтверждает, что отдых состоялся.",
+      "distractorRationales": {
+        "A proven result of resting earlier.": "Предложение не подтверждает, что отдых состоялся.",
+        "A contrast between two unrelated events.": "Связь целевая, не контрастная."
+      },
+      "skillTarget": "adverbial-clauses-reason-purpose-result-contrast",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E3",
+      "group": "Выходная проверка",
+      "prompt": "Choose the correct result with so + adverb.",
+      "options": [
+        "She spoke such quickly that I missed a detail.",
+        "She spoke so quickly that I missed a detail.",
+        "She spoke so quickly because of I missed a detail."
+      ],
+      "answer": "She spoke so quickly that I missed a detail.",
+      "accepted": [
+        "She spoke so quickly that I missed a detail."
+      ],
+      "why": "So + adverb + that-clause.",
+      "distractorWhy": "Such не определяет наречие.",
+      "distractorRationales": {
+        "She spoke such quickly that I missed a detail.": "Such не определяет наречие.",
+        "She spoke so quickly because of I missed a detail.": "Because of не вводит finite clause."
+      },
+      "skillTarget": "adverbial-clauses-reason-purpose-result-contrast",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E4",
+      "group": "Выходная проверка",
+      "prompt": "Choose the standard punctuation with the initial reason clause.",
+      "options": [
+        "Because the lab was closed, we worked online.",
+        "Because, the lab was closed we worked online.",
+        "Because the lab, was closed we worked online."
+      ],
+      "answer": "Because the lab was closed, we worked online.",
+      "accepted": [
+        "Because the lab was closed, we worked online."
+      ],
+      "why": "Запятая отделяет целое придаточное.",
+      "distractorWhy": "Нельзя ставить запятую сразу после because.",
+      "distractorRationales": {
+        "Because, the lab was closed we worked online.": "Нельзя ставить запятую сразу после because.",
+        "Because the lab, was closed we worked online.": "Subject и verb не разделяются так."
+      },
+      "skillTarget": "adverbial-clauses-reason-purpose-result-contrast",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E5",
+      "group": "Выходная проверка",
+      "prompt": "Choose the sentence that expresses a result, not a purpose.",
+      "options": [
+        "We restarted it so that it could work.",
+        "We restarted it in order to restore access.",
+        "The software failed, so we restarted it."
+      ],
+      "answer": "The software failed, so we restarted it.",
+      "accepted": [
+        "The software failed, so we restarted it."
+      ],
+      "why": "So вводит фактическое следствие.",
+      "distractorWhy": "So that выражает цель.",
+      "distractorRationales": {
+        "We restarted it so that it could work.": "So that выражает цель.",
+        "We restarted it in order to restore access.": "In order to выражает цель."
+      },
+      "skillTarget": "adverbial-clauses-reason-purpose-result-contrast",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "W1",
+      "group": "Самостоятельное применение",
+      "prompt": "Напиши абзац из 6–8 предложений о проекте: причина, цель с to, цель с so that, следствие, уступка и противопоставление. Используй одну модель so/such…that и поясни связи.",
+      "open": true,
+      "rubric": [
+        "Причина и следствие не перепутаны.",
+        "Because/although вводят clause.",
+        "Because of/despite вводят подходящую группу.",
+        "Цель выражена to или so that.",
+        "So/such согласованы со структурой.",
+        "Уступка и сопоставление логичны; пунктуация корректна."
+      ],
+      "skillTarget": "Самостоятельное применение B1-17",
+      "interactionType": "open-production",
+      "difficulty": "transfer",
+      "sourceBasis": "Speakbase-authored open production; self-review rubric only until real AI feedback is connected",
+      "contentVersion": "1.1-draft"
+    }
+  ],
+  "markdown": "# Speakbase — B1-17: Adverbial clauses: reason, purpose, result and contrast\n\n**Curriculum ID:** `B1-17`  \n**Уровень:** B1  \n**Версия:** 1.1-draft\n**Статус:** drafted; selected source text checked; full source-page and learner acceptance pending\n**Предварительные темы:** A2-16  \n**Связь со старым каталогом:** Частично — №43 Concession and Contrast; №44 Cause and Result\n\n## 1. Результаты обучения\n\n- Выражать причинно-следственные и уступительные отношения разными грамматическими формами\n- Выбирать целевую форму по значению, структуре предложения и контексту.\n- Объяснять, почему близкая грамматическая форма меняет смысл или регистр.\n- Находить и исправлять типичные ошибки русскоязычных студентов.\n\n## 2. Источники и статус сверки\n\n| Source | PDF navigation | Lesson-specific checks | Status |\n|---|---|---|---|\n| GR-01 U98-100 | PDF pages 207-212 (Unit 98-100) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-02 U113-120 | PDF pages 238-253 (Unit 113-120) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-03 U79-82 | PDF pages 182-189 (Unit 79-82) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-05 B1 p21-24 | PDF pages 21-24 (B1 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n\nUnit/page locations are navigation aids only. They do not prove that the cited explanation, examples, restrictions and answer key have been checked for this lesson. Examples and explanations below are Speakbase-authored, not quotations from the textbook.\n\nПеред переводом этого урока в source-verified необходимо открыть целевые страницы конкретного издания, записать печатную и PDF-пагинацию, сверить ограничения и исключения. Для GR-03 со сканированными страницами обязательна визуальная проверка.\n\n**Evidence for this editorial pass:** GR-02 selected theory text: Units 64, 113, 116 and 120, PDF pp. 140, 238, 244 and 252 (printed pp. 128, 226, 232 and 240); GR-05 B1 p. 24 selected conjunction descriptor. The selected source text was consulted; not all pages, exercises, editions, scanned GR-03 pages or GR-05 descriptors were checked. Author-created explanations and practice are not copied source exercises.\n\n## 3. Место темы и границы\n\nРазличай reason, purpose, result и contrast clauses: because/because of, although/despite, so/so that.\n\nСтарый каталог содержит: №43 Concession and Contrast; №44 Cause and Result. Его статус — Частично. Старые отметки завершения не переносятся автоматически на новый постоянный ID. Тема рассматривается в уровне B1 и не заменяет обязательные prerequisites.\n\n## 4. Полный конспект\n\n### 4.1. Основная идея и функция конструкции\n\nОбстоятельственные придаточные и близкие конструкции связывают причины, цели, последствия и противопоставления. Важны два решения: какое логическое отношение выражается и какая грамматическая структура следует после связующего слова.\n\nBecause it rained — причина, so that we could stay dry — цель, so we stayed inside — следствие, although it rained — уступка. Несмотря на близкие русские переводы, because и because of требуют разных продолжений. Although и despite также не взаимозаменяемы без изменения структуры. Придаточное может стоять перед главной частью или после неё; при начальном придаточном обычно нужна запятая.\n\n### 4.2. Формирование и грамматическая модель\n\n| Отношение | Модель | Пример |\n|---|---|---|\n| Причина | because/since/as + subject + verb | We stayed because it rained. |\n| Причина | because of + noun/V-ing | We stayed because of the rain. |\n| Цель | to/in order to + V1 | I called to ask a question. |\n| Цель | so that + subject + verb | I called so that she could help. |\n| Следствие | so + clause | It rained, so we stayed. |\n| Степень и следствие | so + adjective/adverb + that | It was so cold that we left. |\n| Степень и следствие | such + noun phrase + that | It was such a cold day that we left. |\n| Уступка | although/even though + clause | Although it rained, we left. |\n| Уступка | despite/in spite of + noun/V-ing | Despite the rain, we left. |\n| Сопоставление | whereas/while + clause | A is cheap, whereas B is fast. |\n\nBecause of, despite, in spite of — предложные конструкции: после них noun, pronoun или -ing. Возможна развёрнутая форма despite the fact that + clause. In order to и so as to вводят инфинитив цели; отрицание цели — in order not to / so as not to. So that полезен при разных подлежащих: I opened the door so that she could enter. Such требует существительной группы: such a difficult task, such difficult tasks, such useful information.\n\n### 4.3. Как выбрать подходящую форму\n\nОпредели, отвечает ли вторая часть на «почему?», «зачем?», «что из этого вышло?» или «вопреки чему?». После союза because/although проверяй наличие подлежащего и сказуемого, после because of/despite — именной группы. Для цели с тем же исполнителем часто достаточно to V1, для отдельного подлежащего — so that + clause.\n\nSince и as могут обозначать причину, но имеют и временные значения, поэтому контекст должен быть ясным. Whereas и while сопоставляют факты; although уступает обстоятельству, которое обычно мешало бы результату. So that обозначает цель, которую участник стремится достичь, тогда как so…that обозначает результат степени качества или количества.\n\n### 4.4. Сравнение с близкими конструкциями\n\n| Пример | Функция |\n|---|---|\n| Because the road was icy, we drove slowly. | Причина. |\n| Because of the ice, we drove slowly. | Та же причина с noun phrase. |\n| We drove slowly so that we could stay safe. | Цель. |\n| The road was icy, so we drove slowly. | Следствие. |\n| Although the road was icy, we continued. | Уступка. |\n| Despite the ice, we continued. | Уступка с noun phrase. |\n\n### 4.5. Примеры с переводом и объяснением\n\n| English | Перевод | Почему это подходит |\n| --- | --- | --- |\n| Although the room was small, the event was successful. | Хотя комната была маленькой, мероприятие прошло успешно. | Уступка с придаточным. |\n| Despite the delay, we completed the test. | Несмотря на задержку, мы завершили тест. | Уступка с существительным. |\n| We left early in order to avoid traffic. | Мы вышли рано, чтобы избежать пробок. | Цель. |\n| She spoke slowly so that everyone could understand. | Она говорила медленно, чтобы все могли понять. | Цель с отдельным subject. |\n| It was such a difficult task that we needed help. | Задание было настолько сложным, что нам потребовалась помощь. | Степень и следствие. |\n\n### 4.6. Исключения, ограничения и границы употребления\n\nНе соединяй Although X, but Y в стандартной структуре одного сложного предложения. Используй Although X, Y или X, but Y. Similarly, Because X, so Y обычно требует выбора одной связи. Despite не требует of; in spite of требует of. Не путай so + adjective с such + noun phrase.\n\nПосле so much/many/few/little + noun используется so, а не such: so many questions that… . Such a/an + adjective + singular countable noun требует артикля; с plural/uncountable артикль a/an не нужен. For + -ing часто обозначает назначение предмета (a tool for measuring), а не причину действия человека (I came to measure). Следи, чтобы подразумеваемый исполнитель инфинитива цели был понятен.\n\n### 4.7. Типичные ошибки русскоязычных студентов\n\n| Ошибка | Исправление | Объяснение |\n| --- | --- | --- |\n| Despite it was raining, we left. | Although it was raining, we left. | После despite не ставят обычное придаточное. |\n| Although it was late, but we stayed. | Although it was late, we stayed. | But лишний при although. |\n| I went there for asking a question. | I went there to ask a question. | Цель действия — инфинитив. |\n| It was so a difficult task that we stopped. | It was such a difficult task that we stopped. | Such + noun phrase. |\n\n### 4.8. Произношение и восприятие на слух\n\nНачальная обстоятельственная часть обычно отделяется небольшой паузой: Although it was LATE, we continued. Выделяй смысловое противопоставление или причину, а не все служебные слова подряд. В so that и in order to служебные слова часто безударны.\n\nСначала прослушай или прочитай пример, затем произнеси его целиком. Обрати внимание на смысловое ударение и форму конструкции; не ориентируйся только на буквенный перевод.\n\n### 4.9. Академический английский и TOEFL-перенос\n\nВ Reading различай причины и результаты, не принимай уступку за причинно-следственное утверждение. В Writing обосновывай решения и показывай ограничения: Although the sample was small, the pattern was consistent. В Speaking объясняй, зачем предпринималось действие, и какое следствие действительно наблюдалось.\n\nЭто авторская практика переноса навыка. Она не является официальным заданием TOEFL и не выдаётся за официальный результат экзамена.\n\n### 4.10. Примеры для управляемого разбора\n\n- Although the room was small, the event was successful. — Хотя комната была маленькой, мероприятие прошло успешно. Уступка с придаточным.\n- Despite the delay, we completed the test. — Несмотря на задержку, мы завершили тест. Уступка с существительным.\n- We left early in order to avoid traffic. — Мы вышли рано, чтобы избежать пробок. Цель.\n\nДля каждого примера назови целевую конструкцию, объясни выбор и составь новое предложение в другом контексте. Затем перейди к заданиям: сначала диагностика, затем управляемая и самостоятельная практика, затем новые вопросы выходной проверки.\n\n### 4.11. Самопроверка\n\nПеред отправкой ответа проверь:\n1. Причина и следствие не перепутаны.\n2. Because/although вводят clause.\n3. Because of/despite вводят подходящую группу.\n4. Цель выражена to или so that.\n5. So/such согласованы со структурой.\n6. Уступка и сопоставление логичны; пунктуация корректна.\n\n### 4.12. Краткая памятка\n\nBecause/although + clause; because of/despite/in spite of + noun/V-ing. To/in order to и so that — цель; so — следствие; so…that/such…that — степень и результат. Whereas — сопоставление. Выбирай союз по логике и структуре.\n\nНе выбирай форму только по одному знакомому слову: проверь контекст, значение и структуру. При ошибке вернись к соответствующей части конспекта и составь собственный пример.\n\n## 5. Практика\n\nВ приложении практика разделена на входную диагностику, управляемые задания, самостоятельную практику и новую выходную проверку. Закрытые ответы получают rationale и разбор ошибки. Свободный текст сохраняется и оценивается по рубрике; до подключения и реальной проверки AI-движка система не выдаёт его за автоматическую AI-оценку.\n\n## 6. Интервальное повторение\n\nПовторяй не весь урок автоматически, а конкретную ошибку: выбор формы, согласование, word order, значение, регистр или пунктуацию. Новая попытка должна менять лексический контекст и формулировку, чтобы проверять перенос, а не запоминание одной строки.\n\n## 7. Технический статус\n\n- Постоянный ID: `B1-17`.\n- Прогресс хранится отдельно в course.grammarLessons[\"B1-17\"].\n- Содержание и ключи имеют статус draft; 24 авторских закрытых задания и объяснения вычитаны, выбранные тексты источников проверены. Полная постраничная и пользовательская приёмка остаются открытыми.\n- Предварительное выполнение порогов не равно окончательному mastered: нужны отсроченное повторение и learner review.",
+  "theoryEnd": "## 5."
+}
