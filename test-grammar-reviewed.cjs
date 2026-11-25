@@ -5,6 +5,8 @@ vm.runInContext(fs.readFileSync('grammar-lesson-engine.js','utf8'),ctx);
 vm.runInContext(fs.readFileSync('grammar-curriculum-bulk-data.js','utf8'),ctx);
 const engine=ctx.window.GrammarLessonEngine;
 const ids=Array.from({length:22},(_,i)=>'B1-'+String(i+1).padStart(2,'0'));
+const a2=Array.from({length:3},(_,i)=>'A2-'+String(i+1).padStart(2,'0'));
+ids.push(...a2);
 const log=fs.readFileSync('materials/GRAMMAR-MANUAL-REVIEW-LOG.md','utf8');
 const norm=s=>s.replace(/\r\n/g,'\n');
 const prompts=new Set(),positions=[0,0,0];
@@ -40,6 +42,6 @@ for(const id of ids){
  engine.getState(id);assert.equal(migrated.previousVersions.length,1,id);assert.equal(saves,before+1,id);
  assert.ok(engine.view(id).includes(lesson.title),id+' render');
 }
-assert.equal(prompts.size,528);
-assert.equal(positions.reduce((a,b)=>a+b,0),528);
-console.log('All 22 B1 reviewed runtime snapshots, theory, 528 closed tasks, 22 open rubrics, and non-destructive version migration passed. Answer positions: '+positions.join('/'));
+assert.equal(prompts.size,ids.length*24);
+assert.equal(positions.reduce((a,b)=>a+b,0),ids.length*24);
+console.log('Reviewed runtime snapshots: '+ids.length+' lessons, '+prompts.size+' closed tasks, '+ids.length+' open rubrics; non-destructive version migration passed. Answer positions: '+positions.join('/'));

@@ -1,0 +1,744 @@
+{
+  "id": "A2-01",
+  "level": "A2",
+  "sequence": "A2-01",
+  "grammarFamily": "A2-01",
+  "questionBankSource": "topic-specific-authored",
+  "sourceVerification": "draft; selected source text consulted; complete source-page and learner review pending",
+  "topicProfile": {
+    "label": "Past Simple: affirmative, negatives and questions",
+    "skillTarget": "past-simple-full",
+    "core": "Past Simple (простое прошедшее время) обозначает событие, состояние или привычку в прошлом. Время события закончилось или отделено от настоящего. Можно назвать момент прямо (yesterday, in 2024) или понять его из рассказа. Например, I visited the museum last Sunday — Я посетила музей в прошлое воскресенье.",
+    "form": "| Тип предложения | Формула | Пример |\n|---|---|---|\n| Утверждение | subject + V2 | She worked yesterday. |\n| Отрицание | subject + did not + V1 | She didn't work yesterday. |\n| Общий вопрос | Did + subject + V1? | Did she work yesterday? |\n| Специальный вопрос | Wh-word + did + subject + V1? | Where did she work? |\n| Be, утверждение | I/he/she/it + was; you/we/they + were | They were tired. |\n| Be, отрицание | was not / were not | They weren't tired. |\n| Be, вопрос | Was/Were + subject? | Were they tired? |",
+    "selection": "Сначала установи, что речь о прошлом. Затем определи, является ли сказуемое be или обычным глаголом. Для утверждения с обычным глаголом выбери V2; для отрицания или вопроса — did + V1. Для be используй was/were без did.",
+    "contrast": "| Форма | Смысл |\n|---|---|\n| I study English every day. | Нынешняя привычка (Present Simple). |\n| I studied English yesterday. | Завершённое прошлое действие. |\n| I was studying at eight yesterday. | Процесс в прошлой точке. |\n| I have studied English before. | Опыт до настоящего; точный законченный момент не указан. |\n| I was at home yesterday. | Прошлое состояние с be. |",
+    "boundary": "Вопрос к подлежащему часто не требует did: Who called you? — Кто тебе позвонил? Но Who did you call? — Кому ты позвонила? В последнем вопросе who — дополнение. В вопросах с be ставится was/were перед подлежащим, а не did. Did в кратком ответе заменяет обычный глагол: Yes, I did; No, I didn't. Для be: Yes, I was; No, I wasn't.",
+    "pronunciation": "Окончание -ed имеет три основных произношения: /t/ после глухих звуков, кроме /t/ (worked, watched); /d/ после звонких звуков и гласных, кроме /d/ (played, lived); /ɪd/ после /t/ и /d/ (wanted, needed). Правило зависит от последнего звука, а не последней буквы. Произнеси глаголы вместе с целым предложением. У неправильных форм произношение запоминается отдельно, например read в прошлом произносится /red/. Это учебное объяснение; отдельная проверка словарного аудио ещё нужна.",
+    "examples": [
+      [
+        "We travelled to another city last weekend.",
+        "Мы ездили в другой город в прошлые выходные.",
+        "Правильный глагол, завершённое прошлое."
+      ],
+      [
+        "She bought a new notebook two days ago.",
+        "Она купила новую тетрадь два дня назад.",
+        "Неправильная форма bought."
+      ],
+      [
+        "Did you finish the assignment on Monday?",
+        "Ты закончила задание в понедельник?",
+        "Did + V1."
+      ],
+      [
+        "I didn't understand the instructions.",
+        "Я не поняла инструкцию.",
+        "После didn't используется V1."
+      ],
+      [
+        "Were the students ready for the test?",
+        "Студенты были готовы к тесту?",
+        "Вопрос с be без did."
+      ],
+      [
+        "Who found the missing key?",
+        "Кто нашёл пропавший ключ?",
+        "Вопрос к подлежащему без did."
+      ]
+    ],
+    "traps": [
+      [
+        "She goed home after class.",
+        "She went home after class.",
+        "Go имеет неправильную форму went."
+      ],
+      [
+        "Did you saw the notice?",
+        "Did you see the notice?",
+        "После did нужна V1."
+      ],
+      [
+        "They didn't finished the project.",
+        "They didn't finish the project.",
+        "Did уже передаёт прошедшее время."
+      ],
+      [
+        "Did he was at college?",
+        "Was he at college?",
+        "Be образует вопрос самостоятельно."
+      ],
+      [
+        "I studyed yesterday.",
+        "I studied yesterday.",
+        "Consonant + y → ied."
+      ]
+    ],
+    "toefl": "В Reading и Listening находи последовательность событий и точные прошлые даты. В Speaking расскажи о закончившемся учебном дне или опыте. В Writing Build a Sentence следи, чтобы did не сочетался с V2. Например, The researcher collected the samples on Monday; she did not analyse them until Tuesday. Смысл и грамматическая точность важнее сложных конструкций."
+  },
+  "title": "Past Simple — regular/irregular verbs, questions and negatives",
+  "description": "Рассказывать о завершённых событиях; строить did questions и didn't negatives; использовать irregular verbs",
+  "cardDescription": "Теория, guided practice, самостоятельные задания и выходная проверка по постоянному ID A2-01.",
+  "eyebrow": "Полный урок программы A2-01 · drafted",
+  "contentVersion": "1.1-draft",
+  "curriculumVersion": "1.0",
+  "prerequisites": [
+    "A1-06",
+    "A1-19"
+  ],
+  "outcomes": [
+    "Рассказывать о завершённых событиях; строить did questions и didn't negatives; использовать irregular verbs",
+    "Выбирать целевую конструкцию по контексту и смыслу.",
+    "Исправлять типичные ошибки и переносить правило в новый пример."
+  ],
+  "sourceRefs": [
+    "GR-01 U11-13",
+    "GR-02 U5",
+    "GR-03 U3",
+    "GR-05 A1 p22",
+    "GR-05 A2 p49-50"
+  ],
+  "sourceStatus": "selected source text consulted; full page verification pending",
+  "status": "drafted",
+  "legacyCoverage": "Полное ядро",
+  "toeflLinks": [
+    "Writing: Build a Sentence",
+    "Listening: tense/aspect, modality, weak forms and discourse cues",
+    "Writing: Write an Email"
+  ],
+  "thresholds": {
+    "independent": 7,
+    "exit": 4,
+    "criticalIds": [
+      "E1",
+      "E2",
+      "E3"
+    ]
+  },
+  "groups": {
+    "independent": "Самостоятельная практика",
+    "exit": "Выходная проверка"
+  },
+  "items": [
+    {
+      "id": "D1",
+      "group": "Входная диагностика",
+      "prompt": "Yesterday the lecture ___ at nine. Use the Past Simple of start.",
+      "options": [
+        "starts",
+        "started",
+        "starting"
+      ],
+      "answer": "started",
+      "accepted": [
+        "started"
+      ],
+      "why": "Yesterday указывает на прошлое; start + ed.",
+      "distractorWhy": "Starts — Present Simple.",
+      "distractorRationales": {
+        "starts": "Starts — Present Simple.",
+        "starting": "Starting не является личной формой."
+      },
+      "skillTarget": "past-simple-full",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D2",
+      "group": "Входная диагностика",
+      "prompt": "We ___ a new dictionary last month. Use the past of buy.",
+      "options": [
+        "bought",
+        "buyed",
+        "buy"
+      ],
+      "answer": "bought",
+      "accepted": [
+        "bought"
+      ],
+      "why": "Bought — неправильная форма V2.",
+      "distractorWhy": "Buyed не является стандартной V2.",
+      "distractorRationales": {
+        "buyed": "Buyed не является стандартной V2.",
+        "buy": "Buy — начальная форма."
+      },
+      "skillTarget": "past-simple-full",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D3",
+      "group": "Входная диагностика",
+      "prompt": "Choose the correct Past Simple negative with finish.",
+      "options": [
+        "She didn't finished the worksheet.",
+        "She not finished the worksheet.",
+        "She didn't finish the worksheet."
+      ],
+      "answer": "She didn't finish the worksheet.",
+      "accepted": [
+        "She didn't finish the worksheet."
+      ],
+      "why": "Didn't + V1.",
+      "distractorWhy": "После didn't не нужна V2.",
+      "distractorRationales": {
+        "She didn't finished the worksheet.": "После didn't не нужна V2.",
+        "She not finished the worksheet.": "Not без auxiliary не образует это отрицание."
+      },
+      "skillTarget": "past-simple-full",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D4",
+      "group": "Входная диагностика",
+      "prompt": "___ your tutor explain the rule yesterday?",
+      "options": [
+        "Was",
+        "Did",
+        "Does"
+      ],
+      "answer": "Did",
+      "accepted": [
+        "Did"
+      ],
+      "why": "Did образует вопрос с обычным глаголом в прошлом.",
+      "distractorWhy": "Was используется с be или V-ing.",
+      "distractorRationales": {
+        "Was": "Was используется с be или V-ing.",
+        "Does": "Does относится к настоящему."
+      },
+      "skillTarget": "past-simple-full",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G1",
+      "group": "Управляемая практика",
+      "prompt": "Where did you ___ your notebook after class?",
+      "options": [
+        "leave",
+        "left",
+        "leaving"
+      ],
+      "answer": "leave",
+      "accepted": [
+        "leave"
+      ],
+      "why": "После did используется V1 leave.",
+      "distractorWhy": "Left — V2.",
+      "distractorRationales": {
+        "left": "Left — V2.",
+        "leaving": "Leaving — форма -ing."
+      },
+      "skillTarget": "past-simple-full",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G2",
+      "group": "Управляемая практика",
+      "prompt": "The students ___ in the computer lab yesterday.",
+      "options": [
+        "was",
+        "did be",
+        "were"
+      ],
+      "answer": "were",
+      "accepted": [
+        "were"
+      ],
+      "why": "Plural students требуют were.",
+      "distractorWhy": "Was не согласуется с plural.",
+      "distractorRationales": {
+        "was": "Was не согласуется с plural.",
+        "did be": "Be в Past Simple не образуется через did."
+      },
+      "skillTarget": "past-simple-full",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G3",
+      "group": "Управляемая практика",
+      "prompt": "Choose the grammatical negative with singular be.",
+      "options": [
+        "The classroom didn't be open yesterday.",
+        "The classroom wasn't open yesterday.",
+        "The classroom weren't open yesterday."
+      ],
+      "answer": "The classroom wasn't open yesterday.",
+      "accepted": [
+        "The classroom wasn't open yesterday."
+      ],
+      "why": "Singular classroom → wasn't.",
+      "distractorWhy": "Did не используется для обычного отрицания be.",
+      "distractorRationales": {
+        "The classroom didn't be open yesterday.": "Did не используется для обычного отрицания be.",
+        "The classroom weren't open yesterday.": "Weren't не согласуется с classroom."
+      },
+      "skillTarget": "past-simple-full",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G4",
+      "group": "Управляемая практика",
+      "prompt": "Choose the correct question about a past state.",
+      "options": [
+        "Were you tired after the exam?",
+        "Did you were tired after the exam?",
+        "Was you tired after the exam?"
+      ],
+      "answer": "Were you tired after the exam?",
+      "accepted": [
+        "Were you tired after the exam?"
+      ],
+      "why": "You требует were, которое ставится перед subject.",
+      "distractorWhy": "Did не нужен с were.",
+      "distractorRationales": {
+        "Did you were tired after the exam?": "Did не нужен с were.",
+        "Was you tired after the exam?": "Was не согласуется с you."
+      },
+      "skillTarget": "past-simple-full",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G5",
+      "group": "Управляемая практика",
+      "prompt": "Choose the correct spelling of study in Past Simple.",
+      "options": [
+        "studyed",
+        "studys",
+        "studied"
+      ],
+      "answer": "studied",
+      "accepted": [
+        "studied"
+      ],
+      "why": "Consonant + y меняется на i перед -ed.",
+      "distractorWhy": "Studyed не учитывает правило.",
+      "distractorRationales": {
+        "studyed": "Studyed не учитывает правило.",
+        "studys": "Studys не Past Simple."
+      },
+      "skillTarget": "past-simple-full",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G6",
+      "group": "Управляемая практика",
+      "prompt": "Choose the correct past spelling of stop.",
+      "options": [
+        "stoped",
+        "stopped",
+        "stoppt"
+      ],
+      "answer": "stopped",
+      "accepted": [
+        "stopped"
+      ],
+      "why": "Конечная p удваивается перед -ed.",
+      "distractorWhy": "Stoped пропускает удвоение.",
+      "distractorRationales": {
+        "stoped": "Stoped пропускает удвоение.",
+        "stoppt": "Stoppt не стандартное написание."
+      },
+      "skillTarget": "past-simple-full",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I1",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct past form of live.",
+      "options": [
+        "liveed",
+        "livd",
+        "lived"
+      ],
+      "answer": "lived",
+      "accepted": [
+        "lived"
+      ],
+      "why": "После конечной e добавляется d.",
+      "distractorWhy": "Вторая e лишняя.",
+      "distractorRationales": {
+        "liveed": "Вторая e лишняя.",
+        "livd": "Livd пропускает e основы."
+      },
+      "skillTarget": "past-simple-full",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I2",
+      "group": "Самостоятельная практика",
+      "prompt": "Last Friday I ___ an email to the professor. Use the past of write.",
+      "options": [
+        "written",
+        "wrote",
+        "writed"
+      ],
+      "answer": "wrote",
+      "accepted": [
+        "wrote"
+      ],
+      "why": "Wrote — V2 глагола write.",
+      "distractorWhy": "Written — V3.",
+      "distractorRationales": {
+        "written": "Written — V3.",
+        "writed": "Writed не стандартная форма."
+      },
+      "skillTarget": "past-simple-full",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I3",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the short answer to 'Did you attend the seminar?' if you attended.",
+      "options": [
+        "Yes, I did.",
+        "Yes, I was.",
+        "Yes, I have."
+      ],
+      "answer": "Yes, I did.",
+      "accepted": [
+        "Yes, I did."
+      ],
+      "why": "В кратком ответе повторяется did.",
+      "distractorWhy": "Was относится к вопросу с be.",
+      "distractorRationales": {
+        "Yes, I was.": "Was относится к вопросу с be.",
+        "Yes, I have.": "Have не соответствует Past Simple."
+      },
+      "skillTarget": "past-simple-full",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I4",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the short negative answer to 'Was the room cold?'",
+      "options": [
+        "No, it didn't.",
+        "No, it weren't.",
+        "No, it wasn't."
+      ],
+      "answer": "No, it wasn't.",
+      "accepted": [
+        "No, it wasn't."
+      ],
+      "why": "Wasn't соответствует singular it и вопросу с was.",
+      "distractorWhy": "Didn't не используется здесь.",
+      "distractorRationales": {
+        "No, it didn't.": "Didn't не используется здесь.",
+        "No, it weren't.": "Weren't не согласуется с it."
+      },
+      "skillTarget": "past-simple-full",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I5",
+      "group": "Самостоятельная практика",
+      "prompt": "What did she ___ at the weekend? Complete with the main verb do.",
+      "options": [
+        "did",
+        "do",
+        "done"
+      ],
+      "answer": "do",
+      "accepted": [
+        "do"
+      ],
+      "why": "Первое did вспомогательное, второе do — V1.",
+      "distractorWhy": "Два did здесь дублируют прошедшую форму.",
+      "distractorRationales": {
+        "did": "Два did здесь дублируют прошедшую форму.",
+        "done": "Done — V3."
+      },
+      "skillTarget": "past-simple-full",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I6",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the neutral subject question about the person who opened the file.",
+      "options": [
+        "Who opened the file?",
+        "Who did opened the file?",
+        "Who open the file yesterday?"
+      ],
+      "answer": "Who opened the file?",
+      "accepted": [
+        "Who opened the file?"
+      ],
+      "why": "Who является подлежащим, opened — V2.",
+      "distractorWhy": "После did нельзя ставить V2.",
+      "distractorRationales": {
+        "Who did opened the file?": "После did нельзя ставить V2.",
+        "Who open the file yesterday?": "Open не выражает прошедшее."
+      },
+      "skillTarget": "past-simple-full",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I7",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the grammatical object question about a person you met yesterday.",
+      "options": [
+        "Who did you met yesterday?",
+        "Who you meet yesterday?",
+        "Who did you meet yesterday?"
+      ],
+      "answer": "Who did you meet yesterday?",
+      "accepted": [
+        "Who did you meet yesterday?"
+      ],
+      "why": "Who — дополнение; did + subject + V1.",
+      "distractorWhy": "Met — V2.",
+      "distractorRationales": {
+        "Who did you met yesterday?": "Met — V2.",
+        "Who you meet yesterday?": "Нет вспомогательного did."
+      },
+      "skillTarget": "past-simple-full",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I8",
+      "group": "Самостоятельная практика",
+      "prompt": "He ___ his keys on the desk yesterday. Use the past of put.",
+      "options": [
+        "putted",
+        "put",
+        "puts"
+      ],
+      "answer": "put",
+      "accepted": [
+        "put"
+      ],
+      "why": "Put — одинаковая V1 и V2.",
+      "distractorWhy": "Putted не V2 глагола put в этом значении.",
+      "distractorRationales": {
+        "putted": "Putted не V2 глагола put в этом значении.",
+        "puts": "Puts — Present Simple."
+      },
+      "skillTarget": "past-simple-full",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I9",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the sentence with a correct ago expression.",
+      "options": [
+        "We arrived three hours ago.",
+        "We arrived ago three hours.",
+        "We arrive three hours ago."
+      ],
+      "answer": "We arrived three hours ago.",
+      "accepted": [
+        "We arrived three hours ago."
+      ],
+      "why": "Ago ставится после длительности, arrived — V2.",
+      "distractorWhy": "Порядок слов неверный.",
+      "distractorRationales": {
+        "We arrived ago three hours.": "Порядок слов неверный.",
+        "We arrive three hours ago.": "Arrive не выражает прошедшее."
+      },
+      "skillTarget": "past-simple-full",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E1",
+      "group": "Выходная проверка",
+      "prompt": "Which sentence narrates a completed sequence in the past?",
+      "options": [
+        "I opened the folder, checked the file and sent the email.",
+        "I open the folder, checked the file and send the email yesterday.",
+        "I did opened the folder and sent the email."
+      ],
+      "answer": "I opened the folder, checked the file and sent the email.",
+      "accepted": [
+        "I opened the folder, checked the file and sent the email."
+      ],
+      "why": "Все три действия выражены V2.",
+      "distractorWhy": "Времена смешаны.",
+      "distractorRationales": {
+        "I open the folder, checked the file and send the email yesterday.": "Времена смешаны.",
+        "I did opened the folder and sent the email.": "После did нужна V1."
+      },
+      "skillTarget": "past-simple-full",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E2",
+      "group": "Выходная проверка",
+      "prompt": "Choose the verb whose -ed ending is pronounced /ɪd/.",
+      "options": [
+        "worked",
+        "played",
+        "needed"
+      ],
+      "answer": "needed",
+      "accepted": [
+        "needed"
+      ],
+      "why": "После звука /d/ окончание произносится /ɪd/.",
+      "distractorWhy": "Worked оканчивается /t/.",
+      "distractorRationales": {
+        "worked": "Worked оканчивается /t/.",
+        "played": "Played оканчивается /d/."
+      },
+      "skillTarget": "past-simple-full",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E3",
+      "group": "Выходная проверка",
+      "prompt": "Which sentence describes a repeated habit during a finished past period?",
+      "options": [
+        "She cycles to college every day now.",
+        "She cycled to college every day last spring.",
+        "She is cycling to college at the moment."
+      ],
+      "answer": "She cycled to college every day last spring.",
+      "accepted": [
+        "She cycled to college every day last spring."
+      ],
+      "why": "Last spring задаёт завершённый период; cycled — V2.",
+      "distractorWhy": "Это нынешняя привычка.",
+      "distractorRationales": {
+        "She cycles to college every day now.": "Это нынешняя привычка.",
+        "She is cycling to college at the moment.": "Это текущий процесс."
+      },
+      "skillTarget": "past-simple-full",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E4",
+      "group": "Выходная проверка",
+      "prompt": "Correct the question: Did they took the bus?",
+      "options": [
+        "Did they take the bus?",
+        "Did they taking the bus?",
+        "Were they take the bus?"
+      ],
+      "answer": "Did they take the bus?",
+      "accepted": [
+        "Did they take the bus?"
+      ],
+      "why": "После did нужна V1 take.",
+      "distractorWhy": "Taking не V1.",
+      "distractorRationales": {
+        "Did they taking the bus?": "Taking не V1.",
+        "Were they take the bus?": "Were не образует такую форму обычного глагола."
+      },
+      "skillTarget": "past-simple-full",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E5",
+      "group": "Выходная проверка",
+      "prompt": "Choose the correct sentence combining a past state and a past action.",
+      "options": [
+        "I did be hungry, so I made a sandwich.",
+        "I was hungry, so I maked a sandwich.",
+        "I was hungry, so I made a sandwich."
+      ],
+      "answer": "I was hungry, so I made a sandwich.",
+      "accepted": [
+        "I was hungry, so I made a sandwich."
+      ],
+      "why": "Was — Past Simple be; made — V2 make.",
+      "distractorWhy": "Did be не обычная модель прошедшего состояния.",
+      "distractorRationales": {
+        "I did be hungry, so I made a sandwich.": "Did be не обычная модель прошедшего состояния.",
+        "I was hungry, so I maked a sandwich.": "Maked не стандартная V2."
+      },
+      "skillTarget": "past-simple-full",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "W1",
+      "group": "Самостоятельное применение",
+      "prompt": "Расскажи о прошедшем учебном дне в 7–9 предложениях. Используй три правильных и три неправильных глагола, was/were, два отрицания, общий и специальный вопросы. Подчеркни V2 и V1 после did. Объясни один вопрос к подлежащему.",
+      "open": true,
+      "rubric": [
+        "События относятся к прошлому и имеют понятную последовательность.",
+        "Правильные глаголы имеют верное написание -ed.",
+        "Неправильные глаголы стоят в V2 в утверждениях.",
+        "После did/didn't стоит V1.",
+        "Was/were согласуются с подлежащим; did не используется с be.",
+        "Вопросы и отрицания образованы правильно."
+      ],
+      "skillTarget": "Самостоятельное применение A2-01",
+      "interactionType": "open-production",
+      "difficulty": "transfer",
+      "sourceBasis": "Speakbase-authored open production; self-review rubric only until real AI feedback is connected",
+      "contentVersion": "1.1-draft"
+    }
+  ],
+  "markdown": "# Speakbase — A2-01: Past Simple — regular/irregular verbs, questions and negatives\n\n**Curriculum ID:** `A2-01`  \n**Уровень:** A2  \n**Версия:** 1.1-draft\n**Статус:** drafted; selected source text checked; full source-page and learner acceptance pending\n**Предварительные темы:** A1-06, A1-19  \n**Связь со старым каталогом:** Полное ядро — №4 Past Simple; №5 Past Simple reinforcement\n\n## 1. Результаты обучения\n\n- Рассказывать о завершённых событиях; строить did questions и didn't negatives; использовать irregular verbs\n- Выбирать целевую форму по значению, структуре предложения и контексту.\n- Объяснять, почему близкая грамматическая форма меняет смысл или регистр.\n- Находить и исправлять типичные ошибки русскоязычных студентов.\n\n## 2. Источники и статус сверки\n\n| Source | PDF navigation | Lesson-specific checks | Status |\n|---|---|---|---|\n| GR-01 U11-13 | PDF pages 33-38 (Unit 11-13) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-02 U5 | PDF pages 22-23 (Unit 5) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-03 U3 | PDF pages 30-31 (Unit 3) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-05 A1 p22 | PDF pages 22 (A1 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-05 A2 p49-50 | PDF pages 49-50 (A2 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n\nUnit/page locations are navigation aids only. They do not prove that the cited explanation, examples, restrictions and answer key have been checked for this lesson. Examples and explanations below are Speakbase-authored, not quotations from the textbook.\n\nПеред переводом этого урока в source-verified необходимо открыть целевые страницы конкретного издания, записать печатную и PDF-пагинацию, сверить ограничения и исключения. Для GR-03 со сканированными страницами обязательна визуальная проверка.\n\n**Evidence for this editorial pass:** GR-02 Unit 5, PDF p. 22 / printed p. 10: directly checked theory text on regular and irregular verbs, did/didn't, main verb do and was/were. GR-01, GR-03, GR-05, exercise pages and visual review pending. The selected source text was consulted; not all pages, exercises, editions, scanned GR-03 pages or GR-05 descriptors were checked. Author-created explanations and practice are not copied source exercises.\n\n## 3. Место темы и границы\n\nПолный Past Simple: regular/irregular V2, spelling и произношение -ed, did questions и didn’t negatives. После did всегда base form.\n\nСтарый каталог содержит: №4 Past Simple; №5 Past Simple reinforcement. Его статус — Полное ядро. Старые отметки завершения не переносятся автоматически на новый постоянный ID. Тема рассматривается в уровне A2 и не заменяет обязательные prerequisites.\n\n## 4. Полный конспект\n\n### 4.1. Основная идея и функция конструкции\n\nPast Simple (простое прошедшее время) обозначает событие, состояние или привычку в прошлом. Время события закончилось или отделено от настоящего. Можно назвать момент прямо (yesterday, in 2024) или понять его из рассказа. Например, I visited the museum last Sunday — Я посетила музей в прошлое воскресенье.\n\nPast Simple подходит не только для коротких действий. I lived there for five years описывает завершённый период жизни; She walked to school every day in 2023 — прошлую привычку. В рассказе несколько Past Simple часто передают последовательность: I opened the door, entered the room and sat down. Важно: говорящий рассматривает события как прошлые, а не как процесс в определённой точке времени. Сравнение с Past Continuous будет в A2-03.\n\n### 4.2. Формирование и грамматическая модель\n\n| Тип предложения | Формула | Пример |\n|---|---|---|\n| Утверждение | subject + V2 | She worked yesterday. |\n| Отрицание | subject + did not + V1 | She didn't work yesterday. |\n| Общий вопрос | Did + subject + V1? | Did she work yesterday? |\n| Специальный вопрос | Wh-word + did + subject + V1? | Where did she work? |\n| Be, утверждение | I/he/she/it + was; you/we/they + were | They were tired. |\n| Be, отрицание | was not / were not | They weren't tired. |\n| Be, вопрос | Was/Were + subject? | Were they tired? |\n\nV1 — начальная форма; V2 — форма Past Simple. У правильных глаголов добавляем -ed: work → worked; после конечной e только -d: live → lived; после consonant + y меняем y на i: study → studied, но play → played. В коротких глаголах с конечным consonant-vowel-consonant часто удваивается последняя согласная: stop → stopped, plan → planned. Не удваиваем w, x, y. У многосложных слов учитываем ударение: prefer → preferred, visit → visited. Неправильные глаголы запоминаем: go → went, see → saw, buy → bought, take → took, make → made, have → had, write → wrote, do → did, come → came, put → put. В вопросе/отрицании did уже выражает прошедшее, поэтому после него нужна V1, даже у неправильного глагола. Did you do your homework? Первое did — вспомогательное, do — смысловое.\n\n### 4.3. Как выбрать подходящую форму\n\nСначала установи, что речь о прошлом. Затем определи, является ли сказуемое be или обычным глаголом. Для утверждения с обычным глаголом выбери V2; для отрицания или вопроса — did + V1. Для be используй was/were без did.\n\nМаркеры: yesterday, last night/week/year, two days ago, in 2023, when I was a child. Ago ставится после обозначения периода: three weeks ago. Last week не требует предлога in; yesterday также обычно употребляется без предлога. Если время не названо, но ясно из предыдущего вопроса, Past Simple всё равно возможен: What did you do on holiday? — I visited a castle. Не добавляй -s к V2 для he/she/it.\n\n### 4.4. Сравнение с близкими конструкциями\n\n| Форма | Смысл |\n|---|---|\n| I study English every day. | Нынешняя привычка (Present Simple). |\n| I studied English yesterday. | Завершённое прошлое действие. |\n| I was studying at eight yesterday. | Процесс в прошлой точке. |\n| I have studied English before. | Опыт до настоящего; точный законченный момент не указан. |\n| I was at home yesterday. | Прошлое состояние с be. |\n\n### 4.5. Примеры с переводом и объяснением\n\n| English | Перевод | Почему это подходит |\n| --- | --- | --- |\n| We travelled to another city last weekend. | Мы ездили в другой город в прошлые выходные. | Правильный глагол, завершённое прошлое. |\n| She bought a new notebook two days ago. | Она купила новую тетрадь два дня назад. | Неправильная форма bought. |\n| Did you finish the assignment on Monday? | Ты закончила задание в понедельник? | Did + V1. |\n| I didn't understand the instructions. | Я не поняла инструкцию. | После didn't используется V1. |\n| Were the students ready for the test? | Студенты были готовы к тесту? | Вопрос с be без did. |\n| Who found the missing key? | Кто нашёл пропавший ключ? | Вопрос к подлежащему без did. |\n\n### 4.6. Исключения, ограничения и границы употребления\n\nВопрос к подлежащему часто не требует did: Who called you? — Кто тебе позвонил? Но Who did you call? — Кому ты позвонила? В последнем вопросе who — дополнение. В вопросах с be ставится was/were перед подлежащим, а не did. Did в кратком ответе заменяет обычный глагол: Yes, I did; No, I didn't. Для be: Yes, I was; No, I wasn't.\n\nНе путай went (V2) и gone (V3): She went home yesterday. После did употребляется go. В английском возможны варианты написания travelled (BrE) и traveled (AmE); оба корректны. Was относится к I/he/she/it, were — к you/we/they, даже при you в единственном числе. Past Simple не обязан описывать событие, которое произошло один раз: repeated actions и состояния также возможны. Маркер yesterday помогает выбрать время, но решение принимается по смыслу всего предложения.\n\n### 4.7. Типичные ошибки русскоязычных студентов\n\n| Ошибка | Исправление | Объяснение |\n| --- | --- | --- |\n| She goed home after class. | She went home after class. | Go имеет неправильную форму went. |\n| Did you saw the notice? | Did you see the notice? | После did нужна V1. |\n| They didn't finished the project. | They didn't finish the project. | Did уже передаёт прошедшее время. |\n| Did he was at college? | Was he at college? | Be образует вопрос самостоятельно. |\n| I studyed yesterday. | I studied yesterday. | Consonant + y → ied. |\n\n### 4.8. Произношение и восприятие на слух\n\nОкончание -ed имеет три основных произношения: /t/ после глухих звуков, кроме /t/ (worked, watched); /d/ после звонких звуков и гласных, кроме /d/ (played, lived); /ɪd/ после /t/ и /d/ (wanted, needed). Правило зависит от последнего звука, а не последней буквы. Произнеси глаголы вместе с целым предложением. У неправильных форм произношение запоминается отдельно, например read в прошлом произносится /red/. Это учебное объяснение; отдельная проверка словарного аудио ещё нужна.\n\nСначала прослушай или прочитай пример, затем произнеси его целиком. Обрати внимание на смысловое ударение и форму конструкции; не ориентируйся только на буквенный перевод.\n\n### 4.9. Академический английский и TOEFL-перенос\n\nВ Reading и Listening находи последовательность событий и точные прошлые даты. В Speaking расскажи о закончившемся учебном дне или опыте. В Writing Build a Sentence следи, чтобы did не сочетался с V2. Например, The researcher collected the samples on Monday; she did not analyse them until Tuesday. Смысл и грамматическая точность важнее сложных конструкций.\n\nЭто авторская практика переноса навыка. Она не является официальным заданием TOEFL и не выдаётся за официальный результат экзамена.\n\n### 4.10. Примеры для управляемого разбора\n\n- We travelled to another city last weekend. — Мы ездили в другой город в прошлые выходные. Правильный глагол, завершённое прошлое.\n- She bought a new notebook two days ago. — Она купила новую тетрадь два дня назад. Неправильная форма bought.\n- Did you finish the assignment on Monday? — Ты закончила задание в понедельник? Did + V1.\n\nДля каждого примера назови целевую конструкцию, объясни выбор и составь новое предложение в другом контексте. Затем перейди к заданиям: сначала диагностика, затем управляемая и самостоятельная практика, затем новые вопросы выходной проверки.\n\n### 4.11. Самопроверка\n\nПеред отправкой ответа проверь:\n1. События относятся к прошлому и имеют понятную последовательность.\n2. Правильные глаголы имеют верное написание -ed.\n3. Неправильные глаголы стоят в V2 в утверждениях.\n4. После did/didn't стоит V1.\n5. Was/were согласуются с подлежащим; did не используется с be.\n6. Вопросы и отрицания образованы правильно.\n\n### 4.12. Краткая памятка\n\nPast Simple: V2 в утверждении, did/didn't + V1 в вопросе и отрицании. Be: was/were, wasn't/weren't, Was/Were + subject? Правильные глаголы образуют -ed, неправильные нужно запоминать. Who как подлежащее обычно не требует did. Определяй прошлую временную перспективу по контексту.\n\nНе выбирай форму только по одному знакомому слову: проверь контекст, значение и структуру. При ошибке вернись к соответствующей части конспекта и составь собственный пример.\n\n## 5. Практика\n\nВ приложении практика разделена на входную диагностику, управляемые задания, самостоятельную практику и новую выходную проверку. Закрытые ответы получают rationale и разбор ошибки. Свободный текст сохраняется и оценивается по рубрике; до подключения и реальной проверки AI-движка система не выдаёт его за автоматическую AI-оценку.\n\n## 6. Интервальное повторение\n\nПовторяй не весь урок автоматически, а конкретную ошибку: выбор формы, согласование, word order, значение, регистр или пунктуацию. Новая попытка должна менять лексический контекст и формулировку, чтобы проверять перенос, а не запоминание одной строки.\n\n## 7. Технический статус\n\n- Постоянный ID: `A2-01`.\n- Прогресс хранится отдельно в course.grammarLessons[\"A2-01\"].\n- Содержание и ключи имеют статус draft; 24 авторских закрытых задания и объяснения вычитаны, выбранные тексты источников проверены. Полная постраничная и пользовательская приёмка остаются открытыми.\n- Предварительное выполнение порогов не равно окончательному mastered: нужны отсроченное повторение и learner review.",
+  "theoryEnd": "## 5."
+}

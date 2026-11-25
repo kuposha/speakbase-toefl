@@ -27,3 +27,7 @@ B1-01 (36641b6), B1-02 and B1-03 (654e1a2) have expanded theory, original 24 clo
 ## B1 editorial pass completed
 
 All 22 B1 lessons (B1-01 through B1-22) now have reviewed 1.1-draft runtime snapshots, matching Markdown, 24 individually authored closed tasks with per-option rationales and one tailored open task each. Totals: 528 closed and 22 open tasks. Selected GR-02 theory and selected GR-05 descriptors were consulted; full source-page, exercise-page and scan verification is NOT complete. Keep PARTIAL status until those checks and learner acceptance are done. Browser bulk QA passed; dedicated B1 test validates all snapshots and archived old draft answers for every B1 lesson. No real accounts or physical phones were tested. Daily/TOEFL integration remains pending. Next: A2-01 through A2-18 editorial review; then A1, remaining source/practice coverage checks, daily route integration and TOEFL linking. Preserve unrelated dirty AI/exam/documentation work.
+
+## A2 editorial pass — first package
+
+A2-01 through A2-03: expanded Russian theory, 72 individually authored closed tasks and 3 open tasks with rubrics; runtime snapshots and Markdown updated. GR-02 Units 5–6 theory text directly consulted (PDF pp. 22 and 24; printed pp. 10 and 12). Additional sources, exercise pages, visual verification and learner acceptance pending. Status PARTIAL. Next: A2-04 future forms, then A2-05–06 Present Perfect. Preserve unrelated uncommitted changes.
