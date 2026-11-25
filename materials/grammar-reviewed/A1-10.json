@@ -1,0 +1,739 @@
+{
+  "id": "A1-10",
+  "level": "A1",
+  "sequence": "A1-10",
+  "grammarFamily": "A1-10",
+  "questionBankSource": "topic-specific-authored",
+  "sourceVerification": "draft; selected source text consulted; complete source-page and learner review pending",
+  "topicProfile": {
+    "label": "countable and uncountable nouns; basic quantity",
+    "skillTarget": "countable-uncountable-basic-quantity",
+    "core": "Countable nouns обозначают отдельные предметы: one apple, two apples. Uncountable nouns обозначают вещество, массу или понятие, которое в данном значении не считают отдельными единицами: water, rice, information. В русском число может отличаться: money — деньги, но в английском это обычно неисчисляемое существительное.",
+    "form": "| Тип | Один | Несколько / количество |\n|---|---|---|\n| Countable | a pen | two pens, some pens |\n| Uncountable | a glass of milk | some milk |\n| Много | many pens | much milk |\n| Мало / немного | (a) few pens | (a) little milk |\n| Оба типа | a lot of pens | a lot of milk |\n| Нет | no pens | no milk |",
+    "selection": "Определи, что именно имеется в виду. Для количества исчисляемых plural используй many/how many, few/a few. Для неисчисляемого — much/how much, little/a little. A lot of подходит обоим типам. В утвердительной разговорной фразе a lot of water обычно естественнее much water без усилителя.",
+    "contrast": "| Countable | Uncountable |\n|---|---|\n| an apple / three apples | some rice |\n| many questions | much information |\n| a few notebooks | a little time |\n| How many bottles? | How much water? |\n| There are some chairs. | There is some furniture. |",
+    "boundary": "Advice, information, furniture, homework, luggage, money обычно uncountable. A piece of advice, a piece of information, a piece of furniture, a bag of rice — способы выделить единицу. Is/are зависит от того, что является subject: The furniture is new, The chairs are new.",
+    "pronunciation": "Произноси many books и much water как целые группы. В речи some часто безударно. В a few и a little не теряй артикль a: он меняет смысл. Отдельная аудиосверка не выполнена.",
+    "examples": [
+      [
+        "I bought some apples.",
+        "Я купила несколько яблок.",
+        "Some + plural countable."
+      ],
+      [
+        "There is some rice in the bowl.",
+        "В миске есть рис.",
+        "Rice uncountable."
+      ],
+      [
+        "How much time do you have?",
+        "Сколько у тебя времени?",
+        "Much + uncountable time."
+      ],
+      [
+        "How many pencils do you need?",
+        "Сколько карандашей тебе нужно?",
+        "Many + plural pencils."
+      ],
+      [
+        "Can I have some bread?",
+        "Можно мне немного хлеба?",
+        "Some в просьбе."
+      ],
+      [
+        "We have a little milk left.",
+        "У нас осталось немного молока.",
+        "A little + uncountable."
+      ]
+    ],
+    "traps": [
+      [
+        "An information.",
+        "Some information.",
+        "Information неисчисляемое."
+      ],
+      [
+        "How much pencils?",
+        "How many pencils?",
+        "Plural countable требует many."
+      ],
+      [
+        "I have a few water.",
+        "I have a little water.",
+        "Water uncountable."
+      ],
+      [
+        "There aren't no apples.",
+        "There aren't any apples.",
+        "Не дублируй отрицание."
+      ]
+    ],
+    "toefl": "В учебных текстах различай количество людей и объём ресурсов. В Speaking описывай, что есть и чего не хватает; в Writing не преувеличивай количество: some students не означает all students. Это базовая практика."
+  },
+  "title": "Countable/uncountable nouns and basic quantity",
+  "description": "Различать исчисляемые/неисчисляемые существительные; использовать some/any, numbers, a lot of в простых контекстах",
+  "cardDescription": "Теория, guided practice, самостоятельные задания и выходная проверка по постоянному ID A1-10.",
+  "eyebrow": "Полный урок программы A1-10 · drafted",
+  "contentVersion": "1.1-draft",
+  "curriculumVersion": "1.0",
+  "prerequisites": [
+    "A1-04"
+  ],
+  "outcomes": [
+    "Различать исчисляемые/неисчисляемые существительные; использовать some/any, numbers, a lot of в простых контекстах",
+    "Выбирать целевую конструкцию по контексту и смыслу.",
+    "Исправлять типичные ошибки и переносить правило в новый пример."
+  ],
+  "sourceRefs": [
+    "GR-01 U67-69",
+    "GR-01 U77-85",
+    "GR-02 U69-71",
+    "GR-02 U85-87",
+    "GR-05 A1 p12",
+    "GR-05 A1 p19",
+    "GR-05 A1 p21"
+  ],
+  "sourceStatus": "selected source text consulted; full page verification pending",
+  "status": "drafted",
+  "legacyCoverage": "Частично",
+  "toeflLinks": [
+    "Writing: Build a Sentence",
+    "Writing: Write an Email"
+  ],
+  "thresholds": {
+    "independent": 7,
+    "exit": 4,
+    "criticalIds": [
+      "E1",
+      "E2",
+      "E3"
+    ]
+  },
+  "groups": {
+    "independent": "Самостоятельная практика",
+    "exit": "Выходная проверка"
+  },
+  "items": [
+    {
+      "id": "D1",
+      "group": "Входная диагностика",
+      "prompt": "Choose a countable noun in its ordinary meaning.",
+      "options": [
+        "water",
+        "notebook",
+        "rice"
+      ],
+      "answer": "notebook",
+      "accepted": [
+        "notebook"
+      ],
+      "why": "Notebook можно посчитать.",
+      "distractorWhy": "Water — вещество.",
+      "distractorRationales": {
+        "water": "Water — вещество.",
+        "rice": "Rice обычно масса."
+      },
+      "skillTarget": "countable-uncountable-basic-quantity",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D2",
+      "group": "Входная диагностика",
+      "prompt": "Choose an uncountable noun in its ordinary meaning.",
+      "options": [
+        "furniture",
+        "chair",
+        "pencil"
+      ],
+      "answer": "furniture",
+      "accepted": [
+        "furniture"
+      ],
+      "why": "Furniture — неисчисляемая категория.",
+      "distractorWhy": "Chair — отдельный предмет.",
+      "distractorRationales": {
+        "chair": "Chair — отдельный предмет.",
+        "pencil": "Pencil можно посчитать."
+      },
+      "skillTarget": "countable-uncountable-basic-quantity",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D3",
+      "group": "Входная диагностика",
+      "prompt": "Choose the quantity phrase with sugar.",
+      "options": [
+        "a sugar (ordinary substance)",
+        "three sugars (ordinary substance)",
+        "some sugar"
+      ],
+      "answer": "some sugar",
+      "accepted": [
+        "some sugar"
+      ],
+      "why": "Some + uncountable.",
+      "distractorWhy": "A не используется напрямую.",
+      "distractorRationales": {
+        "a sugar (ordinary substance)": "A не используется напрямую.",
+        "three sugars (ordinary substance)": "Без указания порций plural не нужен."
+      },
+      "skillTarget": "countable-uncountable-basic-quantity",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D4",
+      "group": "Входная диагностика",
+      "prompt": "Choose the phrase with a single countable fruit.",
+      "options": [
+        "some orange (one whole fruit)",
+        "an orange",
+        "an oranges"
+      ],
+      "answer": "an orange",
+      "accepted": [
+        "an orange"
+      ],
+      "why": "An + singular fruit.",
+      "distractorWhy": "Some orange может означать часть.",
+      "distractorRationales": {
+        "some orange (one whole fruit)": "Some orange может означать часть.",
+        "an oranges": "Oranges plural."
+      },
+      "skillTarget": "countable-uncountable-basic-quantity",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G1",
+      "group": "Управляемая практика",
+      "prompt": "Choose the neutral affirmative sentence about several apples.",
+      "options": [
+        "I bought some apples.",
+        "I bought a apples.",
+        "I bought much apples."
+      ],
+      "answer": "I bought some apples.",
+      "accepted": [
+        "I bought some apples."
+      ],
+      "why": "Some + plural.",
+      "distractorWhy": "A требует singular.",
+      "distractorRationales": {
+        "I bought a apples.": "A требует singular.",
+        "I bought much apples.": "Much требует uncountable."
+      },
+      "skillTarget": "countable-uncountable-basic-quantity",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G2",
+      "group": "Управляемая практика",
+      "prompt": "Choose the ordinary negative with any.",
+      "options": [
+        "I don't have no bread.",
+        "I don't have any breads (ordinary food).",
+        "I don't have any bread."
+      ],
+      "answer": "I don't have any bread.",
+      "accepted": [
+        "I don't have any bread."
+      ],
+      "why": "Any + uncountable после don't.",
+      "distractorWhy": "Двойное отрицание.",
+      "distractorRationales": {
+        "I don't have no bread.": "Двойное отрицание.",
+        "I don't have any breads (ordinary food).": "Bread обычно uncountable."
+      },
+      "skillTarget": "countable-uncountable-basic-quantity",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G3",
+      "group": "Управляемая практика",
+      "prompt": "Choose the neutral question about milk availability.",
+      "options": [
+        "Do we have a milk (ordinary substance)?",
+        "Do we have any milk?",
+        "Do we have many milk?"
+      ],
+      "answer": "Do we have any milk?",
+      "accepted": [
+        "Do we have any milk?"
+      ],
+      "why": "Any в нейтральном вопросе.",
+      "distractorWhy": "A требует singular countable.",
+      "distractorRationales": {
+        "Do we have a milk (ordinary substance)?": "A требует singular countable.",
+        "Do we have many milk?": "Many требует plural."
+      },
+      "skillTarget": "countable-uncountable-basic-quantity",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G4",
+      "group": "Управляемая практика",
+      "prompt": "Choose a polite request for a small amount of juice.",
+      "options": [
+        "Can I have some juice?",
+        "Can I have many juice?",
+        "Can I have a few juice?"
+      ],
+      "answer": "Can I have some juice?",
+      "accepted": [
+        "Can I have some juice?"
+      ],
+      "why": "Some естественно в просьбе.",
+      "distractorWhy": "Many с plural.",
+      "distractorRationales": {
+        "Can I have many juice?": "Many с plural.",
+        "Can I have a few juice?": "A few с plural."
+      },
+      "skillTarget": "countable-uncountable-basic-quantity",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G5",
+      "group": "Управляемая практика",
+      "prompt": "Choose a polite offer of biscuits using some.",
+      "options": [
+        "Would you like much biscuits?",
+        "Would you like a biscuits?",
+        "Would you like some biscuits?"
+      ],
+      "answer": "Would you like some biscuits?",
+      "accepted": [
+        "Would you like some biscuits?"
+      ],
+      "why": "Some + plural в предложении.",
+      "distractorWhy": "Much не с plural.",
+      "distractorRationales": {
+        "Would you like much biscuits?": "Much не с plural.",
+        "Would you like a biscuits?": "A не с plural."
+      },
+      "skillTarget": "countable-uncountable-basic-quantity",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G6",
+      "group": "Управляемая практика",
+      "prompt": "Choose a question about the number of oranges.",
+      "options": [
+        "How much oranges do we need?",
+        "How many oranges do we need?",
+        "How many orange do we need?"
+      ],
+      "answer": "How many oranges do we need?",
+      "accepted": [
+        "How many oranges do we need?"
+      ],
+      "why": "Many + plural oranges.",
+      "distractorWhy": "Much для массы.",
+      "distractorRationales": {
+        "How much oranges do we need?": "Much для массы.",
+        "How many orange do we need?": "Orange должен быть plural."
+      },
+      "skillTarget": "countable-uncountable-basic-quantity",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I1",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose a question about the amount of flour.",
+      "options": [
+        "How many flour do we need?",
+        "How few flour do we need?",
+        "How much flour do we need?"
+      ],
+      "answer": "How much flour do we need?",
+      "accepted": [
+        "How much flour do we need?"
+      ],
+      "why": "Much + uncountable.",
+      "distractorWhy": "Many с plural.",
+      "distractorRationales": {
+        "How many flour do we need?": "Many с plural.",
+        "How few flour do we need?": "Few с plural."
+      },
+      "skillTarget": "countable-uncountable-basic-quantity",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I2",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose a quantity expression that fits both milk and cups.",
+      "options": [
+        "many",
+        "a lot of",
+        "a few"
+      ],
+      "answer": "a lot of",
+      "accepted": [
+        "a lot of"
+      ],
+      "why": "A lot of подходит обоим.",
+      "distractorWhy": "Many только plural.",
+      "distractorRationales": {
+        "many": "Many только plural.",
+        "a few": "A few только plural."
+      },
+      "skillTarget": "countable-uncountable-basic-quantity",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I3",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose a small available number of pens.",
+      "options": [
+        "a few pens",
+        "a little pens",
+        "much pens"
+      ],
+      "answer": "a few pens",
+      "accepted": [
+        "a few pens"
+      ],
+      "why": "A few + plural.",
+      "distractorWhy": "Little с uncountable.",
+      "distractorRationales": {
+        "a little pens": "Little с uncountable.",
+        "much pens": "Much с uncountable."
+      },
+      "skillTarget": "countable-uncountable-basic-quantity",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I4",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose a small available amount of butter.",
+      "options": [
+        "a few butter",
+        "many butter",
+        "a little butter"
+      ],
+      "answer": "a little butter",
+      "accepted": [
+        "a little butter"
+      ],
+      "why": "A little + uncountable.",
+      "distractorWhy": "Few с plural.",
+      "distractorRationales": {
+        "a few butter": "Few с plural.",
+        "many butter": "Many с plural."
+      },
+      "skillTarget": "countable-uncountable-basic-quantity",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I5",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the phrase emphasizing a shortage of chairs.",
+      "options": [
+        "very little chairs",
+        "very few chairs",
+        "very much chairs"
+      ],
+      "answer": "very few chairs",
+      "accepted": [
+        "very few chairs"
+      ],
+      "why": "Few + plural означает мало.",
+      "distractorWhy": "Little с uncountable.",
+      "distractorRationales": {
+        "very little chairs": "Little с uncountable.",
+        "very much chairs": "Much с uncountable."
+      },
+      "skillTarget": "countable-uncountable-basic-quantity",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I6",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the phrase emphasizing a shortage of time.",
+      "options": [
+        "very little time",
+        "very few time",
+        "very many time"
+      ],
+      "answer": "very little time",
+      "accepted": [
+        "very little time"
+      ],
+      "why": "Little + uncountable.",
+      "distractorWhy": "Few с plural.",
+      "distractorRationales": {
+        "very few time": "Few с plural.",
+        "very many time": "Many с plural."
+      },
+      "skillTarget": "countable-uncountable-basic-quantity",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I7",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose a unit of drinking water.",
+      "options": [
+        "a water glass of as the unit",
+        "a glass of waters (ordinary liquid)",
+        "a glass of water"
+      ],
+      "answer": "a glass of water",
+      "accepted": [
+        "a glass of water"
+      ],
+      "why": "Glass of + substance.",
+      "distractorWhy": "Неверный порядок.",
+      "distractorRationales": {
+        "a water glass of as the unit": "Неверный порядок.",
+        "a glass of waters (ordinary liquid)": "Water обычно без plural."
+      },
+      "skillTarget": "countable-uncountable-basic-quantity",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I8",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the standard expression for one unit of information.",
+      "options": [
+        "an information",
+        "a piece of information",
+        "a piece of informations"
+      ],
+      "answer": "a piece of information",
+      "accepted": [
+        "a piece of information"
+      ],
+      "why": "Piece выделяет единицу.",
+      "distractorWhy": "Information uncountable.",
+      "distractorRationales": {
+        "an information": "Information uncountable.",
+        "a piece of informations": "Informations не обычный plural."
+      },
+      "skillTarget": "countable-uncountable-basic-quantity",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I9",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct agreement for furniture.",
+      "options": [
+        "The furniture is new.",
+        "The furniture are new.",
+        "The furnitures are new."
+      ],
+      "answer": "The furniture is new.",
+      "accepted": [
+        "The furniture is new."
+      ],
+      "why": "Furniture singular uncountable.",
+      "distractorWhy": "Are не согласуется.",
+      "distractorRationales": {
+        "The furniture are new.": "Are не согласуется.",
+        "The furnitures are new.": "Furnitures не обычный plural."
+      },
+      "skillTarget": "countable-uncountable-basic-quantity",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E1",
+      "group": "Выходная проверка",
+      "prompt": "Choose the correct agreement for chairs.",
+      "options": [
+        "The chairs are new.",
+        "The chairs is new.",
+        "The chair are new."
+      ],
+      "answer": "The chairs are new.",
+      "accepted": [
+        "The chairs are new."
+      ],
+      "why": "Plural chairs + are.",
+      "distractorWhy": "Is не согласуется.",
+      "distractorRationales": {
+        "The chairs is new.": "Is не согласуется.",
+        "The chair are new.": "Singular chair требует is."
+      },
+      "skillTarget": "countable-uncountable-basic-quantity",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E2",
+      "group": "Выходная проверка",
+      "prompt": "Choose the equivalent of 'We don't have any rice.'",
+      "options": [
+        "We don't have no rice.",
+        "We have none rice.",
+        "We have no rice."
+      ],
+      "answer": "We have no rice.",
+      "accepted": [
+        "We have no rice."
+      ],
+      "why": "No + noun с утвердительным verb.",
+      "distractorWhy": "Двойное отрицание.",
+      "distractorRationales": {
+        "We don't have no rice.": "Двойное отрицание.",
+        "We have none rice.": "None не перед noun."
+      },
+      "skillTarget": "countable-uncountable-basic-quantity",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E3",
+      "group": "Выходная проверка",
+      "prompt": "'How much sugar is left?' Choose a one-word answer meaning zero.",
+      "options": [
+        "Any.",
+        "None.",
+        "Many."
+      ],
+      "answer": "None.",
+      "accepted": [
+        "None."
+      ],
+      "why": "None — нисколько.",
+      "distractorWhy": "Any не означает ноль.",
+      "distractorRationales": {
+        "Any.": "Any не означает ноль.",
+        "Many.": "Many не с uncountable."
+      },
+      "skillTarget": "countable-uncountable-basic-quantity",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E4",
+      "group": "Выходная проверка",
+      "prompt": "Choose the phrase for two complete cakes.",
+      "options": [
+        "two cakes",
+        "two cake",
+        "two some cake"
+      ],
+      "answer": "two cakes",
+      "accepted": [
+        "two cakes"
+      ],
+      "why": "Two + plural countable.",
+      "distractorWhy": "Cake требует plural.",
+      "distractorRationales": {
+        "two cake": "Cake требует plural.",
+        "two some cake": "Some не ставится после two так."
+      },
+      "skillTarget": "countable-uncountable-basic-quantity",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E5",
+      "group": "Выходная проверка",
+      "prompt": "Choose the accurate rule about chicken.",
+      "options": [
+        "Chicken is always uncountable.",
+        "Chicken is always countable.",
+        "A chicken can mean one bird; some chicken can mean meat."
+      ],
+      "answer": "A chicken can mean one bird; some chicken can mean meat.",
+      "accepted": [
+        "A chicken can mean one bird; some chicken can mean meat."
+      ],
+      "why": "Значение меняет countability.",
+      "distractorWhy": "Птица countable.",
+      "distractorRationales": {
+        "Chicken is always uncountable.": "Птица countable.",
+        "Chicken is always countable.": "Мясо обычно uncountable."
+      },
+      "skillTarget": "countable-uncountable-basic-quantity",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "W1",
+      "group": "Самостоятельное применение",
+      "prompt": "Опиши продукты или учебные ресурсы в 8–10 предложениях, используй some/any, much/many, a few/a little, no и единицы количества. Добавь два вопроса.",
+      "open": true,
+      "rubric": [
+        "Countable и uncountable различены.",
+        "A/an и plural употреблены правильно.",
+        "Many/much и few/little согласованы.",
+        "Some/any употреблены по контексту.",
+        "Отрицание не дублируется.",
+        "Единицы количества и is/are согласованы."
+      ],
+      "skillTarget": "Самостоятельное применение A1-10",
+      "interactionType": "open-production",
+      "difficulty": "transfer",
+      "sourceBasis": "Speakbase-authored open production; self-review rubric only until real AI feedback is connected",
+      "contentVersion": "1.1-draft"
+    }
+  ],
+  "markdown": "# Speakbase — A1-10: Countable/uncountable nouns and basic quantity\n\n**Curriculum ID:** `A1-10`  \n**Уровень:** A1  \n**Версия:** 1.1-draft\n**Статус:** drafted; selected source text checked; full source-page and learner acceptance pending\n**Предварительные темы:** A1-04  \n**Связь со старым каталогом:** Частично — №15 Countable and uncountable; №16 Quantifiers\n\n## 1. Результаты обучения\n\n- Различать исчисляемые/неисчисляемые существительные; использовать some/any, numbers, a lot of в простых контекстах\n- Выбирать целевую форму по значению, структуре предложения и контексту.\n- Объяснять, почему близкая грамматическая форма меняет смысл или регистр.\n- Находить и исправлять типичные ошибки русскоязычных студентов.\n\n## 2. Источники и статус сверки\n\n| Source | PDF navigation | Lesson-specific checks | Status |\n|---|---|---|---|\n| GR-01 U67-69 | PDF pages 145-150 (Unit 67-69) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-01 U77-85 | PDF pages 165-182 (Unit 77-85) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-02 U69-71 | PDF pages 150-155 (Unit 69-71) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-02 U85-87 | PDF pages 182-187 (Unit 85-87) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-05 A1 p12 | PDF pages 12 (A1 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-05 A1 p19 | PDF pages 19 (A1 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-05 A1 p21 | PDF pages 21 (A1 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n\nUnit/page locations are navigation aids only. They do not prove that the cited explanation, examples, restrictions and answer key have been checked for this lesson. Examples and explanations below are Speakbase-authored, not quotations from the textbook.\n\nПеред переводом этого урока в source-verified необходимо открыть целевые страницы конкретного издания, записать печатную и PDF-пагинацию, сверить ограничения и исключения. Для GR-03 со сканированными страницами обязательна визуальная проверка.\n\n**Evidence for this editorial pass:** GR-01 Units 67–69 and 77–85, selected theory text inspected PDF pp. 145, 147, 149, 165–181 (odd pages); additional sources and exercise-page/visual verification pending. The selected source text was consulted; not all pages, exercises, editions, scanned GR-03 pages or GR-05 descriptors were checked. Author-created explanations and practice are not copied source exercises.\n\n## 3. Место темы и границы\n\nCountability влияет на число и выбор quantifier. Одна лексема может менять исчисляемость в зависимости от значения; учи слово в контексте.\n\nСтарый каталог содержит: №15 Countable and uncountable; №16 Quantifiers. Его статус — Частично. Старые отметки завершения не переносятся автоматически на новый постоянный ID. Тема рассматривается в уровне A1 и не заменяет обязательные prerequisites.\n\n## 4. Полный конспект\n\n### 4.1. Основная идея и функция конструкции\n\nCountable nouns обозначают отдельные предметы: one apple, two apples. Uncountable nouns обозначают вещество, массу или понятие, которое в данном значении не считают отдельными единицами: water, rice, information. В русском число может отличаться: money — деньги, но в английском это обычно неисчисляемое существительное.\n\nСравни a bottle of water и water. Bottle — счётная ёмкость, water — вещество. Можно посчитать two bottles of water, а не two waters в обычном значении. A/an употребляется с одним исчисляемым предметом, some/any — с множественным числом или неисчисляемым количеством. Важно выбрать единицу, прежде чем использовать число.\n\n### 4.2. Формирование и грамматическая модель\n\n| Тип | Один | Несколько / количество |\n|---|---|---|\n| Countable | a pen | two pens, some pens |\n| Uncountable | a glass of milk | some milk |\n| Много | many pens | much milk |\n| Мало / немного | (a) few pens | (a) little milk |\n| Оба типа | a lot of pens | a lot of milk |\n| Нет | no pens | no milk |\n\nSome обычно в утверждениях, any в нейтральных вопросах и отрицаниях: I have some apples. I don't have any apples. Do you have any apples? В предложениях и просьбах часто some: Would you like some tea? Can I have some bread? No + noun с утвердительным глаголом: There is no bread. None — без noun: How much is left? None. Не используй двойное отрицание в стандартном письме.\n\n### 4.3. Как выбрать подходящую форму\n\nОпредели, что именно имеется в виду. Для количества исчисляемых plural используй many/how many, few/a few. Для неисчисляемого — much/how much, little/a little. A lot of подходит обоим типам. В утвердительной разговорной фразе a lot of water обычно естественнее much water без усилителя.\n\nA few/a little означает некоторое количество, few/little подчёркивает недостаток или малое количество. Некоторые существительные меняют значение: a chicken — одна птица, some chicken — мясо; a paper — газета, some paper — бумага; two coffees может означать две порции кофе. На A1 тренируем ясный контекст, а не объявляем любое такое plural ошибкой.\n\n### 4.4. Сравнение с близкими конструкциями\n\n| Countable | Uncountable |\n|---|---|\n| an apple / three apples | some rice |\n| many questions | much information |\n| a few notebooks | a little time |\n| How many bottles? | How much water? |\n| There are some chairs. | There is some furniture. |\n\n### 4.5. Примеры с переводом и объяснением\n\n| English | Перевод | Почему это подходит |\n| --- | --- | --- |\n| I bought some apples. | Я купила несколько яблок. | Some + plural countable. |\n| There is some rice in the bowl. | В миске есть рис. | Rice uncountable. |\n| How much time do you have? | Сколько у тебя времени? | Much + uncountable time. |\n| How many pencils do you need? | Сколько карандашей тебе нужно? | Many + plural pencils. |\n| Can I have some bread? | Можно мне немного хлеба? | Some в просьбе. |\n| We have a little milk left. | У нас осталось немного молока. | A little + uncountable. |\n\n### 4.6. Исключения, ограничения и границы употребления\n\nAdvice, information, furniture, homework, luggage, money обычно uncountable. A piece of advice, a piece of information, a piece of furniture, a bag of rice — способы выделить единицу. Is/are зависит от того, что является subject: The furniture is new, The chairs are new.\n\nSome и any могут употребляться самостоятельно: Do you have any? Yes, I have some. Any в утверждении может означать любой: Choose any seat. Every + singular noun (every student), all + plural/uncountable (all students, all the water). Most of + определённая группа, most students без of. Более сложные количественные выражения будут в A2-10. Не переводить many/much механически по русскому множественному числу.\n\n### 4.7. Типичные ошибки русскоязычных студентов\n\n| Ошибка | Исправление | Объяснение |\n| --- | --- | --- |\n| An information. | Some information. | Information неисчисляемое. |\n| How much pencils? | How many pencils? | Plural countable требует many. |\n| I have a few water. | I have a little water. | Water uncountable. |\n| There aren't no apples. | There aren't any apples. | Не дублируй отрицание. |\n\n### 4.8. Произношение и восприятие на слух\n\nПроизноси many books и much water как целые группы. В речи some часто безударно. В a few и a little не теряй артикль a: он меняет смысл. Отдельная аудиосверка не выполнена.\n\nСначала прослушай или прочитай пример, затем произнеси его целиком. Обрати внимание на смысловое ударение и форму конструкции; не ориентируйся только на буквенный перевод.\n\n### 4.9. Академический английский и TOEFL-перенос\n\nВ учебных текстах различай количество людей и объём ресурсов. В Speaking описывай, что есть и чего не хватает; в Writing не преувеличивай количество: some students не означает all students. Это базовая практика.\n\nЭто авторская практика переноса навыка. Она не является официальным заданием TOEFL и не выдаётся за официальный результат экзамена.\n\n### 4.10. Примеры для управляемого разбора\n\n- I bought some apples. — Я купила несколько яблок. Some + plural countable.\n- There is some rice in the bowl. — В миске есть рис. Rice uncountable.\n- How much time do you have? — Сколько у тебя времени? Much + uncountable time.\n\nДля каждого примера назови целевую конструкцию, объясни выбор и составь новое предложение в другом контексте. Затем перейди к заданиям: сначала диагностика, затем управляемая и самостоятельная практика, затем новые вопросы выходной проверки.\n\n### 4.11. Самопроверка\n\nПеред отправкой ответа проверь:\n1. Countable и uncountable различены.\n2. A/an и plural употреблены правильно.\n3. Many/much и few/little согласованы.\n4. Some/any употреблены по контексту.\n5. Отрицание не дублируется.\n6. Единицы количества и is/are согласованы.\n\n### 4.12. Краткая памятка\n\nCountable: a/an, plural, many/few. Uncountable: some, much/little. A lot of подходит обоим. Some обычно утверждение/просьба, any вопрос/отрицание. No + noun, none самостоятельно. Проверяй смысл и единицу измерения.\n\nНе выбирай форму только по одному знакомому слову: проверь контекст, значение и структуру. При ошибке вернись к соответствующей части конспекта и составь собственный пример.\n\n## 5. Практика\n\nВ приложении практика разделена на входную диагностику, управляемые задания, самостоятельную практику и новую выходную проверку. Закрытые ответы получают rationale и разбор ошибки. Свободный текст сохраняется и оценивается по рубрике; до подключения и реальной проверки AI-движка система не выдаёт его за автоматическую AI-оценку.\n\n## 6. Интервальное повторение\n\nПовторяй не весь урок автоматически, а конкретную ошибку: выбор формы, согласование, word order, значение, регистр или пунктуацию. Новая попытка должна менять лексический контекст и формулировку, чтобы проверять перенос, а не запоминание одной строки.\n\n## 7. Технический статус\n\n- Постоянный ID: `A1-10`.\n- Прогресс хранится отдельно в course.grammarLessons[\"A1-10\"].\n- Содержание и ключи имеют статус draft; 24 авторских закрытых задания и объяснения вычитаны, выбранные тексты источников проверены. Полная постраничная и пользовательская приёмка остаются открытыми.\n- Предварительное выполнение порогов не равно окончательному mastered: нужны отсроченное повторение и learner review.",
+  "theoryEnd": "## 5."
+}

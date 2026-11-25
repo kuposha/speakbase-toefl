@@ -59,3 +59,7 @@ A1-03, A1-04 and A1-06 editorial pass: be negatives/questions/short answers, sin
 ## A1 second package
 
 A1-07–09: have/have got, there is/are, possessives and demonstratives. 72 original closed questions with separate explanations, 3 open rubrics, GR-01 selected theory Units 10, 38–39, 59, 61–63, 65, 75 consulted; full sources, exercises, visual/audio and learner review pending. A1 new lessons 6/16; next A1-10–19. PARTIAL.
+
+## A1 third package
+
+A1-10–12: countability and basic quantities, adjectives and adverbs, frequency and word order. 72 original closed questions and 3 open rubrics. GR-01 selected theory Units 67–69, 77–87, 95–96 consulted. Full sources, exercise pages, visual/audio and learner verification pending. A1 new lessons 9/16. Next A1-13–19. PARTIAL.

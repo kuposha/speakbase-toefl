@@ -1,0 +1,737 @@
+{
+  "id": "A1-11",
+  "level": "A1",
+  "sequence": "A1-11",
+  "grammarFamily": "A1-11",
+  "questionBankSource": "topic-specific-authored",
+  "sourceVerification": "draft; selected source text consulted; complete source-page and learner review pending",
+  "topicProfile": {
+    "label": "adjectives and basic adverbs",
+    "skillTarget": "basic-adjectives-and-adverbs",
+    "core": "Adjective описывает предмет или человека: a small room, a happy student. Adverb уточняет действие: She speaks slowly. Сравни a careful driver и He drives carefully. В первом случае описан водитель, во втором — то, как он водит.",
+    "form": "| Функция | Модель | Пример |\n|---|---|---|\n| Описание noun | adjective + noun | a quiet room |\n| Состояние | be + adjective | The room is quiet. |\n| Впечатление | look/feel/sound/taste/smell + adjective | She looks tired. |\n| Способ действия | verb + adverb | She walks slowly. |\n| Способ + object | verb + object + adverb | He reads the text carefully. |\n| Степень | very + adjective/adverb | very cold, very slowly |",
+    "selection": "Спроси, что описывается. Если noun или состояние после be, look, feel, seem, sound, taste, smell — обычно adjective. Если способ действия — adverb. Не добавляй -ly автоматически к каждому adjective.",
+    "contrast": "| Adjective | Adverb |\n|---|---|\n| a slow bus | drive slowly |\n| a careful student | write carefully |\n| a good singer | sing well |\n| a fast runner | run fast |\n| a hard task | work hard |\n| The music sounds nice. | She plays nicely. |",
+    "boundary": "После linking verb, если описывается состояние subject, adjective является нормой: The cake tastes good. Если глагол обозначает действие, adverb может быть уместен: He tasted the soup carefully. Не делай правило «после любого глагола только наречие».",
+    "pronunciation": "Суффикс -ly обычно без ударения. Произноси пары QUICK/QUICKly, CAREful/CAREfully. Good и well — разные слова, fast одинаково в двух функциях. Слушай полную фразу, чтобы определить значение. Аудиосверка не выполнена.",
+    "examples": [
+      [
+        "That's a beautiful picture.",
+        "Это красивая картина.",
+        "Adjective перед noun."
+      ],
+      [
+        "The pictures are beautiful.",
+        "Картины красивые.",
+        "Adjective не меняется во plural."
+      ],
+      [
+        "She feels tired today.",
+        "Она сегодня чувствует усталость.",
+        "Feel + adjective."
+      ],
+      [
+        "He answered slowly.",
+        "Он ответил медленно.",
+        "Adverb описывает действие."
+      ],
+      [
+        "The team played well.",
+        "Команда сыграла хорошо.",
+        "Good → well для действия."
+      ],
+      [
+        "She works hard every day.",
+        "Она усердно работает каждый день.",
+        "Hard — adverb без -ly."
+      ]
+    ],
+    "traps": [
+      [
+        "Two greens bags.",
+        "Two green bags.",
+        "Adjective не получает plural -s."
+      ],
+      [
+        "She speaks quiet.",
+        "She speaks quietly.",
+        "Наречие способа."
+      ],
+      [
+        "The soup tastes nicely (quality).",
+        "The soup tastes nice.",
+        "Linking verb + adjective."
+      ],
+      [
+        "He runs fastly.",
+        "He runs fast.",
+        "Fast уже adverb."
+      ]
+    ],
+    "toefl": "В Speaking описывай качество и способ действия: The task was easy, so I completed it quickly. В Listening различай оценки предмета и действия. В Writing проверяй adjective/adverb и порядок слов. Это базовая практика."
+  },
+  "title": "Adjectives and basic adverbs",
+  "description": "Описывать предметы и людей; различать adjective и adverb; строить простые adjective phrases",
+  "cardDescription": "Теория, guided practice, самостоятельные задания и выходная проверка по постоянному ID A1-11.",
+  "eyebrow": "Полный урок программы A1-11 · drafted",
+  "contentVersion": "1.1-draft",
+  "curriculumVersion": "1.0",
+  "prerequisites": [
+    "A1-01"
+  ],
+  "outcomes": [
+    "Описывать предметы и людей; различать adjective и adverb; строить простые adjective phrases",
+    "Выбирать целевую конструкцию по контексту и смыслу.",
+    "Исправлять типичные ошибки и переносить правило в новый пример."
+  ],
+  "sourceRefs": [
+    "GR-01 U86-87",
+    "GR-02 U99-101",
+    "GR-05 A1 p3-7"
+  ],
+  "sourceStatus": "selected source text consulted; full page verification pending",
+  "status": "drafted",
+  "legacyCoverage": "Частично",
+  "toeflLinks": [
+    "Writing: Build a Sentence",
+    "Listening: tense/aspect, modality, weak forms and discourse cues",
+    "Speaking: Listen and Repeat / Take an Interview",
+    "Writing: Write an Email"
+  ],
+  "thresholds": {
+    "independent": 7,
+    "exit": 4,
+    "criticalIds": [
+      "E1",
+      "E2",
+      "E3"
+    ]
+  },
+  "groups": {
+    "independent": "Самостоятельная практика",
+    "exit": "Выходная проверка"
+  },
+  "items": [
+    {
+      "id": "D1",
+      "group": "Входная диагностика",
+      "prompt": "Choose the adjective before a noun: a ___ bag.",
+      "options": [
+        "heavily",
+        "heavy",
+        "heaviness"
+      ],
+      "answer": "heavy",
+      "accepted": [
+        "heavy"
+      ],
+      "why": "Heavy описывает bag.",
+      "distractorWhy": "Heavily adverb.",
+      "distractorRationales": {
+        "heavily": "Heavily adverb.",
+        "heaviness": "Heaviness noun."
+      },
+      "skillTarget": "basic-adjectives-and-adverbs",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D2",
+      "group": "Входная диагностика",
+      "prompt": "Choose the adjective in a state: The bags are ___.",
+      "options": [
+        "heavy",
+        "heavily",
+        "heavys"
+      ],
+      "answer": "heavy",
+      "accepted": [
+        "heavy"
+      ],
+      "why": "После be adjective.",
+      "distractorWhy": "Heavily описывает действие.",
+      "distractorRationales": {
+        "heavily": "Heavily описывает действие.",
+        "heavys": "Heavy не получает plural."
+      },
+      "skillTarget": "basic-adjectives-and-adverbs",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D3",
+      "group": "Входная диагностика",
+      "prompt": "Choose the correct plural adjective phrase.",
+      "options": [
+        "three reds chairs",
+        "three red chair",
+        "three red chairs"
+      ],
+      "answer": "three red chairs",
+      "accepted": [
+        "three red chairs"
+      ],
+      "why": "Adjective red неизменен, noun plural.",
+      "distractorWhy": "Red не получает -s.",
+      "distractorRationales": {
+        "three reds chairs": "Red не получает -s.",
+        "three red chair": "Chair должен быть plural."
+      },
+      "skillTarget": "basic-adjectives-and-adverbs",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D4",
+      "group": "Входная диагностика",
+      "prompt": "Choose the manner adverb: Please speak ___.",
+      "options": [
+        "slowful",
+        "slowly",
+        "slowness"
+      ],
+      "answer": "slowly",
+      "accepted": [
+        "slowly"
+      ],
+      "why": "Slowly описывает способ.",
+      "distractorWhy": "Slowful не обычное слово.",
+      "distractorRationales": {
+        "slowful": "Slowful не обычное слово.",
+        "slowness": "Slowness noun."
+      },
+      "skillTarget": "basic-adjectives-and-adverbs",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G1",
+      "group": "Управляемая практика",
+      "prompt": "Choose the manner adverb of careful.",
+      "options": [
+        "carefully",
+        "carefuly",
+        "carefull"
+      ],
+      "answer": "carefully",
+      "accepted": [
+        "carefully"
+      ],
+      "why": "Careful + ly.",
+      "distractorWhy": "Пропущена l.",
+      "distractorRationales": {
+        "carefuly": "Пропущена l.",
+        "carefull": "Carefull неверно."
+      },
+      "skillTarget": "basic-adjectives-and-adverbs",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G2",
+      "group": "Управляемая практика",
+      "prompt": "Choose the manner adverb of easy.",
+      "options": [
+        "easyly",
+        "easyness",
+        "easily"
+      ],
+      "answer": "easily",
+      "accepted": [
+        "easily"
+      ],
+      "why": "Y → ily.",
+      "distractorWhy": "Y меняется на i.",
+      "distractorRationales": {
+        "easyly": "Y меняется на i.",
+        "easyness": "Easyness не adverb."
+      },
+      "skillTarget": "basic-adjectives-and-adverbs",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G3",
+      "group": "Управляемая практика",
+      "prompt": "Choose the adverb of happy.",
+      "options": [
+        "happyly",
+        "happily",
+        "happier"
+      ],
+      "answer": "happily",
+      "accepted": [
+        "happily"
+      ],
+      "why": "Happy → happily.",
+      "distractorWhy": "Y меняется.",
+      "distractorRationales": {
+        "happyly": "Y меняется.",
+        "happier": "Happier comparative adjective."
+      },
+      "skillTarget": "basic-adjectives-and-adverbs",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G4",
+      "group": "Управляемая практика",
+      "prompt": "Choose the adjective describing a person after feel.",
+      "options": [
+        "I feel tired.",
+        "I feel tiredly as a state.",
+        "I feel tireds."
+      ],
+      "answer": "I feel tired.",
+      "accepted": [
+        "I feel tired."
+      ],
+      "why": "Feel + adjective в значении состояния.",
+      "distractorWhy": "Tiredly не описывает состояние.",
+      "distractorRationales": {
+        "I feel tiredly as a state.": "Tiredly не описывает состояние.",
+        "I feel tireds.": "Нет plural adjective."
+      },
+      "skillTarget": "basic-adjectives-and-adverbs",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G5",
+      "group": "Управляемая практика",
+      "prompt": "Choose the adjective describing music after sound.",
+      "options": [
+        "The music sounds beautifully as its quality.",
+        "The music sounds beautifuls.",
+        "The music sounds beautiful."
+      ],
+      "answer": "The music sounds beautiful.",
+      "accepted": [
+        "The music sounds beautiful."
+      ],
+      "why": "Sound + adjective оценки.",
+      "distractorWhy": "Beautifully описывает действие.",
+      "distractorRationales": {
+        "The music sounds beautifully as its quality.": "Beautifully описывает действие.",
+        "The music sounds beautifuls.": "Adjective не меняется."
+      },
+      "skillTarget": "basic-adjectives-and-adverbs",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G6",
+      "group": "Управляемая практика",
+      "prompt": "Choose the adjective describing the smell of flowers.",
+      "options": [
+        "The flowers smell nicely as their scent.",
+        "The flowers smell nice.",
+        "The flowers smell nices."
+      ],
+      "answer": "The flowers smell nice.",
+      "accepted": [
+        "The flowers smell nice."
+      ],
+      "why": "Smell + adjective впечатления.",
+      "distractorWhy": "Nicely не обычная оценка запаха.",
+      "distractorRationales": {
+        "The flowers smell nicely as their scent.": "Nicely не обычная оценка запаха.",
+        "The flowers smell nices.": "Нет plural adjective."
+      },
+      "skillTarget": "basic-adjectives-and-adverbs",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I1",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct adverb with sing.",
+      "options": [
+        "She sings goodly.",
+        "She sings wellness.",
+        "She sings well."
+      ],
+      "answer": "She sings well.",
+      "accepted": [
+        "She sings well."
+      ],
+      "why": "Well — adverb от good.",
+      "distractorWhy": "Goodly не нужная форма.",
+      "distractorRationales": {
+        "She sings goodly.": "Goodly не нужная форма.",
+        "She sings wellness.": "Wellness noun."
+      },
+      "skillTarget": "basic-adjectives-and-adverbs",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I2",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the adjective describing a singer.",
+      "options": [
+        "She's a well singer (skill).",
+        "She's a good singer.",
+        "She's a goodly singer (ordinary quality)."
+      ],
+      "answer": "She's a good singer.",
+      "accepted": [
+        "She's a good singer."
+      ],
+      "why": "Good описывает singer.",
+      "distractorWhy": "Well в значении здоровый, не навык.",
+      "distractorRationales": {
+        "She's a well singer (skill).": "Well в значении здоровый, не навык.",
+        "She's a goodly singer (ordinary quality).": "Goodly не обычная оценка."
+      },
+      "skillTarget": "basic-adjectives-and-adverbs",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I3",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the usual adverb for speed with run.",
+      "options": [
+        "He runs fast.",
+        "He runs fastly.",
+        "He runs fasts."
+      ],
+      "answer": "He runs fast.",
+      "accepted": [
+        "He runs fast."
+      ],
+      "why": "Fast уже adverb.",
+      "distractorWhy": "Fastly не обычная форма.",
+      "distractorRationales": {
+        "He runs fastly.": "Fastly не обычная форма.",
+        "He runs fasts.": "Adverb не получает -s."
+      },
+      "skillTarget": "basic-adjectives-and-adverbs",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I4",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the adverb meaning with a lot of effort.",
+      "options": [
+        "She studies hardly (a lot of effort).",
+        "She studies harded.",
+        "She studies hard."
+      ],
+      "answer": "She studies hard.",
+      "accepted": [
+        "She studies hard."
+      ],
+      "why": "Hard — усердно.",
+      "distractorWhy": "Hardly — почти не.",
+      "distractorRationales": {
+        "She studies hardly (a lot of effort).": "Hardly — почти не.",
+        "She studies harded.": "Harded неверно."
+      },
+      "skillTarget": "basic-adjectives-and-adverbs",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I5",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the sentence meaning almost never studies.",
+      "options": [
+        "She studies hard.",
+        "She hardly ever studies.",
+        "She studies very hard."
+      ],
+      "answer": "She hardly ever studies.",
+      "accepted": [
+        "She hardly ever studies."
+      ],
+      "why": "Hardly ever — почти никогда.",
+      "distractorWhy": "Hard — усердно.",
+      "distractorRationales": {
+        "She studies hard.": "Hard — усердно.",
+        "She studies very hard.": "Very hard усиливает усилие."
+      },
+      "skillTarget": "basic-adjectives-and-adverbs",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I6",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the phrase meaning after the expected time.",
+      "options": [
+        "arrive late",
+        "arrive lately as being overdue",
+        "arrive latelyly"
+      ],
+      "answer": "arrive late",
+      "accepted": [
+        "arrive late"
+      ],
+      "why": "Late — поздно.",
+      "distractorWhy": "Lately — в последнее время.",
+      "distractorRationales": {
+        "arrive lately as being overdue": "Lately — в последнее время.",
+        "arrive latelyly": "Latelyly неверно."
+      },
+      "skillTarget": "basic-adjectives-and-adverbs",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I7",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose a correct manner adverb after an object.",
+      "options": [
+        "She checked the answer careful.",
+        "She checked the answer carefulness.",
+        "She checked the answer carefully."
+      ],
+      "answer": "She checked the answer carefully.",
+      "accepted": [
+        "She checked the answer carefully."
+      ],
+      "why": "Carefully описывает проверку.",
+      "distractorWhy": "Careful adjective.",
+      "distractorRationales": {
+        "She checked the answer careful.": "Careful adjective.",
+        "She checked the answer carefulness.": "Carefulness noun."
+      },
+      "skillTarget": "basic-adjectives-and-adverbs",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I8",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct sentence with very and an adjective.",
+      "options": [
+        "The lesson is very usefully as a quality.",
+        "The lesson is very useful.",
+        "The lesson very useful."
+      ],
+      "answer": "The lesson is very useful.",
+      "accepted": [
+        "The lesson is very useful."
+      ],
+      "why": "Very + adjective after is.",
+      "distractorWhy": "Usefully adverb.",
+      "distractorRationales": {
+        "The lesson is very usefully as a quality.": "Usefully adverb.",
+        "The lesson very useful.": "Пропущено is."
+      },
+      "skillTarget": "basic-adjectives-and-adverbs",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I9",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct sentence with very and an adverb.",
+      "options": [
+        "He reads very slowly.",
+        "He reads very slowful.",
+        "He reads very slowness."
+      ],
+      "answer": "He reads very slowly.",
+      "accepted": [
+        "He reads very slowly."
+      ],
+      "why": "Very + slowly.",
+      "distractorWhy": "Slowful неверно.",
+      "distractorRationales": {
+        "He reads very slowful.": "Slowful неверно.",
+        "He reads very slowness.": "Slowness noun."
+      },
+      "skillTarget": "basic-adjectives-and-adverbs",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E1",
+      "group": "Выходная проверка",
+      "prompt": "Choose a word that ends in -ly but is usually an adjective.",
+      "options": [
+        "friendly",
+        "carefully",
+        "quickly"
+      ],
+      "answer": "friendly",
+      "accepted": [
+        "friendly"
+      ],
+      "why": "Friendly описывает noun.",
+      "distractorWhy": "Carefully adverb.",
+      "distractorRationales": {
+        "carefully": "Carefully adverb.",
+        "quickly": "Quickly adverb."
+      },
+      "skillTarget": "basic-adjectives-and-adverbs",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E2",
+      "group": "Выходная проверка",
+      "prompt": "Choose the correct description of a room's appearance.",
+      "options": [
+        "The room looks cleanly as its appearance.",
+        "The room looks cleans.",
+        "The room looks clean."
+      ],
+      "answer": "The room looks clean.",
+      "accepted": [
+        "The room looks clean."
+      ],
+      "why": "Look + adjective clean.",
+      "distractorWhy": "Cleanly описывает способ.",
+      "distractorRationales": {
+        "The room looks cleanly as its appearance.": "Cleanly описывает способ.",
+        "The room looks cleans.": "Adjective не изменяется."
+      },
+      "skillTarget": "basic-adjectives-and-adverbs",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E3",
+      "group": "Выходная проверка",
+      "prompt": "Choose the correct action with look meaning examine.",
+      "options": [
+        "She looked careful at the map as a manner.",
+        "She looked carefully at the map.",
+        "She looked care at the map."
+      ],
+      "answer": "She looked carefully at the map.",
+      "accepted": [
+        "She looked carefully at the map."
+      ],
+      "why": "Carefully описывает взгляд.",
+      "distractorWhy": "Careful adjective.",
+      "distractorRationales": {
+        "She looked careful at the map as a manner.": "Careful adjective.",
+        "She looked care at the map.": "Care noun/verb."
+      },
+      "skillTarget": "basic-adjectives-and-adverbs",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E4",
+      "group": "Выходная проверка",
+      "prompt": "Choose the correct complete sentence about happiness.",
+      "options": [
+        "Mia is happy.",
+        "Mia happy.",
+        "Mia is a happy."
+      ],
+      "answer": "Mia is happy.",
+      "accepted": [
+        "Mia is happy."
+      ],
+      "why": "Нужен be + adjective.",
+      "distractorWhy": "Пропущено is.",
+      "distractorRationales": {
+        "Mia happy.": "Пропущено is.",
+        "Mia is a happy.": "A требует noun."
+      },
+      "skillTarget": "basic-adjectives-and-adverbs",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E5",
+      "group": "Выходная проверка",
+      "prompt": "Choose the accurate distinction.",
+      "options": [
+        "A carefully driver drives careful.",
+        "A carefuls driver drives carefully.",
+        "A careful driver drives carefully."
+      ],
+      "answer": "A careful driver drives carefully.",
+      "accepted": [
+        "A careful driver drives carefully."
+      ],
+      "why": "Adjective before noun, adverb for action.",
+      "distractorWhy": "Формы перепутаны.",
+      "distractorRationales": {
+        "A carefully driver drives careful.": "Формы перепутаны.",
+        "A carefuls driver drives carefully.": "Careful не получает -s."
+      },
+      "skillTarget": "basic-adjectives-and-adverbs",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "W1",
+      "group": "Самостоятельное применение",
+      "prompt": "Опиши учебный день в 8 предложениях: минимум четыре adjectives, четыре adverbs, два linking verbs и одна пара good/well или fast/hard.",
+      "open": true,
+      "rubric": [
+        "Adjectives описывают nouns или состояние.",
+        "Adverbs описывают действие.",
+        "Plural не меняет adjective.",
+        "-ly и irregular forms правильны.",
+        "Linking verbs употреблены по смыслу.",
+        "Порядок слов естественен."
+      ],
+      "skillTarget": "Самостоятельное применение A1-11",
+      "interactionType": "open-production",
+      "difficulty": "transfer",
+      "sourceBasis": "Speakbase-authored open production; self-review rubric only until real AI feedback is connected",
+      "contentVersion": "1.1-draft"
+    }
+  ],
+  "markdown": "# Speakbase — A1-11: Adjectives and basic adverbs\n\n**Curriculum ID:** `A1-11`  \n**Уровень:** A1  \n**Версия:** 1.1-draft\n**Статус:** drafted; selected source text checked; full source-page and learner acceptance pending\n**Предварительные темы:** A1-01  \n**Связь со старым каталогом:** Частично — №19 Adverbs\n\n## 1. Результаты обучения\n\n- Описывать предметы и людей; различать adjective и adverb; строить простые adjective phrases\n- Выбирать целевую форму по значению, структуре предложения и контексту.\n- Объяснять, почему близкая грамматическая форма меняет смысл или регистр.\n- Находить и исправлять типичные ошибки русскоязычных студентов.\n\n## 2. Источники и статус сверки\n\n| Source | PDF navigation | Lesson-specific checks | Status |\n|---|---|---|---|\n| GR-01 U86-87 | PDF pages 183-186 (Unit 86-87) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-02 U99-101 | PDF pages 210-215 (Unit 99-101) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-05 A1 p3-7 | PDF pages 3-7 (A1 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n\nUnit/page locations are navigation aids only. They do not prove that the cited explanation, examples, restrictions and answer key have been checked for this lesson. Examples and explanations below are Speakbase-authored, not quotations from the textbook.\n\nПеред переводом этого урока в source-verified необходимо открыть целевые страницы конкретного издания, записать печатную и PDF-пагинацию, сверить ограничения и исключения. Для GR-03 со сканированными страницами обязательна визуальная проверка.\n\n**Evidence for this editorial pass:** GR-01 Units 86–87, theory text inspected PDF pp. 183 and 185 (printed 182 and 184); additional source and exercise-page/visual verification pending. The selected source text was consulted; not all pages, exercises, editions, scanned GR-03 pages or GR-05 descriptors were checked. Author-created explanations and practice are not copied source exercises.\n\n## 3. Место темы и границы\n\nСопоставь adjective как характеристику существительного/подлежащего и adverb как характеристику действия/признака. Проверь формы без -ly и пары hard/hardly.\n\nСтарый каталог содержит: №19 Adverbs. Его статус — Частично. Старые отметки завершения не переносятся автоматически на новый постоянный ID. Тема рассматривается в уровне A1 и не заменяет обязательные prerequisites.\n\n## 4. Полный конспект\n\n### 4.1. Основная идея и функция конструкции\n\nAdjective описывает предмет или человека: a small room, a happy student. Adverb уточняет действие: She speaks slowly. Сравни a careful driver и He drives carefully. В первом случае описан водитель, во втором — то, как он водит.\n\nПрилагательное обычно стоит перед noun или после be: a blue bag, The bag is blue. Оно не меняется по роду и числу. Two blue bags, не two blues bags. Наречие образа действия часто отвечает на вопрос how? и стоит после глагола или его дополнения: She reads the text slowly.\n\n### 4.2. Формирование и грамматическая модель\n\n| Функция | Модель | Пример |\n|---|---|---|\n| Описание noun | adjective + noun | a quiet room |\n| Состояние | be + adjective | The room is quiet. |\n| Впечатление | look/feel/sound/taste/smell + adjective | She looks tired. |\n| Способ действия | verb + adverb | She walks slowly. |\n| Способ + object | verb + object + adverb | He reads the text carefully. |\n| Степень | very + adjective/adverb | very cold, very slowly |\n\nБольшинство manner adverbs образуются + -ly: slow → slowly, careful → carefully, bad → badly. Consonant + y → ily: easy → easily, happy → happily. Simple → simply. Некоторые слова не меняют форму: fast, hard, late, early. Good — adjective; well — обычное наречие. Well также бывает adjective в значении здоровый. Friendly — adjective, хотя оканчивается на -ly.\n\n### 4.3. Как выбрать подходящую форму\n\nСпроси, что описывается. Если noun или состояние после be, look, feel, seem, sound, taste, smell — обычно adjective. Если способ действия — adverb. Не добавляй -ly автоматически к каждому adjective.\n\nСравни She looks happy (выглядит счастливой) и She looks carefully at the picture (внимательно смотрит). Здесь look имеет разные значения. Hard — усердно или трудно; hardly — почти не. Late — поздно, lately — в последнее время. На A1 сначала запоминай run fast, work hard, arrive late, speak well.\n\n### 4.4. Сравнение с близкими конструкциями\n\n| Adjective | Adverb |\n|---|---|\n| a slow bus | drive slowly |\n| a careful student | write carefully |\n| a good singer | sing well |\n| a fast runner | run fast |\n| a hard task | work hard |\n| The music sounds nice. | She plays nicely. |\n\n### 4.5. Примеры с переводом и объяснением\n\n| English | Перевод | Почему это подходит |\n| --- | --- | --- |\n| That's a beautiful picture. | Это красивая картина. | Adjective перед noun. |\n| The pictures are beautiful. | Картины красивые. | Adjective не меняется во plural. |\n| She feels tired today. | Она сегодня чувствует усталость. | Feel + adjective. |\n| He answered slowly. | Он ответил медленно. | Adverb описывает действие. |\n| The team played well. | Команда сыграла хорошо. | Good → well для действия. |\n| She works hard every day. | Она усердно работает каждый день. | Hard — adverb без -ly. |\n\n### 4.6. Исключения, ограничения и границы употребления\n\nПосле linking verb, если описывается состояние subject, adjective является нормой: The cake tastes good. Если глагол обозначает действие, adverb может быть уместен: He tasted the soup carefully. Не делай правило «после любого глагола только наречие».\n\nVery усиливает признак: very quiet, very slowly. С be нужна форма is/are, не просто adjective: The room is quiet. Не ставь a/an перед одним adjective без noun (She is happy). При двух adjectives распространён порядок оценка, размер, цвет и т.д.: a beautiful small red bag; подробный порядок позже. В neutral manner order не разрывай короткий verb и object: She speaks English clearly.\n\n### 4.7. Типичные ошибки русскоязычных студентов\n\n| Ошибка | Исправление | Объяснение |\n| --- | --- | --- |\n| Two greens bags. | Two green bags. | Adjective не получает plural -s. |\n| She speaks quiet. | She speaks quietly. | Наречие способа. |\n| The soup tastes nicely (quality). | The soup tastes nice. | Linking verb + adjective. |\n| He runs fastly. | He runs fast. | Fast уже adverb. |\n\n### 4.8. Произношение и восприятие на слух\n\nСуффикс -ly обычно без ударения. Произноси пары QUICK/QUICKly, CAREful/CAREfully. Good и well — разные слова, fast одинаково в двух функциях. Слушай полную фразу, чтобы определить значение. Аудиосверка не выполнена.\n\nСначала прослушай или прочитай пример, затем произнеси его целиком. Обрати внимание на смысловое ударение и форму конструкции; не ориентируйся только на буквенный перевод.\n\n### 4.9. Академический английский и TOEFL-перенос\n\nВ Speaking описывай качество и способ действия: The task was easy, so I completed it quickly. В Listening различай оценки предмета и действия. В Writing проверяй adjective/adverb и порядок слов. Это базовая практика.\n\nЭто авторская практика переноса навыка. Она не является официальным заданием TOEFL и не выдаётся за официальный результат экзамена.\n\n### 4.10. Примеры для управляемого разбора\n\n- That's a beautiful picture. — Это красивая картина. Adjective перед noun.\n- The pictures are beautiful. — Картины красивые. Adjective не меняется во plural.\n- She feels tired today. — Она сегодня чувствует усталость. Feel + adjective.\n\nДля каждого примера назови целевую конструкцию, объясни выбор и составь новое предложение в другом контексте. Затем перейди к заданиям: сначала диагностика, затем управляемая и самостоятельная практика, затем новые вопросы выходной проверки.\n\n### 4.11. Самопроверка\n\nПеред отправкой ответа проверь:\n1. Adjectives описывают nouns или состояние.\n2. Adverbs описывают действие.\n3. Plural не меняет adjective.\n4. -ly и irregular forms правильны.\n5. Linking verbs употреблены по смыслу.\n6. Порядок слов естественен.\n\n### 4.12. Краткая памятка\n\nAdjective описывает noun или состояние: a quiet room, the room is quiet. Adverb описывает действие: speak quietly. Обычно + -ly; good/well, fast, hard, late, early — особые формы. Adjective не меняется во plural.\n\nНе выбирай форму только по одному знакомому слову: проверь контекст, значение и структуру. При ошибке вернись к соответствующей части конспекта и составь собственный пример.\n\n## 5. Практика\n\nВ приложении практика разделена на входную диагностику, управляемые задания, самостоятельную практику и новую выходную проверку. Закрытые ответы получают rationale и разбор ошибки. Свободный текст сохраняется и оценивается по рубрике; до подключения и реальной проверки AI-движка система не выдаёт его за автоматическую AI-оценку.\n\n## 6. Интервальное повторение\n\nПовторяй не весь урок автоматически, а конкретную ошибку: выбор формы, согласование, word order, значение, регистр или пунктуацию. Новая попытка должна менять лексический контекст и формулировку, чтобы проверять перенос, а не запоминание одной строки.\n\n## 7. Технический статус\n\n- Постоянный ID: `A1-11`.\n- Прогресс хранится отдельно в course.grammarLessons[\"A1-11\"].\n- Содержание и ключи имеют статус draft; 24 авторских закрытых задания и объяснения вычитаны, выбранные тексты источников проверены. Полная постраничная и пользовательская приёмка остаются открытыми.\n- Предварительное выполнение порогов не равно окончательному mastered: нужны отсроченное повторение и learner review.",
+  "theoryEnd": "## 5."
+}

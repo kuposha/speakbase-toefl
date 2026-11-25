@@ -1,0 +1,735 @@
+{
+  "id": "A1-12",
+  "level": "A1",
+  "sequence": "A1-12",
+  "grammarFamily": "frequency",
+  "questionBankSource": "topic-specific-authored",
+  "sourceVerification": "draft; selected source text consulted; complete source-page and learner review pending",
+  "topicProfile": {
+    "label": "adverbs of frequency and basic word order",
+    "core": "Adverbs of frequency показывают, как часто что-то происходит: always — всегда, usually — обычно, often — часто, sometimes — иногда, rarely — редко, never — никогда. Они помогают описывать привычки и распорядок дня. Важно поставить их в правильное место.",
+    "form": "| Структура | Обычная позиция | Пример |\n|---|---|---|\n| Main verb | subject + adverb + verb | I usually read. |\n| Be | subject + be + adverb | She is often busy. |\n| Modal | subject + modal + adverb + V1 | We can usually come. |\n| Question | do/does + subject + adverb + V1 | Do you often read? |\n| Negative | subject + don't/doesn't + adverb + V1 | She doesn't usually read. |\n| Frequency phrase | часто конец/начало | I read every day. |",
+    "selection": "Найди смысловой глагол. Для обычного глагола поставь наречие перед ним, для be — после be. Если есть can или другой auxiliary, поставь наречие после него в нейтральной модели. В вопросе сначала auxiliary, затем subject, потом наречие и V1.",
+    "contrast": "| С обычным verb | С be |\n|---|---|\n| She usually arrives early. | She is usually early. |\n| He often studies at night. | He is often tired. |\n| They never eat meat. | They are never late. |\n| Do you often travel? | Are you often busy? |",
+    "boundary": "Still означает всё ещё, а не частоту: She is still here. Yet обычно в конце вопроса или отрицания: She isn't here yet. Already — уже: She is already here. Эти наречия относятся к статусу действия, поэтому не нужно относить их все к шкале always–never.",
+    "pronunciation": "Произноси наречия в целых фразах. ALWAYS и NEVER могут получать смысловое ударение. Often имеет стандартные варианты с произносимой и непроизносимой t. Usually произносится слитно; не добавляй отдельные слоги по буквам. Аудиосверка отдельно не выполнена.",
+    "examples": [
+      [
+        "I usually get up at seven.",
+        "Обычно я встаю в семь.",
+        "Usually перед main verb."
+      ],
+      [
+        "My friend is always early.",
+        "Мой друг всегда приходит рано.",
+        "Always после be."
+      ],
+      [
+        "Do you often use this app?",
+        "Ты часто используешь приложение?",
+        "Do + subject + often + V1."
+      ],
+      [
+        "She doesn't usually walk to work.",
+        "Она обычно не ходит на работу пешком.",
+        "Doesn't + usually + V1."
+      ],
+      [
+        "Sometimes we study together.",
+        "Иногда мы занимаемся вместе.",
+        "Sometimes может стоять в начале."
+      ],
+      [
+        "I practise English twice a week.",
+        "Я практикую английский два раза в неделю.",
+        "Frequency phrase в конце."
+      ]
+    ],
+    "traps": [
+      [
+        "She often is tired (neutral order).",
+        "She is often tired.",
+        "Frequency после be."
+      ],
+      [
+        "He reads usually books.",
+        "He usually reads books.",
+        "Наречие перед main verb."
+      ],
+      [
+        "I don't never go there.",
+        "I never go there.",
+        "Never уже отрицательно."
+      ],
+      [
+        "Does she often walks?",
+        "Does she often walk?",
+        "После does — V1."
+      ]
+    ],
+    "toefl": "В Speaking Interview описывай распорядок и частоту, отвечая не одним словом, а примером: I usually study in the evening. В Listening отличай often от rarely и never. В Writing не добавляй частоту, если она не подтверждена. Это базовая практика."
+  },
+  "title": "Adverbs of frequency and basic word order",
+  "description": "Использовать always/usually/often/sometimes/never в правильной позиции",
+  "cardDescription": "Теория, guided practice, самостоятельные задания и выходная проверка по постоянному ID A1-12.",
+  "eyebrow": "Полный урок программы A1-12 · drafted",
+  "contentVersion": "1.1-draft",
+  "curriculumVersion": "1.0",
+  "prerequisites": [
+    "A1-05",
+    "A1-11"
+  ],
+  "outcomes": [
+    "Использовать always/usually/often/sometimes/never в правильной позиции",
+    "Выбирать целевую конструкцию по контексту и смыслу.",
+    "Исправлять типичные ошибки и переносить правило в новый пример."
+  ],
+  "sourceRefs": [
+    "GR-01 U95-96",
+    "GR-02 U109-110",
+    "GR-05 A1 p5-7"
+  ],
+  "sourceStatus": "selected source text consulted; full page verification pending",
+  "status": "drafted",
+  "legacyCoverage": "Частично",
+  "toeflLinks": [
+    "Writing: Build a Sentence",
+    "Writing: Write an Email"
+  ],
+  "thresholds": {
+    "independent": 7,
+    "exit": 4,
+    "criticalIds": [
+      "E1",
+      "E2",
+      "E3"
+    ]
+  },
+  "groups": {
+    "independent": "Самостоятельная практика",
+    "exit": "Выходная проверка"
+  },
+  "items": [
+    {
+      "id": "D1",
+      "group": "Входная диагностика",
+      "prompt": "Choose the word meaning always.",
+      "options": [
+        "rarely",
+        "always",
+        "never"
+      ],
+      "answer": "always",
+      "accepted": [
+        "always"
+      ],
+      "why": "Always — всегда.",
+      "distractorWhy": "Rarely — редко.",
+      "distractorRationales": {
+        "rarely": "Rarely — редко.",
+        "never": "Never — никогда."
+      },
+      "skillTarget": "frequency",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D2",
+      "group": "Входная диагностика",
+      "prompt": "Choose the word meaning usually.",
+      "options": [
+        "usually",
+        "never",
+        "once"
+      ],
+      "answer": "usually",
+      "accepted": [
+        "usually"
+      ],
+      "why": "Usually — обычно.",
+      "distractorWhy": "Never — никогда.",
+      "distractorRationales": {
+        "never": "Never — никогда.",
+        "once": "Once — один раз."
+      },
+      "skillTarget": "frequency",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D3",
+      "group": "Входная диагностика",
+      "prompt": "Choose the word meaning often.",
+      "options": [
+        "never",
+        "late",
+        "often"
+      ],
+      "answer": "often",
+      "accepted": [
+        "often"
+      ],
+      "why": "Often — часто.",
+      "distractorWhy": "Never — никогда.",
+      "distractorRationales": {
+        "never": "Never — никогда.",
+        "late": "Late — поздно."
+      },
+      "skillTarget": "frequency",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D4",
+      "group": "Входная диагностика",
+      "prompt": "Choose the word meaning sometimes.",
+      "options": [
+        "always",
+        "sometimes",
+        "never"
+      ],
+      "answer": "sometimes",
+      "accepted": [
+        "sometimes"
+      ],
+      "why": "Sometimes — иногда.",
+      "distractorWhy": "Always — всегда.",
+      "distractorRationales": {
+        "always": "Always — всегда.",
+        "never": "Never — никогда."
+      },
+      "skillTarget": "frequency",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G1",
+      "group": "Управляемая практика",
+      "prompt": "Choose the word meaning rarely.",
+      "options": [
+        "rarely",
+        "usually",
+        "always"
+      ],
+      "answer": "rarely",
+      "accepted": [
+        "rarely"
+      ],
+      "why": "Rarely — редко.",
+      "distractorWhy": "Usually — обычно.",
+      "distractorRationales": {
+        "usually": "Usually — обычно.",
+        "always": "Always — всегда."
+      },
+      "skillTarget": "frequency",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G2",
+      "group": "Управляемая практика",
+      "prompt": "Choose the word meaning never.",
+      "options": [
+        "often",
+        "sometimes",
+        "never"
+      ],
+      "answer": "never",
+      "accepted": [
+        "never"
+      ],
+      "why": "Never — никогда.",
+      "distractorWhy": "Often — часто.",
+      "distractorRationales": {
+        "often": "Often — часто.",
+        "sometimes": "Sometimes — иногда."
+      },
+      "skillTarget": "frequency",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G3",
+      "group": "Управляемая практика",
+      "prompt": "Choose the neutral position with a main verb.",
+      "options": [
+        "I read often articles.",
+        "I often read articles.",
+        "I often reads articles."
+      ],
+      "answer": "I often read articles.",
+      "accepted": [
+        "I often read articles."
+      ],
+      "why": "Often перед main verb.",
+      "distractorWhy": "Не разделяем read/articles так.",
+      "distractorRationales": {
+        "I read often articles.": "Не разделяем read/articles так.",
+        "I often reads articles.": "I требует read."
+      },
+      "skillTarget": "frequency",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G4",
+      "group": "Управляемая практика",
+      "prompt": "Choose the neutral position with third-person present.",
+      "options": [
+        "She usually walks to college.",
+        "She usually walk to college.",
+        "She walks usually to college (target mid-position)."
+      ],
+      "answer": "She usually walks to college.",
+      "accepted": [
+        "She usually walks to college."
+      ],
+      "why": "Usually перед walks, she + -s.",
+      "distractorWhy": "Пропущено -s.",
+      "distractorRationales": {
+        "She usually walk to college.": "Пропущено -s.",
+        "She walks usually to college (target mid-position).": "Не целевая срединная позиция."
+      },
+      "skillTarget": "frequency",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G5",
+      "group": "Управляемая практика",
+      "prompt": "Choose the neutral frequency order with be.",
+      "options": [
+        "Leo often busy.",
+        "Leo is oftenly busy.",
+        "Leo is often busy."
+      ],
+      "answer": "Leo is often busy.",
+      "accepted": [
+        "Leo is often busy."
+      ],
+      "why": "Often после be.",
+      "distractorWhy": "Пропущено is.",
+      "distractorRationales": {
+        "Leo often busy.": "Пропущено is.",
+        "Leo is oftenly busy.": "Oftenly не стандартно."
+      },
+      "skillTarget": "frequency",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G6",
+      "group": "Управляемая практика",
+      "prompt": "Choose the neutral order for a plural subject with be.",
+      "options": [
+        "They never late.",
+        "They are never late.",
+        "They is never late."
+      ],
+      "answer": "They are never late.",
+      "accepted": [
+        "They are never late."
+      ],
+      "why": "Are + never.",
+      "distractorWhy": "Нет be.",
+      "distractorRationales": {
+        "They never late.": "Нет be.",
+        "They is never late.": "They требует are."
+      },
+      "skillTarget": "frequency",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I1",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the neutral position with can.",
+      "options": [
+        "I can usually helps.",
+        "I usually can to help.",
+        "I can usually help."
+      ],
+      "answer": "I can usually help.",
+      "accepted": [
+        "I can usually help."
+      ],
+      "why": "Can + usually + V1.",
+      "distractorWhy": "Helps не V1.",
+      "distractorRationales": {
+        "I can usually helps.": "Helps не V1.",
+        "I usually can to help.": "To после can лишнее."
+      },
+      "skillTarget": "frequency",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I2",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the question using often.",
+      "options": [
+        "Do often you cook dinner?",
+        "Do you often cook dinner?",
+        "Do you often cooks dinner?"
+      ],
+      "answer": "Do you often cook dinner?",
+      "accepted": [
+        "Do you often cook dinner?"
+      ],
+      "why": "Do + subject + often + V1.",
+      "distractorWhy": "Неверный порядок.",
+      "distractorRationales": {
+        "Do often you cook dinner?": "Неверный порядок.",
+        "Do you often cooks dinner?": "Cooks не V1."
+      },
+      "skillTarget": "frequency",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I3",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the question about a singular person's routine.",
+      "options": [
+        "Does Mia usually read at night?",
+        "Does Mia usually reads at night?",
+        "Do Mia usually read at night?"
+      ],
+      "answer": "Does Mia usually read at night?",
+      "accepted": [
+        "Does Mia usually read at night?"
+      ],
+      "why": "Does + Mia + usually + V1.",
+      "distractorWhy": "Reads после does неверно.",
+      "distractorRationales": {
+        "Does Mia usually reads at night?": "Reads после does неверно.",
+        "Do Mia usually read at night?": "Mia требует does."
+      },
+      "skillTarget": "frequency",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I4",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the question with be and often.",
+      "options": [
+        "Do you often tired?",
+        "Are often you tired?",
+        "Are you often tired?"
+      ],
+      "answer": "Are you often tired?",
+      "accepted": [
+        "Are you often tired?"
+      ],
+      "why": "Are + subject + often.",
+      "distractorWhy": "Do не заменяет be.",
+      "distractorRationales": {
+        "Do you often tired?": "Do не заменяет be.",
+        "Are often you tired?": "Неверный нейтральный порядок."
+      },
+      "skillTarget": "frequency",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I5",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the negative with usually.",
+      "options": [
+        "He doesn't usually eats breakfast.",
+        "He doesn't usually eat breakfast.",
+        "He don't usually eat breakfast."
+      ],
+      "answer": "He doesn't usually eat breakfast.",
+      "accepted": [
+        "He doesn't usually eat breakfast."
+      ],
+      "why": "Doesn't + usually + V1.",
+      "distractorWhy": "Eats не V1.",
+      "distractorRationales": {
+        "He doesn't usually eats breakfast.": "Eats не V1.",
+        "He don't usually eat breakfast.": "He требует doesn't."
+      },
+      "skillTarget": "frequency",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I6",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the standard sentence with never.",
+      "options": [
+        "We never watch TV.",
+        "We don't never watch TV.",
+        "We never watches TV."
+      ],
+      "answer": "We never watch TV.",
+      "accepted": [
+        "We never watch TV."
+      ],
+      "why": "Never уже отрицательно, we + watch.",
+      "distractorWhy": "Двойное отрицание.",
+      "distractorRationales": {
+        "We don't never watch TV.": "Двойное отрицание.",
+        "We never watches TV.": "We не требует watches."
+      },
+      "skillTarget": "frequency",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I7",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the sentence beginning with sometimes.",
+      "options": [
+        "Sometimes I takes the bus.",
+        "Sometimes I taking the bus.",
+        "Sometimes I take the bus."
+      ],
+      "answer": "Sometimes I take the bus.",
+      "accepted": [
+        "Sometimes I take the bus."
+      ],
+      "why": "Sometimes в начале допустимо, I + take.",
+      "distractorWhy": "I не требует -s.",
+      "distractorRationales": {
+        "Sometimes I takes the bus.": "I не требует -s.",
+        "Sometimes I taking the bus.": "Taking не личная форма."
+      },
+      "skillTarget": "frequency",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I8",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the phrase meaning one time per week.",
+      "options": [
+        "twice a week",
+        "once a week",
+        "every day"
+      ],
+      "answer": "once a week",
+      "accepted": [
+        "once a week"
+      ],
+      "why": "Once — один раз.",
+      "distractorWhy": "Twice — два раза.",
+      "distractorRationales": {
+        "twice a week": "Twice — два раза.",
+        "every day": "Every day — ежедневно."
+      },
+      "skillTarget": "frequency",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I9",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the phrase meaning two times per month.",
+      "options": [
+        "twice a month",
+        "once a month",
+        "three times a month"
+      ],
+      "answer": "twice a month",
+      "accepted": [
+        "twice a month"
+      ],
+      "why": "Twice — два раза.",
+      "distractorWhy": "Once — один.",
+      "distractorRationales": {
+        "once a month": "Once — один.",
+        "three times a month": "Three times — три."
+      },
+      "skillTarget": "frequency",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E1",
+      "group": "Выходная проверка",
+      "prompt": "Choose the question about frequency, not duration.",
+      "options": [
+        "How often do you swim?",
+        "How long do you swim?",
+        "Where do you swim?"
+      ],
+      "answer": "How often do you swim?",
+      "accepted": [
+        "How often do you swim?"
+      ],
+      "why": "How often — как часто.",
+      "distractorWhy": "How long — как долго.",
+      "distractorRationales": {
+        "How long do you swim?": "How long — как долго.",
+        "Where do you swim?": "Where — где."
+      },
+      "skillTarget": "frequency",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E2",
+      "group": "Выходная проверка",
+      "prompt": "Choose the phrase meaning every single day.",
+      "options": [
+        "everyday (as an adverb phrase)",
+        "all day",
+        "every day"
+      ],
+      "answer": "every day",
+      "accepted": [
+        "every day"
+      ],
+      "why": "Every day — каждый день.",
+      "distractorWhy": "Everyday adjective.",
+      "distractorRationales": {
+        "everyday (as an adverb phrase)": "Everyday adjective.",
+        "all day": "All day — весь день."
+      },
+      "skillTarget": "frequency",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E3",
+      "group": "Выходная проверка",
+      "prompt": "Choose the correct sentence with time and place in neutral order.",
+      "options": [
+        "We meet at every Friday college.",
+        "We meet at college every Friday.",
+        "We meets at college every Friday."
+      ],
+      "answer": "We meet at college every Friday.",
+      "accepted": [
+        "We meet at college every Friday."
+      ],
+      "why": "Place before time, we + meet.",
+      "distractorWhy": "Неверная noun phrase.",
+      "distractorRationales": {
+        "We meet at every Friday college.": "Неверная noun phrase.",
+        "We meets at college every Friday.": "We требует meet."
+      },
+      "skillTarget": "frequency",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E4",
+      "group": "Выходная проверка",
+      "prompt": "Choose the sentence meaning the person is continuing to wait.",
+      "options": [
+        "She is still waiting.",
+        "She is yet waiting (ordinary continuation).",
+        "She still wait now."
+      ],
+      "answer": "She is still waiting.",
+      "accepted": [
+        "She is still waiting."
+      ],
+      "why": "Still — всё ещё; is waiting.",
+      "distractorWhy": "Yet обычно не так.",
+      "distractorRationales": {
+        "She is yet waiting (ordinary continuation).": "Yet обычно не так.",
+        "She still wait now.": "Нет правильной формы глагола."
+      },
+      "skillTarget": "frequency",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E5",
+      "group": "Выходная проверка",
+      "prompt": "Choose the ordinary negative status with yet.",
+      "options": [
+        "The tutor isn't yetly here.",
+        "The tutor don't here yet.",
+        "The tutor isn't here yet."
+      ],
+      "answer": "The tutor isn't here yet.",
+      "accepted": [
+        "The tutor isn't here yet."
+      ],
+      "why": "Yet обычно в конце, isn't + here.",
+      "distractorWhy": "Yetly не стандартно.",
+      "distractorRationales": {
+        "The tutor isn't yetly here.": "Yetly не стандартно.",
+        "The tutor don't here yet.": "Don't не заменяет be."
+      },
+      "skillTarget": "frequency",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "W1",
+      "group": "Самостоятельное применение",
+      "prompt": "Напиши 8–10 предложений о распорядке: шесть frequency adverbs, два be-состояния, один вопрос How often, одно отрицание и две frequency phrases.",
+      "open": true,
+      "rubric": [
+        "Наречия перед main verb.",
+        "Наречия после be.",
+        "В вопросах правильный порядок.",
+        "После does стоит V1.",
+        "Never без двойного отрицания.",
+        "Frequency phrases и смысл корректны."
+      ],
+      "skillTarget": "Самостоятельное применение frequency",
+      "interactionType": "open-production",
+      "difficulty": "transfer",
+      "sourceBasis": "Speakbase-authored open production; self-review rubric only until real AI feedback is connected",
+      "contentVersion": "1.1-draft"
+    }
+  ],
+  "markdown": "# Speakbase — A1-12: Adverbs of frequency and basic word order\n\n**Curriculum ID:** `A1-12`  \n**Уровень:** A1  \n**Версия:** 1.1-draft\n**Статус:** drafted; selected source text checked; full source-page and learner acceptance pending\n**Предварительные темы:** A1-05, A1-11  \n**Связь со старым каталогом:** Частично — №1 Present Simple; №19 Adverbs\n\n## 1. Результаты обучения\n\n- Использовать always/usually/often/sometimes/never в правильной позиции\n- Выбирать целевую форму по значению, структуре предложения и контексту.\n- Объяснять, почему близкая грамматическая форма меняет смысл или регистр.\n- Находить и исправлять типичные ошибки русскоязычных студентов.\n\n## 2. Источники и статус сверки\n\n| Source | PDF navigation | Lesson-specific checks | Status |\n|---|---|---|---|\n| GR-01 U95-96 | PDF pages 201-204 (Unit 95-96) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-02 U109-110 | PDF pages 230-233 (Unit 109-110) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-05 A1 p5-7 | PDF pages 5-7 (A1 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n\nUnit/page locations are navigation aids only. They do not prove that the cited explanation, examples, restrictions and answer key have been checked for this lesson. Examples and explanations below are Speakbase-authored, not quotations from the textbook.\n\nПеред переводом этого урока в source-verified необходимо открыть целевые страницы конкретного издания, записать печатную и PDF-пагинацию, сверить ограничения и исключения. Для GR-03 со сканированными страницами обязательна визуальная проверка.\n\n**Evidence for this editorial pass:** GR-01 Units 95–96, theory text inspected PDF pp. 201, 203 (printed 200, 202); GR-01 Unit 6 PDF p. 23 supports frequency use; additional source and exercise-page/visual verification pending. The selected source text was consulted; not all pages, exercises, editions, scanned GR-03 pages or GR-05 descriptors were checked. Author-created explanations and practice are not copied source exercises.\n\n## 3. Место темы и границы\n\nПокажи позицию frequency adverbs с обычными глаголами, be и вспомогательными глаголами. Only/always/never могут менять фокус в зависимости от позиции.\n\nСтарый каталог содержит: №1 Present Simple; №19 Adverbs. Его статус — Частично. Старые отметки завершения не переносятся автоматически на новый постоянный ID. Тема рассматривается в уровне A1 и не заменяет обязательные prerequisites.\n\n## 4. Полный конспект\n\n### 4.1. Основная идея и функция конструкции\n\nAdverbs of frequency показывают, как часто что-то происходит: always — всегда, usually — обычно, often — часто, sometimes — иногда, rarely — редко, never — никогда. Они помогают описывать привычки и распорядок дня. Важно поставить их в правильное место.\n\nОбычное место наречия частоты — перед смысловым глаголом: I often read. Но если смысловой глагол be, наречие стоит после него: I am often tired. Если в предложении есть вспомогательное слово или modal, наречие часто ставится после первого auxiliary: I can usually help. Вопросы требуют отдельной проверки порядка.\n\n### 4.2. Формирование и грамматическая модель\n\n| Структура | Обычная позиция | Пример |\n|---|---|---|\n| Main verb | subject + adverb + verb | I usually read. |\n| Be | subject + be + adverb | She is often busy. |\n| Modal | subject + modal + adverb + V1 | We can usually come. |\n| Question | do/does + subject + adverb + V1 | Do you often read? |\n| Negative | subject + don't/doesn't + adverb + V1 | She doesn't usually read. |\n| Frequency phrase | часто конец/начало | I read every day. |\n\nAlways/usually/often/sometimes/rarely/never не требуют фиксированного процента. Их значение зависит от ситуации. Every day, once a week, twice a month, three times a year обычно стоят в конце или в начале. How often…? спрашивает частоту. Never уже отрицательно по смыслу: I never drink coffee. Don't often означает нечасто, don't always — не всегда.\n\n### 4.3. Как выбрать подходящую форму\n\nНайди смысловой глагол. Для обычного глагола поставь наречие перед ним, для be — после be. Если есть can или другой auxiliary, поставь наречие после него в нейтральной модели. В вопросе сначала auxiliary, затем subject, потом наречие и V1.\n\nSometimes допускается в начале: Sometimes I walk to college; I sometimes walk to college. Often также возможен в конце в некоторых контекстах. Always может иметь особую позицию при усилении. Учебные задания явно проверяют нейтральный порядок, а не единственный возможный вариант. Не смешивай frequency и time: every day — как часто, today — когда.\n\n### 4.4. Сравнение с близкими конструкциями\n\n| С обычным verb | С be |\n|---|---|\n| She usually arrives early. | She is usually early. |\n| He often studies at night. | He is often tired. |\n| They never eat meat. | They are never late. |\n| Do you often travel? | Are you often busy? |\n\n### 4.5. Примеры с переводом и объяснением\n\n| English | Перевод | Почему это подходит |\n| --- | --- | --- |\n| I usually get up at seven. | Обычно я встаю в семь. | Usually перед main verb. |\n| My friend is always early. | Мой друг всегда приходит рано. | Always после be. |\n| Do you often use this app? | Ты часто используешь приложение? | Do + subject + often + V1. |\n| She doesn't usually walk to work. | Она обычно не ходит на работу пешком. | Doesn't + usually + V1. |\n| Sometimes we study together. | Иногда мы занимаемся вместе. | Sometimes может стоять в начале. |\n| I practise English twice a week. | Я практикую английский два раза в неделю. | Frequency phrase в конце. |\n\n### 4.6. Исключения, ограничения и границы употребления\n\nStill означает всё ещё, а не частоту: She is still here. Yet обычно в конце вопроса или отрицания: She isn't here yet. Already — уже: She is already here. Эти наречия относятся к статусу действия, поэтому не нужно относить их все к шкале always–never.\n\nВ нейтральном порядке не разделяй глагол и короткое дополнение: I usually read books, not I read usually books. Порядок места/времени часто place before time: We study at home every evening. Subject + verb + object остаётся основой утверждения. Наречие не отменяет -s: He often reads, но Does he often read? и He doesn't often read. Everyday — adjective (everyday life), every day — каждый день (два слова).\n\n### 4.7. Типичные ошибки русскоязычных студентов\n\n| Ошибка | Исправление | Объяснение |\n| --- | --- | --- |\n| She often is tired (neutral order). | She is often tired. | Frequency после be. |\n| He reads usually books. | He usually reads books. | Наречие перед main verb. |\n| I don't never go there. | I never go there. | Never уже отрицательно. |\n| Does she often walks? | Does she often walk? | После does — V1. |\n\n### 4.8. Произношение и восприятие на слух\n\nПроизноси наречия в целых фразах. ALWAYS и NEVER могут получать смысловое ударение. Often имеет стандартные варианты с произносимой и непроизносимой t. Usually произносится слитно; не добавляй отдельные слоги по буквам. Аудиосверка отдельно не выполнена.\n\nСначала прослушай или прочитай пример, затем произнеси его целиком. Обрати внимание на смысловое ударение и форму конструкции; не ориентируйся только на буквенный перевод.\n\n### 4.9. Академический английский и TOEFL-перенос\n\nВ Speaking Interview описывай распорядок и частоту, отвечая не одним словом, а примером: I usually study in the evening. В Listening отличай often от rarely и never. В Writing не добавляй частоту, если она не подтверждена. Это базовая практика.\n\nЭто авторская практика переноса навыка. Она не является официальным заданием TOEFL и не выдаётся за официальный результат экзамена.\n\n### 4.10. Примеры для управляемого разбора\n\n- I usually get up at seven. — Обычно я встаю в семь. Usually перед main verb.\n- My friend is always early. — Мой друг всегда приходит рано. Always после be.\n- Do you often use this app? — Ты часто используешь приложение? Do + subject + often + V1.\n\nДля каждого примера назови целевую конструкцию, объясни выбор и составь новое предложение в другом контексте. Затем перейди к заданиям: сначала диагностика, затем управляемая и самостоятельная практика, затем новые вопросы выходной проверки.\n\n### 4.11. Самопроверка\n\nПеред отправкой ответа проверь:\n1. Наречия перед main verb.\n2. Наречия после be.\n3. В вопросах правильный порядок.\n4. После does стоит V1.\n5. Never без двойного отрицания.\n6. Frequency phrases и смысл корректны.\n\n### 4.12. Краткая памятка\n\nAlways/usually/often/sometimes/rarely/never: перед обычным main verb, после be, обычно после первого auxiliary. Every day/once a week — в начале или конце. Never не требует don't. How often спрашивает частоту.\n\nНе выбирай форму только по одному знакомому слову: проверь контекст, значение и структуру. При ошибке вернись к соответствующей части конспекта и составь собственный пример.\n\n## 5. Практика\n\nВ приложении практика разделена на входную диагностику, управляемые задания, самостоятельную практику и новую выходную проверку. Закрытые ответы получают rationale и разбор ошибки. Свободный текст сохраняется и оценивается по рубрике; до подключения и реальной проверки AI-движка система не выдаёт его за автоматическую AI-оценку.\n\n## 6. Интервальное повторение\n\nПовторяй не весь урок автоматически, а конкретную ошибку: выбор формы, согласование, word order, значение, регистр или пунктуацию. Новая попытка должна менять лексический контекст и формулировку, чтобы проверять перенос, а не запоминание одной строки.\n\n## 7. Технический статус\n\n- Постоянный ID: `A1-12`.\n- Прогресс хранится отдельно в course.grammarLessons[\"A1-12\"].\n- Содержание и ключи имеют статус draft; 24 авторских закрытых задания и объяснения вычитаны, выбранные тексты источников проверены. Полная постраничная и пользовательская приёмка остаются открытыми.\n- Предварительное выполнение порогов не равно окончательному mastered: нужны отсроченное повторение и learner review.",
+  "theoryEnd": "## 5."
+}
