@@ -2654,22 +2654,82 @@
       "questionBankSource": "topic-specific-authored",
       "sourceRefs": [
         {
-          "ref": "GR-02 U39-41",
+          "ref": "GR-02 U39",
           "pages": {
             "source": "GR-02",
             "pdf_start": 90,
-            "pdf_end": 95,
+            "pdf_end": 91,
             "unit_start": 39,
+            "unit_end": 39
+          }
+        },
+        {
+          "ref": "GR-02 U40",
+          "pages": {
+            "source": "GR-02",
+            "pdf_start": 92,
+            "pdf_end": 93,
+            "unit_start": 40,
+            "unit_end": 40
+          }
+        },
+        {
+          "ref": "GR-02 U41",
+          "pages": {
+            "source": "GR-02",
+            "pdf_start": 94,
+            "pdf_end": 95,
+            "unit_start": 41,
             "unit_end": 41
           }
         },
         {
-          "ref": "GR-03 U83-87",
+          "ref": "GR-03 U83",
           "pages": {
             "source": "GR-03",
             "pdf_start": 190,
-            "pdf_end": 199,
+            "pdf_end": 191,
             "unit_start": 83,
+            "unit_end": 83
+          }
+        },
+        {
+          "ref": "GR-03 U84",
+          "pages": {
+            "source": "GR-03",
+            "pdf_start": 192,
+            "pdf_end": 193,
+            "unit_start": 84,
+            "unit_end": 84
+          }
+        },
+        {
+          "ref": "GR-03 U85",
+          "pages": {
+            "source": "GR-03",
+            "pdf_start": 194,
+            "pdf_end": 195,
+            "unit_start": 85,
+            "unit_end": 85
+          }
+        },
+        {
+          "ref": "GR-03 U86",
+          "pages": {
+            "source": "GR-03",
+            "pdf_start": 196,
+            "pdf_end": 197,
+            "unit_start": 86,
+            "unit_end": 86
+          }
+        },
+        {
+          "ref": "GR-03 U87",
+          "pages": {
+            "source": "GR-03",
+            "pdf_start": 198,
+            "pdf_end": 199,
+            "unit_start": 87,
             "unit_end": 87
           }
         },
