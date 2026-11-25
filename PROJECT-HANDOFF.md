@@ -75,3 +75,7 @@ A1-16–19: imperatives and suggestions, basic conjunctions, time/place preposit
 ## C1 second editorial pass, package 1
 
 C1-01–03: negative inversion, inverted conditionals, clefts/fronting/emphatic do. Visually reopened GR-03 theory Units 84, 98–100 (PDF pp. 192, 220, 222, 224). Replaced repetitive generated practice with 72 individually authored questions and 3 open rubrics; fixed the erroneous Should + raised key and expanded coverage. Existing prior source evidence retained. Full GR-05 and learner acceptance remain pending. Editorial pass: C1 3/14; combined A1–B1/C1 59 lessons. Next C1-04–06. No real-account changes.
+
+## C1 second editorial pass, package 2
+
+C1-04–06: non-finite clauses, nominalisation, complex noun phrases and prepositions. Reopened GR-03 rendered theory Units 58–59, 93, 101 (PDF pp. 140, 142, 210, 226); previous exercise-page evidence retained. 72 individually authored closed items and 3 open rubrics, runtime snapshots match Markdown. Removed ambiguous explanation for/of forced-choice item; added explicit semantic contrasts, logical-subject and voice controls, preservation of agency and uncertainty. GR-05, full exercise-source coverage and learner acceptance pending. C1 deep editorial pass 6/14; total 62/91. Next C1-07–09. Preserve unrelated files and real-account data.

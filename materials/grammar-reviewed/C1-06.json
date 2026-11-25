@@ -1,0 +1,744 @@
+{
+  "id": "C1-06",
+  "level": "C1",
+  "sequence": "C1-06",
+  "grammarFamily": "C1-06",
+  "questionBankSource": "topic-specific-authored",
+  "sourceVerification": "draft; selected source text consulted; complete source-page and learner review pending",
+  "topicProfile": {
+    "label": "complex noun phrases and prepositions",
+    "skillTarget": "complex-noun-phrases-prepositions-c1",
+    "core": "Complex noun phrase содержит head noun и один или несколько modifiers/complements. В академическом тексте такая группа может занимать позицию subject, object или complement: the recent changes in the assessment procedure. Head — changes; recent — premodifier; in the assessment procedure — postmodifier. Complex preposition состоит из нескольких слов и выражает одну связь: with reference to, in comparison with, as a result of.",
+    "form": "| Компонент | Пример |\n|---|---|\n| Determiner + adjective + head | the recent revision |\n| Noun premodifier | the assessment procedure |\n| Head + of-phrase | an account of the process |\n| Head + dependent preposition | a response to criticism |\n| Head + two complements | the implications of X for Y |\n| Head + relative clause | the results that we obtained |\n| Complex preposition | with reference to the policy |\n| Complement of noun | the possibility of failure / the decision to leave |",
+    "selection": "Сначала выдели head и смысловые роли. Evidence for a hypothesis — доказательства в поддержку; evidence of damage — признаки повреждения. Explanation of a process — объяснение процесса; explanation for a delay — причина задержки. Оба предлога могут быть допустимы в некоторых контекстах; нельзя объявлять of или for всегда неверным. Implications of X for Y — следствия X для Y; response to criticism; distinction between A and B.",
+    "contrast": "| Сочетание | Отношение |\n|---|---|\n| evidence for the claim | поддержка утверждения |\n| evidence of damage | признаки повреждения |\n| explanation of the procedure | описание/разъяснение процедуры |\n| explanation for the delay | объяснение причины задержки |\n| implications of the change for students | источник и затронутая группа |\n| distinction between two concepts | различие двух понятий |\n| in comparison with previous results | сравнение |\n| regardless of the outcome | независимо от результата |",
+    "boundary": "Не делай выбор предлога универсальным правилом, если он лексически и семантически обусловлен. Between может относиться более чем к двум отдельно рассматриваемым объектам; among часто обозначает группу без индивидуального перечисления. Of-phrase не всегда object: может выражать принадлежность, свойство, содержание, категорию. Не объявляй все альтернативные modifiers ошибочными. При двусмысленном attachment перепиши clause явно.",
+    "pronunciation": "Предлоги часто безударны, но связь определяют целые chunks: RESPONSE to, IMPACT on, with REFERENCE to. В длинной группе выделяй head и затем смысловой complement; не делай искусственную паузу между dependent preposition и его object. Аудиосверка открыта.",
+    "examples": [
+      [
+        "The implications of the new policy for small businesses are unclear.",
+        "Последствия новой политики для малых компаний неясны.",
+        "Of — источник, for — затронутая группа."
+      ],
+      [
+        "The report provides evidence of damage to the equipment.",
+        "Отчёт содержит признаки повреждения оборудования.",
+        "Evidence of указывает наблюдаемое явление."
+      ],
+      [
+        "The decision to delay the launch was announced yesterday.",
+        "Решение отложить запуск объявили вчера.",
+        "Decision + to-infinitive."
+      ],
+      [
+        "The risk of losing data remains high.",
+        "Риск потери данных остаётся высоким.",
+        "Risk + of + -ing."
+      ],
+      [
+        "Prior to publication, the figures were checked.",
+        "Перед публикацией данные проверили.",
+        "Complex preposition prior to."
+      ],
+      [
+        "The findings are consistent with earlier work, regardless of the sample size.",
+        "Результаты согласуются с предыдущими работами независимо от объёма выборки.",
+        "Regardless of вводит независимый фактор."
+      ]
+    ],
+    "traps": [
+      [
+        "The impact of several changes were substantial.",
+        "The impact of several changes was substantial.",
+        "Head impact singular."
+      ],
+      [
+        "The response of the criticism was immediate (reply).",
+        "The response to the criticism was immediate.",
+        "Response to — реакция на объект."
+      ],
+      [
+        "The possibility to losing data.",
+        "The possibility of losing data.",
+        "Possibility + of + -ing."
+      ],
+      [
+        "Prior of the meeting.",
+        "Prior to the meeting.",
+        "Устойчивый complex preposition."
+      ],
+      [
+        "Regardless to the outcome.",
+        "Regardless of the outcome.",
+        "Устойчивый regardless of."
+      ]
+    ],
+    "toefl": "В Reading разбирай head noun и вложенные modifiers, чтобы определить subject и отношения. В Listening распознавай chunks с предлогами. В Build a Sentence проверяй noun complement и согласование, в Writing избегай неоднозначных noun chains. Это авторская практика, не официальный экзаменационный материал."
+  },
+  "title": "Complex noun phrases and prepositions",
+  "description": "Использовать сложные premodifiers, postmodifiers и complex prepositions для точного письма",
+  "cardDescription": "Теория, guided practice, самостоятельные задания и выходная проверка по постоянному ID C1-06.",
+  "eyebrow": "Полный урок программы C1-06 · drafted",
+  "contentVersion": "1.1-draft",
+  "curriculumVersion": "1.0",
+  "prerequisites": [
+    "B2-09",
+    "B2-19"
+  ],
+  "outcomes": [
+    "Использовать сложные premodifiers, postmodifiers и complex prepositions для точного письма",
+    "Выбирать целевую конструкцию по контексту и смыслу.",
+    "Исправлять типичные ошибки и переносить правило в новый пример."
+  ],
+  "sourceRefs": [
+    "GR-03 U88-94",
+    "GR-03 U101",
+    "GR-05 C1 p5",
+    "GR-05 C1 p29",
+    "GR-05 C1 p43"
+  ],
+  "sourceStatus": "selected source text consulted; full page verification pending",
+  "status": "drafted",
+  "legacyCoverage": "Частично",
+  "toeflLinks": [
+    "Writing: Build a Sentence",
+    "Reading: clause structure, reference, modifiers and logical relationships",
+    "Writing: Academic Discussion"
+  ],
+  "thresholds": {
+    "independent": 7,
+    "exit": 4,
+    "criticalIds": [
+      "E1",
+      "E2",
+      "E3"
+    ]
+  },
+  "groups": {
+    "independent": "Самостоятельная практика",
+    "exit": "Выходная проверка"
+  },
+  "items": [
+    {
+      "id": "D1",
+      "group": "Входная диагностика",
+      "prompt": "Identify the head of 'the recent revision of several admission rules'.",
+      "options": [
+        "rules",
+        "revision",
+        "recent"
+      ],
+      "answer": "revision",
+      "accepted": [
+        "revision"
+      ],
+      "why": "Revision — центральное существительное.",
+      "distractorWhy": "Rules внутри of-phrase.",
+      "distractorRationales": {
+        "rules": "Rules внутри of-phrase.",
+        "recent": "Recent adjective."
+      },
+      "skillTarget": "complex-noun-phrases-prepositions-c1",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D2",
+      "group": "Входная диагностика",
+      "prompt": "Choose agreement: The impact of several reforms on local services ___ substantial.",
+      "options": [
+        "was",
+        "were",
+        "have"
+      ],
+      "answer": "was",
+      "accepted": [
+        "was"
+      ],
+      "why": "Impact singular.",
+      "distractorWhy": "Reforms/services не head.",
+      "distractorRationales": {
+        "were": "Reforms/services не head.",
+        "have": "Have не linking verb."
+      },
+      "skillTarget": "complex-noun-phrases-prepositions-c1",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D3",
+      "group": "Входная диагностика",
+      "prompt": "Choose agreement: The consequences of the policy ___ serious.",
+      "options": [
+        "is",
+        "has",
+        "are"
+      ],
+      "answer": "are",
+      "accepted": [
+        "are"
+      ],
+      "why": "Consequences plural.",
+      "distractorWhy": "Policy не head.",
+      "distractorRationales": {
+        "is": "Policy не head.",
+        "has": "Has не linking verb."
+      },
+      "skillTarget": "complex-noun-phrases-prepositions-c1",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D4",
+      "group": "Входная диагностика",
+      "prompt": "Choose the phrase with a noun modifier and a head meaning procedure.",
+      "options": [
+        "the assessmently procedure",
+        "the assessment procedure",
+        "the procedure assess"
+      ],
+      "answer": "the assessment procedure",
+      "accepted": [
+        "the assessment procedure"
+      ],
+      "why": "Assessment modifies procedure.",
+      "distractorWhy": "Assessmently не modifier.",
+      "distractorRationales": {
+        "the assessmently procedure": "Assessmently не modifier.",
+        "the procedure assess": "Assess — verb, порядок неверен."
+      },
+      "skillTarget": "complex-noun-phrases-prepositions-c1",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G1",
+      "group": "Управляемая практика",
+      "prompt": "Choose the construction explicitly describing evidence supporting a hypothesis.",
+      "options": [
+        "evidence for the hypothesis",
+        "evidence against the hypothesis",
+        "evidence from the hypothesis (support meaning)"
+      ],
+      "answer": "evidence for the hypothesis",
+      "accepted": [
+        "evidence for the hypothesis"
+      ],
+      "why": "For выражает поддержку.",
+      "distractorWhy": "Against противоположно.",
+      "distractorRationales": {
+        "evidence against the hypothesis": "Against противоположно.",
+        "evidence from the hypothesis (support meaning)": "From выражает источник."
+      },
+      "skillTarget": "complex-noun-phrases-prepositions-c1",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G2",
+      "group": "Управляемая практика",
+      "prompt": "Choose the construction explicitly referring to observed signs of damage.",
+      "options": [
+        "evidence against damage",
+        "evidence from damage (signs meaning)",
+        "evidence of damage"
+      ],
+      "answer": "evidence of damage",
+      "accepted": [
+        "evidence of damage"
+      ],
+      "why": "Of identifies observed phenomenon.",
+      "distractorWhy": "Against выражает опровержение.",
+      "distractorRationales": {
+        "evidence against damage": "Against выражает опровержение.",
+        "evidence from damage (signs meaning)": "From указывает источник, не целевую связь."
+      },
+      "skillTarget": "complex-noun-phrases-prepositions-c1",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G3",
+      "group": "Управляемая практика",
+      "prompt": "Choose the complement that explicitly identifies the cause to be explained: 'an explanation ___ the delay' (use the conventional reason pattern).",
+      "options": [
+        "at",
+        "for",
+        "with"
+      ],
+      "answer": "for",
+      "accepted": [
+        "for"
+      ],
+      "why": "Explanation for delay — объяснение причины.",
+      "distractorWhy": "At не целевая модель.",
+      "distractorRationales": {
+        "at": "At не целевая модель.",
+        "with": "With не вводит причину."
+      },
+      "skillTarget": "complex-noun-phrases-prepositions-c1",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G4",
+      "group": "Управляемая практика",
+      "prompt": "Choose the phrase explaining how a procedure works.",
+      "options": [
+        "an explanation of the procedure",
+        "an explanation at the procedure",
+        "an explanation to the procedure"
+      ],
+      "answer": "an explanation of the procedure",
+      "accepted": [
+        "an explanation of the procedure"
+      ],
+      "why": "Of identifies content explained.",
+      "distractorWhy": "At не conventional complement.",
+      "distractorRationales": {
+        "an explanation at the procedure": "At не conventional complement.",
+        "an explanation to the procedure": "To не обозначает содержание."
+      },
+      "skillTarget": "complex-noun-phrases-prepositions-c1",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G5",
+      "group": "Управляемая практика",
+      "prompt": "Choose the correct two-complement pattern for consequences of a change affecting students.",
+      "options": [
+        "the implications to the change of students",
+        "the implications from students to the change",
+        "the implications of the change for students"
+      ],
+      "answer": "the implications of the change for students",
+      "accepted": [
+        "the implications of the change for students"
+      ],
+      "why": "Of source, for affected group.",
+      "distractorWhy": "Роли и предлоги изменены.",
+      "distractorRationales": {
+        "the implications to the change of students": "Роли и предлоги изменены.",
+        "the implications from students to the change": "Меняет направление отношения."
+      },
+      "skillTarget": "complex-noun-phrases-prepositions-c1",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G6",
+      "group": "Управляемая практика",
+      "prompt": "Choose the ordinary noun pattern meaning a reply to criticism.",
+      "options": [
+        "a response at criticism",
+        "a response to criticism",
+        "a response with criticism (reply target)"
+      ],
+      "answer": "a response to criticism",
+      "accepted": [
+        "a response to criticism"
+      ],
+      "why": "Response to + target.",
+      "distractorWhy": "At не conventional complement.",
+      "distractorRationales": {
+        "a response at criticism": "At не conventional complement.",
+        "a response with criticism (reply target)": "With может указывать содержание, не адресат."
+      },
+      "skillTarget": "complex-noun-phrases-prepositions-c1",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I1",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the conventional contrast of two concepts.",
+      "options": [
+        "the distinction of correlation to causation",
+        "the distinction among correlation to causation",
+        "the distinction between correlation and causation"
+      ],
+      "answer": "the distinction between correlation and causation",
+      "accepted": [
+        "the distinction between correlation and causation"
+      ],
+      "why": "Between A and B.",
+      "distractorWhy": "Неверная парная структура.",
+      "distractorRationales": {
+        "the distinction of correlation to causation": "Неверная парная структура.",
+        "the distinction among correlation to causation": "Among…to не целевая модель."
+      },
+      "skillTarget": "complex-noun-phrases-prepositions-c1",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I2",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the noun pattern corresponding to proud of her work.",
+      "options": [
+        "pride on her work",
+        "pride in her work",
+        "pride to her work"
+      ],
+      "answer": "pride in her work",
+      "accepted": [
+        "pride in her work"
+      ],
+      "why": "Pride in, хотя adjective proud of.",
+      "distractorWhy": "On не conventional complement.",
+      "distractorRationales": {
+        "pride on her work": "On не conventional complement.",
+        "pride to her work": "To не нужная связь."
+      },
+      "skillTarget": "complex-noun-phrases-prepositions-c1",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I3",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the noun pattern meaning respect directed towards a person.",
+      "options": [
+        "respect for the teacher",
+        "respect on the teacher",
+        "respect to the teacher (target noun complement)"
+      ],
+      "answer": "respect for the teacher",
+      "accepted": [
+        "respect for the teacher"
+      ],
+      "why": "Respect for person.",
+      "distractorWhy": "On не conventional pattern.",
+      "distractorRationales": {
+        "respect on the teacher": "On не conventional pattern.",
+        "respect to the teacher (target noun complement)": "To не обычная модель здесь."
+      },
+      "skillTarget": "complex-noun-phrases-prepositions-c1",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I4",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the complement with risk and a possible action.",
+      "options": [
+        "the risk of lose data",
+        "the risk to losing data",
+        "the risk of losing data"
+      ],
+      "answer": "the risk of losing data",
+      "accepted": [
+        "the risk of losing data"
+      ],
+      "why": "Risk of + V-ing.",
+      "distractorWhy": "Lose не -ing.",
+      "distractorRationales": {
+        "the risk of lose data": "Lose не -ing.",
+        "the risk to losing data": "To losing не target complement."
+      },
+      "skillTarget": "complex-noun-phrases-prepositions-c1",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I5",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the complement of decision expressing intended action.",
+      "options": [
+        "the decision to expanding the service",
+        "the decision to expand the service",
+        "the decision of expand the service"
+      ],
+      "answer": "the decision to expand the service",
+      "accepted": [
+        "the decision to expand the service"
+      ],
+      "why": "Decision + to V1.",
+      "distractorWhy": "Expanding не V1.",
+      "distractorRationales": {
+        "the decision to expanding the service": "Expanding не V1.",
+        "the decision of expand the service": "Of не перед bare infinitive."
+      },
+      "skillTarget": "complex-noun-phrases-prepositions-c1",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I6",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the phrase explicitly meaning probability of winning.",
+      "options": [
+        "the chance of winning",
+        "the chance to winning",
+        "the chance of win"
+      ],
+      "answer": "the chance of winning",
+      "accepted": [
+        "the chance of winning"
+      ],
+      "why": "Chance of + -ing expresses likelihood.",
+      "distractorWhy": "To winning неверно.",
+      "distractorRationales": {
+        "the chance to winning": "To winning неверно.",
+        "the chance of win": "Win не -ing."
+      },
+      "skillTarget": "complex-noun-phrases-prepositions-c1",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I7",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the phrase explicitly meaning an opportunity to speak.",
+      "options": [
+        "the chance to speaking",
+        "the chance of speak",
+        "the chance to speak"
+      ],
+      "answer": "the chance to speak",
+      "accepted": [
+        "the chance to speak"
+      ],
+      "why": "Chance to + V1 expresses opportunity.",
+      "distractorWhy": "Speaking не V1.",
+      "distractorRationales": {
+        "the chance to speaking": "Speaking не V1.",
+        "the chance of speak": "Of требует -ing."
+      },
+      "skillTarget": "complex-noun-phrases-prepositions-c1",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I8",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the conventional complex preposition meaning before publication.",
+      "options": [
+        "prior of publication",
+        "prior to publication",
+        "prior with publication"
+      ],
+      "answer": "prior to publication",
+      "accepted": [
+        "prior to publication"
+      ],
+      "why": "Prior to = before.",
+      "distractorWhy": "Of не часть выражения.",
+      "distractorRationales": {
+        "prior of publication": "Of не часть выражения.",
+        "prior with publication": "With неверно."
+      },
+      "skillTarget": "complex-noun-phrases-prepositions-c1",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I9",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the complex preposition meaning independently of the result.",
+      "options": [
+        "regardless of the result",
+        "regardless to the result",
+        "regardless with the result"
+      ],
+      "answer": "regardless of the result",
+      "accepted": [
+        "regardless of the result"
+      ],
+      "why": "Regardless of — независимо от.",
+      "distractorWhy": "To неверно.",
+      "distractorRationales": {
+        "regardless to the result": "To неверно.",
+        "regardless with the result": "With неверно."
+      },
+      "skillTarget": "complex-noun-phrases-prepositions-c1",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E1",
+      "group": "Выходная проверка",
+      "prompt": "Choose the phrase meaning in accordance with the guidelines.",
+      "options": [
+        "in line with the guidelines",
+        "in line of the guidelines",
+        "in line to the guidelines"
+      ],
+      "answer": "in line with the guidelines",
+      "accepted": [
+        "in line with the guidelines"
+      ],
+      "why": "In line with = in accordance with.",
+      "distractorWhy": "Of не часть конструкции.",
+      "distractorRationales": {
+        "in line of the guidelines": "Of не часть конструкции.",
+        "in line to the guidelines": "To неверно."
+      },
+      "skillTarget": "complex-noun-phrases-prepositions-c1",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E2",
+      "group": "Выходная проверка",
+      "prompt": "Choose the complex preposition excluding one category.",
+      "options": [
+        "with the exception to first-year students",
+        "with exception on first-year students",
+        "with the exception of first-year students"
+      ],
+      "answer": "with the exception of first-year students",
+      "accepted": [
+        "with the exception of first-year students"
+      ],
+      "why": "With the exception of = excluding.",
+      "distractorWhy": "To неверно в этой конструкции.",
+      "distractorRationales": {
+        "with the exception to first-year students": "To неверно в этой конструкции.",
+        "with exception on first-year students": "Нет article и неверный предлог."
+      },
+      "skillTarget": "complex-noun-phrases-prepositions-c1",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E3",
+      "group": "Выходная проверка",
+      "prompt": "Choose the phrase explicitly introducing a causal factor.",
+      "options": [
+        "in comparison with the delay",
+        "as a result of the delay",
+        "regardless of the delay"
+      ],
+      "answer": "as a result of the delay",
+      "accepted": [
+        "as a result of the delay"
+      ],
+      "why": "As a result of introduces cause.",
+      "distractorWhy": "Comparison expresses comparison.",
+      "distractorRationales": {
+        "in comparison with the delay": "Comparison expresses comparison.",
+        "regardless of the delay": "Regardless signals independence."
+      },
+      "skillTarget": "complex-noun-phrases-prepositions-c1",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E4",
+      "group": "Выходная проверка",
+      "prompt": "Choose the phrase explicitly introducing the subject under discussion.",
+      "options": [
+        "with reference to the new policy",
+        "with reference of the new policy",
+        "with reference on the new policy"
+      ],
+      "answer": "with reference to the new policy",
+      "accepted": [
+        "with reference to the new policy"
+      ],
+      "why": "With reference to = concerning.",
+      "distractorWhy": "Of не часть выражения.",
+      "distractorRationales": {
+        "with reference of the new policy": "Of не часть выражения.",
+        "with reference on the new policy": "On не conventional expression."
+      },
+      "skillTarget": "complex-noun-phrases-prepositions-c1",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E5",
+      "group": "Выходная проверка",
+      "prompt": "Choose the clearest rewrite when a long noun chain has ambiguous attachment.",
+      "options": [
+        "the university student attendance system monitoring of",
+        "the monitoring attendance university student system of",
+        "the system for monitoring attendance among university students"
+      ],
+      "answer": "the system for monitoring attendance among university students",
+      "accepted": [
+        "the system for monitoring attendance among university students"
+      ],
+      "why": "Явно показаны purpose и группа студентов.",
+      "distractorWhy": "Нарушены порядок и complement.",
+      "distractorRationales": {
+        "the university student attendance system monitoring of": "Нарушены порядок и complement.",
+        "the monitoring attendance university student system of": "Цепочка и предлог неясны."
+      },
+      "skillTarget": "complex-noun-phrases-prepositions-c1",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "W1",
+      "group": "Самостоятельное применение",
+      "prompt": "Напиши 8–10 предложений о новой учебной программе. Используй три сложные noun phrases с head и postmodifiers, четыре dependent patterns и три complex prepositions. В двух предложениях поясни, почему альтернативный предлог меняет значение. Укажи head и agreement.",
+      "open": true,
+      "rubric": [
+        "Head и modifiers определены верно.",
+        "Agreement следует head noun.",
+        "Dependent prepositions передают нужное отношение.",
+        "Noun complements с -ing/to-infinitive корректны.",
+        "Complex prepositions употреблены целиком.",
+        "Нет двусмысленных цепочек, смысл ясен."
+      ],
+      "skillTarget": "Самостоятельное применение C1-06",
+      "interactionType": "open-production",
+      "difficulty": "transfer",
+      "sourceBasis": "Speakbase-authored open production; self-review rubric only until real AI feedback is connected",
+      "contentVersion": "1.1-draft"
+    }
+  ],
+  "markdown": "# Speakbase — C1-06: Complex noun phrases and prepositions\n\n**Curriculum ID:** `C1-06`  \n**Уровень:** C1  \n**Версия:** 1.1-draft\n**Статус:** drafted; selected source text checked; full source-page and learner acceptance pending\n**Предварительные темы:** B2-09, B2-19  \n**Связь со старым каталогом:** Частично — №12 Prepositions\n\n## 1. Результаты обучения\n\n- Использовать сложные premodifiers, postmodifiers и complex prepositions для точного письма\n- Выбирать целевую форму по значению, структуре предложения и контексту.\n- Объяснять, почему близкая грамматическая форма меняет смысл или регистр.\n- Находить и исправлять типичные ошибки русскоязычных студентов.\n\n## 2. Источники и статус сверки\n\n| Source | PDF navigation | Lesson-specific checks | Status |\n|---|---|---|---|\n| GR-03 U88 | PDF pages 200-201 (printed pp. 176-177, Unit 88) | Position/movement: across, over, along, through, above, below, under and beneath; explanations and exercises visually checked | visually checked; unit-text checked |\n| GR-03 U89 | PDF pages 202-203 (printed pp. 178-179, Unit 89) | Between/among: individual relationships, groups, comparison and distribution; explanations and exercises visually checked | visually checked; unit-text checked |\n| GR-03 U90 | PDF pages 204-205 (printed pp. 180-181, Unit 90) | Time prepositions: during, for, throughout, over, until, by and up to; explanations and exercises visually checked | visually checked; unit-text checked |\n| GR-03 U91 | PDF pages 206-207 (printed pp. 182-183, Unit 91) | Except, except for, apart from, besides and other than; explanations and exercises visually checked | visually checked; unit-text checked |\n| GR-03 U92 | PDF pages 208-209 (printed pp. 184-185, Unit 92) | Prepositions after verbs, including agree, ask, care, know, learn and talk; explanations and exercises visually checked | visually checked; unit-text checked |\n| GR-03 U93 | PDF pages 210-211 (printed pp. 186-187, Unit 93) | Prepositions after nouns and adjectives; -ing and to-infinitive complements; explanations and exercises visually checked | visually checked; unit-text checked |\n| GR-03 U94 | PDF pages 212-213 (printed pp. 188-189, Unit 94) | Multi-word verb word order, separable/inseparable patterns and object placement; explanations and exercises visually checked | visually checked; unit-text checked |\n| GR-03 U101 | PDF pages 226-227 (printed pp. 202-203, Unit 101) | Complex prepositions and prepositions inside complex noun phrases visually checked | visually checked; unit-text checked |\n| GR-05 C1 p5 | PDF pages 5 (C1 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-05 C1 p29 | PDF pages 29 (C1 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-05 C1 p43 | PDF pages 43 (C1 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n\nUnit/page locations are navigation aids only. They do not prove that the cited explanation, examples, restrictions and answer key have been checked for this lesson. Examples and explanations below are Speakbase-authored, not quotations from the textbook.\n\nПеред переводом этого урока в source-verified необходимо открыть целевые страницы конкретного издания, записать печатную и PDF-пагинацию, сверить ограничения и исключения. Для GR-03 со сканированными страницами обязательна визуальная проверка.\n\n**Evidence for this editorial pass:** GR-03 Units 93 and 101, rendered theory pages visually reopened PDF pp. 210, 226 (printed pp. 186, 202); earlier journal records contextual Units 88–94 and exercise pages. Additional collocational examples are author-authored; GR-05 and learner acceptance pending. The selected source text was consulted; not all pages, exercises, editions, scanned GR-03 pages or GR-05 descriptors were checked. Author-created explanations and practice are not copied source exercises.\n\n## 3. Место темы и границы\n\nComplex noun phrases и complex prepositions; точный порядок premodifiers/postmodifiers и управление предлогами.\n\nСтарый каталог содержит: №12 Prepositions. Его статус — Частично. Старые отметки завершения не переносятся автоматически на новый постоянный ID. Тема рассматривается в уровне C1 и не заменяет обязательные prerequisites.\n\n## 4. Полный конспект\n\n### 4.1. Основная идея и функция конструкции\n\nComplex noun phrase содержит head noun и один или несколько modifiers/complements. В академическом тексте такая группа может занимать позицию subject, object или complement: the recent changes in the assessment procedure. Head — changes; recent — premodifier; in the assessment procedure — postmodifier. Complex preposition состоит из нескольких слов и выражает одну связь: with reference to, in comparison with, as a result of.\n\nРазбор структуры помогает не потерять согласование и смысл. The impact of several reforms on local services was substantial. Head impact singular, поэтому was; of several reforms указывает источник влияния, on local services — объект влияния. Предлоги после существительных не всегда совпадают с предлогом родственного глагола или adjective: proud of → pride in; respect someone → respect for someone. Учи сочетание вместе с его значением, не по русскому переводу.\n\n### 4.2. Формирование и грамматическая модель\n\n| Компонент | Пример |\n|---|---|\n| Determiner + adjective + head | the recent revision |\n| Noun premodifier | the assessment procedure |\n| Head + of-phrase | an account of the process |\n| Head + dependent preposition | a response to criticism |\n| Head + two complements | the implications of X for Y |\n| Head + relative clause | the results that we obtained |\n| Complex preposition | with reference to the policy |\n| Complement of noun | the possibility of failure / the decision to leave |\n\nПорядок: determiner, premodifiers, head, postmodifiers. Внутри postmodifier могут быть вложенные noun phrases и relative clauses: the results of the study that examined the effect of sleep. Согласование определяется head. Complex prepositions включают prior to, regardless of, in line with, as opposed to, as distinct from, irrespective of, with the exception of, in the case of, on the part of. Четырёхсловные конструкции часто содержат article и заканчиваются of. После complex preposition обычно noun phrase или -ing, если это допускает конкретная модель.\n\n### 4.3. Как выбрать подходящую форму\n\nСначала выдели head и смысловые роли. Evidence for a hypothesis — доказательства в поддержку; evidence of damage — признаки повреждения. Explanation of a process — объяснение процесса; explanation for a delay — причина задержки. Оба предлога могут быть допустимы в некоторых контекстах; нельзя объявлять of или for всегда неверным. Implications of X for Y — следствия X для Y; response to criticism; distinction between A and B.\n\nNoun + complement: risk/possibility/likelihood of + -ing; decision/refusal/ability to + V1; opportunity/aim/plan могут допускать of + -ing и to-infinitive с близким значением. Chance of winning описывает вероятность; chance to speak — возможность выступить. Sense of belonging — чувство; sense to avoid danger — разумное решение в конструкции have the sense to. Some nouns take other prepositions: attempt at solving, reason for leaving. After no intention обычно of + -ing; intention to do также встречается в других контекстах.\n\n### 4.4. Сравнение с близкими конструкциями\n\n| Сочетание | Отношение |\n|---|---|\n| evidence for the claim | поддержка утверждения |\n| evidence of damage | признаки повреждения |\n| explanation of the procedure | описание/разъяснение процедуры |\n| explanation for the delay | объяснение причины задержки |\n| implications of the change for students | источник и затронутая группа |\n| distinction between two concepts | различие двух понятий |\n| in comparison with previous results | сравнение |\n| regardless of the outcome | независимо от результата |\n\n### 4.5. Примеры с переводом и объяснением\n\n| English | Перевод | Почему это подходит |\n| --- | --- | --- |\n| The implications of the new policy for small businesses are unclear. | Последствия новой политики для малых компаний неясны. | Of — источник, for — затронутая группа. |\n| The report provides evidence of damage to the equipment. | Отчёт содержит признаки повреждения оборудования. | Evidence of указывает наблюдаемое явление. |\n| The decision to delay the launch was announced yesterday. | Решение отложить запуск объявили вчера. | Decision + to-infinitive. |\n| The risk of losing data remains high. | Риск потери данных остаётся высоким. | Risk + of + -ing. |\n| Prior to publication, the figures were checked. | Перед публикацией данные проверили. | Complex preposition prior to. |\n| The findings are consistent with earlier work, regardless of the sample size. | Результаты согласуются с предыдущими работами независимо от объёма выборки. | Regardless of вводит независимый фактор. |\n\n### 4.6. Исключения, ограничения и границы употребления\n\nНе делай выбор предлога универсальным правилом, если он лексически и семантически обусловлен. Between может относиться более чем к двум отдельно рассматриваемым объектам; among часто обозначает группу без индивидуального перечисления. Of-phrase не всегда object: может выражать принадлежность, свойство, содержание, категорию. Не объявляй все альтернативные modifiers ошибочными. При двусмысленном attachment перепиши clause явно.\n\nComplex preposition as a result of выражает причину, with the exception of — исключение, prior to — предшествование, in line with — соответствие. As opposed to и as distinct from выделяют противопоставление/различие. Distinguish in the case of (относительно конкретного случая) и in case (предупредительное условие). Respect for, admiration for, pride in, satisfaction with, influence on — устойчивые noun patterns. Слишком длинные noun chains лучше разворачивать: the university's system for monitoring student attendance яснее, чем university student attendance monitoring system, если контекст не делает связи очевидными.\n\n### 4.7. Типичные ошибки русскоязычных студентов\n\n| Ошибка | Исправление | Объяснение |\n| --- | --- | --- |\n| The impact of several changes were substantial. | The impact of several changes was substantial. | Head impact singular. |\n| The response of the criticism was immediate (reply). | The response to the criticism was immediate. | Response to — реакция на объект. |\n| The possibility to losing data. | The possibility of losing data. | Possibility + of + -ing. |\n| Prior of the meeting. | Prior to the meeting. | Устойчивый complex preposition. |\n| Regardless to the outcome. | Regardless of the outcome. | Устойчивый regardless of. |\n\n### 4.8. Произношение и восприятие на слух\n\nПредлоги часто безударны, но связь определяют целые chunks: RESPONSE to, IMPACT on, with REFERENCE to. В длинной группе выделяй head и затем смысловой complement; не делай искусственную паузу между dependent preposition и его object. Аудиосверка открыта.\n\nСначала прослушай или прочитай пример, затем произнеси его целиком. Обрати внимание на смысловое ударение и форму конструкции; не ориентируйся только на буквенный перевод.\n\n### 4.9. Академический английский и TOEFL-перенос\n\nВ Reading разбирай head noun и вложенные modifiers, чтобы определить subject и отношения. В Listening распознавай chunks с предлогами. В Build a Sentence проверяй noun complement и согласование, в Writing избегай неоднозначных noun chains. Это авторская практика, не официальный экзаменационный материал.\n\nЭто авторская практика переноса навыка. Она не является официальным заданием TOEFL и не выдаётся за официальный результат экзамена.\n\n### 4.10. Примеры для управляемого разбора\n\n- The implications of the new policy for small businesses are unclear. — Последствия новой политики для малых компаний неясны. Of — источник, for — затронутая группа.\n- The report provides evidence of damage to the equipment. — Отчёт содержит признаки повреждения оборудования. Evidence of указывает наблюдаемое явление.\n- The decision to delay the launch was announced yesterday. — Решение отложить запуск объявили вчера. Decision + to-infinitive.\n\nДля каждого примера назови целевую конструкцию, объясни выбор и составь новое предложение в другом контексте. Затем перейди к заданиям: сначала диагностика, затем управляемая и самостоятельная практика, затем новые вопросы выходной проверки.\n\n### 4.11. Самопроверка\n\nПеред отправкой ответа проверь:\n1. Head и modifiers определены верно.\n2. Agreement следует head noun.\n3. Dependent prepositions передают нужное отношение.\n4. Noun complements с -ing/to-infinitive корректны.\n5. Complex prepositions употреблены целиком.\n6. Нет двусмысленных цепочек, смысл ясен.\n\n### 4.12. Краткая памятка\n\nComplex noun phrase = determiner + premodifier + head + postmodifier/complement. Agreement по head. Dependent prepositions выбираются по лексике и смыслу: evidence for/of, explanation of/for. Noun complements: risk of -ing, decision to V1. Complex prepositions запоминаются как единое сочетание. Переписывай двусмысленные цепочки.\n\nНе выбирай форму только по одному знакомому слову: проверь контекст, значение и структуру. При ошибке вернись к соответствующей части конспекта и составь собственный пример.\n\n## 5. Практика\n\nВ приложении практика разделена на входную диагностику, управляемые задания, самостоятельную практику и новую выходную проверку. Закрытые ответы получают rationale и разбор ошибки. Свободный текст сохраняется и оценивается по рубрике; до подключения и реальной проверки AI-движка система не выдаёт его за автоматическую AI-оценку.\n\n## 6. Интервальное повторение\n\nПовторяй не весь урок автоматически, а конкретную ошибку: выбор формы, согласование, word order, значение, регистр или пунктуацию. Новая попытка должна менять лексический контекст и формулировку, чтобы проверять перенос, а не запоминание одной строки.\n\n## 7. Технический статус\n\n- Постоянный ID: `C1-06`.\n- Прогресс хранится отдельно в course.grammarLessons[\"C1-06\"].\n- Содержание и ключи имеют статус draft; 24 авторских закрытых задания и объяснения вычитаны, выбранные тексты источников проверены. Полная постраничная и пользовательская приёмка остаются открытыми.\n- Предварительное выполнение порогов не равно окончательному mastered: нужны отсроченное повторение и learner review.",
+  "theoryEnd": "## 5."
+}

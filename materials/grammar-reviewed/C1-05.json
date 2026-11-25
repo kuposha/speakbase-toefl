@@ -1,0 +1,742 @@
+{
+  "id": "C1-05",
+  "level": "C1",
+  "sequence": "C1-05",
+  "grammarFamily": "C1-05",
+  "questionBankSource": "topic-specific-authored",
+  "sourceVerification": "draft; selected source text consulted; complete source-page and learner review pending",
+  "topicProfile": {
+    "label": "nominalisation and abstract noun phrases",
+    "skillTarget": "advanced-nominalisation-abstract-noun-phrases",
+    "core": "Nominalisation — выражение действия, процесса или качества с помощью существительного вместо глагола или прилагательного. The population increased rapidly → a rapid increase in the population. Такая группа может стать subject, object или complement следующего предложения: The rapid increase in the population created new demands. В академическом тексте nominalisation упаковывает уже известную информацию и позволяет обсуждать её как объект анализа.",
+    "form": "| Исходная форма | Nominal phrase |\n|---|---|\n| the team assessed the model | the team's assessment of the model |\n| demand increased rapidly | a rapid increase in demand |\n| the measurements were unreliable | the unreliability of the measurements |\n| the policy was implemented | the implementation of the policy |\n| the method is feasible | the feasibility of the method |\n| researchers decided to revise it | the researchers' decision to revise it |",
+    "selection": "Начни с исходного proposition. Назови действие, исполнителя, объект, степень, время и логическую связь. Выбери noun и верни важные элементы через possessive, premodifier, of/by/in-phrase, relative clause или следующий finite verb. Проверь, совпадают ли утверждения: The researchers failed to replicate the result ≠ The replication of the result. Нужны the researchers' failure to replicate the result.",
+    "contrast": "| Verbal style | Nominal style | Что проверить |\n|---|---|---|\n| Prices fell sharply. | A sharp fall in prices. | Степень и предмет изменения. |\n| The committee rejected the application. | The committee's rejection of the application. | Кто отверг. |\n| The trial was delayed. | The delay in the trial. | Что задержано. |\n| The results are accurate. | The accuracy of the results. | Качество, не событие. |\n| The team failed to finish. | The team's failure to finish. | Сохранение отрицательного результата. |",
+    "boundary": "Nominalisation помогает связности: The team introduced a new method. This introduction reduced the workload. Однако чрезмерная цепочка абстрактных nouns затрудняет чтение и скрывает ответственность. The implementation of the evaluation of the revision… лучше заменить прозрачной finite clause. Не считай nominal style всегда более академичным или качественным. Если важны исполнитель, срок и причинность, сохрани их явно.",
+    "pronunciation": "У производных слов может меняться ударение: RELiable → reliaBILity; FEAsible → feasiBILity. Проверяй словарь при сомнении. В длинной noun phrase группируй head и его modifiers, выделяя главное содержание. Аудиосверка открыта.",
+    "examples": [
+      [
+        "The rapid expansion of the service strained its resources.",
+        "Быстрое расширение сервиса создало нагрузку на ресурсы.",
+        "Adverb → adjective, expansion head."
+      ],
+      [
+        "The committee's rejection of the proposal surprised the applicants.",
+        "Отклонение предложения комиссией удивило заявителей.",
+        "Possessive сохраняет агента."
+      ],
+      [
+        "The reliability of the measurements remains uncertain.",
+        "Надёжность измерений остаётся неопределённой.",
+        "Abstract noun, singular agreement."
+      ],
+      [
+        "The team's failure to replicate the finding prompted another study.",
+        "Неудача команды при воспроизведении результата привела к новому исследованию.",
+        "Failure сохраняет отрицательный смысл."
+      ],
+      [
+        "The possibility of a delay concerns the organisers.",
+        "Возможность задержки беспокоит организаторов.",
+        "Сохраняется неопределённость."
+      ],
+      [
+        "A sharp decline in enrolment affected the budget.",
+        "Резкое снижение числа поступивших повлияло на бюджет.",
+        "Decline in + величина."
+      ]
+    ],
+    "traps": [
+      [
+        "The rapid implementationly of the plan.",
+        "The rapid implementation of the plan.",
+        "Нужен noun implementation."
+      ],
+      [
+        "The assessment of several models were difficult.",
+        "The assessment of several models was difficult.",
+        "Head assessment singular."
+      ],
+      [
+        "A reliable of the data.",
+        "The reliability of the data.",
+        "Adjective reliable → noun reliability."
+      ],
+      [
+        "The researchers' failure of replicate the result.",
+        "The researchers' failure to replicate the result.",
+        "Failure + to-infinitive."
+      ],
+      [
+        "The evidence were convincing.",
+        "The evidence was convincing.",
+        "Evidence обычно uncountable."
+      ]
+    ],
+    "toefl": "В Reading находи действие, скрытое за abstract noun, и восстанавливай отношения между участниками. В Writing полезно связать уже описанный процесс с дальнейшим выводом через this change/this reduction, сохраняя ясность. В Speaking не перегружай ответ цепочками nouns. Это авторская практика, не официальный вопрос ETS."
+  },
+  "title": "Nominalisation and abstract noun phrases",
+  "description": "Строить плотные академические noun phrases и выбирать nominal/verbal style",
+  "cardDescription": "Теория, guided practice, самостоятельные задания и выходная проверка по постоянному ID C1-05.",
+  "eyebrow": "Полный урок программы C1-05 · drafted",
+  "contentVersion": "1.1-draft",
+  "curriculumVersion": "1.0",
+  "prerequisites": [
+    "B2-09",
+    "B2-20"
+  ],
+  "outcomes": [
+    "Строить плотные академические noun phrases и выбирать nominal/verbal style",
+    "Выбирать целевую конструкцию по контексту и смыслу.",
+    "Исправлять типичные ошибки и переносить правило в новый пример."
+  ],
+  "sourceRefs": [
+    "GR-03 U43",
+    "GR-03 U101",
+    "GR-05 C1"
+  ],
+  "sourceStatus": "selected source text consulted; full page verification pending",
+  "status": "drafted",
+  "legacyCoverage": "Нет",
+  "toeflLinks": [
+    "Writing: Build a Sentence",
+    "Reading: clause structure, reference, modifiers and logical relationships",
+    "Writing: Academic Discussion"
+  ],
+  "thresholds": {
+    "independent": 7,
+    "exit": 4,
+    "criticalIds": [
+      "E1",
+      "E2",
+      "E3"
+    ]
+  },
+  "groups": {
+    "independent": "Самостоятельная практика",
+    "exit": "Выходная проверка"
+  },
+  "items": [
+    {
+      "id": "D1",
+      "group": "Входная диагностика",
+      "prompt": "Choose the noun meaning whether the proposal can be carried out.",
+      "options": [
+        "feasible",
+        "feasibility",
+        "feasibly"
+      ],
+      "answer": "feasibility",
+      "accepted": [
+        "feasibility"
+      ],
+      "why": "Feasibility — noun качества.",
+      "distractorWhy": "Feasible adjective.",
+      "distractorRationales": {
+        "feasible": "Feasible adjective.",
+        "feasibly": "Feasibly adverb."
+      },
+      "skillTarget": "advanced-nominalisation-abstract-noun-phrases",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D2",
+      "group": "Входная диагностика",
+      "prompt": "Choose the nominalisation of 'They assessed the model.'",
+      "options": [
+        "their assessment of the model",
+        "their assess of the model",
+        "their assessingly of the model"
+      ],
+      "answer": "their assessment of the model",
+      "accepted": [
+        "their assessment of the model"
+      ],
+      "why": "Assessment — noun действия.",
+      "distractorWhy": "Assess verb.",
+      "distractorRationales": {
+        "their assess of the model": "Assess verb.",
+        "their assessingly of the model": "Assessingly не нужная форма."
+      },
+      "skillTarget": "advanced-nominalisation-abstract-noun-phrases",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D3",
+      "group": "Входная диагностика",
+      "prompt": "Choose the noun derived from reliable.",
+      "options": [
+        "reliably",
+        "reliable",
+        "reliability"
+      ],
+      "answer": "reliability",
+      "accepted": [
+        "reliability"
+      ],
+      "why": "Reliability — noun качества.",
+      "distractorWhy": "Reliably adverb.",
+      "distractorRationales": {
+        "reliably": "Reliably adverb.",
+        "reliable": "Reliable adjective."
+      },
+      "skillTarget": "advanced-nominalisation-abstract-noun-phrases",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D4",
+      "group": "Входная диагностика",
+      "prompt": "Choose the noun phrase preserving the rapid manner of implementation.",
+      "options": [
+        "the rapidly implementation of the policy",
+        "the rapid implementation of the policy",
+        "the rapid implement of the policy (process)"
+      ],
+      "answer": "the rapid implementation of the policy",
+      "accepted": [
+        "the rapid implementation of the policy"
+      ],
+      "why": "Rapid adjective modifies implementation.",
+      "distractorWhy": "Rapidly adverb не определяет noun здесь.",
+      "distractorRationales": {
+        "the rapidly implementation of the policy": "Rapidly adverb не определяет noun здесь.",
+        "the rapid implement of the policy (process)": "Implement как noun означает инструмент."
+      },
+      "skillTarget": "advanced-nominalisation-abstract-noun-phrases",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G1",
+      "group": "Управляемая практика",
+      "prompt": "Choose the nominal phrase for 'Demand fell sharply.'",
+      "options": [
+        "a sharp fall in demand",
+        "a sharply fall in demand",
+        "a sharp fall of demand (target change in level)"
+      ],
+      "answer": "a sharp fall in demand",
+      "accepted": [
+        "a sharp fall in demand"
+      ],
+      "why": "Sharp modifies fall; in identifies changed quantity.",
+      "distractorWhy": "Sharply adverb.",
+      "distractorRationales": {
+        "a sharply fall in demand": "Sharply adverb.",
+        "a sharp fall of demand (target change in level)": "Fall in demand — обычная модель изменения величины."
+      },
+      "skillTarget": "advanced-nominalisation-abstract-noun-phrases",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G2",
+      "group": "Управляемая практика",
+      "prompt": "Choose the nominal phrase explicitly preserving the committee as agent.",
+      "options": [
+        "the rejection of the committee by the application",
+        "the application's rejection of the committee",
+        "the committee's rejection of the application"
+      ],
+      "answer": "the committee's rejection of the application",
+      "accepted": [
+        "the committee's rejection of the application"
+      ],
+      "why": "Possessive identifies rejecting agent.",
+      "distractorWhy": "Меняет участников.",
+      "distractorRationales": {
+        "the rejection of the committee by the application": "Меняет участников.",
+        "the application's rejection of the committee": "Application не отвергает committee."
+      },
+      "skillTarget": "advanced-nominalisation-abstract-noun-phrases",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G3",
+      "group": "Управляемая практика",
+      "prompt": "Choose the phrase preserving the negative outcome 'The team failed to replicate the result.'",
+      "options": [
+        "the team's replication of the result",
+        "the team's failure to replicate the result",
+        "the team's successful replication of the result"
+      ],
+      "answer": "the team's failure to replicate the result",
+      "accepted": [
+        "the team's failure to replicate the result"
+      ],
+      "why": "Failure сохраняет неудачу.",
+      "distractorWhy": "Неудача исчезает.",
+      "distractorRationales": {
+        "the team's replication of the result": "Неудача исчезает.",
+        "the team's successful replication of the result": "Утверждается противоположное."
+      },
+      "skillTarget": "advanced-nominalisation-abstract-noun-phrases",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G4",
+      "group": "Управляемая практика",
+      "prompt": "Choose the phrase preserving uncertainty in 'The method may be ineffective.'",
+      "options": [
+        "the possibility that the method is ineffective",
+        "the confirmed ineffectiveness of the method",
+        "the proven failure of the method"
+      ],
+      "answer": "the possibility that the method is ineffective",
+      "accepted": [
+        "the possibility that the method is ineffective"
+      ],
+      "why": "Possibility сохраняет модальность.",
+      "distractorWhy": "Confirmed превращает предположение в факт.",
+      "distractorRationales": {
+        "the confirmed ineffectiveness of the method": "Confirmed превращает предположение в факт.",
+        "the proven failure of the method": "Proven добавляет доказанность."
+      },
+      "skillTarget": "advanced-nominalisation-abstract-noun-phrases",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G5",
+      "group": "Управляемая практика",
+      "prompt": "Choose the ordinary noun complement expressing what was decided.",
+      "options": [
+        "the decision to postponing the trial",
+        "the decision of postpone the trial",
+        "the decision to postpone the trial"
+      ],
+      "answer": "the decision to postpone the trial",
+      "accepted": [
+        "the decision to postpone the trial"
+      ],
+      "why": "Decision + to-infinitive.",
+      "distractorWhy": "После to нужна V1.",
+      "distractorRationales": {
+        "the decision to postponing the trial": "После to нужна V1.",
+        "the decision of postpone the trial": "После of нельзя bare infinitive."
+      },
+      "skillTarget": "advanced-nominalisation-abstract-noun-phrases",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G6",
+      "group": "Управляемая практика",
+      "prompt": "Choose the head noun in 'the detailed assessment of the three new proposals'.",
+      "options": [
+        "proposals",
+        "assessment",
+        "detailed"
+      ],
+      "answer": "assessment",
+      "accepted": [
+        "assessment"
+      ],
+      "why": "Assessment — центральный noun.",
+      "distractorWhy": "Proposals внутри dependent of-phrase.",
+      "distractorRationales": {
+        "proposals": "Proposals внутри dependent of-phrase.",
+        "detailed": "Detailed modifier."
+      },
+      "skillTarget": "advanced-nominalisation-abstract-noun-phrases",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I1",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the agreement: The assessment of several proposals ___ complete.",
+      "options": [
+        "are",
+        "have",
+        "is"
+      ],
+      "answer": "is",
+      "accepted": [
+        "is"
+      ],
+      "why": "Head assessment singular.",
+      "distractorWhy": "Proposals не head.",
+      "distractorRationales": {
+        "are": "Proposals не head.",
+        "have": "Have не linking verb."
+      },
+      "skillTarget": "advanced-nominalisation-abstract-noun-phrases",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I2",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the agreement: The assessments of one model ___ inconsistent.",
+      "options": [
+        "is",
+        "are",
+        "has"
+      ],
+      "answer": "are",
+      "accepted": [
+        "are"
+      ],
+      "why": "Head assessments plural.",
+      "distractorWhy": "Is не согласуется.",
+      "distractorRationales": {
+        "is": "Is не согласуется.",
+        "has": "Has не linking verb."
+      },
+      "skillTarget": "advanced-nominalisation-abstract-noun-phrases",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I3",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the ordinary expression for one item of evidence.",
+      "options": [
+        "a piece of evidence",
+        "an evidence",
+        "an evidences"
+      ],
+      "answer": "a piece of evidence",
+      "accepted": [
+        "a piece of evidence"
+      ],
+      "why": "Piece выделяет единицу.",
+      "distractorWhy": "Evidence обычно uncountable.",
+      "distractorRationales": {
+        "an evidence": "Evidence обычно uncountable.",
+        "an evidences": "Неверная plural и article."
+      },
+      "skillTarget": "advanced-nominalisation-abstract-noun-phrases",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I4",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the ordinary phrase for a specific property of these results.",
+      "options": [
+        "an accuracies of these results",
+        "the accurately of these results",
+        "the accuracy of these results"
+      ],
+      "answer": "the accuracy of these results",
+      "accepted": [
+        "the accuracy of these results"
+      ],
+      "why": "Accuracy noun, specific property.",
+      "distractorWhy": "Plural и article не подходят.",
+      "distractorRationales": {
+        "an accuracies of these results": "Plural и article не подходят.",
+        "the accurately of these results": "Accurately adverb."
+      },
+      "skillTarget": "advanced-nominalisation-abstract-noun-phrases",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I5",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the countable noun for one completed investigation.",
+      "options": [
+        "a research (ordinary investigation)",
+        "a study",
+        "a researches"
+      ],
+      "answer": "a study",
+      "accepted": [
+        "a study"
+      ],
+      "why": "Study countable.",
+      "distractorWhy": "Research обычно uncountable.",
+      "distractorRationales": {
+        "a research (ordinary investigation)": "Research обычно uncountable.",
+        "a researches": "Неверная plural и article."
+      },
+      "skillTarget": "advanced-nominalisation-abstract-noun-phrases",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I6",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the noun phrase derived from 'The service became available.'",
+      "options": [
+        "the availability of the service",
+        "the available of the service",
+        "the availably of the service"
+      ],
+      "answer": "the availability of the service",
+      "accepted": [
+        "the availability of the service"
+      ],
+      "why": "Availability expresses property.",
+      "distractorWhy": "Available adjective.",
+      "distractorRationales": {
+        "the available of the service": "Available adjective.",
+        "the availably of the service": "Availably не noun."
+      },
+      "skillTarget": "advanced-nominalisation-abstract-noun-phrases",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I7",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the phrase meaning one distinct evaluation.",
+      "options": [
+        "an assess",
+        "an assessingly",
+        "an assessment"
+      ],
+      "answer": "an assessment",
+      "accepted": [
+        "an assessment"
+      ],
+      "why": "Assessment countable in this meaning.",
+      "distractorWhy": "Assess verb.",
+      "distractorRationales": {
+        "an assess": "Assess verb.",
+        "an assessingly": "Assessingly не noun."
+      },
+      "skillTarget": "advanced-nominalisation-abstract-noun-phrases",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I8",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the phrase preserving an agent using by.",
+      "options": [
+        "the review of the editor by the report",
+        "the review of the report by the editor",
+        "the review by the report of the editor"
+      ],
+      "answer": "the review of the report by the editor",
+      "accepted": [
+        "the review of the report by the editor"
+      ],
+      "why": "Editor performs review; report is object.",
+      "distractorWhy": "Участники поменяны.",
+      "distractorRationales": {
+        "the review of the editor by the report": "Участники поменяны.",
+        "the review by the report of the editor": "Report представлен исполнителем."
+      },
+      "skillTarget": "advanced-nominalisation-abstract-noun-phrases",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I9",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the noun phrase that does not assert completion of a merely proposed action.",
+      "options": [
+        "the proposal to revise the schedule",
+        "the completed revision of the schedule",
+        "the successful implementation of the revision"
+      ],
+      "answer": "the proposal to revise the schedule",
+      "accepted": [
+        "the proposal to revise the schedule"
+      ],
+      "why": "Proposal обозначает намерение/предложение.",
+      "distractorWhy": "Completed утверждает факт.",
+      "distractorRationales": {
+        "the completed revision of the schedule": "Completed утверждает факт.",
+        "the successful implementation of the revision": "Successful добавляет результат."
+      },
+      "skillTarget": "advanced-nominalisation-abstract-noun-phrases",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E1",
+      "group": "Выходная проверка",
+      "prompt": "Choose the noun modifier phrase for a system that detects errors.",
+      "options": [
+        "an error detection system",
+        "an errors detects system",
+        "an error detecting of system"
+      ],
+      "answer": "an error detection system",
+      "accepted": [
+        "an error detection system"
+      ],
+      "why": "Error modifies detection system.",
+      "distractorWhy": "Detects finite verb не подходит.",
+      "distractorRationales": {
+        "an errors detects system": "Detects finite verb не подходит.",
+        "an error detecting of system": "Неверная noun phrase."
+      },
+      "skillTarget": "advanced-nominalisation-abstract-noun-phrases",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E2",
+      "group": "Выходная проверка",
+      "prompt": "Choose the clearest verbal rewrite preserving the meaning of 'The implementation of the evaluation of the revision took place yesterday.'",
+      "options": [
+        "The revision evaluated the implementation yesterday.",
+        "The implementation yesterday was the evaluation of revision implementation.",
+        "Yesterday, the team put its plan to evaluate the revision into practice (if the team was responsible)."
+      ],
+      "answer": "Yesterday, the team put its plan to evaluate the revision into practice (if the team was responsible).",
+      "accepted": [
+        "Yesterday, the team put its plan to evaluate the revision into practice (if the team was responsible)."
+      ],
+      "why": "The rewrite preserves the implementation of an evaluation of a revision and the time yesterday; the explicit agent is conditional on context.",
+      "distractorWhy": "Revision не исполнитель.",
+      "distractorRationales": {
+        "The revision evaluated the implementation yesterday.": "Revision не исполнитель.",
+        "The implementation yesterday was the evaluation of revision implementation.": "Избыточная цепочка сохраняется."
+      },
+      "skillTarget": "advanced-nominalisation-abstract-noun-phrases",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E3",
+      "group": "Выходная проверка",
+      "prompt": "Choose the sentence using a nominal reference to the preceding change: 'Demand fell last month.'",
+      "options": [
+        "This decliningly reduced revenue.",
+        "This decline reduced revenue.",
+        "These decline reduced revenue."
+      ],
+      "answer": "This decline reduced revenue.",
+      "accepted": [
+        "This decline reduced revenue."
+      ],
+      "why": "This decline refers to the fall.",
+      "distractorWhy": "Decliningly не head noun.",
+      "distractorRationales": {
+        "This decliningly reduced revenue.": "Decliningly не head noun.",
+        "These decline reduced revenue.": "These требует plural."
+      },
+      "skillTarget": "advanced-nominalisation-abstract-noun-phrases",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E4",
+      "group": "Выходная проверка",
+      "prompt": "Choose the phrase that preserves a degree modifier from 'The model is highly reliable.'",
+      "options": [
+        "the high reliability of the model",
+        "the highly reliability of the model",
+        "the high reliably of the model"
+      ],
+      "answer": "the high reliability of the model",
+      "accepted": [
+        "the high reliability of the model"
+      ],
+      "why": "High adjective + reliability noun.",
+      "distractorWhy": "Highly не определяет noun напрямую.",
+      "distractorRationales": {
+        "the highly reliability of the model": "Highly не определяет noun напрямую.",
+        "the high reliably of the model": "Reliably adverb."
+      },
+      "skillTarget": "advanced-nominalisation-abstract-noun-phrases",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E5",
+      "group": "Выходная проверка",
+      "prompt": "Choose the best editorial principle for nominalisation.",
+      "options": [
+        "Replace every finite verb with a derived noun.",
+        "Remove agents whenever writing academically.",
+        "Use it to package information when it preserves meaning and clarity."
+      ],
+      "answer": "Use it to package information when it preserves meaning and clarity.",
+      "accepted": [
+        "Use it to package information when it preserves meaning and clarity."
+      ],
+      "why": "Выбор служит ясности и связности.",
+      "distractorWhy": "Механическое преобразование ухудшает текст.",
+      "distractorRationales": {
+        "Replace every finite verb with a derived noun.": "Механическое преобразование ухудшает текст.",
+        "Remove agents whenever writing academically.": "Агента иногда необходимо сохранить."
+      },
+      "skillTarget": "advanced-nominalisation-abstract-noun-phrases",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "W1",
+      "group": "Самостоятельное применение",
+      "prompt": "Напиши 8–10 предложений о результатах исследования. Используй пять разных nominalisations, сохрани агента в двух, uncertainty в одном и отрицательный результат в одном. Для четырёх конструкций приведи verbal equivalents и объясни, какой стиль яснее.",
+      "open": true,
+      "rubric": [
+        "Derived nouns сохраняют значение исходного proposition.",
+        "Article/countability корректны.",
+        "Agreement следует head noun.",
+        "Агент, отрицание и модальность сохранены.",
+        "Modifier и dependent preposition точны.",
+        "Стиль ясный, без избыточных noun chains."
+      ],
+      "skillTarget": "Самостоятельное применение C1-05",
+      "interactionType": "open-production",
+      "difficulty": "transfer",
+      "sourceBasis": "Speakbase-authored open production; self-review rubric only until real AI feedback is connected",
+      "contentVersion": "1.1-draft"
+    }
+  ],
+  "markdown": "# Speakbase — C1-05: Nominalisation and abstract noun phrases\r\n\r\n**Curriculum ID:** `C1-05`  \r\n**Уровень:** C1  \r\n**Версия:** 1.1-draft\r\n**Статус:** drafted; selected source text checked; full source-page and learner acceptance pending\r\n**Предварительные темы:** B2-09, B2-20  \r\n**Связь со старым каталогом:** Нет — —\r\n\r\n## 1. Результаты обучения\r\n\r\n- Строить плотные академические noun phrases и выбирать nominal/verbal style\r\n- Выбирать целевую форму по значению, структуре предложения и контексту.\r\n- Объяснять, почему близкая грамматическая форма меняет смысл или регистр.\r\n- Находить и исправлять типичные ошибки русскоязычных студентов.\r\n\r\n## 2. Источники и статус сверки\r\n\r\n| Source | PDF navigation | Lesson-specific checks | Status |\r\n|---|---|---|---|\r\n| GR-03 U101 | PDF pages 226-227 (printed pp. 202-203, Unit 101) | Complex noun phrases, action/process nouns and nominal style; pre-/postmodification and exercise patterns visually checked | visually checked; unit-text checked |\r\n| GR-05 C1 | Consult the source register and level/topic section; exact page locator pending. | Compare the rule, examples, restrictions and exercises against this lesson | unit mapped; exact page review pending |\r\n\r\nUnit/page locations are navigation aids only. They do not prove that the cited explanation, examples, restrictions and answer key have been checked for this lesson. Examples and explanations below are Speakbase-authored, not quotations from the textbook.\r\n\r\nПеред переводом этого урока в source-verified необходимо открыть целевые страницы конкретного издания, записать печатную и PDF-пагинацию, сверить ограничения и исключения. Для GR-03 со сканированными страницами обязательна визуальная проверка.\n\n**Evidence for this editorial pass:** GR-03 Unit 101 A–B, rendered theory page visually reopened PDF p. 226 (printed p. 202); prior journal records p. 227 exercises. Detailed countability, agency and editing examples are author-supplemented; GR-05 and learner acceptance pending. The selected source text was consulted; not all pages, exercises, editions, scanned GR-03 pages or GR-05 descriptors were checked. Author-created explanations and practice are not copied source exercises.\n\n## 3. Место темы и границы\r\n\r\nNominalisation и abstract noun phrases: плотность, управляемость, article choice, pre/postmodification и читаемость.\r\n\r\nСтарый каталог содержит: —. Его статус — Нет. Старые отметки завершения не переносятся автоматически на новый постоянный ID. Тема рассматривается в уровне C1 и не заменяет обязательные prerequisites.\r\n\r\n## 4. Полный конспект\r\n\r\n### 4.1. Основная идея и функция конструкции\n\nNominalisation — выражение действия, процесса или качества с помощью существительного вместо глагола или прилагательного. The population increased rapidly → a rapid increase in the population. Такая группа может стать subject, object или complement следующего предложения: The rapid increase in the population created new demands. В академическом тексте nominalisation упаковывает уже известную информацию и позволяет обсуждать её как объект анализа.\n\nПреобразование не ограничивается добавлением суффикса. Выбирай существительное, которое сохраняет смысл: assess → assessment, reliable → reliability, available → availability, decline → decline, fail → failure. Некоторые производные слова различаются значением: economic growth — процесс роста; the growth of a particular cell — конкретный рост; development может означать процесс или результат. Номинализация требует перестроить всю noun phrase и проверить, не исчезли ли субъект действия, время, причина и результат.\n\n### 4.2. Формирование и грамматические модели\n\n| Исходная форма | Nominal phrase |\n|---|---|\n| the team assessed the model | the team's assessment of the model |\n| demand increased rapidly | a rapid increase in demand |\n| the measurements were unreliable | the unreliability of the measurements |\n| the policy was implemented | the implementation of the policy |\n| the method is feasible | the feasibility of the method |\n| researchers decided to revise it | the researchers' decision to revise it |\n\nОпредели head noun, его countability и determiner. A rapid increase — отдельное изменение, the increase — уже известное изменение; reliability часто abstract uncountable, the reliability of this instrument — конкретное качество. Adverb исходного действия часто становится adjective: rapidly increased → a rapid increase. Possessive или by-phrase может сохранять агента: the team's assessment / the assessment by the team. Of-phrase обычно указывает объект или содержание; зависимый предлог определяется конкретным noun: an increase in demand, a response to criticism.\n\n### 4.3. Как выбрать подходящую форму\n\nНачни с исходного proposition. Назови действие, исполнителя, объект, степень, время и логическую связь. Выбери noun и верни важные элементы через possessive, premodifier, of/by/in-phrase, relative clause или следующий finite verb. Проверь, совпадают ли утверждения: The researchers failed to replicate the result ≠ The replication of the result. Нужны the researchers' failure to replicate the result.\n\nПроцесс и отдельное событие могут иметь разные артикли и число: research (исследовательская деятельность), a study (одно исследование); evidence обычно uncountable, a piece of evidence — единица. An assessment — отдельная оценка, assessment — деятельность в целом. The decision to postpone the trial сохраняет содержание решения; the possibility of postponing the trial обозначает возможность, а не решение. Avoid literal conversion: decide → decision, choose → choice, strong → strength, able → ability.\n\n### 4.4. Сравнение с близкими конструкциями\n\n| Verbal style | Nominal style | Что проверить |\n|---|---|---|\n| Prices fell sharply. | A sharp fall in prices. | Степень и предмет изменения. |\n| The committee rejected the application. | The committee's rejection of the application. | Кто отверг. |\n| The trial was delayed. | The delay in the trial. | Что задержано. |\n| The results are accurate. | The accuracy of the results. | Качество, не событие. |\n| The team failed to finish. | The team's failure to finish. | Сохранение отрицательного результата. |\n\n### 4.5. Примеры с переводом и объяснением\n\n| English | Перевод | Почему это подходит |\n| --- | --- | --- |\n| The rapid expansion of the service strained its resources. | Быстрое расширение сервиса создало нагрузку на ресурсы. | Adverb → adjective, expansion head. |\n| The committee's rejection of the proposal surprised the applicants. | Отклонение предложения комиссией удивило заявителей. | Possessive сохраняет агента. |\n| The reliability of the measurements remains uncertain. | Надёжность измерений остаётся неопределённой. | Abstract noun, singular agreement. |\n| The team's failure to replicate the finding prompted another study. | Неудача команды при воспроизведении результата привела к новому исследованию. | Failure сохраняет отрицательный смысл. |\n| The possibility of a delay concerns the organisers. | Возможность задержки беспокоит организаторов. | Сохраняется неопределённость. |\n| A sharp decline in enrolment affected the budget. | Резкое снижение числа поступивших повлияло на бюджет. | Decline in + величина. |\n\n### 4.6. Исключения, ограничения и границы употребления\n\nNominalisation помогает связности: The team introduced a new method. This introduction reduced the workload. Однако чрезмерная цепочка абстрактных nouns затрудняет чтение и скрывает ответственность. The implementation of the evaluation of the revision… лучше заменить прозрачной finite clause. Не считай nominal style всегда более академичным или качественным. Если важны исполнитель, срок и причинность, сохрани их явно.\n\nSubject–verb agreement определяется head noun: The assessment of several proposals was thorough; The assessments of one proposal were thorough. Не выбирай число по ближайшему noun. В составных группах noun modifier обычно singular: an error detection system, но имеются лексические исключения. Суффикс не гарантирует countability: decision countable, information uncountable. При преобразовании сохраняй модальность и степень уверенности: The method may be ineffective → the possibility that the method is ineffective, не the ineffectiveness of the method как установленный факт. Отрицание, условие и цитируемая оценка должны сохраняться.\n\n### 4.7. Типичные ошибки русскоязычных студентов\n\n| Ошибка | Исправление | Объяснение |\n| --- | --- | --- |\n| The rapid implementationly of the plan. | The rapid implementation of the plan. | Нужен noun implementation. |\n| The assessment of several models were difficult. | The assessment of several models was difficult. | Head assessment singular. |\n| A reliable of the data. | The reliability of the data. | Adjective reliable → noun reliability. |\n| The researchers' failure of replicate the result. | The researchers' failure to replicate the result. | Failure + to-infinitive. |\n| The evidence were convincing. | The evidence was convincing. | Evidence обычно uncountable. |\n\n### 4.8. Произношение и восприятие на слух\n\nУ производных слов может меняться ударение: RELiable → reliaBILity; FEAsible → feasiBILity. Проверяй словарь при сомнении. В длинной noun phrase группируй head и его modifiers, выделяя главное содержание. Аудиосверка открыта.\n\nСначала прослушай или прочитай пример, затем произнеси его целиком. Обрати внимание на смысловое ударение и форму конструкции; не ориентируйся только на буквенный перевод.\n\n### 4.9. Академический английский и TOEFL-перенос\n\nВ Reading находи действие, скрытое за abstract noun, и восстанавливай отношения между участниками. В Writing полезно связать уже описанный процесс с дальнейшим выводом через this change/this reduction, сохраняя ясность. В Speaking не перегружай ответ цепочками nouns. Это авторская практика, не официальный вопрос ETS.\n\nЭто авторская практика переноса навыка. Она не является официальным заданием TOEFL и не выдаётся за официальный результат экзамена.\n\n### 4.10. Примеры для управляемого разбора\n\n- The rapid expansion of the service strained its resources. — Быстрое расширение сервиса создало нагрузку на ресурсы. Adverb → adjective, expansion head.\n- The committee's rejection of the proposal surprised the applicants. — Отклонение предложения комиссией удивило заявителей. Possessive сохраняет агента.\n- The reliability of the measurements remains uncertain. — Надёжность измерений остаётся неопределённой. Abstract noun, singular agreement.\n\nДля каждого примера назови целевую конструкцию, объясни выбор и составь новое предложение в другом контексте. Затем перейди к заданиям: сначала диагностика, затем управляемая и самостоятельная практика, затем новые вопросы выходной проверки.\n\n### 4.11. Самопроверка\n\nПеред отправкой ответа проверь:\n1. Derived nouns сохраняют значение исходного proposition.\n2. Article/countability корректны.\n3. Agreement следует head noun.\n4. Агент, отрицание и модальность сохранены.\n5. Modifier и dependent preposition точны.\n6. Стиль ясный, без избыточных noun chains.\n\n### 4.12. Краткая памятка\n\nNominalisation переносит действие/качество в noun phrase. Сохраняй значение, агента, отрицание и модальность. Проверь derived noun, article, countability, head agreement, modifier и preposition. Выбирай verbal style, когда он яснее.\n\nНе выбирай форму только по одному знакомому слову: проверь контекст, значение и структуру. При ошибке вернись к соответствующей части конспекта и составь собственный пример.\n\n## 5. Практика\r\n\r\nВ приложении практика разделена на входную диагностику, управляемые задания, самостоятельную практику и новую выходную проверку. Закрытые ответы получают rationale и разбор ошибки. Свободный текст сохраняется и оценивается по рубрике; до подключения и реальной проверки AI-движка система не выдаёт его за автоматическую AI-оценку.\r\n\r\n## 6. Интервальное повторение\r\n\r\nПовторяй не весь урок автоматически, а конкретную ошибку: выбор формы, согласование, word order, значение, регистр или пунктуацию. Новая попытка должна менять лексический контекст и формулировку, чтобы проверять перенос, а не запоминание одной строки.\r\n\r\n## 7. Технический статус\r\n\r\n- Постоянный ID: `C1-05`.\r\n- Прогресс хранится отдельно в course.grammarLessons[\"C1-05\"].\r\n- Содержание и ключи имеют статус draft; 24 авторских закрытых задания и объяснения вычитаны, выбранные тексты источников проверены. Полная постраничная и пользовательская приёмка остаются открытыми.\r\n- Предварительное выполнение порогов не равно окончательному mastered: нужны отсроченное повторение и learner review.",
+  "theoryEnd": "## 5."
+}

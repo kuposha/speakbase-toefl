@@ -1,0 +1,741 @@
+{
+  "id": "C1-04",
+  "level": "C1",
+  "sequence": "C1-04",
+  "grammarFamily": "C1-04",
+  "questionBankSource": "topic-specific-authored",
+  "sourceVerification": "draft; selected source text consulted; complete source-page and learner review pending",
+  "topicProfile": {
+    "label": "advanced non-finite clauses",
+    "skillTarget": "advanced-non-finite-clauses",
+    "core": "Non-finite clause — зависимая конструкция, в которой глагол не выражает лицо и время как самостоятельное finite сказуемое. В этом уроке главное внимание уделяется participle clauses: -ing, past participle, having + V3 и having been + V3. Они компактно передают время, причину, условие, уступку, способ или сопутствующий результат. Например, Having checked the records, the analyst revised the estimate: проверка предшествует пересмотру.",
+    "form": "| Конструкция | Функция | Пример |\n|---|---|---|\n| V-ing | активное действие/причина | Reviewing the data, she noticed a pattern. |\n| having + V3 | предшествующее активное действие | Having reviewed the data, she wrote a report. |\n| V3 | пассивное состояние/условие | Stored correctly, the sample remains stable. |\n| being + V3 | пассивное действие | Being repaired, the machine cannot be used. |\n| having been + V3 | предшествующее пассивное действие | Having been repaired, the machine was returned. |\n| not + participle | отрицание действия | Not knowing the answer, he asked for help. |\n| noun + participle | absolute clause | The test having ended, the participants left. |\n| preposition + -ing | способ/время/условие | By checking the logs, we found the fault. |",
+    "selection": "Восстанови полную clause и назови исполнителя. Если подразумеваемый субъект совпадает с subject главной части, сокращение часто возможно. Then identify active/passive, одновременность или предшествование и логическую связь. Если эти отношения не очевидны, используй finite clause с because, after, although, if. В Having tested the device, the engineers approved it именно engineers тестировали прибор.",
+    "contrast": "| Форма | Смысл |\n|---|---|\n| Crossing the road, she dropped her bag. | Во время перехода. |\n| Having crossed the road, she checked her bag. | После перехода. |\n| Examined carefully, the evidence is persuasive. | При условии внимательной проверки. |\n| Having been examined, the evidence was archived. | Проверка завершена прежде. |\n| The evidence having been examined, the panel voted. | Собственный subject оборота: evidence. |",
+    "boundary": "Dangling modifier возникает, когда подразумеваемый исполнитель оборота не совпадает с subject главной части: Having read the article, the conclusion seemed doubtful. Исправление: Having read the article, I found the conclusion doubtful или After I had read the article, the conclusion seemed doubtful. Запятая не исправляет несовпадение. Некоторые закрепившиеся выражения (generally speaking, given the circumstances, judging by…) не требуют буквального совпадения с subject; не распространяй это исключение на любые свободные participle clauses.",
+    "pronunciation": "Выделяй границу начального оборота небольшой паузой. Смысловое ударение может падать на причину, условие или предшествующее действие. Слушай having been как группу, но сохраняй различие active/passive. Отдельная аудиосверка открыта.",
+    "examples": [
+      [
+        "Having completed the survey, the researchers analysed the responses.",
+        "Завершив опрос, исследователи проанализировали ответы.",
+        "Предшествующее активное действие."
+      ],
+      [
+        "Having been sterilised, the instruments were packed.",
+        "После стерилизации инструменты упаковали.",
+        "Perfect passive."
+      ],
+      [
+        "Not knowing the password, she contacted support.",
+        "Не зная пароль, она обратилась в поддержку.",
+        "Отрицание перед participle."
+      ],
+      [
+        "The deadline approaching, the team worked overtime.",
+        "Поскольку срок приближался, команда работала сверхурочно.",
+        "Absolute construction с собственным subject."
+      ],
+      [
+        "By comparing the files, we identified the error.",
+        "Сравнив файлы, мы выявили ошибку.",
+        "By указывает метод."
+      ],
+      [
+        "Although disappointed, he accepted the result.",
+        "Хотя он был разочарован, он принял результат.",
+        "Сокращённая concessive clause."
+      ]
+    ],
+    "traps": [
+      [
+        "Having examined the report, several errors were found.",
+        "Having examined the report, the editor found several errors.",
+        "Editor, а не errors, выполняет проверку."
+      ],
+      [
+        "Having been complete the trial, the equipment was stored.",
+        "Having been tested, the equipment was stored.",
+        "Having been + V3 для passive."
+      ],
+      [
+        "Not having receive a reply, she called again.",
+        "Not having received a reply, she called again.",
+        "Having требует V3."
+      ],
+      [
+        "By compare the results, we found a pattern.",
+        "By comparing the results, we found a pattern.",
+        "После by нужна -ing."
+      ],
+      [
+        "With being delayed, we changed the schedule.",
+        "With the delivery being delayed, we changed the schedule.",
+        "У with-absolute назови subject."
+      ]
+    ],
+    "toefl": "В академическом Reading восстанавливай субъект, voice и отношение событий. В Listening распознавай причины и способы действий. В Writing и Speaking используй компактные обороты только когда их субъект однозначен. При сомнении предпочитай полноценную clause. Авторская практика не является официальным заданием ETS."
+  },
+  "title": "Advanced non-finite clauses",
+  "description": "Использовать -ing/-ed/perfect participle clauses и контролировать dangling modifiers",
+  "cardDescription": "Теория, guided practice, самостоятельные задания и выходная проверка по постоянному ID C1-04.",
+  "eyebrow": "Полный урок программы C1-04 · drafted",
+  "contentVersion": "1.1-draft",
+  "curriculumVersion": "1.0",
+  "prerequisites": [
+    "B2-07",
+    "B2-08"
+  ],
+  "outcomes": [
+    "Использовать -ing/-ed/perfect participle clauses и контролировать dangling modifiers",
+    "Выбирать целевую конструкцию по контексту и смыслу.",
+    "Исправлять типичные ошибки и переносить правило в новый пример."
+  ],
+  "sourceRefs": [
+    "GR-03 U58-59",
+    "GR-05 C1 p11"
+  ],
+  "sourceStatus": "selected source text consulted; full page verification pending",
+  "status": "drafted",
+  "legacyCoverage": "Частично",
+  "toeflLinks": [
+    "Writing: Build a Sentence",
+    "Reading: clause structure, reference, modifiers and logical relationships",
+    "Writing: Academic Discussion"
+  ],
+  "thresholds": {
+    "independent": 7,
+    "exit": 4,
+    "criticalIds": [
+      "E1",
+      "E2",
+      "E3"
+    ]
+  },
+  "groups": {
+    "independent": "Самостоятельная практика",
+    "exit": "Выходная проверка"
+  },
+  "items": [
+    {
+      "id": "D1",
+      "group": "Входная диагностика",
+      "prompt": "Choose the active perfect participle showing completed prior work.",
+      "options": [
+        "Having check the logs, we restarted the server.",
+        "Having checked the logs, we restarted the server.",
+        "Having been checked the logs, we restarted the server."
+      ],
+      "answer": "Having checked the logs, we restarted the server.",
+      "accepted": [
+        "Having checked the logs, we restarted the server."
+      ],
+      "why": "Having + V3, субъект we выполняет проверку.",
+      "distractorWhy": "Check не V3.",
+      "distractorRationales": {
+        "Having check the logs, we restarted the server.": "Check не V3.",
+        "Having been checked the logs, we restarted the server.": "Passive несовместим с прямым объектом в этой модели."
+      },
+      "skillTarget": "advanced-non-finite-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D2",
+      "group": "Входная диагностика",
+      "prompt": "Choose the perfect passive participle for equipment tested before shipment.",
+      "options": [
+        "Having been tested, the equipment was shipped.",
+        "Having tested, the equipment was shipped.",
+        "Having been test, the equipment was shipped."
+      ],
+      "answer": "Having been tested, the equipment was shipped.",
+      "accepted": [
+        "Having been tested, the equipment was shipped."
+      ],
+      "why": "Оборудование тестировали; having been + V3.",
+      "distractorWhy": "Equipment не выполняет тестирование.",
+      "distractorRationales": {
+        "Having tested, the equipment was shipped.": "Equipment не выполняет тестирование.",
+        "Having been test, the equipment was shipped.": "Test не V3."
+      },
+      "skillTarget": "advanced-non-finite-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D3",
+      "group": "Входная диагностика",
+      "prompt": "Choose the active simultaneous participle clause.",
+      "options": [
+        "Having been walked across the campus, Mia answered a call.",
+        "Walked across the campus, Mia answered a call.",
+        "Walking across the campus, Mia answered a call."
+      ],
+      "answer": "Walking across the campus, Mia answered a call.",
+      "accepted": [
+        "Walking across the campus, Mia answered a call."
+      ],
+      "why": "Walking описывает одновременное действие Mia.",
+      "distractorWhy": "Неверный passive для активного движения.",
+      "distractorRationales": {
+        "Having been walked across the campus, Mia answered a call.": "Неверный passive для активного движения.",
+        "Walked across the campus, Mia answered a call.": "Past participle не передаёт активное walking."
+      },
+      "skillTarget": "advanced-non-finite-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D4",
+      "group": "Входная диагностика",
+      "prompt": "Choose the past-participle conditional equivalent to 'if stored correctly'.",
+      "options": [
+        "Storing correctly, the samples remain stable.",
+        "Stored correctly, the samples remain stable.",
+        "Having store correctly, the samples remain stable."
+      ],
+      "answer": "Stored correctly, the samples remain stable.",
+      "accepted": [
+        "Stored correctly, the samples remain stable."
+      ],
+      "why": "Samples подвергаются хранению, V3.",
+      "distractorWhy": "Samples не хранят другой объект.",
+      "distractorRationales": {
+        "Storing correctly, the samples remain stable.": "Samples не хранят другой объект.",
+        "Having store correctly, the samples remain stable.": "Having + V3, не V1."
+      },
+      "skillTarget": "advanced-non-finite-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G1",
+      "group": "Управляемая практика",
+      "prompt": "Choose the simple passive participle referring to an ongoing repair.",
+      "options": [
+        "Being repaired, the machine is unavailable.",
+        "Having repaired, the machine is unavailable.",
+        "Being repair, the machine is unavailable."
+      ],
+      "answer": "Being repaired, the machine is unavailable.",
+      "accepted": [
+        "Being repaired, the machine is unavailable."
+      ],
+      "why": "Being + V3 — текущий passive.",
+      "distractorWhy": "Machine не ремонтирует себя.",
+      "distractorRationales": {
+        "Having repaired, the machine is unavailable.": "Machine не ремонтирует себя.",
+        "Being repair, the machine is unavailable.": "Repair не V3."
+      },
+      "skillTarget": "advanced-non-finite-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G2",
+      "group": "Управляемая практика",
+      "prompt": "Choose the negative perfect participle.",
+      "options": [
+        "Not having receive a reply, she called again.",
+        "Having not receive a reply, she called again.",
+        "Not having received a reply, she called again."
+      ],
+      "answer": "Not having received a reply, she called again.",
+      "accepted": [
+        "Not having received a reply, she called again."
+      ],
+      "why": "Not having + V3.",
+      "distractorWhy": "Receive не V3.",
+      "distractorRationales": {
+        "Not having receive a reply, she called again.": "Receive не V3.",
+        "Having not receive a reply, she called again.": "Помимо позиции not, неверна форма receive."
+      },
+      "skillTarget": "advanced-non-finite-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G3",
+      "group": "Управляемая практика",
+      "prompt": "Choose the clause meaning she hoped to avoid interrupting.",
+      "options": [
+        "Not hoping to interrupt, she waited (same meaning).",
+        "Hoping not to interrupt, she waited.",
+        "Hoping not interrupt, she waited."
+      ],
+      "answer": "Hoping not to interrupt, she waited.",
+      "accepted": [
+        "Hoping not to interrupt, she waited."
+      ],
+      "why": "Not относится к to-infinitive interrupt.",
+      "distractorWhy": "Отрицание hope меняет значение.",
+      "distractorRationales": {
+        "Not hoping to interrupt, she waited (same meaning).": "Отрицание hope меняет значение.",
+        "Hoping not interrupt, she waited.": "Пропущено to."
+      },
+      "skillTarget": "advanced-non-finite-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G4",
+      "group": "Управляемая практика",
+      "prompt": "Choose the revision that removes a dangling modifier.",
+      "options": [
+        "After analysing the data, the researcher revised the estimate.",
+        "After analysing the data, the estimate was revised by the researcher.",
+        "After analysing the data, the estimate became clearer."
+      ],
+      "answer": "After analysing the data, the researcher revised the estimate.",
+      "accepted": [
+        "After analysing the data, the researcher revised the estimate."
+      ],
+      "why": "Главный subject researcher выполняет анализ.",
+      "distractorWhy": "Грамматический subject estimate не анализирует.",
+      "distractorRationales": {
+        "After analysing the data, the estimate was revised by the researcher.": "Грамматический subject estimate не анализирует.",
+        "After analysing the data, the estimate became clearer.": "Estimate не выполняет анализ."
+      },
+      "skillTarget": "advanced-non-finite-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G5",
+      "group": "Управляемая практика",
+      "prompt": "Choose the finite-clause repair preserving the original intended subject I.",
+      "options": [
+        "Reading the report, the conclusion seemed doubtful.",
+        "Having read the report, the conclusion seemed doubtful.",
+        "After I read the report, the conclusion seemed doubtful."
+      ],
+      "answer": "After I read the report, the conclusion seemed doubtful.",
+      "accepted": [
+        "After I read the report, the conclusion seemed doubtful."
+      ],
+      "why": "Явное I устраняет dangling modifier.",
+      "distractorWhy": "Conclusion не читает.",
+      "distractorRationales": {
+        "Reading the report, the conclusion seemed doubtful.": "Conclusion не читает.",
+        "Having read the report, the conclusion seemed doubtful.": "Perfect не исправляет субъект."
+      },
+      "skillTarget": "advanced-non-finite-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G6",
+      "group": "Управляемая практика",
+      "prompt": "Choose the absolute construction with its own subject.",
+      "options": [
+        "Having ended the meeting, the staff returned to work (absolute).",
+        "The meeting having ended, the staff returned to work.",
+        "Having the meeting end, the staff returned to work (absolute)."
+      ],
+      "answer": "The meeting having ended, the staff returned to work.",
+      "accepted": [
+        "The meeting having ended, the staff returned to work."
+      ],
+      "why": "The meeting — собственный subject having ended.",
+      "distractorWhy": "Оборот имеет подразумеваемый staff, не absolute.",
+      "distractorRationales": {
+        "Having ended the meeting, the staff returned to work (absolute).": "Оборот имеет подразумеваемый staff, не absolute.",
+        "Having the meeting end, the staff returned to work (absolute).": "Это другая структура с have."
+      },
+      "skillTarget": "advanced-non-finite-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I1",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the with-absolute construction.",
+      "options": [
+        "With being repaired, buses took another route.",
+        "With the road been repaired, buses took another route.",
+        "With the road being repaired, buses took another route."
+      ],
+      "answer": "With the road being repaired, buses took another route.",
+      "accepted": [
+        "With the road being repaired, buses took another route."
+      ],
+      "why": "With + subject + being + V3.",
+      "distractorWhy": "Нет собственного subject.",
+      "distractorRationales": {
+        "With being repaired, buses took another route.": "Нет собственного subject.",
+        "With the road been repaired, buses took another route.": "Been без having/being не целевая форма."
+      },
+      "skillTarget": "advanced-non-finite-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I2",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the expression identifying the method of finding an error.",
+      "options": [
+        "On comparing the two versions, we found the error (method focus).",
+        "By comparing the two versions, we found the error.",
+        "While comparing the two versions, we found the error (method focus)."
+      ],
+      "answer": "By comparing the two versions, we found the error.",
+      "accepted": [
+        "By comparing the two versions, we found the error."
+      ],
+      "why": "By явно обозначает средство.",
+      "distractorWhy": "On выделяет момент.",
+      "distractorRationales": {
+        "On comparing the two versions, we found the error (method focus).": "On выделяет момент.",
+        "While comparing the two versions, we found the error (method focus).": "While обозначает одновременность."
+      },
+      "skillTarget": "advanced-non-finite-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I3",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the expression meaning immediately upon arrival.",
+      "options": [
+        "On arriving at the lab, we signed in.",
+        "By arriving at the lab, we signed in (time focus).",
+        "Without arriving at the lab, we signed in."
+      ],
+      "answer": "On arriving at the lab, we signed in.",
+      "accepted": [
+        "On arriving at the lab, we signed in."
+      ],
+      "why": "On + -ing выражает момент.",
+      "distractorWhy": "By выражает средство.",
+      "distractorRationales": {
+        "By arriving at the lab, we signed in (time focus).": "By выражает средство.",
+        "Without arriving at the lab, we signed in.": "Without выражает отсутствие действия."
+      },
+      "skillTarget": "advanced-non-finite-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I4",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the construction expressing absence of prior checking.",
+      "options": [
+        "Without check the source, we cannot verify the claim.",
+        "Without to check the source, we cannot verify the claim.",
+        "Without checking the source, we cannot verify the claim."
+      ],
+      "answer": "Without checking the source, we cannot verify the claim.",
+      "accepted": [
+        "Without checking the source, we cannot verify the claim."
+      ],
+      "why": "Without + V-ing.",
+      "distractorWhy": "Check не -ing.",
+      "distractorRationales": {
+        "Without check the source, we cannot verify the claim.": "Check не -ing.",
+        "Without to check the source, we cannot verify the claim.": "To-infinitive после without неверен."
+      },
+      "skillTarget": "advanced-non-finite-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I5",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the temporal phrase referring to the time before an alteration.",
+      "options": [
+        "Before been altered, the design was approved.",
+        "Before being altered, the design was approved.",
+        "Before altering, the design was approved (design as patient)."
+      ],
+      "answer": "Before being altered, the design was approved.",
+      "accepted": [
+        "Before being altered, the design was approved."
+      ],
+      "why": "Before + being + V3.",
+      "distractorWhy": "Been не самостоятельная -ing clause.",
+      "distractorRationales": {
+        "Before been altered, the design was approved.": "Been не самостоятельная -ing clause.",
+        "Before altering, the design was approved (design as patient).": "Design не выполняет изменение."
+      },
+      "skillTarget": "advanced-non-finite-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I6",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the reduced concessive clause with an adjective.",
+      "options": [
+        "Although exhausted, she finished the report.",
+        "Although exhaust, she finished the report.",
+        "Although she exhausted, she finished the report (state)."
+      ],
+      "answer": "Although exhausted, she finished the report.",
+      "accepted": [
+        "Although exhausted, she finished the report."
+      ],
+      "why": "Although she was exhausted сокращено.",
+      "distractorWhy": "Exhaust — V1, не состояние.",
+      "distractorRationales": {
+        "Although exhaust, she finished the report.": "Exhaust — V1, не состояние.",
+        "Although she exhausted, she finished the report (state).": "Пропущено was."
+      },
+      "skillTarget": "advanced-non-finite-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I7",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the reduced time clause equivalent to 'while she was in Italy'.",
+      "options": [
+        "While being Italy, she visited the archive.",
+        "While she in Italy, she visited the archive.",
+        "While in Italy, she visited the archive."
+      ],
+      "answer": "While in Italy, she visited the archive.",
+      "accepted": [
+        "While in Italy, she visited the archive."
+      ],
+      "why": "Subject + be опущены.",
+      "distractorWhy": "Italy не состояние she.",
+      "distractorRationales": {
+        "While being Italy, she visited the archive.": "Italy не состояние she.",
+        "While she in Italy, she visited the archive.": "Пропущено finite be."
+      },
+      "skillTarget": "advanced-non-finite-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I8",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the noun-modifying participle rather than a sentence-level adverbial.",
+      "options": [
+        "Having collected the samples, we froze them.",
+        "The samples collected yesterday were frozen.",
+        "Collecting samples, we wore gloves."
+      ],
+      "answer": "The samples collected yesterday were frozen.",
+      "accepted": [
+        "The samples collected yesterday were frozen."
+      ],
+      "why": "Collected modifies samples.",
+      "distractorWhy": "Вводное обстоятельство, subject we.",
+      "distractorRationales": {
+        "Having collected the samples, we froze them.": "Вводное обстоятельство, subject we.",
+        "Collecting samples, we wore gloves.": "Обстоятельство одновременности."
+      },
+      "skillTarget": "advanced-non-finite-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I9",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the conventional introductory expression taking circumstances into account.",
+      "options": [
+        "Given the limited budget, we postponed the trial.",
+        "Giving the limited budget, we postponed the trial (considering).",
+        "Having give the limited budget, we postponed the trial."
+      ],
+      "answer": "Given the limited budget, we postponed the trial.",
+      "accepted": [
+        "Given the limited budget, we postponed the trial."
+      ],
+      "why": "Given вводит обстоятельство.",
+      "distractorWhy": "Giving означает предоставлять.",
+      "distractorRationales": {
+        "Giving the limited budget, we postponed the trial (considering).": "Giving означает предоставлять.",
+        "Having give the limited budget, we postponed the trial.": "Give не V3."
+      },
+      "skillTarget": "advanced-non-finite-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E1",
+      "group": "Выходная проверка",
+      "prompt": "Choose the sentence with an explicit separate subject in the participle clause.",
+      "options": [
+        "Her hands trembling, the speaker opened the envelope.",
+        "Trembling, the speaker opened the envelope.",
+        "Having trembled, the speaker opened the envelope."
+      ],
+      "answer": "Her hands trembling, the speaker opened the envelope.",
+      "accepted": [
+        "Her hands trembling, the speaker opened the envelope."
+      ],
+      "why": "Her hands — subject оборота.",
+      "distractorWhy": "Подразумевается speaker.",
+      "distractorRationales": {
+        "Trembling, the speaker opened the envelope.": "Подразумевается speaker.",
+        "Having trembled, the speaker opened the envelope.": "Perfect оборот без своего subject."
+      },
+      "skillTarget": "advanced-non-finite-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E2",
+      "group": "Выходная проверка",
+      "prompt": "Choose the structure clearly marking a completed prior action rather than simultaneity.",
+      "options": [
+        "Crossing the bridge, she waved to us.",
+        "While crossing the bridge, she waved to us.",
+        "Having crossed the bridge, she stopped to rest."
+      ],
+      "answer": "Having crossed the bridge, she stopped to rest.",
+      "accepted": [
+        "Having crossed the bridge, she stopped to rest."
+      ],
+      "why": "Having crossed подчёркивает завершение.",
+      "distractorWhy": "Crossing здесь simultaneous.",
+      "distractorRationales": {
+        "Crossing the bridge, she waved to us.": "Crossing здесь simultaneous.",
+        "While crossing the bridge, she waved to us.": "While явно указывает одновременность."
+      },
+      "skillTarget": "advanced-non-finite-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E3",
+      "group": "Выходная проверка",
+      "prompt": "Choose the conditional finite equivalent of 'Stored at low temperature, the solution remains stable.'",
+      "options": [
+        "While the solution stores other materials, it remains stable.",
+        "If it is stored at low temperature, the solution remains stable.",
+        "Because the solution stored another sample, it remains stable."
+      ],
+      "answer": "If it is stored at low temperature, the solution remains stable.",
+      "accepted": [
+        "If it is stored at low temperature, the solution remains stable."
+      ],
+      "why": "Passive if-clause сохраняет условие.",
+      "distractorWhy": "Меняет voice и смысл.",
+      "distractorRationales": {
+        "While the solution stores other materials, it remains stable.": "Меняет voice и смысл.",
+        "Because the solution stored another sample, it remains stable.": "Добавляет другой объект и причину."
+      },
+      "skillTarget": "advanced-non-finite-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E4",
+      "group": "Выходная проверка",
+      "prompt": "Choose the sentence where the logical subject is unmistakable.",
+      "options": [
+        "Recognising the limitation, the authors narrowed their claim.",
+        "Recognising the limitation, the claim was narrowed.",
+        "Recognising the limitation, the conclusion changed."
+      ],
+      "answer": "Recognising the limitation, the authors narrowed their claim.",
+      "accepted": [
+        "Recognising the limitation, the authors narrowed their claim."
+      ],
+      "why": "Authors распознали ограничение.",
+      "distractorWhy": "Claim не распознаёт.",
+      "distractorRationales": {
+        "Recognising the limitation, the claim was narrowed.": "Claim не распознаёт.",
+        "Recognising the limitation, the conclusion changed.": "Conclusion не исполнитель."
+      },
+      "skillTarget": "advanced-non-finite-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E5",
+      "group": "Выходная проверка",
+      "prompt": "Choose the accurate editorial rule for non-finite compression.",
+      "options": [
+        "A comma always repairs a dangling participle.",
+        "Having + V3 always means a simultaneous action.",
+        "Use a finite clause when the subject or logical relation is unclear."
+      ],
+      "answer": "Use a finite clause when the subject or logical relation is unclear.",
+      "accepted": [
+        "Use a finite clause when the subject or logical relation is unclear."
+      ],
+      "why": "Finite clause явно обозначает субъект и связь.",
+      "distractorWhy": "Пунктуация не исправляет subject.",
+      "distractorRationales": {
+        "A comma always repairs a dangling participle.": "Пунктуация не исправляет subject.",
+        "Having + V3 always means a simultaneous action.": "Perfect обычно выражает предшествование."
+      },
+      "skillTarget": "advanced-non-finite-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "W1",
+      "group": "Самостоятельное применение",
+      "prompt": "Напиши 8–10 предложений о научном или техническом проекте: active simultaneous, perfect active, passive, perfect passive, negative participle, absolute, by/without + -ing. Разверни четыре оборота в finite clauses и поясни, кто выполняет действие.",
+      "open": true,
+      "rubric": [
+        "Логический субъект каждого оборота однозначен.",
+        "Active/passive различены.",
+        "Perfect participle обозначает предшествование.",
+        "Not и предлоги стоят правильно.",
+        "Absolute имеет собственный subject.",
+        "Сокращение не ухудшает ясность и причинную связь."
+      ],
+      "skillTarget": "Самостоятельное применение C1-04",
+      "interactionType": "open-production",
+      "difficulty": "transfer",
+      "sourceBasis": "Speakbase-authored open production; self-review rubric only until real AI feedback is connected",
+      "contentVersion": "1.1-draft"
+    }
+  ],
+  "markdown": "# Speakbase — C1-04: Advanced non-finite clauses\n\n**Curriculum ID:** `C1-04`  \n**Уровень:** C1  \n**Версия:** 1.1-draft\n**Статус:** drafted; selected source text checked; full source-page and learner acceptance pending\n**Предварительные темы:** B2-07, B2-08  \n**Связь со старым каталогом:** Частично — №46 Participle Clauses\n\n## 1. Результаты обучения\n\n- Использовать -ing/-ed/perfect participle clauses и контролировать dangling modifiers\n- Выбирать целевую форму по значению, структуре предложения и контексту.\n- Объяснять, почему близкая грамматическая форма меняет смысл или регистр.\n- Находить и исправлять типичные ошибки русскоязычных студентов.\n\n## 2. Источники и статус сверки\n\n| Source | PDF navigation | Lesson-specific checks | Status |\n|---|---|---|---|\n| GR-03 U58 | PDF pages 140-141 (printed pp. 116-117, Unit 58) | Present/perfect participle adverbial clauses, implied-subject control, passive forms and reduced clauses visually checked | visually checked; unit-text checked |\n| GR-03 U59 | PDF pages 142-143 (printed pp. 118-119, Unit 59) | Preposition + -ing, with/without -ing and conjunction + participle patterns visually checked | visually checked; unit-text checked |\n| GR-05 C1 p11 | PDF pages 11 (C1 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n\nUnit/page locations are navigation aids only. They do not prove that the cited explanation, examples, restrictions and answer key have been checked for this lesson. Examples and explanations below are Speakbase-authored, not quotations from the textbook.\n\nПеред переводом этого урока в source-verified необходимо открыть целевые страницы конкретного издания, записать печатную и PDF-пагинацию, сверить ограничения и исключения. Для GR-03 со сканированными страницами обязательна визуальная проверка.\n\n**Evidence for this editorial pass:** GR-03 Units 58–59, rendered theory pages visually reopened PDF pp. 140, 142 (printed pp. 116, 118); prior journal records exercise pages 141, 143. Relative reduction and conventional given/considering are supplementary explanations. GR-05 and learner acceptance pending. The selected source text was consulted; not all pages, exercises, editions, scanned GR-03 pages or GR-05 descriptors were checked. Author-created explanations and practice are not copied source exercises.\n\n## 3. Место темы и границы\n\nPerfect/passive participle clauses, dangling modifiers и контроль логического субъекта/временной перспективы.\n\nСтарый каталог содержит: №46 Participle Clauses. Его статус — Частично. Старые отметки завершения не переносятся автоматически на новый постоянный ID. Тема рассматривается в уровне C1 и не заменяет обязательные prerequisites.\n\n## 4. Полный конспект\n\n### 4.1. Основная идея и функция конструкции\n\nNon-finite clause — зависимая конструкция, в которой глагол не выражает лицо и время как самостоятельное finite сказуемое. В этом уроке главное внимание уделяется participle clauses: -ing, past participle, having + V3 и having been + V3. Они компактно передают время, причину, условие, уступку, способ или сопутствующий результат. Например, Having checked the records, the analyst revised the estimate: проверка предшествует пересмотру.\n\nВременное отношение определяется не названием present/past participle, а контекстом и формой. -ing может обозначать одновременное действие или близкую последовательность; perfect participle явно обозначает предшествование. Past participle часто имеет пассивное значение: Stored correctly, the samples remain stable. Being + V3 обозначает пассивный процесс или ситуацию; having been + V3 — предшествовавшее пассивное действие. Не превращай все -ing clauses в Present Continuous.\n\n### 4.2. Формирование и грамматические модели\n\n| Конструкция | Функция | Пример |\n|---|---|---|\n| V-ing | активное действие/причина | Reviewing the data, she noticed a pattern. |\n| having + V3 | предшествующее активное действие | Having reviewed the data, she wrote a report. |\n| V3 | пассивное состояние/условие | Stored correctly, the sample remains stable. |\n| being + V3 | пассивное действие | Being repaired, the machine cannot be used. |\n| having been + V3 | предшествующее пассивное действие | Having been repaired, the machine was returned. |\n| not + participle | отрицание действия | Not knowing the answer, he asked for help. |\n| noun + participle | absolute clause | The test having ended, the participants left. |\n| preposition + -ing | способ/время/условие | By checking the logs, we found the fault. |\n\nДля perfect participle используй having + V3, не having + V2; для perfect passive — having been + V3. Отрицание обычно precedes participle: Not having received a reply, she called again. Если отрицание относится к вложенному инфинитиву, его место другое: Hoping not to interrupt, she waited. Absolute clause имеет собственное подлежащее: The weather improving, we resumed the survey. В with + subject + -ing/V3 также указан отдельный субъект: With the servers being updated, access was limited.\n\n### 4.3. Как выбрать подходящую форму\n\nВосстанови полную clause и назови исполнителя. Если подразумеваемый субъект совпадает с subject главной части, сокращение часто возможно. Then identify active/passive, одновременность или предшествование и логическую связь. Если эти отношения не очевидны, используй finite clause с because, after, although, if. В Having tested the device, the engineers approved it именно engineers тестировали прибор.\n\nBy + -ing показывает метод; on + -ing — момент наступления события; in + -ing может выражать обстоятельство/следствие действия. After/before + -ing обозначают порядок; while + -ing — одновременность или уступку по контексту. Without + -ing выражает отсутствие сопутствующего действия или условие: Without checking the source, we cannot verify the claim. With + noun + -ing может давать причину, при этом subject после with обязателен.\n\n### 4.4. Сравнение с близкими конструкциями\n\n| Форма | Смысл |\n|---|---|\n| Crossing the road, she dropped her bag. | Во время перехода. |\n| Having crossed the road, she checked her bag. | После перехода. |\n| Examined carefully, the evidence is persuasive. | При условии внимательной проверки. |\n| Having been examined, the evidence was archived. | Проверка завершена прежде. |\n| The evidence having been examined, the panel voted. | Собственный subject оборота: evidence. |\n\n### 4.5. Примеры с переводом и объяснением\n\n| English | Перевод | Почему это подходит |\n| --- | --- | --- |\n| Having completed the survey, the researchers analysed the responses. | Завершив опрос, исследователи проанализировали ответы. | Предшествующее активное действие. |\n| Having been sterilised, the instruments were packed. | После стерилизации инструменты упаковали. | Perfect passive. |\n| Not knowing the password, she contacted support. | Не зная пароль, она обратилась в поддержку. | Отрицание перед participle. |\n| The deadline approaching, the team worked overtime. | Поскольку срок приближался, команда работала сверхурочно. | Absolute construction с собственным subject. |\n| By comparing the files, we identified the error. | Сравнив файлы, мы выявили ошибку. | By указывает метод. |\n| Although disappointed, he accepted the result. | Хотя он был разочарован, он принял результат. | Сокращённая concessive clause. |\n\n### 4.6. Исключения, ограничения и границы употребления\n\nDangling modifier возникает, когда подразумеваемый исполнитель оборота не совпадает с subject главной части: Having read the article, the conclusion seemed doubtful. Исправление: Having read the article, I found the conclusion doubtful или After I had read the article, the conclusion seemed doubtful. Запятая не исправляет несовпадение. Некоторые закрепившиеся выражения (generally speaking, given the circumstances, judging by…) не требуют буквального совпадения с subject; не распространяй это исключение на любые свободные participle clauses.\n\nВ определительной конструкции после noun participle относится к этому noun: the documents submitted yesterday. Это не вводное обстоятельство с субъектом главного предложения. While in Rome, she attended a lecture — сокращение subject + be; Although exhausted, she continued — уступка. При длинной цепочке сокращений проверяй ясность: finite clause часто надёжнее. Given + noun phrase указывает на принятые обстоятельства, а provided that + clause — условие; не используй их как взаимозаменяемые participles. В некоторых контекстах simple -ing и perfect -ing оба допустимы, поэтому закрытые задания явно требуют соответствующую форму или временную связь.\n\n### 4.7. Типичные ошибки русскоязычных студентов\n\n| Ошибка | Исправление | Объяснение |\n| --- | --- | --- |\n| Having examined the report, several errors were found. | Having examined the report, the editor found several errors. | Editor, а не errors, выполняет проверку. |\n| Having been complete the trial, the equipment was stored. | Having been tested, the equipment was stored. | Having been + V3 для passive. |\n| Not having receive a reply, she called again. | Not having received a reply, she called again. | Having требует V3. |\n| By compare the results, we found a pattern. | By comparing the results, we found a pattern. | После by нужна -ing. |\n| With being delayed, we changed the schedule. | With the delivery being delayed, we changed the schedule. | У with-absolute назови subject. |\n\n### 4.8. Произношение и восприятие на слух\n\nВыделяй границу начального оборота небольшой паузой. Смысловое ударение может падать на причину, условие или предшествующее действие. Слушай having been как группу, но сохраняй различие active/passive. Отдельная аудиосверка открыта.\n\nСначала прослушай или прочитай пример, затем произнеси его целиком. Обрати внимание на смысловое ударение и форму конструкции; не ориентируйся только на буквенный перевод.\n\n### 4.9. Академический английский и TOEFL-перенос\n\nВ академическом Reading восстанавливай субъект, voice и отношение событий. В Listening распознавай причины и способы действий. В Writing и Speaking используй компактные обороты только когда их субъект однозначен. При сомнении предпочитай полноценную clause. Авторская практика не является официальным заданием ETS.\n\nЭто авторская практика переноса навыка. Она не является официальным заданием TOEFL и не выдаётся за официальный результат экзамена.\n\n### 4.10. Примеры для управляемого разбора\n\n- Having completed the survey, the researchers analysed the responses. — Завершив опрос, исследователи проанализировали ответы. Предшествующее активное действие.\n- Having been sterilised, the instruments were packed. — После стерилизации инструменты упаковали. Perfect passive.\n- Not knowing the password, she contacted support. — Не зная пароль, она обратилась в поддержку. Отрицание перед participle.\n\nДля каждого примера назови целевую конструкцию, объясни выбор и составь новое предложение в другом контексте. Затем перейди к заданиям: сначала диагностика, затем управляемая и самостоятельная практика, затем новые вопросы выходной проверки.\n\n### 4.11. Самопроверка\n\nПеред отправкой ответа проверь:\n1. Логический субъект каждого оборота однозначен.\n2. Active/passive различены.\n3. Perfect participle обозначает предшествование.\n4. Not и предлоги стоят правильно.\n5. Absolute имеет собственный subject.\n6. Сокращение не ухудшает ясность и причинную связь.\n\n### 4.12. Краткая памятка\n\nParticiple clauses не имеют самостоятельной tense marking. V-ing — активная связь, V3 — часто passive, having + V3 — явное предшествование, having been + V3 — предшествующий passive. Проверь логический subject. Absolute имеет собственный subject; by/on/without уточняют связь. При двусмысленности используй finite clause.\n\nНе выбирай форму только по одному знакомому слову: проверь контекст, значение и структуру. При ошибке вернись к соответствующей части конспекта и составь собственный пример.\n\n## 5. Практика\n\nВ приложении практика разделена на входную диагностику, управляемые задания, самостоятельную практику и новую выходную проверку. Закрытые ответы получают rationale и разбор ошибки. Свободный текст сохраняется и оценивается по рубрике; до подключения и реальной проверки AI-движка система не выдаёт его за автоматическую AI-оценку.\n\n## 6. Интервальное повторение\n\nПовторяй не весь урок автоматически, а конкретную ошибку: выбор формы, согласование, word order, значение, регистр или пунктуацию. Новая попытка должна менять лексический контекст и формулировку, чтобы проверять перенос, а не запоминание одной строки.\n\n## 7. Технический статус\n\n- Постоянный ID: `C1-04`.\n- Прогресс хранится отдельно в course.grammarLessons[\"C1-04\"].\n- Содержание и ключи имеют статус draft; 24 авторских закрытых задания и объяснения вычитаны, выбранные тексты источников проверены. Полная постраничная и пользовательская приёмка остаются открытыми.\n- Предварительное выполнение порогов не равно окончательному mastered: нужны отсроченное повторение и learner review.",
+  "theoryEnd": "## 5."
+}
