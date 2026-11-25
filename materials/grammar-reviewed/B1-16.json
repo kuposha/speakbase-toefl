@@ -1,0 +1,740 @@
+{
+  "id": "B1-16",
+  "level": "B1",
+  "sequence": "B1-16",
+  "grammarFamily": "B1-16",
+  "questionBankSource": "topic-specific-authored",
+  "sourceVerification": "draft; selected source text consulted; complete source-page and learner review pending",
+  "topicProfile": {
+    "label": "question tags, auxiliary verbs and indirect questions",
+    "skillTarget": "question-tags-auxiliaries-indirect-questions",
+    "core": "Question tags — короткие вопросы в конце утверждения, которые помогают запросить подтверждение, выразить интерес или проверить предположение. Обычно положительное утверждение получает отрицательный tag, а отрицательное — положительный. Вспомогательный глагол и местоимение выбираются по основной части.",
+    "form": "| Основная часть | Tag | Пример |\n|---|---|---|\n| be | be + pronoun | She is ready, isn't she? |\n| Present Simple | do/does | He works here, doesn't he? |\n| Past Simple | did | They left, didn't they? |\n| Perfect | have/has/had | You have finished, haven't you? |\n| Modal | тот же modal | She can swim, can't she? |\n| Negative clause | positive tag | He isn't here, is he? |\n| Let's | shall we | Let's begin, shall we? |\n| I am | aren't I | I'm late, aren't I? |\n| Imperative | часто will you | Don't be late, will you? |",
+    "selection": "Найди первое вспомогательное слово или модальный глагол основной части. Если его нет, используй do/does/did по времени. Определи полярность, подставь местоимение. Для embedded questions сохрани порядок subject + verb: Do you know where he lives? В кратких ответах повторяй auxiliary, а не весь смысловой глагол.",
+    "contrast": "| Пример | Функция |\n|---|---|\n| You like the course, don't you? | Подтверждение положительного утверждения. |\n| You don't like it, do you? | Проверка отрицательного утверждения. |\n| You haven't seen Anna, have you? | Запрос информации. |\n| She can swim. So can I. | Согласие с положительным сообщением. |\n| She can't drive. Neither can I. | Согласие с отрицательным. |\n| Do you know where the office is? | Вежливый косвенный вопрос. |",
+    "boundary": "Обычная модель tag меняет полярность, но существуют same-polarity tags для удивления, интереса и особых оттенков: So you got the job, did you? На данном уровне тренируем обычные confirmation tags. Вопросы после imperative могут принимать разные tags в зависимости от интонации и смысла; will you — распространённый вариант, после Let's — shall we.",
+    "pronunciation": "Восходящая интонация tag чаще означает реальный вопрос, нисходящая — ожидание подтверждения. Сравни You know him, don't you? с разными контурами. В short answers и so/neither смысловое ударение часто падает на auxiliary.",
+    "examples": [
+      [
+        "You have finished the report, haven't you?",
+        "Ты закончила отчёт, правда?",
+        "Perfect auxiliary."
+      ],
+      [
+        "She doesn't drive, does she?",
+        "Она не водит машину, верно?",
+        "Отрицательная основа, положительный tag."
+      ],
+      [
+        "Let's take a break, shall we?",
+        "Давайте сделаем перерыв, хорошо?",
+        "Особая модель Let's."
+      ],
+      [
+        "Everyone enjoyed the lecture, didn't they?",
+        "Всем понравилась лекция, правда?",
+        "Everyone → they."
+      ],
+      [
+        "I'm tired. So am I.",
+        "Я устала. Я тоже.",
+        "Согласие с положительным высказыванием."
+      ],
+      [
+        "Do you know where the room is?",
+        "Ты знаешь, где кабинет?",
+        "Embedded clause без инверсии."
+      ]
+    ],
+    "traps": [
+      [
+        "She works here, isn't she?",
+        "She works here, doesn't she?",
+        "Present Simple требует does."
+      ],
+      [
+        "He never calls, doesn't he?",
+        "He never calls, does he?",
+        "Never имеет отрицательный смысл."
+      ],
+      [
+        "I'm next, amn't I?",
+        "I'm next, aren't I?",
+        "Стандартный разговорный tag."
+      ],
+      [
+        "Do you know where is the room?",
+        "Do you know where the room is?",
+        "Внутри embedded question прямой порядок."
+      ]
+    ],
+    "toefl": "В Listening определяй, спрашивает ли говорящий новую информацию или ожидает согласия. В Speaking используй вежливые embedded questions в кампусных ситуациях. В академическом Writing tags обычно менее уместны, чем чёткие утверждения; навык auxiliary помогает строить точные вопросы и отрицания."
+  },
+  "title": "Question tags, auxiliary verbs and indirect questions",
+  "description": "Строить теги, использовать вспомогательные глаголы и вежливые непрямые вопросы",
+  "cardDescription": "Теория, guided practice, самостоятельные задания и выходная проверка по постоянному ID B1-16.",
+  "eyebrow": "Полный урок программы B1-16 · drafted",
+  "contentVersion": "1.1-draft",
+  "curriculumVersion": "1.0",
+  "prerequisites": [
+    "A1-06",
+    "A2-13"
+  ],
+  "outcomes": [
+    "Строить теги, использовать вспомогательные глаголы и вежливые непрямые вопросы",
+    "Выбирать целевую конструкцию по контексту и смыслу.",
+    "Исправлять типичные ошибки и переносить правило в новый пример."
+  ],
+  "sourceRefs": [
+    "GR-01 U42-50",
+    "GR-02 U49-52",
+    "GR-03 U26-27",
+    "GR-05 B1 p46-47",
+    "GR-05 B1 p51"
+  ],
+  "sourceStatus": "selected source text consulted; full page verification pending",
+  "status": "drafted",
+  "legacyCoverage": "Частично",
+  "toeflLinks": [
+    "Writing: Build a Sentence",
+    "Listening: tense/aspect, modality, weak forms and discourse cues",
+    "Speaking: Listen and Repeat / Take an Interview",
+    "Writing: Academic Discussion"
+  ],
+  "thresholds": {
+    "independent": 7,
+    "exit": 4,
+    "criticalIds": [
+      "E1",
+      "E2",
+      "E3"
+    ]
+  },
+  "groups": {
+    "independent": "Самостоятельная практика",
+    "exit": "Выходная проверка"
+  },
+  "items": [
+    {
+      "id": "D1",
+      "group": "Входная диагностика",
+      "prompt": "You have finished the report, ___?",
+      "options": [
+        "don't you",
+        "haven't you",
+        "didn't you"
+      ],
+      "answer": "haven't you",
+      "accepted": [
+        "haven't you"
+      ],
+      "why": "Perfect повторяет have в отрицательном tag.",
+      "distractorWhy": "Do не соответствует Perfect.",
+      "distractorRationales": {
+        "don't you": "Do не соответствует Perfect.",
+        "didn't you": "Did относится к Past Simple."
+      },
+      "skillTarget": "question-tags-auxiliaries-indirect-questions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D2",
+      "group": "Входная диагностика",
+      "prompt": "She doesn't drive, ___?",
+      "options": [
+        "does she",
+        "doesn't she",
+        "is she"
+      ],
+      "answer": "does she",
+      "accepted": [
+        "does she"
+      ],
+      "why": "Отрицательная основа требует положительный does.",
+      "distractorWhy": "Полярность не изменена.",
+      "distractorRationales": {
+        "doesn't she": "Полярность не изменена.",
+        "is she": "Is не соответствует drive."
+      },
+      "skillTarget": "question-tags-auxiliaries-indirect-questions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D3",
+      "group": "Входная диагностика",
+      "prompt": "They went home early, ___?",
+      "options": [
+        "haven't they",
+        "weren't they",
+        "didn't they"
+      ],
+      "answer": "didn't they",
+      "accepted": [
+        "didn't they"
+      ],
+      "why": "Past Simple требует did.",
+      "distractorWhy": "Have соответствует Perfect.",
+      "distractorRationales": {
+        "haven't they": "Have соответствует Perfect.",
+        "weren't they": "Were не вспомогательный здесь."
+      },
+      "skillTarget": "question-tags-auxiliaries-indirect-questions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D4",
+      "group": "Входная диагностика",
+      "prompt": "Let's take a short break, ___?",
+      "options": [
+        "will you",
+        "shall we",
+        "don't we"
+      ],
+      "answer": "shall we",
+      "accepted": [
+        "shall we"
+      ],
+      "why": "После Let's стандартный tag shall we.",
+      "distractorWhy": "Will you характерен для обращённого приказа.",
+      "distractorRationales": {
+        "will you": "Will you характерен для обращённого приказа.",
+        "don't we": "Don't we не модель Let's."
+      },
+      "skillTarget": "question-tags-auxiliaries-indirect-questions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G1",
+      "group": "Управляемая практика",
+      "prompt": "Don't be late, ___? Choose the usual imperative tag.",
+      "options": [
+        "will you",
+        "shall we",
+        "do you"
+      ],
+      "answer": "will you",
+      "accepted": [
+        "will you"
+      ],
+      "why": "Для отрицательного imperative часто will you.",
+      "distractorWhy": "Shall we относится к Let's.",
+      "distractorRationales": {
+        "shall we": "Shall we относится к Let's.",
+        "do you": "Do you не обычный tag команды."
+      },
+      "skillTarget": "question-tags-auxiliaries-indirect-questions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G2",
+      "group": "Управляемая практика",
+      "prompt": "I'm next on the list, ___? Choose the standard conversational tag.",
+      "options": [
+        "amn't I",
+        "isn't I",
+        "aren't I"
+      ],
+      "answer": "aren't I",
+      "accepted": [
+        "aren't I"
+      ],
+      "why": "I am получает aren't I в стандартном разговорном tag.",
+      "distractorWhy": "Amn't не стандартная форма в большинстве вариантов.",
+      "distractorRationales": {
+        "amn't I": "Amn't не стандартная форма в большинстве вариантов.",
+        "isn't I": "Is не согласуется с I."
+      },
+      "skillTarget": "question-tags-auxiliaries-indirect-questions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G3",
+      "group": "Управляемая практика",
+      "prompt": "Everyone enjoyed the lecture, ___?",
+      "options": [
+        "didn't he",
+        "didn't they",
+        "weren't they"
+      ],
+      "answer": "didn't they",
+      "accepted": [
+        "didn't they"
+      ],
+      "why": "Everyone в tag обычно they; Past Simple → did.",
+      "distractorWhy": "He не нейтральное местоимение для everyone.",
+      "distractorRationales": {
+        "didn't he": "He не нейтральное местоимение для everyone.",
+        "weren't they": "Were не соответствует enjoyed."
+      },
+      "skillTarget": "question-tags-auxiliaries-indirect-questions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G4",
+      "group": "Управляемая практика",
+      "prompt": "You never call me, ___?",
+      "options": [
+        "do you",
+        "don't you",
+        "are you"
+      ],
+      "answer": "do you",
+      "accepted": [
+        "do you"
+      ],
+      "why": "Never отрицательно по смыслу, tag положительный.",
+      "distractorWhy": "Don't повторяет отрицательность.",
+      "distractorRationales": {
+        "don't you": "Don't повторяет отрицательность.",
+        "are you": "Are не соответствует call."
+      },
+      "skillTarget": "question-tags-auxiliaries-indirect-questions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G5",
+      "group": "Управляемая практика",
+      "prompt": "There is a problem, ___?",
+      "options": [
+        "isn't it",
+        "doesn't there",
+        "isn't there"
+      ],
+      "answer": "isn't there",
+      "accepted": [
+        "isn't there"
+      ],
+      "why": "В конструкции there is сохраняется there.",
+      "distractorWhy": "It не нужное местоимение.",
+      "distractorRationales": {
+        "isn't it": "It не нужное местоимение.",
+        "doesn't there": "Does не соответствует be."
+      },
+      "skillTarget": "question-tags-auxiliaries-indirect-questions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G6",
+      "group": "Управляемая практика",
+      "prompt": "Nothing happened, ___?",
+      "options": [
+        "didn't it",
+        "did it",
+        "was it"
+      ],
+      "answer": "did it",
+      "accepted": [
+        "did it"
+      ],
+      "why": "Nothing отрицательно; Past Simple → did, местоимение it.",
+      "distractorWhy": "Tag должен быть положительным.",
+      "distractorRationales": {
+        "didn't it": "Tag должен быть положительным.",
+        "was it": "Was не соответствует happened."
+      },
+      "skillTarget": "question-tags-auxiliaries-indirect-questions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I1",
+      "group": "Самостоятельная практика",
+      "prompt": "The students can swim, ___?",
+      "options": [
+        "don't they",
+        "isn't they",
+        "can't they"
+      ],
+      "answer": "can't they",
+      "accepted": [
+        "can't they"
+      ],
+      "why": "Повторяем can и меняем полярность.",
+      "distractorWhy": "Do не нужен при modal.",
+      "distractorRationales": {
+        "don't they": "Do не нужен при modal.",
+        "isn't they": "Is не соответствует modal и plural."
+      },
+      "skillTarget": "question-tags-auxiliaries-indirect-questions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I2",
+      "group": "Самостоятельная практика",
+      "prompt": "She's been studying, ___?",
+      "options": [
+        "isn't she",
+        "hasn't she",
+        "doesn't she"
+      ],
+      "answer": "hasn't she",
+      "accepted": [
+        "hasn't she"
+      ],
+      "why": "She's been = she has been, tag с has.",
+      "distractorWhy": "Is не образует Present Perfect Continuous.",
+      "distractorRationales": {
+        "isn't she": "Is не образует Present Perfect Continuous.",
+        "doesn't she": "Does относится к Present Simple."
+      },
+      "skillTarget": "question-tags-auxiliaries-indirect-questions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I3",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct short answer to 'Have you sent it?'",
+      "options": [
+        "Yes, I have.",
+        "Yes, I do.",
+        "Yes, I am."
+      ],
+      "answer": "Yes, I have.",
+      "accepted": [
+        "Yes, I have."
+      ],
+      "why": "Повторяется auxiliary have.",
+      "distractorWhy": "Do не соответствует Perfect.",
+      "distractorRationales": {
+        "Yes, I do.": "Do не соответствует Perfect.",
+        "Yes, I am.": "Am не соответствует вопросу."
+      },
+      "skillTarget": "question-tags-auxiliaries-indirect-questions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I4",
+      "group": "Самостоятельная практика",
+      "prompt": "'You aren't leaving, are you?' You are leaving. Choose the answer.",
+      "options": [
+        "No, I'm not.",
+        "Yes, I don't.",
+        "Yes, I am."
+      ],
+      "answer": "Yes, I am.",
+      "accepted": [
+        "Yes, I am."
+      ],
+      "why": "Yes подтверждает положительный факт ухода.",
+      "distractorWhy": "No отрицает уход.",
+      "distractorRationales": {
+        "No, I'm not.": "No отрицает уход.",
+        "Yes, I don't.": "Don't не соответствует be."
+      },
+      "skillTarget": "question-tags-auxiliaries-indirect-questions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I5",
+      "group": "Самостоятельная практика",
+      "prompt": "'I can swim.' Choose agreement with so.",
+      "options": [
+        "So I can swim too in the tag.",
+        "So can I.",
+        "So do I."
+      ],
+      "answer": "So can I.",
+      "accepted": [
+        "So can I."
+      ],
+      "why": "So + can + subject.",
+      "distractorWhy": "Это не целевая инверсия согласия.",
+      "distractorRationales": {
+        "So I can swim too in the tag.": "Это не целевая инверсия согласия.",
+        "So do I.": "Do не соответствует can."
+      },
+      "skillTarget": "question-tags-auxiliaries-indirect-questions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I6",
+      "group": "Самостоятельная практика",
+      "prompt": "'I don't like coffee.' Choose agreement with neither.",
+      "options": [
+        "Neither do I.",
+        "Neither I do.",
+        "Neither am I."
+      ],
+      "answer": "Neither do I.",
+      "accepted": [
+        "Neither do I."
+      ],
+      "why": "Neither + do + subject.",
+      "distractorWhy": "Нарушен порядок слов.",
+      "distractorRationales": {
+        "Neither I do.": "Нарушен порядок слов.",
+        "Neither am I.": "Am не соответствует like."
+      },
+      "skillTarget": "question-tags-auxiliaries-indirect-questions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I7",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct embedded question.",
+      "options": [
+        "Do you know where does she live?",
+        "Do you know where she live?",
+        "Do you know where she lives?"
+      ],
+      "answer": "Do you know where she lives?",
+      "accepted": [
+        "Do you know where she lives?"
+      ],
+      "why": "В придаточном прямой порядок и lives.",
+      "distractorWhy": "Does внутри косвенного вопроса не нужен.",
+      "distractorRationales": {
+        "Do you know where does she live?": "Does внутри косвенного вопроса не нужен.",
+        "Do you know where she live?": "She требует lives."
+      },
+      "skillTarget": "question-tags-auxiliaries-indirect-questions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I8",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the direct subject question.",
+      "options": [
+        "Who did called you?",
+        "Who called you?",
+        "Who did call you yesterday as the standard neutral form?"
+      ],
+      "answer": "Who called you?",
+      "accepted": [
+        "Who called you?"
+      ],
+      "why": "Who — подлежащее, обычная форма без did.",
+      "distractorWhy": "После did не V2.",
+      "distractorRationales": {
+        "Who did called you?": "После did не V2.",
+        "Who did call you yesterday as the standard neutral form?": "Эмфатическое did не нейтральная форма."
+      },
+      "skillTarget": "question-tags-auxiliaries-indirect-questions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I9",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose a neutral direct object question.",
+      "options": [
+        "Who did you call?",
+        "Who you called?",
+        "Who did you called?"
+      ],
+      "answer": "Who did you call?",
+      "accepted": [
+        "Who did you call?"
+      ],
+      "why": "Who — объект; did + subject + V1.",
+      "distractorWhy": "Нет обычной инверсии.",
+      "distractorRationales": {
+        "Who you called?": "Нет обычной инверсии.",
+        "Who did you called?": "Called не V1."
+      },
+      "skillTarget": "question-tags-auxiliaries-indirect-questions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E1",
+      "group": "Выходная проверка",
+      "prompt": "She had left before noon, ___?",
+      "options": [
+        "hadn't she",
+        "didn't she",
+        "hasn't she"
+      ],
+      "answer": "hadn't she",
+      "accepted": [
+        "hadn't she"
+      ],
+      "why": "Past Perfect повторяет had.",
+      "distractorWhy": "Did относится к Past Simple.",
+      "distractorRationales": {
+        "didn't she": "Did относится к Past Simple.",
+        "hasn't she": "Has — настоящее Perfect."
+      },
+      "skillTarget": "question-tags-auxiliaries-indirect-questions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E2",
+      "group": "Выходная проверка",
+      "prompt": "The equipment is ready, ___?",
+      "options": [
+        "aren't they",
+        "doesn't it",
+        "isn't it"
+      ],
+      "answer": "isn't it",
+      "accepted": [
+        "isn't it"
+      ],
+      "why": "Equipment — неисчисляемое singular, be → isn't it.",
+      "distractorWhy": "They не согласуется с equipment.",
+      "distractorRationales": {
+        "aren't they": "They не согласуется с equipment.",
+        "doesn't it": "Does не соответствует be."
+      },
+      "skillTarget": "question-tags-auxiliaries-indirect-questions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E3",
+      "group": "Выходная проверка",
+      "prompt": "Choose the correct tag with have got.",
+      "options": [
+        "You've got a ticket, don't you?",
+        "You've got a ticket, haven't you?",
+        "You've got a ticket, aren't you?"
+      ],
+      "answer": "You've got a ticket, haven't you?",
+      "accepted": [
+        "You've got a ticket, haven't you?"
+      ],
+      "why": "Have got в этой модели повторяет have.",
+      "distractorWhy": "Do не соответствует have got.",
+      "distractorRationales": {
+        "You've got a ticket, don't you?": "Do не соответствует have got.",
+        "You've got a ticket, aren't you?": "Are не соответствует конструкции."
+      },
+      "skillTarget": "question-tags-auxiliaries-indirect-questions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E4",
+      "group": "Выходная проверка",
+      "prompt": "Which intonation commonly asks for genuine information in a tag?",
+      "options": [
+        "Rising intonation.",
+        "Falling intonation only.",
+        "No change of intonation is possible."
+      ],
+      "answer": "Rising intonation.",
+      "accepted": [
+        "Rising intonation."
+      ],
+      "why": "Восходящий контур часто задаёт реальный вопрос.",
+      "distractorWhy": "Нисходящий часто ожидает согласия.",
+      "distractorRationales": {
+        "Falling intonation only.": "Нисходящий часто ожидает согласия.",
+        "No change of intonation is possible.": "Интонация влияет на функцию."
+      },
+      "skillTarget": "question-tags-auxiliaries-indirect-questions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E5",
+      "group": "Выходная проверка",
+      "prompt": "Choose the correct polite question about the timetable.",
+      "options": [
+        "Could you tell me when does the train leave?",
+        "Could you tell me when the train leave?",
+        "Could you tell me when the train leaves?"
+      ],
+      "answer": "Could you tell me when the train leaves?",
+      "accepted": [
+        "Could you tell me when the train leaves?"
+      ],
+      "why": "Главный вопрос содержит could; внутри прямой порядок.",
+      "distractorWhy": "Does в embedded clause лишний.",
+      "distractorRationales": {
+        "Could you tell me when does the train leave?": "Does в embedded clause лишний.",
+        "Could you tell me when the train leave?": "Train требует leaves."
+      },
+      "skillTarget": "question-tags-auxiliaries-indirect-questions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "W1",
+      "group": "Самостоятельное применение",
+      "prompt": "Составь диалог из восьми реплик: три tags (включая отрицательную основу), Let's + tag, краткий ответ, согласие с so/neither и два embedded questions. Укажи предполагаемую интонацию tags.",
+      "open": true,
+      "rubric": [
+        "Auxiliary соответствует времени и основной части.",
+        "Полярность стандартных tags выбрана правильно.",
+        "Местоимения и особые tags корректны.",
+        "Краткий ответ не искажает смысл отрицания.",
+        "So/neither имеют правильный порядок слов.",
+        "В косвенном вопросе нет лишней инверсии."
+      ],
+      "skillTarget": "Самостоятельное применение B1-16",
+      "interactionType": "open-production",
+      "difficulty": "transfer",
+      "sourceBasis": "Speakbase-authored open production; self-review rubric only until real AI feedback is connected",
+      "contentVersion": "1.1-draft"
+    }
+  ],
+  "markdown": "# Speakbase — B1-16: Question tags, auxiliary verbs and indirect questions\n\n**Curriculum ID:** `B1-16`  \n**Уровень:** B1  \n**Версия:** 1.1-draft\n**Статус:** drafted; selected source text checked; full source-page and learner acceptance pending\n**Предварительные темы:** A1-06, A2-13  \n**Связь со старым каталогом:** Частично — №32 Reported Questions; №41 Question Tags; №42 Indirect Questions\n\n## 1. Результаты обучения\n\n- Строить теги, использовать вспомогательные глаголы и вежливые непрямые вопросы\n- Выбирать целевую форму по значению, структуре предложения и контексту.\n- Объяснять, почему близкая грамматическая форма меняет смысл или регистр.\n- Находить и исправлять типичные ошибки русскоязычных студентов.\n\n## 2. Источники и статус сверки\n\n| Source | PDF navigation | Lesson-specific checks | Status |\n|---|---|---|---|\n| GR-01 U42-50 | PDF pages 95-112 (Unit 42-50) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-02 U49-52 | PDF pages 110-117 (Unit 49-52) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-03 U26-27 | PDF pages 76-79 (Unit 26-27) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-05 B1 p46-47 | PDF pages 46-47 (B1 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-05 B1 p51 | PDF pages 51 (B1 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n\nUnit/page locations are navigation aids only. They do not prove that the cited explanation, examples, restrictions and answer key have been checked for this lesson. Examples and explanations below are Speakbase-authored, not quotations from the textbook.\n\nПеред переводом этого урока в source-verified необходимо открыть целевые страницы конкретного издания, записать печатную и PDF-пагинацию, сверить ограничения и исключения. Для GR-03 со сканированными страницами обязательна визуальная проверка.\n\n**Evidence for this editorial pass:** GR-02 selected theory text: Units 49–52, PDF pp. 110, 112, 114 and 116 (printed pp. 98–104); GR-05 B1 p. 84 selected tag-question/indirect-question context. The selected source text was consulted; not all pages, exercises, editions, scanned GR-03 pages or GR-05 descriptors were checked. Author-created explanations and practice are not copied source exercises.\n\n## 3. Место темы и границы\n\nСвяжи question tags, auxiliaries и indirect questions; учитывай полярность, особые случаи и прагматическую интонацию.\n\nСтарый каталог содержит: №32 Reported Questions; №41 Question Tags; №42 Indirect Questions. Его статус — Частично. Старые отметки завершения не переносятся автоматически на новый постоянный ID. Тема рассматривается в уровне B1 и не заменяет обязательные prerequisites.\n\n## 4. Полный конспект\n\n### 4.1. Основная идея и функция конструкции\n\nQuestion tags — короткие вопросы в конце утверждения, которые помогают запросить подтверждение, выразить интерес или проверить предположение. Обычно положительное утверждение получает отрицательный tag, а отрицательное — положительный. Вспомогательный глагол и местоимение выбираются по основной части.\n\nShe is ready, isn't she? They haven't arrived, have they? You called yesterday, didn't you? В первом примере используется is, во втором have, в третьем did, потому что в утвердительном Past Simple нет отдельного вспомогательного глагола. Помимо tags, вспомогательные глаголы позволяют давать краткие ответы, выражать согласие и строить прямые и косвенные вопросы.\n\n### 4.2. Формирование и грамматическая модель\n\n| Основная часть | Tag | Пример |\n|---|---|---|\n| be | be + pronoun | She is ready, isn't she? |\n| Present Simple | do/does | He works here, doesn't he? |\n| Past Simple | did | They left, didn't they? |\n| Perfect | have/has/had | You have finished, haven't you? |\n| Modal | тот же modal | She can swim, can't she? |\n| Negative clause | positive tag | He isn't here, is he? |\n| Let's | shall we | Let's begin, shall we? |\n| I am | aren't I | I'm late, aren't I? |\n| Imperative | часто will you | Don't be late, will you? |\n\nВ tag заменяй существительное подходящим местоимением: The students are ready, aren't they? После there is/are сохраняется there: There is a problem, isn't there? Everyone/someone/no one обычно получают they; nothing/everything — it. Never, hardly, nobody имеют отрицательный смысл, поэтому обычный tag положительный. В кратких ответах используем соответствующий auxiliary: Yes, I have; No, she doesn't.\n\n### 4.3. Как выбрать подходящую форму\n\nНайди первое вспомогательное слово или модальный глагол основной части. Если его нет, используй do/does/did по времени. Определи полярность, подставь местоимение. Для embedded questions сохрани порядок subject + verb: Do you know where he lives? В кратких ответах повторяй auxiliary, а не весь смысловой глагол.\n\nСогласие: I'm tired — So am I; I don't drive — Neither do I / I don't either. В so/neither конструкции глагол стоит перед subject. В прямом вопросе с wh-word, являющимся объектом, возможен do-support: Who did you call? Если who — подлежащее, обычно do-support не нужен: Who called? В косвенном вопросе Do you know who called? нет дополнительной инверсии.\n\n### 4.4. Сравнение с близкими конструкциями\n\n| Пример | Функция |\n|---|---|\n| You like the course, don't you? | Подтверждение положительного утверждения. |\n| You don't like it, do you? | Проверка отрицательного утверждения. |\n| You haven't seen Anna, have you? | Запрос информации. |\n| She can swim. So can I. | Согласие с положительным сообщением. |\n| She can't drive. Neither can I. | Согласие с отрицательным. |\n| Do you know where the office is? | Вежливый косвенный вопрос. |\n\n### 4.5. Примеры с переводом и объяснением\n\n| English | Перевод | Почему это подходит |\n| --- | --- | --- |\n| You have finished the report, haven't you? | Ты закончила отчёт, правда? | Perfect auxiliary. |\n| She doesn't drive, does she? | Она не водит машину, верно? | Отрицательная основа, положительный tag. |\n| Let's take a break, shall we? | Давайте сделаем перерыв, хорошо? | Особая модель Let's. |\n| Everyone enjoyed the lecture, didn't they? | Всем понравилась лекция, правда? | Everyone → they. |\n| I'm tired. So am I. | Я устала. Я тоже. | Согласие с положительным высказыванием. |\n| Do you know where the room is? | Ты знаешь, где кабинет? | Embedded clause без инверсии. |\n\n### 4.6. Исключения, ограничения и границы употребления\n\nОбычная модель tag меняет полярность, но существуют same-polarity tags для удивления, интереса и особых оттенков: So you got the job, did you? На данном уровне тренируем обычные confirmation tags. Вопросы после imperative могут принимать разные tags в зависимости от интонации и смысла; will you — распространённый вариант, после Let's — shall we.\n\nНе путай I'm right, aren't I? с формально возможным am I not? В стандартном разговорном tag употребляется aren't I. Утвердительное предложение с never требует положительного tag: You never call, do you? Have как вспомогательный Perfect повторяется в tag; при have в значении владения часто употребляется do (You have a car, don't you?), а have got обычно имеет haven't. При ответе на отрицательный вопрос Yes подтверждает положительный факт, No — отрицательный: You aren't leaving, are you? Yes, I am = ухожу.\n\n### 4.7. Типичные ошибки русскоязычных студентов\n\n| Ошибка | Исправление | Объяснение |\n| --- | --- | --- |\n| She works here, isn't she? | She works here, doesn't she? | Present Simple требует does. |\n| He never calls, doesn't he? | He never calls, does he? | Never имеет отрицательный смысл. |\n| I'm next, amn't I? | I'm next, aren't I? | Стандартный разговорный tag. |\n| Do you know where is the room? | Do you know where the room is? | Внутри embedded question прямой порядок. |\n\n### 4.8. Произношение и восприятие на слух\n\nВосходящая интонация tag чаще означает реальный вопрос, нисходящая — ожидание подтверждения. Сравни You know him, don't you? с разными контурами. В short answers и so/neither смысловое ударение часто падает на auxiliary.\n\nСначала прослушай или прочитай пример, затем произнеси его целиком. Обрати внимание на смысловое ударение и форму конструкции; не ориентируйся только на буквенный перевод.\n\n### 4.9. Академический английский и TOEFL-перенос\n\nВ Listening определяй, спрашивает ли говорящий новую информацию или ожидает согласия. В Speaking используй вежливые embedded questions в кампусных ситуациях. В академическом Writing tags обычно менее уместны, чем чёткие утверждения; навык auxiliary помогает строить точные вопросы и отрицания.\n\nЭто авторская практика переноса навыка. Она не является официальным заданием TOEFL и не выдаётся за официальный результат экзамена.\n\n### 4.10. Примеры для управляемого разбора\n\n- You have finished the report, haven't you? — Ты закончила отчёт, правда? Perfect auxiliary.\n- She doesn't drive, does she? — Она не водит машину, верно? Отрицательная основа, положительный tag.\n- Let's take a break, shall we? — Давайте сделаем перерыв, хорошо? Особая модель Let's.\n\nДля каждого примера назови целевую конструкцию, объясни выбор и составь новое предложение в другом контексте. Затем перейди к заданиям: сначала диагностика, затем управляемая и самостоятельная практика, затем новые вопросы выходной проверки.\n\n### 4.11. Самопроверка\n\nПеред отправкой ответа проверь:\n1. Auxiliary соответствует времени и основной части.\n2. Полярность стандартных tags выбрана правильно.\n3. Местоимения и особые tags корректны.\n4. Краткий ответ не искажает смысл отрицания.\n5. So/neither имеют правильный порядок слов.\n6. В косвенном вопросе нет лишней инверсии.\n\n### 4.12. Краткая памятка\n\nОбычный tag: поменяй полярность, повтори auxiliary/modal или добавь do/does/did, замени subject местоимением. Let's → shall we; I am → aren't I. В embedded questions прямой порядок, в So/Neither + auxiliary + subject — инверсия.\n\nНе выбирай форму только по одному знакомому слову: проверь контекст, значение и структуру. При ошибке вернись к соответствующей части конспекта и составь собственный пример.\n\n## 5. Практика\n\nВ приложении практика разделена на входную диагностику, управляемые задания, самостоятельную практику и новую выходную проверку. Закрытые ответы получают rationale и разбор ошибки. Свободный текст сохраняется и оценивается по рубрике; до подключения и реальной проверки AI-движка система не выдаёт его за автоматическую AI-оценку.\n\n## 6. Интервальное повторение\n\nПовторяй не весь урок автоматически, а конкретную ошибку: выбор формы, согласование, word order, значение, регистр или пунктуацию. Новая попытка должна менять лексический контекст и формулировку, чтобы проверять перенос, а не запоминание одной строки.\n\n## 7. Технический статус\n\n- Постоянный ID: `B1-16`.\n- Прогресс хранится отдельно в course.grammarLessons[\"B1-16\"].\n- Содержание и ключи имеют статус draft; 24 авторских закрытых задания и объяснения вычитаны, выбранные тексты источников проверены. Полная постраничная и пользовательская приёмка остаются открытыми.\n- Предварительное выполнение порогов не равно окончательному mastered: нужны отсроченное повторение и learner review.",
+  "theoryEnd": "## 5."
+}

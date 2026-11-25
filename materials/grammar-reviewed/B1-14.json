@@ -1,0 +1,731 @@
+{
+  "id": "B1-14",
+  "level": "B1",
+  "sequence": "B1-14",
+  "grammarFamily": "B1-14",
+  "questionBankSource": "topic-specific-authored",
+  "sourceVerification": "draft; selected source text consulted; complete source-page and learner review pending",
+  "topicProfile": {
+    "label": "non-defining relative clauses",
+    "skillTarget": "non-defining-relative-clauses",
+    "core": "Non-defining relative clause — придаточное определительное, которое добавляет сведения об уже известном человеке, предмете или ситуации. Оно не определяет, о каком именно объекте идёт речь. На письме дополнительная информация выделяется запятыми.",
+    "form": "| Относительное слово | Что связывает | Пример |\n|---|---|---|\n| who | человек, подлежащее/дополнение | Anna, who teaches English, lives here. |\n| whom | человек, дополнение, формальный стиль | Anna, whom I met yesterday, teaches here. |\n| which | предмет или целая предыдущая ситуация | The book, which I bought yesterday, is useful. |\n| whose | принадлежность | Leo, whose sister is a tutor, studies here. |\n| where | место | Rome, where she lives, is beautiful. |\n| preposition + whom/which | формальная связь с предлогом | Dr Lee, to whom I wrote, replied. |",
+    "selection": "Установи, известен ли объект без придаточного. Если нужно выбрать один объект из нескольких, используй defining clause без запятых. Если объект уже назван (имя, конкретный предмет, уникальный объект) и информация добавочная, используй non-defining с запятыми. Затем выбери who, which, whose, where или whom по функции.",
+    "contrast": "| Пример | Смысл |\n|---|---|\n| Students who submitted early received feedback. | Только определённая группа студентов. |\n| The students, who submitted early, received feedback. | Уже известные студенты; все подали рано. |\n| The book (that) I bought is useful. | Defining: дополнение можно опустить. |\n| This book, which I bought yesterday, is useful. | Non-defining: which сохраняется. |\n| The meeting was cancelled, which disappointed us. | Which относится к ситуации целиком. |",
+    "boundary": "That не используется в стандартных non-defining clauses. Who/which/whom нельзя опускать как дополнение. Формальный предлог перед относительным словом требует whom для человека и which для предмета. В разговорной речи предлог часто ставится в конец: Anna, who I spoke to, …",
+    "pronunciation": "В устной речи non-defining clause часто выделяется небольшой паузой и отдельным интонационным контуром. В письменной речи эти границы показывают запятые. При чтении различай who's и whose по функции, а не по произношению.",
+    "examples": [
+      [
+        "My aunt, who lives in Canada, is visiting us.",
+        "Моя тётя, которая живёт в Канаде, приезжает к нам.",
+        "Дополнительный факт о человеке."
+      ],
+      [
+        "The theatre, which was built in 1920, is being restored.",
+        "Театр, построенный в 1920 году, реставрируют.",
+        "Дополнительный факт о здании."
+      ],
+      [
+        "Professor Lee, whose research focuses on climate, gave a lecture.",
+        "Профессор Ли, чьи исследования посвящены климату, прочитал лекцию.",
+        "Принадлежность."
+      ],
+      [
+        "We visited Kyoto, where many historic temples stand.",
+        "Мы посетили Киото, где расположено много исторических храмов.",
+        "Место действия."
+      ],
+      [
+        "The train was delayed, which annoyed us.",
+        "Поезд задержался, что нас расстроило.",
+        "Which относится ко всему событию."
+      ]
+    ],
+    "traps": [
+      [
+        "My aunt, that lives in Canada, is visiting.",
+        "My aunt, who lives in Canada, is visiting.",
+        "That нельзя использовать в non-defining."
+      ],
+      [
+        "This book, I bought yesterday, is useful.",
+        "This book, which I bought yesterday, is useful.",
+        "Относительное слово нельзя опустить."
+      ],
+      [
+        "Anna, who she teaches here, is my friend.",
+        "Anna, who teaches here, is my friend.",
+        "Who уже является подлежащим."
+      ],
+      [
+        "The lecture was cancelled, what surprised us.",
+        "The lecture was cancelled, which surprised us.",
+        "Which относится к предыдущей ситуации."
+      ]
+    ],
+    "toefl": "В Reading отличай информацию, необходимую для идентификации группы, от добавочного комментария. В Writing относительные придаточные позволяют объединять информацию без двусмысленности. Например, The new method, which requires fewer resources, was tested twice. В Speaking делай короткую паузу перед дополнительной информацией."
+  },
+  "title": "Non-defining relative clauses",
+  "description": "Добавлять дополнительную информацию, использовать запятые и подходящие relative pronouns",
+  "cardDescription": "Теория, guided practice, самостоятельные задания и выходная проверка по постоянному ID B1-14.",
+  "eyebrow": "Полный урок программы B1-14 · drafted",
+  "contentVersion": "1.1-draft",
+  "curriculumVersion": "1.0",
+  "prerequisites": [
+    "A2-14"
+  ],
+  "outcomes": [
+    "Добавлять дополнительную информацию, использовать запятые и подходящие relative pronouns",
+    "Выбирать целевую конструкцию по контексту и смыслу.",
+    "Исправлять типичные ошибки и переносить правило в новый пример."
+  ],
+  "sourceRefs": [
+    "GR-02 U95-96",
+    "GR-03 U53-57",
+    "GR-05 B1 p19-21"
+  ],
+  "sourceStatus": "selected source text consulted; full page verification pending",
+  "status": "drafted",
+  "legacyCoverage": "Полное ядро",
+  "toeflLinks": [
+    "Writing: Build a Sentence",
+    "Reading: clause structure, reference, modifiers and logical relationships",
+    "Writing: Academic Discussion"
+  ],
+  "thresholds": {
+    "independent": 7,
+    "exit": 4,
+    "criticalIds": [
+      "E1",
+      "E2",
+      "E3"
+    ]
+  },
+  "groups": {
+    "independent": "Самостоятельная практика",
+    "exit": "Выходная проверка"
+  },
+  "items": [
+    {
+      "id": "D1",
+      "group": "Входная диагностика",
+      "prompt": "My aunt, ___ lives in Canada, is visiting us.",
+      "options": [
+        "that",
+        "who",
+        "where"
+      ],
+      "answer": "who",
+      "accepted": [
+        "who"
+      ],
+      "why": "Who — относительное подлежащее для человека.",
+      "distractorWhy": "That не используется в non-defining.",
+      "distractorRationales": {
+        "that": "That не используется в non-defining.",
+        "where": "Where обозначает место действия."
+      },
+      "skillTarget": "non-defining-relative-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D2",
+      "group": "Входная диагностика",
+      "prompt": "The old theatre, ___ was built in 1920, is being restored.",
+      "options": [
+        "which",
+        "that",
+        "who"
+      ],
+      "answer": "which",
+      "accepted": [
+        "which"
+      ],
+      "why": "Which относится к зданию.",
+      "distractorWhy": "That не подходит в non-defining.",
+      "distractorRationales": {
+        "that": "That не подходит в non-defining.",
+        "who": "Who относится к человеку."
+      },
+      "skillTarget": "non-defining-relative-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D3",
+      "group": "Входная диагностика",
+      "prompt": "Professor Lee, ___ research focuses on climate, gave a lecture.",
+      "options": [
+        "who's",
+        "where",
+        "whose"
+      ],
+      "answer": "whose",
+      "accepted": [
+        "whose"
+      ],
+      "why": "Whose + noun выражает принадлежность.",
+      "distractorWhy": "Who's = who is/has.",
+      "distractorRationales": {
+        "who's": "Who's = who is/has.",
+        "where": "Where относится к месту."
+      },
+      "skillTarget": "non-defining-relative-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D4",
+      "group": "Входная диагностика",
+      "prompt": "We visited Kyoto, ___ many historic temples are located.",
+      "options": [
+        "who",
+        "where",
+        "whose"
+      ],
+      "answer": "where",
+      "accepted": [
+        "where"
+      ],
+      "why": "Where вводит сведения о месте.",
+      "distractorWhy": "Who относится к человеку.",
+      "distractorRationales": {
+        "who": "Who относится к человеку.",
+        "whose": "Whose требует существительное принадлежности."
+      },
+      "skillTarget": "non-defining-relative-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G1",
+      "group": "Управляемая практика",
+      "prompt": "Choose the correctly punctuated non-defining clause inside a sentence.",
+      "options": [
+        "My laptop, which I bought last year, still works.",
+        "My laptop which I bought last year, still works.",
+        "My laptop, which I bought last year still works."
+      ],
+      "answer": "My laptop, which I bought last year, still works.",
+      "accepted": [
+        "My laptop, which I bought last year, still works."
+      ],
+      "why": "Вставное придаточное выделяется двумя запятыми.",
+      "distractorWhy": "Отсутствует первая запятая.",
+      "distractorRationales": {
+        "My laptop which I bought last year, still works.": "Отсутствует первая запятая.",
+        "My laptop, which I bought last year still works.": "Отсутствует вторая запятая."
+      },
+      "skillTarget": "non-defining-relative-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G2",
+      "group": "Управляемая практика",
+      "prompt": "Choose the correct non-defining object relative.",
+      "options": [
+        "This novel, I read last month, is excellent.",
+        "This novel, that I read last month, is excellent.",
+        "This novel, which I read last month, is excellent."
+      ],
+      "answer": "This novel, which I read last month, is excellent.",
+      "accepted": [
+        "This novel, which I read last month, is excellent."
+      ],
+      "why": "Which сохраняется даже как дополнение.",
+      "distractorWhy": "Относительное слово нельзя опустить.",
+      "distractorRationales": {
+        "This novel, I read last month, is excellent.": "Относительное слово нельзя опустить.",
+        "This novel, that I read last month, is excellent.": "That не используется."
+      },
+      "skillTarget": "non-defining-relative-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G3",
+      "group": "Управляемая практика",
+      "prompt": "Which sentence identifies only the students who arrived early?",
+      "options": [
+        "The students, who arrived early, received feedback.",
+        "Students who arrived early received feedback.",
+        "The students arrived early, which was helpful."
+      ],
+      "answer": "Students who arrived early received feedback.",
+      "accepted": [
+        "Students who arrived early received feedback."
+      ],
+      "why": "Defining clause ограничивает группу.",
+      "distractorWhy": "Non-defining добавляет факт об известной группе.",
+      "distractorRationales": {
+        "The students, who arrived early, received feedback.": "Non-defining добавляет факт об известной группе.",
+        "The students arrived early, which was helpful.": "Which комментирует ситуацию."
+      },
+      "skillTarget": "non-defining-relative-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G4",
+      "group": "Управляемая практика",
+      "prompt": "The train was delayed, ___ annoyed the passengers.",
+      "options": [
+        "which",
+        "what",
+        "who"
+      ],
+      "answer": "which",
+      "accepted": [
+        "which"
+      ],
+      "why": "Which относится к предыдущему событию.",
+      "distractorWhy": "What не вводит такой relative clause.",
+      "distractorRationales": {
+        "what": "What не вводит такой relative clause.",
+        "who": "Who относится к человеку."
+      },
+      "skillTarget": "non-defining-relative-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G5",
+      "group": "Управляемая практика",
+      "prompt": "Choose the correct formal preposition pattern for a person.",
+      "options": [
+        "Dr Lee, to who I wrote, replied.",
+        "Dr Lee, to that I wrote, replied.",
+        "Dr Lee, to whom I wrote, replied."
+      ],
+      "answer": "Dr Lee, to whom I wrote, replied.",
+      "accepted": [
+        "Dr Lee, to whom I wrote, replied."
+      ],
+      "why": "После вынесенного предлога формально используется whom.",
+      "distractorWhy": "Who после предлога не стандартный формальный вариант.",
+      "distractorRationales": {
+        "Dr Lee, to who I wrote, replied.": "Who после предлога не стандартный формальный вариант.",
+        "Dr Lee, to that I wrote, replied.": "That здесь не подходит."
+      },
+      "skillTarget": "non-defining-relative-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G6",
+      "group": "Управляемая практика",
+      "prompt": "Choose the correct clause with a preposition at the end.",
+      "options": [
+        "Anna, that I spoke to yesterday, agreed.",
+        "Anna, who I spoke to yesterday, agreed.",
+        "Anna, I spoke to yesterday, agreed."
+      ],
+      "answer": "Anna, who I spoke to yesterday, agreed.",
+      "accepted": [
+        "Anna, who I spoke to yesterday, agreed."
+      ],
+      "why": "Who допустим как дополнение при конечном предлоге.",
+      "distractorWhy": "That нельзя использовать.",
+      "distractorRationales": {
+        "Anna, that I spoke to yesterday, agreed.": "That нельзя использовать.",
+        "Anna, I spoke to yesterday, agreed.": "Relative pronoun нельзя опустить."
+      },
+      "skillTarget": "non-defining-relative-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I1",
+      "group": "Самостоятельная практика",
+      "prompt": "The team has four members, two of ___ work remotely.",
+      "options": [
+        "which",
+        "whose",
+        "whom"
+      ],
+      "answer": "whom",
+      "accepted": [
+        "whom"
+      ],
+      "why": "Whom после of относится к людям.",
+      "distractorWhy": "Which — не о людях здесь.",
+      "distractorRationales": {
+        "which": "Which — не о людях здесь.",
+        "whose": "Whose выражает принадлежность."
+      },
+      "skillTarget": "non-defining-relative-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I2",
+      "group": "Самостоятельная практика",
+      "prompt": "We tested three devices, none of ___ worked.",
+      "options": [
+        "whom",
+        "which",
+        "that"
+      ],
+      "answer": "which",
+      "accepted": [
+        "which"
+      ],
+      "why": "Which после of относится к предметам.",
+      "distractorWhy": "Whom относится к людям.",
+      "distractorRationales": {
+        "whom": "Whom относится к людям.",
+        "that": "That не следует за вынесенным предлогом."
+      },
+      "skillTarget": "non-defining-relative-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I3",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the clause where whose is correct.",
+      "options": [
+        "The company, whose director resigned, hired a replacement.",
+        "The company, who's director resigned, hired a replacement.",
+        "The company, which director resigned, hired a replacement."
+      ],
+      "answer": "The company, whose director resigned, hired a replacement.",
+      "accepted": [
+        "The company, whose director resigned, hired a replacement."
+      ],
+      "why": "Whose + director показывает принадлежность.",
+      "distractorWhy": "Who's не притяжательное слово.",
+      "distractorRationales": {
+        "The company, who's director resigned, hired a replacement.": "Who's не притяжательное слово.",
+        "The company, which director resigned, hired a replacement.": "Which director не нужная модель."
+      },
+      "skillTarget": "non-defining-relative-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I4",
+      "group": "Самостоятельная практика",
+      "prompt": "Which sentence adds information about an already identified city, using which as subject?",
+      "options": [
+        "Rome, where attracts tourists, is historic.",
+        "Rome, who attracts tourists, is historic.",
+        "Rome, which attracts tourists, is historic."
+      ],
+      "answer": "Rome, which attracts tourists, is historic.",
+      "accepted": [
+        "Rome, which attracts tourists, is historic."
+      ],
+      "why": "Which является подлежащим attracts.",
+      "distractorWhy": "Where — обстоятельство места, не subject.",
+      "distractorRationales": {
+        "Rome, where attracts tourists, is historic.": "Where — обстоятельство места, не subject.",
+        "Rome, who attracts tourists, is historic.": "Who относится к человеку."
+      },
+      "skillTarget": "non-defining-relative-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I5",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct non-defining clause at the end.",
+      "options": [
+        "I met Emma, that teaches physics.",
+        "I met Emma, who teaches physics.",
+        "I met Emma, who she teaches physics."
+      ],
+      "answer": "I met Emma, who teaches physics.",
+      "accepted": [
+        "I met Emma, who teaches physics."
+      ],
+      "why": "Who вводит добавочный факт.",
+      "distractorWhy": "That не используется.",
+      "distractorRationales": {
+        "I met Emma, that teaches physics.": "That не используется.",
+        "I met Emma, who she teaches physics.": "She дублирует подлежащее who."
+      },
+      "skillTarget": "non-defining-relative-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I6",
+      "group": "Самостоятельная практика",
+      "prompt": "What changes when commas are added to 'The students who passed received certificates'?",
+      "options": [
+        "The clause becomes additional information about the identified students.",
+        "The relative pronoun must become that.",
+        "The main verb must change to Past Perfect."
+      ],
+      "answer": "The clause becomes additional information about the identified students.",
+      "accepted": [
+        "The clause becomes additional information about the identified students."
+      ],
+      "why": "Запятые меняют тип относительного придаточного.",
+      "distractorWhy": "That в non-defining недопустим.",
+      "distractorRationales": {
+        "The relative pronoun must become that.": "That в non-defining недопустим.",
+        "The main verb must change to Past Perfect.": "Время главного глагола не обязано меняться."
+      },
+      "skillTarget": "non-defining-relative-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I7",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct possessive relative clause.",
+      "options": [
+        "My neighbour, who's car was stolen, called the police.",
+        "My neighbour, who car was stolen, called the police.",
+        "My neighbour, whose car was stolen, called the police."
+      ],
+      "answer": "My neighbour, whose car was stolen, called the police.",
+      "accepted": [
+        "My neighbour, whose car was stolen, called the police."
+      ],
+      "why": "Whose + car выражает принадлежность.",
+      "distractorWhy": "Who's = who is/has.",
+      "distractorRationales": {
+        "My neighbour, who's car was stolen, called the police.": "Who's = who is/has.",
+        "My neighbour, who car was stolen, called the police.": "Who car не притяжательная модель."
+      },
+      "skillTarget": "non-defining-relative-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I8",
+      "group": "Самостоятельная практика",
+      "prompt": "The museum, ___ we visited last week, is closed today.",
+      "options": [
+        "where we",
+        "which",
+        "that"
+      ],
+      "answer": "which",
+      "accepted": [
+        "which"
+      ],
+      "why": "Which — дополнение visited.",
+      "distractorWhy": "Where we дублирует we и не даёт объект visited.",
+      "distractorRationales": {
+        "where we": "Where we дублирует we и не даёт объект visited.",
+        "that": "That не подходит."
+      },
+      "skillTarget": "non-defining-relative-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I9",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct relative clause with 'in which'.",
+      "options": [
+        "The room, in which we held the meeting, is upstairs.",
+        "The room, in that we held the meeting, is upstairs.",
+        "The room, in where we held the meeting, is upstairs."
+      ],
+      "answer": "The room, in which we held the meeting, is upstairs.",
+      "accepted": [
+        "The room, in which we held the meeting, is upstairs."
+      ],
+      "why": "Предлог + which относится к месту/предмету.",
+      "distractorWhy": "That не используется после предлога.",
+      "distractorRationales": {
+        "The room, in that we held the meeting, is upstairs.": "That не используется после предлога.",
+        "The room, in where we held the meeting, is upstairs.": "Where уже выражает место, in лишний."
+      },
+      "skillTarget": "non-defining-relative-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E1",
+      "group": "Выходная проверка",
+      "prompt": "Choose the non-defining clause without a repeated object pronoun.",
+      "options": [
+        "The report, which I submitted yesterday, was accepted.",
+        "The report, which I submitted it yesterday, was accepted.",
+        "The report, that I submitted yesterday, was accepted."
+      ],
+      "answer": "The report, which I submitted yesterday, was accepted.",
+      "accepted": [
+        "The report, which I submitted yesterday, was accepted."
+      ],
+      "why": "Which уже заменяет объект submitted.",
+      "distractorWhy": "It дублирует объект.",
+      "distractorRationales": {
+        "The report, which I submitted it yesterday, was accepted.": "It дублирует объект.",
+        "The report, that I submitted yesterday, was accepted.": "That не используется."
+      },
+      "skillTarget": "non-defining-relative-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E2",
+      "group": "Выходная проверка",
+      "prompt": "The seminar was moved online, ___ made attendance easier.",
+      "options": [
+        "what",
+        "where",
+        "which"
+      ],
+      "answer": "which",
+      "accepted": [
+        "which"
+      ],
+      "why": "Which комментирует весь факт.",
+      "distractorWhy": "What не подходит для этой связи.",
+      "distractorRationales": {
+        "what": "What не подходит для этой связи.",
+        "where": "Where относится к месту."
+      },
+      "skillTarget": "non-defining-relative-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E3",
+      "group": "Выходная проверка",
+      "prompt": "Choose the correct relative pronoun with a person as subject.",
+      "options": [
+        "Our lecturer, whom speaks Italian, is from Sicily.",
+        "Our lecturer, who speaks Italian, is from Sicily.",
+        "Our lecturer, which speaks Italian, is from Sicily."
+      ],
+      "answer": "Our lecturer, who speaks Italian, is from Sicily.",
+      "accepted": [
+        "Our lecturer, who speaks Italian, is from Sicily."
+      ],
+      "why": "Who является подлежащим.",
+      "distractorWhy": "Whom — форма дополнения.",
+      "distractorRationales": {
+        "Our lecturer, whom speaks Italian, is from Sicily.": "Whom — форма дополнения.",
+        "Our lecturer, which speaks Italian, is from Sicily.": "Which здесь не относится к человеку."
+      },
+      "skillTarget": "non-defining-relative-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E4",
+      "group": "Выходная проверка",
+      "prompt": "Which sentence correctly leaves out a relative pronoun in a defining object clause?",
+      "options": [
+        "The book I borrowed is on the desk.",
+        "This book, I borrowed yesterday, is on the desk.",
+        "My tutor, I met last week, is here."
+      ],
+      "answer": "The book I borrowed is on the desk.",
+      "accepted": [
+        "The book I borrowed is on the desk."
+      ],
+      "why": "В defining object clause относительное слово можно опустить.",
+      "distractorWhy": "В non-defining нельзя.",
+      "distractorRationales": {
+        "This book, I borrowed yesterday, is on the desk.": "В non-defining нельзя.",
+        "My tutor, I met last week, is here.": "В non-defining нельзя опустить who/whom."
+      },
+      "skillTarget": "non-defining-relative-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E5",
+      "group": "Выходная проверка",
+      "prompt": "Choose the sentence in which extra information is correctly separated.",
+      "options": [
+        "The final report, which contains three charts is ready.",
+        "The final report which contains three charts, is ready.",
+        "The final report, which contains three charts, is ready."
+      ],
+      "answer": "The final report, which contains three charts, is ready.",
+      "accepted": [
+        "The final report, which contains three charts, is ready."
+      ],
+      "why": "Две запятые отделяют вставное придаточное.",
+      "distractorWhy": "Нет закрывающей запятой.",
+      "distractorRationales": {
+        "The final report, which contains three charts is ready.": "Нет закрывающей запятой.",
+        "The final report which contains three charts, is ready.": "Нет открывающей запятой."
+      },
+      "skillTarget": "non-defining-relative-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "W1",
+      "group": "Самостоятельное применение",
+      "prompt": "Напиши шесть предложений с non-defining clauses: who, which, whose, where, formal preposition + whom и which для целого события. Затем сравни одну пару defining/non-defining.",
+      "open": true,
+      "rubric": [
+        "Дополнительная информация отделена запятыми.",
+        "Who/which выбраны по типу объекта.",
+        "Whose и where употреблены по функции.",
+        "That и опущенные относительные слова отсутствуют.",
+        "Предлог и относительное слово согласованы.",
+        "Объяснена разница defining/non-defining."
+      ],
+      "skillTarget": "Самостоятельное применение B1-14",
+      "interactionType": "open-production",
+      "difficulty": "transfer",
+      "sourceBasis": "Speakbase-authored open production; self-review rubric only until real AI feedback is connected",
+      "contentVersion": "1.1-draft"
+    }
+  ],
+  "markdown": "# Speakbase — B1-14: Non-defining relative clauses\n\n**Curriculum ID:** `B1-14`  \n**Уровень:** B1  \n**Версия:** 1.1-draft\n**Статус:** drafted; selected source text checked; full source-page and learner acceptance pending\n**Предварительные темы:** A2-14  \n**Связь со старым каталогом:** Полное ядро — №33 Relative Clauses; №34 Non-defining Relative Clauses\n\n## 1. Результаты обучения\n\n- Добавлять дополнительную информацию, использовать запятые и подходящие relative pronouns\n- Выбирать целевую форму по значению, структуре предложения и контексту.\n- Объяснять, почему близкая грамматическая форма меняет смысл или регистр.\n- Находить и исправлять типичные ошибки русскоязычных студентов.\n\n## 2. Источники и статус сверки\n\n| Source | PDF navigation | Lesson-specific checks | Status |\n|---|---|---|---|\n| GR-02 U95-96 | PDF pages 202-205 (Unit 95-96) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-03 U53-57 | PDF pages 130-139 (Unit 53-57) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-05 B1 p19-21 | PDF pages 19-21 (B1 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n\nUnit/page locations are navigation aids only. They do not prove that the cited explanation, examples, restrictions and answer key have been checked for this lesson. Examples and explanations below are Speakbase-authored, not quotations from the textbook.\n\nПеред переводом этого урока в source-verified необходимо открыть целевые страницы конкретного издания, записать печатную и PDF-пагинацию, сверить ограничения и исключения. Для GR-03 со сканированными страницами обязательна визуальная проверка.\n\n**Evidence for this editorial pass:** GR-02 selected theory text: Units 92–96, PDF pp. 196, 198, 200, 202 and 204 (printed pp. 184–192), especially Units 95–96. The selected source text was consulted; not all pages, exercises, editions, scanned GR-03 pages or GR-05 descriptors were checked. Author-created explanations and practice are not copied source exercises.\n\n## 3. Место темы и границы\n\nNon-defining relative clauses добавляют supplementary information; commas обязательны, that обычно не используется.\n\nСтарый каталог содержит: №33 Relative Clauses; №34 Non-defining Relative Clauses. Его статус — Полное ядро. Старые отметки завершения не переносятся автоматически на новый постоянный ID. Тема рассматривается в уровне B1 и не заменяет обязательные prerequisites.\n\n## 4. Полный конспект\n\n### 4.1. Основная идея и функция конструкции\n\nNon-defining relative clause — придаточное определительное, которое добавляет сведения об уже известном человеке, предмете или ситуации. Оно не определяет, о каком именно объекте идёт речь. На письме дополнительная информация выделяется запятыми.\n\nСравни My brother who lives in Rome is a doctor и My brother, who lives in Rome, is a doctor. В первом случае придаточное помогает определить, о каком брате идёт речь; во втором брат уже определён, а место проживания — дополнительный факт. Удаление non-defining clause сохраняет основное сообщение, хотя часть информации теряется. Удаление defining clause может изменить круг людей или предметов, о которых говорится.\n\n### 4.2. Формирование и грамматическая модель\n\n| Относительное слово | Что связывает | Пример |\n|---|---|---|\n| who | человек, подлежащее/дополнение | Anna, who teaches English, lives here. |\n| whom | человек, дополнение, формальный стиль | Anna, whom I met yesterday, teaches here. |\n| which | предмет или целая предыдущая ситуация | The book, which I bought yesterday, is useful. |\n| whose | принадлежность | Leo, whose sister is a tutor, studies here. |\n| where | место | Rome, where she lives, is beautiful. |\n| preposition + whom/which | формальная связь с предлогом | Dr Lee, to whom I wrote, replied. |\n\nЕсли придаточное внутри главного предложения, нужны две запятые: My laptop, which I bought last year, still works. Если оно в конце, ставится одна запятая перед ним: I met Anna, who teaches English. В non-defining relative clauses не используют that и не опускают относительное слово даже в позиции дополнения. Не дублируй его местоимением: Anna, who teaches here, не who she teaches here.\n\n### 4.3. Как выбрать подходящую форму\n\nУстанови, известен ли объект без придаточного. Если нужно выбрать один объект из нескольких, используй defining clause без запятых. Если объект уже назван (имя, конкретный предмет, уникальный объект) и информация добавочная, используй non-defining с запятыми. Затем выбери who, which, whose, where или whom по функции.\n\nДля места where обычно заменяет in/at which: Paris, where she studied, …; но если место само является подлежащим или дополнением глагола, нужен which: Paris, which attracts tourists, … . Which может относиться ко всему предыдущему высказыванию: The exam was postponed, which surprised us. Это не what. Whose может относиться к людям, организациям и предметам.\n\n### 4.4. Сравнение с близкими конструкциями\n\n| Пример | Смысл |\n|---|---|\n| Students who submitted early received feedback. | Только определённая группа студентов. |\n| The students, who submitted early, received feedback. | Уже известные студенты; все подали рано. |\n| The book (that) I bought is useful. | Defining: дополнение можно опустить. |\n| This book, which I bought yesterday, is useful. | Non-defining: which сохраняется. |\n| The meeting was cancelled, which disappointed us. | Which относится к ситуации целиком. |\n\n### 4.5. Примеры с переводом и объяснением\n\n| English | Перевод | Почему это подходит |\n| --- | --- | --- |\n| My aunt, who lives in Canada, is visiting us. | Моя тётя, которая живёт в Канаде, приезжает к нам. | Дополнительный факт о человеке. |\n| The theatre, which was built in 1920, is being restored. | Театр, построенный в 1920 году, реставрируют. | Дополнительный факт о здании. |\n| Professor Lee, whose research focuses on climate, gave a lecture. | Профессор Ли, чьи исследования посвящены климату, прочитал лекцию. | Принадлежность. |\n| We visited Kyoto, where many historic temples stand. | Мы посетили Киото, где расположено много исторических храмов. | Место действия. |\n| The train was delayed, which annoyed us. | Поезд задержался, что нас расстроило. | Which относится ко всему событию. |\n\n### 4.6. Исключения, ограничения и границы употребления\n\nThat не используется в стандартных non-defining clauses. Who/which/whom нельзя опускать как дополнение. Формальный предлог перед относительным словом требует whom для человека и which для предмета. В разговорной речи предлог часто ставится в конец: Anna, who I spoke to, …\n\nНе считай все придаточные с именем автоматически одинаковыми: смысл и контекст определяют, нужна ли идентификация. Уточняющие конструкции all of whom, some of which, neither of whom позволяют сообщать о части группы. Whose + noun выражает принадлежность, who's = who is/has. Запятые — часть смыслового различия, а не декоративная пунктуация.\n\n### 4.7. Типичные ошибки русскоязычных студентов\n\n| Ошибка | Исправление | Объяснение |\n| --- | --- | --- |\n| My aunt, that lives in Canada, is visiting. | My aunt, who lives in Canada, is visiting. | That нельзя использовать в non-defining. |\n| This book, I bought yesterday, is useful. | This book, which I bought yesterday, is useful. | Относительное слово нельзя опустить. |\n| Anna, who she teaches here, is my friend. | Anna, who teaches here, is my friend. | Who уже является подлежащим. |\n| The lecture was cancelled, what surprised us. | The lecture was cancelled, which surprised us. | Which относится к предыдущей ситуации. |\n\n### 4.8. Произношение и восприятие на слух\n\nВ устной речи non-defining clause часто выделяется небольшой паузой и отдельным интонационным контуром. В письменной речи эти границы показывают запятые. При чтении различай who's и whose по функции, а не по произношению.\n\nСначала прослушай или прочитай пример, затем произнеси его целиком. Обрати внимание на смысловое ударение и форму конструкции; не ориентируйся только на буквенный перевод.\n\n### 4.9. Академический английский и TOEFL-перенос\n\nВ Reading отличай информацию, необходимую для идентификации группы, от добавочного комментария. В Writing относительные придаточные позволяют объединять информацию без двусмысленности. Например, The new method, which requires fewer resources, was tested twice. В Speaking делай короткую паузу перед дополнительной информацией.\n\nЭто авторская практика переноса навыка. Она не является официальным заданием TOEFL и не выдаётся за официальный результат экзамена.\n\n### 4.10. Примеры для управляемого разбора\n\n- My aunt, who lives in Canada, is visiting us. — Моя тётя, которая живёт в Канаде, приезжает к нам. Дополнительный факт о человеке.\n- The theatre, which was built in 1920, is being restored. — Театр, построенный в 1920 году, реставрируют. Дополнительный факт о здании.\n- Professor Lee, whose research focuses on climate, gave a lecture. — Профессор Ли, чьи исследования посвящены климату, прочитал лекцию. Принадлежность.\n\nДля каждого примера назови целевую конструкцию, объясни выбор и составь новое предложение в другом контексте. Затем перейди к заданиям: сначала диагностика, затем управляемая и самостоятельная практика, затем новые вопросы выходной проверки.\n\n### 4.11. Самопроверка\n\nПеред отправкой ответа проверь:\n1. Дополнительная информация отделена запятыми.\n2. Who/which выбраны по типу объекта.\n3. Whose и where употреблены по функции.\n4. That и опущенные относительные слова отсутствуют.\n5. Предлог и относительное слово согласованы.\n6. Объяснена разница defining/non-defining.\n\n### 4.12. Краткая памятка\n\nNon-defining clause добавляет информацию; запятые обязательны. Who — человек, which — предмет/ситуация, whose — принадлежность, where — место, whom — формальное дополнение. That и опущенное относительное слово не используются.\n\nНе выбирай форму только по одному знакомому слову: проверь контекст, значение и структуру. При ошибке вернись к соответствующей части конспекта и составь собственный пример.\n\n## 5. Практика\n\nВ приложении практика разделена на входную диагностику, управляемые задания, самостоятельную практику и новую выходную проверку. Закрытые ответы получают rationale и разбор ошибки. Свободный текст сохраняется и оценивается по рубрике; до подключения и реальной проверки AI-движка система не выдаёт его за автоматическую AI-оценку.\n\n## 6. Интервальное повторение\n\nПовторяй не весь урок автоматически, а конкретную ошибку: выбор формы, согласование, word order, значение, регистр или пунктуацию. Новая попытка должна менять лексический контекст и формулировку, чтобы проверять перенос, а не запоминание одной строки.\n\n## 7. Технический статус\n\n- Постоянный ID: `B1-14`.\n- Прогресс хранится отдельно в course.grammarLessons[\"B1-14\"].\n- Содержание и ключи имеют статус draft; 24 авторских закрытых задания и объяснения вычитаны, выбранные тексты источников проверены. Полная постраничная и пользовательская приёмка остаются открытыми.\n- Предварительное выполнение порогов не равно окончательному mastered: нужны отсроченное повторение и learner review.",
+  "theoryEnd": "## 5."
+}

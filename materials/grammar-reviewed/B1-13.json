@@ -1,0 +1,735 @@
+{
+  "id": "B1-13",
+  "level": "B1",
+  "sequence": "B1-13",
+  "grammarFamily": "B1-13",
+  "questionBankSource": "topic-specific-authored",
+  "sourceVerification": "draft; selected source text consulted; complete source-page and learner review pending",
+  "topicProfile": {
+    "label": "verb patterns and meaning changes",
+    "skillTarget": "verb-patterns-meaning-change",
+    "core": "После одних английских глаголов используется форма -ing, после других — to-infinitive, а после некоторых возможны обе модели с разным значением. В этой теме важно научиться выбирать форму по смыслу, а не механически переводить русский инфинитив.",
+    "form": "| Глагол | + V-ing | + to V1 |\n|---|---|---|\n| remember | помнить совершённое действие | не забыть выполнить |\n| forget | забыть факт/воспоминание | забыть выполнить |\n| stop | прекратить действие | остановиться, чтобы сделать |\n| try | попробовать способ | приложить усилие |\n| regret | сожалеть о совершённом | сожалеть, сообщая неприятную новость |\n| go on | продолжить то же | перейти к следующему действию |\n| mean | подразумевать, влечь | намереваться |\n| need | нуждаться в обработке (пассивный смысл) | необходимо сделать |",
+    "selection": "Определи, произошло ли действие или его ещё предстоит выполнить. Затем проверь, является ли оно прекращаемым занятием, новой целью, экспериментом, усилием, сожалением, намерением или следствием.",
+    "contrast": "| Пример | Смысл |\n|---|---|\n| I remember meeting her. | Помню нашу встречу. |\n| Remember to meet her at six. | Не забудь встретиться с ней. |\n| He stopped smoking. | Он бросил курить. |\n| He stopped to smoke. | Он остановился, чтобы покурить. |\n| I regret saying that. | Сожалею о сказанном. |\n| We regret to inform you… | С сожалением сообщаем… |\n| The work means travelling. | Работа предполагает поездки. |\n| I meant to call. | Я намеревалась позвонить. |",
+    "boundary": "Не все глаголы допускают обе формы. I enjoy reading, а не enjoy to read; I decided to leave, а не decided leaving. Begin/start/continue часто допускают обе формы без существенного различия. Like/love/hate/prefer могут допускать обе модели, но контекст влияет на оттенок. Would like обычно требует to-infinitive.",
+    "pronunciation": "В to-infinitive to часто произносится слабо. Смысловое ударение помогает различать stop SMOKing и stop to SMOKE. При восприятии слушай весь контекст, особенно указания на прошлое воспоминание или новую цель.",
+    "examples": [
+      [
+        "I remember visiting that museum as a child.",
+        "Я помню, как посещала этот музей в детстве.",
+        "Воспоминание о факте."
+      ],
+      [
+        "Please remember to send the email.",
+        "Пожалуйста, не забудь отправить письмо.",
+        "Действие предстоит выполнить."
+      ],
+      [
+        "We stopped to check the map.",
+        "Мы остановились, чтобы проверить карту.",
+        "Новая цель."
+      ],
+      [
+        "Try clearing the browser cache.",
+        "Попробуй очистить кэш браузера.",
+        "Способ решения проблемы."
+      ],
+      [
+        "We regret to inform you that the course is full.",
+        "С сожалением сообщаем, что на курсе нет мест.",
+        "Формальная неприятная новость."
+      ],
+      [
+        "This project means working at weekends.",
+        "Этот проект предполагает работу по выходным.",
+        "Следствие."
+      ]
+    ],
+    "traps": [
+      [
+        "I enjoy to read.",
+        "I enjoy reading.",
+        "После enjoy нужна -ing."
+      ],
+      [
+        "She decided going home.",
+        "She decided to go home.",
+        "После decide нужен to-infinitive."
+      ],
+      [
+        "He stopped to smoke (если бросил курить).",
+        "He stopped smoking.",
+        "Stop + -ing выражает прекращение."
+      ],
+      [
+        "I look forward to meet you.",
+        "I look forward to meeting you.",
+        "To здесь предлог."
+      ]
+    ],
+    "toefl": "В Speaking и Writing точно описывай опыт, решения и рекомендации. В Listening различай try doing как предложенный способ и try to do как попытку. Например, The team tried restarting the program, then decided to replace it — два разных действия, не взаимозаменяемые модели."
+  },
+  "title": "Verb patterns and meaning changes",
+  "description": "Выбирать -ing/to-infinitive/object + infinitive; различать remember/stop/try/regret и другие пары",
+  "cardDescription": "Теория, guided practice, самостоятельные задания и выходная проверка по постоянному ID B1-13.",
+  "eyebrow": "Полный урок программы B1-13 · drafted",
+  "contentVersion": "1.1-draft",
+  "curriculumVersion": "1.0",
+  "prerequisites": [
+    "A2-12"
+  ],
+  "outcomes": [
+    "Выбирать -ing/to-infinitive/object + infinitive; различать remember/stop/try/regret и другие пары",
+    "Выбирать целевую конструкцию по контексту и смыслу.",
+    "Исправлять типичные ошибки и переносить правило в новый пример."
+  ],
+  "sourceRefs": [
+    "GR-02 U53-68",
+    "GR-03 U28-31",
+    "GR-05 B1 p88-91"
+  ],
+  "sourceStatus": "selected source text consulted; full page verification pending",
+  "status": "drafted",
+  "legacyCoverage": "Полное ядро",
+  "toeflLinks": [
+    "Writing: Build a Sentence",
+    "Writing: Academic Discussion"
+  ],
+  "thresholds": {
+    "independent": 7,
+    "exit": 4,
+    "criticalIds": [
+      "E1",
+      "E2",
+      "E3"
+    ]
+  },
+  "groups": {
+    "independent": "Самостоятельная практика",
+    "exit": "Выходная проверка"
+  },
+  "items": [
+    {
+      "id": "D1",
+      "group": "Входная диагностика",
+      "prompt": "I remember ___ this film as a child. Choose the memory of a past experience.",
+      "options": [
+        "to watch",
+        "watching",
+        "watch"
+      ],
+      "answer": "watching",
+      "accepted": [
+        "watching"
+      ],
+      "why": "Remember doing — воспоминание.",
+      "distractorWhy": "To watch обозначает предстоящее действие.",
+      "distractorRationales": {
+        "to watch": "To watch обозначает предстоящее действие.",
+        "watch": "После remember здесь нужна -ing."
+      },
+      "skillTarget": "verb-patterns-meaning-change",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D2",
+      "group": "Входная диагностика",
+      "prompt": "Please remember ___ the door before leaving.",
+      "options": [
+        "to lock",
+        "locking",
+        "lock"
+      ],
+      "answer": "to lock",
+      "accepted": [
+        "to lock"
+      ],
+      "why": "Remember to do — не забыть выполнить.",
+      "distractorWhy": "Locking относилось бы к воспоминанию.",
+      "distractorRationales": {
+        "locking": "Locking относилось бы к воспоминанию.",
+        "lock": "Нужен to-infinitive."
+      },
+      "skillTarget": "verb-patterns-meaning-change",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D3",
+      "group": "Входная диагностика",
+      "prompt": "He no longer smokes. He stopped ___.",
+      "options": [
+        "to smoke",
+        "smoke",
+        "smoking"
+      ],
+      "answer": "smoking",
+      "accepted": [
+        "smoking"
+      ],
+      "why": "Stop doing — прекратить привычку.",
+      "distractorWhy": "Stop to smoke — остановиться для курения.",
+      "distractorRationales": {
+        "to smoke": "Stop to smoke — остановиться для курения.",
+        "smoke": "Smoke не нужная форма."
+      },
+      "skillTarget": "verb-patterns-meaning-change",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D4",
+      "group": "Входная диагностика",
+      "prompt": "We paused our hike in order to drink. We stopped ___.",
+      "options": [
+        "drinking",
+        "to drink",
+        "drink"
+      ],
+      "answer": "to drink",
+      "accepted": [
+        "to drink"
+      ],
+      "why": "Stop to do — остановиться ради цели.",
+      "distractorWhy": "Stop drinking — перестать пить.",
+      "distractorRationales": {
+        "drinking": "Stop drinking — перестать пить.",
+        "drink": "Нужен to."
+      },
+      "skillTarget": "verb-patterns-meaning-change",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G1",
+      "group": "Управляемая практика",
+      "prompt": "The app is slow. Try ___ the cache as a possible solution.",
+      "options": [
+        "clearing",
+        "to clearing",
+        "clear"
+      ],
+      "answer": "clearing",
+      "accepted": [
+        "clearing"
+      ],
+      "why": "Try doing — испытать способ.",
+      "distractorWhy": "После infinitival to нужна V1.",
+      "distractorRationales": {
+        "to clearing": "После infinitival to нужна V1.",
+        "clear": "Bare infinitive здесь не подходит."
+      },
+      "skillTarget": "verb-patterns-meaning-change",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G2",
+      "group": "Управляемая практика",
+      "prompt": "She tried hard ___ the suitcase, but it was too heavy.",
+      "options": [
+        "lifting to",
+        "lift",
+        "to lift"
+      ],
+      "answer": "to lift",
+      "accepted": [
+        "to lift"
+      ],
+      "why": "Try to do выражает усилие.",
+      "distractorWhy": "Неверный порядок lifting to.",
+      "distractorRationales": {
+        "lifting to": "Неверный порядок lifting to.",
+        "lift": "После try в этой модели нужен to."
+      },
+      "skillTarget": "verb-patterns-meaning-change",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G3",
+      "group": "Управляемая практика",
+      "prompt": "Choose the formal announcement of bad news.",
+      "options": [
+        "We regret inform you that the event is cancelled.",
+        "We regret to inform you that the event is cancelled.",
+        "We regret to informing you that the event is cancelled."
+      ],
+      "answer": "We regret to inform you that the event is cancelled.",
+      "accepted": [
+        "We regret to inform you that the event is cancelled."
+      ],
+      "why": "Regret to inform — формальная новость.",
+      "distractorWhy": "Нужен to.",
+      "distractorRationales": {
+        "We regret inform you that the event is cancelled.": "Нужен to.",
+        "We regret to informing you that the event is cancelled.": "После to нужна V1."
+      },
+      "skillTarget": "verb-patterns-meaning-change",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G4",
+      "group": "Управляемая практика",
+      "prompt": "I regret ___ those unkind words yesterday.",
+      "options": [
+        "saying",
+        "to say yesterday those",
+        "say"
+      ],
+      "answer": "saying",
+      "accepted": [
+        "saying"
+      ],
+      "why": "Regret doing — сожаление о прошлом действии.",
+      "distractorWhy": "Порядок и модель неверны.",
+      "distractorRationales": {
+        "to say yesterday those": "Порядок и модель неверны.",
+        "say": "Say не нужная форма."
+      },
+      "skillTarget": "verb-patterns-meaning-change",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G5",
+      "group": "Управляемая практика",
+      "prompt": "Choose the grammatical sentence with enjoy.",
+      "options": [
+        "I enjoy to read novels.",
+        "I enjoy read novels.",
+        "I enjoy reading novels."
+      ],
+      "answer": "I enjoy reading novels.",
+      "accepted": [
+        "I enjoy reading novels."
+      ],
+      "why": "Enjoy + V-ing.",
+      "distractorWhy": "To-infinitive после enjoy не используется.",
+      "distractorRationales": {
+        "I enjoy to read novels.": "To-infinitive после enjoy не используется.",
+        "I enjoy read novels.": "V1 не подходит."
+      },
+      "skillTarget": "verb-patterns-meaning-change",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G6",
+      "group": "Управляемая практика",
+      "prompt": "They decided ___ the meeting.",
+      "options": [
+        "postponing",
+        "to postpone",
+        "postpone"
+      ],
+      "answer": "to postpone",
+      "accepted": [
+        "to postpone"
+      ],
+      "why": "Decide + to V1.",
+      "distractorWhy": "Decide не требует герундия здесь.",
+      "distractorRationales": {
+        "postponing": "Decide не требует герундия здесь.",
+        "postpone": "Пропущено to."
+      },
+      "skillTarget": "verb-patterns-meaning-change",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I1",
+      "group": "Самостоятельная практика",
+      "prompt": "She avoided ___ the same mistake.",
+      "options": [
+        "to make",
+        "make",
+        "making"
+      ],
+      "answer": "making",
+      "accepted": [
+        "making"
+      ],
+      "why": "Avoid + V-ing.",
+      "distractorWhy": "To-infinitive не подходит после avoid.",
+      "distractorRationales": {
+        "to make": "To-infinitive не подходит после avoid.",
+        "make": "V1 не подходит."
+      },
+      "skillTarget": "verb-patterns-meaning-change",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I2",
+      "group": "Самостоятельная практика",
+      "prompt": "We hope ___ the results tomorrow.",
+      "options": [
+        "receiving",
+        "to receive",
+        "receive"
+      ],
+      "answer": "to receive",
+      "accepted": [
+        "to receive"
+      ],
+      "why": "Hope + to V1.",
+      "distractorWhy": "Receiving не модель hope.",
+      "distractorRationales": {
+        "receiving": "Receiving не модель hope.",
+        "receive": "Нужен to."
+      },
+      "skillTarget": "verb-patterns-meaning-change",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I3",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose a natural formal expression for a past memory.",
+      "options": [
+        "I'll never forget meeting my first tutor.",
+        "I'll never forget meet my first tutor.",
+        "I'll never forget to meeting my first tutor."
+      ],
+      "answer": "I'll never forget meeting my first tutor.",
+      "accepted": [
+        "I'll never forget meeting my first tutor."
+      ],
+      "why": "Forget doing относится к памяти о событии.",
+      "distractorWhy": "Нужна -ing.",
+      "distractorRationales": {
+        "I'll never forget meet my first tutor.": "Нужна -ing.",
+        "I'll never forget to meeting my first tutor.": "To meeting не инфинитив."
+      },
+      "skillTarget": "verb-patterns-meaning-change",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I4",
+      "group": "Самостоятельная практика",
+      "prompt": "I forgot ___ the file, so it was not submitted.",
+      "options": [
+        "uploading",
+        "upload",
+        "to upload"
+      ],
+      "answer": "to upload",
+      "accepted": [
+        "to upload"
+      ],
+      "why": "Forget to do — не выполнить из-за забывчивости.",
+      "distractorWhy": "Uploading означало бы память о выполненном действии.",
+      "distractorRationales": {
+        "uploading": "Uploading означало бы память о выполненном действии.",
+        "upload": "Нужен to."
+      },
+      "skillTarget": "verb-patterns-meaning-change",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I5",
+      "group": "Самостоятельная практика",
+      "prompt": "After explaining the method, she went on ___ the results. Choose a new action.",
+      "options": [
+        "discussing the same method",
+        "to discuss",
+        "discuss"
+      ],
+      "answer": "to discuss",
+      "accepted": [
+        "to discuss"
+      ],
+      "why": "Go on to do — перейти к следующему действию.",
+      "distractorWhy": "Этот вариант продолжает предыдущую тему.",
+      "distractorRationales": {
+        "discussing the same method": "Этот вариант продолжает предыдущую тему.",
+        "discuss": "Нужен to."
+      },
+      "skillTarget": "verb-patterns-meaning-change",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I6",
+      "group": "Самостоятельная практика",
+      "prompt": "He went on ___ despite the interruptions. Choose continuation of the same activity.",
+      "options": [
+        "speaking",
+        "to speaking",
+        "speak"
+      ],
+      "answer": "speaking",
+      "accepted": [
+        "speaking"
+      ],
+      "why": "Go on doing — продолжать.",
+      "distractorWhy": "После infinitival to нужна V1.",
+      "distractorRationales": {
+        "to speaking": "После infinitival to нужна V1.",
+        "speak": "V1 не подходит."
+      },
+      "skillTarget": "verb-patterns-meaning-change",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I7",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the model expressing intention.",
+      "options": [
+        "I meant email you yesterday.",
+        "I meant to emailing you yesterday.",
+        "I meant to email you yesterday."
+      ],
+      "answer": "I meant to email you yesterday.",
+      "accepted": [
+        "I meant to email you yesterday."
+      ],
+      "why": "Mean to do — намереваться.",
+      "distractorWhy": "Пропущено to.",
+      "distractorRationales": {
+        "I meant email you yesterday.": "Пропущено to.",
+        "I meant to emailing you yesterday.": "После to нужна V1."
+      },
+      "skillTarget": "verb-patterns-meaning-change",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I8",
+      "group": "Самостоятельная практика",
+      "prompt": "The new schedule involves travelling. It means ___.",
+      "options": [
+        "to travel more often",
+        "travelling more often",
+        "travel more often"
+      ],
+      "answer": "travelling more often",
+      "accepted": [
+        "travelling more often"
+      ],
+      "why": "Mean doing — подразумевать, влечь.",
+      "distractorWhy": "Mean to do — намерение.",
+      "distractorRationales": {
+        "to travel more often": "Mean to do — намерение.",
+        "travel more often": "V1 не подходит."
+      },
+      "skillTarget": "verb-patterns-meaning-change",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I9",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the passive meaning of need + -ing.",
+      "options": [
+        "The windows need cleaning.",
+        "The windows need to cleaning.",
+        "The windows need clean by someone."
+      ],
+      "answer": "The windows need cleaning.",
+      "accepted": [
+        "The windows need cleaning."
+      ],
+      "why": "Need cleaning = need to be cleaned.",
+      "distractorWhy": "To + cleaning неверно.",
+      "distractorRationales": {
+        "The windows need to cleaning.": "To + cleaning неверно.",
+        "The windows need clean by someone.": "Пропущена пассивная модель."
+      },
+      "skillTarget": "verb-patterns-meaning-change",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E1",
+      "group": "Выходная проверка",
+      "prompt": "Choose the correct dependent preposition construction.",
+      "options": [
+        "I'm interested in learning English.",
+        "I'm interested in learn English.",
+        "I'm interested in to learn English."
+      ],
+      "answer": "I'm interested in learning English.",
+      "accepted": [
+        "I'm interested in learning English."
+      ],
+      "why": "После in используется V-ing.",
+      "distractorWhy": "V1 после предлога не подходит.",
+      "distractorRationales": {
+        "I'm interested in learn English.": "V1 после предлога не подходит.",
+        "I'm interested in to learn English.": "To-infinitive после in неверен."
+      },
+      "skillTarget": "verb-patterns-meaning-change",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E2",
+      "group": "Выходная проверка",
+      "prompt": "We look forward to ___ from the admissions office.",
+      "options": [
+        "hear",
+        "to hear",
+        "hearing"
+      ],
+      "answer": "hearing",
+      "accepted": [
+        "hearing"
+      ],
+      "why": "To здесь предлог, после него V-ing.",
+      "distractorWhy": "Hear — V1.",
+      "distractorRationales": {
+        "hear": "Hear — V1.",
+        "to hear": "Второе to лишнее."
+      },
+      "skillTarget": "verb-patterns-meaning-change",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E3",
+      "group": "Выходная проверка",
+      "prompt": "Choose the correct would-like pattern.",
+      "options": [
+        "I'd like join the course.",
+        "I'd like to join the course.",
+        "I'd like to joining the course."
+      ],
+      "answer": "I'd like to join the course.",
+      "accepted": [
+        "I'd like to join the course."
+      ],
+      "why": "Would like + to V1.",
+      "distractorWhy": "Пропущено to.",
+      "distractorRationales": {
+        "I'd like join the course.": "Пропущено to.",
+        "I'd like to joining the course.": "Joining не V1."
+      },
+      "skillTarget": "verb-patterns-meaning-change",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E4",
+      "group": "Выходная проверка",
+      "prompt": "Choose the grammatical object pattern.",
+      "options": [
+        "I want you to check the answer.",
+        "I want you check the answer.",
+        "I want you checking to the answer."
+      ],
+      "answer": "I want you to check the answer.",
+      "accepted": [
+        "I want you to check the answer."
+      ],
+      "why": "Want + person + to V1.",
+      "distractorWhy": "Пропущено to.",
+      "distractorRationales": {
+        "I want you check the answer.": "Пропущено to.",
+        "I want you checking to the answer.": "Порядок и модель неверны."
+      },
+      "skillTarget": "verb-patterns-meaning-change",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E5",
+      "group": "Выходная проверка",
+      "prompt": "Choose the correct negative infinitive.",
+      "options": [
+        "She promised not telling anyone.",
+        "She promised don't to tell anyone.",
+        "She promised not to tell anyone."
+      ],
+      "answer": "She promised not to tell anyone.",
+      "accepted": [
+        "She promised not to tell anyone."
+      ],
+      "why": "Promise + not to V1.",
+      "distractorWhy": "Gerund не модель promise.",
+      "distractorRationales": {
+        "She promised not telling anyone.": "Gerund не модель promise.",
+        "She promised don't to tell anyone.": "Don't не образует инфинитив."
+      },
+      "skillTarget": "verb-patterns-meaning-change",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "W1",
+      "group": "Самостоятельное применение",
+      "prompt": "Напиши восемь предложений, по два с remember, stop, try, regret в разных моделях. Объясни смысл каждой пары. Добавь одно предложение с предлогом to + V-ing.",
+      "open": true,
+      "rubric": [
+        "Различены воспоминание и намерение.",
+        "Stop doing не перепутано с целью stop to do.",
+        "Try doing и try to do передают нужный смысл.",
+        "Regret употреблён по контексту.",
+        "После предлога используется V-ing.",
+        "Все модели и переводы согласуются."
+      ],
+      "skillTarget": "Самостоятельное применение B1-13",
+      "interactionType": "open-production",
+      "difficulty": "transfer",
+      "sourceBasis": "Speakbase-authored open production; self-review rubric only until real AI feedback is connected",
+      "contentVersion": "1.1-draft"
+    }
+  ],
+  "markdown": "# Speakbase — B1-13: Verb patterns and meaning changes\n\n**Curriculum ID:** `B1-13`  \n**Уровень:** B1  \n**Версия:** 1.1-draft\n**Статус:** drafted; selected source text checked; full source-page and learner acceptance pending\n**Предварительные темы:** A2-12  \n**Связь со старым каталогом:** Полное ядро — №35 Gerunds and Infinitives; №36 Verb Patterns\n\n## 1. Результаты обучения\n\n- Выбирать -ing/to-infinitive/object + infinitive; различать remember/stop/try/regret и другие пары\n- Выбирать целевую форму по значению, структуре предложения и контексту.\n- Объяснять, почему близкая грамматическая форма меняет смысл или регистр.\n- Находить и исправлять типичные ошибки русскоязычных студентов.\n\n## 2. Источники и статус сверки\n\n| Source | PDF navigation | Lesson-specific checks | Status |\n|---|---|---|---|\n| GR-02 U53-68 | PDF pages 118-149 (Unit 53-68) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-03 U28-31 | PDF pages 80-87 (Unit 28-31) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-05 B1 p88-91 | PDF pages 88-91 (B1 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n\nUnit/page locations are navigation aids only. They do not prove that the cited explanation, examples, restrictions and answer key have been checked for this lesson. Examples and explanations below are Speakbase-authored, not quotations from the textbook.\n\nПеред переводом этого урока в source-verified необходимо открыть целевые страницы конкретного издания, записать печатную и PDF-пагинацию, сверить ограничения и исключения. Для GR-03 со сканированными страницами обязательна визуальная проверка.\n\n**Evidence for this editorial pass:** GR-02 selected theory text: Units 53–59 and 66, PDF pp. 118–130 (even pages) and 144 (printed pp. 106–118 and 132); GR-05 B1 p. 88 selected verb-pattern descriptors. The selected source text was consulted; not all pages, exercises, editions, scanned GR-03 pages or GR-05 descriptors were checked. Author-created explanations and practice are not copied source exercises.\n\n## 3. Место темы и границы\n\nVerb patterns и meaning changes: remember/forget, stop, try, regret, go on, need. Форма дополнения иногда меняет значение.\n\nСтарый каталог содержит: №35 Gerunds and Infinitives; №36 Verb Patterns. Его статус — Полное ядро. Старые отметки завершения не переносятся автоматически на новый постоянный ID. Тема рассматривается в уровне B1 и не заменяет обязательные prerequisites.\n\n## 4. Полный конспект\n\n### 4.1. Основная идея и функция конструкции\n\nПосле одних английских глаголов используется форма -ing, после других — to-infinitive, а после некоторых возможны обе модели с разным значением. В этой теме важно научиться выбирать форму по смыслу, а не механически переводить русский инфинитив.\n\nRemember doing означает помнить уже произошедшее действие, remember to do — не забыть выполнить необходимое действие. Stop doing — прекратить деятельность, stop to do — остановить другое действие ради новой цели. Try doing — испытать способ решения, try to do — предпринять усилие. Эти различия особенно важны при описании инструкций, опыта и намерений.\n\n### 4.2. Формирование и грамматическая модель\n\n| Глагол | + V-ing | + to V1 |\n|---|---|---|\n| remember | помнить совершённое действие | не забыть выполнить |\n| forget | забыть факт/воспоминание | забыть выполнить |\n| stop | прекратить действие | остановиться, чтобы сделать |\n| try | попробовать способ | приложить усилие |\n| regret | сожалеть о совершённом | сожалеть, сообщая неприятную новость |\n| go on | продолжить то же | перейти к следующему действию |\n| mean | подразумевать, влечь | намереваться |\n| need | нуждаться в обработке (пассивный смысл) | необходимо сделать |\n\nEnjoy, avoid, mind, suggest, finish обычно требуют V-ing; decide, hope, agree, promise, refuse, manage — to + V1. После want с адресатом возможна конструкция want + person + to V1. Help допускает инфинитив с to или без него. После предлога используется существительное или -ing: interested in learning. To в look forward to — предлог, а не часть инфинитива. Начинай с конкретной модели каждого глагола.\n\n### 4.3. Как выбрать подходящую форму\n\nОпредели, произошло ли действие или его ещё предстоит выполнить. Затем проверь, является ли оно прекращаемым занятием, новой целью, экспериментом, усилием, сожалением, намерением или следствием.\n\nTry restarting the app — попробуй перезапуск как один из способов устранить сбой. Try to restart the app — постарайся выполнить перезапуск, даже если это сложно. Оба варианта возможны в реальных ситуациях, поэтому вопрос должен ясно указывать смысл. Remember locking the door означает воспоминание, remember to lock the door — обязательство не забыть запереть дверь.\n\n### 4.4. Сравнение с близкими конструкциями\n\n| Пример | Смысл |\n|---|---|\n| I remember meeting her. | Помню нашу встречу. |\n| Remember to meet her at six. | Не забудь встретиться с ней. |\n| He stopped smoking. | Он бросил курить. |\n| He stopped to smoke. | Он остановился, чтобы покурить. |\n| I regret saying that. | Сожалею о сказанном. |\n| We regret to inform you… | С сожалением сообщаем… |\n| The work means travelling. | Работа предполагает поездки. |\n| I meant to call. | Я намеревалась позвонить. |\n\n### 4.5. Примеры с переводом и объяснением\n\n| English | Перевод | Почему это подходит |\n| --- | --- | --- |\n| I remember visiting that museum as a child. | Я помню, как посещала этот музей в детстве. | Воспоминание о факте. |\n| Please remember to send the email. | Пожалуйста, не забудь отправить письмо. | Действие предстоит выполнить. |\n| We stopped to check the map. | Мы остановились, чтобы проверить карту. | Новая цель. |\n| Try clearing the browser cache. | Попробуй очистить кэш браузера. | Способ решения проблемы. |\n| We regret to inform you that the course is full. | С сожалением сообщаем, что на курсе нет мест. | Формальная неприятная новость. |\n| This project means working at weekends. | Этот проект предполагает работу по выходным. | Следствие. |\n\n### 4.6. Исключения, ограничения и границы употребления\n\nНе все глаголы допускают обе формы. I enjoy reading, а не enjoy to read; I decided to leave, а не decided leaving. Begin/start/continue часто допускают обе формы без существенного различия. Like/love/hate/prefer могут допускать обе модели, но контекст влияет на оттенок. Would like обычно требует to-infinitive.\n\nForget doing используется реже, особенно в выражениях I'll never forget meeting her; forget to do означает, что намеренное действие не было выполнено из-за забывчивости. Need doing означает, что объект нуждается в действии: The car needs washing = needs to be washed. Не используй двойное отрицание или неверную форму после to: decided not to go, avoided making mistakes. Учитывай, что -ing сама по себе не обозначает настоящее время, а инфинитив не обязательно будущее.\n\n### 4.7. Типичные ошибки русскоязычных студентов\n\n| Ошибка | Исправление | Объяснение |\n| --- | --- | --- |\n| I enjoy to read. | I enjoy reading. | После enjoy нужна -ing. |\n| She decided going home. | She decided to go home. | После decide нужен to-infinitive. |\n| He stopped to smoke (если бросил курить). | He stopped smoking. | Stop + -ing выражает прекращение. |\n| I look forward to meet you. | I look forward to meeting you. | To здесь предлог. |\n\n### 4.8. Произношение и восприятие на слух\n\nВ to-infinitive to часто произносится слабо. Смысловое ударение помогает различать stop SMOKing и stop to SMOKE. При восприятии слушай весь контекст, особенно указания на прошлое воспоминание или новую цель.\n\nСначала прослушай или прочитай пример, затем произнеси его целиком. Обрати внимание на смысловое ударение и форму конструкции; не ориентируйся только на буквенный перевод.\n\n### 4.9. Академический английский и TOEFL-перенос\n\nВ Speaking и Writing точно описывай опыт, решения и рекомендации. В Listening различай try doing как предложенный способ и try to do как попытку. Например, The team tried restarting the program, then decided to replace it — два разных действия, не взаимозаменяемые модели.\n\nЭто авторская практика переноса навыка. Она не является официальным заданием TOEFL и не выдаётся за официальный результат экзамена.\n\n### 4.10. Примеры для управляемого разбора\n\n- I remember visiting that museum as a child. — Я помню, как посещала этот музей в детстве. Воспоминание о факте.\n- Please remember to send the email. — Пожалуйста, не забудь отправить письмо. Действие предстоит выполнить.\n- We stopped to check the map. — Мы остановились, чтобы проверить карту. Новая цель.\n\nДля каждого примера назови целевую конструкцию, объясни выбор и составь новое предложение в другом контексте. Затем перейди к заданиям: сначала диагностика, затем управляемая и самостоятельная практика, затем новые вопросы выходной проверки.\n\n### 4.11. Самопроверка\n\nПеред отправкой ответа проверь:\n1. Различены воспоминание и намерение.\n2. Stop doing не перепутано с целью stop to do.\n3. Try doing и try to do передают нужный смысл.\n4. Regret употреблён по контексту.\n5. После предлога используется V-ing.\n6. Все модели и переводы согласуются.\n\n### 4.12. Краткая памятка\n\nЗапоминай глагол вместе с моделью. Remember/forget, stop, try, regret, go on, mean, need меняют смысл при выборе -ing или to. После предлога — V-ing; после decide/hope — to V1; после enjoy/avoid — V-ing.\n\nНе выбирай форму только по одному знакомому слову: проверь контекст, значение и структуру. При ошибке вернись к соответствующей части конспекта и составь собственный пример.\n\n## 5. Практика\n\nВ приложении практика разделена на входную диагностику, управляемые задания, самостоятельную практику и новую выходную проверку. Закрытые ответы получают rationale и разбор ошибки. Свободный текст сохраняется и оценивается по рубрике; до подключения и реальной проверки AI-движка система не выдаёт его за автоматическую AI-оценку.\n\n## 6. Интервальное повторение\n\nПовторяй не весь урок автоматически, а конкретную ошибку: выбор формы, согласование, word order, значение, регистр или пунктуацию. Новая попытка должна менять лексический контекст и формулировку, чтобы проверять перенос, а не запоминание одной строки.\n\n## 7. Технический статус\n\n- Постоянный ID: `B1-13`.\n- Прогресс хранится отдельно в course.grammarLessons[\"B1-13\"].\n- Содержание и ключи имеют статус draft; 24 авторских закрытых задания и объяснения вычитаны, выбранные тексты источников проверены. Полная постраничная и пользовательская приёмка остаются открытыми.\n- Предварительное выполнение порогов не равно окончательному mastered: нужны отсроченное повторение и learner review.",
+  "theoryEnd": "## 5."
+}
