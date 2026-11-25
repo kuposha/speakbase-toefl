@@ -178,11 +178,11 @@ boundary:"Adjective/adverb patterns are partly lexical. Quite has two meanings; 
 },drills:[
 q("___ the final chapter discusses the limitations; the earlier chapters do not.","Only","Even","Almost","Only directly restricts the subject/focus to the final chapter.","Even adds unexpected emphasis, not the intended restriction.","Almost means nearly and does not restrict the set in this way."),
 q("The findings were ___ statistically significant.","barely","bare","bareness","Barely is an adverb modifying the adjective phrase statistically significant.","Bare is an adjective and cannot modify the adjective phrase here.","Bareness is a noun."),
-q("The team ___ agreed to revise the protocol, not to abandon it.","merely","mere","mereness","Merely modifies the verb phrase and limits the action to agreeing to revise.","Mere is an adjective and cannot modify agreed.","Mereness is a noun."),
+q("The team agreed ___ to revise the protocol, not to abandon it.","merely","mere","mereness","Merely is an adverb placed before the to-infinitive and restricts the action the team agreed to.","Mere is an adjective and cannot modify the infinitive phrase in this position.","Mereness is a noun."),
 q("___, the evidence does not support the stronger claim.","Arguably","Arguable","Argument","Arguably is a stance adverb modifying the whole proposition.","Arguable is an adjective, not a sentence adverb.","Argument is a noun."),
 q("The film was ___, so the audience became bored.","boring","bored","bore","Boring describes the thing that causes the feeling; the audience became bored.","Bored describes the audience, not the film in this sentence.","Bore is a verb/noun and does not fit as an adjective here."),
 q("The second estimate is far ___ than the first.","more accurate","most accurate","as accurate","Far can intensify a comparative form: far more accurate than.","Most accurate is a superlative and does not fit than the first.","As accurate requires an as...as structure."),
-q("The results are ___ consistent with the earlier study.","broadly","broad","breadth","Broadly is an adverb of viewpoint/degree modifying consistent.","Broad is an adjective.","Breadth is a noun.")
+q("The results are ___ consistent with the earlier study.","broadly","broad","breadth","Broadly is an adverb meaning generally/overall; it modifies the adjective consistent.","Broad is an adjective.","Breadth is a noun.")
 ]},
 "B2-14":{base:"clause",skillTarget:"advanced-concession-contrast-linking",profile:{
 label:"concession, contrast and complex linking",
