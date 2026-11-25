@@ -74,12 +74,12 @@ contrast:"The number of people volunteering decreased rapidly ? a rapid decrease
 boundary:"Do not nominalise every verb. Preserve agency, sequence and causation; check lexicalised noun compounds and article/agreement changes."
 },drills:[
 q("The ___ of the proposal remains uncertain.","feasibility","feasible","feasibly","Feasibility is the abstract noun required after the article and of-phrase.","Feasible is an adjective.","Feasibly is an adverb."),
-q("The rapid ___ of the regulation caused confusion.","implementation","implement","implementative","Implementation is the noun form naming the process.","Implement is a verb.","Implementative is not the standard noun form."),
+q("The rapid ___ of the regulation caused confusion.","implementation","implement","implementer","Implementation is the noun form naming the process.","Implement is a verb.","An implementer is a person who carries out an implementation, not the process itself."),
 q("The authors questioned the ___ of the measurements.","reliability","reliable","reliably","Reliability is the abstract noun derived from reliable.","Reliable is an adjective.","Reliably is an adverb."),
 q("The committee's ___ of the evidence was thorough.","evaluation","evaluate","evaluative","Evaluation is the noun form of evaluate.","Evaluate is a verb.","Evaluative is an adjective."),
 q("The unexpected ___ in demand placed pressure on suppliers.","fluctuation","fluctuate","fluctuating","Fluctuation is the noun naming a change or variation.","Fluctuate is the verb form.","Fluctuating is a participle/adjective, not the head noun."),
 q("The policy was revised because it was ineffective. → The revision addressed its ___.","ineffectiveness","ineffective","ineffectively","Ineffectiveness is the abstract noun that names the quality/problem.","Ineffective is an adjective.","Ineffectively is an adverb."),
-q("The ___ of the findings depends on the sampling method.","generalisability","generalisable","generalisably","Generalisability is the abstract noun naming the capacity for generalisation.","Generalisable is an adjective.","Generalisably is not a standard adverb form.")
+q("The ___ of the findings depends on the sampling method.","generalisability","generalisable","generally","Generalisability is the abstract noun naming the capacity for generalisation.","Generalisable is an adjective.","Generally is an adverb and cannot function as the head noun here.")
 ]},
 "C1-06":{base:"preposition",skillTarget:"complex-noun-phrases-prepositions-c1",profile:{label:"complex prepositions and prepositional patterns",
 core:"Advanced preposition use covers spatial and temporal relations, exceptions, complements after verbs/nouns/adjectives, complex prepositions and multi-word verb word order.",
