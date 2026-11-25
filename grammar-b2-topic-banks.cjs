@@ -67,14 +67,12 @@ q("The new procedure can ___ in small laboratories.","be used","use","be using",
 q("The results are expected ___ next month.","to be published","to publish them","that publish","Expected + to-infinitive passive expresses an anticipated publication.","To publish them makes the results perform the action.","That publish does not complete the subject + reporting passive pattern."),
 q("The old bridge may have ___ during the storm.","been damaged","damaged","being damaged","May have been + V3 is modal perfect passive.","Damaged omits been after may have.","Being damaged does not fit the modal perfect passive sequence.")
 ]},
-"B2-05":{base:"reporting",skillTarget:"reporting-verbs-and-complement-patterns",profile:{
-label:"reporting verbs and reporting structures",
-core:"Reporting verbs encode not only speech but also the speaker's stance and the structure of reported content. Different verbs govern different complements: gerund, that-clause, object + infinitive, or object + preposition + gerund.",
-form:"Suggest/recommend + V-ing or that-clause. Admit/deny + V-ing. Accuse + object + of + V-ing. Warn + object + against + V-ing. Persuade/encourage + object + to-infinitive. Insist + that-clause.",
-selection:"Найди reporting verb и проверь его complement pattern. Нельзя автоматически использовать одну схему say/tell после каждого reporting verb.",
-contrast:"She suggested changing the plan. He denied taking the file. They accused him of copying the answer. The tutor encouraged us to revise.",
-boundary:"Некоторые verbs допускают несколько patterns с разными значениями (insist on doing / insist that…). Используй словарное управление вместе с контекстом и регистром.",
-skillTarget:"reporting-verbs-and-complement-patterns"
+"B2-05":{base:"reporting",skillTarget:"reporting-verbs-and-complement-patterns",profile:{label:"reporting verbs and reporting structures",
+core:"Reported speech adapts tense, pronouns and time reference to the reporting context. Reporting verbs also select specific complements and encode the source's stance: that-clause, -ing, to-infinitive, object + to-infinitive or preposition + -ing.",
+form:"Say + clause; tell + object + clause; ask + wh-/if/whether clause; tell/ask + object + (not) to-infinitive; suggest/recommend + -ing/that; admit/deny + -ing/that; persuade/encourage/warn + object + to-infinitive; accuse of/insist on/prevent from + -ing.",
+selection:"Identify direct vs reported speech, then check backshift, reference changes, reporting verb and its complement pattern. Use the source's actual stance and preserve required prepositions.",
+contrast:"She said she was tired. He told me to wait. She suggested changing the plan. They accused him of copying the answer. The tutor encouraged us to revise.",
+boundary:"Backshift is not automatic for current truths. Say/tell differ in object pattern. Suggest does not normally take object + to-infinitive. Preposition + -ing patterns are lexical; reporting language does not verify the claim."
 },drills:[
 q("The committee suggested ___ the deadline.","extending","to extend","extend","Suggest commonly takes a gerund or a that-clause; here gerund is required.","To extend does not fit the selected suggest + V-ing pattern.","Bare extend is not the complement form in this sentence."),
 q("The student denied ___ the confidential file.","copying","to copy","copy","Deny is followed by a gerund when referring to an action.","To copy is not the standard complement after deny.","Bare copy is not used after deny in this structure."),
