@@ -2752,23 +2752,63 @@
       "questionBankSource": "topic-specific-authored",
       "sourceRefs": [
         {
-          "ref": "GR-02 U114-120",
+          "ref": "GR-02 U114",
           "pages": {
             "source": "GR-02",
             "pdf_start": 240,
-            "pdf_end": 253,
+            "pdf_end": 241,
             "unit_start": 114,
-            "unit_end": 120
+            "unit_end": 114
           }
         },
         {
-          "ref": "GR-03 U83-87",
+          "ref": "GR-02 U115",
+          "pages": {
+            "source": "GR-02",
+            "pdf_start": 242,
+            "pdf_end": 243,
+            "unit_start": 115,
+            "unit_end": 115
+          }
+        },
+        {
+          "ref": "GR-03 U83",
           "pages": {
             "source": "GR-03",
             "pdf_start": 190,
-            "pdf_end": 199,
+            "pdf_end": 191,
             "unit_start": 83,
-            "unit_end": 87
+            "unit_end": 83
+          }
+        },
+        {
+          "ref": "GR-03 U84",
+          "pages": {
+            "source": "GR-03",
+            "pdf_start": 192,
+            "pdf_end": 193,
+            "unit_start": 84,
+            "unit_end": 84
+          }
+        },
+        {
+          "ref": "GR-03 U85",
+          "pages": {
+            "source": "GR-03",
+            "pdf_start": 194,
+            "pdf_end": 195,
+            "unit_start": 85,
+            "unit_end": 85
+          }
+        },
+        {
+          "ref": "GR-03 U86",
+          "pages": {
+            "source": "GR-03",
+            "pdf_start": 196,
+            "pdf_end": 197,
+            "unit_start": 86,
+            "unit_end": 86
           }
         },
         {
@@ -2790,22 +2830,182 @@
       "questionBankSource": "topic-specific-authored",
       "sourceRefs": [
         {
-          "ref": "GR-02 U26-37",
+          "ref": "GR-02 U26",
           "pages": {
             "source": "GR-02",
             "pdf_start": 64,
-            "pdf_end": 87,
+            "pdf_end": 65,
             "unit_start": 26,
+            "unit_end": 26
+          }
+        },
+        {
+          "ref": "GR-02 U27",
+          "pages": {
+            "source": "GR-02",
+            "pdf_start": 66,
+            "pdf_end": 67,
+            "unit_start": 27,
+            "unit_end": 27
+          }
+        },
+        {
+          "ref": "GR-02 U28",
+          "pages": {
+            "source": "GR-02",
+            "pdf_start": 68,
+            "pdf_end": 69,
+            "unit_start": 28,
+            "unit_end": 28
+          }
+        },
+        {
+          "ref": "GR-02 U29",
+          "pages": {
+            "source": "GR-02",
+            "pdf_start": 70,
+            "pdf_end": 71,
+            "unit_start": 29,
+            "unit_end": 29
+          }
+        },
+        {
+          "ref": "GR-02 U30",
+          "pages": {
+            "source": "GR-02",
+            "pdf_start": 72,
+            "pdf_end": 73,
+            "unit_start": 30,
+            "unit_end": 30
+          }
+        },
+        {
+          "ref": "GR-02 U31",
+          "pages": {
+            "source": "GR-02",
+            "pdf_start": 74,
+            "pdf_end": 75,
+            "unit_start": 31,
+            "unit_end": 31
+          }
+        },
+        {
+          "ref": "GR-02 U32",
+          "pages": {
+            "source": "GR-02",
+            "pdf_start": 76,
+            "pdf_end": 77,
+            "unit_start": 32,
+            "unit_end": 32
+          }
+        },
+        {
+          "ref": "GR-02 U33",
+          "pages": {
+            "source": "GR-02",
+            "pdf_start": 78,
+            "pdf_end": 79,
+            "unit_start": 33,
+            "unit_end": 33
+          }
+        },
+        {
+          "ref": "GR-02 U34",
+          "pages": {
+            "source": "GR-02",
+            "pdf_start": 80,
+            "pdf_end": 81,
+            "unit_start": 34,
+            "unit_end": 34
+          }
+        },
+        {
+          "ref": "GR-02 U35",
+          "pages": {
+            "source": "GR-02",
+            "pdf_start": 82,
+            "pdf_end": 83,
+            "unit_start": 35,
+            "unit_end": 35
+          }
+        },
+        {
+          "ref": "GR-02 U36",
+          "pages": {
+            "source": "GR-02",
+            "pdf_start": 84,
+            "pdf_end": 85,
+            "unit_start": 36,
+            "unit_end": 36
+          }
+        },
+        {
+          "ref": "GR-02 U37",
+          "pages": {
+            "source": "GR-02",
+            "pdf_start": 86,
+            "pdf_end": 87,
+            "unit_start": 37,
             "unit_end": 37
           }
         },
         {
-          "ref": "GR-03 U15-20",
+          "ref": "GR-03 U15",
           "pages": {
             "source": "GR-03",
             "pdf_start": 54,
-            "pdf_end": 65,
+            "pdf_end": 55,
             "unit_start": 15,
+            "unit_end": 15
+          }
+        },
+        {
+          "ref": "GR-03 U16",
+          "pages": {
+            "source": "GR-03",
+            "pdf_start": 56,
+            "pdf_end": 57,
+            "unit_start": 16,
+            "unit_end": 16
+          }
+        },
+        {
+          "ref": "GR-03 U17",
+          "pages": {
+            "source": "GR-03",
+            "pdf_start": 58,
+            "pdf_end": 59,
+            "unit_start": 17,
+            "unit_end": 17
+          }
+        },
+        {
+          "ref": "GR-03 U18",
+          "pages": {
+            "source": "GR-03",
+            "pdf_start": 60,
+            "pdf_end": 61,
+            "unit_start": 18,
+            "unit_end": 18
+          }
+        },
+        {
+          "ref": "GR-03 U19",
+          "pages": {
+            "source": "GR-03",
+            "pdf_start": 62,
+            "pdf_end": 63,
+            "unit_start": 19,
+            "unit_end": 19
+          }
+        },
+        {
+          "ref": "GR-03 U20",
+          "pages": {
+            "source": "GR-03",
+            "pdf_start": 64,
+            "pdf_end": 65,
+            "unit_start": 20,
             "unit_end": 20
           }
         },

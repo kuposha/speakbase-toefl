@@ -34,14 +34,12 @@ q("You may use the lab ___ you follow the safety rules.","as long as","in case",
 q("___ you were offered the position, would you accept it?","Supposing","Unless","In case","Supposing introduces a hypothetical possibility for discussion.","Unless means if not and does not fit a hypothetical question here.","In case is used for precaution, not a hypothetical question."),
 q("The team will not publish the data ___ the consent forms are complete.","unless","even if","in case","Unless means if not: publication is withheld if forms are incomplete.","Even if would mean publication proceeds regardless of whether the forms are complete.","In case is not the negative condition required here.")
 ]},
-"B2-03":{base:"modal",skillTarget:"advanced-modality-modal-perfect",profile:{
-label:"advanced modality and modal perfect",
-core:"Advanced modality expresses degrees of necessity, possibility, criticism and expectation. Modal perfect forms evaluate past actions or events from a later viewpoint.",
-form:"Must/should/may/might/could + base verb. Modal perfect: modal + have + V3 (should have done, might have happened, can't have known). Needn't have done = действие было выполнено, но не было необходимости.",
-selection:"Определи силу оценки и временную точку. Для настоящего используй modal + base verb; для прошлого — modal + have + V3. Различай ненужное выполненное действие и отсутствие необходимости выполнить действие.",
-contrast:"You needn't have printed it (you did, but it was unnecessary). You didn't need to print it (there was no need; whether you did it is not specified).",
-boundary:"Modal choice is context-sensitive; must have can express a deduction, while should have may express expectation or criticism. Avoid treating every modal perfect as a simple past tense.",
-skillTarget:"advanced-modality-modal-perfect"
+"B2-03":{base:"modal",skillTarget:"advanced-modality-modal-perfect",profile:{label:"advanced modality and modal perfect",
+core:"Modality covers ability, possibility, deduction, obligation, absence of necessity, advice, expectation, requests and offers. Modal perfect forms evaluate past actions or events from a later viewpoint.",
+form:"Can/could/be able to; must/can't + base verb or have + V3; may/might/could + base verb or have + V3; must/have to; mustn't vs needn't/don't have to; should/ought to/had better; needn't have vs didn't need to; mandative should/subjunctive.",
+selection:"Identify the modal function and time reference. Distinguish evidence-based deduction from obligation, prohibition from no necessity, and specific past success from general ability. Choose perfect forms only when the meaning concerns an earlier event.",
+contrast:"Must have left = strong deduction; might have left = possibility. Mustn't tell = prohibition; needn't tell = no necessity. Needn't have booked = booked but unnecessary; didn't need to book = occurrence unspecified.",
+boundary:"Modal meanings are context-sensitive. Must can express obligation or deduction; should have can express regret/criticism; had better is situation-specific. Do not treat all modal perfects as past tense."
 },drills:[
 q("You ___ have brought a printed copy; the digital version was enough.","needn't","mustn't","couldn't","Needn't have + V3 means the action happened but was unnecessary.","Mustn't have does not express lack of necessity in this sense.","Couldn't have means impossibility, not unnecessary action."),
 q("The results are inconsistent. It is possible that the team ___ have entered one value incorrectly.","may","must to","should","May have expresses a possible explanation without claiming certainty.","To is not used after modal may.","Should have usually expresses an unrealised obligation or criticism, not a neutral possibility in this context."),
@@ -49,7 +47,7 @@ q("You ___ have told me earlier; I could have helped.","should","should to","mus
 q("The parcel isn't here. It ___ have been delivered to the wrong address.","might","might to","might be","Might have been delivered is a possibility about a past passive event.","To is not used after modal might.","Might be is present possibility and omits the past participle phrase."),
 q("He ___ have known about the change; nobody informed him.","can't","must","should","Can't have known expresses a strong negative deduction about the past.","Must have known expresses the opposite positive deduction.","Should have known suggests obligation/expectation rather than evidence-based impossibility."),
 q("They ___ have completed the task by now; they started only ten minutes ago.","can't","must","should","The short time makes completion highly implausible; can't have completed is a negative deduction.","Must have completed makes a strong positive deduction.","Should have completed expresses expectation rather than likelihood."),
-q("We ___ have booked a larger room; half the seats were empty.","needn't","mustn't","couldn't","Needn't have booked means the action happened but was not necessary.","Mustn't expresses prohibition, not lack of necessity.","Couldn't have means inability/impossibility.")
+q("You ___ tell anyone about the confidential results; disclosure is prohibited.","mustn't","needn't","don't have to","Mustn't expresses prohibition: do not disclose the information.","Needn't means disclosure is not necessary, not that it is forbidden.","Don't have to means there is no obligation; it does not prohibit the action.")
 ]},
 
 "B2-04":{base:"passive",skillTarget:"passive-with-modals-and-reporting-passive",profile:{
