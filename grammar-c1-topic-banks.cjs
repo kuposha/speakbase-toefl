@@ -66,14 +66,12 @@ q("___ the available resources, the team postponed the second phase.","Given","G
 q("The samples having been labelled, the technician ___ them in cold storage.","placed","placing","was placed","The absolute clause establishes prior completion; the main clause requires finite Past Simple placed.","Placing is non-finite and leaves no finite main verb.","Was placed makes technician the recipient of placement, changing the intended active subject."),
 q("___ sufficient evidence, the authors would not have reached the same conclusion.","Without","Having","Being","Without + noun phrase introduces a counterfactual condition.","Having would require an object/participle clause and does not express absence.","Being cannot directly introduce the noun phrase sufficient evidence in this structure.")
 ]},
-"C1-05":{base:"nominalisation",skillTarget:"advanced-nominalisation-abstract-noun-phrases",profile:{
-label:"nominalisation and abstract noun phrases",
-core:"Advanced nominalisation packages propositions into abstract noun phrases, allowing complex academic information to become the subject or object of another clause. It often combines derived nouns with dense pre- and postmodification.",
-form:"Determiner + evaluative/degree modifier + derived noun + of-phrase/that-clause. Nominalisation may require article, countability and agreement changes. Verb/adjective → abstract noun (assess → assessment; valid → validity).",
-selection:"Найди исходное proposition и выбери noun that preserves its meaning. Затем проверь countability, article, modifiers, possessive and preposition patterns. Не теряй агента и логическую связь.",
-contrast:"Researchers assessed the validity of the model → the assessment of the model's validity. The policy was implemented rapidly → the rapid implementation of the policy.",
-boundary:"Nominalisation can create excessive abstraction and obscure responsibility. Do not convert every verb; retain finite clauses when agency, sequence or causation needs to remain explicit.",
-skillTarget:"advanced-nominalisation-abstract-noun-phrases"
+"C1-05":{base:"nominalisation",skillTarget:"advanced-nominalisation-abstract-noun-phrases",profile:{label:"nominalisation and abstract noun phrases",
+core:"Nominalisation turns actions, processes and qualities into nouns; complex noun phrases package them with premodifiers and postmodifiers. This supports information density in academic writing but can obscure agency if overused.",
+form:"Determiner + adjective/other premodifier + head noun + postmodifier (of-/prepositional phrase, relative clause or participle clause). Check noun derivation, countability, articles, agreement and compound-noun conventions.",
+selection:"Identify the proposition, choose a noun that preserves its meaning, then check countability, determiner, head noun and modifier attachment. Keep the agent and logical relation clear.",
+contrast:"The number of people volunteering decreased rapidly ? a rapid decrease in the number of people volunteering. The policy was implemented quickly ? the rapid implementation of the policy.",
+boundary:"Do not nominalise every verb. Preserve agency, sequence and causation; check lexicalised noun compounds and article/agreement changes."
 },drills:[
 q("The ___ of the proposal remains uncertain.","feasibility","feasible","feasibly","Feasibility is the abstract noun required after the article and of-phrase.","Feasible is an adjective.","Feasibly is an adverb."),
 q("The rapid ___ of the regulation caused confusion.","implementation","implement","implementative","Implementation is the noun form naming the process.","Implement is a verb.","Implementative is not the standard noun form."),
@@ -83,16 +81,14 @@ q("The unexpected ___ in demand placed pressure on suppliers.","fluctuation","fl
 q("The policy was revised because it was ineffective. → The revision addressed its ___.","ineffectiveness","ineffective","ineffectively","Ineffectiveness is the abstract noun that names the quality/problem.","Ineffective is an adjective.","Ineffectively is an adverb."),
 q("The ___ of the findings depends on the sampling method.","generalisability","generalisable","generalisably","Generalisability is the abstract noun naming the capacity for generalisation.","Generalisable is an adjective.","Generalisably is not a standard adverb form.")
 ]},
-"C1-06":{base:"preposition",skillTarget:"complex-noun-phrases-prepositions-c1",profile:{
-label:"complex noun phrases and prepositions",
-core:"Complex academic noun phrases combine premodifiers, head nouns and postmodifying prepositional phrases. Preposition choice is often collocational and determines the semantic relation between noun and complement.",
-form:"Premodifier(s) + head noun + postmodifier: evidence for the hypothesis; an account of the process; the implications of X for Y; a response to the criticism; the distinction between A and B.",
-selection:"Определи head noun and its semantic relation to the complement: source, target, evidence, cause, response, distinction. Select the conventional preposition attached to the head.",
-contrast:"Evidence for a claim; an explanation of a result; a response to criticism; implications for policy; distinction between two variables.",
-boundary:"Prepositional patterns are lexical and may differ across related nouns (explanation of, reason for, response to). Avoid translating the Russian preposition literally.",
-skillTarget:"complex-noun-phrases-prepositions-c1"
+"C1-06":{base:"preposition",skillTarget:"complex-noun-phrases-prepositions-c1",profile:{label:"complex prepositions and prepositional patterns",
+core:"Advanced preposition use covers spatial and temporal relations, exceptions, complements after verbs/nouns/adjectives, complex prepositions and multi-word verb word order.",
+form:"across/over/along/through; above/below/underneath; between/among; during/for/throughout; until/by/up to; except/except for/apart from; verb/noun/adjective + preposition; separable/inseparable multi-word verbs.",
+selection:"Identify the semantic relation, then check the preposition selected by the whole phrase or head word. For multi-word verbs, check whether the object can separate the verb and particle and where pronoun objects must go.",
+contrast:"The relationship between two variables; among several groups; throughout the period; until Friday; by Friday; account for a change; the reason for a delay; turn the device off / turn it off.",
+boundary:"Preposition choice is often lexical and context-sensitive. Do not assume near-synonyms are interchangeable; some verbs are separable, some inseparable, and pronoun objects follow specific placement rules."
 },drills:[
-q("The authors provide an explanation ___ the discrepancy.","for","of","to","Explanation for introduces the phenomenon being explained.","Explanation of is also possible when the following noun is the content of an explanation, but here the intended relation is the cause/target of explanation; use for.","To is not the standard complement for explanation in this meaning."),
+q("The report discusses the findings in terms ___ their practical implications.","of","with","for","The fixed complex preposition is in terms of.","With does not complete the fixed phrase in terms of.","For does not complete the fixed phrase in terms of."),
 q("The implications ___ this finding for public policy are significant.","of","for","to","Implications of identifies the source/finding being interpreted.","For introduces the affected domain (public policy), not the source.","To is not the standard noun complement here."),
 q("The study offers a response ___ earlier criticism.","to","of","for","Response to is the standard collocation.","Of does not introduce the object being responded to.","For does not form the usual response + target pattern."),
 q("There is a clear distinction ___ correlation and causation.","between","among","of","Distinction between is used for two contrasted concepts.","Among is normally used for a group/set rather than a two-way distinction.","Of is not the required complement after distinction."),
