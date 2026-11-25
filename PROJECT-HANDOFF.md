@@ -67,3 +67,7 @@ A1-10–12: countability and basic quantities, adjectives and adverbs, frequency
 ## A1 fourth package
 
 A1-13–15: Present Continuous, Present Simple vs Continuous, can/cannot and core modality. 72 original closed tasks and 3 open rubrics; GR-01 selected theory Units 4–9, 31–34 inspected. Full additional source, exercise-page, visual/audio and learner verification pending. A1 new lessons 12/16. Next A1-16–19. PARTIAL.
+
+## A1 final package — editorial pass complete
+
+A1-16–19: imperatives and suggestions, basic conjunctions, time/place prepositions, introductory Past Simple. 96 original closed tasks with separate explanations and 4 open rubrics. GR-01 selected theory Units 11–13, 36, 98, 103–110 inspected. A1 new lessons 16/16; A1-01, A1-02 and approved A1-05 unchanged. A2 18/18; B1 22/22. Combined editorial pass: 56 new lessons, 1344 closed items and 56 open rubrics. Full additional-source alignment, exercise-page checks, visual/audio and learner verification still pending (PARTIAL). B2/C1 remain preliminary. Next: consolidate source/QA evidence, finish B2/C1 manual review where necessary, daily grammar integration and TOEFL linking. Preserve unrelated work and account data.

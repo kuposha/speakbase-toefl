@@ -1,0 +1,738 @@
+{
+  "id": "A1-18",
+  "level": "A1",
+  "sequence": "A1-18",
+  "grammarFamily": "A1-18",
+  "questionBankSource": "topic-specific-authored",
+  "sourceVerification": "draft; selected source text consulted; complete source-page and learner review pending",
+  "topicProfile": {
+    "label": "basic prepositions of time and place",
+    "skillTarget": "basic-time-and-place-prepositions",
+    "core": "Preposition (предлог) помогает объяснить, когда, где или куда происходит действие. At eight — в восемь, on Monday — в понедельник, in April — в апреле. In the bag — внутри сумки, on the bag — на сумке, at the door — у двери. Английский предлог не всегда совпадает с русским переводом.",
+    "form": "| Значение | Предлог | Пример |\n|---|---|---|\n| Часы | at | at seven |\n| День/дата | on | on Friday |\n| Месяц/год/сезон | in | in May, in winter |\n| Внутри | in | in a bag |\n| Поверхность | on | on the table |\n| Точка | at | at the door |\n| Направление | to | to school |\n| Рядом/под/за | next to / under / behind | under the desk |\n| Длительность | for | for two hours |",
+    "selection": "Сначала реши, описываешь время или место. Для времени найди часы, день или период. Для места выясни, внутри ли предмет, на поверхности или у точки. Для движения отличай to (куда) от at/in (где). Для положения относительно другого предмета выбирай under, next to, behind, in front of, between.",
+    "contrast": "| Где? | Куда? |\n|---|---|\n| at school | to school |\n| in the room | into the room |\n| at home | home |\n| in Rome | to Rome |\n\n| Время | Пример |\n|---|---|\n| Точка | at 8:30 |\n| День | on Tuesday |\n| Период | in July |",
+    "boundary": "Некоторые места допускают in и at в зависимости от смысла: at the library — место встречи/деятельности, in the library — внутри здания. Не утверждай, что всегда только один вариант правильный. Упражнения задают контекст. On the bus означает нахождение в конкретном автобусе, by bus — способ передвижения.",
+    "pronunciation": "At, on, in и to часто безударны. Произноси целыми группами at SEVEN, on MONday, in MAY. Слушай отличие in the bag и on the bag. В next to два слова работают вместе. Отдельная аудиосверка открыта.",
+    "examples": [
+      [
+        "The lesson starts at ten.",
+        "Занятие начинается в десять.",
+        "At + точное время."
+      ],
+      [
+        "We meet on Wednesday.",
+        "Мы встречаемся в среду.",
+        "On + день."
+      ],
+      [
+        "My birthday is in January.",
+        "Мой день рождения в январе.",
+        "In + месяц."
+      ],
+      [
+        "The keys are in my bag.",
+        "Ключи внутри сумки.",
+        "In обозначает внутри."
+      ],
+      [
+        "The clock is on the wall.",
+        "Часы на стене.",
+        "On обозначает поверхность."
+      ],
+      [
+        "I go home after class.",
+        "Я иду домой после занятия.",
+        "Go home без to."
+      ]
+    ],
+    "traps": [
+      [
+        "At Monday.",
+        "On Monday.",
+        "On + день."
+      ],
+      [
+        "In eight o'clock.",
+        "At eight o'clock.",
+        "At + часы."
+      ],
+      [
+        "I go to home.",
+        "I go home.",
+        "Home после go без to."
+      ],
+      [
+        "The cat is under of the table.",
+        "The cat is under the table.",
+        "Under без of."
+      ]
+    ],
+    "toefl": "В Listening понимай время встречи и расположение кабинета. В Reading следи за датами, сроками и маршрутами. В Speaking объясняй, когда и где проходит занятие. В Writing Email указывай точное время и место. Это базовая авторская практика."
+  },
+  "title": "Basic prepositions and time/place phrases",
+  "description": "Указывать место, направление и время с базовыми предлогами и устойчивыми выражениями",
+  "cardDescription": "Теория, guided practice, самостоятельные задания и выходная проверка по постоянному ID A1-18.",
+  "eyebrow": "Полный урок программы A1-18 · drafted",
+  "contentVersion": "1.1-draft",
+  "curriculumVersion": "1.0",
+  "prerequisites": [
+    "A1-01",
+    "A1-04"
+  ],
+  "outcomes": [
+    "Указывать место, направление и время с базовыми предлогами и устойчивыми выражениями",
+    "Выбирать целевую конструкцию по контексту и смыслу.",
+    "Исправлять типичные ошибки и переносить правило в новый пример."
+  ],
+  "sourceRefs": [
+    "GR-01 U103-110",
+    "GR-02 U121-127",
+    "GR-03 U88-90",
+    "GR-05 A1 p23"
+  ],
+  "sourceStatus": "selected source text consulted; full page verification pending",
+  "status": "drafted",
+  "legacyCoverage": "Частично",
+  "toeflLinks": [
+    "Writing: Build a Sentence",
+    "Reading: clause structure, reference, modifiers and logical relationships",
+    "Writing: Write an Email"
+  ],
+  "thresholds": {
+    "independent": 7,
+    "exit": 4,
+    "criticalIds": [
+      "E1",
+      "E2",
+      "E3"
+    ]
+  },
+  "groups": {
+    "independent": "Самостоятельная практика",
+    "exit": "Выходная проверка"
+  },
+  "items": [
+    {
+      "id": "D1",
+      "group": "Входная диагностика",
+      "prompt": "Choose the preposition before the time: The class starts ___ 9:15.",
+      "options": [
+        "on",
+        "at",
+        "in"
+      ],
+      "answer": "at",
+      "accepted": [
+        "at"
+      ],
+      "why": "At + часы.",
+      "distractorWhy": "On + день.",
+      "distractorRationales": {
+        "on": "On + день.",
+        "in": "In + период."
+      },
+      "skillTarget": "basic-time-and-place-prepositions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D2",
+      "group": "Входная диагностика",
+      "prompt": "Choose the preposition before a weekday: We meet ___ Tuesday.",
+      "options": [
+        "on",
+        "at",
+        "in"
+      ],
+      "answer": "on",
+      "accepted": [
+        "on"
+      ],
+      "why": "On + день недели.",
+      "distractorWhy": "At + часы.",
+      "distractorRationales": {
+        "at": "At + часы.",
+        "in": "In + месяц/год."
+      },
+      "skillTarget": "basic-time-and-place-prepositions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D3",
+      "group": "Входная диагностика",
+      "prompt": "Choose the preposition before a date: The test is ___ 14 June.",
+      "options": [
+        "at",
+        "in",
+        "on"
+      ],
+      "answer": "on",
+      "accepted": [
+        "on"
+      ],
+      "why": "On + дата.",
+      "distractorWhy": "At + точное время.",
+      "distractorRationales": {
+        "at": "At + точное время.",
+        "in": "In + месяц без даты."
+      },
+      "skillTarget": "basic-time-and-place-prepositions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D4",
+      "group": "Входная диагностика",
+      "prompt": "Choose the preposition before a month: The holidays begin ___ July.",
+      "options": [
+        "on",
+        "in",
+        "at"
+      ],
+      "answer": "in",
+      "accepted": [
+        "in"
+      ],
+      "why": "In + месяц.",
+      "distractorWhy": "On + день/дата.",
+      "distractorRationales": {
+        "on": "On + день/дата.",
+        "at": "At + часы."
+      },
+      "skillTarget": "basic-time-and-place-prepositions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G1",
+      "group": "Управляемая практика",
+      "prompt": "Choose the preposition before a year: She was born ___ 2007.",
+      "options": [
+        "in",
+        "on",
+        "at"
+      ],
+      "answer": "in",
+      "accepted": [
+        "in"
+      ],
+      "why": "In + год.",
+      "distractorWhy": "On + дата.",
+      "distractorRationales": {
+        "on": "On + дата.",
+        "at": "At + момент."
+      },
+      "skillTarget": "basic-time-and-place-prepositions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G2",
+      "group": "Управляемая практика",
+      "prompt": "Choose the ordinary expression for morning in general.",
+      "options": [
+        "on the morning (general)",
+        "at the morning",
+        "in the morning"
+      ],
+      "answer": "in the morning",
+      "accepted": [
+        "in the morning"
+      ],
+      "why": "In the morning — утром.",
+      "distractorWhy": "On используется с конкретным днём.",
+      "distractorRationales": {
+        "on the morning (general)": "On используется с конкретным днём.",
+        "at the morning": "At the morning неверно."
+      },
+      "skillTarget": "basic-time-and-place-prepositions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G3",
+      "group": "Управляемая практика",
+      "prompt": "Choose the expression for a particular Friday morning.",
+      "options": [
+        "in Friday morning",
+        "on Friday morning",
+        "at Friday morning"
+      ],
+      "answer": "on Friday morning",
+      "accepted": [
+        "on Friday morning"
+      ],
+      "why": "On + конкретный день.",
+      "distractorWhy": "In не с названием дня.",
+      "distractorRationales": {
+        "in Friday morning": "In не с названием дня.",
+        "at Friday morning": "At не с днём."
+      },
+      "skillTarget": "basic-time-and-place-prepositions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G4",
+      "group": "Управляемая практика",
+      "prompt": "Choose the ordinary phrase for nighttime in general.",
+      "options": [
+        "at night",
+        "on night",
+        "in night"
+      ],
+      "answer": "at night",
+      "accepted": [
+        "at night"
+      ],
+      "why": "At night — ночью.",
+      "distractorWhy": "On night неверно без уточнения.",
+      "distractorRationales": {
+        "on night": "On night неверно без уточнения.",
+        "in night": "In night не обычная форма."
+      },
+      "skillTarget": "basic-time-and-place-prepositions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G5",
+      "group": "Управляемая практика",
+      "prompt": "Choose the future phrase meaning in the following week.",
+      "options": [
+        "on next week",
+        "at next week",
+        "next week"
+      ],
+      "answer": "next week",
+      "accepted": [
+        "next week"
+      ],
+      "why": "Перед next week обычно нет предлога.",
+      "distractorWhy": "On лишний.",
+      "distractorRationales": {
+        "on next week": "On лишний.",
+        "at next week": "At лишний."
+      },
+      "skillTarget": "basic-time-and-place-prepositions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G6",
+      "group": "Управляемая практика",
+      "prompt": "Choose the expression meaning after five minutes from now.",
+      "options": [
+        "on five minutes",
+        "in five minutes",
+        "at five minutes (ordinary future interval)"
+      ],
+      "answer": "in five minutes",
+      "accepted": [
+        "in five minutes"
+      ],
+      "why": "In + период до будущего момента.",
+      "distractorWhy": "On не обозначает интервал.",
+      "distractorRationales": {
+        "on five minutes": "On не обозначает интервал.",
+        "at five minutes (ordinary future interval)": "At указывает точку, не эту модель."
+      },
+      "skillTarget": "basic-time-and-place-prepositions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I1",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the phrase for a notebook inside a drawer.",
+      "options": [
+        "on the drawer",
+        "at the drawer",
+        "in the drawer"
+      ],
+      "answer": "in the drawer",
+      "accepted": [
+        "in the drawer"
+      ],
+      "why": "In — внутри.",
+      "distractorWhy": "On — поверхность.",
+      "distractorRationales": {
+        "on the drawer": "On — поверхность.",
+        "at the drawer": "At — точка."
+      },
+      "skillTarget": "basic-time-and-place-prepositions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I2",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the phrase for a cup resting on a desk.",
+      "options": [
+        "in the desk",
+        "on the desk",
+        "to the desk"
+      ],
+      "answer": "on the desk",
+      "accepted": [
+        "on the desk"
+      ],
+      "why": "On — поверхность.",
+      "distractorWhy": "In — внутри.",
+      "distractorRationales": {
+        "in the desk": "In — внутри.",
+        "to the desk": "To — направление."
+      },
+      "skillTarget": "basic-time-and-place-prepositions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I3",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the phrase for waiting by a bus stop.",
+      "options": [
+        "at the bus stop",
+        "into the bus stop",
+        "to the bus stop"
+      ],
+      "answer": "at the bus stop",
+      "accepted": [
+        "at the bus stop"
+      ],
+      "why": "At — точка ожидания.",
+      "distractorWhy": "Into — движение внутрь.",
+      "distractorRationales": {
+        "into the bus stop": "Into — движение внутрь.",
+        "to the bus stop": "To — направление."
+      },
+      "skillTarget": "basic-time-and-place-prepositions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I4",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the position directly beneath a table.",
+      "options": [
+        "on the table",
+        "behind the table",
+        "under the table"
+      ],
+      "answer": "under the table",
+      "accepted": [
+        "under the table"
+      ],
+      "why": "Under — под.",
+      "distractorWhy": "On — сверху.",
+      "distractorRationales": {
+        "on the table": "On — сверху.",
+        "behind the table": "Behind — за."
+      },
+      "skillTarget": "basic-time-and-place-prepositions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I5",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the phrase meaning beside the door.",
+      "options": [
+        "under the door",
+        "next to the door",
+        "into the door"
+      ],
+      "answer": "next to the door",
+      "accepted": [
+        "next to the door"
+      ],
+      "why": "Next to — рядом.",
+      "distractorWhy": "Under — под.",
+      "distractorRationales": {
+        "under the door": "Under — под.",
+        "into the door": "Into — внутрь."
+      },
+      "skillTarget": "basic-time-and-place-prepositions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I6",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the phrase meaning in the space separating two chairs.",
+      "options": [
+        "between the two chairs",
+        "behind the two chairs",
+        "on the two chairs"
+      ],
+      "answer": "between the two chairs",
+      "accepted": [
+        "between the two chairs"
+      ],
+      "why": "Between — между.",
+      "distractorWhy": "Behind — позади.",
+      "distractorRationales": {
+        "behind the two chairs": "Behind — позади.",
+        "on the two chairs": "On — на."
+      },
+      "skillTarget": "basic-time-and-place-prepositions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I7",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the position in front of a building, not behind it.",
+      "options": [
+        "behind the building",
+        "under the building",
+        "in front of the building"
+      ],
+      "answer": "in front of the building",
+      "accepted": [
+        "in front of the building"
+      ],
+      "why": "In front of — перед.",
+      "distractorWhy": "Behind — позади.",
+      "distractorRationales": {
+        "behind the building": "Behind — позади.",
+        "under the building": "Under — под."
+      },
+      "skillTarget": "basic-time-and-place-prepositions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I8",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the ordinary direction to a school.",
+      "options": [
+        "go at school",
+        "go to school",
+        "go in school as a destination"
+      ],
+      "answer": "go to school",
+      "accepted": [
+        "go to school"
+      ],
+      "why": "To обозначает направление.",
+      "distractorWhy": "At — положение.",
+      "distractorRationales": {
+        "go at school": "At — положение.",
+        "go in school as a destination": "In — положение."
+      },
+      "skillTarget": "basic-time-and-place-prepositions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I9",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the ordinary expression for going home.",
+      "options": [
+        "go home",
+        "go to home",
+        "go at home"
+      ],
+      "answer": "go home",
+      "accepted": [
+        "go home"
+      ],
+      "why": "Home после go без to.",
+      "distractorWhy": "To лишнее.",
+      "distractorRationales": {
+        "go to home": "To лишнее.",
+        "go at home": "At home — местонахождение."
+      },
+      "skillTarget": "basic-time-and-place-prepositions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E1",
+      "group": "Выходная проверка",
+      "prompt": "Choose the ordinary expression for being at home.",
+      "options": [
+        "be at home",
+        "be to home",
+        "be on home"
+      ],
+      "answer": "be at home",
+      "accepted": [
+        "be at home"
+      ],
+      "why": "At home — дома.",
+      "distractorWhy": "To — направление.",
+      "distractorRationales": {
+        "be to home": "To — направление.",
+        "be on home": "On home неверно."
+      },
+      "skillTarget": "basic-time-and-place-prepositions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E2",
+      "group": "Выходная проверка",
+      "prompt": "Choose the phrase for travelling inside a particular car.",
+      "options": [
+        "on a car",
+        "at a car",
+        "in a car"
+      ],
+      "answer": "in a car",
+      "accepted": [
+        "in a car"
+      ],
+      "why": "In a car — внутри машины.",
+      "distractorWhy": "On a car — на поверхности.",
+      "distractorRationales": {
+        "on a car": "On a car — на поверхности.",
+        "at a car": "At — точка рядом."
+      },
+      "skillTarget": "basic-time-and-place-prepositions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E3",
+      "group": "Выходная проверка",
+      "prompt": "Choose the phrase meaning inside a particular bus as a passenger.",
+      "options": [
+        "into the bus as a location",
+        "on the bus",
+        "at the bus as a passenger location"
+      ],
+      "answer": "on the bus",
+      "accepted": [
+        "on the bus"
+      ],
+      "why": "On the bus — в автобусе.",
+      "distractorWhy": "Into — движение внутрь.",
+      "distractorRationales": {
+        "into the bus as a location": "Into — движение внутрь.",
+        "at the bus as a passenger location": "At — рядом."
+      },
+      "skillTarget": "basic-time-and-place-prepositions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E4",
+      "group": "Выходная проверка",
+      "prompt": "Choose the duration: I studied ___ three hours.",
+      "options": [
+        "for",
+        "during",
+        "on"
+      ],
+      "answer": "for",
+      "accepted": [
+        "for"
+      ],
+      "why": "For + длительность.",
+      "distractorWhy": "During + событие.",
+      "distractorRationales": {
+        "during": "During + событие.",
+        "on": "On + день."
+      },
+      "skillTarget": "basic-time-and-place-prepositions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E5",
+      "group": "Выходная проверка",
+      "prompt": "Choose the phrase for an event happening during a lesson.",
+      "options": [
+        "for the lesson as 'during'",
+        "while the lesson as a noun phrase",
+        "during the lesson"
+      ],
+      "answer": "during the lesson",
+      "accepted": [
+        "during the lesson"
+      ],
+      "why": "During + noun phrase.",
+      "distractorWhy": "For не выражает во время здесь.",
+      "distractorRationales": {
+        "for the lesson as 'during'": "For не выражает во время здесь.",
+        "while the lesson as a noun phrase": "While обычно вводит clause."
+      },
+      "skillTarget": "basic-time-and-place-prepositions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "W1",
+      "group": "Самостоятельное применение",
+      "prompt": "Опиши своё расписание и путь до колледжа в 10 предложениях. Используй at/on/in для времени, минимум четыре предлога места, to или into, go home и for + длительность.",
+      "open": true,
+      "rubric": [
+        "At/on/in согласованы с типом времени.",
+        "Предлоги места передают нужное положение.",
+        "Движение и положение различены.",
+        "Go home без лишнего to.",
+        "Устойчивые выражения употреблены правильно.",
+        "Длительность и временная последовательность понятны."
+      ],
+      "skillTarget": "Самостоятельное применение A1-18",
+      "interactionType": "open-production",
+      "difficulty": "transfer",
+      "sourceBasis": "Speakbase-authored open production; self-review rubric only until real AI feedback is connected",
+      "contentVersion": "1.1-draft"
+    }
+  ],
+  "markdown": "# Speakbase — A1-18: Basic prepositions and time/place phrases\n\n**Curriculum ID:** `A1-18`  \n**Уровень:** A1  \n**Версия:** 1.1-draft\n**Статус:** drafted; selected source text checked; full source-page and learner acceptance pending\n**Предварительные темы:** A1-01, A1-04  \n**Связь со старым каталогом:** Частично — №12 Prepositions\n\n## 1. Результаты обучения\n\n- Указывать место, направление и время с базовыми предлогами и устойчивыми выражениями\n- Выбирать целевую форму по значению, структуре предложения и контексту.\n- Объяснять, почему близкая грамматическая форма меняет смысл или регистр.\n- Находить и исправлять типичные ошибки русскоязычных студентов.\n\n## 2. Источники и статус сверки\n\n| Source | PDF navigation | Lesson-specific checks | Status |\n|---|---|---|---|\n| GR-01 U103-110 | PDF pages 217-232 (Unit 103-110) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-02 U121-127 | PDF pages 254-267 (Unit 121-127) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-03 U88-90 | PDF pages 200-205 (Unit 88-90) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-05 A1 p23 | PDF pages 23 (A1 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n\nUnit/page locations are navigation aids only. They do not prove that the cited explanation, examples, restrictions and answer key have been checked for this lesson. Examples and explanations below are Speakbase-authored, not quotations from the textbook.\n\nПеред переводом этого урока в source-verified необходимо открыть целевые страницы конкретного издания, записать печатную и PDF-пагинацию, сверить ограничения и исключения. Для GR-03 со сканированными страницами обязательна визуальная проверка.\n\n**Evidence for this editorial pass:** GR-01 Units 103–110, selected theory text inspected PDF pp. 217–231 odd pages (printed pp. 216–230): time, duration, place and movement. Additional source/exercise-page/visual verification pending. The selected source text was consulted; not all pages, exercises, editions, scanned GR-03 pages or GR-05 descriptors were checked. Author-created explanations and practice are not copied source exercises.\n\n## 3. Место темы и границы\n\nУчи at/on/in и базовые выражения места/движения как целые chunks. Не обещай дословного соответствия русским предлогам.\n\nСтарый каталог содержит: №12 Prepositions. Его статус — Частично. Старые отметки завершения не переносятся автоматически на новый постоянный ID. Тема рассматривается в уровне A1 и не заменяет обязательные prerequisites.\n\n## 4. Полный конспект\n\n### 4.1. Основная идея и функция конструкции\n\nPreposition (предлог) помогает объяснить, когда, где или куда происходит действие. At eight — в восемь, on Monday — в понедельник, in April — в апреле. In the bag — внутри сумки, on the bag — на сумке, at the door — у двери. Английский предлог не всегда совпадает с русским переводом.\n\nПри времени at часто указывает точный момент, on — день или дату, in — более широкий период. При месте in означает внутри или в пределах территории, on — на поверхности, at — у точки или в месте деятельности. Для движения к месту употребляется to. Например, I am at college — я в колледже; I go to college — я иду в колледж.\n\n### 4.2. Формирование и грамматическая модель\n\n| Значение | Предлог | Пример |\n|---|---|---|\n| Часы | at | at seven |\n| День/дата | on | on Friday |\n| Месяц/год/сезон | in | in May, in winter |\n| Внутри | in | in a bag |\n| Поверхность | on | on the table |\n| Точка | at | at the door |\n| Направление | to | to school |\n| Рядом/под/за | next to / under / behind | under the desk |\n| Длительность | for | for two hours |\n\nAt night, in the morning, in the afternoon, in the evening. On Monday morning — конкретный день. Перед next/last/this/every обычно нет at/on/in: next week, last Sunday, this morning, every day. At the weekend распространено в BrE, on the weekend — в AmE. In five minutes означает через пять минут в будущем. From Monday to Friday — с понедельника по пятницу; until Friday — до пятницы.\n\n### 4.3. Как выбрать подходящую форму\n\nСначала реши, описываешь время или место. Для времени найди часы, день или период. Для места выясни, внутри ли предмет, на поверхности или у точки. Для движения отличай to (куда) от at/in (где). Для положения относительно другого предмета выбирай under, next to, behind, in front of, between.\n\nЧастые выражения: at home (дома), go home (идти домой без to), at work, at school, in bed, on the bus, in a car. Arrive in + city/country, arrive at + station/airport. Get to a place, но get home. Between A and B — между A и B; opposite — напротив; in front of — перед; behind — позади. Into — внутрь, out of — изнутри наружу.\n\n### 4.4. Сравнение с близкими конструкциями\n\n| Где? | Куда? |\n|---|---|\n| at school | to school |\n| in the room | into the room |\n| at home | home |\n| in Rome | to Rome |\n\n| Время | Пример |\n|---|---|\n| Точка | at 8:30 |\n| День | on Tuesday |\n| Период | in July |\n\n### 4.5. Примеры с переводом и объяснением\n\n| English | Перевод | Почему это подходит |\n| --- | --- | --- |\n| The lesson starts at ten. | Занятие начинается в десять. | At + точное время. |\n| We meet on Wednesday. | Мы встречаемся в среду. | On + день. |\n| My birthday is in January. | Мой день рождения в январе. | In + месяц. |\n| The keys are in my bag. | Ключи внутри сумки. | In обозначает внутри. |\n| The clock is on the wall. | Часы на стене. | On обозначает поверхность. |\n| I go home after class. | Я иду домой после занятия. | Go home без to. |\n\n### 4.6. Исключения, ограничения и границы употребления\n\nНекоторые места допускают in и at в зависимости от смысла: at the library — место встречи/деятельности, in the library — внутри здания. Не утверждай, что всегда только один вариант правильный. Упражнения задают контекст. On the bus означает нахождение в конкретном автобусе, by bus — способ передвижения.\n\nBefore — до, after — после, during + noun (during the lesson), while + clause (while I study), for + duration (for two hours). Since указывает начало периода и подробно изучается с Present Perfect. Under и below могут обозначать положение ниже, но under часто указывает непосредственно под предметом. Across — с одной стороны на другую, along — вдоль, through — через внутреннее пространство. Не переводи каждое русское «в» одинаковым in.\n\n### 4.7. Типичные ошибки русскоязычных студентов\n\n| Ошибка | Исправление | Объяснение |\n| --- | --- | --- |\n| At Monday. | On Monday. | On + день. |\n| In eight o'clock. | At eight o'clock. | At + часы. |\n| I go to home. | I go home. | Home после go без to. |\n| The cat is under of the table. | The cat is under the table. | Under без of. |\n\n### 4.8. Произношение и восприятие на слух\n\nAt, on, in и to часто безударны. Произноси целыми группами at SEVEN, on MONday, in MAY. Слушай отличие in the bag и on the bag. В next to два слова работают вместе. Отдельная аудиосверка открыта.\n\nСначала прослушай или прочитай пример, затем произнеси его целиком. Обрати внимание на смысловое ударение и форму конструкции; не ориентируйся только на буквенный перевод.\n\n### 4.9. Академический английский и TOEFL-перенос\n\nВ Listening понимай время встречи и расположение кабинета. В Reading следи за датами, сроками и маршрутами. В Speaking объясняй, когда и где проходит занятие. В Writing Email указывай точное время и место. Это базовая авторская практика.\n\nЭто авторская практика переноса навыка. Она не является официальным заданием TOEFL и не выдаётся за официальный результат экзамена.\n\n### 4.10. Примеры для управляемого разбора\n\n- The lesson starts at ten. — Занятие начинается в десять. At + точное время.\n- We meet on Wednesday. — Мы встречаемся в среду. On + день.\n- My birthday is in January. — Мой день рождения в январе. In + месяц.\n\nДля каждого примера назови целевую конструкцию, объясни выбор и составь новое предложение в другом контексте. Затем перейди к заданиям: сначала диагностика, затем управляемая и самостоятельная практика, затем новые вопросы выходной проверки.\n\n### 4.11. Самопроверка\n\nПеред отправкой ответа проверь:\n1. At/on/in согласованы с типом времени.\n2. Предлоги места передают нужное положение.\n3. Движение и положение различены.\n4. Go home без лишнего to.\n5. Устойчивые выражения употреблены правильно.\n6. Длительность и временная последовательность понятны.\n\n### 4.12. Краткая памятка\n\nAt + часы/точка, on + день/дата/поверхность, in + период/внутри. To — направление, go home без to. Next to, under, behind, between, in front of — положение. For + длительность, during + noun, before/after — порядок.\n\nНе выбирай форму только по одному знакомому слову: проверь контекст, значение и структуру. При ошибке вернись к соответствующей части конспекта и составь собственный пример.\n\n## 5. Практика\n\nВ приложении практика разделена на входную диагностику, управляемые задания, самостоятельную практику и новую выходную проверку. Закрытые ответы получают rationale и разбор ошибки. Свободный текст сохраняется и оценивается по рубрике; до подключения и реальной проверки AI-движка система не выдаёт его за автоматическую AI-оценку.\n\n## 6. Интервальное повторение\n\nПовторяй не весь урок автоматически, а конкретную ошибку: выбор формы, согласование, word order, значение, регистр или пунктуацию. Новая попытка должна менять лексический контекст и формулировку, чтобы проверять перенос, а не запоминание одной строки.\n\n## 7. Технический статус\n\n- Постоянный ID: `A1-18`.\n- Прогресс хранится отдельно в course.grammarLessons[\"A1-18\"].\n- Содержание и ключи имеют статус draft; 24 авторских закрытых задания и объяснения вычитаны, выбранные тексты источников проверены. Полная постраничная и пользовательская приёмка остаются открытыми.\n- Предварительное выполнение порогов не равно окончательному mastered: нужны отсроченное повторение и learner review.",
+  "theoryEnd": "## 5."
+}

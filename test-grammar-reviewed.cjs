@@ -7,7 +7,7 @@ const engine=ctx.window.GrammarLessonEngine;
 const ids=Array.from({length:22},(_,i)=>'B1-'+String(i+1).padStart(2,'0'));
 const a2=Array.from({length:18},(_,i)=>'A2-'+String(i+1).padStart(2,'0'));
 ids.push(...a2);
-const a1=['A1-03','A1-04','A1-06','A1-07','A1-08','A1-09','A1-10','A1-11','A1-12','A1-13','A1-14','A1-15'];
+const a1=['A1-03','A1-04','A1-06','A1-07','A1-08','A1-09','A1-10','A1-11','A1-12','A1-13','A1-14','A1-15','A1-16','A1-17','A1-18','A1-19'];
 ids.push(...a1);
 const log=fs.readFileSync('materials/GRAMMAR-MANUAL-REVIEW-LOG.md','utf8');
 const norm=s=>s.replace(/\r\n/g,'\n');

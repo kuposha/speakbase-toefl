@@ -1,0 +1,735 @@
+{
+  "id": "A1-16",
+  "level": "A1",
+  "sequence": "A1-16",
+  "grammarFamily": "A1-16",
+  "questionBankSource": "topic-specific-authored",
+  "sourceVerification": "draft; selected source text consulted; complete source-page and learner review pending",
+  "topicProfile": {
+    "label": "imperatives and let's",
+    "skillTarget": "imperatives-and-lets",
+    "core": "Imperative (повелительная форма) используется для инструкций, просьб, предупреждений и предложений действия собеседнику. Open the door — открой дверь. Please wait — пожалуйста, подожди. В обычной команде подлежащее you подразумевается, поэтому его не нужно писать.",
+    "form": "| Функция | Модель | Пример |\n|---|---|---|\n| Инструкция | V1 | Open the file. |\n| Просьба | Please + V1 | Please sit down. |\n| Запрет | Don't + V1 | Don't touch it. |\n| Состояние | Be + adjective | Be careful. |\n| Отрицание be | Don't be + adjective | Don't be late. |\n| Совместное действие | Let's + V1 | Let's start. |\n| Отрицательное предложение | Let's not + V1 | Let's not hurry. |",
+    "selection": "Определи, кто должен действовать. Если обращаешься к собеседнику — V1/Don't + V1. Если предлагаешь сделать что-то вместе — Let's/Let's not + V1. Если речь о качестве или состоянии, используй be: Be careful. Для отрицательного состояния — Don't be.",
+    "contrast": "| Обращение к собеседнику | Совместное предложение |\n|---|---|\n| Read the instructions. | Let's read the instructions. |\n| Don't hurry. | Let's not hurry. |\n| Be quiet. | Let's be quiet. |\n| Please wait here. | Let's wait here. |",
+    "boundary": "Обычно imperative без явно названного you, но в английском возможны особые формы You stay here и Somebody call me при выделении исполнителя. Для A1 изучаем обычную модель. Не путай Don't be late с You aren't late: первое — инструкция, второе — сообщение о состоянии.",
+    "pronunciation": "Интонация помогает отличить спокойную просьбу от резкой команды. Произноси please и смысловой глагол; в предупреждениях Don't touch! отрицание может быть ударным. Let's произносится слитно. Отдельная аудиосверка открыта.",
+    "examples": [
+      [
+        "Open your notebook.",
+        "Открой тетрадь.",
+        "V1 без subject."
+      ],
+      [
+        "Please close the door.",
+        "Пожалуйста, закрой дверь.",
+        "Вежливая просьба."
+      ],
+      [
+        "Don't write on the wall.",
+        "Не пиши на стене.",
+        "Don't + V1."
+      ],
+      [
+        "Be careful with the glass.",
+        "Будь осторожна со стаканом.",
+        "Be + adjective."
+      ],
+      [
+        "Let's take a break.",
+        "Давай сделаем перерыв.",
+        "Совместное предложение."
+      ],
+      [
+        "Let's not start yet.",
+        "Давай пока не начнём.",
+        "Let's not + V1."
+      ]
+    ],
+    "traps": [
+      [
+        "To open the file!",
+        "Open the file!",
+        "Imperative требует V1 без to."
+      ],
+      [
+        "Don't touches it.",
+        "Don't touch it.",
+        "После don't нужна V1."
+      ],
+      [
+        "Don't are late.",
+        "Don't be late.",
+        "В imperative используется be."
+      ],
+      [
+        "Let's to study.",
+        "Let's study.",
+        "После Let's нет to."
+      ]
+    ],
+    "toefl": "В Listening понимай инструкции преподавателя и предложения совместного действия. В Speaking вежливо попроси повторить или предложи перерыв. В Writing формулируй короткие инструкции: Open the form and check your name. Это авторская практика A1."
+  },
+  "title": "Imperatives and let's",
+  "description": "Давать инструкции, советы и простые предложения; строить отрицательный императив",
+  "cardDescription": "Теория, guided practice, самостоятельные задания и выходная проверка по постоянному ID A1-16.",
+  "eyebrow": "Полный урок программы A1-16 · drafted",
+  "contentVersion": "1.1-draft",
+  "curriculumVersion": "1.0",
+  "prerequisites": [
+    "A1-01"
+  ],
+  "outcomes": [
+    "Давать инструкции, советы и простые предложения; строить отрицательный императив",
+    "Выбирать целевую конструкцию по контексту и смыслу.",
+    "Исправлять типичные ошибки и переносить правило в новый пример."
+  ],
+  "sourceRefs": [
+    "GR-01 U36",
+    "GR-05 A2 p18"
+  ],
+  "sourceStatus": "selected source text consulted; full page verification pending",
+  "status": "drafted",
+  "legacyCoverage": "Нет",
+  "toeflLinks": [
+    "Writing: Build a Sentence",
+    "Speaking: Listen and Repeat / Take an Interview",
+    "Writing: Write an Email"
+  ],
+  "thresholds": {
+    "independent": 7,
+    "exit": 4,
+    "criticalIds": [
+      "E1",
+      "E2",
+      "E3"
+    ]
+  },
+  "groups": {
+    "independent": "Самостоятельная практика",
+    "exit": "Выходная проверка"
+  },
+  "items": [
+    {
+      "id": "D1",
+      "group": "Входная диагностика",
+      "prompt": "Choose the instruction telling a student to open a book.",
+      "options": [
+        "To open your book.",
+        "Open your book.",
+        "Opens your book."
+      ],
+      "answer": "Open your book.",
+      "accepted": [
+        "Open your book."
+      ],
+      "why": "V1 без to.",
+      "distractorWhy": "To не нужно.",
+      "distractorRationales": {
+        "To open your book.": "To не нужно.",
+        "Opens your book.": "Imperative не получает -s."
+      },
+      "skillTarget": "imperatives-and-lets",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D2",
+      "group": "Входная диагностика",
+      "prompt": "Choose the instruction to read a sentence.",
+      "options": [
+        "Read the sentence.",
+        "Reading the sentence.",
+        "Reads the sentence."
+      ],
+      "answer": "Read the sentence.",
+      "accepted": [
+        "Read the sentence."
+      ],
+      "why": "Read — V1.",
+      "distractorWhy": "Reading не imperative.",
+      "distractorRationales": {
+        "Reading the sentence.": "Reading не imperative.",
+        "Reads the sentence.": "Reads не V1."
+      },
+      "skillTarget": "imperatives-and-lets",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D3",
+      "group": "Входная диагностика",
+      "prompt": "Choose a polite request to sit.",
+      "options": [
+        "Please to sit down.",
+        "Please sitting down.",
+        "Please sit down."
+      ],
+      "answer": "Please sit down.",
+      "accepted": [
+        "Please sit down."
+      ],
+      "why": "Please + V1.",
+      "distractorWhy": "To лишнее.",
+      "distractorRationales": {
+        "Please to sit down.": "To лишнее.",
+        "Please sitting down.": "Sitting не V1."
+      },
+      "skillTarget": "imperatives-and-lets",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D4",
+      "group": "Входная диагностика",
+      "prompt": "Choose the polite instruction with please at the end.",
+      "options": [
+        "Waits here, please.",
+        "Wait here, please.",
+        "Waiting here, please."
+      ],
+      "answer": "Wait here, please.",
+      "accepted": [
+        "Wait here, please."
+      ],
+      "why": "Please может быть в конце.",
+      "distractorWhy": "Waits не V1.",
+      "distractorRationales": {
+        "Waits here, please.": "Waits не V1.",
+        "Waiting here, please.": "Waiting не imperative."
+      },
+      "skillTarget": "imperatives-and-lets",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G1",
+      "group": "Управляемая практика",
+      "prompt": "Choose the prohibition against touching a screen.",
+      "options": [
+        "Don't touch the screen.",
+        "Don't touches the screen.",
+        "Not touch the screen."
+      ],
+      "answer": "Don't touch the screen.",
+      "accepted": [
+        "Don't touch the screen."
+      ],
+      "why": "Don't + V1.",
+      "distractorWhy": "Touches не V1.",
+      "distractorRationales": {
+        "Don't touches the screen.": "Touches не V1.",
+        "Not touch the screen.": "Нужно don't."
+      },
+      "skillTarget": "imperatives-and-lets",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G2",
+      "group": "Управляемая практика",
+      "prompt": "Choose the negative instruction about opening a box.",
+      "options": [
+        "Don't to open the box.",
+        "Doesn't open the box.",
+        "Don't open the box."
+      ],
+      "answer": "Don't open the box.",
+      "accepted": [
+        "Don't open the box."
+      ],
+      "why": "Don't + open.",
+      "distractorWhy": "To лишнее.",
+      "distractorRationales": {
+        "Don't to open the box.": "To лишнее.",
+        "Doesn't open the box.": "Doesn't не imperative."
+      },
+      "skillTarget": "imperatives-and-lets",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G3",
+      "group": "Управляемая практика",
+      "prompt": "Choose the instruction using be with careful.",
+      "options": [
+        "Are careful.",
+        "Be careful.",
+        "Being careful."
+      ],
+      "answer": "Be careful.",
+      "accepted": [
+        "Be careful."
+      ],
+      "why": "Be — V1.",
+      "distractorWhy": "Are не imperative.",
+      "distractorRationales": {
+        "Are careful.": "Are не imperative.",
+        "Being careful.": "Being не imperative."
+      },
+      "skillTarget": "imperatives-and-lets",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G4",
+      "group": "Управляемая практика",
+      "prompt": "Choose the negative instruction about lateness.",
+      "options": [
+        "Don't be late.",
+        "Don't are late.",
+        "Don't is late."
+      ],
+      "answer": "Don't be late.",
+      "accepted": [
+        "Don't be late."
+      ],
+      "why": "Don't + be.",
+      "distractorWhy": "Are не V1.",
+      "distractorRationales": {
+        "Don't are late.": "Are не V1.",
+        "Don't is late.": "Is не V1."
+      },
+      "skillTarget": "imperatives-and-lets",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G5",
+      "group": "Управляемая практика",
+      "prompt": "Choose a quiet instruction.",
+      "options": [
+        "Please are quiet.",
+        "Please to be quiet.",
+        "Please be quiet."
+      ],
+      "answer": "Please be quiet.",
+      "accepted": [
+        "Please be quiet."
+      ],
+      "why": "Please + be.",
+      "distractorWhy": "Are не V1.",
+      "distractorRationales": {
+        "Please are quiet.": "Are не V1.",
+        "Please to be quiet.": "To лишнее."
+      },
+      "skillTarget": "imperatives-and-lets",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G6",
+      "group": "Управляемая практика",
+      "prompt": "Choose a wish for a pleasant day.",
+      "options": [
+        "Has a nice day!",
+        "Have a nice day!",
+        "Having a nice day!"
+      ],
+      "answer": "Have a nice day!",
+      "accepted": [
+        "Have a nice day!"
+      ],
+      "why": "Have — V1 для пожелания.",
+      "distractorWhy": "Has не V1.",
+      "distractorRationales": {
+        "Has a nice day!": "Has не V1.",
+        "Having a nice day!": "Having не imperative."
+      },
+      "skillTarget": "imperatives-and-lets",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I1",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose a joint suggestion to study together.",
+      "options": [
+        "Let's to study together.",
+        "Let's studies together.",
+        "Let's study together."
+      ],
+      "answer": "Let's study together.",
+      "accepted": [
+        "Let's study together."
+      ],
+      "why": "Let's + V1.",
+      "distractorWhy": "To не нужен.",
+      "distractorRationales": {
+        "Let's to study together.": "To не нужен.",
+        "Let's studies together.": "Studies не V1."
+      },
+      "skillTarget": "imperatives-and-lets",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I2",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose a joint suggestion to start now.",
+      "options": [
+        "Let's starting now.",
+        "Let's start now.",
+        "Lets starts now."
+      ],
+      "answer": "Let's start now.",
+      "accepted": [
+        "Let's start now."
+      ],
+      "why": "Let's + V1.",
+      "distractorWhy": "Starting не V1.",
+      "distractorRationales": {
+        "Let's starting now.": "Starting не V1.",
+        "Lets starts now.": "Нужен апостроф и V1."
+      },
+      "skillTarget": "imperatives-and-lets",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I3",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose a negative joint suggestion.",
+      "options": [
+        "Let's not go out tonight.",
+        "Let's don't go out tonight.",
+        "Let's not to go out tonight."
+      ],
+      "answer": "Let's not go out tonight.",
+      "accepted": [
+        "Let's not go out tonight."
+      ],
+      "why": "Let's not + V1.",
+      "distractorWhy": "Don't не целевая модель.",
+      "distractorRationales": {
+        "Let's don't go out tonight.": "Don't не целевая модель.",
+        "Let's not to go out tonight.": "To лишнее."
+      },
+      "skillTarget": "imperatives-and-lets",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I4",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose a joint suggestion to wait.",
+      "options": [
+        "Let's waits a minute.",
+        "Let's to wait a minute.",
+        "Let's wait a minute."
+      ],
+      "answer": "Let's wait a minute.",
+      "accepted": [
+        "Let's wait a minute."
+      ],
+      "why": "Let's + wait.",
+      "distractorWhy": "Waits не V1.",
+      "distractorRationales": {
+        "Let's waits a minute.": "Waits не V1.",
+        "Let's to wait a minute.": "To лишнее."
+      },
+      "skillTarget": "imperatives-and-lets",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I5",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the instruction addressed to another person, not a joint plan.",
+      "options": [
+        "Let's close the window.",
+        "Close the window, please.",
+        "We close the window every day."
+      ],
+      "answer": "Close the window, please.",
+      "accepted": [
+        "Close the window, please."
+      ],
+      "why": "Imperative обращён к собеседнику.",
+      "distractorWhy": "Let's включает говорящего.",
+      "distractorRationales": {
+        "Let's close the window.": "Let's включает говорящего.",
+        "We close the window every day.": "Это привычка."
+      },
+      "skillTarget": "imperatives-and-lets",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I6",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the sentence that includes the speaker in the proposed action.",
+      "options": [
+        "Let's take a break.",
+        "Take a break, please.",
+        "You take breaks every day."
+      ],
+      "answer": "Let's take a break.",
+      "accepted": [
+        "Let's take a break."
+      ],
+      "why": "Let's — совместное действие.",
+      "distractorWhy": "Imperative адресован другому.",
+      "distractorRationales": {
+        "Take a break, please.": "Imperative адресован другому.",
+        "You take breaks every day.": "Это сообщение о привычке."
+      },
+      "skillTarget": "imperatives-and-lets",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I7",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the prohibition using an ordinary imperative.",
+      "options": [
+        "You don't run in the classroom every day.",
+        "Let's not run in the classroom.",
+        "Don't run in the classroom."
+      ],
+      "answer": "Don't run in the classroom.",
+      "accepted": [
+        "Don't run in the classroom."
+      ],
+      "why": "Don't + V1 — запрет.",
+      "distractorWhy": "Это описание привычки.",
+      "distractorRationales": {
+        "You don't run in the classroom every day.": "Это описание привычки.",
+        "Let's not run in the classroom.": "Это совместное предложение."
+      },
+      "skillTarget": "imperatives-and-lets",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I8",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the negative suggestion including both people.",
+      "options": [
+        "Don't hurry.",
+        "Let's not hurry.",
+        "You aren't in a hurry."
+      ],
+      "answer": "Let's not hurry.",
+      "accepted": [
+        "Let's not hurry."
+      ],
+      "why": "Let's not — общая идея.",
+      "distractorWhy": "Don't hurry адресовано собеседнику.",
+      "distractorRationales": {
+        "Don't hurry.": "Don't hurry адресовано собеседнику.",
+        "You aren't in a hurry.": "Это состояние."
+      },
+      "skillTarget": "imperatives-and-lets",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I9",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct instruction with two actions.",
+      "options": [
+        "Open the app and check the lesson.",
+        "Open the app and checks the lesson.",
+        "To open the app and check the lesson."
+      ],
+      "answer": "Open the app and check the lesson.",
+      "accepted": [
+        "Open the app and check the lesson."
+      ],
+      "why": "Обе инструкции с V1.",
+      "distractorWhy": "Checks не V1.",
+      "distractorRationales": {
+        "Open the app and checks the lesson.": "Checks не V1.",
+        "To open the app and check the lesson.": "To лишнее."
+      },
+      "skillTarget": "imperatives-and-lets",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E1",
+      "group": "Выходная проверка",
+      "prompt": "Choose a warning using don't.",
+      "options": [
+        "Don't fall!",
+        "Don't falls!",
+        "Don't falling!"
+      ],
+      "answer": "Don't fall!",
+      "accepted": [
+        "Don't fall!"
+      ],
+      "why": "Don't + V1.",
+      "distractorWhy": "Falls не V1.",
+      "distractorRationales": {
+        "Don't falls!": "Falls не V1.",
+        "Don't falling!": "Falling не V1."
+      },
+      "skillTarget": "imperatives-and-lets",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E2",
+      "group": "Выходная проверка",
+      "prompt": "Choose the polite question rather than an imperative.",
+      "options": [
+        "Repeat that, please.",
+        "Let's repeat that.",
+        "Could you repeat that, please?"
+      ],
+      "answer": "Could you repeat that, please?",
+      "accepted": [
+        "Could you repeat that, please?"
+      ],
+      "why": "Could + subject + V1 — вопрос.",
+      "distractorWhy": "Это просьба в imperative.",
+      "distractorRationales": {
+        "Repeat that, please.": "Это просьба в imperative.",
+        "Let's repeat that.": "Это совместная идея."
+      },
+      "skillTarget": "imperatives-and-lets",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E3",
+      "group": "Выходная проверка",
+      "prompt": "Choose the instruction telling someone to have a seat.",
+      "options": [
+        "Has a seat, please.",
+        "Have a seat, please.",
+        "To have a seat, please."
+      ],
+      "answer": "Have a seat, please.",
+      "accepted": [
+        "Have a seat, please."
+      ],
+      "why": "Have — V1.",
+      "distractorWhy": "Has не V1.",
+      "distractorRationales": {
+        "Has a seat, please.": "Has не V1.",
+        "To have a seat, please.": "To лишнее."
+      },
+      "skillTarget": "imperatives-and-lets",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E4",
+      "group": "Выходная проверка",
+      "prompt": "Choose a joint suggestion using be.",
+      "options": [
+        "Let's be patient.",
+        "Let's are patient.",
+        "Let's to be patient."
+      ],
+      "answer": "Let's be patient.",
+      "accepted": [
+        "Let's be patient."
+      ],
+      "why": "Let's + be.",
+      "distractorWhy": "Are не V1.",
+      "distractorRationales": {
+        "Let's are patient.": "Are не V1.",
+        "Let's to be patient.": "To не нужен."
+      },
+      "skillTarget": "imperatives-and-lets",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E5",
+      "group": "Выходная проверка",
+      "prompt": "Choose the accurate rule for basic imperatives.",
+      "options": [
+        "Use does before every instruction.",
+        "Add -s to the verb for a single listener.",
+        "Use V1, or don't + V1 for a negative instruction."
+      ],
+      "answer": "Use V1, or don't + V1 for a negative instruction.",
+      "accepted": [
+        "Use V1, or don't + V1 for a negative instruction."
+      ],
+      "why": "Imperative использует V1.",
+      "distractorWhy": "Does не нужен.",
+      "distractorRationales": {
+        "Use does before every instruction.": "Does не нужен.",
+        "Add -s to the verb for a single listener.": "Число собеседников не меняет форму."
+      },
+      "skillTarget": "imperatives-and-lets",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "W1",
+      "group": "Самостоятельное применение",
+      "prompt": "Составь 8–10 реплик учебного диалога: три инструкции, два отрицания, просьба с please, пожелание и два совместных предложения (одно отрицательное).",
+      "open": true,
+      "rubric": [
+        "Imperative содержит V1.",
+        "Don't употреблено с V1.",
+        "Be используется правильно.",
+        "Please уместно.",
+        "Let's/Let's not различены.",
+        "Понятно, кому адресовано действие."
+      ],
+      "skillTarget": "Самостоятельное применение A1-16",
+      "interactionType": "open-production",
+      "difficulty": "transfer",
+      "sourceBasis": "Speakbase-authored open production; self-review rubric only until real AI feedback is connected",
+      "contentVersion": "1.1-draft"
+    }
+  ],
+  "markdown": "# Speakbase — A1-16: Imperatives and let's\n\n**Curriculum ID:** `A1-16`  \n**Уровень:** A1  \n**Версия:** 1.1-draft\n**Статус:** drafted; selected source text checked; full source-page and learner acceptance pending\n**Предварительные темы:** A1-01  \n**Связь со старым каталогом:** Нет — —\n\n## 1. Результаты обучения\n\n- Давать инструкции, советы и простые предложения; строить отрицательный императив\n- Выбирать целевую форму по значению, структуре предложения и контексту.\n- Объяснять, почему близкая грамматическая форма меняет смысл или регистр.\n- Находить и исправлять типичные ошибки русскоязычных студентов.\n\n## 2. Источники и статус сверки\n\n| Source | PDF navigation | Lesson-specific checks | Status |\n|---|---|---|---|\n| GR-01 U36 | PDF pages 83-84 (Unit 36) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-05 A2 p18 | PDF pages 18 (A2 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n\nUnit/page locations are navigation aids only. They do not prove that the cited explanation, examples, restrictions and answer key have been checked for this lesson. Examples and explanations below are Speakbase-authored, not quotations from the textbook.\n\nПеред переводом этого урока в source-verified необходимо открыть целевые страницы конкретного издания, записать печатную и PDF-пагинацию, сверить ограничения и исключения. Для GR-03 со сканированными страницами обязательна визуальная проверка.\n\n**Evidence for this editorial pass:** GR-01 Unit 36, theory text inspected PDF p. 83 (printed p. 82): imperative positive/negative, be, have, Let's/Let's not. Additional sources, exercises and visual verification pending. The selected source text was consulted; not all pages, exercises, editions, scanned GR-03 pages or GR-05 descriptors were checked. Author-created explanations and practice are not copied source exercises.\n\n## 3. Место темы и границы\n\nПокажи implied you, positive/negative imperatives, be-commands и let’s/let’s not. Обсуди, как please и интонация меняют прагматический тон.\n\nСтарый каталог содержит: —. Его статус — Нет. Старые отметки завершения не переносятся автоматически на новый постоянный ID. Тема рассматривается в уровне A1 и не заменяет обязательные prerequisites.\n\n## 4. Полный конспект\n\n### 4.1. Основная идея и функция конструкции\n\nImperative (повелительная форма) используется для инструкций, просьб, предупреждений и предложений действия собеседнику. Open the door — открой дверь. Please wait — пожалуйста, подожди. В обычной команде подлежащее you подразумевается, поэтому его не нужно писать.\n\nВ утверждении используется начальная форма без to и без -s: Read the text. В отрицании — don't + начальная форма: Don't read the answer yet. Be также употребляется в imperative: Be quiet. Don't be late. Это не обычный Present Simple, поэтому do/does не используются для утверждения. Let's означает «давай/давайте» и включает говорящего в предлагаемое действие.\n\n### 4.2. Формирование и грамматическая модель\n\n| Функция | Модель | Пример |\n|---|---|---|\n| Инструкция | V1 | Open the file. |\n| Просьба | Please + V1 | Please sit down. |\n| Запрет | Don't + V1 | Don't touch it. |\n| Состояние | Be + adjective | Be careful. |\n| Отрицание be | Don't be + adjective | Don't be late. |\n| Совместное действие | Let's + V1 | Let's start. |\n| Отрицательное предложение | Let's not + V1 | Let's not hurry. |\n\nPlease может стоять в начале или конце: Please wait. Wait here, please. Форма глагола одинакова для одного или нескольких собеседников: Come in. Have a nice day! — пожелание, Have some tea — предложение угоститься. Для совместной идеи употребляй Let's + V1: Let's study together. Сокращение Let's = let us в обычном предложении совместного действия.\n\n### 4.3. Как выбрать подходящую форму\n\nОпредели, кто должен действовать. Если обращаешься к собеседнику — V1/Don't + V1. Если предлагаешь сделать что-то вместе — Let's/Let's not + V1. Если речь о качестве или состоянии, используй be: Be careful. Для отрицательного состояния — Don't be.\n\nСравни Open the window (просьба/инструкция собеседнику), Can you open the window? (вежливый вопрос) и Let's open the window (предлагаем открыть вместе). Оттенок вежливости зависит от ситуации и интонации; please не делает любой приказ автоматически подходящим. Let's not go out — предложение не выходить, а Don't go out — просьба или запрет собеседнику.\n\n### 4.4. Сравнение с близкими конструкциями\n\n| Обращение к собеседнику | Совместное предложение |\n|---|---|\n| Read the instructions. | Let's read the instructions. |\n| Don't hurry. | Let's not hurry. |\n| Be quiet. | Let's be quiet. |\n| Please wait here. | Let's wait here. |\n\n### 4.5. Примеры с переводом и объяснением\n\n| English | Перевод | Почему это подходит |\n| --- | --- | --- |\n| Open your notebook. | Открой тетрадь. | V1 без subject. |\n| Please close the door. | Пожалуйста, закрой дверь. | Вежливая просьба. |\n| Don't write on the wall. | Не пиши на стене. | Don't + V1. |\n| Be careful with the glass. | Будь осторожна со стаканом. | Be + adjective. |\n| Let's take a break. | Давай сделаем перерыв. | Совместное предложение. |\n| Let's not start yet. | Давай пока не начнём. | Let's not + V1. |\n\n### 4.6. Исключения, ограничения и границы употребления\n\nОбычно imperative без явно названного you, но в английском возможны особые формы You stay here и Somebody call me при выделении исполнителя. Для A1 изучаем обычную модель. Не путай Don't be late с You aren't late: первое — инструкция, второе — сообщение о состоянии.\n\nDon't + V1 употребляется и с be: Don't be afraid. Let's not — обычная отрицательная форма совместного предложения; формы вроде Don't let's встречаются в отдельных вариантах английского, но здесь не являются целевой моделью. Let's go не означает разрешение как Let us go в буквальном значении «позвольте нам уйти». Be careful не требует am/is/are. В инструкциях шаги можно соединять and/then.\n\n### 4.7. Типичные ошибки русскоязычных студентов\n\n| Ошибка | Исправление | Объяснение |\n| --- | --- | --- |\n| To open the file! | Open the file! | Imperative требует V1 без to. |\n| Don't touches it. | Don't touch it. | После don't нужна V1. |\n| Don't are late. | Don't be late. | В imperative используется be. |\n| Let's to study. | Let's study. | После Let's нет to. |\n\n### 4.8. Произношение и восприятие на слух\n\nИнтонация помогает отличить спокойную просьбу от резкой команды. Произноси please и смысловой глагол; в предупреждениях Don't touch! отрицание может быть ударным. Let's произносится слитно. Отдельная аудиосверка открыта.\n\nСначала прослушай или прочитай пример, затем произнеси его целиком. Обрати внимание на смысловое ударение и форму конструкции; не ориентируйся только на буквенный перевод.\n\n### 4.9. Академический английский и TOEFL-перенос\n\nВ Listening понимай инструкции преподавателя и предложения совместного действия. В Speaking вежливо попроси повторить или предложи перерыв. В Writing формулируй короткие инструкции: Open the form and check your name. Это авторская практика A1.\n\nЭто авторская практика переноса навыка. Она не является официальным заданием TOEFL и не выдаётся за официальный результат экзамена.\n\n### 4.10. Примеры для управляемого разбора\n\n- Open your notebook. — Открой тетрадь. V1 без subject.\n- Please close the door. — Пожалуйста, закрой дверь. Вежливая просьба.\n- Don't write on the wall. — Не пиши на стене. Don't + V1.\n\nДля каждого примера назови целевую конструкцию, объясни выбор и составь новое предложение в другом контексте. Затем перейди к заданиям: сначала диагностика, затем управляемая и самостоятельная практика, затем новые вопросы выходной проверки.\n\n### 4.11. Самопроверка\n\nПеред отправкой ответа проверь:\n1. Imperative содержит V1.\n2. Don't употреблено с V1.\n3. Be используется правильно.\n4. Please уместно.\n5. Let's/Let's not различены.\n6. Понятно, кому адресовано действие.\n\n### 4.12. Краткая памятка\n\nImperative: V1, don't + V1. Be careful / Don't be late. Please смягчает просьбу. Let's + V1 — совместная идея; Let's not + V1 — предложение не делать. Не добавляй to или -s.\n\nНе выбирай форму только по одному знакомому слову: проверь контекст, значение и структуру. При ошибке вернись к соответствующей части конспекта и составь собственный пример.\n\n## 5. Практика\n\nВ приложении практика разделена на входную диагностику, управляемые задания, самостоятельную практику и новую выходную проверку. Закрытые ответы получают rationale и разбор ошибки. Свободный текст сохраняется и оценивается по рубрике; до подключения и реальной проверки AI-движка система не выдаёт его за автоматическую AI-оценку.\n\n## 6. Интервальное повторение\n\nПовторяй не весь урок автоматически, а конкретную ошибку: выбор формы, согласование, word order, значение, регистр или пунктуацию. Новая попытка должна менять лексический контекст и формулировку, чтобы проверять перенос, а не запоминание одной строки.\n\n## 7. Технический статус\n\n- Постоянный ID: `A1-16`.\n- Прогресс хранится отдельно в course.grammarLessons[\"A1-16\"].\n- Содержание и ключи имеют статус draft; 24 авторских закрытых задания и объяснения вычитаны, выбранные тексты источников проверены. Полная постраничная и пользовательская приёмка остаются открытыми.\n- Предварительное выполнение порогов не равно окончательному mastered: нужны отсроченное повторение и learner review.",
+  "theoryEnd": "## 5."
+}

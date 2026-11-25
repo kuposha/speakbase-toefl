@@ -1,0 +1,738 @@
+{
+  "id": "A1-17",
+  "level": "A1",
+  "sequence": "A1-17",
+  "grammarFamily": "A1-17",
+  "questionBankSource": "topic-specific-authored",
+  "sourceVerification": "draft; selected source text consulted; complete source-page and learner review pending",
+  "topicProfile": {
+    "label": "basic conjunctions and simple clauses",
+    "skillTarget": "basic-coordinating-conjunctions",
+    "core": "Conjunction (союз) связывает слова, части предложения и идеи. And — и, but — но, or — или, because — потому что, so — поэтому. Эти слова помогают сделать связный рассказ вместо отдельных коротких фраз. Например, I was tired. I went home. → I was tired, so I went home.",
+    "form": "| Союз | Связь | Пример |\n|---|---|---|\n| and | Добавление | I read and write. |\n| but | Контраст | I like tea, but I don't like coffee. |\n| or | Выбор | Tea or coffee? |\n| because | Причина | I stayed home because I was tired. |\n| so | Результат | I was tired, so I stayed home. |",
+    "selection": "Сначала определяй отношение между идеями. Добавление — and; противопоставление — but; варианты — or; ответ на «почему?» — because; ответ на «что из этого вышло?» — so. Проверь, чтобы логика была понятна. Если начало предложения Because…, нужна основная часть: Because it was late, we went home.",
+    "contrast": "| Первая идея | Связь и вторая идея |\n|---|---|\n| I like reading | and I like drawing. |\n| I like reading | but I don't like writing. |\n| We can study at home | or we can go to the library. |\n| I went home | because I was tired. |\n| I was tired | so I went home. |",
+    "boundary": "Перед but/so и другими сочинительными союзами, соединяющими самостоятельные clauses, в письменной речи часто ставится запятая. В коротких сочетаниях слов запятая не нужна: tea and coffee. Before because в конце предложения запятая обычно не нужна, если придаточная часть тесно связана с главной. Начальное because-clause обычно отделяется запятой.",
+    "pronunciation": "Делай небольшую паузу между самостоятельными частями, если нужно. And, but, or часто безударны; в Because it was LATE, I went HOME выделяются основные идеи. Не произноси союзы изолированно от контекста. Аудиосверка открыта.",
+    "examples": [
+      [
+        "I have a pen and a notebook.",
+        "У меня есть ручка и тетрадь.",
+        "And добавляет предмет."
+      ],
+      [
+        "The room is small, but it's clean.",
+        "Комната маленькая, но чистая.",
+        "But — контраст."
+      ],
+      [
+        "Would you like tea or coffee?",
+        "Хочешь чай или кофе?",
+        "Or — выбор."
+      ],
+      [
+        "I stayed at home because I was ill.",
+        "Я осталась дома, потому что заболела.",
+        "Because — причина."
+      ],
+      [
+        "It was cold, so I closed the window.",
+        "Было холодно, поэтому я закрыла окно.",
+        "So — результат."
+      ],
+      [
+        "Because the bus was late, I walked to college.",
+        "Поскольку автобус опаздывал, я пошла пешком.",
+        "Начальная причина с запятой."
+      ]
+    ],
+    "traps": [
+      [
+        "I like coffee but and tea.",
+        "I like coffee and tea.",
+        "Один союз соответствует добавлению."
+      ],
+      [
+        "I stayed home because the rain (clause).",
+        "I stayed home because it was raining.",
+        "Because требует clause."
+      ],
+      [
+        "Because I was tired, so I went home.",
+        "Because I was tired, I went home.",
+        "Не дублируй связь."
+      ],
+      [
+        "I like tea, because I don't like tea (contrast).",
+        "I like tea, but I don't like coffee.",
+        "But выражает контраст; проверь смысл."
+      ]
+    ],
+    "toefl": "В Listening и Reading распознавай добавление, контраст, причину и результат. В Speaking не ограничивайся ответом Yes: I like the class because it's useful. В Writing объединяй простые мысли без нарушения порядка слов. Это базовая практика, не официальный TOEFL."
+  },
+  "title": "Basic conjunctions and simple clauses",
+  "description": "Соединять простые предложения with and/but/or/because; понимать базовые отношения добавления, контраста и причины",
+  "cardDescription": "Теория, guided practice, самостоятельные задания и выходная проверка по постоянному ID A1-17.",
+  "eyebrow": "Полный урок программы A1-17 · drafted",
+  "contentVersion": "1.1-draft",
+  "curriculumVersion": "1.0",
+  "prerequisites": [
+    "A1-01",
+    "A1-05"
+  ],
+  "outcomes": [
+    "Соединять простые предложения with and/but/or/because; понимать базовые отношения добавления, контраста и причины",
+    "Выбирать целевую конструкцию по контексту и смыслу.",
+    "Исправлять типичные ошибки и переносить правило в новый пример."
+  ],
+  "sourceRefs": [
+    "GR-01 U98",
+    "GR-02 U113-120",
+    "GR-03 U79-82",
+    "GR-05 A1 p11"
+  ],
+  "sourceStatus": "selected source text consulted; full page verification pending",
+  "status": "drafted",
+  "legacyCoverage": "Частично",
+  "toeflLinks": [
+    "Writing: Build a Sentence",
+    "Reading: clause structure, reference, modifiers and logical relationships",
+    "Writing: Write an Email"
+  ],
+  "thresholds": {
+    "independent": 7,
+    "exit": 4,
+    "criticalIds": [
+      "E1",
+      "E2",
+      "E3"
+    ]
+  },
+  "groups": {
+    "independent": "Самостоятельная практика",
+    "exit": "Выходная проверка"
+  },
+  "items": [
+    {
+      "id": "D1",
+      "group": "Входная диагностика",
+      "prompt": "Choose the addition: I have a pencil ___ an eraser.",
+      "options": [
+        "but",
+        "and",
+        "because"
+      ],
+      "answer": "and",
+      "accepted": [
+        "and"
+      ],
+      "why": "And добавляет предмет.",
+      "distractorWhy": "But показывает контраст.",
+      "distractorRationales": {
+        "but": "But показывает контраст.",
+        "because": "Because вводит причину."
+      },
+      "skillTarget": "basic-coordinating-conjunctions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D2",
+      "group": "Входная диагностика",
+      "prompt": "Choose the contrast: The bag is small, ___ it's very useful.",
+      "options": [
+        "but",
+        "or",
+        "because"
+      ],
+      "answer": "but",
+      "accepted": [
+        "but"
+      ],
+      "why": "But противопоставляет размер и пользу.",
+      "distractorWhy": "Or предлагает выбор.",
+      "distractorRationales": {
+        "or": "Or предлагает выбор.",
+        "because": "Because не выражает заданный контраст."
+      },
+      "skillTarget": "basic-coordinating-conjunctions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D3",
+      "group": "Входная диагностика",
+      "prompt": "Choose the alternative: Do you want water ___ juice?",
+      "options": [
+        "because",
+        "so",
+        "or"
+      ],
+      "answer": "or",
+      "accepted": [
+        "or"
+      ],
+      "why": "Or предлагает варианты.",
+      "distractorWhy": "Because объясняет причину.",
+      "distractorRationales": {
+        "because": "Because объясняет причину.",
+        "so": "So показывает результат."
+      },
+      "skillTarget": "basic-coordinating-conjunctions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D4",
+      "group": "Входная диагностика",
+      "prompt": "Choose the reason connector: I'm tired ___ I worked all day.",
+      "options": [
+        "or",
+        "because",
+        "and then"
+      ],
+      "answer": "because",
+      "accepted": [
+        "because"
+      ],
+      "why": "Because объясняет усталость.",
+      "distractorWhy": "Or даёт выбор.",
+      "distractorRationales": {
+        "or": "Or даёт выбор.",
+        "and then": "And then выражает последовательность, не причину."
+      },
+      "skillTarget": "basic-coordinating-conjunctions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G1",
+      "group": "Управляемая практика",
+      "prompt": "Choose the result: The door was locked, ___ we waited outside.",
+      "options": [
+        "so",
+        "because of",
+        "or"
+      ],
+      "answer": "so",
+      "accepted": [
+        "so"
+      ],
+      "why": "So показывает следствие.",
+      "distractorWhy": "Because of требует noun phrase.",
+      "distractorRationales": {
+        "because of": "Because of требует noun phrase.",
+        "or": "Or не показывает результат."
+      },
+      "skillTarget": "basic-coordinating-conjunctions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G2",
+      "group": "Управляемая практика",
+      "prompt": "Choose the grammatical sentence with because.",
+      "options": [
+        "I stayed inside because cold it was.",
+        "I stayed inside because it cold.",
+        "I stayed inside because it was cold."
+      ],
+      "answer": "I stayed inside because it was cold.",
+      "accepted": [
+        "I stayed inside because it was cold."
+      ],
+      "why": "Because + subject + verb.",
+      "distractorWhy": "Неверный порядок.",
+      "distractorRationales": {
+        "I stayed inside because cold it was.": "Неверный порядок.",
+        "I stayed inside because it cold.": "Пропущено was."
+      },
+      "skillTarget": "basic-coordinating-conjunctions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G3",
+      "group": "Управляемая практика",
+      "prompt": "Choose the grammatical sentence with an initial reason.",
+      "options": [
+        "Because, I was hungry I ate a sandwich.",
+        "Because I was hungry, I ate a sandwich.",
+        "Because I hungry, I ate a sandwich."
+      ],
+      "answer": "Because I was hungry, I ate a sandwich.",
+      "accepted": [
+        "Because I was hungry, I ate a sandwich."
+      ],
+      "why": "Запятая после всей clause.",
+      "distractorWhy": "Неверное место запятой.",
+      "distractorRationales": {
+        "Because, I was hungry I ate a sandwich.": "Неверное место запятой.",
+        "Because I hungry, I ate a sandwich.": "Пропущено was."
+      },
+      "skillTarget": "basic-coordinating-conjunctions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G4",
+      "group": "Управляемая практика",
+      "prompt": "Choose the sentence expressing a result, not a cause.",
+      "options": [
+        "I missed the bus, so I walked.",
+        "I walked because I missed the bus.",
+        "I walked and listened to music."
+      ],
+      "answer": "I missed the bus, so I walked.",
+      "accepted": [
+        "I missed the bus, so I walked."
+      ],
+      "why": "So вводит результат.",
+      "distractorWhy": "Because вводит причину.",
+      "distractorRationales": {
+        "I walked because I missed the bus.": "Because вводит причину.",
+        "I walked and listened to music.": "And добавляет действие."
+      },
+      "skillTarget": "basic-coordinating-conjunctions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G5",
+      "group": "Управляемая практика",
+      "prompt": "Choose the equivalent reason form: It was cold, so I wore a jacket.",
+      "options": [
+        "It was cold because I wore a jacket.",
+        "I wore a jacket or it was cold.",
+        "I wore a jacket because it was cold."
+      ],
+      "answer": "I wore a jacket because it was cold.",
+      "accepted": [
+        "I wore a jacket because it was cold."
+      ],
+      "why": "Причина — холод, результат — куртка.",
+      "distractorWhy": "Причина и следствие поменяны.",
+      "distractorRationales": {
+        "It was cold because I wore a jacket.": "Причина и следствие поменяны.",
+        "I wore a jacket or it was cold.": "Or выражает выбор."
+      },
+      "skillTarget": "basic-coordinating-conjunctions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G6",
+      "group": "Управляемая практика",
+      "prompt": "Choose the sentence without redundant cause/result conjunctions.",
+      "options": [
+        "Because the shop was closed, so we went home.",
+        "Because the shop was closed, we went home.",
+        "Because of the shop was closed, we went home."
+      ],
+      "answer": "Because the shop was closed, we went home.",
+      "accepted": [
+        "Because the shop was closed, we went home."
+      ],
+      "why": "Одна причинная связь.",
+      "distractorWhy": "Because и so дублируются.",
+      "distractorRationales": {
+        "Because the shop was closed, so we went home.": "Because и so дублируются.",
+        "Because of the shop was closed, we went home.": "Because of не вводит clause."
+      },
+      "skillTarget": "basic-coordinating-conjunctions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I1",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the addition of two actions by one person.",
+      "options": [
+        "I opened the file and reads it.",
+        "I opened the file and reading it.",
+        "I opened the file and read it."
+      ],
+      "answer": "I opened the file and read it.",
+      "accepted": [
+        "I opened the file and read it."
+      ],
+      "why": "Два V2 с одним subject.",
+      "distractorWhy": "Reads — настоящее.",
+      "distractorRationales": {
+        "I opened the file and reads it.": "Reads — настоящее.",
+        "I opened the file and reading it.": "Reading не личная форма."
+      },
+      "skillTarget": "basic-coordinating-conjunctions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I2",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the sentence with different subjects correctly expressed.",
+      "options": [
+        "I read the text and wrote the answers (she wrote them).",
+        "I read the text and she wrote the answers.",
+        "I read the text and she write the answers yesterday."
+      ],
+      "answer": "I read the text and she wrote the answers.",
+      "accepted": [
+        "I read the text and she wrote the answers."
+      ],
+      "why": "Второй исполнитель — she.",
+      "distractorWhy": "Пропуск she меняет исполнителя.",
+      "distractorRationales": {
+        "I read the text and wrote the answers (she wrote them).": "Пропуск she меняет исполнителя.",
+        "I read the text and she write the answers yesterday.": "Write не V2."
+      },
+      "skillTarget": "basic-coordinating-conjunctions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I3",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose a list of three items.",
+      "options": [
+        "a pen, a notebook and a ruler",
+        "a pen and a notebook because a ruler",
+        "a pen so a notebook or a ruler as a list"
+      ],
+      "answer": "a pen, a notebook and a ruler",
+      "accepted": [
+        "a pen, a notebook and a ruler"
+      ],
+      "why": "Запятые и and соединяют перечень.",
+      "distractorWhy": "Because не перечисляет.",
+      "distractorRationales": {
+        "a pen and a notebook because a ruler": "Because не перечисляет.",
+        "a pen so a notebook or a ruler as a list": "So/or не передают обычное перечисление."
+      },
+      "skillTarget": "basic-coordinating-conjunctions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I4",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the contrast between a preference and a dislike.",
+      "options": [
+        "I like maths because I don't like history (contrast).",
+        "I like maths so I don't like history (contrast).",
+        "I like maths, but I don't like history."
+      ],
+      "answer": "I like maths, but I don't like history.",
+      "accepted": [
+        "I like maths, but I don't like history."
+      ],
+      "why": "But выражает противопоставление.",
+      "distractorWhy": "Because — причина.",
+      "distractorRationales": {
+        "I like maths because I don't like history (contrast).": "Because — причина.",
+        "I like maths so I don't like history (contrast).": "So — результат."
+      },
+      "skillTarget": "basic-coordinating-conjunctions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I5",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose a sentence presenting two possible study locations.",
+      "options": [
+        "We can study here because at the library.",
+        "We can study here or at the library.",
+        "We can study here so at the library."
+      ],
+      "answer": "We can study here or at the library.",
+      "accepted": [
+        "We can study here or at the library."
+      ],
+      "why": "Or соединяет альтернативы.",
+      "distractorWhy": "Because требует clause.",
+      "distractorRationales": {
+        "We can study here because at the library.": "Because требует clause.",
+        "We can study here so at the library.": "So не соединяет места как выбор."
+      },
+      "skillTarget": "basic-coordinating-conjunctions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I6",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct phrase with two adjectives.",
+      "options": [
+        "clean and comfortable",
+        "clean because comfortable",
+        "clean so comfortable as a list"
+      ],
+      "answer": "clean and comfortable",
+      "accepted": [
+        "clean and comfortable"
+      ],
+      "why": "And соединяет качества.",
+      "distractorWhy": "Because не соединяет два adjectives в этой модели.",
+      "distractorRationales": {
+        "clean because comfortable": "Because не соединяет два adjectives в этой модели.",
+        "clean so comfortable as a list": "So не обычный союз добавления."
+      },
+      "skillTarget": "basic-coordinating-conjunctions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I7",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose a grammatical result sentence.",
+      "options": [
+        "It was late, so we leave yesterday.",
+        "It was late, so we leaving.",
+        "It was late, so we left."
+      ],
+      "answer": "It was late, so we left.",
+      "accepted": [
+        "It was late, so we left."
+      ],
+      "why": "Две past clauses, result so.",
+      "distractorWhy": "Leave не соответствует прошлому событию.",
+      "distractorRationales": {
+        "It was late, so we leave yesterday.": "Leave не соответствует прошлому событию.",
+        "It was late, so we leaving.": "Leaving не сказуемое."
+      },
+      "skillTarget": "basic-coordinating-conjunctions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I8",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the question offering a choice of days.",
+      "options": [
+        "Monday because Tuesday?",
+        "Monday or Tuesday?",
+        "Monday so Tuesday?"
+      ],
+      "answer": "Monday or Tuesday?",
+      "accepted": [
+        "Monday or Tuesday?"
+      ],
+      "why": "Or предлагает выбор.",
+      "distractorWhy": "Because — причина.",
+      "distractorRationales": {
+        "Monday because Tuesday?": "Because — причина.",
+        "Monday so Tuesday?": "So — следствие."
+      },
+      "skillTarget": "basic-coordinating-conjunctions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I9",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the standard negative covering both drinks.",
+      "options": [
+        "I don't drink tea or coffee.",
+        "I don't drink tea because coffee.",
+        "I don't drink tea so coffee."
+      ],
+      "answer": "I don't drink tea or coffee.",
+      "accepted": [
+        "I don't drink tea or coffee."
+      ],
+      "why": "Or в отрицании охватывает обе альтернативы.",
+      "distractorWhy": "Because требует clause.",
+      "distractorRationales": {
+        "I don't drink tea because coffee.": "Because требует clause.",
+        "I don't drink tea so coffee.": "So не соединяет предметы так."
+      },
+      "skillTarget": "basic-coordinating-conjunctions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E1",
+      "group": "Выходная проверка",
+      "prompt": "Choose the clause that answers 'Why did you leave?'",
+      "options": [
+        "Because I had another lesson.",
+        "Or I had another lesson.",
+        "And I had another lesson as the reason marker."
+      ],
+      "answer": "Because I had another lesson.",
+      "accepted": [
+        "Because I had another lesson."
+      ],
+      "why": "Because вводит причину.",
+      "distractorWhy": "Or даёт выбор.",
+      "distractorRationales": {
+        "Or I had another lesson.": "Or даёт выбор.",
+        "And I had another lesson as the reason marker.": "And добавляет, не объясняет причину явно."
+      },
+      "skillTarget": "basic-coordinating-conjunctions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E2",
+      "group": "Выходная проверка",
+      "prompt": "Choose the correct sentence with because of and a noun phrase.",
+      "options": [
+        "We stayed home because of it snowed.",
+        "We stayed home because of the snow was heavy.",
+        "We stayed home because of the snow."
+      ],
+      "answer": "We stayed home because of the snow.",
+      "accepted": [
+        "We stayed home because of the snow."
+      ],
+      "why": "Because of + noun phrase.",
+      "distractorWhy": "It snowed — clause.",
+      "distractorRationales": {
+        "We stayed home because of it snowed.": "It snowed — clause.",
+        "We stayed home because of the snow was heavy.": "The snow was heavy — clause."
+      },
+      "skillTarget": "basic-coordinating-conjunctions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E3",
+      "group": "Выходная проверка",
+      "prompt": "Choose the punctuation for a normal initial because-clause.",
+      "options": [
+        "Because, the room was dark I turned on the light.",
+        "Because the room was dark, I turned on the light.",
+        "Because the room, was dark I turned on the light."
+      ],
+      "answer": "Because the room was dark, I turned on the light.",
+      "accepted": [
+        "Because the room was dark, I turned on the light."
+      ],
+      "why": "Запятая после придаточного.",
+      "distractorWhy": "Запятая сразу после because неверна.",
+      "distractorRationales": {
+        "Because, the room was dark I turned on the light.": "Запятая сразу после because неверна.",
+        "Because the room, was dark I turned on the light.": "Subject и verb не разделяются."
+      },
+      "skillTarget": "basic-coordinating-conjunctions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E4",
+      "group": "Выходная проверка",
+      "prompt": "Choose the correct connector when the second idea is an additional fact.",
+      "options": [
+        "The course has videos and exercises.",
+        "The course has videos because exercises.",
+        "The course has videos so exercises."
+      ],
+      "answer": "The course has videos and exercises.",
+      "accepted": [
+        "The course has videos and exercises."
+      ],
+      "why": "And добавляет вторую часть.",
+      "distractorWhy": "Because не вводит noun так.",
+      "distractorRationales": {
+        "The course has videos because exercises.": "Because не вводит noun так.",
+        "The course has videos so exercises.": "So не вводит noun-результат."
+      },
+      "skillTarget": "basic-coordinating-conjunctions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E5",
+      "group": "Выходная проверка",
+      "prompt": "Choose the accurate distinction between because and so.",
+      "options": [
+        "Because and so always mean exactly the same thing.",
+        "Or always introduces a reason.",
+        "Because introduces a reason; so can introduce a result."
+      ],
+      "answer": "Because introduces a reason; so can introduce a result.",
+      "accepted": [
+        "Because introduces a reason; so can introduce a result."
+      ],
+      "why": "Because — причина, so — результат.",
+      "distractorWhy": "Их функции различны.",
+      "distractorRationales": {
+        "Because and so always mean exactly the same thing.": "Их функции различны.",
+        "Or always introduces a reason.": "Or — выбор."
+      },
+      "skillTarget": "basic-coordinating-conjunctions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "W1",
+      "group": "Самостоятельное применение",
+      "prompt": "Напиши связный рассказ из 8–10 предложений о своём учебном дне. Используй and, but, or, because, so, одно перечисление и причину в начале предложения.",
+      "open": true,
+      "rubric": [
+        "And выражает добавление.",
+        "But выражает контраст.",
+        "Or выражает выбор.",
+        "Because вводит причину.",
+        "So вводит результат без дублирования.",
+        "Порядок слов и пунктуация понятны."
+      ],
+      "skillTarget": "Самостоятельное применение A1-17",
+      "interactionType": "open-production",
+      "difficulty": "transfer",
+      "sourceBasis": "Speakbase-authored open production; self-review rubric only until real AI feedback is connected",
+      "contentVersion": "1.1-draft"
+    }
+  ],
+  "markdown": "# Speakbase — A1-17: Basic conjunctions and simple clauses\n\n**Curriculum ID:** `A1-17`  \n**Уровень:** A1  \n**Версия:** 1.1-draft\n**Статус:** drafted; selected source text checked; full source-page and learner acceptance pending\n**Предварительные темы:** A1-01, A1-05  \n**Связь со старым каталогом:** Частично — №43 Concession and Contrast; №44 Cause and Result\n\n## 1. Результаты обучения\n\n- Соединять простые предложения with and/but/or/because; понимать базовые отношения добавления, контраста и причины\n- Выбирать целевую форму по значению, структуре предложения и контексту.\n- Объяснять, почему близкая грамматическая форма меняет смысл или регистр.\n- Находить и исправлять типичные ошибки русскоязычных студентов.\n\n## 2. Источники и статус сверки\n\n| Source | PDF navigation | Lesson-specific checks | Status |\n|---|---|---|---|\n| GR-01 U98 | PDF pages 207-208 (Unit 98) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-02 U113-120 | PDF pages 238-253 (Unit 113-120) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-03 U79-82 | PDF pages 182-189 (Unit 79-82) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-05 A1 p11 | PDF pages 11 (A1 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n\nUnit/page locations are navigation aids only. They do not prove that the cited explanation, examples, restrictions and answer key have been checked for this lesson. Examples and explanations below are Speakbase-authored, not quotations from the textbook.\n\nПеред переводом этого урока в source-verified необходимо открыть целевые страницы конкретного издания, записать печатную и PDF-пагинацию, сверить ограничения и исключения. Для GR-03 со сканированными страницами обязательна визуальная проверка.\n\n**Evidence for this editorial pass:** GR-01 Unit 98, theory text inspected PDF p. 207 (printed p. 206): and/but/or/so/because, coordination and reason. Additional source/exercise-page/visual verification pending. The selected source text was consulted; not all pages, exercises, editions, scanned GR-03 pages or GR-05 descriptors were checked. Author-created explanations and practice are not copied source exercises.\n\n## 3. Место темы и границы\n\nНа A1 сосредоточься на добавлении, контрасте, выборе и причине: and/but/or/because. Не перегружай урок терминологией сложных придаточных.\n\nСтарый каталог содержит: №43 Concession and Contrast; №44 Cause and Result. Его статус — Частично. Старые отметки завершения не переносятся автоматически на новый постоянный ID. Тема рассматривается в уровне A1 и не заменяет обязательные prerequisites.\n\n## 4. Полный конспект\n\n### 4.1. Основная идея и функция конструкции\n\nConjunction (союз) связывает слова, части предложения и идеи. And — и, but — но, or — или, because — потому что, so — поэтому. Эти слова помогают сделать связный рассказ вместо отдельных коротких фраз. Например, I was tired. I went home. → I was tired, so I went home.\n\nBecause объясняет причину, so показывает результат. I stayed home because I was ill — я осталась дома, потому что была больна. I was ill, so I stayed home — я была больна, поэтому осталась дома. Причина и результат те же, но порядок и союз различаются. And добавляет, but противопоставляет, or предлагает выбор.\n\n### 4.2. Формирование и грамматическая модель\n\n| Союз | Связь | Пример |\n|---|---|---|\n| and | Добавление | I read and write. |\n| but | Контраст | I like tea, but I don't like coffee. |\n| or | Выбор | Tea or coffee? |\n| because | Причина | I stayed home because I was tired. |\n| so | Результат | I was tired, so I stayed home. |\n\nAnd/but/or могут соединять отдельные слова или целые clauses. Clause содержит subject и verb, например she works. Если обе части имеют один subject, иногда его не повторяют: I opened the book and read the text. Если subject различается, укажи оба: I read the text and she took notes. При перечислении: a pen, a pencil and a notebook.\n\n### 4.3. Как выбрать подходящую форму\n\nСначала определяй отношение между идеями. Добавление — and; противопоставление — but; варианты — or; ответ на «почему?» — because; ответ на «что из этого вышло?» — so. Проверь, чтобы логика была понятна. Если начало предложения Because…, нужна основная часть: Because it was late, we went home.\n\nBecause + subject + verb: because the lesson was difficult. Because of + noun: because of the rain (подробнее A2). So в основной модели соединяет причину с результатом. Не дублируй Because it rained, so we stayed home. Выбирай Because it rained, we stayed home или It rained, so we stayed home.\n\n### 4.4. Сравнение с близкими конструкциями\n\n| Первая идея | Связь и вторая идея |\n|---|---|\n| I like reading | and I like drawing. |\n| I like reading | but I don't like writing. |\n| We can study at home | or we can go to the library. |\n| I went home | because I was tired. |\n| I was tired | so I went home. |\n\n### 4.5. Примеры с переводом и объяснением\n\n| English | Перевод | Почему это подходит |\n| --- | --- | --- |\n| I have a pen and a notebook. | У меня есть ручка и тетрадь. | And добавляет предмет. |\n| The room is small, but it's clean. | Комната маленькая, но чистая. | But — контраст. |\n| Would you like tea or coffee? | Хочешь чай или кофе? | Or — выбор. |\n| I stayed at home because I was ill. | Я осталась дома, потому что заболела. | Because — причина. |\n| It was cold, so I closed the window. | Было холодно, поэтому я закрыла окно. | So — результат. |\n| Because the bus was late, I walked to college. | Поскольку автобус опаздывал, я пошла пешком. | Начальная причина с запятой. |\n\n### 4.6. Исключения, ограничения и границы употребления\n\nПеред but/so и другими сочинительными союзами, соединяющими самостоятельные clauses, в письменной речи часто ставится запятая. В коротких сочетаниях слов запятая не нужна: tea and coffee. Before because в конце предложения запятая обычно не нужна, если придаточная часть тесно связана с главной. Начальное because-clause обычно отделяется запятой.\n\nOr в отрицании может выражать отсутствие обеих альтернатив: I don't drink tea or coffee. And соединяет не только предложения, но и прилагательные: clean and comfortable. But показывает различие или неожиданное ограничение, не обязательно конфликт. So может также быть усилителем (so tired), но здесь изучаем союз результата. Then обозначает последовательность; он не равнозначен so, поскольку последовательность не всегда причина.\n\n### 4.7. Типичные ошибки русскоязычных студентов\n\n| Ошибка | Исправление | Объяснение |\n| --- | --- | --- |\n| I like coffee but and tea. | I like coffee and tea. | Один союз соответствует добавлению. |\n| I stayed home because the rain (clause). | I stayed home because it was raining. | Because требует clause. |\n| Because I was tired, so I went home. | Because I was tired, I went home. | Не дублируй связь. |\n| I like tea, because I don't like tea (contrast). | I like tea, but I don't like coffee. | But выражает контраст; проверь смысл. |\n\n### 4.8. Произношение и восприятие на слух\n\nДелай небольшую паузу между самостоятельными частями, если нужно. And, but, or часто безударны; в Because it was LATE, I went HOME выделяются основные идеи. Не произноси союзы изолированно от контекста. Аудиосверка открыта.\n\nСначала прослушай или прочитай пример, затем произнеси его целиком. Обрати внимание на смысловое ударение и форму конструкции; не ориентируйся только на буквенный перевод.\n\n### 4.9. Академический английский и TOEFL-перенос\n\nВ Listening и Reading распознавай добавление, контраст, причину и результат. В Speaking не ограничивайся ответом Yes: I like the class because it's useful. В Writing объединяй простые мысли без нарушения порядка слов. Это базовая практика, не официальный TOEFL.\n\nЭто авторская практика переноса навыка. Она не является официальным заданием TOEFL и не выдаётся за официальный результат экзамена.\n\n### 4.10. Примеры для управляемого разбора\n\n- I have a pen and a notebook. — У меня есть ручка и тетрадь. And добавляет предмет.\n- The room is small, but it's clean. — Комната маленькая, но чистая. But — контраст.\n- Would you like tea or coffee? — Хочешь чай или кофе? Or — выбор.\n\nДля каждого примера назови целевую конструкцию, объясни выбор и составь новое предложение в другом контексте. Затем перейди к заданиям: сначала диагностика, затем управляемая и самостоятельная практика, затем новые вопросы выходной проверки.\n\n### 4.11. Самопроверка\n\nПеред отправкой ответа проверь:\n1. And выражает добавление.\n2. But выражает контраст.\n3. Or выражает выбор.\n4. Because вводит причину.\n5. So вводит результат без дублирования.\n6. Порядок слов и пунктуация понятны.\n\n### 4.12. Краткая памятка\n\nAnd — добавление, but — контраст, or — выбор, because + clause — причина, so + clause — результат. Не дублируй because…so. Сохраняй subject и verb, если они нужны. Проверяй смысл и пунктуацию.\n\nНе выбирай форму только по одному знакомому слову: проверь контекст, значение и структуру. При ошибке вернись к соответствующей части конспекта и составь собственный пример.\n\n## 5. Практика\n\nВ приложении практика разделена на входную диагностику, управляемые задания, самостоятельную практику и новую выходную проверку. Закрытые ответы получают rationale и разбор ошибки. Свободный текст сохраняется и оценивается по рубрике; до подключения и реальной проверки AI-движка система не выдаёт его за автоматическую AI-оценку.\n\n## 6. Интервальное повторение\n\nПовторяй не весь урок автоматически, а конкретную ошибку: выбор формы, согласование, word order, значение, регистр или пунктуацию. Новая попытка должна менять лексический контекст и формулировку, чтобы проверять перенос, а не запоминание одной строки.\n\n## 7. Технический статус\n\n- Постоянный ID: `A1-17`.\n- Прогресс хранится отдельно в course.grammarLessons[\"A1-17\"].\n- Содержание и ключи имеют статус draft; 24 авторских закрытых задания и объяснения вычитаны, выбранные тексты источников проверены. Полная постраничная и пользовательская приёмка остаются открытыми.\n- Предварительное выполнение порогов не равно окончательному mastered: нужны отсроченное повторение и learner review.",
+  "theoryEnd": "## 5."
+}
