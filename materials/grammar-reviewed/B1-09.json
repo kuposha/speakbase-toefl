@@ -1,0 +1,737 @@
+{
+  "id": "B1-09",
+  "level": "B1",
+  "sequence": "B1-09",
+  "grammarFamily": "B1-09",
+  "questionBankSource": "topic-specific-authored",
+  "sourceVerification": "draft; selected source text consulted; complete source-page and learner review pending",
+  "topicProfile": {
+    "label": "modals for obligation, advice and probability",
+    "skillTarget": "modals-obligation-advice-probability",
+    "core": "Модальные глаголы выражают отношение говорящего к действию: необходимость, запрет, совет, разрешение, способность или возможность. Важно не просто перевести «мочь» и «должен», а определить функцию высказывания.",
+    "form": "| Значение | Модель | Пример |\n|---|---|---|\n| Необходимость | must / have to + V1 | I must leave. |\n| Нет необходимости | don't have to / needn't + V1 | You needn't come. |\n| Запрет | mustn't / can't + V1 | You mustn't enter. |\n| Совет | should / ought to + V1 | You should check it. |\n| Срочный совет | had better + V1 | You'd better leave now. |\n| Разрешение | can / may + V1 | You may sit here. |\n| Возможность | may / might / could + V1 | It might rain. |",
+    "selection": "Определи, это требование, необходимость, совет, разрешение, запрет или предположение. Для отсутствия необходимости выбирай don't have to или needn't, для запрета — mustn't/can't. Для совета — should, для конкретного предупреждения с возможным неприятным последствием — had better. Для неопределённой возможности — may/might/could.",
+    "contrast": "| Пример | Смысл |\n|---|---|\n| You must wear a helmet. | Это обязательно. |\n| You mustn't touch the wire. | Это запрещено. |\n| You don't have to bring a laptop. | Ноутбук приносить необязательно. |\n| You should save a copy. | Это разумный совет. |\n| You'd better save it now. | Конкретное предупреждение. |\n| The tutor might be busy. | Возможно, преподаватель занят. |",
+    "boundary": "Mustn't означает запрет, а не отсутствие необходимости. Needn't и don't need to могут передавать близкое значение. Had better относится к настоящему/будущему, несмотря на had. Ought to сохраняет to. Модальное should может также выражать ожидание, а must — вывод на основании признаков.",
+    "pronunciation": "Слушай сокращения mustn't, shouldn't, can't, needn't и смысловые ударения. В You MUST submit it выделяется необходимость; в You DON'T have to submit it важна отрицательная часть. Had better часто сокращается до 'd better.",
+    "examples": [
+      [
+        "You must wear safety glasses in this lab.",
+        "В этой лаборатории обязательно носить защитные очки.",
+        "Требование."
+      ],
+      [
+        "You don't have to print the form.",
+        "Необязательно печатать бланк.",
+        "Отсутствие обязанности."
+      ],
+      [
+        "You mustn't share your password.",
+        "Нельзя сообщать свой пароль.",
+        "Запрет."
+      ],
+      [
+        "She had to leave early yesterday.",
+        "Вчера ей пришлось уйти рано.",
+        "Прошлая необходимость."
+      ],
+      [
+        "You ought to check the deadline.",
+        "Тебе стоит проверить срок.",
+        "Совет."
+      ],
+      [
+        "The library might be closed today.",
+        "Возможно, библиотека сегодня закрыта.",
+        "Неуверенное предположение."
+      ]
+    ],
+    "traps": [
+      [
+        "He musts attend.",
+        "He must attend.",
+        "Модальный глагол не принимает -s."
+      ],
+      [
+        "You must to register.",
+        "You must register.",
+        "После must используется V1 без to."
+      ],
+      [
+        "Did she had to work?",
+        "Did she have to work?",
+        "После did нужна V1 have."
+      ],
+      [
+        "You mustn't come (если приход необязателен).",
+        "You don't have to come.",
+        "Mustn't выражает запрет."
+      ]
+    ],
+    "toefl": "В Listening различай обязательные требования, советы и факультативные действия в университетских объявлениях. В Speaking давай рекомендации с should/could, а в Writing используй must только для действительно обязательного или обоснованного сильного утверждения. Например, Students should check the schedule before registering — рекомендация, не официальное правило."
+  },
+  "title": "Modals for obligation, advice and probability",
+  "description": "Точно различать must/have to/needn't/should/ought to/may/might/can't",
+  "cardDescription": "Теория, guided practice, самостоятельные задания и выходная проверка по постоянному ID B1-09.",
+  "eyebrow": "Полный урок программы B1-09 · drafted",
+  "contentVersion": "1.1-draft",
+  "curriculumVersion": "1.0",
+  "prerequisites": [
+    "A2-07"
+  ],
+  "outcomes": [
+    "Точно различать must/have to/needn't/should/ought to/may/might/can't",
+    "Выбирать целевую конструкцию по контексту и смыслу.",
+    "Исправлять типичные ошибки и переносить правило в новый пример."
+  ],
+  "sourceRefs": [
+    "GR-02 U28-37",
+    "GR-03 U15-20",
+    "GR-05 B1 p36-46"
+  ],
+  "sourceStatus": "selected source text consulted; full page verification pending",
+  "status": "drafted",
+  "legacyCoverage": "Частично",
+  "toeflLinks": [
+    "Writing: Build a Sentence",
+    "Listening: tense/aspect, modality, weak forms and discourse cues",
+    "Speaking: Listen and Repeat / Take an Interview",
+    "Writing: Academic Discussion"
+  ],
+  "thresholds": {
+    "independent": 7,
+    "exit": 4,
+    "criticalIds": [
+      "E1",
+      "E2",
+      "E3"
+    ]
+  },
+  "groups": {
+    "independent": "Самостоятельная практика",
+    "exit": "Выходная проверка"
+  },
+  "items": [
+    {
+      "id": "D1",
+      "group": "Входная диагностика",
+      "prompt": "The notice says safety glasses are compulsory. Visitors ___ wear them.",
+      "options": [
+        "must to",
+        "must",
+        "musts"
+      ],
+      "answer": "must",
+      "accepted": [
+        "must"
+      ],
+      "why": "Must выражает обязательность и требует V1.",
+      "distractorWhy": "To после must не нужно.",
+      "distractorRationales": {
+        "must to": "To после must не нужно.",
+        "musts": "У must нет окончания -s."
+      },
+      "skillTarget": "modals-obligation-advice-probability",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D2",
+      "group": "Входная диагностика",
+      "prompt": "Submission tomorrow is also allowed. You ___ submit the form today.",
+      "options": [
+        "don't have to",
+        "mustn't",
+        "can't"
+      ],
+      "answer": "don't have to",
+      "accepted": [
+        "don't have to"
+      ],
+      "why": "Don't have to означает отсутствие необходимости.",
+      "distractorWhy": "Mustn't означало бы запрет.",
+      "distractorRationales": {
+        "mustn't": "Mustn't означало бы запрет.",
+        "can't": "Can't означало бы невозможность или запрет."
+      },
+      "skillTarget": "modals-obligation-advice-probability",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D3",
+      "group": "Входная диагностика",
+      "prompt": "Entry is forbidden. You ___ enter this room.",
+      "options": [
+        "don't have to",
+        "should",
+        "mustn't"
+      ],
+      "answer": "mustn't",
+      "accepted": [
+        "mustn't"
+      ],
+      "why": "Mustn't выражает запрет.",
+      "distractorWhy": "Необязательно — не запрет.",
+      "distractorRationales": {
+        "don't have to": "Необязательно — не запрет.",
+        "should": "Should даёт рекомендацию войти."
+      },
+      "skillTarget": "modals-obligation-advice-probability",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D4",
+      "group": "Входная диагностика",
+      "prompt": "Choose the advice with should.",
+      "options": [
+        "You should to check the timetable.",
+        "You should check the timetable.",
+        "You should checks the timetable."
+      ],
+      "answer": "You should check the timetable.",
+      "accepted": [
+        "You should check the timetable."
+      ],
+      "why": "Should + V1 выражает совет.",
+      "distractorWhy": "To не ставится после should.",
+      "distractorRationales": {
+        "You should to check the timetable.": "To не ставится после should.",
+        "You should checks the timetable.": "V1 не принимает -s."
+      },
+      "skillTarget": "modals-obligation-advice-probability",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G1",
+      "group": "Управляемая практика",
+      "prompt": "___ we have to register before the lecture?",
+      "options": [
+        "Do",
+        "Are",
+        "Must to"
+      ],
+      "answer": "Do",
+      "accepted": [
+        "Do"
+      ],
+      "why": "Вопрос have to в Present Simple требует do.",
+      "distractorWhy": "Are не образует этот вопрос.",
+      "distractorRationales": {
+        "Are": "Are не образует этот вопрос.",
+        "Must to": "Must to не является правильной конструкцией."
+      },
+      "skillTarget": "modals-obligation-advice-probability",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G2",
+      "group": "Управляемая практика",
+      "prompt": "The museum may be open. What does may express here?",
+      "options": [
+        "An absolute requirement.",
+        "A definite prohibition.",
+        "An uncertain possibility."
+      ],
+      "answer": "An uncertain possibility.",
+      "accepted": [
+        "An uncertain possibility."
+      ],
+      "why": "May показывает возможность.",
+      "distractorWhy": "Не утверждается обязанность.",
+      "distractorRationales": {
+        "An absolute requirement.": "Не утверждается обязанность.",
+        "A definite prohibition.": "Запрета нет."
+      },
+      "skillTarget": "modals-obligation-advice-probability",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G3",
+      "group": "Управляемая практика",
+      "prompt": "Computers are provided. You ___ bring a laptop.",
+      "options": [
+        "mustn't",
+        "needn't",
+        "can't"
+      ],
+      "answer": "needn't",
+      "accepted": [
+        "needn't"
+      ],
+      "why": "Needn't означает отсутствие необходимости.",
+      "distractorWhy": "Mustn't запрещало бы приносить ноутбук.",
+      "distractorRationales": {
+        "mustn't": "Mustn't запрещало бы приносить ноутбук.",
+        "can't": "Can't утверждало бы невозможность."
+      },
+      "skillTarget": "modals-obligation-advice-probability",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G4",
+      "group": "Управляемая практика",
+      "prompt": "Yesterday she ___ attend a compulsory meeting.",
+      "options": [
+        "had to",
+        "musted",
+        "has to"
+      ],
+      "answer": "had to",
+      "accepted": [
+        "had to"
+      ],
+      "why": "Had to выражает прошлую обязанность.",
+      "distractorWhy": "Musted не существует.",
+      "distractorRationales": {
+        "musted": "Musted не существует.",
+        "has to": "Has to относится к настоящему."
+      },
+      "skillTarget": "modals-obligation-advice-probability",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G5",
+      "group": "Управляемая практика",
+      "prompt": "Choose the future obligation.",
+      "options": [
+        "We will must register next week.",
+        "We will has to register next week.",
+        "We will have to register next week."
+      ],
+      "answer": "We will have to register next week.",
+      "accepted": [
+        "We will have to register next week."
+      ],
+      "why": "Will have to выражает будущую необходимость.",
+      "distractorWhy": "Два центральных модальных глагола не соединяются так.",
+      "distractorRationales": {
+        "We will must register next week.": "Два центральных модальных глагола не соединяются так.",
+        "We will has to register next week.": "После will нужна V1 have."
+      },
+      "skillTarget": "modals-obligation-advice-probability",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G6",
+      "group": "Управляемая практика",
+      "prompt": "Choose the correct ought-to advice.",
+      "options": [
+        "You ought rest.",
+        "You ought to rest.",
+        "You ought to resting."
+      ],
+      "answer": "You ought to rest.",
+      "accepted": [
+        "You ought to rest."
+      ],
+      "why": "Ought to + V1.",
+      "distractorWhy": "Для этой модели нужен to.",
+      "distractorRationales": {
+        "You ought rest.": "Для этой модели нужен to.",
+        "You ought to resting.": "Resting не V1."
+      },
+      "skillTarget": "modals-obligation-advice-probability",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I1",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct warning with had better.",
+      "options": [
+        "You'd better to leave before the last bus.",
+        "You'd better leaving before the last bus.",
+        "You'd better leave before the last bus."
+      ],
+      "answer": "You'd better leave before the last bus.",
+      "accepted": [
+        "You'd better leave before the last bus."
+      ],
+      "why": "Had better + V1 выражает конкретный совет.",
+      "distractorWhy": "To не нужен.",
+      "distractorRationales": {
+        "You'd better to leave before the last bus.": "To не нужен.",
+        "You'd better leaving before the last bus.": "Leaving не V1."
+      },
+      "skillTarget": "modals-obligation-advice-probability",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I2",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the formal permission with may.",
+      "options": [
+        "You may to use this desk.",
+        "You may use this desk.",
+        "You may uses this desk."
+      ],
+      "answer": "You may use this desk.",
+      "accepted": [
+        "You may use this desk."
+      ],
+      "why": "May + V1 может давать разрешение.",
+      "distractorWhy": "To после may не нужен.",
+      "distractorRationales": {
+        "You may to use this desk.": "To после may не нужен.",
+        "You may uses this desk.": "После may нет -s."
+      },
+      "skillTarget": "modals-obligation-advice-probability",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I3",
+      "group": "Самостоятельная практика",
+      "prompt": "Which sentence explicitly asks about a past obligation?",
+      "options": [
+        "Did you have to work yesterday?",
+        "Must you work tomorrow?",
+        "Do you have to work today?"
+      ],
+      "answer": "Did you have to work yesterday?",
+      "accepted": [
+        "Did you have to work yesterday?"
+      ],
+      "why": "Did + have to относится к прошлому.",
+      "distractorWhy": "Это вопрос о будущем.",
+      "distractorRationales": {
+        "Must you work tomorrow?": "Это вопрос о будущем.",
+        "Do you have to work today?": "Это вопрос о настоящем."
+      },
+      "skillTarget": "modals-obligation-advice-probability",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I4",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct third-person obligation.",
+      "options": [
+        "She have to finish the report.",
+        "She musts finish the report.",
+        "She has to finish the report."
+      ],
+      "answer": "She has to finish the report.",
+      "accepted": [
+        "She has to finish the report."
+      ],
+      "why": "Have to принимает has с she.",
+      "distractorWhy": "Have не согласуется с she.",
+      "distractorRationales": {
+        "She have to finish the report.": "Have не согласуется с she.",
+        "She musts finish the report.": "Must не принимает -s."
+      },
+      "skillTarget": "modals-obligation-advice-probability",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I5",
+      "group": "Самостоятельная практика",
+      "prompt": "The procedure is optional. Choose a natural negative obligation.",
+      "options": [
+        "Students mustn't attend.",
+        "Students don't need to attend.",
+        "Students shouldn't to attend."
+      ],
+      "answer": "Students don't need to attend.",
+      "accepted": [
+        "Students don't need to attend."
+      ],
+      "why": "Don't need to означает необязательно.",
+      "distractorWhy": "Mustn't означает запрещено.",
+      "distractorRationales": {
+        "Students mustn't attend.": "Mustn't означает запрещено.",
+        "Students shouldn't to attend.": "После shouldn't не ставят to."
+      },
+      "skillTarget": "modals-obligation-advice-probability",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I6",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the grammatical question with must.",
+      "options": [
+        "Must I bring my ID?",
+        "Do I must bring my ID?",
+        "Must I to bring my ID?"
+      ],
+      "answer": "Must I bring my ID?",
+      "accepted": [
+        "Must I bring my ID?"
+      ],
+      "why": "Must ставится перед subject без do.",
+      "distractorWhy": "Do не добавляется к must.",
+      "distractorRationales": {
+        "Do I must bring my ID?": "Do не добавляется к must.",
+        "Must I to bring my ID?": "To не нужен."
+      },
+      "skillTarget": "modals-obligation-advice-probability",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I7",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct polite request with could.",
+      "options": [
+        "Could you to explain the rule?",
+        "Could you explained the rule?",
+        "Could you explain the rule?"
+      ],
+      "answer": "Could you explain the rule?",
+      "accepted": [
+        "Could you explain the rule?"
+      ],
+      "why": "Could + subject + V1 образует просьбу.",
+      "distractorWhy": "To не требуется.",
+      "distractorRationales": {
+        "Could you to explain the rule?": "To не требуется.",
+        "Could you explained the rule?": "Explained не V1."
+      },
+      "skillTarget": "modals-obligation-advice-probability",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I8",
+      "group": "Самостоятельная практика",
+      "prompt": "What is the meaning of 'You mustn't park here'?",
+      "options": [
+        "Parking here is optional.",
+        "Parking here is forbidden.",
+        "Parking here is recommended."
+      ],
+      "answer": "Parking here is forbidden.",
+      "accepted": [
+        "Parking here is forbidden."
+      ],
+      "why": "Mustn't выражает запрет.",
+      "distractorWhy": "Отсутствие обязанности выражают don't have to.",
+      "distractorRationales": {
+        "Parking here is optional.": "Отсутствие обязанности выражают don't have to.",
+        "Parking here is recommended.": "Should выражает рекомендацию."
+      },
+      "skillTarget": "modals-obligation-advice-probability",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I9",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the modal sentence describing a general possibility.",
+      "options": [
+        "Roads can be slippery in winter.",
+        "Roads can to be slippery in winter.",
+        "Roads cans be slippery in winter."
+      ],
+      "answer": "Roads can be slippery in winter.",
+      "accepted": [
+        "Roads can be slippery in winter."
+      ],
+      "why": "Can + V1 выражает общую возможность.",
+      "distractorWhy": "To после can не нужен.",
+      "distractorRationales": {
+        "Roads can to be slippery in winter.": "To после can не нужен.",
+        "Roads cans be slippery in winter.": "Can не принимает -s."
+      },
+      "skillTarget": "modals-obligation-advice-probability",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E1",
+      "group": "Выходная проверка",
+      "prompt": "Choose the correct absence of obligation in the past.",
+      "options": [
+        "We didn't have to pay yesterday.",
+        "We didn't had to pay yesterday.",
+        "We mustn't paid yesterday."
+      ],
+      "answer": "We didn't have to pay yesterday.",
+      "accepted": [
+        "We didn't have to pay yesterday."
+      ],
+      "why": "Didn't have to сообщает, что платить не требовалось.",
+      "distractorWhy": "После did нужна V1.",
+      "distractorRationales": {
+        "We didn't had to pay yesterday.": "После did нужна V1.",
+        "We mustn't paid yesterday.": "Mustn't не выражает отсутствие прошлой обязанности."
+      },
+      "skillTarget": "modals-obligation-advice-probability",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E2",
+      "group": "Выходная проверка",
+      "prompt": "Choose the standard negative advice with should.",
+      "options": [
+        "You shouldn't to ignore the warning.",
+        "You shouldn't ignored the warning.",
+        "You shouldn't ignore the warning."
+      ],
+      "answer": "You shouldn't ignore the warning.",
+      "accepted": [
+        "You shouldn't ignore the warning."
+      ],
+      "why": "Shouldn't + V1.",
+      "distractorWhy": "To не нужен.",
+      "distractorRationales": {
+        "You shouldn't to ignore the warning.": "To не нужен.",
+        "You shouldn't ignored the warning.": "Ignored не V1."
+      },
+      "skillTarget": "modals-obligation-advice-probability",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E3",
+      "group": "Выходная проверка",
+      "prompt": "Which sentence expresses a recommendation rather than a strict rule?",
+      "options": [
+        "You must obey the safety rules.",
+        "You should read the guide.",
+        "You mustn't enter this room."
+      ],
+      "answer": "You should read the guide.",
+      "accepted": [
+        "You should read the guide."
+      ],
+      "why": "Should обозначает совет.",
+      "distractorWhy": "Must обозначает требование.",
+      "distractorRationales": {
+        "You must obey the safety rules.": "Must обозначает требование.",
+        "You mustn't enter this room.": "Mustn't обозначает запрет."
+      },
+      "skillTarget": "modals-obligation-advice-probability",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E4",
+      "group": "Выходная проверка",
+      "prompt": "Choose the natural answer to 'Must I print it?' when printing is optional.",
+      "options": [
+        "No, you don't have to.",
+        "No, you mustn't.",
+        "No, you should to."
+      ],
+      "answer": "No, you don't have to.",
+      "accepted": [
+        "No, you don't have to."
+      ],
+      "why": "Нет необходимости — don't have to.",
+      "distractorWhy": "Mustn't означало бы запрет.",
+      "distractorRationales": {
+        "No, you mustn't.": "Mustn't означало бы запрет.",
+        "No, you should to.": "Should to неверно."
+      },
+      "skillTarget": "modals-obligation-advice-probability",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E5",
+      "group": "Выходная проверка",
+      "prompt": "The appointment may be cancelled. Choose the grammatical possibility sentence.",
+      "options": [
+        "It might to be cancelled.",
+        "It might is cancelled.",
+        "It might be cancelled."
+      ],
+      "answer": "It might be cancelled.",
+      "accepted": [
+        "It might be cancelled."
+      ],
+      "why": "Might + be + V3 выражает возможность в пассиве.",
+      "distractorWhy": "To после might не нужен.",
+      "distractorRationales": {
+        "It might to be cancelled.": "To после might не нужен.",
+        "It might is cancelled.": "После might нужна V1 be."
+      },
+      "skillTarget": "modals-obligation-advice-probability",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "W1",
+      "group": "Самостоятельное применение",
+      "prompt": "Напиши правила и советы для нового студента (6–8 предложений): обязанность, запрет, отсутствие необходимости, совет, возможность, разрешение и вопрос о прошлой обязанности.",
+      "open": true,
+      "rubric": [
+        "Различены обязательность и совет.",
+        "Запрет не перепутан с отсутствием обязанности.",
+        "После модальных стоит V1.",
+        "Have to корректно изменяется по времени и лицу.",
+        "Вопрос и отрицание построены правильно.",
+        "Контекст объясняет выбор модального значения."
+      ],
+      "skillTarget": "Самостоятельное применение B1-09",
+      "interactionType": "open-production",
+      "difficulty": "transfer",
+      "sourceBasis": "Speakbase-authored open production; self-review rubric only until real AI feedback is connected",
+      "contentVersion": "1.1-draft"
+    }
+  ],
+  "markdown": "# Speakbase — B1-09: Modals for obligation, advice and probability\n\n**Curriculum ID:** `B1-09`  \n**Уровень:** B1  \n**Версия:** 1.1-draft\n**Статус:** drafted; selected source text checked; full source-page and learner acceptance pending\n**Предварительные темы:** A2-07  \n**Связь со старым каталогом:** Частично — №10 Modal verbs; №37 Modal Deduction\n\n## 1. Результаты обучения\n\n- Точно различать must/have to/needn't/should/ought to/may/might/can't\n- Выбирать целевую форму по значению, структуре предложения и контексту.\n- Объяснять, почему близкая грамматическая форма меняет смысл или регистр.\n- Находить и исправлять типичные ошибки русскоязычных студентов.\n\n## 2. Источники и статус сверки\n\n| Source | PDF navigation | Lesson-specific checks | Status |\n|---|---|---|---|\n| GR-02 U28-37 | PDF pages 68-87 (Unit 28-37) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-03 U15-20 | PDF pages 54-65 (Unit 15-20) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-05 B1 p36-46 | PDF pages 36-46 (B1 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n\nUnit/page locations are navigation aids only. They do not prove that the cited explanation, examples, restrictions and answer key have been checked for this lesson. Examples and explanations below are Speakbase-authored, not quotations from the textbook.\n\nПеред переводом этого урока в source-verified необходимо открыть целевые страницы конкретного издания, записать печатную и PDF-пагинацию, сверить ограничения и исключения. Для GR-03 со сканированными страницами обязательна визуальная проверка.\n\n**Evidence for this editorial pass:** GR-02 selected theory text: Units 28–35 and 37, PDF pp. 68–82 (even pages) and 86 (printed pp. 56–70 and 74); GR-05 B1 pp. 36 and 46 selected modality descriptors. The selected source text was consulted; not all pages, exercises, editions, scanned GR-03 pages or GR-05 descriptors were checked. Author-created explanations and practice are not copied source exercises.\n\n## 3. Место темы и границы\n\nСистематизируй степень обязанности, необходимости, совета и вероятности. Разделяй семантическую силу и грамматическую форму.\n\nСтарый каталог содержит: №10 Modal verbs; №37 Modal Deduction. Его статус — Частично. Старые отметки завершения не переносятся автоматически на новый постоянный ID. Тема рассматривается в уровне B1 и не заменяет обязательные prerequisites.\n\n## 4. Полный конспект\n\n### 4.1. Основная идея и функция конструкции\n\nМодальные глаголы выражают отношение говорящего к действию: необходимость, запрет, совет, разрешение, способность или возможность. Важно не просто перевести «мочь» и «должен», а определить функцию высказывания.\n\nСравни You must submit the form today (необходимо), You should submit it today (рекомендация), You don't have to submit it today (необязательно), You mustn't submit it today (запрещено). Последние два предложения не являются синонимами. Если завтра тоже можно подать документ, это отсутствие обязанности, а не запрет. Can в правилах часто выражает разрешение, а в описании навыка — способность.\n\n### 4.2. Формирование и грамматическая модель\n\n| Значение | Модель | Пример |\n|---|---|---|\n| Необходимость | must / have to + V1 | I must leave. |\n| Нет необходимости | don't have to / needn't + V1 | You needn't come. |\n| Запрет | mustn't / can't + V1 | You mustn't enter. |\n| Совет | should / ought to + V1 | You should check it. |\n| Срочный совет | had better + V1 | You'd better leave now. |\n| Разрешение | can / may + V1 | You may sit here. |\n| Возможность | may / might / could + V1 | It might rain. |\n\nПосле must, should, can, could, may и might используется V1 без to и -s. Ought to — особая модель. Have to имеет формы has to, had to, will have to; вопросы Do you have to…? и Did you have to…? Отрицание don't/doesn't/didn't have to означает отсутствие необходимости. Вопрос с must строится без do: Must I attend? Для прошлой обязанности обычно используют had to. В ответе на Must I…? отсутствие необходимости можно выразить No, you needn't / don't have to.\n\n### 4.3. Как выбрать подходящую форму\n\nОпредели, это требование, необходимость, совет, разрешение, запрет или предположение. Для отсутствия необходимости выбирай don't have to или needn't, для запрета — mustn't/can't. Для совета — should, для конкретного предупреждения с возможным неприятным последствием — had better. Для неопределённой возможности — may/might/could.\n\nMust и have to часто взаимозаменяемы. Must нередко подчёркивает требование говорящего, have to — необходимость, связанную с условиями. Это тенденция, а не абсолютное правило. May может звучать формальнее can при разрешении; could в просьбах часто вежливее can. Для прошлого навыка употребляют could, но для единичного успешно выполненного действия часто естественнее managed to / was able to.\n\n### 4.4. Сравнение с близкими конструкциями\n\n| Пример | Смысл |\n|---|---|\n| You must wear a helmet. | Это обязательно. |\n| You mustn't touch the wire. | Это запрещено. |\n| You don't have to bring a laptop. | Ноутбук приносить необязательно. |\n| You should save a copy. | Это разумный совет. |\n| You'd better save it now. | Конкретное предупреждение. |\n| The tutor might be busy. | Возможно, преподаватель занят. |\n\n### 4.5. Примеры с переводом и объяснением\n\n| English | Перевод | Почему это подходит |\n| --- | --- | --- |\n| You must wear safety glasses in this lab. | В этой лаборатории обязательно носить защитные очки. | Требование. |\n| You don't have to print the form. | Необязательно печатать бланк. | Отсутствие обязанности. |\n| You mustn't share your password. | Нельзя сообщать свой пароль. | Запрет. |\n| She had to leave early yesterday. | Вчера ей пришлось уйти рано. | Прошлая необходимость. |\n| You ought to check the deadline. | Тебе стоит проверить срок. | Совет. |\n| The library might be closed today. | Возможно, библиотека сегодня закрыта. | Неуверенное предположение. |\n\n### 4.6. Исключения, ограничения и границы употребления\n\nMustn't означает запрет, а не отсутствие необходимости. Needn't и don't need to могут передавать близкое значение. Had better относится к настоящему/будущему, несмотря на had. Ought to сохраняет to. Модальное should может также выражать ожидание, а must — вывод на основании признаков.\n\nMust не имеет обычной формы прошедшего времени для обязанности; had to передаёт необходимость в прошлом. Must have + V3 — не прошлая обязанность, а вывод о прошлом (следующий урок). Can используется для общей возможности: Roads can be slippery in winter; для конкретной неопределённой ситуации обычно may/might/could. Не составляй формы musted, shoulds, will must. Будущая необходимость — will have to.\n\n### 4.7. Типичные ошибки русскоязычных студентов\n\n| Ошибка | Исправление | Объяснение |\n| --- | --- | --- |\n| He musts attend. | He must attend. | Модальный глагол не принимает -s. |\n| You must to register. | You must register. | После must используется V1 без to. |\n| Did she had to work? | Did she have to work? | После did нужна V1 have. |\n| You mustn't come (если приход необязателен). | You don't have to come. | Mustn't выражает запрет. |\n\n### 4.8. Произношение и восприятие на слух\n\nСлушай сокращения mustn't, shouldn't, can't, needn't и смысловые ударения. В You MUST submit it выделяется необходимость; в You DON'T have to submit it важна отрицательная часть. Had better часто сокращается до 'd better.\n\nСначала прослушай или прочитай пример, затем произнеси его целиком. Обрати внимание на смысловое ударение и форму конструкции; не ориентируйся только на буквенный перевод.\n\n### 4.9. Академический английский и TOEFL-перенос\n\nВ Listening различай обязательные требования, советы и факультативные действия в университетских объявлениях. В Speaking давай рекомендации с should/could, а в Writing используй must только для действительно обязательного или обоснованного сильного утверждения. Например, Students should check the schedule before registering — рекомендация, не официальное правило.\n\nЭто авторская практика переноса навыка. Она не является официальным заданием TOEFL и не выдаётся за официальный результат экзамена.\n\n### 4.10. Примеры для управляемого разбора\n\n- You must wear safety glasses in this lab. — В этой лаборатории обязательно носить защитные очки. Требование.\n- You don't have to print the form. — Необязательно печатать бланк. Отсутствие обязанности.\n- You mustn't share your password. — Нельзя сообщать свой пароль. Запрет.\n\nДля каждого примера назови целевую конструкцию, объясни выбор и составь новое предложение в другом контексте. Затем перейди к заданиям: сначала диагностика, затем управляемая и самостоятельная практика, затем новые вопросы выходной проверки.\n\n### 4.11. Самопроверка\n\nПеред отправкой ответа проверь:\n1. Различены обязательность и совет.\n2. Запрет не перепутан с отсутствием обязанности.\n3. После модальных стоит V1.\n4. Have to корректно изменяется по времени и лицу.\n5. Вопрос и отрицание построены правильно.\n6. Контекст объясняет выбор модального значения.\n\n### 4.12. Краткая памятка\n\nModal + V1 без to и -s (кроме ought to). Must/have to — необходимость; mustn't — запрет; don't have to/needn't — необязательно; should/ought to — совет; may/might/could — возможность. Время have to меняется, форма центрального модального глагола — нет.\n\nНе выбирай форму только по одному знакомому слову: проверь контекст, значение и структуру. При ошибке вернись к соответствующей части конспекта и составь собственный пример.\n\n## 5. Практика\n\nВ приложении практика разделена на входную диагностику, управляемые задания, самостоятельную практику и новую выходную проверку. Закрытые ответы получают rationale и разбор ошибки. Свободный текст сохраняется и оценивается по рубрике; до подключения и реальной проверки AI-движка система не выдаёт его за автоматическую AI-оценку.\n\n## 6. Интервальное повторение\n\nПовторяй не весь урок автоматически, а конкретную ошибку: выбор формы, согласование, word order, значение, регистр или пунктуацию. Новая попытка должна менять лексический контекст и формулировку, чтобы проверять перенос, а не запоминание одной строки.\n\n## 7. Технический статус\n\n- Постоянный ID: `B1-09`.\n- Прогресс хранится отдельно в course.grammarLessons[\"B1-09\"].\n- Содержание и ключи имеют статус draft; 24 авторских закрытых задания и объяснения вычитаны, выбранные тексты источников проверены. Полная постраничная и пользовательская приёмка остаются открытыми.\n- Предварительное выполнение порогов не равно окончательному mastered: нужны отсроченное повторение и learner review.",
+  "theoryEnd": "## 5."
+}

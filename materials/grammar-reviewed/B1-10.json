@@ -1,0 +1,733 @@
+{
+  "id": "B1-10",
+  "level": "B1",
+  "sequence": "B1-10",
+  "grammarFamily": "B1-10",
+  "questionBankSource": "topic-specific-authored",
+  "sourceVerification": "draft; selected source text consulted; complete source-page and learner review pending",
+  "topicProfile": {
+    "label": "modal deduction in present and past",
+    "skillTarget": "modal-deduction-present-past",
+    "core": "Modal deduction — вывод или предположение на основании доступных признаков, а не сообщение установленного факта. Must выражает сильный положительный вывод, can't — сильный отрицательный вывод, may/might/could — возможность без уверенности. Время вывода и время события могут различаться.",
+    "form": "| Время предполагаемого события | Модель | Пример |\n|---|---|---|\n| Настоящее состояние | modal + be | She must be tired. |\n| Текущий процесс | modal + be + V-ing | She might be studying. |\n| Прошлое действие | modal + have + V3 | She must have left. |\n| Прошлый процесс | modal + have been + V-ing | She may have been working. |\n| Сильный отрицательный вывод | can't + V1 / can't have + V3 | He can't be there. |\n| Неуверенное отрицание | may/might not + V1 / have + V3 | He might not have seen it. |",
+    "selection": "Сначала найди доказательство или признак, затем оцени уверенность. Если вывод сильный и положительный — must; если уверен, что ситуация невозможна — can't/couldn't; если это одна из возможностей — may/might/could. Для настоящего выбирай modal + V1, для прошлого — modal + have + V3, для процесса — be + V-ing.",
+    "contrast": "| Пример | Значение |\n|---|---|\n| She must be studying. | Сильный вывод о текущем процессе. |\n| She might be studying. | Возможно, она занимается. |\n| She can't be studying here. | По имеющимся признакам это невозможно. |\n| She must have studied yesterday. | Сильный вывод о прошлом. |\n| She might not have studied yesterday. | Возможно, вчера она не занималась. |\n| She had to study yesterday. | Ей пришлось заниматься, прошлая обязанность. |",
+    "boundary": "Must have done обычно выражает вывод о прошлом, а не обязанность. Для отрицательного вывода в стандартной учебной модели часто используют can't, а не mustn't. Однако must not может иметь значение отрицательного вывода в некоторых контекстах и вариантах английского; запрет нельзя автоматически считать выводом.",
+    "pronunciation": "Слушай must have, might have и can't have: have часто произносится слабо. В речи might've и could've звучат слитно, но на письме это have, не of. Контраст must и might часто важнее самого смыслового глагола.",
+    "examples": [
+      [
+        "The office is locked. They must be out.",
+        "Офис заперт. Должно быть, их нет.",
+        "Сильный вывод о настоящем."
+      ],
+      [
+        "She might be waiting outside.",
+        "Возможно, она ждёт снаружи.",
+        "Текущий процесс."
+      ],
+      [
+        "The floor is wet. It must have rained.",
+        "Пол мокрый. Должно быть, прошёл дождь.",
+        "Вывод о прошлом."
+      ],
+      [
+        "He can't have taken the train; I saw him at home.",
+        "Он не мог уехать на поезде: я видела его дома.",
+        "Сильный отрицательный вывод при подходящей временной связи."
+      ],
+      [
+        "They may not have received the message.",
+        "Возможно, они не получили сообщение.",
+        "Неуверенное отрицание."
+      ]
+    ],
+    "traps": [
+      [
+        "She must to be tired.",
+        "She must be tired.",
+        "После must нужна V1."
+      ],
+      [
+        "He might has forgotten.",
+        "He might have forgotten.",
+        "После might нужна have, затем V3."
+      ],
+      [
+        "They can't have went there.",
+        "They can't have gone there.",
+        "Gone — V3."
+      ],
+      [
+        "She must have left yesterday (если речь об обязанности).",
+        "She had to leave yesterday.",
+        "Must have выражает вывод, had to — необходимость."
+      ]
+    ],
+    "toefl": "В Reading и Listening определяй, какие сведения доказаны, а какие являются выводом говорящего. В Writing осторожно формулируй интерпретацию данных: The difference might have resulted from sampling error. Не называй гипотезу подтверждённым фактом. В Speaking объясняй причину вывода и используй модальный глагол, соответствующий уверенности."
+  },
+  "title": "Modal deduction in present and past",
+  "description": "Делать выводы о настоящем и прошлом с modal + have + V3",
+  "cardDescription": "Теория, guided practice, самостоятельные задания и выходная проверка по постоянному ID B1-10.",
+  "eyebrow": "Полный урок программы B1-10 · drafted",
+  "contentVersion": "1.1-draft",
+  "curriculumVersion": "1.0",
+  "prerequisites": [
+    "B1-02",
+    "B1-09"
+  ],
+  "outcomes": [
+    "Делать выводы о настоящем и прошлом с modal + have + V3",
+    "Выбирать целевую конструкцию по контексту и смыслу.",
+    "Исправлять типичные ошибки и переносить правило в новый пример."
+  ],
+  "sourceRefs": [
+    "GR-02 U27-30",
+    "GR-03 U15-20",
+    "GR-05 B1 p36-46"
+  ],
+  "sourceStatus": "selected source text consulted; full page verification pending",
+  "status": "drafted",
+  "legacyCoverage": "Полное ядро",
+  "toeflLinks": [
+    "Writing: Build a Sentence",
+    "Listening: tense/aspect, modality, weak forms and discourse cues",
+    "Speaking: Listen and Repeat / Take an Interview",
+    "Writing: Academic Discussion"
+  ],
+  "thresholds": {
+    "independent": 7,
+    "exit": 4,
+    "criticalIds": [
+      "E1",
+      "E2",
+      "E3"
+    ]
+  },
+  "groups": {
+    "independent": "Самостоятельная практика",
+    "exit": "Выходная проверка"
+  },
+  "items": [
+    {
+      "id": "D1",
+      "group": "Входная диагностика",
+      "prompt": "Choose the strong positive inference: Her coat and bag are here. She ___ be nearby.",
+      "options": [
+        "must to",
+        "must",
+        "musts"
+      ],
+      "answer": "must",
+      "accepted": [
+        "must"
+      ],
+      "why": "Must + V1 выражает сильный вывод.",
+      "distractorWhy": "To не нужен.",
+      "distractorRationales": {
+        "must to": "To не нужен.",
+        "musts": "У must нет -s."
+      },
+      "skillTarget": "modal-deduction-present-past",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D2",
+      "group": "Входная диагностика",
+      "prompt": "Her phone is off. Choose an uncertain current possibility with might.",
+      "options": [
+        "She might be taking an exam.",
+        "She might taking an exam.",
+        "She might to be taking an exam."
+      ],
+      "answer": "She might be taking an exam.",
+      "accepted": [
+        "She might be taking an exam."
+      ],
+      "why": "Might be + V-ing выражает возможный процесс.",
+      "distractorWhy": "Пропущено be.",
+      "distractorRationales": {
+        "She might taking an exam.": "Пропущено be.",
+        "She might to be taking an exam.": "To после might не нужен."
+      },
+      "skillTarget": "modal-deduction-present-past",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D3",
+      "group": "Входная диагностика",
+      "prompt": "He is definitely in another city. He ___ be in this room now.",
+      "options": [
+        "must",
+        "can't to",
+        "can't"
+      ],
+      "answer": "can't",
+      "accepted": [
+        "can't"
+      ],
+      "why": "Can't выражает сильный отрицательный вывод.",
+      "distractorWhy": "Must передало бы противоположный вывод.",
+      "distractorRationales": {
+        "must": "Must передало бы противоположный вывод.",
+        "can't to": "После can't не нужен to."
+      },
+      "skillTarget": "modal-deduction-present-past",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D4",
+      "group": "Входная диагностика",
+      "prompt": "The ground is wet. Choose the strong past inference.",
+      "options": [
+        "It must has rained overnight.",
+        "It must have rained overnight.",
+        "It must have rain overnight."
+      ],
+      "answer": "It must have rained overnight.",
+      "accepted": [
+        "It must have rained overnight."
+      ],
+      "why": "Must have + V3 выражает вывод о прошлом.",
+      "distractorWhy": "После must нужна have.",
+      "distractorRationales": {
+        "It must has rained overnight.": "После must нужна have.",
+        "It must have rain overnight.": "Rain — V1."
+      },
+      "skillTarget": "modal-deduction-present-past",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G1",
+      "group": "Управляемая практика",
+      "prompt": "Choose the uncertain negative past possibility.",
+      "options": [
+        "He might not have seen the email.",
+        "He must have seen the email.",
+        "He can't have seen the email."
+      ],
+      "answer": "He might not have seen the email.",
+      "accepted": [
+        "He might not have seen the email."
+      ],
+      "why": "Might not have выражает вероятность отсутствия действия.",
+      "distractorWhy": "Это сильный положительный вывод.",
+      "distractorRationales": {
+        "He must have seen the email.": "Это сильный положительный вывод.",
+        "He can't have seen the email.": "Это сильный отрицательный вывод."
+      },
+      "skillTarget": "modal-deduction-present-past",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G2",
+      "group": "Управляемая практика",
+      "prompt": "Which sentence reports a past obligation rather than a deduction?",
+      "options": [
+        "She must have worked late.",
+        "She might have worked late.",
+        "She had to work late."
+      ],
+      "answer": "She had to work late.",
+      "accepted": [
+        "She had to work late."
+      ],
+      "why": "Had to — необходимость в прошлом.",
+      "distractorWhy": "Must have — вывод.",
+      "distractorRationales": {
+        "She must have worked late.": "Must have — вывод.",
+        "She might have worked late.": "Might have — предположение."
+      },
+      "skillTarget": "modal-deduction-present-past",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G3",
+      "group": "Управляемая практика",
+      "prompt": "Choose the correct past participle in a modal deduction.",
+      "options": [
+        "They can't have went home.",
+        "They can't have gone home.",
+        "They can't have go home."
+      ],
+      "answer": "They can't have gone home.",
+      "accepted": [
+        "They can't have gone home."
+      ],
+      "why": "Gone — V3 после have.",
+      "distractorWhy": "Went — V2.",
+      "distractorRationales": {
+        "They can't have went home.": "Went — V2.",
+        "They can't have go home.": "Go — V1."
+      },
+      "skillTarget": "modal-deduction-present-past",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G4",
+      "group": "Управляемая практика",
+      "prompt": "Choose the possible process at a past time.",
+      "options": [
+        "He may have been sleeping at midnight.",
+        "He may have sleeping at midnight.",
+        "He may has been sleeping at midnight."
+      ],
+      "answer": "He may have been sleeping at midnight.",
+      "accepted": [
+        "He may have been sleeping at midnight."
+      ],
+      "why": "May have been + V-ing.",
+      "distractorWhy": "Пропущено been.",
+      "distractorRationales": {
+        "He may have sleeping at midnight.": "Пропущено been.",
+        "He may has been sleeping at midnight.": "После may нужна have."
+      },
+      "skillTarget": "modal-deduction-present-past",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G5",
+      "group": "Управляемая практика",
+      "prompt": "Which sentence expresses a strong negative inference about the past?",
+      "options": [
+        "She might have taken the bus at six.",
+        "She had to take the bus at six.",
+        "She can't have taken the bus at six."
+      ],
+      "answer": "She can't have taken the bus at six.",
+      "accepted": [
+        "She can't have taken the bus at six."
+      ],
+      "why": "Can't have + V3 выражает отрицательный вывод.",
+      "distractorWhy": "Might have выражает возможность.",
+      "distractorRationales": {
+        "She might have taken the bus at six.": "Might have выражает возможность.",
+        "She had to take the bus at six.": "Had to — обязанность."
+      },
+      "skillTarget": "modal-deduction-present-past",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G6",
+      "group": "Управляемая практика",
+      "prompt": "Choose a grammatical uncertain current state with may.",
+      "options": [
+        "The tutor may is busy.",
+        "The tutor may be busy.",
+        "The tutor may to be busy."
+      ],
+      "answer": "The tutor may be busy.",
+      "accepted": [
+        "The tutor may be busy."
+      ],
+      "why": "May + V1 be.",
+      "distractorWhy": "Is не V1.",
+      "distractorRationales": {
+        "The tutor may is busy.": "Is не V1.",
+        "The tutor may to be busy.": "To не нужен."
+      },
+      "skillTarget": "modal-deduction-present-past",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I1",
+      "group": "Самостоятельная практика",
+      "prompt": "What does 'The keys might be in my bag' communicate?",
+      "options": [
+        "A proven location.",
+        "A prohibition on keeping keys there.",
+        "One possible location, not certainty."
+      ],
+      "answer": "One possible location, not certainty.",
+      "accepted": [
+        "One possible location, not certainty."
+      ],
+      "why": "Might выражает предположение.",
+      "distractorWhy": "Факт не доказан.",
+      "distractorRationales": {
+        "A proven location.": "Факт не доказан.",
+        "A prohibition on keeping keys there.": "Запрет не выражен."
+      },
+      "skillTarget": "modal-deduction-present-past",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I2",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the strong deduction about a current process.",
+      "options": [
+        "He must working in the lab.",
+        "He must be working in the lab.",
+        "He must been working in the lab."
+      ],
+      "answer": "He must be working in the lab.",
+      "accepted": [
+        "He must be working in the lab."
+      ],
+      "why": "Must be + V-ing.",
+      "distractorWhy": "Не хватает be.",
+      "distractorRationales": {
+        "He must working in the lab.": "Не хватает be.",
+        "He must been working in the lab.": "Been — V3, после must нужна V1."
+      },
+      "skillTarget": "modal-deduction-present-past",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I3",
+      "group": "Самостоятельная практика",
+      "prompt": "The document is missing. Choose an uncertain past possibility with could.",
+      "options": [
+        "It could have been deleted.",
+        "It could has been deleted.",
+        "It could have be deleted."
+      ],
+      "answer": "It could have been deleted.",
+      "accepted": [
+        "It could have been deleted."
+      ],
+      "why": "Could have been + V3 — возможное прошлое в пассиве.",
+      "distractorWhy": "После could нужна have.",
+      "distractorRationales": {
+        "It could has been deleted.": "После could нужна have.",
+        "It could have be deleted.": "После have нужна V3 been."
+      },
+      "skillTarget": "modal-deduction-present-past",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I4",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct uncertain negative present deduction.",
+      "options": [
+        "She mustn't to be at home.",
+        "She may not is at home.",
+        "She may not be at home."
+      ],
+      "answer": "She may not be at home.",
+      "accepted": [
+        "She may not be at home."
+      ],
+      "why": "May not + be выражает возможное отсутствие.",
+      "distractorWhy": "To после mustn't неверно.",
+      "distractorRationales": {
+        "She mustn't to be at home.": "To после mustn't неверно.",
+        "She may not is at home.": "Is не V1."
+      },
+      "skillTarget": "modal-deduction-present-past",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I5",
+      "group": "Самостоятельная практика",
+      "prompt": "Which phrase marks a conclusion rather than a verified fact?",
+      "options": [
+        "The attendance record shows he was absent.",
+        "He must have forgotten the appointment.",
+        "He signed the attendance sheet at nine."
+      ],
+      "answer": "He must have forgotten the appointment.",
+      "accepted": [
+        "He must have forgotten the appointment."
+      ],
+      "why": "Must have сообщает о выводе говорящего.",
+      "distractorWhy": "Здесь описана запись как доказательство.",
+      "distractorRationales": {
+        "The attendance record shows he was absent.": "Здесь описана запись как доказательство.",
+        "He signed the attendance sheet at nine.": "Здесь утверждается конкретный факт."
+      },
+      "skillTarget": "modal-deduction-present-past",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I6",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the grammatical strong past inference with write.",
+      "options": [
+        "She must have written the report.",
+        "She must have wrote the report.",
+        "She must have write the report."
+      ],
+      "answer": "She must have written the report.",
+      "accepted": [
+        "She must have written the report."
+      ],
+      "why": "Written — V3.",
+      "distractorWhy": "Wrote — V2.",
+      "distractorRationales": {
+        "She must have wrote the report.": "Wrote — V2.",
+        "She must have write the report.": "Write — V1."
+      },
+      "skillTarget": "modal-deduction-present-past",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I7",
+      "group": "Самостоятельная практика",
+      "prompt": "The door was locked from the inside. Choose a possible explanation with might.",
+      "options": [
+        "Someone might had locked it from inside.",
+        "Someone might have lock it from inside.",
+        "Someone might have locked it from inside."
+      ],
+      "answer": "Someone might have locked it from inside.",
+      "accepted": [
+        "Someone might have locked it from inside."
+      ],
+      "why": "Might have + V3.",
+      "distractorWhy": "После might нужна have, не had.",
+      "distractorRationales": {
+        "Someone might had locked it from inside.": "После might нужна have, не had.",
+        "Someone might have lock it from inside.": "Lock — V1."
+      },
+      "skillTarget": "modal-deduction-present-past",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I8",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct negative inference about a current process.",
+      "options": [
+        "They can't using the closed laboratory.",
+        "They can't be using the closed laboratory.",
+        "They can't be use the closed laboratory."
+      ],
+      "answer": "They can't be using the closed laboratory.",
+      "accepted": [
+        "They can't be using the closed laboratory."
+      ],
+      "why": "Can't be + V-ing.",
+      "distractorWhy": "Пропущено be.",
+      "distractorRationales": {
+        "They can't using the closed laboratory.": "Пропущено be.",
+        "They can't be use the closed laboratory.": "Use должно иметь -ing."
+      },
+      "skillTarget": "modal-deduction-present-past",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I9",
+      "group": "Самостоятельная практика",
+      "prompt": "Which is the least committal claim among these alternatives?",
+      "options": [
+        "The delay might be due to traffic.",
+        "The delay must be due to traffic.",
+        "The delay is definitely due to traffic."
+      ],
+      "answer": "The delay might be due to traffic.",
+      "accepted": [
+        "The delay might be due to traffic."
+      ],
+      "why": "Might указывает на возможность.",
+      "distractorWhy": "Must показывает сильный вывод.",
+      "distractorRationales": {
+        "The delay must be due to traffic.": "Must показывает сильный вывод.",
+        "The delay is definitely due to traffic.": "Definitely выражает уверенное утверждение."
+      },
+      "skillTarget": "modal-deduction-present-past",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E1",
+      "group": "Выходная проверка",
+      "prompt": "Choose the correct expansion of 'might've'.",
+      "options": [
+        "might have",
+        "might of",
+        "might had"
+      ],
+      "answer": "might have",
+      "accepted": [
+        "might have"
+      ],
+      "why": "'ve означает have.",
+      "distractorWhy": "Of — предлог, не вспомогательный глагол.",
+      "distractorRationales": {
+        "might of": "Of — предлог, не вспомогательный глагол.",
+        "might had": "Had не используется после might."
+      },
+      "skillTarget": "modal-deduction-present-past",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E2",
+      "group": "Выходная проверка",
+      "prompt": "Choose the correct strong negative past inference using be.",
+      "options": [
+        "He can't have was at the library then.",
+        "He can't has been at the library then.",
+        "He can't have been at the library then."
+      ],
+      "answer": "He can't have been at the library then.",
+      "accepted": [
+        "He can't have been at the library then."
+      ],
+      "why": "Been — V3 be.",
+      "distractorWhy": "Was — V2.",
+      "distractorRationales": {
+        "He can't have was at the library then.": "Was — V2.",
+        "He can't has been at the library then.": "После can't нужна have."
+      },
+      "skillTarget": "modal-deduction-present-past",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E3",
+      "group": "Выходная проверка",
+      "prompt": "'She could have helped, but nobody asked her.' What does could have mean here?",
+      "options": [
+        "A definite past deduction.",
+        "An unrealised past opportunity.",
+        "A present prohibition."
+      ],
+      "answer": "An unrealised past opportunity.",
+      "accepted": [
+        "An unrealised past opportunity."
+      ],
+      "why": "Контекст показывает неиспользованную возможность.",
+      "distractorWhy": "Действие не утверждается как факт.",
+      "distractorRationales": {
+        "A definite past deduction.": "Действие не утверждается как факт.",
+        "A present prohibition.": "Речь о прошлом, не запрете."
+      },
+      "skillTarget": "modal-deduction-present-past",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E4",
+      "group": "Выходная проверка",
+      "prompt": "Choose a cautious explanation suitable for an unconfirmed result.",
+      "options": [
+        "The difference may have resulted from an error.",
+        "The difference has definitely resulted from an error.",
+        "The difference cannot result from an error."
+      ],
+      "answer": "The difference may have resulted from an error.",
+      "accepted": [
+        "The difference may have resulted from an error."
+      ],
+      "why": "May have оставляет вывод предположением.",
+      "distractorWhy": "Definitely утверждает уверенность.",
+      "distractorRationales": {
+        "The difference has definitely resulted from an error.": "Definitely утверждает уверенность.",
+        "The difference cannot result from an error.": "Cannot исключает причину."
+      },
+      "skillTarget": "modal-deduction-present-past",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E5",
+      "group": "Выходная проверка",
+      "prompt": "Choose the correct contrast of present and past deduction.",
+      "options": [
+        "She must have tired now; she might worked late yesterday.",
+        "She must to be tired now; she might has worked late yesterday.",
+        "She must be tired now; she might have worked late yesterday."
+      ],
+      "answer": "She must be tired now; she might have worked late yesterday.",
+      "accepted": [
+        "She must be tired now; she might have worked late yesterday."
+      ],
+      "why": "Be для состояния сейчас, have + V3 для прошлого.",
+      "distractorWhy": "В обеих частях нарушена форма.",
+      "distractorRationales": {
+        "She must have tired now; she might worked late yesterday.": "В обеих частях нарушена форма.",
+        "She must to be tired now; she might has worked late yesterday.": "To и has не подходят после модальных."
+      },
+      "skillTarget": "modal-deduction-present-past",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "W1",
+      "group": "Самостоятельное применение",
+      "prompt": "Напиши 6 предположений о вымышленной ситуации в университете. Используй сильный положительный и отрицательный вывод, осторожную возможность, текущий процесс, прошлый вывод и неуверенное отрицание. Укажи основания каждого.",
+      "open": true,
+      "rubric": [
+        "Факты отделены от предположений.",
+        "Сила модального вывода соответствует контексту.",
+        "Настоящее и прошлое различены.",
+        "Perfect deduction содержит have + V3.",
+        "Процесс содержит be/been + V-ing.",
+        "Неуверенное отрицание не перепутано с невозможностью."
+      ],
+      "skillTarget": "Самостоятельное применение B1-10",
+      "interactionType": "open-production",
+      "difficulty": "transfer",
+      "sourceBasis": "Speakbase-authored open production; self-review rubric only until real AI feedback is connected",
+      "contentVersion": "1.1-draft"
+    }
+  ],
+  "markdown": "# Speakbase — B1-10: Modal deduction in present and past\n\n**Curriculum ID:** `B1-10`  \n**Уровень:** B1  \n**Версия:** 1.1-draft\n**Статус:** drafted; selected source text checked; full source-page and learner acceptance pending\n**Предварительные темы:** B1-02, B1-09  \n**Связь со старым каталогом:** Полное ядро — №37 Modal Deduction; №38 Past Modal Deduction\n\n## 1. Результаты обучения\n\n- Делать выводы о настоящем и прошлом с modal + have + V3\n- Выбирать целевую форму по значению, структуре предложения и контексту.\n- Объяснять, почему близкая грамматическая форма меняет смысл или регистр.\n- Находить и исправлять типичные ошибки русскоязычных студентов.\n\n## 2. Источники и статус сверки\n\n| Source | PDF navigation | Lesson-specific checks | Status |\n|---|---|---|---|\n| GR-02 U27-30 | PDF pages 66-73 (Unit 27-30) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-03 U15-20 | PDF pages 54-65 (Unit 15-20) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-05 B1 p36-46 | PDF pages 36-46 (B1 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n\nUnit/page locations are navigation aids only. They do not prove that the cited explanation, examples, restrictions and answer key have been checked for this lesson. Examples and explanations below are Speakbase-authored, not quotations from the textbook.\n\nПеред переводом этого урока в source-verified необходимо открыть целевые страницы конкретного издания, записать печатную и PDF-пагинацию, сверить ограничения и исключения. Для GR-03 со сканированными страницами обязательна визуальная проверка.\n\n**Evidence for this editorial pass:** GR-02 selected theory text: Units 27–30, PDF pp. 66, 68, 70 and 72 (printed pp. 54–60); full GR-05 topic review pending. The selected source text was consulted; not all pages, exercises, editions, scanned GR-03 pages or GR-05 descriptors were checked. Author-created explanations and practice are not copied source exercises.\n\n## 3. Место темы и границы\n\nРазличай вывод о настоящем (must/might/can’t + base) и прошлом (modal + have + V3); объясняй степень уверенности.\n\nСтарый каталог содержит: №37 Modal Deduction; №38 Past Modal Deduction. Его статус — Полное ядро. Старые отметки завершения не переносятся автоматически на новый постоянный ID. Тема рассматривается в уровне B1 и не заменяет обязательные prerequisites.\n\n## 4. Полный конспект\n\n### 4.1. Основная идея и функция конструкции\n\nModal deduction — вывод или предположение на основании доступных признаков, а не сообщение установленного факта. Must выражает сильный положительный вывод, can't — сильный отрицательный вывод, may/might/could — возможность без уверенности. Время вывода и время события могут различаться.\n\nНапример, The lights are on. She must be at home — говорящий считает, что она дома, но не видел её лично. The lights were on all night. She might have stayed up — возможно, она не спала ночью. Модальность показывает степень уверенности, а не точный процент вероятности. Даже сильный вывод с must может оказаться неверным.\n\n### 4.2. Формирование и грамматическая модель\n\n| Время предполагаемого события | Модель | Пример |\n|---|---|---|\n| Настоящее состояние | modal + be | She must be tired. |\n| Текущий процесс | modal + be + V-ing | She might be studying. |\n| Прошлое действие | modal + have + V3 | She must have left. |\n| Прошлый процесс | modal + have been + V-ing | She may have been working. |\n| Сильный отрицательный вывод | can't + V1 / can't have + V3 | He can't be there. |\n| Неуверенное отрицание | may/might not + V1 / have + V3 | He might not have seen it. |\n\nПосле модального глагола всегда используется V1: be или have. Для вывода о прошлом затем ставится V3. В must have left слово have не меняется на has/had. В отрицательном выводе can't have done выражает невозможность прошлой ситуации по мнению говорящего, а might not have done — вероятность, что действие не произошло. Could have done может также означать неиспользованную возможность; контекст определяет значение.\n\n### 4.3. Как выбрать подходящую форму\n\nСначала найди доказательство или признак, затем оцени уверенность. Если вывод сильный и положительный — must; если уверен, что ситуация невозможна — can't/couldn't; если это одна из возможностей — may/might/could. Для настоящего выбирай modal + V1, для прошлого — modal + have + V3, для процесса — be + V-ing.\n\nЕсли дверь закрыта и ты знаешь, что человек точно в другом городе, He can't be in this room — сильный отрицательный вывод. Если просто не отвечают на звонок, She might be busy — осторожное предположение; не нужно автоматически усиливать его до must. Если говорящий не знает, видел ли студент письмо, He might not have seen it означает возможное отсутствие действия, а не доказанную невозможность.\n\n### 4.4. Сравнение с близкими конструкциями\n\n| Пример | Значение |\n|---|---|\n| She must be studying. | Сильный вывод о текущем процессе. |\n| She might be studying. | Возможно, она занимается. |\n| She can't be studying here. | По имеющимся признакам это невозможно. |\n| She must have studied yesterday. | Сильный вывод о прошлом. |\n| She might not have studied yesterday. | Возможно, вчера она не занималась. |\n| She had to study yesterday. | Ей пришлось заниматься, прошлая обязанность. |\n\n### 4.5. Примеры с переводом и объяснением\n\n| English | Перевод | Почему это подходит |\n| --- | --- | --- |\n| The office is locked. They must be out. | Офис заперт. Должно быть, их нет. | Сильный вывод о настоящем. |\n| She might be waiting outside. | Возможно, она ждёт снаружи. | Текущий процесс. |\n| The floor is wet. It must have rained. | Пол мокрый. Должно быть, прошёл дождь. | Вывод о прошлом. |\n| He can't have taken the train; I saw him at home. | Он не мог уехать на поезде: я видела его дома. | Сильный отрицательный вывод при подходящей временной связи. |\n| They may not have received the message. | Возможно, они не получили сообщение. | Неуверенное отрицание. |\n\n### 4.6. Исключения, ограничения и границы употребления\n\nMust have done обычно выражает вывод о прошлом, а не обязанность. Для отрицательного вывода в стандартной учебной модели часто используют can't, а не mustn't. Однако must not может иметь значение отрицательного вывода в некоторых контекстах и вариантах английского; запрет нельзя автоматически считать выводом.\n\nMay/might/could в положительных предположениях часто взаимозаменяемы, поэтому без дополнительного контекста нельзя требовать только один из них. Can't и might not различаются силой отрицания. Could have done может обозначать возможность, которая не была реализована: I could have helped, but you didn't ask. Should have done обычно выражает ожидаемое или рекомендуемое прошлое действие, а не ту же степень уверенности, что must have done.\n\n### 4.7. Типичные ошибки русскоязычных студентов\n\n| Ошибка | Исправление | Объяснение |\n| --- | --- | --- |\n| She must to be tired. | She must be tired. | После must нужна V1. |\n| He might has forgotten. | He might have forgotten. | После might нужна have, затем V3. |\n| They can't have went there. | They can't have gone there. | Gone — V3. |\n| She must have left yesterday (если речь об обязанности). | She had to leave yesterday. | Must have выражает вывод, had to — необходимость. |\n\n### 4.8. Произношение и восприятие на слух\n\nСлушай must have, might have и can't have: have часто произносится слабо. В речи might've и could've звучат слитно, но на письме это have, не of. Контраст must и might часто важнее самого смыслового глагола.\n\nСначала прослушай или прочитай пример, затем произнеси его целиком. Обрати внимание на смысловое ударение и форму конструкции; не ориентируйся только на буквенный перевод.\n\n### 4.9. Академический английский и TOEFL-перенос\n\nВ Reading и Listening определяй, какие сведения доказаны, а какие являются выводом говорящего. В Writing осторожно формулируй интерпретацию данных: The difference might have resulted from sampling error. Не называй гипотезу подтверждённым фактом. В Speaking объясняй причину вывода и используй модальный глагол, соответствующий уверенности.\n\nЭто авторская практика переноса навыка. Она не является официальным заданием TOEFL и не выдаётся за официальный результат экзамена.\n\n### 4.10. Примеры для управляемого разбора\n\n- The office is locked. They must be out. — Офис заперт. Должно быть, их нет. Сильный вывод о настоящем.\n- She might be waiting outside. — Возможно, она ждёт снаружи. Текущий процесс.\n- The floor is wet. It must have rained. — Пол мокрый. Должно быть, прошёл дождь. Вывод о прошлом.\n\nДля каждого примера назови целевую конструкцию, объясни выбор и составь новое предложение в другом контексте. Затем перейди к заданиям: сначала диагностика, затем управляемая и самостоятельная практика, затем новые вопросы выходной проверки.\n\n### 4.11. Самопроверка\n\nПеред отправкой ответа проверь:\n1. Факты отделены от предположений.\n2. Сила модального вывода соответствует контексту.\n3. Настоящее и прошлое различены.\n4. Perfect deduction содержит have + V3.\n5. Процесс содержит be/been + V-ing.\n6. Неуверенное отрицание не перепутано с невозможностью.\n\n### 4.12. Краткая памятка\n\nMust — сильный положительный вывод; can't — сильный отрицательный; may/might/could — возможность. Настоящее: modal + V1; прошлое: modal + have + V3; процесс: modal + be/have been + V-ing. Проверяй, что именно известно, и что лишь предполагается.\n\nНе выбирай форму только по одному знакомому слову: проверь контекст, значение и структуру. При ошибке вернись к соответствующей части конспекта и составь собственный пример.\n\n## 5. Практика\n\nВ приложении практика разделена на входную диагностику, управляемые задания, самостоятельную практику и новую выходную проверку. Закрытые ответы получают rationale и разбор ошибки. Свободный текст сохраняется и оценивается по рубрике; до подключения и реальной проверки AI-движка система не выдаёт его за автоматическую AI-оценку.\n\n## 6. Интервальное повторение\n\nПовторяй не весь урок автоматически, а конкретную ошибку: выбор формы, согласование, word order, значение, регистр или пунктуацию. Новая попытка должна менять лексический контекст и формулировку, чтобы проверять перенос, а не запоминание одной строки.\n\n## 7. Технический статус\n\n- Постоянный ID: `B1-10`.\n- Прогресс хранится отдельно в course.grammarLessons[\"B1-10\"].\n- Содержание и ключи имеют статус draft; 24 авторских закрытых задания и объяснения вычитаны, выбранные тексты источников проверены. Полная постраничная и пользовательская приёмка остаются открытыми.\n- Предварительное выполнение порогов не равно окончательному mastered: нужны отсроченное повторение и learner review.",
+  "theoryEnd": "## 5."
+}

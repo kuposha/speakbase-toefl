@@ -1,0 +1,732 @@
+{
+  "id": "B1-11",
+  "level": "B1",
+  "sequence": "B1-11",
+  "grammarFamily": "B1-11",
+  "questionBankSource": "topic-specific-authored",
+  "sourceVerification": "draft; selected source text consulted; complete source-page and learner review pending",
+  "topicProfile": {
+    "label": "reported statements",
+    "skillTarget": "reported-statements-and-backshift",
+    "core": "Reported Speech (косвенная речь) передаёт содержание высказывания, не обязательно повторяя его дословно. При пересказе часто меняются местоимения, временные формы и указатели времени или места, потому что меняется точка зрения. В сообщении используются say/tell + (that) + придаточное.",
+    "form": "| Прямая речь | Обычный backshift при прошлом reporting verb |\n|---|---|\n| Present Simple | Past Simple |\n| Present Continuous | Past Continuous |\n| Present Perfect | Past Perfect |\n| Past Simple | Past Perfect (часто, но не всегда) |\n| Past Perfect | Past Perfect (без дальнейшего сдвига) |\n| will | would |\n| can | could |\n| may | might |",
+    "selection": "Найди говорящего, адресата и момент исходной речи. Определи, актуальна ли информация сейчас или ситуация уже изменилась. Если пересказываешь завершившуюся ситуацию из прошлой точки зрения, применяй backshift. Затем проверь местоимения, принадлежность, время и место.",
+    "contrast": "| Контекст | Пересказ |\n|---|---|\n| I am busy (вчера, сейчас ситуация изменилась). | She said she was busy. |\n| My job is interesting (работа всё ещё та же). | He said his job is/was interesting. |\n| I have completed the report (пересказ прошлой реплики). | She said she had completed the report. |\n| I'll call tomorrow (пересказ позже). | He said he would call the following day. |\n| I can help (прошлая перспектива). | She said she could help. |",
+    "boundary": "Backshift необязателен, если говорящий сохраняет актуальную временную точку или сообщает по-прежнему верное положение дел. Вечная истина может сохраняться в настоящем: The teacher said the Earth moves around the Sun. Past Perfect, would, could, might, should обычно не сдвигаются дальше. Must в значении прошлой обязанности часто передаётся had to, но при сохраняющемся требовании может остаться must.",
+    "pronunciation": "В косвенной речи that часто безударно или опущено. Слушай сокращение he'd: перед V3 оно может означать had, перед V1 — would. При пересказе старайся сохранять смысл, а не имитировать интонацию прямой цитаты.",
+    "examples": [
+      [
+        "He said he had lost his keys.",
+        "Он сказал, что потерял ключи.",
+        "Предшествующее событие передано Past Perfect."
+      ],
+      [
+        "She told me she was working late that day.",
+        "Она сказала мне, что в тот день работает допоздна.",
+        "Tell + адресат, прошлый взгляд."
+      ],
+      [
+        "They said they would arrive the following day.",
+        "Они сказали, что приедут на следующий день.",
+        "Will → would, изменён указатель времени."
+      ],
+      [
+        "The teacher said water freezes at zero degrees Celsius.",
+        "Преподаватель сказал, что вода замерзает при нуле градусов Цельсия.",
+        "Устойчивый факт может сохранить настоящее время."
+      ],
+      [
+        "He said he could speak Italian.",
+        "Он сказал, что умеет говорить по-итальянски.",
+        "Can → could в прошлом пересказе."
+      ]
+    ],
+    "traps": [
+      [
+        "He said me that he was late.",
+        "He told me that he was late.",
+        "Tell + адресат; say требует to перед адресатом."
+      ],
+      [
+        "She told that she was busy.",
+        "She said that she was busy.",
+        "В этой модели tell требует адресата."
+      ],
+      [
+        "She said she would called.",
+        "She said she would call.",
+        "После would нужна V1."
+      ],
+      [
+        "Anna said that I was tired (пересказ слов самой Анны о себе).",
+        "Anna said that she was tired.",
+        "Местоимение должно соответствовать говорящему."
+      ]
+    ],
+    "toefl": "В Listening различай мнение рассказчика и пересказываемые слова другого человека. В Writing при изложении позиции источника используй reporting verbs без искажения временной перспективы: The lecturer explained that the method had failed in earlier trials. В Speaking кратко передавай содержание диалога, не приписывая чужие высказывания себе."
+  },
+  "title": "Reported statements",
+  "description": "Передавать утверждения, учитывать backshift, местоимения и указатели времени",
+  "cardDescription": "Теория, guided practice, самостоятельные задания и выходная проверка по постоянному ID B1-11.",
+  "eyebrow": "Полный урок программы B1-11 · drafted",
+  "contentVersion": "1.1-draft",
+  "curriculumVersion": "1.0",
+  "prerequisites": [
+    "A2-13"
+  ],
+  "outcomes": [
+    "Передавать утверждения, учитывать backshift, местоимения и указатели времени",
+    "Выбирать целевую конструкцию по контексту и смыслу.",
+    "Исправлять типичные ошибки и переносить правило в новый пример."
+  ],
+  "sourceRefs": [
+    "GR-01 U51",
+    "GR-02 U47-48",
+    "GR-03 U32-39",
+    "GR-05 B1 p84-87"
+  ],
+  "sourceStatus": "selected source text consulted; full page verification pending",
+  "status": "drafted",
+  "legacyCoverage": "Полное ядро",
+  "toeflLinks": [
+    "Writing: Build a Sentence",
+    "Listening: tense/aspect, modality, weak forms and discourse cues",
+    "Writing: Academic Discussion"
+  ],
+  "thresholds": {
+    "independent": 7,
+    "exit": 4,
+    "criticalIds": [
+      "E1",
+      "E2",
+      "E3"
+    ]
+  },
+  "groups": {
+    "independent": "Самостоятельная практика",
+    "exit": "Выходная проверка"
+  },
+  "items": [
+    {
+      "id": "D1",
+      "group": "Входная диагностика",
+      "prompt": "Yesterday Tom said 'I am busy.' His schedule has changed. Choose the normal past-viewpoint report.",
+      "options": [
+        "Tom said I was busy.",
+        "Tom said he was busy.",
+        "Tom said he were busy."
+      ],
+      "answer": "Tom said he was busy.",
+      "accepted": [
+        "Tom said he was busy."
+      ],
+      "why": "Was передаёт прошлое состояние Тома.",
+      "distractorWhy": "I изменяет говорящего.",
+      "distractorRationales": {
+        "Tom said I was busy.": "I изменяет говорящего.",
+        "Tom said he were busy.": "He требует was."
+      },
+      "skillTarget": "reported-statements-and-backshift",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D2",
+      "group": "Входная диагностика",
+      "prompt": "'We have finished,' they said yesterday. Use standard backshift.",
+      "options": [
+        "They said they had finished.",
+        "They said they had finish.",
+        "They said we had finished."
+      ],
+      "answer": "They said they had finished.",
+      "accepted": [
+        "They said they had finished."
+      ],
+      "why": "Present Perfect → Past Perfect.",
+      "distractorWhy": "После had нужна V3.",
+      "distractorRationales": {
+        "They said they had finish.": "После had нужна V3.",
+        "They said we had finished.": "We неправильно меняет участников."
+      },
+      "skillTarget": "reported-statements-and-backshift",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D3",
+      "group": "Входная диагностика",
+      "prompt": "'I will call you,' she told me. Report from a past viewpoint.",
+      "options": [
+        "She said she would called me.",
+        "She said I would call her.",
+        "She said she would call me."
+      ],
+      "answer": "She said she would call me.",
+      "accepted": [
+        "She said she would call me."
+      ],
+      "why": "Will → would, you → me.",
+      "distractorWhy": "После would нужна V1.",
+      "distractorRationales": {
+        "She said she would called me.": "После would нужна V1.",
+        "She said I would call her.": "Местоимения меняют смысл."
+      },
+      "skillTarget": "reported-statements-and-backshift",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D4",
+      "group": "Входная диагностика",
+      "prompt": "Choose the reporting verb with a recipient and a clause.",
+      "options": [
+        "He said me that the meeting was cancelled.",
+        "He told me that the meeting was cancelled.",
+        "He told that the meeting was cancelled."
+      ],
+      "answer": "He told me that the meeting was cancelled.",
+      "accepted": [
+        "He told me that the meeting was cancelled."
+      ],
+      "why": "Tell + person + clause.",
+      "distractorWhy": "Say требует to перед адресатом.",
+      "distractorRationales": {
+        "He said me that the meeting was cancelled.": "Say требует to перед адресатом.",
+        "He told that the meeting was cancelled.": "В этой модели отсутствует адресат tell."
+      },
+      "skillTarget": "reported-statements-and-backshift",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G1",
+      "group": "Управляемая практика",
+      "prompt": "Choose the grammatical sentence without a named recipient.",
+      "options": [
+        "Anna said that she was tired.",
+        "Anna told that she was tired.",
+        "Anna said to that she was tired."
+      ],
+      "answer": "Anna said that she was tired.",
+      "accepted": [
+        "Anna said that she was tired."
+      ],
+      "why": "Say может непосредственно вводить that-clause.",
+      "distractorWhy": "Tell в этой модели требует адресата.",
+      "distractorRationales": {
+        "Anna told that she was tired.": "Tell в этой модели требует адресата.",
+        "Anna said to that she was tired.": "После to нужен адресат, а не that."
+      },
+      "skillTarget": "reported-statements-and-backshift",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G2",
+      "group": "Управляемая практика",
+      "prompt": "'I can swim,' he said years ago. Use standard backshift.",
+      "options": [
+        "He said he could swam.",
+        "He said he can to swim.",
+        "He said he could swim."
+      ],
+      "answer": "He said he could swim.",
+      "accepted": [
+        "He said he could swim."
+      ],
+      "why": "Can → could и затем V1.",
+      "distractorWhy": "Swam — V2.",
+      "distractorRationales": {
+        "He said he could swam.": "Swam — V2.",
+        "He said he can to swim.": "To после can не нужен."
+      },
+      "skillTarget": "reported-statements-and-backshift",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G3",
+      "group": "Управляемая практика",
+      "prompt": "The teacher explained an enduring scientific fact. Which report preserves the present tense?",
+      "options": [
+        "The teacher said the Earth move around the Sun.",
+        "The teacher said the Earth moves around the Sun.",
+        "The teacher said the Earth moving around the Sun."
+      ],
+      "answer": "The teacher said the Earth moves around the Sun.",
+      "accepted": [
+        "The teacher said the Earth moves around the Sun."
+      ],
+      "why": "Настоящее допустимо для устойчивого факта.",
+      "distractorWhy": "Earth требует moves.",
+      "distractorRationales": {
+        "The teacher said the Earth move around the Sun.": "Earth требует moves.",
+        "The teacher said the Earth moving around the Sun.": "Moving не является личной формой."
+      },
+      "skillTarget": "reported-statements-and-backshift",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G4",
+      "group": "Управляемая практика",
+      "prompt": "'I'm waiting here,' she said yesterday at the station. Report from a different place and past viewpoint.",
+      "options": [
+        "She said she was waiting there.",
+        "She said I was waiting there.",
+        "She said she was wait there."
+      ],
+      "answer": "She said she was waiting there.",
+      "accepted": [
+        "She said she was waiting there."
+      ],
+      "why": "Present Continuous → Past Continuous; here → there.",
+      "distractorWhy": "I меняет исполнителя.",
+      "distractorRationales": {
+        "She said I was waiting there.": "I меняет исполнителя.",
+        "She said she was wait there.": "После was нужна V-ing."
+      },
+      "skillTarget": "reported-statements-and-backshift",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G5",
+      "group": "Управляемая практика",
+      "prompt": "'I'll leave tomorrow,' he said on Monday. Report on Friday.",
+      "options": [
+        "He said he would leave tomorrow.",
+        "He said he would left the following day.",
+        "He said he would leave the following day."
+      ],
+      "answer": "He said he would leave the following day.",
+      "accepted": [
+        "He said he would leave the following day."
+      ],
+      "why": "Following day относится к исходному понедельнику.",
+      "distractorWhy": "Tomorrow в пятницу означало бы субботу.",
+      "distractorRationales": {
+        "He said he would leave tomorrow.": "Tomorrow в пятницу означало бы субботу.",
+        "He said he would left the following day.": "Left не V1."
+      },
+      "skillTarget": "reported-statements-and-backshift",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G6",
+      "group": "Управляемая практика",
+      "prompt": "Choose the grammatical use of say with a recipient.",
+      "options": [
+        "She said me something.",
+        "She said something to me.",
+        "She said to something me."
+      ],
+      "answer": "She said something to me.",
+      "accepted": [
+        "She said something to me."
+      ],
+      "why": "Say something to someone.",
+      "distractorWhy": "Say не принимает такой прямой адресат.",
+      "distractorRationales": {
+        "She said me something.": "Say не принимает такой прямой адресат.",
+        "She said to something me.": "Нарушен порядок дополнений."
+      },
+      "skillTarget": "reported-statements-and-backshift",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I1",
+      "group": "Самостоятельная практика",
+      "prompt": "'I had already eaten,' he said. Choose the usual report.",
+      "options": [
+        "He said he had already ate.",
+        "He said he had already eat.",
+        "He said he had already eaten."
+      ],
+      "answer": "He said he had already eaten.",
+      "accepted": [
+        "He said he had already eaten."
+      ],
+      "why": "Past Perfect обычно не сдвигается дальше.",
+      "distractorWhy": "Ate — V2.",
+      "distractorRationales": {
+        "He said he had already ate.": "Ate — V2.",
+        "He said he had already eat.": "Eat — V1."
+      },
+      "skillTarget": "reported-statements-and-backshift",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I2",
+      "group": "Самостоятельная практика",
+      "prompt": "'My sister is ill,' Anna said. Report referring to Anna's sister at that past time.",
+      "options": [
+        "Anna said my sister was ill.",
+        "Anna said her sister was ill.",
+        "Anna said her sister were ill."
+      ],
+      "answer": "Anna said her sister was ill.",
+      "accepted": [
+        "Anna said her sister was ill."
+      ],
+      "why": "My → her; sister требует was.",
+      "distractorWhy": "My отнесло бы сестру к рассказчику.",
+      "distractorRationales": {
+        "Anna said my sister was ill.": "My отнесло бы сестру к рассказчику.",
+        "Anna said her sister were ill.": "Were не согласуется с sister."
+      },
+      "skillTarget": "reported-statements-and-backshift",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I3",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the optional-that version of the report.",
+      "options": [
+        "He said he was ready.",
+        "He said was he ready.",
+        "He said he ready."
+      ],
+      "answer": "He said he was ready.",
+      "accepted": [
+        "He said he was ready."
+      ],
+      "why": "That можно опустить, порядок остаётся прямым.",
+      "distractorWhy": "Инверсия здесь неверна.",
+      "distractorRationales": {
+        "He said was he ready.": "Инверсия здесь неверна.",
+        "He said he ready.": "Пропущен глагол."
+      },
+      "skillTarget": "reported-statements-and-backshift",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I4",
+      "group": "Самостоятельная практика",
+      "prompt": "Which sentence is a direct quotation rather than reported speech?",
+      "options": [
+        "She said she was ready.",
+        "She told me she was ready.",
+        "She said, 'I am ready.'"
+      ],
+      "answer": "She said, 'I am ready.'",
+      "accepted": [
+        "She said, 'I am ready.'"
+      ],
+      "why": "Кавычки передают исходные слова.",
+      "distractorWhy": "Это косвенная речь.",
+      "distractorRationales": {
+        "She said she was ready.": "Это косвенная речь.",
+        "She told me she was ready.": "Это косвенная речь с адресатом."
+      },
+      "skillTarget": "reported-statements-and-backshift",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I5",
+      "group": "Самостоятельная практика",
+      "prompt": "'I may be late,' he said. Use standard past-viewpoint backshift.",
+      "options": [
+        "He said he might to be late.",
+        "He said he might be late.",
+        "He said he might is late."
+      ],
+      "answer": "He said he might be late.",
+      "accepted": [
+        "He said he might be late."
+      ],
+      "why": "May → might + be.",
+      "distractorWhy": "To не нужен.",
+      "distractorRationales": {
+        "He said he might to be late.": "To не нужен.",
+        "He said he might is late.": "Is не V1."
+      },
+      "skillTarget": "reported-statements-and-backshift",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I6",
+      "group": "Самостоятельная практика",
+      "prompt": "'I saw him yesterday,' she said on Tuesday. Report on Thursday, using Past Perfect.",
+      "options": [
+        "She said she had seen him the day before.",
+        "She said she had saw him the day before.",
+        "She said she had seen him yesterday."
+      ],
+      "answer": "She said she had seen him the day before.",
+      "accepted": [
+        "She said she had seen him the day before."
+      ],
+      "why": "Saw → had seen; day before относится ко вторнику.",
+      "distractorWhy": "Saw — V2.",
+      "distractorRationales": {
+        "She said she had saw him the day before.": "Saw — V2.",
+        "She said she had seen him yesterday.": "Yesterday в четверг означало бы среду."
+      },
+      "skillTarget": "reported-statements-and-backshift",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I7",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the report of a statement with correct word order.",
+      "options": [
+        "He said that had he lost the ticket.",
+        "He said that he had lose the ticket.",
+        "He said that he had lost the ticket."
+      ],
+      "answer": "He said that he had lost the ticket.",
+      "accepted": [
+        "He said that he had lost the ticket."
+      ],
+      "why": "Subject + had + V3 в придаточном.",
+      "distractorWhy": "Инверсия не нужна.",
+      "distractorRationales": {
+        "He said that had he lost the ticket.": "Инверсия не нужна.",
+        "He said that he had lose the ticket.": "Lose — V1."
+      },
+      "skillTarget": "reported-statements-and-backshift",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I8",
+      "group": "Самостоятельная практика",
+      "prompt": "'I must attend the meeting,' she said yesterday about a requirement that ended yesterday. Choose the past obligation report.",
+      "options": [
+        "She said she musted attend the meeting.",
+        "She said she had to attend the meeting.",
+        "She said she had attend the meeting."
+      ],
+      "answer": "She said she had to attend the meeting.",
+      "accepted": [
+        "She said she had to attend the meeting."
+      ],
+      "why": "Had to передаёт завершённую прошлую обязанность.",
+      "distractorWhy": "Musted не существует.",
+      "distractorRationales": {
+        "She said she musted attend the meeting.": "Musted не существует.",
+        "She said she had attend the meeting.": "Had to требует to."
+      },
+      "skillTarget": "reported-statements-and-backshift",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I9",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the present reporting-verb sentence without backshift.",
+      "options": [
+        "She says she likes the course.",
+        "She says she like the course.",
+        "She says likes she the course."
+      ],
+      "answer": "She says she likes the course.",
+      "accepted": [
+        "She says she likes the course."
+      ],
+      "why": "Says вводит актуальное сообщение; she likes.",
+      "distractorWhy": "Likes требует -s.",
+      "distractorRationales": {
+        "She says she like the course.": "Likes требует -s.",
+        "She says likes she the course.": "Инверсия не нужна."
+      },
+      "skillTarget": "reported-statements-and-backshift",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E1",
+      "group": "Выходная проверка",
+      "prompt": "'These are my notes,' he said while showing them yesterday. Report from a different situation.",
+      "options": [
+        "He said those were his notes.",
+        "He said those was his notes.",
+        "He said those were my notes."
+      ],
+      "answer": "He said those were his notes.",
+      "accepted": [
+        "He said those were his notes."
+      ],
+      "why": "These → those, are → were, my → his.",
+      "distractorWhy": "Plural those требует were.",
+      "distractorRationales": {
+        "He said those was his notes.": "Plural those требует were.",
+        "He said those were my notes.": "My меняет владельца."
+      },
+      "skillTarget": "reported-statements-and-backshift",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E2",
+      "group": "Выходная проверка",
+      "prompt": "'I should revise,' she said. Choose the usual report.",
+      "options": [
+        "She said she should revised.",
+        "She said she should to revise.",
+        "She said she should revise."
+      ],
+      "answer": "She said she should revise.",
+      "accepted": [
+        "She said she should revise."
+      ],
+      "why": "Should обычно сохраняется, далее V1.",
+      "distractorWhy": "Revised — V2/V3.",
+      "distractorRationales": {
+        "She said she should revised.": "Revised — V2/V3.",
+        "She said she should to revise.": "To не нужен."
+      },
+      "skillTarget": "reported-statements-and-backshift",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E3",
+      "group": "Выходная проверка",
+      "prompt": "Which statement about backshift is accurate?",
+      "options": [
+        "Every verb must always change to Past Perfect.",
+        "Present tense may remain when information is still true.",
+        "Pronouns never change in reported speech."
+      ],
+      "answer": "Present tense may remain when information is still true.",
+      "accepted": [
+        "Present tense may remain when information is still true."
+      ],
+      "why": "Актуальность может сохранить present.",
+      "distractorWhy": "Сдвиг зависит от исходной формы и контекста.",
+      "distractorRationales": {
+        "Every verb must always change to Past Perfect.": "Сдвиг зависит от исходной формы и контекста.",
+        "Pronouns never change in reported speech.": "Местоимения зависят от говорящего."
+      },
+      "skillTarget": "reported-statements-and-backshift",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E4",
+      "group": "Выходная проверка",
+      "prompt": "Choose the correct report with both recipient and that.",
+      "options": [
+        "They told us that they would return.",
+        "They told that us would return.",
+        "They said us that they would return."
+      ],
+      "answer": "They told us that they would return.",
+      "accepted": [
+        "They told us that they would return."
+      ],
+      "why": "Tell + us + that + clause.",
+      "distractorWhy": "Адресат должен стоять до that.",
+      "distractorRationales": {
+        "They told that us would return.": "Адресат должен стоять до that.",
+        "They said us that they would return.": "Say не принимает us в этой позиции."
+      },
+      "skillTarget": "reported-statements-and-backshift",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E5",
+      "group": "Выходная проверка",
+      "prompt": "'We are preparing for the exam,' they said last month. The exam is over. Choose the standard report.",
+      "options": [
+        "They said they was preparing for the exam.",
+        "They said we were preparing for the exam.",
+        "They said they were preparing for the exam."
+      ],
+      "answer": "They said they were preparing for the exam.",
+      "accepted": [
+        "They said they were preparing for the exam."
+      ],
+      "why": "Were preparing передаёт завершившуюся прошлую ситуацию.",
+      "distractorWhy": "Plural they требует were.",
+      "distractorRationales": {
+        "They said they was preparing for the exam.": "Plural they требует were.",
+        "They said we were preparing for the exam.": "We меняет участников."
+      },
+      "skillTarget": "reported-statements-and-backshift",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "W1",
+      "group": "Самостоятельное применение",
+      "prompt": "Перескажи шесть вымышленных реплик однокурсника, произнесённых на прошлой неделе: состояние, процесс, завершённое действие, намерение, способность и актуальный факт. Используй say и tell и объясни выбор временной перспективы.",
+      "open": true,
+      "rubric": [
+        "Правильно выбраны say/tell и адресат.",
+        "Местоимения соответствуют участникам речи.",
+        "Backshift применён там, где нужен.",
+        "Будущее и способность переданы корректно.",
+        "Указатели времени и места соответствуют пересказу.",
+        "Сохраняющаяся истина не требует механического сдвига."
+      ],
+      "skillTarget": "Самостоятельное применение B1-11",
+      "interactionType": "open-production",
+      "difficulty": "transfer",
+      "sourceBasis": "Speakbase-authored open production; self-review rubric only until real AI feedback is connected",
+      "contentVersion": "1.1-draft"
+    }
+  ],
+  "markdown": "# Speakbase — B1-11: Reported statements\n\n**Curriculum ID:** `B1-11`  \n**Уровень:** B1  \n**Версия:** 1.1-draft\n**Статус:** drafted; selected source text checked; full source-page and learner acceptance pending\n**Предварительные темы:** A2-13  \n**Связь со старым каталогом:** Полное ядро — №31 Reported Speech\n\n## 1. Результаты обучения\n\n- Передавать утверждения, учитывать backshift, местоимения и указатели времени\n- Выбирать целевую форму по значению, структуре предложения и контексту.\n- Объяснять, почему близкая грамматическая форма меняет смысл или регистр.\n- Находить и исправлять типичные ошибки русскоязычных студентов.\n\n## 2. Источники и статус сверки\n\n| Source | PDF navigation | Lesson-specific checks | Status |\n|---|---|---|---|\n| GR-01 U51 | PDF pages 113-114 (Unit 51) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-02 U47-48 | PDF pages 106-109 (Unit 47-48) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-03 U32-39 | PDF pages 88-103 (Unit 32-39) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-05 B1 p84-87 | PDF pages 84-87 (B1 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n\nUnit/page locations are navigation aids only. They do not prove that the cited explanation, examples, restrictions and answer key have been checked for this lesson. Examples and explanations below are Speakbase-authored, not quotations from the textbook.\n\nПеред переводом этого урока в source-verified необходимо открыть целевые страницы конкретного издания, записать печатную и PDF-пагинацию, сверить ограничения и исключения. Для GR-03 со сканированными страницами обязательна визуальная проверка.\n\n**Evidence for this editorial pass:** GR-02 selected theory text: Units 47–48, PDF pp. 106 and 108 (printed pp. 94 and 96); GR-05 B1 pp. 84–86 selected reported-speech descriptors. The selected source text was consulted; not all pages, exercises, editions, scanned GR-03 pages or GR-05 descriptors were checked. Author-created explanations and practice are not copied source exercises.\n\n## 3. Место темы и границы\n\nReported statements: backshift, pronoun/time reference, say/tell и reporting perspective. Backshift — тенденция, не автоматическое правило.\n\nСтарый каталог содержит: №31 Reported Speech. Его статус — Полное ядро. Старые отметки завершения не переносятся автоматически на новый постоянный ID. Тема рассматривается в уровне B1 и не заменяет обязательные prerequisites.\n\n## 4. Полный конспект\n\n### 4.1. Основная идея и функция конструкции\n\nReported Speech (косвенная речь) передаёт содержание высказывания, не обязательно повторяя его дословно. При пересказе часто меняются местоимения, временные формы и указатели времени или места, потому что меняется точка зрения. В сообщении используются say/tell + (that) + придаточное.\n\nПрямая речь: Anna said, 'I am tired.' Косвенная речь: Anna said that she was tired. I относится к Анне, поэтому меняется на she. Was отражает прошлый момент речи. Однако если Анна всё ещё устала, Anna said she is tired тоже может быть уместным. Сдвиг времени — не механическое обязательное преобразование любого глагола.\n\n### 4.2. Формирование и грамматическая модель\n\n| Прямая речь | Обычный backshift при прошлом reporting verb |\n|---|---|\n| Present Simple | Past Simple |\n| Present Continuous | Past Continuous |\n| Present Perfect | Past Perfect |\n| Past Simple | Past Perfect (часто, но не всегда) |\n| Past Perfect | Past Perfect (без дальнейшего сдвига) |\n| will | would |\n| can | could |\n| may | might |\n\nSay + (that) + clause: She said (that) she was busy. Tell + person + (that) + clause: She told me (that) she was busy. Say something to someone: She said something to me. Не используй said me that или told that без адресата в этой модели. That часто опускается в разговорной речи. В настоящем reporting verb (She says…) автоматический сдвиг не требуется.\n\n### 4.3. Как выбрать подходящую форму\n\nНайди говорящего, адресата и момент исходной речи. Определи, актуальна ли информация сейчас или ситуация уже изменилась. Если пересказываешь завершившуюся ситуацию из прошлой точки зрения, применяй backshift. Затем проверь местоимения, принадлежность, время и место.\n\nToday может стать that day, tomorrow — the next/following day, yesterday — the previous day/the day before, now — then, here — there, this — that. Эти замены нужны только при смене соответствующей точки отсчёта. Если пересказ происходит в тот же день или в том же месте, today или here могут сохраниться. Если дата известна, можно использовать конкретный день вместо относительного выражения.\n\n### 4.4. Сравнение с близкими конструкциями\n\n| Контекст | Пересказ |\n|---|---|\n| I am busy (вчера, сейчас ситуация изменилась). | She said she was busy. |\n| My job is interesting (работа всё ещё та же). | He said his job is/was interesting. |\n| I have completed the report (пересказ прошлой реплики). | She said she had completed the report. |\n| I'll call tomorrow (пересказ позже). | He said he would call the following day. |\n| I can help (прошлая перспектива). | She said she could help. |\n\n### 4.5. Примеры с переводом и объяснением\n\n| English | Перевод | Почему это подходит |\n| --- | --- | --- |\n| He said he had lost his keys. | Он сказал, что потерял ключи. | Предшествующее событие передано Past Perfect. |\n| She told me she was working late that day. | Она сказала мне, что в тот день работает допоздна. | Tell + адресат, прошлый взгляд. |\n| They said they would arrive the following day. | Они сказали, что приедут на следующий день. | Will → would, изменён указатель времени. |\n| The teacher said water freezes at zero degrees Celsius. | Преподаватель сказал, что вода замерзает при нуле градусов Цельсия. | Устойчивый факт может сохранить настоящее время. |\n| He said he could speak Italian. | Он сказал, что умеет говорить по-итальянски. | Can → could в прошлом пересказе. |\n\n### 4.6. Исключения, ограничения и границы употребления\n\nBackshift необязателен, если говорящий сохраняет актуальную временную точку или сообщает по-прежнему верное положение дел. Вечная истина может сохраняться в настоящем: The teacher said the Earth moves around the Sun. Past Perfect, would, could, might, should обычно не сдвигаются дальше. Must в значении прошлой обязанности часто передаётся had to, но при сохраняющемся требовании может остаться must.\n\nНе путай косвенное сообщение с вопросом: после said that обычный порядок слов. Reported questions и команды рассматриваются в B1-12. Не добавляй кавычки вокруг обычной косвенной речи. Если точный текст важен, используй прямую цитату; косвенная речь передаёт смысл. В заданиях на backshift должно быть ясно, что требуется стандартная прошлая перспектива, иначе два ответа могут быть допустимыми.\n\n### 4.7. Типичные ошибки русскоязычных студентов\n\n| Ошибка | Исправление | Объяснение |\n| --- | --- | --- |\n| He said me that he was late. | He told me that he was late. | Tell + адресат; say требует to перед адресатом. |\n| She told that she was busy. | She said that she was busy. | В этой модели tell требует адресата. |\n| She said she would called. | She said she would call. | После would нужна V1. |\n| Anna said that I was tired (пересказ слов самой Анны о себе). | Anna said that she was tired. | Местоимение должно соответствовать говорящему. |\n\n### 4.8. Произношение и восприятие на слух\n\nВ косвенной речи that часто безударно или опущено. Слушай сокращение he'd: перед V3 оно может означать had, перед V1 — would. При пересказе старайся сохранять смысл, а не имитировать интонацию прямой цитаты.\n\nСначала прослушай или прочитай пример, затем произнеси его целиком. Обрати внимание на смысловое ударение и форму конструкции; не ориентируйся только на буквенный перевод.\n\n### 4.9. Академический английский и TOEFL-перенос\n\nВ Listening различай мнение рассказчика и пересказываемые слова другого человека. В Writing при изложении позиции источника используй reporting verbs без искажения временной перспективы: The lecturer explained that the method had failed in earlier trials. В Speaking кратко передавай содержание диалога, не приписывая чужие высказывания себе.\n\nЭто авторская практика переноса навыка. Она не является официальным заданием TOEFL и не выдаётся за официальный результат экзамена.\n\n### 4.10. Примеры для управляемого разбора\n\n- He said he had lost his keys. — Он сказал, что потерял ключи. Предшествующее событие передано Past Perfect.\n- She told me she was working late that day. — Она сказала мне, что в тот день работает допоздна. Tell + адресат, прошлый взгляд.\n- They said they would arrive the following day. — Они сказали, что приедут на следующий день. Will → would, изменён указатель времени.\n\nДля каждого примера назови целевую конструкцию, объясни выбор и составь новое предложение в другом контексте. Затем перейди к заданиям: сначала диагностика, затем управляемая и самостоятельная практика, затем новые вопросы выходной проверки.\n\n### 4.11. Самопроверка\n\nПеред отправкой ответа проверь:\n1. Правильно выбраны say/tell и адресат.\n2. Местоимения соответствуют участникам речи.\n3. Backshift применён там, где нужен.\n4. Будущее и способность переданы корректно.\n5. Указатели времени и места соответствуют пересказу.\n6. Сохраняющаяся истина не требует механического сдвига.\n\n### 4.12. Краткая памятка\n\nSay + clause; tell + person + clause. При прошлом пересказе часто present → past, will → would, can → could, present perfect → past perfect. Проверяй актуальность, местоимения и указатели времени. Не меняй время автоматически, если ситуация остаётся актуальной.\n\nНе выбирай форму только по одному знакомому слову: проверь контекст, значение и структуру. При ошибке вернись к соответствующей части конспекта и составь собственный пример.\n\n## 5. Практика\n\nВ приложении практика разделена на входную диагностику, управляемые задания, самостоятельную практику и новую выходную проверку. Закрытые ответы получают rationale и разбор ошибки. Свободный текст сохраняется и оценивается по рубрике; до подключения и реальной проверки AI-движка система не выдаёт его за автоматическую AI-оценку.\n\n## 6. Интервальное повторение\n\nПовторяй не весь урок автоматически, а конкретную ошибку: выбор формы, согласование, word order, значение, регистр или пунктуацию. Новая попытка должна менять лексический контекст и формулировку, чтобы проверять перенос, а не запоминание одной строки.\n\n## 7. Технический статус\n\n- Постоянный ID: `B1-11`.\n- Прогресс хранится отдельно в course.grammarLessons[\"B1-11\"].\n- Содержание и ключи имеют статус draft; 24 авторских закрытых задания и объяснения вычитаны, выбранные тексты источников проверены. Полная постраничная и пользовательская приёмка остаются открытыми.\n- Предварительное выполнение порогов не равно окончательному mastered: нужны отсроченное повторение и learner review.",
+  "theoryEnd": "## 5."
+}

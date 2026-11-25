@@ -1,0 +1,734 @@
+{
+  "id": "B1-12",
+  "level": "B1",
+  "sequence": "B1-12",
+  "grammarFamily": "B1-12",
+  "questionBankSource": "topic-specific-authored",
+  "sourceVerification": "draft; selected source text consulted; complete source-page and learner review pending",
+  "topicProfile": {
+    "label": "reported questions, requests and commands",
+    "skillTarget": "reported-questions-requests-commands",
+    "core": "Косвенный вопрос передаёт содержание чужого вопроса без прямой цитаты. Внутри придаточного используется обычный порядок слов: подлежащее перед сказуемым. Вопрос с вопросительным словом сохраняет это слово, общий вопрос вводится if или whether. Просьбы и команды обычно передаются конструкцией ask/tell + person + (not) to-infinitive.",
+    "form": "| Тип исходной реплики | Модель | Пример |\n|---|---|---|\n| Wh-question | ask + wh-word + subject + verb | She asked where I lived. |\n| Yes/no question | ask + if/whether + subject + verb | He asked if I knew. |\n| Просьба | ask + person + to + V1 | She asked me to wait. |\n| Команда | tell + person + to + V1 | He told us to leave. |\n| Отрицательная просьба/команда | ask/tell + person + not to + V1 | She told me not to touch it. |\n| Вежливый embedded question | Could you tell me + wh-word + subject + verb? | Could you tell me where the room is? |",
+    "selection": "Определи функцию исходной реплики: запрос информации, просьба или приказ. Если спрашивают where/when/why/how, сохрани вопросительное слово. Если вопрос предполагает yes/no, добавь if/whether. Если хотят, чтобы человек выполнил действие, используй ask/tell + person + to V1. Для запрета ставь not перед to.",
+    "contrast": "| Прямая речь | Косвенная речь |\n|---|---|\n| Where do you live? | He asked where I lived. |\n| Did you send the file? | She asked whether I had sent the file. |\n| Please open the window. | She asked me to open the window. |\n| Don't touch the screen. | He told us not to touch the screen. |\n| What time does it start? | Could you tell me what time it starts? |",
+    "boundary": "Внутри косвенного вопроса не используется обычная вопросительная инверсия: I wonder where he is, не where is he. Исключение не требуется для subject questions, где who/what само является подлежащим: She asked who called. Если всё предложение является прямым вопросом (Could you tell me…?), вопросительный знак сохраняется; сообщение She asked… обычно заканчивается точкой.",
+    "pronunciation": "При передаче просьб to часто звучит безударно. В Could you tell me where the office is? главное вопросительное движение связано с первой частью; внутри where the office is порядок утвердительный. На слух различай ask if и ask someone to.",
+    "examples": [
+      [
+        "She asked me where I had bought the book.",
+        "Она спросила, где я купила книгу.",
+        "Wh-word + subject + verb."
+      ],
+      [
+        "He asked whether I needed help.",
+        "Он спросил, нужна ли мне помощь.",
+        "Yes/no → whether."
+      ],
+      [
+        "The tutor asked us to send the draft.",
+        "Преподаватель попросил нас отправить черновик.",
+        "Просьба с to-infinitive."
+      ],
+      [
+        "The guard told us not to enter.",
+        "Охранник велел нам не входить.",
+        "Отрицательная команда."
+      ],
+      [
+        "Could you tell me where the library is?",
+        "Не могли бы вы сказать, где библиотека?",
+        "Вежливый прямой вопрос с embedded clause."
+      ]
+    ],
+    "traps": [
+      [
+        "She asked where was I going.",
+        "She asked where I was going.",
+        "В косвенном вопросе прямой порядок."
+      ],
+      [
+        "He asked did I know the answer.",
+        "He asked if I knew the answer.",
+        "Общий вопрос требует if/whether, вопросительное did исчезает."
+      ],
+      [
+        "She told me don't wait.",
+        "She told me not to wait.",
+        "Отрицательная команда: not to + V1."
+      ],
+      [
+        "Could you tell me where is the office?",
+        "Could you tell me where the office is?",
+        "Инверсия только в главной части вопроса."
+      ]
+    ],
+    "toefl": "В Listening часто встречаются вопросы об университетских услугах и просьбы преподавателей. При пересказе используй She asked whether… или The adviser told the student to… в зависимости от функции. В Speaking учись вежливо спрашивать информацию: Could you tell me when registration opens? В Writing передавай инструкции без лишней инверсии."
+  },
+  "title": "Reported questions, requests and commands",
+  "description": "Передавать вопросы, просьбы и распоряжения; сохранять statement word order в косвенных вопросах",
+  "cardDescription": "Теория, guided practice, самостоятельные задания и выходная проверка по постоянному ID B1-12.",
+  "eyebrow": "Полный урок программы B1-12 · drafted",
+  "contentVersion": "1.1-draft",
+  "curriculumVersion": "1.0",
+  "prerequisites": [
+    "A2-13",
+    "B1-11"
+  ],
+  "outcomes": [
+    "Передавать вопросы, просьбы и распоряжения; сохранять statement word order в косвенных вопросах",
+    "Выбирать целевую конструкцию по контексту и смыслу.",
+    "Исправлять типичные ошибки и переносить правило в новый пример."
+  ],
+  "sourceRefs": [
+    "GR-01 U50-51",
+    "GR-02 U48",
+    "GR-02 U50",
+    "GR-03 U34-38",
+    "GR-05 B1 p85-87"
+  ],
+  "sourceStatus": "selected source text consulted; full page verification pending",
+  "status": "drafted",
+  "legacyCoverage": "Частично",
+  "toeflLinks": [
+    "Writing: Build a Sentence",
+    "Listening: tense/aspect, modality, weak forms and discourse cues",
+    "Writing: Academic Discussion"
+  ],
+  "thresholds": {
+    "independent": 7,
+    "exit": 4,
+    "criticalIds": [
+      "E1",
+      "E2",
+      "E3"
+    ]
+  },
+  "groups": {
+    "independent": "Самостоятельная практика",
+    "exit": "Выходная проверка"
+  },
+  "items": [
+    {
+      "id": "D1",
+      "group": "Входная диагностика",
+      "prompt": "'Where are you going?' she asked yesterday. Use past viewpoint.",
+      "options": [
+        "She asked where was I going.",
+        "She asked where I was going.",
+        "She asked where I was go."
+      ],
+      "answer": "She asked where I was going.",
+      "accepted": [
+        "She asked where I was going."
+      ],
+      "why": "Wh-word + subject + verb, сдвиг are → was.",
+      "distractorWhy": "Инверсия внутри косвенного вопроса не нужна.",
+      "distractorRationales": {
+        "She asked where was I going.": "Инверсия внутри косвенного вопроса не нужна.",
+        "She asked where I was go.": "После was требуется V-ing."
+      },
+      "skillTarget": "reported-questions-requests-commands",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D2",
+      "group": "Входная диагностика",
+      "prompt": "'Do you know the answer?' he asked. Use standard backshift.",
+      "options": [
+        "He asked if I knew the answer.",
+        "He asked did I know the answer.",
+        "He asked if knew I the answer."
+      ],
+      "answer": "He asked if I knew the answer.",
+      "accepted": [
+        "He asked if I knew the answer."
+      ],
+      "why": "If + subject + Past Simple.",
+      "distractorWhy": "Do-вопрос превращается в if/whether-clause.",
+      "distractorRationales": {
+        "He asked did I know the answer.": "Do-вопрос превращается в if/whether-clause.",
+        "He asked if knew I the answer.": "Нарушен порядок слов."
+      },
+      "skillTarget": "reported-questions-requests-commands",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D3",
+      "group": "Входная диагностика",
+      "prompt": "'Put your phones away,' the teacher ordered. Choose the report.",
+      "options": [
+        "The teacher told us putting our phones away.",
+        "The teacher told us put our phones away.",
+        "The teacher told us to put our phones away."
+      ],
+      "answer": "The teacher told us to put our phones away.",
+      "accepted": [
+        "The teacher told us to put our phones away."
+      ],
+      "why": "Tell + person + to V1 передаёт команду.",
+      "distractorWhy": "Putting не подходит в этой модели.",
+      "distractorRationales": {
+        "The teacher told us putting our phones away.": "Putting не подходит в этой модели.",
+        "The teacher told us put our phones away.": "Пропущено to."
+      },
+      "skillTarget": "reported-questions-requests-commands",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D4",
+      "group": "Входная диагностика",
+      "prompt": "'Please open the window,' she said to me. Report the request.",
+      "options": [
+        "She asked me open the window.",
+        "She asked me to open the window.",
+        "She asked me opening the window."
+      ],
+      "answer": "She asked me to open the window.",
+      "accepted": [
+        "She asked me to open the window."
+      ],
+      "why": "Ask + person + to V1.",
+      "distractorWhy": "Нужно to.",
+      "distractorRationales": {
+        "She asked me open the window.": "Нужно to.",
+        "She asked me opening the window.": "Opening не подходит."
+      },
+      "skillTarget": "reported-questions-requests-commands",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G1",
+      "group": "Управляемая практика",
+      "prompt": "'Don't run,' he told the children. Choose the report.",
+      "options": [
+        "He told the children not to run.",
+        "He told the children don't run.",
+        "He told the children not running."
+      ],
+      "answer": "He told the children not to run.",
+      "accepted": [
+        "He told the children not to run."
+      ],
+      "why": "Отрицательная команда: not to + V1.",
+      "distractorWhy": "Don't относится к прямой команде.",
+      "distractorRationales": {
+        "He told the children don't run.": "Don't относится к прямой команде.",
+        "He told the children not running.": "Not running не эта модель."
+      },
+      "skillTarget": "reported-questions-requests-commands",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G2",
+      "group": "Управляемая практика",
+      "prompt": "'Can you help me?' she asked as a request. Choose the request report.",
+      "options": [
+        "She asked me help her.",
+        "She asked me to help me.",
+        "She asked me to help her."
+      ],
+      "answer": "She asked me to help her.",
+      "accepted": [
+        "She asked me to help her."
+      ],
+      "why": "Ask + person + to; me исходной говорящей → her.",
+      "distractorWhy": "Пропущено to.",
+      "distractorRationales": {
+        "She asked me help her.": "Пропущено to.",
+        "She asked me to help me.": "Последнее me меняет адресата помощи."
+      },
+      "skillTarget": "reported-questions-requests-commands",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G3",
+      "group": "Управляемая практика",
+      "prompt": "Choose the correct polite embedded question.",
+      "options": [
+        "Could you tell me where is the office?",
+        "Could you tell me where the office is?",
+        "Could you tell me where the office be?"
+      ],
+      "answer": "Could you tell me where the office is?",
+      "accepted": [
+        "Could you tell me where the office is?"
+      ],
+      "why": "Внутри where-clause прямой порядок.",
+      "distractorWhy": "Инверсия уже в главной части.",
+      "distractorRationales": {
+        "Could you tell me where is the office?": "Инверсия уже в главной части.",
+        "Could you tell me where the office be?": "Be не личная форма."
+      },
+      "skillTarget": "reported-questions-requests-commands",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G4",
+      "group": "Управляемая практика",
+      "prompt": "'Have you finished?' he asked yesterday. Use Past Perfect.",
+      "options": [
+        "He asked whether I had finished.",
+        "He asked whether had I finished.",
+        "He asked whether I had finish."
+      ],
+      "answer": "He asked whether I had finished.",
+      "accepted": [
+        "He asked whether I had finished."
+      ],
+      "why": "Whether + subject + had + V3.",
+      "distractorWhy": "Инверсия не нужна.",
+      "distractorRationales": {
+        "He asked whether had I finished.": "Инверсия не нужна.",
+        "He asked whether I had finish.": "Finish — V1."
+      },
+      "skillTarget": "reported-questions-requests-commands",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G5",
+      "group": "Управляемая практика",
+      "prompt": "Choose the correct embedded question with does removed.",
+      "options": [
+        "Do you know what time does the lesson start?",
+        "Do you know what time the lesson start?",
+        "Do you know what time the lesson starts?"
+      ],
+      "answer": "Do you know what time the lesson starts?",
+      "accepted": [
+        "Do you know what time the lesson starts?"
+      ],
+      "why": "The lesson starts — прямой порядок и согласование.",
+      "distractorWhy": "Does не нужен внутри придаточного.",
+      "distractorRationales": {
+        "Do you know what time does the lesson start?": "Does не нужен внутри придаточного.",
+        "Do you know what time the lesson start?": "Lesson требует starts."
+      },
+      "skillTarget": "reported-questions-requests-commands",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G6",
+      "group": "Управляемая практика",
+      "prompt": "'Who called?' she asked. Choose the subject-question report.",
+      "options": [
+        "She asked who did had call.",
+        "She asked who had called.",
+        "She asked who had call."
+      ],
+      "answer": "She asked who had called.",
+      "accepted": [
+        "She asked who had called."
+      ],
+      "why": "Who — подлежащее; had called допустим при backshift.",
+      "distractorWhy": "Did не сочетается с had.",
+      "distractorRationales": {
+        "She asked who did had call.": "Did не сочетается с had.",
+        "She asked who had call.": "Call не V3."
+      },
+      "skillTarget": "reported-questions-requests-commands",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I1",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the grammatical report of a negative request.",
+      "options": [
+        "The guide asked visitors not touching the display.",
+        "The guide asked visitors don't touch the display.",
+        "The guide asked visitors not to touch the display."
+      ],
+      "answer": "The guide asked visitors not to touch the display.",
+      "accepted": [
+        "The guide asked visitors not to touch the display."
+      ],
+      "why": "Ask + person + not to V1.",
+      "distractorWhy": "Not touching не нужная модель.",
+      "distractorRationales": {
+        "The guide asked visitors not touching the display.": "Not touching не нужная модель.",
+        "The guide asked visitors don't touch the display.": "Don't touch — прямая команда."
+      },
+      "skillTarget": "reported-questions-requests-commands",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I2",
+      "group": "Самостоятельная практика",
+      "prompt": "'Why did you leave?' he asked. Use Past Perfect in the report.",
+      "options": [
+        "He asked why had I left.",
+        "He asked why I had left.",
+        "He asked why I had leave."
+      ],
+      "answer": "He asked why I had left.",
+      "accepted": [
+        "He asked why I had left."
+      ],
+      "why": "Why + subject + had + V3.",
+      "distractorWhy": "Прямой порядок внутри вопроса.",
+      "distractorRationales": {
+        "He asked why had I left.": "Прямой порядок внутри вопроса.",
+        "He asked why I had leave.": "Leave — V1."
+      },
+      "skillTarget": "reported-questions-requests-commands",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I3",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct question with whether or not.",
+      "options": [
+        "I wonder whether or not she will attend.",
+        "I wonder if or not she will attend.",
+        "I wonder whether or not will she attend."
+      ],
+      "answer": "I wonder whether or not she will attend.",
+      "accepted": [
+        "I wonder whether or not she will attend."
+      ],
+      "why": "Whether or not допускает эту позицию.",
+      "distractorWhy": "If or not подряд не стандартная модель.",
+      "distractorRationales": {
+        "I wonder if or not she will attend.": "If or not подряд не стандартная модель.",
+        "I wonder whether or not will she attend.": "Нет инверсии в придаточном."
+      },
+      "skillTarget": "reported-questions-requests-commands",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I4",
+      "group": "Самостоятельная практика",
+      "prompt": "'What do you do?' she asked about my job years ago.",
+      "options": [
+        "She asked what did I do.",
+        "She asked what I doing.",
+        "She asked what I did."
+      ],
+      "answer": "She asked what I did.",
+      "accepted": [
+        "She asked what I did."
+      ],
+      "why": "Смысловой do сохраняется как did.",
+      "distractorWhy": "Инверсия прямого вопроса не нужна.",
+      "distractorRationales": {
+        "She asked what did I do.": "Инверсия прямого вопроса не нужна.",
+        "She asked what I doing.": "Doing без вспомогательного неверно."
+      },
+      "skillTarget": "reported-questions-requests-commands",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I5",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the report of a command addressed to us.",
+      "options": [
+        "He said us to wait outside.",
+        "He told us to wait outside.",
+        "He told us waiting outside."
+      ],
+      "answer": "He told us to wait outside.",
+      "accepted": [
+        "He told us to wait outside."
+      ],
+      "why": "Tell + recipient + to V1.",
+      "distractorWhy": "Say не принимает us в этой модели.",
+      "distractorRationales": {
+        "He said us to wait outside.": "Say не принимает us в этой модели.",
+        "He told us waiting outside.": "Waiting не подходит после told us."
+      },
+      "skillTarget": "reported-questions-requests-commands",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I6",
+      "group": "Самостоятельная практика",
+      "prompt": "Which punctuation is correct for a statement reporting a question?",
+      "options": [
+        "She asked where the library was.",
+        "She asked where the library was?",
+        "She asked, where was the library."
+      ],
+      "answer": "She asked where the library was.",
+      "accepted": [
+        "She asked where the library was."
+      ],
+      "why": "Всё предложение — сообщение, нужна точка.",
+      "distractorWhy": "Вопросительный знак относится к прямому вопросу.",
+      "distractorRationales": {
+        "She asked where the library was?": "Вопросительный знак относится к прямому вопросу.",
+        "She asked, where was the library.": "Инверсия и запятая не нужны."
+      },
+      "skillTarget": "reported-questions-requests-commands",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I7",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the direct polite question with an embedded clause.",
+      "options": [
+        "Could you tell me when does the bus leave?",
+        "Could you tell me when the bus leave?",
+        "Could you tell me when the bus leaves?"
+      ],
+      "answer": "Could you tell me when the bus leaves?",
+      "accepted": [
+        "Could you tell me when the bus leaves?"
+      ],
+      "why": "Прямой порядок и leaves с bus.",
+      "distractorWhy": "Does в придаточном лишний.",
+      "distractorRationales": {
+        "Could you tell me when does the bus leave?": "Does в придаточном лишний.",
+        "Could you tell me when the bus leave?": "Bus требует leaves."
+      },
+      "skillTarget": "reported-questions-requests-commands",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I8",
+      "group": "Самостоятельная практика",
+      "prompt": "'Will you join us?' they asked. Use past viewpoint.",
+      "options": [
+        "They asked whether would I join them.",
+        "They asked whether I would join them.",
+        "They asked whether I would joined them."
+      ],
+      "answer": "They asked whether I would join them.",
+      "accepted": [
+        "They asked whether I would join them."
+      ],
+      "why": "Will → would; местоимения соответствуют участникам.",
+      "distractorWhy": "Инверсия внутри придаточного неверна.",
+      "distractorRationales": {
+        "They asked whether would I join them.": "Инверсия внутри придаточного неверна.",
+        "They asked whether I would joined them.": "Joined — не V1."
+      },
+      "skillTarget": "reported-questions-requests-commands",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I9",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct expression for uncertainty about a decision.",
+      "options": [
+        "I wonder whether to apply.",
+        "I wonder if to apply.",
+        "I wonder whether applying to."
+      ],
+      "answer": "I wonder whether to apply.",
+      "accepted": [
+        "I wonder whether to apply."
+      ],
+      "why": "Whether + to-infinitive выражает неопределённость выбора.",
+      "distractorWhy": "If to не стандартная модель.",
+      "distractorRationales": {
+        "I wonder if to apply.": "If to не стандартная модель.",
+        "I wonder whether applying to.": "Нарушена структура."
+      },
+      "skillTarget": "reported-questions-requests-commands",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E1",
+      "group": "Выходная проверка",
+      "prompt": "'Please don't call tonight,' he said to her. Report the request.",
+      "options": [
+        "He asked her not to call that night.",
+        "He asked her don't call that night.",
+        "He asked her not calling that night."
+      ],
+      "answer": "He asked her not to call that night.",
+      "accepted": [
+        "He asked her not to call that night."
+      ],
+      "why": "Ask + person + not to; tonight → that night при смене даты.",
+      "distractorWhy": "Don't call — прямая реплика.",
+      "distractorRationales": {
+        "He asked her don't call that night.": "Don't call — прямая реплика.",
+        "He asked her not calling that night.": "Not calling не нужная структура."
+      },
+      "skillTarget": "reported-questions-requests-commands",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E2",
+      "group": "Выходная проверка",
+      "prompt": "Choose the correct report with past progressive.",
+      "options": [
+        "She asked what was I doing.",
+        "She asked what I was do.",
+        "She asked what I was doing."
+      ],
+      "answer": "She asked what I was doing.",
+      "accepted": [
+        "She asked what I was doing."
+      ],
+      "why": "What + subject + was + V-ing.",
+      "distractorWhy": "Инверсия не нужна.",
+      "distractorRationales": {
+        "She asked what was I doing.": "Инверсия не нужна.",
+        "She asked what I was do.": "Do требует -ing."
+      },
+      "skillTarget": "reported-questions-requests-commands",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E3",
+      "group": "Выходная проверка",
+      "prompt": "Which version reports a question about ability, rather than a request to act?",
+      "options": [
+        "She asked me to swim.",
+        "She asked whether I could swim.",
+        "She told me to swim."
+      ],
+      "answer": "She asked whether I could swim.",
+      "accepted": [
+        "She asked whether I could swim."
+      ],
+      "why": "Whether-clause передаёт вопрос о способности.",
+      "distractorWhy": "Это просьба выполнить действие.",
+      "distractorRationales": {
+        "She asked me to swim.": "Это просьба выполнить действие.",
+        "She told me to swim.": "Это команда выполнить действие."
+      },
+      "skillTarget": "reported-questions-requests-commands",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E4",
+      "group": "Выходная проверка",
+      "prompt": "'Where will the seminar be held?' he asked. Use standard backshift.",
+      "options": [
+        "He asked where the seminar would be held.",
+        "He asked where would the seminar be held.",
+        "He asked where the seminar would held."
+      ],
+      "answer": "He asked where the seminar would be held.",
+      "accepted": [
+        "He asked where the seminar would be held."
+      ],
+      "why": "Where + subject + would be + V3.",
+      "distractorWhy": "Инверсия в придаточном неверна.",
+      "distractorRationales": {
+        "He asked where would the seminar be held.": "Инверсия в придаточном неверна.",
+        "He asked where the seminar would held.": "Пассив требует be."
+      },
+      "skillTarget": "reported-questions-requests-commands",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E5",
+      "group": "Выходная проверка",
+      "prompt": "Choose a correct indirect yes/no question about a current situation.",
+      "options": [
+        "Do you know whether is the room free?",
+        "Do you know whether the room free?",
+        "Do you know whether the room is free?"
+      ],
+      "answer": "Do you know whether the room is free?",
+      "accepted": [
+        "Do you know whether the room is free?"
+      ],
+      "why": "Whether + subject + verb.",
+      "distractorWhy": "Инверсия не нужна.",
+      "distractorRationales": {
+        "Do you know whether is the room free?": "Инверсия не нужна.",
+        "Do you know whether the room free?": "Пропущен is."
+      },
+      "skillTarget": "reported-questions-requests-commands",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "W1",
+      "group": "Самостоятельное применение",
+      "prompt": "Перескажи шесть реплик: два wh-вопроса, общий вопрос, просьбу, отрицательную команду и вежливый вопрос о расписании. Используй разных говорящих и поясни местоимения и backshift.",
+      "open": true,
+      "rubric": [
+        "Wh-вопросы сохраняют вопросительное слово.",
+        "Yes/no-вопрос содержит if/whether.",
+        "В придаточном прямой порядок слов.",
+        "Просьба и команда используют person + to.",
+        "Отрицательная команда содержит not to.",
+        "Время, местоимения и пунктуация соответствуют контексту."
+      ],
+      "skillTarget": "Самостоятельное применение B1-12",
+      "interactionType": "open-production",
+      "difficulty": "transfer",
+      "sourceBasis": "Speakbase-authored open production; self-review rubric only until real AI feedback is connected",
+      "contentVersion": "1.1-draft"
+    }
+  ],
+  "markdown": "# Speakbase — B1-12: Reported questions, requests and commands\n\n**Curriculum ID:** `B1-12`  \n**Уровень:** B1  \n**Версия:** 1.1-draft\n**Статус:** drafted; selected source text checked; full source-page and learner acceptance pending\n**Предварительные темы:** A2-13, B1-11  \n**Связь со старым каталогом:** Частично — №32 Reported Questions\n\n## 1. Результаты обучения\n\n- Передавать вопросы, просьбы и распоряжения; сохранять statement word order в косвенных вопросах\n- Выбирать целевую форму по значению, структуре предложения и контексту.\n- Объяснять, почему близкая грамматическая форма меняет смысл или регистр.\n- Находить и исправлять типичные ошибки русскоязычных студентов.\n\n## 2. Источники и статус сверки\n\n| Source | PDF navigation | Lesson-specific checks | Status |\n|---|---|---|---|\n| GR-01 U50-51 | PDF pages 111-114 (Unit 50-51) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-02 U48 | PDF pages 108-109 (Unit 48) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-02 U50 | PDF pages 112-113 (Unit 50) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-03 U34-38 | PDF pages 92-101 (Unit 34-38) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-05 B1 p85-87 | PDF pages 85-87 (B1 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n\nUnit/page locations are navigation aids only. They do not prove that the cited explanation, examples, restrictions and answer key have been checked for this lesson. Examples and explanations below are Speakbase-authored, not quotations from the textbook.\n\nПеред переводом этого урока в source-verified необходимо открыть целевые страницы конкретного издания, записать печатную и PDF-пагинацию, сверить ограничения и исключения. Для GR-03 со сканированными страницами обязательна визуальная проверка.\n\n**Evidence for this editorial pass:** GR-02 selected theory text: Units 48 and 50, PDF pp. 108 and 112 (printed pp. 96 and 100); GR-05 B1 pp. 85–86 reported questions/requests/commands descriptors. The selected source text was consulted; not all pages, exercises, editions, scanned GR-03 pages or GR-05 descriptors were checked. Author-created explanations and practice are not copied source exercises.\n\n## 3. Место темы и границы\n\nReported questions, requests and commands: statement word order, if/whether, ask/tell/order + object + to-infinitive.\n\nСтарый каталог содержит: №32 Reported Questions. Его статус — Частично. Старые отметки завершения не переносятся автоматически на новый постоянный ID. Тема рассматривается в уровне B1 и не заменяет обязательные prerequisites.\n\n## 4. Полный конспект\n\n### 4.1. Основная идея и функция конструкции\n\nКосвенный вопрос передаёт содержание чужого вопроса без прямой цитаты. Внутри придаточного используется обычный порядок слов: подлежащее перед сказуемым. Вопрос с вопросительным словом сохраняет это слово, общий вопрос вводится if или whether. Просьбы и команды обычно передаются конструкцией ask/tell + person + (not) to-infinitive.\n\nСравни Where are you going? — She asked where I was going. В прямом вопросе are стоит перед you, а в косвенном I перед was. Do you know the answer? → He asked if I knew the answer. Do/does/did исчезают, если были только вспомогательными для вопроса. 'Please close the door' → She asked me to close the door. Это передача просьбы, а не вопросительная конструкция.\n\n### 4.2. Формирование и грамматическая модель\n\n| Тип исходной реплики | Модель | Пример |\n|---|---|---|\n| Wh-question | ask + wh-word + subject + verb | She asked where I lived. |\n| Yes/no question | ask + if/whether + subject + verb | He asked if I knew. |\n| Просьба | ask + person + to + V1 | She asked me to wait. |\n| Команда | tell + person + to + V1 | He told us to leave. |\n| Отрицательная просьба/команда | ask/tell + person + not to + V1 | She told me not to touch it. |\n| Вежливый embedded question | Could you tell me + wh-word + subject + verb? | Could you tell me where the room is? |\n\nПри прошлом reporting verb обычно применяется backshift, если исходная ситуация уже завершилась: are → was/were, do you live → I lived, will → would, can → could. Если информация актуальна, форма может сохраниться. У yes/no questions if и whether часто взаимозаменяемы; перед or not непосредственно после союза используется whether or not. В формальном письме whether часто предпочтительнее.\n\n### 4.3. Как выбрать подходящую форму\n\nОпредели функцию исходной реплики: запрос информации, просьба или приказ. Если спрашивают where/when/why/how, сохрани вопросительное слово. Если вопрос предполагает yes/no, добавь if/whether. Если хотят, чтобы человек выполнил действие, используй ask/tell + person + to V1. Для запрета ставь not перед to.\n\nCan you help me? может быть вопросом о способности или просьбой. She asked whether I could help her передаёт вопрос; She asked me to help her — просьбу. Контекст выбирает вариант. Если исходная реплика содержит do как смысловой глагол (What do you do?), в косвенной речи один do остаётся: He asked what I did. Не убирай смысловой глагол.\n\n### 4.4. Сравнение с близкими конструкциями\n\n| Прямая речь | Косвенная речь |\n|---|---|\n| Where do you live? | He asked where I lived. |\n| Did you send the file? | She asked whether I had sent the file. |\n| Please open the window. | She asked me to open the window. |\n| Don't touch the screen. | He told us not to touch the screen. |\n| What time does it start? | Could you tell me what time it starts? |\n\n### 4.5. Примеры с переводом и объяснением\n\n| English | Перевод | Почему это подходит |\n| --- | --- | --- |\n| She asked me where I had bought the book. | Она спросила, где я купила книгу. | Wh-word + subject + verb. |\n| He asked whether I needed help. | Он спросил, нужна ли мне помощь. | Yes/no → whether. |\n| The tutor asked us to send the draft. | Преподаватель попросил нас отправить черновик. | Просьба с to-infinitive. |\n| The guard told us not to enter. | Охранник велел нам не входить. | Отрицательная команда. |\n| Could you tell me where the library is? | Не могли бы вы сказать, где библиотека? | Вежливый прямой вопрос с embedded clause. |\n\n### 4.6. Исключения, ограничения и границы употребления\n\nВнутри косвенного вопроса не используется обычная вопросительная инверсия: I wonder where he is, не where is he. Исключение не требуется для subject questions, где who/what само является подлежащим: She asked who called. Если всё предложение является прямым вопросом (Could you tell me…?), вопросительный знак сохраняется; сообщение She asked… обычно заканчивается точкой.\n\nAsk может вводить вопрос без адресата: She asked where I lived. Ask/tell + person + to обычно требуют названного адресата; say (not) to do возможно в некоторых конструкциях без адресата: He said not to wait. Не используй said me to. Whether нужен перед to-infinitive в выражении wonder whether to apply; if to apply обычно не используется. Различай reporting question и самостоятельный embedded question: в последнем backshift не требуется автоматически.\n\n### 4.7. Типичные ошибки русскоязычных студентов\n\n| Ошибка | Исправление | Объяснение |\n| --- | --- | --- |\n| She asked where was I going. | She asked where I was going. | В косвенном вопросе прямой порядок. |\n| He asked did I know the answer. | He asked if I knew the answer. | Общий вопрос требует if/whether, вопросительное did исчезает. |\n| She told me don't wait. | She told me not to wait. | Отрицательная команда: not to + V1. |\n| Could you tell me where is the office? | Could you tell me where the office is? | Инверсия только в главной части вопроса. |\n\n### 4.8. Произношение и восприятие на слух\n\nПри передаче просьб to часто звучит безударно. В Could you tell me where the office is? главное вопросительное движение связано с первой частью; внутри where the office is порядок утвердительный. На слух различай ask if и ask someone to.\n\nСначала прослушай или прочитай пример, затем произнеси его целиком. Обрати внимание на смысловое ударение и форму конструкции; не ориентируйся только на буквенный перевод.\n\n### 4.9. Академический английский и TOEFL-перенос\n\nВ Listening часто встречаются вопросы об университетских услугах и просьбы преподавателей. При пересказе используй She asked whether… или The adviser told the student to… в зависимости от функции. В Speaking учись вежливо спрашивать информацию: Could you tell me when registration opens? В Writing передавай инструкции без лишней инверсии.\n\nЭто авторская практика переноса навыка. Она не является официальным заданием TOEFL и не выдаётся за официальный результат экзамена.\n\n### 4.10. Примеры для управляемого разбора\n\n- She asked me where I had bought the book. — Она спросила, где я купила книгу. Wh-word + subject + verb.\n- He asked whether I needed help. — Он спросил, нужна ли мне помощь. Yes/no → whether.\n- The tutor asked us to send the draft. — Преподаватель попросил нас отправить черновик. Просьба с to-infinitive.\n\nДля каждого примера назови целевую конструкцию, объясни выбор и составь новое предложение в другом контексте. Затем перейди к заданиям: сначала диагностика, затем управляемая и самостоятельная практика, затем новые вопросы выходной проверки.\n\n### 4.11. Самопроверка\n\nПеред отправкой ответа проверь:\n1. Wh-вопросы сохраняют вопросительное слово.\n2. Yes/no-вопрос содержит if/whether.\n3. В придаточном прямой порядок слов.\n4. Просьба и команда используют person + to.\n5. Отрицательная команда содержит not to.\n6. Время, местоимения и пунктуация соответствуют контексту.\n\n### 4.12. Краткая памятка\n\nWh-question → ask + wh-word + subject + verb; yes/no → ask + if/whether + subject + verb. Просьба/команда → ask/tell + person + (not) to + V1. Прямой порядок внутри придаточного, backshift только при соответствующей прошлой перспективе.\n\nНе выбирай форму только по одному знакомому слову: проверь контекст, значение и структуру. При ошибке вернись к соответствующей части конспекта и составь собственный пример.\n\n## 5. Практика\n\nВ приложении практика разделена на входную диагностику, управляемые задания, самостоятельную практику и новую выходную проверку. Закрытые ответы получают rationale и разбор ошибки. Свободный текст сохраняется и оценивается по рубрике; до подключения и реальной проверки AI-движка система не выдаёт его за автоматическую AI-оценку.\n\n## 6. Интервальное повторение\n\nПовторяй не весь урок автоматически, а конкретную ошибку: выбор формы, согласование, word order, значение, регистр или пунктуацию. Новая попытка должна менять лексический контекст и формулировку, чтобы проверять перенос, а не запоминание одной строки.\n\n## 7. Технический статус\n\n- Постоянный ID: `B1-12`.\n- Прогресс хранится отдельно в course.grammarLessons[\"B1-12\"].\n- Содержание и ключи имеют статус draft; 24 авторских закрытых задания и объяснения вычитаны, выбранные тексты источников проверены. Полная постраничная и пользовательская приёмка остаются открытыми.\n- Предварительное выполнение порогов не равно окончательному mastered: нужны отсроченное повторение и learner review.",
+  "theoryEnd": "## 5."
+}
