@@ -27,7 +27,7 @@ Do not infer completion from automated structural tests or source navigation che
 | Lesson | Status | Evidence / remaining work |
 |---|---|---|
 | C1-01 | PARTIAL | Visually checked GR-03 Unit 100, PDF pp. 224-225 / printed pp. 200-201. Reviewed the lesson scope, forms, exceptions, examples and all seven closed keys/rationales. Replaced two potentially ambiguous distractors. GR-05 exact page review, app rendering and learner test remain open. |
-| C1-02 | NOT_REVIEWED | Review conditional inversion against exact GR-03 units and verify all keys, explanations and boundaries. |
+| C1-02 | PARTIAL | Visually checked GR-03 Units 83?87, PDF pp. 190?199 / printed pp. 166?175. Reviewed the distinction between should/had/were inversion and related non-inverted conditional patterns; manually checked all seven closed keys/rationales. Corrected a pronoun error, repaired the explanation wording and added Russian translations. GR-05 page review, app rendering and learner test remain open. |
 | C1-03 | NOT_REVIEWED | Review cleft/fronting scope, source units, keys and distinction from C1-01/C1-02. |
 | C1-04 | NOT_REVIEWED | Review non-finite clauses, dangling modifiers, source units and all keys. |
 | C1-05 | PARTIAL | Visually inspected GR-03 Unit 101, PDF pp. 226-227 / printed pp. 202-203. Checked the lesson's core nominalisation/complex noun phrase coverage and manually reviewed all seven closed keys and rationales. Repaired corrupted Russian sections, added translations, restored arrows, and improved two weak distractors. GR-05 exact page review, full app rendering and learner test remain open. |
