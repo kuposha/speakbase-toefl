@@ -1,0 +1,743 @@
+{
+  "id": "C1-09",
+  "level": "C1",
+  "sequence": "C1-09",
+  "grammarFamily": "C1-09",
+  "questionBankSource": "topic-specific-authored",
+  "sourceVerification": "draft; selected source text consulted; complete source-page and learner review pending",
+  "topicProfile": {
+    "label": "nuanced modality, hedging and stance",
+    "skillTarget": "nuanced-modality-hedging-stance",
+    "core": "Modality выражает отношение к возможности, вероятности, необходимости, разрешению и обязательности. Hedging — языковое обозначение неопределённости или ограничения вывода. Stance — позиция автора относительно содержания или чужой точки зрения. В академической речи важно указывать именно то, что известно, и не делать вывод сильнее доказательств.",
+    "form": "| Значение | Модель | Пример |\n|---|---|---|\n| Возможность | may/might/could + V1 | The change may reflect seasonal variation. |\n| Текущий процесс | may/might be + -ing | She may be working remotely. |\n| Прошлая возможность | may/might/could have + V3 | The file might have failed to upload. |\n| Сильный вывод | must + V1 / must have + V3 | The device must have overheated. |\n| Отрицательный вывод | can't/couldn't have + V3 | It can't have been copied then. |\n| Вероятность | be likely/unlikely to V1 | Costs are likely to rise. |\n| Осторожная оценка | appear/seem to V1 | The result appears to be reliable. |\n| Отсутствие необходимости | needn't / don't have to | You needn't print it. |\n| Ненужное выполненное действие | needn't have + V3 | You needn't have printed it. |",
+    "selection": "Определи область неопределённости. Если неизвестна причина, hedge cause, не весь факт: The temperature rose; the rise may have been caused by reduced ventilation. Если неизвестно, произошло ли событие, use may/might have + V3. Если источник представляет ограниченную ассоциацию, use is associated with / may be associated with, not automatically causes. If describing an actual obligation, use must/have to rather than epistemic hedge.",
+    "contrast": "| Пример | Смысл |\n|---|---|\n| The pattern may indicate a fault. | Возможная интерпретация. |\n| The pattern is likely to indicate a fault. | Вероятная интерпретация, если основания позволяют. |\n| The pattern must indicate a fault. | Сильный вывод говорящего. |\n| The pattern is consistent with a fault. | Наблюдение совместимо с объяснением; не исключает другие. |\n| The fault caused the pattern. | Прямое причинное утверждение, требует оснований. |",
+    "boundary": "Needn't/don't have to — отсутствие необходимости; mustn't — запрет. Needn't in statements like The cause needn't be a fault means not necessarily; mustn't does not substitute for this meaning. May not can mean возможно не или запрет в зависимости от контекста. May I…? asks permission; questions about likelihood usually use could or be likely. Must have done — вывод о прошлом, had to do — прошлое обязательство. Should have done can express criticism or expectation; context decides.",
+    "pronunciation": "Ударение на MAY, MUST и LIKELY может выделять степень уверенности или контраст, но не заменяет смысл конструкции. В речи избегай повторения нескольких лишних hedges. Слушай have been после modal; это влияет на время и voice. Аудиосверка открыта.",
+    "examples": [
+      [
+        "The discrepancy may reflect a recording error.",
+        "Расхождение может объясняться ошибкой записи.",
+        "Tentative interpretation."
+      ],
+      [
+        "The device must have overheated before shutdown.",
+        "Вероятно, устройство перегрелось до отключения.",
+        "Сильный вывод о прошлом, не доказательство."
+      ],
+      [
+        "The file might have been deleted accidentally.",
+        "Файл могли случайно удалить.",
+        "Modal perfect passive."
+      ],
+      [
+        "The difference is likely to be temporary.",
+        "Различие, вероятно, временно.",
+        "Be likely to."
+      ],
+      [
+        "You needn't have printed the report.",
+        "Ты распечатала отчёт зря.",
+        "Действие выполнено, но не требовалось."
+      ],
+      [
+        "The result is consistent with the hypothesis, but other explanations remain possible.",
+        "Результат согласуется с гипотезой, но возможны и другие объяснения.",
+        "Не утверждает исключительную причину."
+      ]
+    ],
+    "traps": [
+      [
+        "The data may indicates a change.",
+        "The data may indicate a change.",
+        "После modal V1."
+      ],
+      [
+        "The result is likelihood to change.",
+        "The result is likely to change.",
+        "Likely adjective, likelihood noun."
+      ],
+      [
+        "The file must have delete (past passive).",
+        "The file must have been deleted.",
+        "Modal perfect passive."
+      ],
+      [
+        "You mustn't attend (if attendance is optional).",
+        "You don't have to attend.",
+        "Запрет отличается от отсутствия необходимости."
+      ],
+      [
+        "Correlation proves the treatment caused the improvement (only correlation established).",
+        "The treatment is associated with the improvement; causation has not been established.",
+        "Не усиливай evidence до причинности."
+      ]
+    ],
+    "toefl": "В Reading отличай факт наблюдения, интерпретацию автора и причинное утверждение. В Speaking Interview и Writing Academic Discussion формулируй обоснованную позицию с ясной границей уверенности. В Listening обращай внимание на возможный, а не гарантированный исход. Это авторская практика, не официальный вопрос ETS."
+  },
+  "title": "Nuanced modality, hedging and stance",
+  "description": "Выражать тонкие различия вероятности, необходимости, осторожности, критики и уверенности",
+  "cardDescription": "Теория, guided practice, самостоятельные задания и выходная проверка по постоянному ID C1-09.",
+  "eyebrow": "Полный урок программы C1-09 · drafted",
+  "contentVersion": "1.1-draft",
+  "curriculumVersion": "1.0",
+  "prerequisites": [
+    "B2-03",
+    "B2-18"
+  ],
+  "outcomes": [
+    "Выражать тонкие различия вероятности, необходимости, осторожности, критики и уверенности",
+    "Выбирать целевую конструкцию по контексту и смыслу.",
+    "Исправлять типичные ошибки и переносить правило в новый пример."
+  ],
+  "sourceRefs": [
+    "GR-03 U15-20",
+    "GR-03 U66-78",
+    "GR-03 U102",
+    "GR-03 U105",
+    "GR-05 C1 p20-22"
+  ],
+  "sourceStatus": "selected source text consulted; full page verification pending",
+  "status": "drafted",
+  "legacyCoverage": "Частично",
+  "toeflLinks": [
+    "Writing: Build a Sentence",
+    "Writing: Academic Discussion"
+  ],
+  "thresholds": {
+    "independent": 7,
+    "exit": 4,
+    "criticalIds": [
+      "E1",
+      "E2",
+      "E3"
+    ]
+  },
+  "groups": {
+    "independent": "Самостоятельная практика",
+    "exit": "Выходная проверка"
+  },
+  "items": [
+    {
+      "id": "D1",
+      "group": "Входная диагностика",
+      "prompt": "Choose the grammatical tentative explanation using may.",
+      "options": [
+        "The change may reflects seasonal variation.",
+        "The change may reflect seasonal variation.",
+        "The change may to reflect seasonal variation."
+      ],
+      "answer": "The change may reflect seasonal variation.",
+      "accepted": [
+        "The change may reflect seasonal variation."
+      ],
+      "why": "May + bare V1.",
+      "distractorWhy": "Reflects не V1.",
+      "distractorRationales": {
+        "The change may reflects seasonal variation.": "Reflects не V1.",
+        "The change may to reflect seasonal variation.": "To лишнее."
+      },
+      "skillTarget": "nuanced-modality-hedging-stance",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D2",
+      "group": "Входная диагностика",
+      "prompt": "Choose the modal form expressing a possible ongoing activity.",
+      "options": [
+        "She may be working at home.",
+        "She may working at home.",
+        "She may been working at home."
+      ],
+      "answer": "She may be working at home.",
+      "accepted": [
+        "She may be working at home."
+      ],
+      "why": "May + be + V-ing.",
+      "distractorWhy": "Пропущено be.",
+      "distractorRationales": {
+        "She may working at home.": "Пропущено be.",
+        "She may been working at home.": "Been не V1."
+      },
+      "skillTarget": "nuanced-modality-hedging-stance",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D3",
+      "group": "Входная диагностика",
+      "prompt": "Choose the possibility about an earlier completed event.",
+      "options": [
+        "The server might has failed overnight.",
+        "The server might have fail overnight.",
+        "The server might have failed overnight."
+      ],
+      "answer": "The server might have failed overnight.",
+      "accepted": [
+        "The server might have failed overnight."
+      ],
+      "why": "Might + have + V3.",
+      "distractorWhy": "Has не V1.",
+      "distractorRationales": {
+        "The server might has failed overnight.": "Has не V1.",
+        "The server might have fail overnight.": "Fail не V3."
+      },
+      "skillTarget": "nuanced-modality-hedging-stance",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D4",
+      "group": "Входная диагностика",
+      "prompt": "Choose the possible earlier passive event affecting a record.",
+      "options": [
+        "The record may have overwrite (patient).",
+        "The record may have been overwritten.",
+        "The record may has been overwritten."
+      ],
+      "answer": "The record may have been overwritten.",
+      "accepted": [
+        "The record may have been overwritten."
+      ],
+      "why": "Modal + have been + V3.",
+      "distractorWhy": "Нет passive и V3.",
+      "distractorRationales": {
+        "The record may have overwrite (patient).": "Нет passive и V3.",
+        "The record may has been overwritten.": "Has после modal неверно."
+      },
+      "skillTarget": "nuanced-modality-hedging-stance",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G1",
+      "group": "Управляемая практика",
+      "prompt": "Choose the expression for a possible past continuous process.",
+      "options": [
+        "They might have been working remotely.",
+        "They might have be working remotely.",
+        "They might been working remotely."
+      ],
+      "answer": "They might have been working remotely.",
+      "accepted": [
+        "They might have been working remotely."
+      ],
+      "why": "Might have been + V-ing.",
+      "distractorWhy": "Be не V3.",
+      "distractorRationales": {
+        "They might have be working remotely.": "Be не V3.",
+        "They might been working remotely.": "Пропущено have."
+      },
+      "skillTarget": "nuanced-modality-hedging-stance",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G2",
+      "group": "Управляемая практика",
+      "prompt": "Choose the strong past inference explicitly required here.",
+      "options": [
+        "The device had to overheat (past obligation).",
+        "The device must has overheated.",
+        "The device must have overheated."
+      ],
+      "answer": "The device must have overheated.",
+      "accepted": [
+        "The device must have overheated."
+      ],
+      "why": "Must have + V3 = inference.",
+      "distractorWhy": "Had to выражает необходимость, не целевой вывод.",
+      "distractorRationales": {
+        "The device had to overheat (past obligation).": "Had to выражает необходимость, не целевой вывод.",
+        "The device must has overheated.": "Has после modal неверно."
+      },
+      "skillTarget": "nuanced-modality-hedging-stance",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G3",
+      "group": "Управляемая практика",
+      "prompt": "Choose the past obligation rather than an inference.",
+      "options": [
+        "We must have submitted the form yesterday (deduction).",
+        "We had to submit the form yesterday.",
+        "We had to submitted the form yesterday."
+      ],
+      "answer": "We had to submit the form yesterday.",
+      "accepted": [
+        "We had to submit the form yesterday."
+      ],
+      "why": "Had to + V1 = past obligation.",
+      "distractorWhy": "Must have — inference.",
+      "distractorRationales": {
+        "We must have submitted the form yesterday (deduction).": "Must have — inference.",
+        "We had to submitted the form yesterday.": "Submitted не V1."
+      },
+      "skillTarget": "nuanced-modality-hedging-stance",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G4",
+      "group": "Управляемая практика",
+      "prompt": "Choose the negative deduction given conclusive evidence the room was empty.",
+      "options": [
+        "She can't have been in that room at that time.",
+        "She mustn't enter that room at that time (prohibition).",
+        "She can't have be in that room at that time."
+      ],
+      "answer": "She can't have been in that room at that time.",
+      "accepted": [
+        "She can't have been in that room at that time."
+      ],
+      "why": "Can't have + V3 expresses impossibility.",
+      "distractorWhy": "Mustn't enter — запрет.",
+      "distractorRationales": {
+        "She mustn't enter that room at that time (prohibition).": "Mustn't enter — запрет.",
+        "She can't have be in that room at that time.": "Be не V3."
+      },
+      "skillTarget": "nuanced-modality-hedging-stance",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G5",
+      "group": "Управляемая практика",
+      "prompt": "Choose the expression meaning attendance is optional.",
+      "options": [
+        "You mustn't attend.",
+        "You can't attend.",
+        "You don't have to attend."
+      ],
+      "answer": "You don't have to attend.",
+      "accepted": [
+        "You don't have to attend."
+      ],
+      "why": "Don't have to = no obligation.",
+      "distractorWhy": "Mustn't prohibits.",
+      "distractorRationales": {
+        "You mustn't attend.": "Mustn't prohibits.",
+        "You can't attend.": "Can't expresses inability/prohibition."
+      },
+      "skillTarget": "nuanced-modality-hedging-stance",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G6",
+      "group": "Управляемая практика",
+      "prompt": "Choose the statement meaning a report was printed unnecessarily.",
+      "options": [
+        "You didn't need to print the report (without saying whether you did).",
+        "You needn't have printed the report.",
+        "You mustn't print the report."
+      ],
+      "answer": "You needn't have printed the report.",
+      "accepted": [
+        "You needn't have printed the report."
+      ],
+      "why": "Needn't have indicates completed unnecessary action.",
+      "distractorWhy": "Не устанавливает факт печати само по себе.",
+      "distractorRationales": {
+        "You didn't need to print the report (without saying whether you did).": "Не устанавливает факт печати само по себе.",
+        "You mustn't print the report.": "Запрет."
+      },
+      "skillTarget": "nuanced-modality-hedging-stance",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I1",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the statement expressing past absence of necessity without explicitly confirming action.",
+      "options": [
+        "We needn't have booked in advance (we did).",
+        "We mustn't book in advance.",
+        "We didn't need to book in advance."
+      ],
+      "answer": "We didn't need to book in advance.",
+      "accepted": [
+        "We didn't need to book in advance."
+      ],
+      "why": "Didn't need to states lack of necessity.",
+      "distractorWhy": "Needn't have normally implies booking occurred.",
+      "distractorRationales": {
+        "We needn't have booked in advance (we did).": "Needn't have normally implies booking occurred.",
+        "We mustn't book in advance.": "Mustn't — prohibition."
+      },
+      "skillTarget": "nuanced-modality-hedging-stance",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I2",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the conventional phrase for probability with a subject.",
+      "options": [
+        "The figures are likelihood to change.",
+        "The figures are likely to change.",
+        "The figures are likely changing to (target infinitive)."
+      ],
+      "answer": "The figures are likely to change.",
+      "accepted": [
+        "The figures are likely to change."
+      ],
+      "why": "Be likely + to V1.",
+      "distractorWhy": "Likelihood — noun.",
+      "distractorRationales": {
+        "The figures are likelihood to change.": "Likelihood — noun.",
+        "The figures are likely changing to (target infinitive).": "Не целевая конструкция."
+      },
+      "skillTarget": "nuanced-modality-hedging-stance",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I3",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the noun phrase referring to probability.",
+      "options": [
+        "the likelihood of a delay",
+        "the likely of a delay",
+        "the likeliness to a delay (target likelihood pattern)"
+      ],
+      "answer": "the likelihood of a delay",
+      "accepted": [
+        "the likelihood of a delay"
+      ],
+      "why": "Likelihood + of noun.",
+      "distractorWhy": "Likely adjective.",
+      "distractorRationales": {
+        "the likely of a delay": "Likely adjective.",
+        "the likeliness to a delay (target likelihood pattern)": "Не целевой noun pattern."
+      },
+      "skillTarget": "nuanced-modality-hedging-stance",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I4",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the cautious assessment using appears.",
+      "options": [
+        "The approach appears be effective.",
+        "The approach appears to being effective.",
+        "The approach appears to be effective."
+      ],
+      "answer": "The approach appears to be effective.",
+      "accepted": [
+        "The approach appears to be effective."
+      ],
+      "why": "Appear + to-infinitive.",
+      "distractorWhy": "Нет to.",
+      "distractorRationales": {
+        "The approach appears be effective.": "Нет to.",
+        "The approach appears to being effective.": "Being не V1."
+      },
+      "skillTarget": "nuanced-modality-hedging-stance",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I5",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose a neutral question about probability rather than permission.",
+      "options": [
+        "May I board the train?",
+        "Is the train likely to arrive on time?",
+        "May I leave the station?"
+      ],
+      "answer": "Is the train likely to arrive on time?",
+      "accepted": [
+        "Is the train likely to arrive on time?"
+      ],
+      "why": "Be likely asks probability.",
+      "distractorWhy": "Boarding is a request for permission, not probability.",
+      "distractorRationales": {
+        "May I board the train?": "Boarding is a request for permission, not probability.",
+        "May I leave the station?": "Leaving is a request for permission, not probability."
+      },
+      "skillTarget": "nuanced-modality-hedging-stance",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I6",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the modal concessive pattern.",
+      "options": [
+        "The design may be costly, but it is durable.",
+        "The design may costly, but it is durable.",
+        "The design may to be costly, but it is durable."
+      ],
+      "answer": "The design may be costly, but it is durable.",
+      "accepted": [
+        "The design may be costly, but it is durable."
+      ],
+      "why": "May be + adjective, but contrast.",
+      "distractorWhy": "Нет be.",
+      "distractorRationales": {
+        "The design may costly, but it is durable.": "Нет be.",
+        "The design may to be costly, but it is durable.": "To лишнее."
+      },
+      "skillTarget": "nuanced-modality-hedging-stance",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I7",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the conclusion supported by a correlation alone.",
+      "options": [
+        "The first variable has been proven to cause the second.",
+        "The second variable is the only possible cause.",
+        "The variables are associated in the observed data."
+      ],
+      "answer": "The variables are associated in the observed data.",
+      "accepted": [
+        "The variables are associated in the observed data."
+      ],
+      "why": "Association reports observed relationship.",
+      "distractorWhy": "Causation not established.",
+      "distractorRationales": {
+        "The first variable has been proven to cause the second.": "Causation not established.",
+        "The second variable is the only possible cause.": "Excludes alternatives without evidence."
+      },
+      "skillTarget": "nuanced-modality-hedging-stance",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I8",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the sentence preserving uncertainty specifically about cause, not the measured rise.",
+      "options": [
+        "The temperature may possibly have risen (rise already measured).",
+        "The temperature rose; reduced ventilation may have caused the rise.",
+        "Reduced ventilation definitely caused the rise (cause unknown)."
+      ],
+      "answer": "The temperature rose; reduced ventilation may have caused the rise.",
+      "accepted": [
+        "The temperature rose; reduced ventilation may have caused the rise."
+      ],
+      "why": "Fact retained; cause hedged.",
+      "distractorWhy": "Hedges established observation.",
+      "distractorRationales": {
+        "The temperature may possibly have risen (rise already measured).": "Hedges established observation.",
+        "Reduced ventilation definitely caused the rise (cause unknown).": "Overstates causal evidence."
+      },
+      "skillTarget": "nuanced-modality-hedging-stance",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I9",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the phrase meaning compatible with a hypothesis, not proving it.",
+      "options": [
+        "consistent with the hypothesis",
+        "conclusive proof of the hypothesis",
+        "the only explanation for the hypothesis"
+      ],
+      "answer": "consistent with the hypothesis",
+      "accepted": [
+        "consistent with the hypothesis"
+      ],
+      "why": "Consistent with leaves alternatives open.",
+      "distractorWhy": "Asserts proof.",
+      "distractorRationales": {
+        "conclusive proof of the hypothesis": "Asserts proof.",
+        "the only explanation for the hypothesis": "Asserts uniqueness."
+      },
+      "skillTarget": "nuanced-modality-hedging-stance",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E1",
+      "group": "Выходная проверка",
+      "prompt": "Choose the sentence with an explicit limitation on generalisation.",
+      "options": [
+        "The effect may not generalise beyond this sample.",
+        "The effect applies to every population with certainty.",
+        "The effect always occurs everywhere."
+      ],
+      "answer": "The effect may not generalise beyond this sample.",
+      "accepted": [
+        "The effect may not generalise beyond this sample."
+      ],
+      "why": "May not generalise limits scope.",
+      "distractorWhy": "Every population is beyond the measured sample.",
+      "distractorRationales": {
+        "The effect applies to every population with certainty.": "Every population is beyond the measured sample.",
+        "The effect always occurs everywhere.": "Always and everywhere overstate scope."
+      },
+      "skillTarget": "nuanced-modality-hedging-stance",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E2",
+      "group": "Выходная проверка",
+      "prompt": "Choose a concise hedge rather than redundant stacking.",
+      "options": [
+        "Perhaps the difference may possibly conceivably reflect sampling error.",
+        "The difference may to reflect sampling error.",
+        "The difference may reflect sampling error."
+      ],
+      "answer": "The difference may reflect sampling error.",
+      "accepted": [
+        "The difference may reflect sampling error."
+      ],
+      "why": "One hedge identifies uncertainty.",
+      "distractorWhy": "Repeated hedges reduce clarity.",
+      "distractorRationales": {
+        "Perhaps the difference may possibly conceivably reflect sampling error.": "Repeated hedges reduce clarity.",
+        "The difference may to reflect sampling error.": "To after may неверно."
+      },
+      "skillTarget": "nuanced-modality-hedging-stance",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E3",
+      "group": "Выходная проверка",
+      "prompt": "Choose the grammatical expression of impersonal possibility.",
+      "options": [
+        "It is possibility that the result is temporary.",
+        "It is possible that the result is temporary.",
+        "It is possible that is the result temporary."
+      ],
+      "answer": "It is possible that the result is temporary.",
+      "accepted": [
+        "It is possible that the result is temporary."
+      ],
+      "why": "Possible adjective + that-clause.",
+      "distractorWhy": "Possibility noun requires different structure.",
+      "distractorRationales": {
+        "It is possibility that the result is temporary.": "Possibility noun requires different structure.",
+        "It is possible that is the result temporary.": "No inversion in that-clause."
+      },
+      "skillTarget": "nuanced-modality-hedging-stance",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E4",
+      "group": "Выходная проверка",
+      "prompt": "Choose the accurate interpretation of 'She could have left earlier' without additional context.",
+      "options": [
+        "It can express possibility or an unrealised opportunity, depending on context.",
+        "It always proves that she left earlier.",
+        "It always proves that she did not leave earlier."
+      ],
+      "answer": "It can express possibility or an unrealised opportunity, depending on context.",
+      "accepted": [
+        "It can express possibility or an unrealised opportunity, depending on context."
+      ],
+      "why": "Could have is context-dependent.",
+      "distractorWhy": "Possibility is not proof.",
+      "distractorRationales": {
+        "It always proves that she left earlier.": "Possibility is not proof.",
+        "It always proves that she did not leave earlier.": "Unrealised reading not universal."
+      },
+      "skillTarget": "nuanced-modality-hedging-stance",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E5",
+      "group": "Выходная проверка",
+      "prompt": "Choose the accurate rule for epistemic hedging.",
+      "options": [
+        "Assign every modal a fixed numerical probability.",
+        "Use must whenever a claim is grammatically correct.",
+        "Match the strength and scope of the claim to available evidence."
+      ],
+      "answer": "Match the strength and scope of the claim to available evidence.",
+      "accepted": [
+        "Match the strength and scope of the claim to available evidence."
+      ],
+      "why": "Evidence and context determine stance.",
+      "distractorWhy": "No fixed modal percentages.",
+      "distractorRationales": {
+        "Assign every modal a fixed numerical probability.": "No fixed modal percentages.",
+        "Use must whenever a claim is grammatically correct.": "Grammar does not establish certainty."
+      },
+      "skillTarget": "nuanced-modality-hedging-stance",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "W1",
+      "group": "Самостоятельное применение",
+      "prompt": "Напиши 8–10 предложений об условном исследовании. Укажи установленный факт, два предположения, вероятный вывод с основанием, past possibility, strong inference, отсутствие необходимости и ограничение причинного вывода. Объясни область неопределённости в четырёх предложениях.",
+      "open": true,
+      "rubric": [
+        "Эпистемическая модальность и обязательность различены.",
+        "После modal правильная форма.",
+        "Perfect/passive отражают нужное время и voice.",
+        "Needn't have и didn't need to различены.",
+        "Уверенность соответствует заданному evidence.",
+        "Hedges точны и не перегружают текст."
+      ],
+      "skillTarget": "Самостоятельное применение C1-09",
+      "interactionType": "open-production",
+      "difficulty": "transfer",
+      "sourceBasis": "Speakbase-authored open production; self-review rubric only until real AI feedback is connected",
+      "contentVersion": "1.1-draft"
+    }
+  ],
+  "markdown": "# Speakbase — C1-09: Nuanced modality, hedging and stance\n\n**Curriculum ID:** `C1-09`  \n**Уровень:** C1  \n**Версия:** 1.1-draft\n**Статус:** drafted; selected source text checked; full source-page and learner acceptance pending\n**Предварительные темы:** B2-03, B2-18  \n**Связь со старым каталогом:** Частично — №10 Modal verbs; №37 Modal Deduction; №38 Past Modal Deduction\n\n## 1. Результаты обучения\n\n- Выражать тонкие различия вероятности, необходимости, осторожности, критики и уверенности\n- Выбирать целевую форму по значению, структуре предложения и контексту.\n- Объяснять, почему близкая грамматическая форма меняет смысл или регистр.\n- Находить и исправлять типичные ошибки русскоязычных студентов.\n\n## 2. Источники и статус сверки\n\n| Source | PDF navigation | Lesson-specific checks | Status |\n|---|---|---|---|\n| GR-03 U15 | PDF pp. 54–55 (printed pp. 30–31) | Can/could/be able to: ability, possibility and permission | unit-page indexed; visual verification pending |\n| GR-03 U16 | PDF pp. 56–57 (printed pp. 32–33) | Will/would and used to: characteristic behaviour and past habits | unit-page indexed; visual verification pending |\n| GR-03 U17 | PDF pp. 58–59 (printed pp. 34–35) | May/might: possibility and uncertainty | unit-page indexed; visual verification pending |\n| GR-03 U18 | PDF pp. 60–61 (printed pp. 36–37) | Must and have (got) to: obligation and deduction | unit-page indexed; visual verification pending |\n| GR-03 U19 | PDF pp. 62–63 (printed pp. 38–39) | Needn't, don't need to and don't have to: absence of necessity | unit-page indexed; visual verification pending |\n| GR-03 U20 | PDF pp. 64–65 (printed pp. 40–41) | Should, ought to and had better: advice and criticism | unit-page indexed; visual verification pending |\n| GR-03 U78 | PDF pp. 180–181 (printed pp. 156–157) | Comment and viewpoint adverbs relevant to stance | unit-page indexed; visual verification pending |\n| GR-03 U102 | PDF pp. 228–229 (printed pp. 204–205) | Impersonal reporting and distancing from a point of view | unit-page indexed; visual verification pending |\n| GR-03 U105 | PDF pp. 234–235 (printed pp. 210–211) | Academic discussion lead-ins and cautious opinion language | unit-page indexed; visual verification pending |\n| GR-05 C1 p20–22 | PDF pp. 20–22 | Compare C1 requirements, examples, restrictions and exercises | page indexed; content review pending |\n\nUnit/page locations are navigation aids only. They do not prove that cited explanations, examples, restrictions or answer keys have been checked. Examples and explanations below are Speakbase-authored, not quotations from a textbook.\n\nПеред переводом этого урока в source-verified необходимо открыть целевые страницы конкретного издания, записать печатную и PDF-пагинацию, сверить ограничения и исключения. Для GR-03 со сканированными страницами обязательна визуальная проверка.\n\n**Evidence for this editorial pass:** GR-03 Units 17–19 and 102, rendered theory pages visually opened PDF pp. 58, 60, 62, 228 (printed pp. 34, 36, 38, 204). Other mapped units (15–16, 20, 78, 105), GR-05, exercises and learner acceptance pending; evidence-calibration examples are author-supplemented. The selected source text was consulted; not all pages, exercises, editions, scanned GR-03 pages or GR-05 descriptors were checked. Author-created explanations and practice are not copied source exercises.\n\n## 3. Место темы и границы\n\nNuanced modality/hedging: вероятность, обязательство, критика, оценка и уверенность; сила формы соответствует evidence.\n\nСтарый каталог содержит: №10 Modal verbs; №37 Modal Deduction; №38 Past Modal Deduction. Его статус — Частично. Старые отметки завершения не переносятся автоматически на новый постоянный ID. Тема рассматривается в уровне C1 и не заменяет обязательные prerequisites.\n\n## 4. Полный конспект\n\n### 4.1. Основная идея и функция конструкции\n\nModality выражает отношение к возможности, вероятности, необходимости, разрешению и обязательности. Hedging — языковое обозначение неопределённости или ограничения вывода. Stance — позиция автора относительно содержания или чужой точки зрения. В академической речи важно указывать именно то, что известно, и не делать вывод сильнее доказательств.\n\nОдин и тот же modal имеет разные функции: You must submit the form — обязательство; The door is locked; she must have left — сильный вывод о прошлом. May, might, could выражают возможность в подходящем контексте; их нельзя привязать к фиксированным процентам. Must в epistemic значении не является абсолютной гарантией. Can often signals general possibility or ability; для неопределённой догадки о конкретном текущем событии обычно may/might/could.\n\n### 4.2. Формирование и грамматические модели\n\n| Значение | Модель | Пример |\n|---|---|---|\n| Возможность | may/might/could + V1 | The change may reflect seasonal variation. |\n| Текущий процесс | may/might be + -ing | She may be working remotely. |\n| Прошлая возможность | may/might/could have + V3 | The file might have failed to upload. |\n| Сильный вывод | must + V1 / must have + V3 | The device must have overheated. |\n| Отрицательный вывод | can't/couldn't have + V3 | It can't have been copied then. |\n| Вероятность | be likely/unlikely to V1 | Costs are likely to rise. |\n| Осторожная оценка | appear/seem to V1 | The result appears to be reliable. |\n| Отсутствие необходимости | needn't / don't have to | You needn't print it. |\n| Ненужное выполненное действие | needn't have + V3 | You needn't have printed it. |\n\nModal + bare infinitive: may indicate, must be, might have happened. For passive use modal + be + V3 or modal + have been + V3. Might have been working expresses a possible past process. Could have done may indicate past possibility, unrealised opportunity or criticism, depending on context; do not assume every could have means the event did not happen. Needn't have done normally indicates it was done but unnecessary; didn't need to do states absence of necessity and does not itself establish whether it occurred.\n\n### 4.3. Как выбрать подходящую форму\n\nОпредели область неопределённости. Если неизвестна причина, hedge cause, не весь факт: The temperature rose; the rise may have been caused by reduced ventilation. Если неизвестно, произошло ли событие, use may/might have + V3. Если источник представляет ограниченную ассоциацию, use is associated with / may be associated with, not automatically causes. If describing an actual obligation, use must/have to rather than epistemic hedge.\n\nBe likely to и It is likely that выражают вероятность; likelihood — noun: the likelihood of X. It appears that / X appears to… отмечает оценку на основе видимого или доступного. Arguably обозначает спорную, но обосновываемую позицию; apparently часто сигнализирует впечатление/сообщение; presumably — вывод на основании предположения. Adverbs не имеют универсального точного ранга. It is possible that, it is not clear whether — безличные оценки; it has been suggested that — приписанное мнение.\n\n### 4.4. Сравнение с близкими конструкциями\n\n| Пример | Смысл |\n|---|---|\n| The pattern may indicate a fault. | Возможная интерпретация. |\n| The pattern is likely to indicate a fault. | Вероятная интерпретация, если основания позволяют. |\n| The pattern must indicate a fault. | Сильный вывод говорящего. |\n| The pattern is consistent with a fault. | Наблюдение совместимо с объяснением; не исключает другие. |\n| The fault caused the pattern. | Прямое причинное утверждение, требует оснований. |\n\n### 4.5. Примеры с переводом и объяснением\n\n| English | Перевод | Почему это подходит |\n| --- | --- | --- |\n| The discrepancy may reflect a recording error. | Расхождение может объясняться ошибкой записи. | Tentative interpretation. |\n| The device must have overheated before shutdown. | Вероятно, устройство перегрелось до отключения. | Сильный вывод о прошлом, не доказательство. |\n| The file might have been deleted accidentally. | Файл могли случайно удалить. | Modal perfect passive. |\n| The difference is likely to be temporary. | Различие, вероятно, временно. | Be likely to. |\n| You needn't have printed the report. | Ты распечатала отчёт зря. | Действие выполнено, но не требовалось. |\n| The result is consistent with the hypothesis, but other explanations remain possible. | Результат согласуется с гипотезой, но возможны и другие объяснения. | Не утверждает исключительную причину. |\n\n### 4.6. Исключения, ограничения и границы употребления\n\nNeedn't/don't have to — отсутствие необходимости; mustn't — запрет. Needn't in statements like The cause needn't be a fault means not necessarily; mustn't does not substitute for this meaning. May not can mean возможно не или запрет в зависимости от контекста. May I…? asks permission; questions about likelihood usually use could or be likely. Must have done — вывод о прошлом, had to do — прошлое обязательство. Should have done can express criticism or expectation; context decides.\n\nCalibrate claims without weakening every sentence: The sample consisted of 20 people (fact), but the result may not generalise (limitation). Avoid stacking redundant hedges like perhaps it may possibly appear. Keep uncertainty scoped: Some participants reported fatigue ≠ all participants were fatigued. Correlation does not alone establish cause; association can be consistent with a causal hypothesis but not prove it. Modal concession may/might… but: The approach may be costly, but it reduces errors; the first part concedes a limitation. In negative deduction choose can't/couldn't when context makes an event impossible, rather than mustn't as a prohibition. Register and semantics matter more than using rare words.\n\n### 4.7. Типичные ошибки русскоязычных студентов\n\n| Ошибка | Исправление | Объяснение |\n| --- | --- | --- |\n| The data may indicates a change. | The data may indicate a change. | После modal V1. |\n| The result is likelihood to change. | The result is likely to change. | Likely adjective, likelihood noun. |\n| The file must have delete (past passive). | The file must have been deleted. | Modal perfect passive. |\n| You mustn't attend (if attendance is optional). | You don't have to attend. | Запрет отличается от отсутствия необходимости. |\n| Correlation proves the treatment caused the improvement (only correlation established). | The treatment is associated with the improvement; causation has not been established. | Не усиливай evidence до причинности. |\n\n### 4.8. Произношение и восприятие на слух\n\nУдарение на MAY, MUST и LIKELY может выделять степень уверенности или контраст, но не заменяет смысл конструкции. В речи избегай повторения нескольких лишних hedges. Слушай have been после modal; это влияет на время и voice. Аудиосверка открыта.\n\nСначала прослушай или прочитай пример, затем произнеси его целиком. Обрати внимание на смысловое ударение и форму конструкции; не ориентируйся только на буквенный перевод.\n\n### 4.9. Академический английский и TOEFL-перенос\n\nВ Reading отличай факт наблюдения, интерпретацию автора и причинное утверждение. В Speaking Interview и Writing Academic Discussion формулируй обоснованную позицию с ясной границей уверенности. В Listening обращай внимание на возможный, а не гарантированный исход. Это авторская практика, не официальный вопрос ETS.\n\nЭто авторская практика переноса навыка. Она не является официальным заданием TOEFL и не выдаётся за официальный результат экзамена.\n\n### 4.10. Примеры для управляемого разбора\n\n- The discrepancy may reflect a recording error. — Расхождение может объясняться ошибкой записи. Tentative interpretation.\n- The device must have overheated before shutdown. — Вероятно, устройство перегрелось до отключения. Сильный вывод о прошлом, не доказательство.\n- The file might have been deleted accidentally. — Файл могли случайно удалить. Modal perfect passive.\n\nДля каждого примера назови целевую конструкцию, объясни выбор и составь новое предложение в другом контексте. Затем перейди к заданиям: сначала диагностика, затем управляемая и самостоятельная практика, затем новые вопросы выходной проверки.\n\n### 4.11. Самопроверка\n\nПеред отправкой ответа проверь:\n1. Эпистемическая модальность и обязательность различены.\n2. После modal правильная форма.\n3. Perfect/passive отражают нужное время и voice.\n4. Needn't have и didn't need to различены.\n5. Уверенность соответствует заданному evidence.\n6. Hedges точны и не перегружают текст.\n\n### 4.12. Краткая памятка\n\nModality выбирается по функции и контексту. May/might/could + V1 или have + V3 для возможности; must для сильного вывода или необходимости; needn't ≠ mustn't. Likely adjective, likelihood noun. Hedging ограничивает именно неустановленный вывод; association ≠ proof of causation.\n\nНе выбирай форму только по одному знакомому слову: проверь контекст, значение и структуру. При ошибке вернись к соответствующей части конспекта и составь собственный пример.\n\n## 5. Практика\n\nВ приложении практика разделена на входную диагностику, управляемые задания, самостоятельную практику и новую выходную проверку. Закрытые ответы получают rationale и разбор ошибки. Свободный текст сохраняется и оценивается по рубрике; до подключения и реальной проверки AI-движка система не выдаёт его за автоматическую AI-оценку.\n\n## 6. Интервальное повторение\n\nПовторяй не весь урок автоматически, а конкретную ошибку: выбор формы, согласование, word order, значение, регистр или пунктуацию. Новая попытка должна менять лексический контекст и формулировку, чтобы проверять перенос, а не запоминание одной строки.\n\n## 7. Технический статус\n\n- Постоянный ID: `C1-09`.\n- Прогресс хранится отдельно в course.grammarLessons[\"C1-09\"].\n- Содержание и ключи имеют статус draft; 24 авторских закрытых задания и объяснения вычитаны, выбранные тексты источников проверены. Полная постраничная и пользовательская приёмка остаются открытыми.\n- Предварительное выполнение порогов не равно окончательному mastered: нужны отсроченное повторение и learner review.",
+  "theoryEnd": "## 5."
+}

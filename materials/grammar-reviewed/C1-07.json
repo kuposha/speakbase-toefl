@@ -1,0 +1,743 @@
+{
+  "id": "C1-07",
+  "level": "C1",
+  "sequence": "C1-07",
+  "grammarFamily": "C1-07",
+  "questionBankSource": "topic-specific-authored",
+  "sourceVerification": "draft; selected source text consulted; complete source-page and learner review pending",
+  "topicProfile": {
+    "label": "advanced passive, impersonal and causative structures",
+    "skillTarget": "advanced-passive-impersonal-causative",
+    "core": "Passive foregrounds the affected entity or process rather than the agent. В C1 важен не просто выбор be + V3, а управление информационным фокусом, относительным временем и источником сообщения. It is believed that the method works передаёт чужую оценку; The method is believed to work делает method темой высказывания. Ни одна форма сама по себе не доказывает утверждение.",
+    "form": "| Модель | Пример |\n|---|---|\n| it + be + reporting V3 + that | It is estimated that costs will rise. |\n| subject + be + reporting V3 + to V1 | Costs are expected to rise. |\n| reporting + perfect infinitive | The manuscript is thought to have survived. |\n| reporting + perfect passive infinitive | It is believed to have been copied. |\n| there + reporting passive + to be | There are believed to be three copies. |\n| modal passive | The file must be encrypted. |\n| modal perfect passive | The file may have been deleted. |\n| have/get + object + V3 | We had the device repaired. |\n| have + person + V1 | We had a technician repair it. |\n| get + person + to V1 | We got a technician to repair it. |",
+    "selection": "Восстанови активный исходник и определи, кто что делает. Если agent неизвестен/нерелевантен, passive может быть уместен; если ответственность важна, назови agent в by-phrase или используй active. Если сообщаешь оценку, выбери reporting verb и проверяй его complement. Для организованной услуги используй have/get + object + V3, для исполнителя — have + person + V1 или get + person + to V1.",
+    "contrast": "| Исходное сообщение | Соответствующая форма |\n|---|---|\n| They believe she knows the answer. | She is believed to know the answer. |\n| They believe she knew the answer earlier. | She is believed to have known the answer. |\n| They think someone copied the manuscript. | The manuscript is thought to have been copied. |\n| A specialist repaired our printer at our request. | We had our printer repaired. |\n| We asked a specialist and persuaded her to help. | We got a specialist to help. |",
+    "boundary": "Не каждый active complement преобразуется в passive. They wanted her to stay не даёт обычного She was wanted to stay в значении желания. They saw him leaving → He was seen leaving; They asked him to leave → He was asked to leave. Для bare infinitive после make в активе passive восстанавливает to: They made him wait → He was made to wait. Последнее — авторское дополнительное пояснение, а не отдельная сверенная страница данного прохода.",
+    "pronunciation": "Выделяй смысловой participle и источник, если он указан. Не теряй короткие auxiliary have, been, be: они кодируют относительное время и voice. В causative различай have the DEVICE repaired и have the TECHNICIAN repair it. Аудиосверка не завершена.",
+    "examples": [
+      [
+        "The tunnel is believed to have been built in stages.",
+        "Считается, что туннель строили поэтапно.",
+        "Perfect passive infinitive."
+      ],
+      [
+        "There are estimated to be several hundred records.",
+        "По оценкам, существует несколько сотен записей.",
+        "Existential reporting passive."
+      ],
+      [
+        "The results may have been distorted by noise.",
+        "Шум мог исказить результаты.",
+        "Modal perfect passive."
+      ],
+      [
+        "We had the monitor calibrated yesterday.",
+        "Вчера нам откалибровали монитор.",
+        "Causative service."
+      ],
+      [
+        "The intern was asked to verify the totals.",
+        "Стажёра попросили проверить итоги.",
+        "Object + to-infinitive становится passive subject."
+      ],
+      [
+        "They had their luggage stolen abroad.",
+        "За границей у них украли багаж.",
+        "Affected-person construction, не заказанная услуга."
+      ]
+    ],
+    "traps": [
+      [
+        "The manuscript is thought to have wrote yesterday.",
+        "The manuscript is thought to have been written yesterday.",
+        "Рукопись — patient; perfect passive."
+      ],
+      [
+        "It was informed that the room was closed.",
+        "We were informed that the room was closed.",
+        "Назови получателя сообщения."
+      ],
+      [
+        "We had the printer repair by a technician.",
+        "We had the printer repaired by a technician.",
+        "Object + V3."
+      ],
+      [
+        "She got a technician fix it.",
+        "She got a technician to fix it.",
+        "Get + person + to V1."
+      ],
+      [
+        "The team was made wait.",
+        "The team was made to wait.",
+        "В passive make требуется to."
+      ]
+    ],
+    "toefl": "В Reading отделяй метод исследования от утверждений, приписанных источнику. В Listening различай возможный ущерб и установленный факт. В Writing Email употребляй causative при описании ремонта, а в академическом ответе passive только тогда, когда focus оправдан. Это авторская практика, не официальный TOEFL."
+  },
+  "title": "Advanced passive, impersonal and causative structures",
+  "description": "Выбирать пассивные и безличные модели для нейтрального академического регистра",
+  "cardDescription": "Теория, guided practice, самостоятельные задания и выходная проверка по постоянному ID C1-07.",
+  "eyebrow": "Полный урок программы C1-07 · drafted",
+  "contentVersion": "1.1-draft",
+  "curriculumVersion": "1.0",
+  "prerequisites": [
+    "B2-04",
+    "B2-06"
+  ],
+  "outcomes": [
+    "Выбирать пассивные и безличные модели для нейтрального академического регистра",
+    "Выбирать целевую конструкцию по контексту и смыслу.",
+    "Исправлять типичные ошибки и переносить правило в новый пример."
+  ],
+  "sourceRefs": [
+    "GR-03 U22-25",
+    "GR-03 U102",
+    "GR-05 C1 p21",
+    "GR-05 C1 p31",
+    "GR-05 C1 p40"
+  ],
+  "sourceStatus": "selected source text consulted; full page verification pending",
+  "status": "drafted",
+  "legacyCoverage": "Частично",
+  "toeflLinks": [
+    "Writing: Build a Sentence",
+    "Writing: Academic Discussion"
+  ],
+  "thresholds": {
+    "independent": 7,
+    "exit": 4,
+    "criticalIds": [
+      "E1",
+      "E2",
+      "E3"
+    ]
+  },
+  "groups": {
+    "independent": "Самостоятельная практика",
+    "exit": "Выходная проверка"
+  },
+  "items": [
+    {
+      "id": "D1",
+      "group": "Входная диагностика",
+      "prompt": "Choose the impersonal reporting pattern.",
+      "options": [
+        "It is believed the system to work.",
+        "It is believed that the system works.",
+        "It believes that the system works (unspecified reporters)."
+      ],
+      "answer": "It is believed that the system works.",
+      "accepted": [
+        "It is believed that the system works."
+      ],
+      "why": "It + passive + that-clause.",
+      "distractorWhy": "Смешаны две структуры.",
+      "distractorRationales": {
+        "It is believed the system to work.": "Смешаны две структуры.",
+        "It believes that the system works (unspecified reporters).": "It не обозначает источник мнения."
+      },
+      "skillTarget": "advanced-passive-impersonal-causative",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D2",
+      "group": "Входная диагностика",
+      "prompt": "Choose the subject reporting pattern for a current state.",
+      "options": [
+        "The system is believed to be stable.",
+        "The system is believed that it is stable.",
+        "The system is believed being stable."
+      ],
+      "answer": "The system is believed to be stable.",
+      "accepted": [
+        "The system is believed to be stable."
+      ],
+      "why": "Subject + passive + to-infinitive.",
+      "distractorWhy": "That-clause требует impersonal it.",
+      "distractorRationales": {
+        "The system is believed that it is stable.": "That-clause требует impersonal it.",
+        "The system is believed being stable.": "Being не нужный complement."
+      },
+      "skillTarget": "advanced-passive-impersonal-causative",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D3",
+      "group": "Входная диагностика",
+      "prompt": "Choose the perfect infinitive for an earlier active event.",
+      "options": [
+        "The explorer is thought to have reach the island in 1820.",
+        "The explorer is thought to be reach the island in 1820.",
+        "The explorer is thought to have reached the island in 1820."
+      ],
+      "answer": "The explorer is thought to have reached the island in 1820.",
+      "accepted": [
+        "The explorer is thought to have reached the island in 1820."
+      ],
+      "why": "To have + V3 marks anteriority.",
+      "distractorWhy": "Reach не V3.",
+      "distractorRationales": {
+        "The explorer is thought to have reach the island in 1820.": "Reach не V3.",
+        "The explorer is thought to be reach the island in 1820.": "Be reach неверно."
+      },
+      "skillTarget": "advanced-passive-impersonal-causative",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D4",
+      "group": "Входная диагностика",
+      "prompt": "Choose the perfect passive infinitive for a manuscript copied earlier.",
+      "options": [
+        "The manuscript is thought to have copied in 1820 (patient).",
+        "The manuscript is thought to have been copied in 1820.",
+        "The manuscript is thought to have been copy in 1820."
+      ],
+      "answer": "The manuscript is thought to have been copied in 1820.",
+      "accepted": [
+        "The manuscript is thought to have been copied in 1820."
+      ],
+      "why": "To have been + V3.",
+      "distractorWhy": "Active makes manuscript the copier.",
+      "distractorRationales": {
+        "The manuscript is thought to have copied in 1820 (patient).": "Active makes manuscript the copier.",
+        "The manuscript is thought to have been copy in 1820.": "Copy не V3."
+      },
+      "skillTarget": "advanced-passive-impersonal-causative",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G1",
+      "group": "Управляемая практика",
+      "prompt": "Choose the existential reporting passive.",
+      "options": [
+        "There are believed to be three versions.",
+        "There are believed that three versions exist.",
+        "There is believed to be three versions (standard agreement)."
+      ],
+      "answer": "There are believed to be three versions.",
+      "accepted": [
+        "There are believed to be three versions."
+      ],
+      "why": "There are + reporting V3 + to be.",
+      "distractorWhy": "That-clause требует it.",
+      "distractorRationales": {
+        "There are believed that three versions exist.": "That-clause требует it.",
+        "There is believed to be three versions (standard agreement).": "Plural versions требует are в целевой модели."
+      },
+      "skillTarget": "advanced-passive-impersonal-causative",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G2",
+      "group": "Управляемая практика",
+      "prompt": "Choose the impersonal pattern with suggest.",
+      "options": [
+        "We have been suggested to revise the plan (recommendation).",
+        "It has been suggested us to revise the plan.",
+        "It has been suggested that we revise the plan."
+      ],
+      "answer": "It has been suggested that we revise the plan.",
+      "accepted": [
+        "It has been suggested that we revise the plan."
+      ],
+      "why": "Suggest допускает it + passive + that.",
+      "distractorWhy": "Не обычная subject-reporting модель suggest.",
+      "distractorRationales": {
+        "We have been suggested to revise the plan (recommendation).": "Не обычная subject-reporting модель suggest.",
+        "It has been suggested us to revise the plan.": "Us to не complement suggest."
+      },
+      "skillTarget": "advanced-passive-impersonal-causative",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G3",
+      "group": "Управляемая практика",
+      "prompt": "Choose the passive explicitly naming the informed recipients.",
+      "options": [
+        "It was informed that the deadline had changed.",
+        "The applicants were informed that the deadline had changed.",
+        "The deadline was informed that it had changed."
+      ],
+      "answer": "The applicants were informed that the deadline had changed.",
+      "accepted": [
+        "The applicants were informed that the deadline had changed."
+      ],
+      "why": "Applicants — получатели информации.",
+      "distractorWhy": "Нейтральный inform требует получателя.",
+      "distractorRationales": {
+        "It was informed that the deadline had changed.": "Нейтральный inform требует получателя.",
+        "The deadline was informed that it had changed.": "Deadline не получатель."
+      },
+      "skillTarget": "advanced-passive-impersonal-causative",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G4",
+      "group": "Управляемая практика",
+      "prompt": "Choose the passive of 'They saw her leaving the building.'",
+      "options": [
+        "She was seen leaving the building.",
+        "She was seen leaveing the building.",
+        "She was seen to leaving the building."
+      ],
+      "answer": "She was seen leaving the building.",
+      "accepted": [
+        "She was seen leaving the building."
+      ],
+      "why": "Be seen + V-ing.",
+      "distractorWhy": "Leaving пишется без e.",
+      "distractorRationales": {
+        "She was seen leaveing the building.": "Leaving пишется без e.",
+        "She was seen to leaving the building.": "To leaving неверно."
+      },
+      "skillTarget": "advanced-passive-impersonal-causative",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G5",
+      "group": "Управляемая практика",
+      "prompt": "Choose the passive of 'They asked him to wait.'",
+      "options": [
+        "He was asked waiting (request).",
+        "He was asked wait.",
+        "He was asked to wait."
+      ],
+      "answer": "He was asked to wait.",
+      "accepted": [
+        "He was asked to wait."
+      ],
+      "why": "Passive asked retains to-infinitive.",
+      "distractorWhy": "Waiting не передаёт эту просьбу.",
+      "distractorRationales": {
+        "He was asked waiting (request).": "Waiting не передаёт эту просьбу.",
+        "He was asked wait.": "Не хватает to."
+      },
+      "skillTarget": "advanced-passive-impersonal-causative",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G6",
+      "group": "Управляемая практика",
+      "prompt": "Choose the passive of 'They made us repeat the test.'",
+      "options": [
+        "We were made repeat the test.",
+        "We were made to repeat the test.",
+        "We were made repeating the test."
+      ],
+      "answer": "We were made to repeat the test.",
+      "accepted": [
+        "We were made to repeat the test."
+      ],
+      "why": "Passive make + to V1.",
+      "distractorWhy": "Bare infinitive только активная модель.",
+      "distractorRationales": {
+        "We were made repeat the test.": "Bare infinitive только активная модель.",
+        "We were made repeating the test.": "Repeating не целевой complement."
+      },
+      "skillTarget": "advanced-passive-impersonal-causative",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I1",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the possible past passive event.",
+      "options": [
+        "The file might have deleted (patient).",
+        "The file might has been deleted.",
+        "The file might have been deleted."
+      ],
+      "answer": "The file might have been deleted.",
+      "accepted": [
+        "The file might have been deleted."
+      ],
+      "why": "Might + have been + V3.",
+      "distractorWhy": "Active меняет роль file.",
+      "distractorRationales": {
+        "The file might have deleted (patient).": "Active меняет роль file.",
+        "The file might has been deleted.": "После modal have, не has."
+      },
+      "skillTarget": "advanced-passive-impersonal-causative",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I2",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the present obligation in passive voice.",
+      "options": [
+        "The form must been signed.",
+        "The form must be signed.",
+        "The form must to be signed."
+      ],
+      "answer": "The form must be signed.",
+      "accepted": [
+        "The form must be signed."
+      ],
+      "why": "Must + be + V3.",
+      "distractorWhy": "Been не V1.",
+      "distractorRationales": {
+        "The form must been signed.": "Been не V1.",
+        "The form must to be signed.": "После must нет to."
+      },
+      "skillTarget": "advanced-passive-impersonal-causative",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I3",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the strong past inference, not an instruction.",
+      "options": [
+        "The seal must have been broken before inspection.",
+        "The seal must be broken tomorrow.",
+        "The seal must have broke before inspection."
+      ],
+      "answer": "The seal must have been broken before inspection.",
+      "accepted": [
+        "The seal must have been broken before inspection."
+      ],
+      "why": "Must have been + V3 marks inference.",
+      "distractorWhy": "Это будущее требование.",
+      "distractorRationales": {
+        "The seal must be broken tomorrow.": "Это будущее требование.",
+        "The seal must have broke before inspection.": "Broke не V3; нет been."
+      },
+      "skillTarget": "advanced-passive-impersonal-causative",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I4",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the causative service arranged by the speaker.",
+      "options": [
+        "I had repaired my laptop before yesterday (causative service).",
+        "I had my laptop repair yesterday.",
+        "I had my laptop repaired yesterday."
+      ],
+      "answer": "I had my laptop repaired yesterday.",
+      "accepted": [
+        "I had my laptop repaired yesterday."
+      ],
+      "why": "Have + object + V3.",
+      "distractorWhy": "Past perfect active, не causative.",
+      "distractorRationales": {
+        "I had repaired my laptop before yesterday (causative service).": "Past perfect active, не causative.",
+        "I had my laptop repair yesterday.": "Repair не V3."
+      },
+      "skillTarget": "advanced-passive-impersonal-causative",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I5",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the causative with get and an affected object.",
+      "options": [
+        "We got the window replace.",
+        "We got the window replaced.",
+        "We got replaced the window as the service pattern."
+      ],
+      "answer": "We got the window replaced.",
+      "accepted": [
+        "We got the window replaced."
+      ],
+      "why": "Get + object + V3.",
+      "distractorWhy": "Replace не V3.",
+      "distractorRationales": {
+        "We got the window replace.": "Replace не V3.",
+        "We got replaced the window as the service pattern.": "Неверный порядок объекта."
+      },
+      "skillTarget": "advanced-passive-impersonal-causative",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I6",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the active causative with have and a person.",
+      "options": [
+        "We had a technician inspect the device.",
+        "We had a technician to inspect the device.",
+        "We had a technician inspected the device."
+      ],
+      "answer": "We had a technician inspect the device.",
+      "accepted": [
+        "We had a technician inspect the device."
+      ],
+      "why": "Have + person + bare infinitive.",
+      "distractorWhy": "To не используется в этой модели.",
+      "distractorRationales": {
+        "We had a technician to inspect the device.": "To не используется в этой модели.",
+        "We had a technician inspected the device.": "Inspected не V1."
+      },
+      "skillTarget": "advanced-passive-impersonal-causative",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I7",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the active causative with get and a person.",
+      "options": [
+        "We got a technician inspect the device.",
+        "We got a technician to inspected the device.",
+        "We got a technician to inspect the device."
+      ],
+      "answer": "We got a technician to inspect the device.",
+      "accepted": [
+        "We got a technician to inspect the device."
+      ],
+      "why": "Get + person + to V1.",
+      "distractorWhy": "Пропущено to.",
+      "distractorRationales": {
+        "We got a technician inspect the device.": "Пропущено to.",
+        "We got a technician to inspected the device.": "Inspected не V1."
+      },
+      "skillTarget": "advanced-passive-impersonal-causative",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I8",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the ongoing arranged service.",
+      "options": [
+        "She is having serviced her bike (causative).",
+        "She is having her bike serviced.",
+        "She is having her bike service."
+      ],
+      "answer": "She is having her bike serviced.",
+      "accepted": [
+        "She is having her bike serviced."
+      ],
+      "why": "Is having + object + V3.",
+      "distractorWhy": "Неверный порядок.",
+      "distractorRationales": {
+        "She is having serviced her bike (causative).": "Неверный порядок.",
+        "She is having her bike service.": "Service не V3."
+      },
+      "skillTarget": "advanced-passive-impersonal-causative",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I9",
+      "group": "Самостоятельная практика",
+      "prompt": "Which sentence describes an adverse event rather than a deliberately arranged service?",
+      "options": [
+        "They had their passports stolen during the journey.",
+        "They had their passports renewed at their request.",
+        "They had their passports checked at the office."
+      ],
+      "answer": "They had their passports stolen during the journey.",
+      "accepted": [
+        "They had their passports stolen during the journey."
+      ],
+      "why": "Stolen here signals an unwanted event.",
+      "distractorWhy": "Renewed explicitly requested.",
+      "distractorRationales": {
+        "They had their passports renewed at their request.": "Renewed explicitly requested.",
+        "They had their passports checked at the office.": "Checked describes a routine process."
+      },
+      "skillTarget": "advanced-passive-impersonal-causative",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E1",
+      "group": "Выходная проверка",
+      "prompt": "Choose the active perfect, not a causative.",
+      "options": [
+        "I have repaired the printer myself.",
+        "I have the printer repaired every year.",
+        "I had the printer repaired by a specialist."
+      ],
+      "answer": "I have repaired the printer myself.",
+      "accepted": [
+        "I have repaired the printer myself."
+      ],
+      "why": "Have + V3 is perfect active.",
+      "distractorWhy": "Have + object + V3 is causative.",
+      "distractorRationales": {
+        "I have the printer repaired every year.": "Have + object + V3 is causative.",
+        "I had the printer repaired by a specialist.": "Had + object + V3 is causative."
+      },
+      "skillTarget": "advanced-passive-impersonal-causative",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E2",
+      "group": "Выходная проверка",
+      "prompt": "Choose the reporting form marking a completed action before a past belief.",
+      "options": [
+        "The document was believed to have destroy before the inquiry.",
+        "The document was believed to have been destroying (patient).",
+        "The document was believed to have been destroyed before the inquiry."
+      ],
+      "answer": "The document was believed to have been destroyed before the inquiry.",
+      "accepted": [
+        "The document was believed to have been destroyed before the inquiry."
+      ],
+      "why": "Perfect passive relative to past reporting.",
+      "distractorWhy": "Destroy не V3.",
+      "distractorRationales": {
+        "The document was believed to have destroy before the inquiry.": "Destroy не V3.",
+        "The document was believed to have been destroying (patient).": "Active progressive changes patient role."
+      },
+      "skillTarget": "advanced-passive-impersonal-causative",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E3",
+      "group": "Выходная проверка",
+      "prompt": "Choose the eventive get-passive with no external service object.",
+      "options": [
+        "The screen got damage in transit.",
+        "The screen got damaged in transit.",
+        "The screen got damaging in transit (passive)."
+      ],
+      "answer": "The screen got damaged in transit.",
+      "accepted": [
+        "The screen got damaged in transit."
+      ],
+      "why": "Get + V3 describes affected screen.",
+      "distractorWhy": "Damage не V3.",
+      "distractorRationales": {
+        "The screen got damage in transit.": "Damage не V3.",
+        "The screen got damaging in transit (passive).": "Damaging active form."
+      },
+      "skillTarget": "advanced-passive-impersonal-causative",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E4",
+      "group": "Выходная проверка",
+      "prompt": "Choose the version explicitly retaining the responsible agent.",
+      "options": [
+        "The samples were labelled by the lab assistant.",
+        "The samples were labelled (agent unspecified).",
+        "The samples were labelled yesterday (agent unspecified)."
+      ],
+      "answer": "The samples were labelled by the lab assistant.",
+      "accepted": [
+        "The samples were labelled by the lab assistant."
+      ],
+      "why": "By-phrase identifies agent.",
+      "distractorWhy": "Agent omitted.",
+      "distractorRationales": {
+        "The samples were labelled (agent unspecified).": "Agent omitted.",
+        "The samples were labelled yesterday (agent unspecified).": "Yesterday gives time, not agent."
+      },
+      "skillTarget": "advanced-passive-impersonal-causative",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E5",
+      "group": "Выходная проверка",
+      "prompt": "Choose the accurate principle for reporting passive.",
+      "options": [
+        "A passive reporting verb guarantees that the claim is true.",
+        "Every reporting verb permits every passive complement.",
+        "It reports an attributed claim; it does not establish that the claim is true."
+      ],
+      "answer": "It reports an attributed claim; it does not establish that the claim is true.",
+      "accepted": [
+        "It reports an attributed claim; it does not establish that the claim is true."
+      ],
+      "why": "Reporting does not equal proof.",
+      "distractorWhy": "Grammar cannot prove truth.",
+      "distractorRationales": {
+        "A passive reporting verb guarantees that the claim is true.": "Grammar cannot prove truth.",
+        "Every reporting verb permits every passive complement.": "Complement restrictions vary."
+      },
+      "skillTarget": "advanced-passive-impersonal-causative",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "W1",
+      "group": "Самостоятельное применение",
+      "prompt": "Напиши 8–10 предложений о технической проверке: два reporting passives, один perfect passive infinitive, there-reporting, modal perfect passive, две causative модели и active alternative. Объясни временные отношения, агент и степень уверенности.",
+      "open": true,
+      "rubric": [
+        "Reporting complement соответствует verb.",
+        "Относительное время передано корректно.",
+        "Passive infinitive и modal perfect passive имеют нужные auxiliary.",
+        "Causative не смешивается с perfect.",
+        "Агент и затронутый объект различены.",
+        "Источник сообщения и регистр ясны."
+      ],
+      "skillTarget": "Самостоятельное применение C1-07",
+      "interactionType": "open-production",
+      "difficulty": "transfer",
+      "sourceBasis": "Speakbase-authored open production; self-review rubric only until real AI feedback is connected",
+      "contentVersion": "1.1-draft"
+    }
+  ],
+  "markdown": "# Speakbase — C1-07: Advanced passive, impersonal and causative structures\n\n**Curriculum ID:** `C1-07`  \n**Уровень:** C1  \n**Версия:** 1.1-draft\n**Статус:** drafted; selected source text checked; full source-page and learner acceptance pending\n**Предварительные темы:** B2-04, B2-06  \n**Связь со старым каталогом:** Частично — №29 Passive Voice; №30 Passive with Modals\n\n## 1. Результаты обучения\n\n- Выбирать пассивные и безличные модели для нейтрального академического регистра\n- Выбирать целевую форму по значению, структуре предложения и контексту.\n- Объяснять, почему близкая грамматическая форма меняет смысл или регистр.\n- Находить и исправлять типичные ошибки русскоязычных студентов.\n\n## 2. Источники и статус сверки\n\n| Source | PDF navigation | Lesson-specific checks | Status |\n|---|---|---|---|\n| GR-03 U22 | PDF pages 68-69 (printed pp. 44-45, Unit 22) | Using passives: reasons for passive choice, agent omission and topic focus; visually checked | visually checked; unit-text checked |\n| GR-03 U23 | PDF pages 70-71 (printed pp. 46-47, Unit 23) | Passive sentences with objects/complements and multi-word verbs; visually checked | visually checked; unit-text checked |\n| GR-03 U24 | PDF pages 72-73 (printed pp. 48-49, Unit 24) | Passive sentences with verb + -ing and verb + to-infinitive; visually checked | visually checked; unit-text checked |\n| GR-03 U25 | PDF pages 74-75 (printed pp. 50-51, Unit 25) | Reporting with passives: it is said that, subject + passive reporting verb + infinitive; visually checked | visually checked; unit-text checked |\n| GR-03 U102 | PDF pages 228-229 (printed pp. 204-205, Unit 102) | Impersonal reporting and distancing from a point of view; visually checked | visually checked; unit-text checked |\n| GR-05 C1 p21 | PDF pages 21 (C1 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-05 C1 p31 | PDF pages 31 (C1 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-05 C1 p40 | PDF pages 40 (C1 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n\nUnit/page locations are navigation aids only. They do not prove that the cited explanation, examples, restrictions and answer key have been checked for this lesson. Examples and explanations below are Speakbase-authored, not quotations from the textbook.\n\nПеред переводом этого урока в source-verified необходимо открыть целевые страницы конкретного издания, записать печатную и PDF-пагинацию, сверить ограничения и исключения. Для GR-03 со сканированными страницами обязательна визуальная проверка.\n\n**Evidence for this editorial pass:** GR-03 Units 24–25 and 102, rendered theory pages visually reopened PDF pp. 72, 74, 228 (printed pp. 48, 50, 204); GR-02 Unit 46 theory text inspected PDF p. 104 (printed p. 92). Previous journal contains Units 22–25 contextual evidence. Further source/exercise-page and learner checks pending. The selected source text was consulted; not all pages, exercises, editions, scanned GR-03 pages or GR-05 descriptors were checked. Author-created explanations and practice are not copied source exercises.\n\n## 3. Место темы и границы\n\nAdvanced passive, impersonal and causative structures; нейтральный академический фокус, агент и reporting patterns.\n\nСтарый каталог содержит: №29 Passive Voice; №30 Passive with Modals. Его статус — Частично. Старые отметки завершения не переносятся автоматически на новый постоянный ID. Тема рассматривается в уровне C1 и не заменяет обязательные prerequisites.\n\n## 4. Полный конспект\n\n### 4.1. Основная идея и функция конструкции\n\nPassive foregrounds the affected entity or process rather than the agent. В C1 важен не просто выбор be + V3, а управление информационным фокусом, относительным временем и источником сообщения. It is believed that the method works передаёт чужую оценку; The method is believed to work делает method темой высказывания. Ни одна форма сама по себе не доказывает утверждение.\n\nРазличай три конструкции: обычный passive (The samples were analysed), reporting passive (The samples are thought to contain traces of metal) и causative (We had the samples analysed). В первом случае акцент на образцах, во втором сообщается мнение, в третьем субъект организовал анализ другими людьми. Точное значение зависит от контекста: They had their equipment stolen не означает, что они организовали кражу.\n\n### 4.2. Формирование и грамматические модели\n\n| Модель | Пример |\n|---|---|\n| it + be + reporting V3 + that | It is estimated that costs will rise. |\n| subject + be + reporting V3 + to V1 | Costs are expected to rise. |\n| reporting + perfect infinitive | The manuscript is thought to have survived. |\n| reporting + perfect passive infinitive | It is believed to have been copied. |\n| there + reporting passive + to be | There are believed to be three copies. |\n| modal passive | The file must be encrypted. |\n| modal perfect passive | The file may have been deleted. |\n| have/get + object + V3 | We had the device repaired. |\n| have + person + V1 | We had a technician repair it. |\n| get + person + to V1 | We got a technician to repair it. |\n\nTo-infinitive соотносится со временем reporting clause: is thought to be — состояние одновременно с текущей оценкой; is thought to have been — более раннее состояние. To be being + V3 грамматически возможно для продолжающегося пассивного процесса, но часто громоздко; to be + V3 выражает пассив без explicit progressive. Was thought to have occurred означает предшествование прошлой оценке, не обязательно моменту речи. Modal + have been + V3: may have been damaged — возможное прошлое пассивное событие; must have been damaged — сильный вывод, а не предписание в прошлом.\n\n### 4.3. Как выбрать подходящую форму\n\nВосстанови активный исходник и определи, кто что делает. Если agent неизвестен/нерелевантен, passive может быть уместен; если ответственность важна, назови agent в by-phrase или используй active. Если сообщаешь оценку, выбери reporting verb и проверяй его complement. Для организованной услуги используй have/get + object + V3, для исполнителя — have + person + V1 или get + person + to V1.\n\nSay, believe, think, estimate, expect обычно допускают impersonal и subject reporting patterns. Suggest, recommend, announce и decide употребляются с it + passive + that-clause, но не свободно заменяются на subject + passive + to-infinitive в том же значении. Inform, persuade, remind, tell, warn требуют получателя в соответствующих моделях: We were informed that the room was closed; не It was informed that… в нейтральном английском. Told to do передаёт указание, а не предположение.\n\n### 4.4. Сравнение с близкими конструкциями\n\n| Исходное сообщение | Соответствующая форма |\n|---|---|\n| They believe she knows the answer. | She is believed to know the answer. |\n| They believe she knew the answer earlier. | She is believed to have known the answer. |\n| They think someone copied the manuscript. | The manuscript is thought to have been copied. |\n| A specialist repaired our printer at our request. | We had our printer repaired. |\n| We asked a specialist and persuaded her to help. | We got a specialist to help. |\n\n### 4.5. Примеры с переводом и объяснением\n\n| English | Перевод | Почему это подходит |\n| --- | --- | --- |\n| The tunnel is believed to have been built in stages. | Считается, что туннель строили поэтапно. | Perfect passive infinitive. |\n| There are estimated to be several hundred records. | По оценкам, существует несколько сотен записей. | Existential reporting passive. |\n| The results may have been distorted by noise. | Шум мог исказить результаты. | Modal perfect passive. |\n| We had the monitor calibrated yesterday. | Вчера нам откалибровали монитор. | Causative service. |\n| The intern was asked to verify the totals. | Стажёра попросили проверить итоги. | Object + to-infinitive становится passive subject. |\n| They had their luggage stolen abroad. | За границей у них украли багаж. | Affected-person construction, не заказанная услуга. |\n\n### 4.6. Исключения, ограничения и границы употребления\n\nНе каждый active complement преобразуется в passive. They wanted her to stay не даёт обычного She was wanted to stay в значении желания. They saw him leaving → He was seen leaving; They asked him to leave → He was asked to leave. Для bare infinitive после make в активе passive восстанавливает to: They made him wait → He was made to wait. Последнее — авторское дополнительное пояснение, а не отдельная сверенная страница данного прохода.\n\nGet-passive (The window got broken) часто описывает событие и может звучать разговорнее, чем be-passive. Have/get + object + V3 меняют время на первом глаголе: had it repaired, will have it repaired, is having it repaired. Не путай perfect I have repaired it (я отремонтировал) и causative I have it repaired every year (организую ремонт). Reporting passive может дистанцировать автора, но не отменяет потребности назвать источник, если он известен. При оценке прошлого не смешивай modal perfect passive и active perfect: The data might have been lost ≠ The team might have lost the data, хотя оба могут описывать одно событие.\n\n### 4.7. Типичные ошибки русскоязычных студентов\n\n| Ошибка | Исправление | Объяснение |\n| --- | --- | --- |\n| The manuscript is thought to have wrote yesterday. | The manuscript is thought to have been written yesterday. | Рукопись — patient; perfect passive. |\n| It was informed that the room was closed. | We were informed that the room was closed. | Назови получателя сообщения. |\n| We had the printer repair by a technician. | We had the printer repaired by a technician. | Object + V3. |\n| She got a technician fix it. | She got a technician to fix it. | Get + person + to V1. |\n| The team was made wait. | The team was made to wait. | В passive make требуется to. |\n\n### 4.8. Произношение и восприятие на слух\n\nВыделяй смысловой participle и источник, если он указан. Не теряй короткие auxiliary have, been, be: они кодируют относительное время и voice. В causative различай have the DEVICE repaired и have the TECHNICIAN repair it. Аудиосверка не завершена.\n\nСначала прослушай или прочитай пример, затем произнеси его целиком. Обрати внимание на смысловое ударение и форму конструкции; не ориентируйся только на буквенный перевод.\n\n### 4.9. Академический английский и TOEFL-перенос\n\nВ Reading отделяй метод исследования от утверждений, приписанных источнику. В Listening различай возможный ущерб и установленный факт. В Writing Email употребляй causative при описании ремонта, а в академическом ответе passive только тогда, когда focus оправдан. Это авторская практика, не официальный TOEFL.\n\nЭто авторская практика переноса навыка. Она не является официальным заданием TOEFL и не выдаётся за официальный результат экзамена.\n\n### 4.10. Примеры для управляемого разбора\n\n- The tunnel is believed to have been built in stages. — Считается, что туннель строили поэтапно. Perfect passive infinitive.\n- There are estimated to be several hundred records. — По оценкам, существует несколько сотен записей. Existential reporting passive.\n- The results may have been distorted by noise. — Шум мог исказить результаты. Modal perfect passive.\n\nДля каждого примера назови целевую конструкцию, объясни выбор и составь новое предложение в другом контексте. Затем перейди к заданиям: сначала диагностика, затем управляемая и самостоятельная практика, затем новые вопросы выходной проверки.\n\n### 4.11. Самопроверка\n\nПеред отправкой ответа проверь:\n1. Reporting complement соответствует verb.\n2. Относительное время передано корректно.\n3. Passive infinitive и modal perfect passive имеют нужные auxiliary.\n4. Causative не смешивается с perfect.\n5. Агент и затронутый объект различены.\n6. Источник сообщения и регистр ясны.\n\n### 4.12. Краткая памятка\n\nPassive меняет фокус. Reporting: it + be + V3 + that; subject + be + V3 + to-infinitive с ограничениями по verb; perfect указывает предшествование. Causative have/get + object + V3, have person V1, get person to V1. Modal perfect passive = modal + have been + V3. Проверяй agent, время и смысл.\n\nНе выбирай форму только по одному знакомому слову: проверь контекст, значение и структуру. При ошибке вернись к соответствующей части конспекта и составь собственный пример.\n\n## 5. Практика\n\nВ приложении практика разделена на входную диагностику, управляемые задания, самостоятельную практику и новую выходную проверку. Закрытые ответы получают rationale и разбор ошибки. Свободный текст сохраняется и оценивается по рубрике; до подключения и реальной проверки AI-движка система не выдаёт его за автоматическую AI-оценку.\n\n## 6. Интервальное повторение\n\nПовторяй не весь урок автоматически, а конкретную ошибку: выбор формы, согласование, word order, значение, регистр или пунктуацию. Новая попытка должна менять лексический контекст и формулировку, чтобы проверять перенос, а не запоминание одной строки.\n\n## 7. Технический статус\n\n- Постоянный ID: `C1-07`.\n- Прогресс хранится отдельно в course.grammarLessons[\"C1-07\"].\n- Содержание и ключи имеют статус draft; 24 авторских закрытых задания и объяснения вычитаны, выбранные тексты источников проверены. Полная постраничная и пользовательская приёмка остаются открытыми.\n- Предварительное выполнение порогов не равно окончательному mastered: нужны отсроченное повторение и learner review.",
+  "theoryEnd": "## 5."
+}

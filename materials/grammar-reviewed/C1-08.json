@@ -1,0 +1,743 @@
+{
+  "id": "C1-08",
+  "level": "C1",
+  "sequence": "C1-08",
+  "grammarFamily": "C1-08",
+  "questionBankSource": "topic-specific-authored",
+  "sourceVerification": "draft; selected source text consulted; complete source-page and learner review pending",
+  "topicProfile": {
+    "label": "advanced reporting and academic citation language",
+    "skillTarget": "academic-reporting-citation-language",
+    "core": "Academic reporting language передаёт чужие результаты, утверждения и позиции, отделяя их от вывода автора текста. Глагол reporting показывает, что делает источник: reports — сообщает, argues — аргументирует, suggests — осторожно предполагает, acknowledges — признаёт, challenges — ставит под сомнение. Выбор зависит от того, что источник действительно сказал и какие основания представил.",
+    "form": "| Функция | Модель |\n|---|---|\n| утверждение | argue/claim/maintain + that-clause |\n| результат | report/find/show + that-clause или noun phrase |\n| признание | acknowledge/admit + that-clause или V-ing |\n| отрицание | deny + that-clause или V-ing |\n| причина | attribute X to Y |\n| предостережение | caution someone against + V-ing |\n| совет | recommend/suggest + V-ing или that-clause |\n| просьба/указание | urge/ask/instruct + object + to V1 |\n| предложение помочь | offer + to V1 |\n| требование | require/insist + that + subjunctive/should |",
+    "selection": "Сначала определи функцию исходника: наблюдение, интерпретация, аргумент, признание ограничения, несогласие, рекомендация. Затем выбери complement, сохрани модальность, отрицание и участников. The results may reflect X → The authors suggest that the results may reflect X, не The authors prove X. Если приводишь утверждение, не выдавай его за собственный результат. В реальном тексте указывай настоящий источник по требуемому стилю цитирования.",
+    "contrast": "| Содержание источника | Точная передача |\n|---|---|\n| данные совпадают с гипотезой, но не исключают другие | The authors suggest that the hypothesis may be correct. |\n| автор признаёт слабость выборки | The author acknowledges that the sample is small. |\n| автор отвергает вывод | The author challenges the conclusion. |\n| автор предлагает пересмотр | The author recommends revising the procedure. |\n| автор указывает предполагаемую причину | The author attributes the delay to a technical fault. |",
+    "boundary": "Mandative subjunctive: They recommended that the procedure be revised; They insisted that the team not release the file. Should + V1 допустимо, особенно в BrE. Обычная indicative form также встречается, особенно в менее формальном BrE, но задания на subjunctive явно требуют именно его. Insist that he is right выражает утверждение, insist that he be present — требование. Не интерпретируй каждое insist that как обязательное действие.",
+    "pronunciation": "Смысловое ударение на reporting verb помогает различать merely suggests и strongly argues, но контекст важнее интонации. При устном пересказе явно отделяй source from your opinion: The speaker argues…; I would add… . Аудиосверка открыта.",
+    "examples": [
+      [
+        "The authors attribute the decline to a change in sampling.",
+        "Авторы связывают снижение с изменением выборки.",
+        "Attribute X to Y."
+      ],
+      [
+        "The review cautions readers against treating association as causation.",
+        "Обзор предостерегает от смешения связи с причинностью.",
+        "Caution against + -ing."
+      ],
+      [
+        "The committee recommended that the file be checked.",
+        "Комиссия рекомендовала проверить файл.",
+        "Mandative passive subjunctive."
+      ],
+      [
+        "The researchers acknowledge that their sample was small.",
+        "Исследователи признают, что выборка была небольшой.",
+        "Acknowledgement of limitation."
+      ],
+      [
+        "The study examines whether the result can be replicated.",
+        "Исследование рассматривает, можно ли воспроизвести результат.",
+        "Embedded whether-clause."
+      ],
+      [
+        "The report suggests that the effect may be temporary.",
+        "Отчёт предполагает, что эффект может быть временным.",
+        "Сохранена неопределённость."
+      ]
+    ],
+    "traps": [
+      [
+        "The authors attribute the decline with a fault.",
+        "The authors attribute the decline to a fault.",
+        "Attribute X to Y."
+      ],
+      [
+        "They suggested us to repeat the test.",
+        "They suggested that we repeat the test.",
+        "Suggest + that или -ing."
+      ],
+      [
+        "The report examines whether can the result be repeated.",
+        "The report examines whether the result can be repeated.",
+        "Embedded word order."
+      ],
+      [
+        "They recommended that the file be checking (passive demand).",
+        "They recommended that the file be checked.",
+        "Be + V3."
+      ],
+      [
+        "He told that the deadline had changed.",
+        "He said that the deadline had changed. / He told us that the deadline had changed.",
+        "Tell требует получателя в этой модели."
+      ]
+    ],
+    "toefl": "В Academic Discussion точно передавай позицию других участников и объясняй собственную. Не усиливай предположения до фактов. В Reading различай author's stance и reported stance; в Writing Email используй recommend/ask/offer по цели. Это авторская практика, не официальный TOEFL."
+  },
+  "title": "Advanced reporting and academic citation language",
+  "description": "Передавать чужую позицию, различать reporting verbs, tense shifts и stance",
+  "cardDescription": "Теория, guided practice, самостоятельные задания и выходная проверка по постоянному ID C1-08.",
+  "eyebrow": "Полный урок программы C1-08 · drafted",
+  "contentVersion": "1.1-draft",
+  "curriculumVersion": "1.0",
+  "prerequisites": [
+    "B2-05",
+    "B2-18"
+  ],
+  "outcomes": [
+    "Передавать чужую позицию, различать reporting verbs, tense shifts и stance",
+    "Выбирать целевую конструкцию по контексту и смыслу.",
+    "Исправлять типичные ошибки и переносить правило в новый пример."
+  ],
+  "sourceRefs": [
+    "GR-03 U32-39",
+    "GR-03 U102",
+    "GR-03 U104",
+    "GR-05 C1 p35"
+  ],
+  "sourceStatus": "selected source text consulted; full page verification pending",
+  "status": "drafted",
+  "legacyCoverage": "Частично",
+  "toeflLinks": [
+    "Writing: Build a Sentence",
+    "Listening: tense/aspect, modality, weak forms and discourse cues",
+    "Writing: Academic Discussion"
+  ],
+  "thresholds": {
+    "independent": 7,
+    "exit": 4,
+    "criticalIds": [
+      "E1",
+      "E2",
+      "E3"
+    ]
+  },
+  "groups": {
+    "independent": "Самостоятельная практика",
+    "exit": "Выходная проверка"
+  },
+  "items": [
+    {
+      "id": "D1",
+      "group": "Входная диагностика",
+      "prompt": "Choose the complement in 'The authors attribute the discrepancy ___ a sampling error.'",
+      "options": [
+        "with",
+        "to",
+        "for"
+      ],
+      "answer": "to",
+      "accepted": [
+        "to"
+      ],
+      "why": "Attribute X to Y.",
+      "distractorWhy": "With не целевой предлог.",
+      "distractorRationales": {
+        "with": "With не целевой предлог.",
+        "for": "For не complement attribute."
+      },
+      "skillTarget": "academic-reporting-citation-language",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D2",
+      "group": "Входная диагностика",
+      "prompt": "Choose the phrase warning against a possible mistake.",
+      "options": [
+        "The review cautions readers against generalising from one case.",
+        "The review cautions readers from generalising from one case.",
+        "The review cautions readers to generalising from one case."
+      ],
+      "answer": "The review cautions readers against generalising from one case.",
+      "accepted": [
+        "The review cautions readers against generalising from one case."
+      ],
+      "why": "Caution against + V-ing.",
+      "distractorWhy": "From не обычная модель caution.",
+      "distractorRationales": {
+        "The review cautions readers from generalising from one case.": "From не обычная модель caution.",
+        "The review cautions readers to generalising from one case.": "To generalising не complement."
+      },
+      "skillTarget": "academic-reporting-citation-language",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D3",
+      "group": "Входная диагностика",
+      "prompt": "Choose the reporting pattern with acknowledge and a clause.",
+      "options": [
+        "They acknowledge to that the sample was small.",
+        "They acknowledge that was the sample small.",
+        "They acknowledge that the sample was small."
+      ],
+      "answer": "They acknowledge that the sample was small.",
+      "accepted": [
+        "They acknowledge that the sample was small."
+      ],
+      "why": "Acknowledge + that-clause.",
+      "distractorWhy": "To лишнее.",
+      "distractorRationales": {
+        "They acknowledge to that the sample was small.": "To лишнее.",
+        "They acknowledge that was the sample small.": "В that-clause нет инверсии."
+      },
+      "skillTarget": "academic-reporting-citation-language",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D4",
+      "group": "Входная диагностика",
+      "prompt": "Choose the reporting pattern for denying an action.",
+      "options": [
+        "The contractor denied to alter the records.",
+        "The contractor denied altering the records.",
+        "The contractor denied alter the records."
+      ],
+      "answer": "The contractor denied altering the records.",
+      "accepted": [
+        "The contractor denied altering the records."
+      ],
+      "why": "Deny + V-ing.",
+      "distractorWhy": "To-infinitive не целевой complement.",
+      "distractorRationales": {
+        "The contractor denied to alter the records.": "To-infinitive не целевой complement.",
+        "The contractor denied alter the records.": "Bare infinitive не нужен."
+      },
+      "skillTarget": "academic-reporting-citation-language",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G1",
+      "group": "Управляемая практика",
+      "prompt": "Choose the suggestion with a gerund.",
+      "options": [
+        "She suggested repeating the experiment.",
+        "She suggested to repeat the experiment.",
+        "She suggested repeat the experiment."
+      ],
+      "answer": "She suggested repeating the experiment.",
+      "accepted": [
+        "She suggested repeating the experiment."
+      ],
+      "why": "Suggest + V-ing.",
+      "distractorWhy": "To-infinitive не обычная модель.",
+      "distractorRationales": {
+        "She suggested to repeat the experiment.": "To-infinitive не обычная модель.",
+        "She suggested repeat the experiment.": "Bare infinitive без that не подходит."
+      },
+      "skillTarget": "academic-reporting-citation-language",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G2",
+      "group": "Управляемая практика",
+      "prompt": "Choose the suggestion with an explicit different subject.",
+      "options": [
+        "She suggested us to repeat the experiment.",
+        "She suggested that repeat we the experiment.",
+        "She suggested that we repeat the experiment."
+      ],
+      "answer": "She suggested that we repeat the experiment.",
+      "accepted": [
+        "She suggested that we repeat the experiment."
+      ],
+      "why": "Suggest + that + subject + verb.",
+      "distractorWhy": "Suggest person to V1 не обычная модель.",
+      "distractorRationales": {
+        "She suggested us to repeat the experiment.": "Suggest person to V1 не обычная модель.",
+        "She suggested that repeat we the experiment.": "Неверный порядок."
+      },
+      "skillTarget": "academic-reporting-citation-language",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G3",
+      "group": "Управляемая практика",
+      "prompt": "Choose the advice directed at a specified person.",
+      "options": [
+        "The tutor advised us revise the draft.",
+        "The tutor advised us to revise the draft.",
+        "The tutor advised to us revising the draft."
+      ],
+      "answer": "The tutor advised us to revise the draft.",
+      "accepted": [
+        "The tutor advised us to revise the draft."
+      ],
+      "why": "Advise + person + to V1.",
+      "distractorWhy": "Нет to.",
+      "distractorRationales": {
+        "The tutor advised us revise the draft.": "Нет to.",
+        "The tutor advised to us revising the draft.": "To us не объектная модель."
+      },
+      "skillTarget": "academic-reporting-citation-language",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G4",
+      "group": "Управляемая практика",
+      "prompt": "Choose the report of an offer made by the subject.",
+      "options": [
+        "The technician offered to help.",
+        "The technician offered helping (offer to act).",
+        "The technician offered to helped."
+      ],
+      "answer": "The technician offered to help.",
+      "accepted": [
+        "The technician offered to help."
+      ],
+      "why": "Offer + to V1.",
+      "distractorWhy": "Helping не целевая модель.",
+      "distractorRationales": {
+        "The technician offered helping (offer to act).": "Helping не целевая модель.",
+        "The technician offered to helped.": "Helped не V1."
+      },
+      "skillTarget": "academic-reporting-citation-language",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G5",
+      "group": "Управляемая практика",
+      "prompt": "Choose the grammatical use of tell with a recipient.",
+      "options": [
+        "The tutor told that the room was closed (no recipient).",
+        "The tutor told us that was the room closed.",
+        "The tutor told us that the room was closed."
+      ],
+      "answer": "The tutor told us that the room was closed.",
+      "accepted": [
+        "The tutor told us that the room was closed."
+      ],
+      "why": "Tell + recipient + that.",
+      "distractorWhy": "Нет получателя.",
+      "distractorRationales": {
+        "The tutor told that the room was closed (no recipient).": "Нет получателя.",
+        "The tutor told us that was the room closed.": "That-clause не вопрос."
+      },
+      "skillTarget": "academic-reporting-citation-language",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G6",
+      "group": "Управляемая практика",
+      "prompt": "Choose the correct use of say without a recipient.",
+      "options": [
+        "The report says us that the effect is temporary.",
+        "The report says that the effect is temporary.",
+        "The report says that is the effect temporary."
+      ],
+      "answer": "The report says that the effect is temporary.",
+      "accepted": [
+        "The report says that the effect is temporary."
+      ],
+      "why": "Say + that-clause.",
+      "distractorWhy": "Say us неверно.",
+      "distractorRationales": {
+        "The report says us that the effect is temporary.": "Say us неверно.",
+        "The report says that is the effect temporary.": "Нет инверсии в reported clause."
+      },
+      "skillTarget": "academic-reporting-citation-language",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I1",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the embedded question investigated by the study.",
+      "options": [
+        "The study examines whether is the effect reproducible.",
+        "The study examines whether the effect reproducible.",
+        "The study examines whether the effect is reproducible."
+      ],
+      "answer": "The study examines whether the effect is reproducible.",
+      "accepted": [
+        "The study examines whether the effect is reproducible."
+      ],
+      "why": "Whether + subject + verb.",
+      "distractorWhy": "Лишняя инверсия.",
+      "distractorRationales": {
+        "The study examines whether is the effect reproducible.": "Лишняя инверсия.",
+        "The study examines whether the effect reproducible.": "Пропущено is."
+      },
+      "skillTarget": "academic-reporting-citation-language",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I2",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the reported wh-clause with ordinary order.",
+      "options": [
+        "The article explains why did the procedure fail.",
+        "The article explains why the procedure failed.",
+        "The article explains why the procedure did failed."
+      ],
+      "answer": "The article explains why the procedure failed.",
+      "accepted": [
+        "The article explains why the procedure failed."
+      ],
+      "why": "Why + subject + V2.",
+      "distractorWhy": "Direct question order неверен.",
+      "distractorRationales": {
+        "The article explains why did the procedure fail.": "Direct question order неверен.",
+        "The article explains why the procedure did failed.": "Did + V2 неверно."
+      },
+      "skillTarget": "academic-reporting-citation-language",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I3",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the present subjunctive specifically (not indicative).",
+      "options": [
+        "They recommend that she attend the seminar.",
+        "They recommend that she attends the seminar (indicative).",
+        "They recommend that she attending the seminar."
+      ],
+      "answer": "They recommend that she attend the seminar.",
+      "accepted": [
+        "They recommend that she attend the seminar."
+      ],
+      "why": "Mandative bare form attend.",
+      "distractorWhy": "Attends indicative, не заданная форма.",
+      "distractorRationales": {
+        "They recommend that she attends the seminar (indicative).": "Attends indicative, не заданная форма.",
+        "They recommend that she attending the seminar.": "Attending не finite subjunctive."
+      },
+      "skillTarget": "academic-reporting-citation-language",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I4",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the mandative passive subjunctive.",
+      "options": [
+        "The committee requires that the file be encrypt.",
+        "The committee requires that the file being encrypted.",
+        "The committee requires that the file be encrypted."
+      ],
+      "answer": "The committee requires that the file be encrypted.",
+      "accepted": [
+        "The committee requires that the file be encrypted."
+      ],
+      "why": "Be + V3.",
+      "distractorWhy": "Encrypt не V3.",
+      "distractorRationales": {
+        "The committee requires that the file be encrypt.": "Encrypt не V3.",
+        "The committee requires that the file being encrypted.": "Being не mandative finite form."
+      },
+      "skillTarget": "academic-reporting-citation-language",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I5",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the negative mandative subjunctive.",
+      "options": [
+        "They insisted that he not discloses the details.",
+        "They insisted that he not disclose the details.",
+        "They insisted that he not to disclose the details."
+      ],
+      "answer": "They insisted that he not disclose the details.",
+      "accepted": [
+        "They insisted that he not disclose the details."
+      ],
+      "why": "Not + bare V1.",
+      "distractorWhy": "Discloses не subjunctive.",
+      "distractorRationales": {
+        "They insisted that he not discloses the details.": "Discloses не subjunctive.",
+        "They insisted that he not to disclose the details.": "To не требуется."
+      },
+      "skillTarget": "academic-reporting-citation-language",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I6",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the British-English mandative should construction.",
+      "options": [
+        "They proposed that the meeting should be postponed.",
+        "They proposed that the meeting should been postponed.",
+        "They proposed that the meeting should to be postponed."
+      ],
+      "answer": "They proposed that the meeting should be postponed.",
+      "accepted": [
+        "They proposed that the meeting should be postponed."
+      ],
+      "why": "Should + be + V3.",
+      "distractorWhy": "Been не V1.",
+      "distractorRationales": {
+        "They proposed that the meeting should been postponed.": "Been не V1.",
+        "They proposed that the meeting should to be postponed.": "После should нет to."
+      },
+      "skillTarget": "academic-reporting-citation-language",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I7",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the report of an author's explicitly tentative interpretation.",
+      "options": [
+        "The author proves that the effect is temporary.",
+        "The author establishes that the effect is permanent.",
+        "The author suggests that the effect may be temporary."
+      ],
+      "answer": "The author suggests that the effect may be temporary.",
+      "accepted": [
+        "The author suggests that the effect may be temporary."
+      ],
+      "why": "Сохранена неопределённость и содержание.",
+      "distractorWhy": "Proves слишком сильное утверждение.",
+      "distractorRationales": {
+        "The author proves that the effect is temporary.": "Proves слишком сильное утверждение.",
+        "The author establishes that the effect is permanent.": "Меняет содержание и уверенность."
+      },
+      "skillTarget": "academic-reporting-citation-language",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I8",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the verb for explicitly accepting a limitation.",
+      "options": [
+        "The authors eliminate the small sample size.",
+        "The authors acknowledge the small sample size.",
+        "The authors disprove the small sample size."
+      ],
+      "answer": "The authors acknowledge the small sample size.",
+      "accepted": [
+        "The authors acknowledge the small sample size."
+      ],
+      "why": "Acknowledge — признать ограничение.",
+      "distractorWhy": "Eliminate — устранить.",
+      "distractorRationales": {
+        "The authors eliminate the small sample size.": "Eliminate — устранить.",
+        "The authors disprove the small sample size.": "Disprove — опровергнуть, не признать."
+      },
+      "skillTarget": "academic-reporting-citation-language",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I9",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the sentence reporting disagreement with a conclusion.",
+      "options": [
+        "The review challenges the earlier conclusion.",
+        "The review endorses the earlier conclusion.",
+        "The review repeats the earlier conclusion without comment."
+      ],
+      "answer": "The review challenges the earlier conclusion.",
+      "accepted": [
+        "The review challenges the earlier conclusion."
+      ],
+      "why": "Challenge — оспаривать.",
+      "distractorWhy": "Endorse — поддерживать.",
+      "distractorRationales": {
+        "The review endorses the earlier conclusion.": "Endorse — поддерживать.",
+        "The review repeats the earlier conclusion without comment.": "Repeat не выражает несогласие."
+      },
+      "skillTarget": "academic-reporting-citation-language",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E1",
+      "group": "Выходная проверка",
+      "prompt": "Choose the reporting noun that identifies a recommendation rather than a completed action.",
+      "options": [
+        "the recommendation that the test be repeated",
+        "the completed repetition of the test",
+        "the proven success of the repeated test"
+      ],
+      "answer": "the recommendation that the test be repeated",
+      "accepted": [
+        "the recommendation that the test be repeated"
+      ],
+      "why": "Recommendation сообщает предложение.",
+      "distractorWhy": "Completed asserts action.",
+      "distractorRationales": {
+        "the completed repetition of the test": "Completed asserts action.",
+        "the proven success of the repeated test": "Success asserts outcome."
+      },
+      "skillTarget": "academic-reporting-citation-language",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E2",
+      "group": "Выходная проверка",
+      "prompt": "Choose the reporting clause preserving present relevance when the speaker still holds the view.",
+      "options": [
+        "She says that the method be useful (ordinary opinion).",
+        "She says that useful the method is.",
+        "She says that the method is useful."
+      ],
+      "answer": "She says that the method is useful.",
+      "accepted": [
+        "She says that the method is useful."
+      ],
+      "why": "Current reporting + ordinary present clause.",
+      "distractorWhy": "Subjunctive не обычное мнение.",
+      "distractorRationales": {
+        "She says that the method be useful (ordinary opinion).": "Subjunctive не обычное мнение.",
+        "She says that useful the method is.": "Неверный порядок."
+      },
+      "skillTarget": "academic-reporting-citation-language",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E3",
+      "group": "Выходная проверка",
+      "prompt": "Choose the sentence describing a past research procedure, not a current recommendation.",
+      "options": [
+        "The researchers recommend measuring the samples.",
+        "The researchers measured the samples in 2021.",
+        "The researchers suggest that the samples be measured."
+      ],
+      "answer": "The researchers measured the samples in 2021.",
+      "accepted": [
+        "The researchers measured the samples in 2021."
+      ],
+      "why": "Past action dated 2021.",
+      "distractorWhy": "Recommendation, not past procedure.",
+      "distractorRationales": {
+        "The researchers recommend measuring the samples.": "Recommendation, not past procedure.",
+        "The researchers suggest that the samples be measured.": "Proposal, not completed procedure."
+      },
+      "skillTarget": "academic-reporting-citation-language",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E4",
+      "group": "Выходная проверка",
+      "prompt": "Choose the appropriate way to report an unspecified prior claim while retaining distance.",
+      "options": [
+        "It has been argued that the effect is temporary.",
+        "It has argued that the effect is temporary (unspecified human authors).",
+        "It has been argued the effect to be temporary (target impersonal that-clause)."
+      ],
+      "answer": "It has been argued that the effect is temporary.",
+      "accepted": [
+        "It has been argued that the effect is temporary."
+      ],
+      "why": "It + passive + that.",
+      "distractorWhy": "It не неопределённый человек.",
+      "distractorRationales": {
+        "It has argued that the effect is temporary (unspecified human authors).": "It не неопределённый человек.",
+        "It has been argued the effect to be temporary (target impersonal that-clause).": "Смешаны complement patterns."
+      },
+      "skillTarget": "academic-reporting-citation-language",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E5",
+      "group": "Выходная проверка",
+      "prompt": "Choose the accurate citation principle.",
+      "options": [
+        "Invent a source if a sentence sounds academic.",
+        "Replace every cautious verb with prove.",
+        "Report the source's actual claim and preserve its uncertainty; identify the real source when required."
+      ],
+      "answer": "Report the source's actual claim and preserve its uncertainty; identify the real source when required.",
+      "accepted": [
+        "Report the source's actual claim and preserve its uncertainty; identify the real source when required."
+      ],
+      "why": "Точность и attribution обязательны.",
+      "distractorWhy": "Нельзя выдумывать источник.",
+      "distractorRationales": {
+        "Invent a source if a sentence sounds academic.": "Нельзя выдумывать источник.",
+        "Replace every cautious verb with prove.": "Искажается степень уверенности."
+      },
+      "skillTarget": "academic-reporting-citation-language",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "W1",
+      "group": "Самостоятельное применение",
+      "prompt": "Напиши 8–10 предложений на основе вымышленного обсуждения исследования. Передай вывод, предположение, признание ограничения, несогласие, причинную атрибуцию, рекомендацию и требование. Используй минимум шесть разных reporting verbs, embedded question и mandative subjunctive. Отдели чужие позиции от собственной.",
+      "open": true,
+      "rubric": [
+        "Reporting verbs точно передают функцию источника.",
+        "Complement patterns правильны.",
+        "Неопределённость и отрицание сохранены.",
+        "Reported clause имеет правильный порядок и tense perspective.",
+        "Mandative structure корректна.",
+        "Источники и собственные выводы не смешиваются."
+      ],
+      "skillTarget": "Самостоятельное применение C1-08",
+      "interactionType": "open-production",
+      "difficulty": "transfer",
+      "sourceBasis": "Speakbase-authored open production; self-review rubric only until real AI feedback is connected",
+      "contentVersion": "1.1-draft"
+    }
+  ],
+  "markdown": "# Speakbase — C1-08: Advanced reporting and academic citation language\n\n**Curriculum ID:** `C1-08`  \n**Уровень:** C1  \n**Версия:** 1.1-draft\n**Статус:** drafted; selected source text checked; full source-page and learner acceptance pending\n**Предварительные темы:** B2-05, B2-18  \n**Связь со старым каталогом:** Частично — №31 Reported Speech\n\n## 1. Результаты обучения\n\n- Передавать чужую позицию, различать reporting verbs, tense shifts и stance\n- Выбирать целевую форму по значению, структуре предложения и контексту.\n- Объяснять, почему близкая грамматическая форма меняет смысл или регистр.\n- Находить и исправлять типичные ошибки русскоязычных студентов.\n\n## 2. Источники и статус сверки\n\n| Source | PDF navigation | Lesson-specific checks | Status |\n|---|---|---|---|\n| GR-03 U32 | PDF pages 88-89 (printed pp. 64-65, Unit 32) | Reporting people?s words and thoughts; quotation and reporting clauses; visually checked | visually checked; unit-text checked |\n| GR-03 U33 | PDF pages 90-91 (printed pp. 66-67, Unit 33) | Reporting statements with that-clauses and verb complementation; visually checked | visually checked; unit-text checked |\n| GR-03 U34 | PDF pages 92-93 (printed pp. 68-69, Unit 34) | Verb + wh-clause and whether-clauses; visually checked | visually checked; unit-text checked |\n| GR-03 U35 | PDF pages 94-95 (printed pp. 70-71, Unit 35) | Tense choice in reporting clauses and reported clauses; visually checked | visually checked; unit-text checked |\n| GR-03 U36 | PDF pages 96-97 (printed pp. 72-73, Unit 36) | Reporting offers, suggestions, orders, intentions and verb patterns; visually checked | visually checked; unit-text checked |\n| GR-03 U37 | PDF pages 98-99 (printed pp. 74-75, Unit 37) | Modal verbs in reported speech and changes in reported modality; visually checked | visually checked; unit-text checked |\n| GR-03 U38 | PDF pages 100-101 (printed pp. 76-77, Unit 38) | Reporting what people say using nouns and adjectives; visually checked | visually checked; unit-text checked |\n| GR-03 U39 | PDF pages 102-103 (printed pp. 78-79, Unit 39) | Should in that-clauses and the present subjunctive; visually checked | visually checked; unit-text checked |\n| GR-03 U102 | PDF pages 228-229 (printed pp. 204-205, Unit 102) | Impersonal reporting and distancing from a point of view; visually checked | visually checked; unit-text checked |\n| GR-03 U104 | PDF pages 232-233 (printed pp. 208-209, Unit 104) | Referring to other work/sections with passive and participle reporting patterns; visually checked | visually checked; unit-text checked |\n| GR-05 C1 p35 | PDF pages 35 (C1 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n\nUnit/page locations are navigation aids only. They do not prove that the cited explanation, examples, restrictions and answer key have been checked for this lesson. Examples and explanations below are Speakbase-authored, not quotations from the textbook.\n\nПеред переводом этого урока в source-verified необходимо открыть целевые страницы конкретного издания, записать печатную и PDF-пагинацию, сверить ограничения и исключения. Для GR-03 со сканированными страницами обязательна визуальная проверка.\n\n**Evidence for this editorial pass:** GR-03 Units 36, 39, 102, rendered theory pages visually reopened PDF pp. 96, 102, 228 (printed pp. 72, 78, 204). Earlier journal covers Units 32–39, 104. Reporting-verb semantic distinctions and citation examples are author-supplemented; GR-05 and learner checks pending. The selected source text was consulted; not all pages, exercises, editions, scanned GR-03 pages or GR-05 descriptors were checked. Author-created explanations and practice are not copied source exercises.\n\n## 3. Место темы и границы\n\nAcademic reporting/citation language: reporting verbs, tense shifts, stance и точное представление позиции источника.\n\nСтарый каталог содержит: №31 Reported Speech. Его статус — Частично. Старые отметки завершения не переносятся автоматически на новый постоянный ID. Тема рассматривается в уровне C1 и не заменяет обязательные prerequisites.\n\n## 4. Полный конспект\n\n### 4.1. Основная идея и функция конструкции\n\nAcademic reporting language передаёт чужие результаты, утверждения и позиции, отделяя их от вывода автора текста. Глагол reporting показывает, что делает источник: reports — сообщает, argues — аргументирует, suggests — осторожно предполагает, acknowledges — признаёт, challenges — ставит под сомнение. Выбор зависит от того, что источник действительно сказал и какие основания представил.\n\nНе превращай reporting verb в автоматическую шкалу достоверности: demonstrate выражает, что автор или текст представляет результат как убедительное доказательство, но читатель всё равно оценивает метод. Claim может сигнализировать дистанцию, но не всегда обвиняет в ошибке. Show и indicate могут иметь разную силу по контексту. В учебных примерах источники вымышлены; при реальной работе нельзя придумывать авторов, даты или результаты.\n\n### 4.2. Формирование и грамматические модели\n\n| Функция | Модель |\n|---|---|\n| утверждение | argue/claim/maintain + that-clause |\n| результат | report/find/show + that-clause или noun phrase |\n| признание | acknowledge/admit + that-clause или V-ing |\n| отрицание | deny + that-clause или V-ing |\n| причина | attribute X to Y |\n| предостережение | caution someone against + V-ing |\n| совет | recommend/suggest + V-ing или that-clause |\n| просьба/указание | urge/ask/instruct + object + to V1 |\n| предложение помочь | offer + to V1 |\n| требование | require/insist + that + subjunctive/should |\n\nРазличай say something и tell someone something: The author says that… / The tutor told us that… . Recommend/suggest doing или recommend/suggest that someone (should) do. Suggest someone to do не обычная модель. После advise допустимы advise someone to do и advise doing/that-clause. Reported questions сохраняют subject–verb order: The study investigates whether the change is significant. Не переноси direct-question inversion внутрь clause. Attribute the decline to X — приписать снижение причине X; X accounts for the decline — X объясняет снижение.\n\n### 4.3. Как выбрать подходящую форму\n\nСначала определи функцию исходника: наблюдение, интерпретация, аргумент, признание ограничения, несогласие, рекомендация. Затем выбери complement, сохрани модальность, отрицание и участников. The results may reflect X → The authors suggest that the results may reflect X, не The authors prove X. Если приводишь утверждение, не выдавай его за собственный результат. В реальном тексте указывай настоящий источник по требуемому стилю цитирования.\n\nBackshift зависит от reporting context: He said that he was tired отражает прошлую точку зрения; He says that the method is reliable — текущий источник. После past reporting verb present возможен, если содержание остаётся актуальным; не меняй время автоматически. В цитировании исследования present often describes what a published paper states; past часто описывает сделанное исследователями или полученные в прошлом результаты. Важнее сохранить временную перспективу, а не считать одну форму всегда обязательной.\n\n### 4.4. Сравнение с близкими конструкциями\n\n| Содержание источника | Точная передача |\n|---|---|\n| данные совпадают с гипотезой, но не исключают другие | The authors suggest that the hypothesis may be correct. |\n| автор признаёт слабость выборки | The author acknowledges that the sample is small. |\n| автор отвергает вывод | The author challenges the conclusion. |\n| автор предлагает пересмотр | The author recommends revising the procedure. |\n| автор указывает предполагаемую причину | The author attributes the delay to a technical fault. |\n\n### 4.5. Примеры с переводом и объяснением\n\n| English | Перевод | Почему это подходит |\n| --- | --- | --- |\n| The authors attribute the decline to a change in sampling. | Авторы связывают снижение с изменением выборки. | Attribute X to Y. |\n| The review cautions readers against treating association as causation. | Обзор предостерегает от смешения связи с причинностью. | Caution against + -ing. |\n| The committee recommended that the file be checked. | Комиссия рекомендовала проверить файл. | Mandative passive subjunctive. |\n| The researchers acknowledge that their sample was small. | Исследователи признают, что выборка была небольшой. | Acknowledgement of limitation. |\n| The study examines whether the result can be replicated. | Исследование рассматривает, можно ли воспроизвести результат. | Embedded whether-clause. |\n| The report suggests that the effect may be temporary. | Отчёт предполагает, что эффект может быть временным. | Сохранена неопределённость. |\n\n### 4.6. Исключения, ограничения и границы употребления\n\nMandative subjunctive: They recommended that the procedure be revised; They insisted that the team not release the file. Should + V1 допустимо, особенно в BrE. Обычная indicative form также встречается, особенно в менее формальном BrE, но задания на subjunctive явно требуют именно его. Insist that he is right выражает утверждение, insist that he be present — требование. Не интерпретируй каждое insist that как обязательное действие.\n\nReporting nouns: the claim that…, the finding that…, the recommendation that…, the evidence for… . Distinguish fact that от claim that: noun тоже выражает stance. Impersonal it has been argued that может дистанцировать автора, но скрывать источник; назови реальную работу, если знаешь её. For direct quotation reproduce exact words with attribution; paraphrase should preserve meaning and not substitute invented information. В TOEFL не вставляй фиктивные научные ссылки. Различай quotation и reported paraphrase; grammar и bibliography — отдельные задачи.\n\n### 4.7. Типичные ошибки русскоязычных студентов\n\n| Ошибка | Исправление | Объяснение |\n| --- | --- | --- |\n| The authors attribute the decline with a fault. | The authors attribute the decline to a fault. | Attribute X to Y. |\n| They suggested us to repeat the test. | They suggested that we repeat the test. | Suggest + that или -ing. |\n| The report examines whether can the result be repeated. | The report examines whether the result can be repeated. | Embedded word order. |\n| They recommended that the file be checking (passive demand). | They recommended that the file be checked. | Be + V3. |\n| He told that the deadline had changed. | He said that the deadline had changed. / He told us that the deadline had changed. | Tell требует получателя в этой модели. |\n\n### 4.8. Произношение и восприятие на слух\n\nСмысловое ударение на reporting verb помогает различать merely suggests и strongly argues, но контекст важнее интонации. При устном пересказе явно отделяй source from your opinion: The speaker argues…; I would add… . Аудиосверка открыта.\n\nСначала прослушай или прочитай пример, затем произнеси его целиком. Обрати внимание на смысловое ударение и форму конструкции; не ориентируйся только на буквенный перевод.\n\n### 4.9. Академический английский и TOEFL-перенос\n\nВ Academic Discussion точно передавай позицию других участников и объясняй собственную. Не усиливай предположения до фактов. В Reading различай author's stance и reported stance; в Writing Email используй recommend/ask/offer по цели. Это авторская практика, не официальный TOEFL.\n\nЭто авторская практика переноса навыка. Она не является официальным заданием TOEFL и не выдаётся за официальный результат экзамена.\n\n### 4.10. Примеры для управляемого разбора\n\n- The authors attribute the decline to a change in sampling. — Авторы связывают снижение с изменением выборки. Attribute X to Y.\n- The review cautions readers against treating association as causation. — Обзор предостерегает от смешения связи с причинностью. Caution against + -ing.\n- The committee recommended that the file be checked. — Комиссия рекомендовала проверить файл. Mandative passive subjunctive.\n\nДля каждого примера назови целевую конструкцию, объясни выбор и составь новое предложение в другом контексте. Затем перейди к заданиям: сначала диагностика, затем управляемая и самостоятельная практика, затем новые вопросы выходной проверки.\n\n### 4.11. Самопроверка\n\nПеред отправкой ответа проверь:\n1. Reporting verbs точно передают функцию источника.\n2. Complement patterns правильны.\n3. Неопределённость и отрицание сохранены.\n4. Reported clause имеет правильный порядок и tense perspective.\n5. Mandative structure корректна.\n6. Источники и собственные выводы не смешиваются.\n\n### 4.12. Краткая памятка\n\nReporting verb задаёт функцию и complement. Сохраняй смысл, модальность, время и источник. Attribute X to Y, caution against -ing, suggest/recommend -ing или that, urge someone to V1. Mandative subjunctive = bare form, negative not + V1, passive be + V3. Embedded questions без инверсии.\n\nНе выбирай форму только по одному знакомому слову: проверь контекст, значение и структуру. При ошибке вернись к соответствующей части конспекта и составь собственный пример.\n\n## 5. Практика\n\nВ приложении практика разделена на входную диагностику, управляемые задания, самостоятельную практику и новую выходную проверку. Закрытые ответы получают rationale и разбор ошибки. Свободный текст сохраняется и оценивается по рубрике; до подключения и реальной проверки AI-движка система не выдаёт его за автоматическую AI-оценку.\n\n## 6. Интервальное повторение\n\nПовторяй не весь урок автоматически, а конкретную ошибку: выбор формы, согласование, word order, значение, регистр или пунктуацию. Новая попытка должна менять лексический контекст и формулировку, чтобы проверять перенос, а не запоминание одной строки.\n\n## 7. Технический статус\n\n- Постоянный ID: `C1-08`.\n- Прогресс хранится отдельно в course.grammarLessons[\"C1-08\"].\n- Содержание и ключи имеют статус draft; 24 авторских закрытых задания и объяснения вычитаны, выбранные тексты источников проверены. Полная постраничная и пользовательская приёмка остаются открытыми.\n- Предварительное выполнение порогов не равно окончательному mastered: нужны отсроченное повторение и learner review.",
+  "theoryEnd": "## 5."
+}
