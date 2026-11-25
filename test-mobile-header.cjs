@@ -17,6 +17,7 @@ const http=require('node:http'),fs=require('node:fs/promises'),path=require('nod
    await page.route('**/cloud.js*',route=>route.fulfill({contentType:'text/javascript',body:"document.querySelectorAll('[inert]').forEach(e=>e.inert=false)"}));
    await page.addInitScript(p=>localStorage.setItem('sb.active',p),profile);
    await page.goto('http://127.0.0.1:'+server.address().port);
+   assert.deepEqual(await page.locator('#nav .navlabel').allTextContents(),['Старт','Изучение','TOEFL Studio','Аналитика'],'navigation keeps learning and TOEFL areas distinct '+profile+' '+width);
    const geometry=()=>page.evaluate(()=>{
     const rect=s=>{const r=document.querySelector(s).getBoundingClientRect();return {x:r.x,y:r.y,width:r.width,height:r.height,right:r.right,bottom:r.bottom}};
     return {viewport:innerWidth,document:document.documentElement.scrollWidth,aside:rect('aside'),brand:rect('.brand'),nav:rect('#nav'),header:rect('header'),breadcrumb:rect('header>span'),profile:rect('#profileSelect'),theme:rect('#themeToggle'),navWidth:document.querySelector('#nav').scrollWidth};
@@ -32,17 +33,18 @@ const http=require('node:http'),fs=require('node:fs/promises'),path=require('nod
    await menu.click();
    assert.equal(await menu.getAttribute('aria-expanded'),'true','hamburger opens navigation '+profile+' '+width);
    assert.ok(await page.locator('#nav').isVisible(),'navigation drawer is visible '+profile+' '+width);
-   await page.locator('#nav button').nth(8).click();
+   await page.locator('#nav').getByRole('button',{name:'Изучение',exact:true}).click();
    assert.equal(await menu.getAttribute('aria-expanded'),'false','navigation closes after selecting a section '+profile+' '+width);
    assert.equal(await page.locator('#nav button[aria-current="page"]').count(),1,'one active navigation item '+profile+' '+width);
    assert.equal(await page.locator('#nav button').count(),10,'dictionary is available in both profiles '+profile+' '+width);
    await menu.click();
-   await page.locator('#nav button').nth(9).click();
+   await page.locator('#nav').getByRole('button',{name:'Мой словарь',exact:true}).click();
    if(profile==='marina'){
-    assert.equal(await page.locator('.vocab-summary b').nth(0).textContent(),'42','Marina vocabulary category entries '+width);
-    assert.equal(await page.locator('.vocab-summary b').nth(1).textContent(),'41','Marina unique vocabulary expressions '+width);
+    assert.equal(await page.locator('.vocab-summary b').nth(0).textContent(),'1840','Marina vocabulary category entries '+width);
+    assert.equal(await page.locator('.vocab-summary b').nth(1).textContent(),'1814','Marina unique vocabulary expressions '+width);
    }else{
-    assert.equal(await page.locator('.vocab-summary b').nth(0).textContent(),'0','Vladlen starts with an empty personal vocabulary '+width);
+    assert.equal(await page.locator('.vocab-summary b').nth(0).textContent(),'1840','Vladlen has access to the shared TOEFL vocabulary bank '+width);
+    assert.equal(await page.locator('.vocab-summary b').nth(1).textContent(),'1814','Vladlen sees the complete unique expression count '+width);
    }
    await page.getByRole('button',{name:'+ Добавить слово'}).click();
    await page.locator('#newVocabEn').fill('test expression '+profile);
@@ -50,6 +52,20 @@ const http=require('node:http'),fs=require('node:fs/promises'),path=require('nod
    await page.locator('#newVocabExample').fill('This is a test expression.');
    await page.getByRole('button',{name:'Сохранить в мой словарь'}).click();
    assert.equal(await page.locator('.vocab-word h3').filter({hasText:'test expression '+profile}).count(),1,'new word is saved to the active profile '+profile+' '+width);
+   await page.evaluate(profile=>{
+    const word=db.vocabulary.find(w=>w.en==='test expression '+profile);
+    word.status='learned';word.interval=30;word.nextReview=today;
+    persist();render();
+   },profile);
+   await page.locator('#vocabSearch').fill('test expression '+profile);
+   await page.locator('.vocab-filters button').nth(1).click();
+   assert.equal(await page.locator('#vocabList .vocab-word').count(),1,'mastered scheduled word is due');
+   assert.equal(await page.locator('#vocabList .vocab-next').count(),1,'mastered card displays next review');
+   await page.locator('#vocabList button[onclick$=",true)"]').click();
+   assert.equal(await page.locator('#vocabSearch').inputValue(),'test expression '+profile,'review preserves search');
+   assert.equal(await page.locator('.vocab-filters button.selected').count(),1,'review preserves active filter');
+   assert.equal(await page.locator('#vocabList .vocab-word').count(),0,'future mastered review disappears from due list');
+   assert.equal(await page.evaluate(profile=>db.vocabulary.find(w=>w.en==='test expression '+profile).interval,profile),60,'mastered word advances to 60 days');
    await page.locator('#themeToggle').click();
    assert.equal(await page.locator('html').getAttribute('data-theme'),'light','light theme toggle '+profile+' '+width);
    g=await geometry();

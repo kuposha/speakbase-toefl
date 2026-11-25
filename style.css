@@ -474,3 +474,5 @@ button:disabled{cursor:not-allowed}
 .ai-transcript summary{cursor:pointer;color:var(--muted);font-size:.85rem}
 .ai-transcript p{white-space:pre-wrap;overflow-wrap:anywhere}
 @media(max-width:600px){.ai-review-grid{grid-template-columns:1fr}.ai-settings-actions>*{flex:1}}
+
+.vocab-more{display:block;width:min(100%,320px);margin:16px auto 4px}

@@ -1,0 +1,6 @@
+services:
+  preview-tunnel:
+    image: cloudflare/cloudflared:latest
+    container_name: speakbase-preview-tunnel
+    restart: unless-stopped
+    command: tunnel --no-autoupdate --url http://host.docker.internal:4173
