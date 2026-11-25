@@ -43,3 +43,7 @@ A2-07 through A2-09 editorial pass: core modals, comparatives and superlatives. 
 ## A2 fourth package
 
 A2-10 through A2-12 editorial pass: determiners and quantifiers, adverbs, basic gerund and infinitive patterns. 72 original closed tasks and 3 open rubrics, matching runtime and Markdown. GR-02 selected theory text Units 85–91, 99–104, 109–111, 53–59 consulted. Additional source/exercise-page/visual and learner acceptance pending; PARTIAL. A2 total: 12/18. Next A2-13–15, confirm curriculum titles. Preserve unrelated changes; daily route and TOEFL linking still pending.
+
+## A2 fifth package
+
+A2-13 through A2-15 editorial pass: question forms and introductory embedded questions, defining relative clauses, Zero and First Conditional. 72 original closed tasks with separate option explanations and 3 open rubrics, matching Markdown and runtime. GR-02 selected theory text Units 49–50, 92–94, 25 and 38 directly consulted (PDF pp. 110, 112, 196, 198, 200, 62, 88); Zero Conditional general-truth/habitual explanation is author-supplemented, additional source alignment pending. Exercise-page, visual and learner acceptance pending; PARTIAL. A2 total: 15/18. Next A2-16–18. Preserve unrelated work; daily route and TOEFL linking remain pending.

@@ -1,0 +1,744 @@
+{
+  "id": "A2-15",
+  "level": "A2",
+  "sequence": "A2-15",
+  "grammarFamily": "A2-15",
+  "questionBankSource": "topic-specific-authored",
+  "sourceVerification": "draft; selected source text consulted; complete source-page and learner review pending",
+  "topicProfile": {
+    "label": "Zero and First Conditional",
+    "skillTarget": "zero-first-conditionals",
+    "core": "Conditional sentence связывает условие и результат: если выполняется X, происходит или может произойти Y. Zero Conditional обычно описывает общую закономерность, правило или повторяющуюся ситуацию. First Conditional описывает открытое условие в настоящем или будущем и возможный будущий результат. В обеих конструкциях обычная if-часть часто стоит в Present Simple, но значение главной части различается.",
+    "form": "| Тип | If-часть | Главная часть | Пример |\n|---|---|---|---|\n| Zero | Present Simple | Present Simple | If I exercise, I feel better. |\n| First | Present Simple | will + V1 | If I exercise tomorrow, I'll feel better. |\n| First, возможность | Present Simple | may/might/can + V1 | If it rains, we might stay home. |\n| First, инструкция | Present Simple | imperative | If you need help, call me. |\n| Отрицательное условие | if + don't/doesn't + V1 | will/won't + V1 | If she doesn't call, I'll text her. |\n| Вопрос о результате | if + Present Simple | Will + subject + V1? | Will you come if I invite you? |",
+    "selection": "Сначала реши, описывается ли повторяющееся правило или одна возможная будущая ситуация. Для общей закономерности выбирай if + present, present. Для будущего условия — if + present, will/modal/imperative. Проверь, что речь не о воображаемой ситуации, которую говорящий считает маловероятной или нереальной: для неё часто используется Second Conditional (B1).",
+    "contrast": "| Ситуация | Пример | Смысл |\n|---|---|---|\n| Повторяющаяся привычка | If I skip breakfast, I feel hungry. | Обычно так происходит. |\n| Общее правило | If the password is wrong, access is denied. | Правило системы. |\n| Одна будущая возможность | If I skip breakfast tomorrow, I'll feel hungry. | Возможное завтра. |\n| Неуверенный исход | If the bus is late, we might miss the lecture. | Результат возможен. |\n| Инструкция | If you find my pen, tell me. | Что делать при условии. |\n| Гипотеза (B1) | If I lived closer, I would walk. | Воображаемое условие. |",
+    "boundary": "Формулы Zero и First — удобные базовые модели, а не полный перечень всех условных конструкций. В обычном условном if не нужен will, но will может появляться в особых значениях готовности: If you'll wait a moment… — не базовая модель. В выражении I don't know if she will come if означает «ли» и вводит встроенный вопрос; это не условие. Не исправляй его на present автоматически. В главной части First Conditional вместо will могут стоять модальные глаголы и повелительная форма.",
+    "pronunciation": "Если условие стоит первым, небольшая пауза после него помогает отделить результат: If it RAINS, we'll STAY inside. Сокращения I'll, we'll, won't обычны в речи. Ударение может выделять именно условие или результат в зависимости от смысла. Не считай русское будущее после «если» основанием для will в английском. Аудиопроверка ещё не завершена.",
+    "examples": [
+      [
+        "If I go to bed late, I feel tired in the morning.",
+        "Если я поздно ложусь, утром чувствую усталость.",
+        "Повторяющаяся ситуация."
+      ],
+      [
+        "If you press this button, the screen lights up.",
+        "Если нажать эту кнопку, экран загорается.",
+        "Общее правило работы устройства."
+      ],
+      [
+        "If I finish early tomorrow, I'll call you.",
+        "Если завтра закончу рано, позвоню тебе.",
+        "Открытое будущее условие."
+      ],
+      [
+        "If she doesn't have her ID, she won't be able to enter.",
+        "Если у неё не будет удостоверения, она не сможет войти.",
+        "Отрицательное условие и будущий результат."
+      ],
+      [
+        "If it snows tonight, we might work from home.",
+        "Если сегодня ночью пойдёт снег, возможно, будем работать из дома.",
+        "Неуверенный результат."
+      ],
+      [
+        "If you have a question, raise your hand.",
+        "Если у тебя есть вопрос, подними руку.",
+        "Инструкция."
+      ]
+    ],
+    "traps": [
+      [
+        "If it will rain tomorrow, we'll stay home.",
+        "If it rains tomorrow, we'll stay home.",
+        "В обычном будущем if-clause нужен present."
+      ],
+      [
+        "If she study, she will improve.",
+        "If she studies, she will improve.",
+        "She требует -s в Present Simple."
+      ],
+      [
+        "If you don't hurry, you will to miss the bus.",
+        "If you don't hurry, you will miss the bus.",
+        "После will нужна V1 без to."
+      ],
+      [
+        "If he doesn't comes, I'll call him.",
+        "If he doesn't come, I'll call him.",
+        "Doesn't + V1."
+      ],
+      [
+        "If, the room is free we will use it.",
+        "If the room is free, we will use it.",
+        "Запятая после целой начальной if-clause."
+      ]
+    ],
+    "toefl": "В Reading различай общую закономерность и прогноз для конкретных условий. В Listening понимай инструкции и планы на случай изменения расписания. В Speaking объясняй решение: If the library is closed tomorrow, I'll study at home. В Writing обосновывай предполагаемый результат, не представляя его как доказанный факт. Это авторская тренировка грамматики, не официальный материал ETS."
+  },
+  "title": "Zero and First Conditional",
+  "description": "Говорить об общих закономерностях и реальных будущих условиях; использовать if + present и подходящую главную часть",
+  "cardDescription": "Теория, guided practice, самостоятельные задания и выходная проверка по постоянному ID A2-15.",
+  "eyebrow": "Полный урок программы A2-15 · drafted",
+  "contentVersion": "1.1-draft",
+  "curriculumVersion": "1.0",
+  "prerequisites": [
+    "A2-01",
+    "A2-04"
+  ],
+  "outcomes": [
+    "Говорить об общих закономерностях и реальных будущих условиях; использовать if + present и подходящую главную часть",
+    "Выбирать целевую конструкцию по контексту и смыслу.",
+    "Исправлять типичные ошибки и переносить правило в новый пример."
+  ],
+  "sourceRefs": [
+    "GR-01 U99-100",
+    "GR-02 U38",
+    "GR-03 U83-87",
+    "GR-05 A2 p15-17",
+    "GR-05 A2 p22"
+  ],
+  "sourceStatus": "selected source text consulted; full page verification pending",
+  "status": "drafted",
+  "legacyCoverage": "Полное ядро",
+  "toeflLinks": [
+    "Writing: Build a Sentence",
+    "Speaking: Listen and Repeat / Take an Interview",
+    "Writing: Write an Email"
+  ],
+  "thresholds": {
+    "independent": 7,
+    "exit": 4,
+    "criticalIds": [
+      "E1",
+      "E2",
+      "E3"
+    ]
+  },
+  "groups": {
+    "independent": "Самостоятельная практика",
+    "exit": "Выходная проверка"
+  },
+  "items": [
+    {
+      "id": "D1",
+      "group": "Входная диагностика",
+      "prompt": "Choose a Zero Conditional describing a regular personal habit.",
+      "options": [
+        "If I skip lunch tomorrow, I'll feel hungry in the afternoon.",
+        "If I skip lunch, I feel hungry in the afternoon.",
+        "If I skipped lunch tomorrow, I would feel hungry."
+      ],
+      "answer": "If I skip lunch, I feel hungry in the afternoon.",
+      "accepted": [
+        "If I skip lunch, I feel hungry in the afternoon."
+      ],
+      "why": "Present + present describes a regular relation.",
+      "distractorWhy": "Это конкретное будущее условие.",
+      "distractorRationales": {
+        "If I skip lunch tomorrow, I'll feel hungry in the afternoon.": "Это конкретное будущее условие.",
+        "If I skipped lunch tomorrow, I would feel hungry.": "Это дистанцированная гипотеза."
+      },
+      "skillTarget": "zero-first-conditionals",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D2",
+      "group": "Входная диагностика",
+      "prompt": "Choose a First Conditional about a possible event tomorrow.",
+      "options": [
+        "If it rains tomorrow, we'll study indoors.",
+        "If it will rain tomorrow, we'll study indoors.",
+        "If it rain tomorrow, we'll study indoors."
+      ],
+      "answer": "If it rains tomorrow, we'll study indoors.",
+      "accepted": [
+        "If it rains tomorrow, we'll study indoors."
+      ],
+      "why": "Present in if-clause + will in result.",
+      "distractorWhy": "Will не нужен в обычном будущем условии.",
+      "distractorRationales": {
+        "If it will rain tomorrow, we'll study indoors.": "Will не нужен в обычном будущем условии.",
+        "If it rain tomorrow, we'll study indoors.": "It требует rains."
+      },
+      "skillTarget": "zero-first-conditionals",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D3",
+      "group": "Входная диагностика",
+      "prompt": "Choose the present form in a general rule: If the battery ___ empty, the device switches off.",
+      "options": [
+        "will be",
+        "are",
+        "is"
+      ],
+      "answer": "is",
+      "accepted": [
+        "is"
+      ],
+      "why": "Singular battery + is; общее правило.",
+      "distractorWhy": "Will не нужен для общей закономерности.",
+      "distractorRationales": {
+        "will be": "Will не нужен для общей закономерности.",
+        "are": "Are не согласуется с battery."
+      },
+      "skillTarget": "zero-first-conditionals",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D4",
+      "group": "Входная диагностика",
+      "prompt": "If she ___ early tomorrow, we'll meet at the cafe.",
+      "options": [
+        "will finish",
+        "finishes",
+        "finish"
+      ],
+      "answer": "finishes",
+      "accepted": [
+        "finishes"
+      ],
+      "why": "She + finishes в обычной if-clause.",
+      "distractorWhy": "Will не нужен в этой условной части.",
+      "distractorRationales": {
+        "will finish": "Will не нужен в этой условной части.",
+        "finish": "Пропущено -es."
+      },
+      "skillTarget": "zero-first-conditionals",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G1",
+      "group": "Управляемая практика",
+      "prompt": "Choose the correct negative condition for a future plan.",
+      "options": [
+        "If he doesn't reply tonight, I'll call him tomorrow.",
+        "If he doesn't replies tonight, I'll call him tomorrow.",
+        "If he won't replies tonight, I'll call him tomorrow."
+      ],
+      "answer": "If he doesn't reply tonight, I'll call him tomorrow.",
+      "accepted": [
+        "If he doesn't reply tonight, I'll call him tomorrow."
+      ],
+      "why": "Doesn't + V1 в if-clause.",
+      "distractorWhy": "Replies после doesn't неверно.",
+      "distractorRationales": {
+        "If he doesn't replies tonight, I'll call him tomorrow.": "Replies после doesn't неверно.",
+        "If he won't replies tonight, I'll call him tomorrow.": "Won't + replies неверно и не обычное условие."
+      },
+      "skillTarget": "zero-first-conditionals",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G2",
+      "group": "Управляемая практика",
+      "prompt": "Choose the correct future result with will.",
+      "options": [
+        "If we hurry, we'll to catch the bus.",
+        "If we hurry, we'll caught the bus.",
+        "If we hurry, we'll catch the bus."
+      ],
+      "answer": "If we hurry, we'll catch the bus.",
+      "accepted": [
+        "If we hurry, we'll catch the bus."
+      ],
+      "why": "Will + V1 catch.",
+      "distractorWhy": "To не нужен.",
+      "distractorRationales": {
+        "If we hurry, we'll to catch the bus.": "To не нужен.",
+        "If we hurry, we'll caught the bus.": "Caught — V2/V3."
+      },
+      "skillTarget": "zero-first-conditionals",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G3",
+      "group": "Управляемая практика",
+      "prompt": "Choose the standard punctuation with an initial if-clause.",
+      "options": [
+        "If, the shop is open we'll buy some bread.",
+        "If the shop is open, we'll buy some bread.",
+        "If the shop, is open we'll buy some bread."
+      ],
+      "answer": "If the shop is open, we'll buy some bread.",
+      "accepted": [
+        "If the shop is open, we'll buy some bread."
+      ],
+      "why": "Запятая после полной условной части.",
+      "distractorWhy": "If нельзя отделять от subject так.",
+      "distractorRationales": {
+        "If, the shop is open we'll buy some bread.": "If нельзя отделять от subject так.",
+        "If the shop, is open we'll buy some bread.": "Subject и verb не разделяются."
+      },
+      "skillTarget": "zero-first-conditionals",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G4",
+      "group": "Управляемая практика",
+      "prompt": "Choose the ordinary punctuation when the if-clause comes second.",
+      "options": [
+        "We'll buy bread if the shop is open.",
+        "We'll buy bread if, the shop is open.",
+        "We'll buy bread if the shop, is open."
+      ],
+      "answer": "We'll buy bread if the shop is open.",
+      "accepted": [
+        "We'll buy bread if the shop is open."
+      ],
+      "why": "При условии в конце запятая обычно не нужна.",
+      "distractorWhy": "После if запятая лишняя.",
+      "distractorRationales": {
+        "We'll buy bread if, the shop is open.": "После if запятая лишняя.",
+        "We'll buy bread if the shop, is open.": "Запятая разрывает subject и verb."
+      },
+      "skillTarget": "zero-first-conditionals",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G5",
+      "group": "Управляемая практика",
+      "prompt": "Choose an instruction for a possible problem.",
+      "options": [
+        "If the screen freezes, restarting the app.",
+        "If the screen will freeze, restart the app.",
+        "If the screen freezes, restart the app."
+      ],
+      "answer": "If the screen freezes, restart the app.",
+      "accepted": [
+        "If the screen freezes, restart the app."
+      ],
+      "why": "Present condition + imperative.",
+      "distractorWhy": "Restarting не повелительная форма.",
+      "distractorRationales": {
+        "If the screen freezes, restarting the app.": "Restarting не повелительная форма.",
+        "If the screen will freeze, restart the app.": "В обычной if-clause не нужен will."
+      },
+      "skillTarget": "zero-first-conditionals",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G6",
+      "group": "Управляемая практика",
+      "prompt": "Choose a future condition with an uncertain result using might.",
+      "options": [
+        "If the weather improves, we might to go for a walk.",
+        "If the weather improves, we might go for a walk.",
+        "If the weather improves, we might goes for a walk."
+      ],
+      "answer": "If the weather improves, we might go for a walk.",
+      "accepted": [
+        "If the weather improves, we might go for a walk."
+      ],
+      "why": "Might + V1 выражает возможность.",
+      "distractorWhy": "To не нужен.",
+      "distractorRationales": {
+        "If the weather improves, we might to go for a walk.": "To не нужен.",
+        "If the weather improves, we might goes for a walk.": "Goes не V1."
+      },
+      "skillTarget": "zero-first-conditionals",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I1",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose a grammatical Zero Conditional about a device's routine operation.",
+      "options": [
+        "If you turns this dial, the volume changes.",
+        "If you turn this dial, the volume change.",
+        "If you turn this dial, the volume changes."
+      ],
+      "answer": "If you turn this dial, the volume changes.",
+      "accepted": [
+        "If you turn this dial, the volume changes."
+      ],
+      "why": "You + turn; singular volume + changes.",
+      "distractorWhy": "You не требует -s.",
+      "distractorRationales": {
+        "If you turns this dial, the volume changes.": "You не требует -s.",
+        "If you turn this dial, the volume change.": "Volume требует changes."
+      },
+      "skillTarget": "zero-first-conditionals",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I2",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose a question about the future result of a possible invitation.",
+      "options": [
+        "Will you join us if we will invite you?",
+        "Will you join us if we invite you?",
+        "Will you joined us if we invite you?"
+      ],
+      "answer": "Will you join us if we invite you?",
+      "accepted": [
+        "Will you join us if we invite you?"
+      ],
+      "why": "Will + subject + V1; if + present.",
+      "distractorWhy": "Will лишний в обычном условии.",
+      "distractorRationales": {
+        "Will you join us if we will invite you?": "Will лишний в обычном условии.",
+        "Will you joined us if we invite you?": "Joined не V1."
+      },
+      "skillTarget": "zero-first-conditionals",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I3",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct negative result.",
+      "options": [
+        "If the class is cancelled, we won't travel to campus.",
+        "If the class is cancelled, we willn't travel to campus.",
+        "If the class is cancelled, we won't travelled to campus."
+      ],
+      "answer": "If the class is cancelled, we won't travel to campus.",
+      "accepted": [
+        "If the class is cancelled, we won't travel to campus."
+      ],
+      "why": "Won't = will not; travel — V1.",
+      "distractorWhy": "Willn't не стандартное сокращение.",
+      "distractorRationales": {
+        "If the class is cancelled, we willn't travel to campus.": "Willn't не стандартное сокращение.",
+        "If the class is cancelled, we won't travelled to campus.": "Travelled не V1."
+      },
+      "skillTarget": "zero-first-conditionals",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I4",
+      "group": "Самостоятельная практика",
+      "prompt": "The meeting is confirmed. Choose the connector that presents it as expected.",
+      "options": [
+        "If I met the tutor tomorrow, I would ask about the deadline.",
+        "If I will meet the tutor tomorrow, I'll ask about the deadline.",
+        "When I meet the tutor tomorrow, I'll ask about the deadline."
+      ],
+      "answer": "When I meet the tutor tomorrow, I'll ask about the deadline.",
+      "accepted": [
+        "When I meet the tutor tomorrow, I'll ask about the deadline."
+      ],
+      "why": "When представляет встречу как ожидаемую.",
+      "distractorWhy": "Second Conditional дистанцирует ситуацию.",
+      "distractorRationales": {
+        "If I met the tutor tomorrow, I would ask about the deadline.": "Second Conditional дистанцирует ситуацию.",
+        "If I will meet the tutor tomorrow, I'll ask about the deadline.": "Will не нужен в обычном if-clause."
+      },
+      "skillTarget": "zero-first-conditionals",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I5",
+      "group": "Самостоятельная практика",
+      "prompt": "You may or may not go to the library. Choose the conditional connector.",
+      "options": [
+        "When I go to the library for sure, I'll return the book.",
+        "If I go to the library, I'll return the book.",
+        "If I will go to the library, I'll return the book."
+      ],
+      "answer": "If I go to the library, I'll return the book.",
+      "accepted": [
+        "If I go to the library, I'll return the book."
+      ],
+      "why": "If выражает неопределённость события.",
+      "distractorWhy": "For sure противоречит заданному контексту.",
+      "distractorRationales": {
+        "When I go to the library for sure, I'll return the book.": "For sure противоречит заданному контексту.",
+        "If I will go to the library, I'll return the book.": "Обычное if-clause требует present."
+      },
+      "skillTarget": "zero-first-conditionals",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I6",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the sentence with a general rule and a modal result.",
+      "options": [
+        "If the door is locked, you can't enter without a key.",
+        "If the door is locked, you can't to enter without a key.",
+        "If the door is locked, you can't enters without a key."
+      ],
+      "answer": "If the door is locked, you can't enter without a key.",
+      "accepted": [
+        "If the door is locked, you can't enter without a key."
+      ],
+      "why": "Can’t + V1 может выражать общее правило.",
+      "distractorWhy": "To лишнее.",
+      "distractorRationales": {
+        "If the door is locked, you can't to enter without a key.": "To лишнее.",
+        "If the door is locked, you can't enters without a key.": "Enters не V1."
+      },
+      "skillTarget": "zero-first-conditionals",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I7",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the condition equivalent to 'if you do not hurry'.",
+      "options": [
+        "unless you hurries",
+        "unless you to hurry",
+        "unless you hurry"
+      ],
+      "answer": "unless you hurry",
+      "accepted": [
+        "unless you hurry"
+      ],
+      "why": "Unless = if not в данном контексте.",
+      "distractorWhy": "You требует hurry.",
+      "distractorRationales": {
+        "unless you hurries": "You требует hurry.",
+        "unless you to hurry": "To не образует finite clause."
+      },
+      "skillTarget": "zero-first-conditionals",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I8",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct use of if meaning 'whether', not a condition.",
+      "options": [
+        "I don't know if will the bus arrive on time.",
+        "I don't know if the bus will arrive on time.",
+        "I don't know if the bus will arrives on time."
+      ],
+      "answer": "I don't know if the bus will arrive on time.",
+      "accepted": [
+        "I don't know if the bus will arrive on time."
+      ],
+      "why": "If вводит embedded question; will допустим.",
+      "distractorWhy": "Инверсия внутри вопроса лишняя.",
+      "distractorRationales": {
+        "I don't know if will the bus arrive on time.": "Инверсия внутри вопроса лишняя.",
+        "I don't know if the bus will arrives on time.": "После will нужна V1."
+      },
+      "skillTarget": "zero-first-conditionals",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I9",
+      "group": "Самостоятельная практика",
+      "prompt": "Which sentence explicitly describes an imagined situation rather than an open future possibility?",
+      "options": [
+        "If I had a car, I would drive to college.",
+        "If I get a car next month, I'll drive to college.",
+        "If I drive to college, I use less time walking."
+      ],
+      "answer": "If I had a car, I would drive to college.",
+      "accepted": [
+        "If I had a car, I would drive to college."
+      ],
+      "why": "Past + would передаёт дистанцированную гипотезу.",
+      "distractorWhy": "Это открытое будущее условие.",
+      "distractorRationales": {
+        "If I get a car next month, I'll drive to college.": "Это открытое будущее условие.",
+        "If I drive to college, I use less time walking.": "Это описываемая общая связь."
+      },
+      "skillTarget": "zero-first-conditionals",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E1",
+      "group": "Выходная проверка",
+      "prompt": "Choose the correct third-person negative condition.",
+      "options": [
+        "If Mia isn't ready, we'll wait.",
+        "If Mia aren't ready, we'll wait.",
+        "If Mia doesn't be ready, we'll wait."
+      ],
+      "answer": "If Mia isn't ready, we'll wait.",
+      "accepted": [
+        "If Mia isn't ready, we'll wait."
+      ],
+      "why": "Mia + isn't в Present Simple be.",
+      "distractorWhy": "Aren't не согласуется с Mia.",
+      "distractorRationales": {
+        "If Mia aren't ready, we'll wait.": "Aren't не согласуется с Mia.",
+        "If Mia doesn't be ready, we'll wait.": "Doesn't be не обычная форма."
+      },
+      "skillTarget": "zero-first-conditionals",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E2",
+      "group": "Выходная проверка",
+      "prompt": "Choose the condition that does not assert the event will definitely happen.",
+      "options": [
+        "The package will definitely arrive today.",
+        "The package arrived yesterday.",
+        "If the package arrives today, I'll open it tonight."
+      ],
+      "answer": "If the package arrives today, I'll open it tonight.",
+      "accepted": [
+        "If the package arrives today, I'll open it tonight."
+      ],
+      "why": "If оставляет прибытие условием.",
+      "distractorWhy": "Это прямое утверждение уверенности.",
+      "distractorRationales": {
+        "The package will definitely arrive today.": "Это прямое утверждение уверенности.",
+        "The package arrived yesterday.": "Это прошлый факт."
+      },
+      "skillTarget": "zero-first-conditionals",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E3",
+      "group": "Выходная проверка",
+      "prompt": "Choose the sentence describing a repeated routine with when.",
+      "options": [
+        "When I will study in the morning, I concentrate better.",
+        "When I study in the morning, I concentrate better.",
+        "When I studies in the morning, I concentrate better."
+      ],
+      "answer": "When I study in the morning, I concentrate better.",
+      "accepted": [
+        "When I study in the morning, I concentrate better."
+      ],
+      "why": "When + present может описывать регулярную ситуацию.",
+      "distractorWhy": "Will не нужен для привычки.",
+      "distractorRationales": {
+        "When I will study in the morning, I concentrate better.": "Will не нужен для привычки.",
+        "When I studies in the morning, I concentrate better.": "I требует study."
+      },
+      "skillTarget": "zero-first-conditionals",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E4",
+      "group": "Выходная проверка",
+      "prompt": "Choose the grammatical first conditional with a future ability.",
+      "options": [
+        "If we save enough money, we'll be able to travel.",
+        "If we save enough money, we'll can travel.",
+        "If we save enough money, we'll be able travel."
+      ],
+      "answer": "If we save enough money, we'll be able to travel.",
+      "accepted": [
+        "If we save enough money, we'll be able to travel."
+      ],
+      "why": "Will be able to выражает будущую способность.",
+      "distractorWhy": "Will can неверно.",
+      "distractorRationales": {
+        "If we save enough money, we'll can travel.": "Will can неверно.",
+        "If we save enough money, we'll be able travel.": "Не хватает to."
+      },
+      "skillTarget": "zero-first-conditionals",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E5",
+      "group": "Выходная проверка",
+      "prompt": "Choose the accurate general distinction between Zero and First Conditional.",
+      "options": [
+        "Zero always refers to a single future event; First always describes past facts.",
+        "Both require will in the ordinary if-clause.",
+        "Zero commonly describes a general or repeated relationship; First presents an open future condition."
+      ],
+      "answer": "Zero commonly describes a general or repeated relationship; First presents an open future condition.",
+      "accepted": [
+        "Zero commonly describes a general or repeated relationship; First presents an open future condition."
+      ],
+      "why": "Различие определяется временной перспективой и смыслом.",
+      "distractorWhy": "Это противоположные неправильные описания.",
+      "distractorRationales": {
+        "Zero always refers to a single future event; First always describes past facts.": "Это противоположные неправильные описания.",
+        "Both require will in the ordinary if-clause.": "В обычной if-clause не нужен will."
+      },
+      "skillTarget": "zero-first-conditionals",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "W1",
+      "group": "Самостоятельное применение",
+      "prompt": "Составь 8 предложений: три общие закономерности или правила, три открытых будущих условия, инструкция и вопрос о будущем результате. Включи отрицание, might/can и разные позиции if-clause. Объясни разницу Zero и First.",
+      "open": true,
+      "rubric": [
+        "Zero описывает закономерность или привычку.",
+        "First описывает открытое условие и подходящий результат.",
+        "If-clause обычно содержит present, а не will.",
+        "Согласование, отрицания и modal + V1 правильны.",
+        "Пунктуация соответствует порядку частей.",
+        "Условие, ожидаемое событие и гипотеза различены."
+      ],
+      "skillTarget": "Самостоятельное применение A2-15",
+      "interactionType": "open-production",
+      "difficulty": "transfer",
+      "sourceBasis": "Speakbase-authored open production; self-review rubric only until real AI feedback is connected",
+      "contentVersion": "1.1-draft"
+    }
+  ],
+  "markdown": "# Speakbase — A2-15: Zero and First Conditional\n\n**Curriculum ID:** `A2-15`  \n**Уровень:** A2  \n**Версия:** 1.1-draft\n**Статус:** drafted; selected source text checked; full source-page and learner acceptance pending\n**Предварительные темы:** A2-01, A2-04  \n**Связь со старым каталогом:** Полное ядро — №13 First Conditional; №26 Zero Conditional\n\n## 1. Результаты обучения\n\n- Говорить об общих закономерностях и реальных будущих условиях; использовать if + present и подходящую главную часть\n- Выбирать целевую форму по значению, структуре предложения и контексту.\n- Объяснять, почему близкая грамматическая форма меняет смысл или регистр.\n- Находить и исправлять типичные ошибки русскоязычных студентов.\n\n## 2. Источники и статус сверки\n\n| Source | PDF navigation | Lesson-specific checks | Status |\n|---|---|---|---|\n| GR-01 U99-100 | PDF pages 209-212 (Unit 99-100) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-02 U38 | PDF pages 88-89 (Unit 38) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-03 U83-87 | PDF pages 190-199 (Unit 83-87) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-05 A2 p15-17 | PDF pages 15-17 (A2 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-05 A2 p22 | PDF pages 22 (A2 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n\nUnit/page locations are navigation aids only. They do not prove that the cited explanation, examples, restrictions and answer key have been checked for this lesson. Examples and explanations below are Speakbase-authored, not quotations from the textbook.\n\nПеред переводом этого урока в source-verified необходимо открыть целевые страницы конкретного издания, записать печатную и PDF-пагинацию, сверить ограничения и исключения. Для GR-03 со сканированными страницами обязательна визуальная проверка.\n\n**Evidence for this editorial pass:** GR-02 Units 25 and 38, theory text directly checked PDF pp. 62 and 88 (printed pp. 50 and 76): if + present for future, if/when and open versus hypothetical conditions. Zero Conditional general-truth and habitual pattern is supplemental author explanation; exact GR-01/GR-03/GR-05 alignment, exercise pages and visual review pending. The selected source text was consulted; not all pages, exercises, editions, scanned GR-03 pages or GR-05 descriptors were checked. Author-created explanations and practice are not copied source exercises.\n\n## 3. Место темы и границы\n\nСопоставь zero conditional (general truth) и first conditional (реальная будущая возможность). Will обычно не ставится в if-clause.\n\nСтарый каталог содержит: №13 First Conditional; №26 Zero Conditional. Его статус — Полное ядро. Старые отметки завершения не переносятся автоматически на новый постоянный ID. Тема рассматривается в уровне A2 и не заменяет обязательные prerequisites.\n\n## 4. Полный конспект\n\n### 4.1. Основная идея и функция конструкции\n\nConditional sentence связывает условие и результат: если выполняется X, происходит или может произойти Y. Zero Conditional обычно описывает общую закономерность, правило или повторяющуюся ситуацию. First Conditional описывает открытое условие в настоящем или будущем и возможный будущий результат. В обеих конструкциях обычная if-часть часто стоит в Present Simple, но значение главной части различается.\n\nIf I drink coffee late, I sleep badly — каждый раз или обычно, когда пью кофе поздно, плохо сплю. If I drink coffee tonight, I won't sleep well — говорю о конкретной возможности сегодня вечером. В первом предложении условие описывает повторяющуюся закономерность, во втором — ожидаемый результат в будущем. First Conditional не гарантирует, что условие выполнится или результат точно произойдёт в реальном мире: оно выражает прогноз, решение или правило на случай выполнения условия.\n\n### 4.2. Формирование и грамматическая модель\n\n| Тип | If-часть | Главная часть | Пример |\n|---|---|---|---|\n| Zero | Present Simple | Present Simple | If I exercise, I feel better. |\n| First | Present Simple | will + V1 | If I exercise tomorrow, I'll feel better. |\n| First, возможность | Present Simple | may/might/can + V1 | If it rains, we might stay home. |\n| First, инструкция | Present Simple | imperative | If you need help, call me. |\n| Отрицательное условие | if + don't/doesn't + V1 | will/won't + V1 | If she doesn't call, I'll text her. |\n| Вопрос о результате | if + Present Simple | Will + subject + V1? | Will you come if I invite you? |\n\nIf-clause может стоять в начале или конце: If you practise, you'll improve. You'll improve if you practise. Если условие стоит первым, обычно ставится запятая между частями. Если оно стоит вторым, запятая обычно не нужна. В Present Simple после he/she/it обычный глагол принимает -s: If she studies, she'll improve. После does/doesn't нужна V1: If she doesn't study, she may struggle. Will + V1 одинаков для всех лиц: he'll help, they'll help. Won't = will not. С be: If the room is free, we'll use it; if it isn't free, we'll find another room.\n\n### 4.3. Как выбрать подходящую форму\n\nСначала реши, описывается ли повторяющееся правило или одна возможная будущая ситуация. Для общей закономерности выбирай if + present, present. Для будущего условия — if + present, will/modal/imperative. Проверь, что речь не о воображаемой ситуации, которую говорящий считает маловероятной или нереальной: для неё часто используется Second Conditional (B1).\n\nВ обычном будущем условии не ставь will после if: If it rains tomorrow, we'll stay inside. Present Simple в условии может относиться к будущему, если это ясно из главной части и контекста. If выражает возможность; when часто предполагает ожидаемое событие: If I meet Leo, I'll tell him (встреча не гарантирована); When I meet Leo, I'll tell him (говорящий ожидает встречу). В Zero Conditional when часто может заменить if, если речь о регулярной ситуации: When I work late, I get tired. Unless часто значит if…not: Unless you hurry, you'll miss the bus; подробно эта модель будет рассмотрена позднее.\n\n### 4.4. Сравнение с близкими конструкциями\n\n| Ситуация | Пример | Смысл |\n|---|---|---|\n| Повторяющаяся привычка | If I skip breakfast, I feel hungry. | Обычно так происходит. |\n| Общее правило | If the password is wrong, access is denied. | Правило системы. |\n| Одна будущая возможность | If I skip breakfast tomorrow, I'll feel hungry. | Возможное завтра. |\n| Неуверенный исход | If the bus is late, we might miss the lecture. | Результат возможен. |\n| Инструкция | If you find my pen, tell me. | Что делать при условии. |\n| Гипотеза (B1) | If I lived closer, I would walk. | Воображаемое условие. |\n\n### 4.5. Примеры с переводом и объяснением\n\n| English | Перевод | Почему это подходит |\n| --- | --- | --- |\n| If I go to bed late, I feel tired in the morning. | Если я поздно ложусь, утром чувствую усталость. | Повторяющаяся ситуация. |\n| If you press this button, the screen lights up. | Если нажать эту кнопку, экран загорается. | Общее правило работы устройства. |\n| If I finish early tomorrow, I'll call you. | Если завтра закончу рано, позвоню тебе. | Открытое будущее условие. |\n| If she doesn't have her ID, she won't be able to enter. | Если у неё не будет удостоверения, она не сможет войти. | Отрицательное условие и будущий результат. |\n| If it snows tonight, we might work from home. | Если сегодня ночью пойдёт снег, возможно, будем работать из дома. | Неуверенный результат. |\n| If you have a question, raise your hand. | Если у тебя есть вопрос, подними руку. | Инструкция. |\n\n### 4.6. Исключения, ограничения и границы употребления\n\nФормулы Zero и First — удобные базовые модели, а не полный перечень всех условных конструкций. В обычном условном if не нужен will, но will может появляться в особых значениях готовности: If you'll wait a moment… — не базовая модель. В выражении I don't know if she will come if означает «ли» и вводит встроенный вопрос; это не условие. Не исправляй его на present автоматически. В главной части First Conditional вместо will могут стоять модальные глаголы и повелительная форма.\n\nPresent Simple в обеих частях не делает утверждение научной истиной. If I study late, I get tired описывает личную тенденцию; если пишешь о научном явлении, укажи условия, при которых оно действительно верно. В Zero Conditional возможны модальные глаголы в общих правилах: If the door is locked, you can't enter. Не смешивай if и when при действительно неопределённом событии. Переход к Second Conditional меняет перспективу: If I get the scholarship, I'll move — открытая возможность; If I got the scholarship, I would move — более дистанцированная гипотеза.\n\n### 4.7. Типичные ошибки русскоязычных студентов\n\n| Ошибка | Исправление | Объяснение |\n| --- | --- | --- |\n| If it will rain tomorrow, we'll stay home. | If it rains tomorrow, we'll stay home. | В обычном будущем if-clause нужен present. |\n| If she study, she will improve. | If she studies, she will improve. | She требует -s в Present Simple. |\n| If you don't hurry, you will to miss the bus. | If you don't hurry, you will miss the bus. | После will нужна V1 без to. |\n| If he doesn't comes, I'll call him. | If he doesn't come, I'll call him. | Doesn't + V1. |\n| If, the room is free we will use it. | If the room is free, we will use it. | Запятая после целой начальной if-clause. |\n\n### 4.8. Произношение и восприятие на слух\n\nЕсли условие стоит первым, небольшая пауза после него помогает отделить результат: If it RAINS, we'll STAY inside. Сокращения I'll, we'll, won't обычны в речи. Ударение может выделять именно условие или результат в зависимости от смысла. Не считай русское будущее после «если» основанием для will в английском. Аудиопроверка ещё не завершена.\n\nСначала прослушай или прочитай пример, затем произнеси его целиком. Обрати внимание на смысловое ударение и форму конструкции; не ориентируйся только на буквенный перевод.\n\n### 4.9. Академический английский и TOEFL-перенос\n\nВ Reading различай общую закономерность и прогноз для конкретных условий. В Listening понимай инструкции и планы на случай изменения расписания. В Speaking объясняй решение: If the library is closed tomorrow, I'll study at home. В Writing обосновывай предполагаемый результат, не представляя его как доказанный факт. Это авторская тренировка грамматики, не официальный материал ETS.\n\nЭто авторская практика переноса навыка. Она не является официальным заданием TOEFL и не выдаётся за официальный результат экзамена.\n\n### 4.10. Примеры для управляемого разбора\n\n- If I go to bed late, I feel tired in the morning. — Если я поздно ложусь, утром чувствую усталость. Повторяющаяся ситуация.\n- If you press this button, the screen lights up. — Если нажать эту кнопку, экран загорается. Общее правило работы устройства.\n- If I finish early tomorrow, I'll call you. — Если завтра закончу рано, позвоню тебе. Открытое будущее условие.\n\nДля каждого примера назови целевую конструкцию, объясни выбор и составь новое предложение в другом контексте. Затем перейди к заданиям: сначала диагностика, затем управляемая и самостоятельная практика, затем новые вопросы выходной проверки.\n\n### 4.11. Самопроверка\n\nПеред отправкой ответа проверь:\n1. Zero описывает закономерность или привычку.\n2. First описывает открытое условие и подходящий результат.\n3. If-clause обычно содержит present, а не will.\n4. Согласование, отрицания и modal + V1 правильны.\n5. Пунктуация соответствует порядку частей.\n6. Условие, ожидаемое событие и гипотеза различены.\n\n### 4.12. Краткая памятка\n\nZero: if + Present Simple, Present Simple — обычная закономерность или правило. First: if + Present Simple, will/modal/imperative — открытое будущее условие или инструкция. Will в обычной if-части не ставится. Начальное условие обычно отделяется запятой. If — возможность; when — ожидаемое событие или повторяющаяся ситуация.\n\nНе выбирай форму только по одному знакомому слову: проверь контекст, значение и структуру. При ошибке вернись к соответствующей части конспекта и составь собственный пример.\n\n## 5. Практика\n\nВ приложении практика разделена на входную диагностику, управляемые задания, самостоятельную практику и новую выходную проверку. Закрытые ответы получают rationale и разбор ошибки. Свободный текст сохраняется и оценивается по рубрике; до подключения и реальной проверки AI-движка система не выдаёт его за автоматическую AI-оценку.\n\n## 6. Интервальное повторение\n\nПовторяй не весь урок автоматически, а конкретную ошибку: выбор формы, согласование, word order, значение, регистр или пунктуацию. Новая попытка должна менять лексический контекст и формулировку, чтобы проверять перенос, а не запоминание одной строки.\n\n## 7. Технический статус\n\n- Постоянный ID: `A2-15`.\n- Прогресс хранится отдельно в course.grammarLessons[\"A2-15\"].\n- Содержание и ключи имеют статус draft; 24 авторских закрытых задания и объяснения вычитаны, выбранные тексты источников проверены. Полная постраничная и пользовательская приёмка остаются открытыми.\n- Предварительное выполнение порогов не равно окончательному mastered: нужны отсроченное повторение и learner review.",
+  "theoryEnd": "## 5."
+}

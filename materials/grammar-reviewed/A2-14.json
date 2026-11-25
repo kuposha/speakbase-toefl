@@ -1,0 +1,743 @@
+{
+  "id": "A2-14",
+  "level": "A2",
+  "sequence": "A2-14",
+  "grammarFamily": "A2-14",
+  "questionBankSource": "topic-specific-authored",
+  "sourceVerification": "draft; selected source text consulted; complete source-page and learner review pending",
+  "topicProfile": {
+    "label": "defining relative clauses",
+    "skillTarget": "defining-relative-clauses",
+    "core": "Defining relative clause — определительное придаточное, которое уточняет, о каком человеке, предмете или группе идёт речь. Оно отвечает на вопрос «какой именно?». The student who sits near me is learning Italian — студент, который сидит рядом со мной, изучает итальянский. Без уточнения the student слушателю может быть непонятно, о каком студенте говорится.",
+    "form": "| Относительное слово | Функция | Пример |\n|---|---|---|\n| who | человек | a student who speaks Italian |\n| that | человек или предмет в defining clause | a course that starts in June |\n| which | предмет/животное | a device which works offline |\n| whose | принадлежность + noun | a student whose bag is blue |\n| where | место действия | a room where we study |\n| when | время | the day when we met |\n| whom | формальное object relative для человека | a person whom I trust |",
+    "selection": "Найди существительное, которое нужно уточнить. Если это человек, выбирай who/that; если предмет — which/that. Затем найди subject внутри relative clause. Если относительное слово само совершает действие, не опускай его. Если отдельный subject уже есть, например I, she или the students, и относительное слово заменяет object, возможна нулевая форма. Для принадлежности выбирай whose; для места, где что-то происходит, where.",
+    "contrast": "| Пример | Анализ |\n|---|---|\n| The girl who called me is my friend. | Who — subject; нельзя убрать. |\n| The girl (who) I called is my friend. | I — subject, who — object; можно убрать. |\n| The laptop that broke is mine. | That — subject. |\n| The laptop (that) I repaired is mine. | That — object. |\n| The library where we study is new. | Where = in the library. |\n| The library which opens late is new. | Which — subject. |",
+    "boundary": "В defining clause обычно нет запятых: Students who passed the test received certificates — только сдавшие студенты. Non-defining clause добавляет сведения об уже определённом объекте и отделяется запятыми; эту тему подробно изучим на B1. Не используй what после названного существительного: the book that I bought, не the book what I bought. What само означает «то, что»: What I bought was useful.",
+    "pronunciation": "Who и whose произносятся с начальным /h/, а which — с /w/ в распространённом стандартном произношении. Who's и whose звучат одинаково; различие определяется структурой. В defining clauses обычно нет отдельной паузы вокруг придаточного, потому что оно уточняет noun. Читай noun и его defining clause вместе. Отдельная проверка аудио остаётся открытой.",
+    "examples": [
+      [
+        "I need a dictionary that works offline.",
+        "Мне нужен словарь, который работает без интернета.",
+        "That — subject придаточного."
+      ],
+      [
+        "The teacher who helped me is very kind.",
+        "Преподаватель, который помог мне, очень добрый.",
+        "Who — subject."
+      ],
+      [
+        "The book I ordered arrived today.",
+        "Книга, которую я заказала, пришла сегодня.",
+        "Object relative pronoun опущено."
+      ],
+      [
+        "This is the room where we have lessons.",
+        "Это аудитория, где проходят занятия.",
+        "Where обозначает место действия."
+      ],
+      [
+        "I met a student whose sister studies here.",
+        "Я познакомилась со студентом, чья сестра учится здесь.",
+        "Whose + noun."
+      ],
+      [
+        "The person I spoke to was helpful.",
+        "Человек, с которым я разговаривала, помог мне.",
+        "Предлог to в конце."
+      ]
+    ],
+    "traps": [
+      [
+        "The student who he called me is here.",
+        "The student who called me is here.",
+        "Who уже subject; he лишнее."
+      ],
+      [
+        "The book I bought it was expensive.",
+        "The book I bought was expensive.",
+        "It дублирует object relative."
+      ],
+      [
+        "A room where has two windows.",
+        "A room that has two windows.",
+        "That — subject has, where — место."
+      ],
+      [
+        "The laptop what I ordered arrived.",
+        "The laptop that I ordered arrived.",
+        "После названного noun не употребляется what."
+      ],
+      [
+        "The woman who's son lives here.",
+        "The woman whose son lives here.",
+        "Whose выражает принадлежность."
+      ]
+    ],
+    "toefl": "В Reading определяй, какую именно группу ограничивает придаточное: Students who submitted the form — не все студенты. В Listening распознавай объект по описанию, например the office that handles applications. В Speaking объясняй предмет или человека простыми relative clauses; в Writing объединяй информацию, сохраняя ясность. Это тренировка навыка, не официальный экзаменационный вопрос."
+  },
+  "title": "Defining relative clauses",
+  "description": "Добавлять необходимую информацию с who/which/that; понимать, когда object pronoun можно опустить",
+  "cardDescription": "Теория, guided practice, самостоятельные задания и выходная проверка по постоянному ID A2-14.",
+  "eyebrow": "Полный урок программы A2-14 · drafted",
+  "contentVersion": "1.1-draft",
+  "curriculumVersion": "1.0",
+  "prerequisites": [
+    "A1-01",
+    "A1-02"
+  ],
+  "outcomes": [
+    "Добавлять необходимую информацию с who/which/that; понимать, когда object pronoun можно опустить",
+    "Выбирать целевую конструкцию по контексту и смыслу.",
+    "Исправлять типичные ошибки и переносить правило в новый пример."
+  ],
+  "sourceRefs": [
+    "GR-01 U101-102",
+    "GR-02 U92-94",
+    "GR-03 U53-55",
+    "GR-05 A2 p20-21"
+  ],
+  "sourceStatus": "selected source text consulted; full page verification pending",
+  "status": "drafted",
+  "legacyCoverage": "Полное ядро",
+  "toeflLinks": [
+    "Writing: Build a Sentence",
+    "Reading: clause structure, reference, modifiers and logical relationships",
+    "Writing: Write an Email"
+  ],
+  "thresholds": {
+    "independent": 7,
+    "exit": 4,
+    "criticalIds": [
+      "E1",
+      "E2",
+      "E3"
+    ]
+  },
+  "groups": {
+    "independent": "Самостоятельная практика",
+    "exit": "Выходная проверка"
+  },
+  "items": [
+    {
+      "id": "D1",
+      "group": "Входная диагностика",
+      "prompt": "Choose a relative pronoun for a person, not a thing: a nurse ___ helps children.",
+      "options": [
+        "which",
+        "who",
+        "where"
+      ],
+      "answer": "who",
+      "accepted": [
+        "who"
+      ],
+      "why": "Who относится к человеку и является subject.",
+      "distractorWhy": "Which относится к предметам в этой модели.",
+      "distractorRationales": {
+        "which": "Which относится к предметам в этой модели.",
+        "where": "Where обозначает место."
+      },
+      "skillTarget": "defining-relative-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D2",
+      "group": "Входная диагностика",
+      "prompt": "Choose the defining relative pronoun for a device: a tablet ___ supports this app.",
+      "options": [
+        "which",
+        "who",
+        "whose"
+      ],
+      "answer": "which",
+      "accepted": [
+        "which"
+      ],
+      "why": "Which — subject для предмета.",
+      "distractorWhy": "Who обычно о человеке.",
+      "distractorRationales": {
+        "who": "Who обычно о человеке.",
+        "whose": "Whose требует noun принадлежности."
+      },
+      "skillTarget": "defining-relative-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D3",
+      "group": "Входная диагностика",
+      "prompt": "Choose the grammatical defining clause with that.",
+      "options": [
+        "a student that she studies every evening",
+        "a student that study every evening",
+        "a student that studies every evening"
+      ],
+      "answer": "a student that studies every evening",
+      "accepted": [
+        "a student that studies every evening"
+      ],
+      "why": "That — subject; studies согласуется с student.",
+      "distractorWhy": "She дублирует subject.",
+      "distractorRationales": {
+        "a student that she studies every evening": "She дублирует subject.",
+        "a student that study every evening": "Нужна форма studies."
+      },
+      "skillTarget": "defining-relative-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D4",
+      "group": "Входная диагностика",
+      "prompt": "Choose the sentence in which a subject relative pronoun is retained.",
+      "options": [
+        "The train stops here is fast.",
+        "The train that stops here is fast.",
+        "The train that it stops here is fast."
+      ],
+      "answer": "The train that stops here is fast.",
+      "accepted": [
+        "The train that stops here is fast."
+      ],
+      "why": "That заменяет train внутри clause.",
+      "distractorWhy": "Пропущено обязательное relative pronoun.",
+      "distractorRationales": {
+        "The train stops here is fast.": "Пропущено обязательное relative pronoun.",
+        "The train that it stops here is fast.": "It дублирует subject."
+      },
+      "skillTarget": "defining-relative-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G1",
+      "group": "Управляемая практика",
+      "prompt": "Choose the grammatical object clause with the relative pronoun omitted.",
+      "options": [
+        "The film we watched was interesting.",
+        "The film we watched it was interesting.",
+        "The film watched we was interesting."
+      ],
+      "answer": "The film we watched was interesting.",
+      "accepted": [
+        "The film we watched was interesting."
+      ],
+      "why": "We — subject; объект watched понятен из film.",
+      "distractorWhy": "It дублирует объект.",
+      "distractorRationales": {
+        "The film we watched it was interesting.": "It дублирует объект.",
+        "The film watched we was interesting.": "Неверный порядок слов."
+      },
+      "skillTarget": "defining-relative-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G2",
+      "group": "Управляемая практика",
+      "prompt": "Which phrase cannot omit its relative pronoun in the given structure?",
+      "options": [
+        "the woman who I met yesterday",
+        "the book that we borrowed",
+        "the woman who teaches French"
+      ],
+      "answer": "the woman who teaches French",
+      "accepted": [
+        "the woman who teaches French"
+      ],
+      "why": "Who — subject teaches; пропуск невозможен.",
+      "distractorWhy": "I — subject; who — object, пропуск возможен.",
+      "distractorRationales": {
+        "the woman who I met yesterday": "I — subject; who — object, пропуск возможен.",
+        "the book that we borrowed": "We — subject; that — object."
+      },
+      "skillTarget": "defining-relative-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G3",
+      "group": "Управляемая практика",
+      "prompt": "Choose the correct possessive relative phrase.",
+      "options": [
+        "a student who's father is a doctor",
+        "a student whose father is a doctor",
+        "a student who father is a doctor"
+      ],
+      "answer": "a student whose father is a doctor",
+      "accepted": [
+        "a student whose father is a doctor"
+      ],
+      "why": "Whose + father показывает принадлежность.",
+      "distractorWhy": "Who's = who is/has.",
+      "distractorRationales": {
+        "a student who's father is a doctor": "Who's = who is/has.",
+        "a student who father is a doctor": "Who не possessive."
+      },
+      "skillTarget": "defining-relative-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G4",
+      "group": "Управляемая практика",
+      "prompt": "Choose the relative word referring to a place where an activity happens.",
+      "options": [
+        "the cafe where we have lunch",
+        "the cafe who we have lunch",
+        "the cafe whose we have lunch"
+      ],
+      "answer": "the cafe where we have lunch",
+      "accepted": [
+        "the cafe where we have lunch"
+      ],
+      "why": "Where = in the cafe.",
+      "distractorWhy": "Who относится к людям.",
+      "distractorRationales": {
+        "the cafe who we have lunch": "Who относится к людям.",
+        "the cafe whose we have lunch": "Whose требует noun."
+      },
+      "skillTarget": "defining-relative-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G5",
+      "group": "Управляемая практика",
+      "prompt": "Choose the clause with which acting as subject of offers.",
+      "options": [
+        "a library where offers free courses",
+        "a library which it offers free courses",
+        "a library which offers free courses"
+      ],
+      "answer": "a library which offers free courses",
+      "accepted": [
+        "a library which offers free courses"
+      ],
+      "why": "Which — subject offers.",
+      "distractorWhy": "Where не может быть subject offers.",
+      "distractorRationales": {
+        "a library where offers free courses": "Where не может быть subject offers.",
+        "a library which it offers free courses": "It дублирует subject."
+      },
+      "skillTarget": "defining-relative-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G6",
+      "group": "Управляемая практика",
+      "prompt": "Choose the correct defining clause with a final preposition.",
+      "options": [
+        "the instructor I talked to him",
+        "the instructor I talked to",
+        "the instructor I talked him to"
+      ],
+      "answer": "the instructor I talked to",
+      "accepted": [
+        "the instructor I talked to"
+      ],
+      "why": "Object относительной части понятен; to остаётся в конце.",
+      "distractorWhy": "Him дублирует объект.",
+      "distractorRationales": {
+        "the instructor I talked to him": "Him дублирует объект.",
+        "the instructor I talked him to": "Talk to требует другого порядка."
+      },
+      "skillTarget": "defining-relative-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I1",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the formal relative construction after a fronted preposition.",
+      "options": [
+        "the colleague with that I worked",
+        "the colleague with who I worked (formal standard)",
+        "the colleague with whom I worked"
+      ],
+      "answer": "the colleague with whom I worked",
+      "accepted": [
+        "the colleague with whom I worked"
+      ],
+      "why": "После вынесенного with формальная модель требует whom.",
+      "distractorWhy": "That не ставят после вынесенного предлога.",
+      "distractorRationales": {
+        "the colleague with that I worked": "That не ставят после вынесенного предлога.",
+        "the colleague with who I worked (formal standard)": "Для формальной модели употребляют whom."
+      },
+      "skillTarget": "defining-relative-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I2",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the formal relative clause about a place with in which.",
+      "options": [
+        "the room in that we studied",
+        "the room in which we studied",
+        "the room in where we studied"
+      ],
+      "answer": "the room in which we studied",
+      "accepted": [
+        "the room in which we studied"
+      ],
+      "why": "In which — предлог + relative pronoun.",
+      "distractorWhy": "That нельзя после вынесенного предлога.",
+      "distractorRationales": {
+        "the room in that we studied": "That нельзя после вынесенного предлога.",
+        "the room in where we studied": "Where уже выражает место."
+      },
+      "skillTarget": "defining-relative-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I3",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct phrase after an explicit noun.",
+      "options": [
+        "the article that I read",
+        "the article what I read",
+        "the article that I read it"
+      ],
+      "answer": "the article that I read",
+      "accepted": [
+        "the article that I read"
+      ],
+      "why": "That связывает noun и clause.",
+      "distractorWhy": "What не употребляется после названного antecedent.",
+      "distractorRationales": {
+        "the article what I read": "What не употребляется после названного antecedent.",
+        "the article that I read it": "It дублирует object."
+      },
+      "skillTarget": "defining-relative-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I4",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the expression meaning 'the thing that she said'.",
+      "options": [
+        "The thing what she said",
+        "What she said it",
+        "What she said"
+      ],
+      "answer": "What she said",
+      "accepted": [
+        "What she said"
+      ],
+      "why": "What само означает the thing that.",
+      "distractorWhy": "После thing нужен that/which или нулевая форма.",
+      "distractorRationales": {
+        "The thing what she said": "После thing нужен that/which или нулевая форма.",
+        "What she said it": "It дублирует объект."
+      },
+      "skillTarget": "defining-relative-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I5",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the grammatical sentence about plural students.",
+      "options": [
+        "Students who lives nearby often walk to college.",
+        "Students who live nearby often walk to college.",
+        "Students who they live nearby often walk to college."
+      ],
+      "answer": "Students who live nearby often walk to college.",
+      "accepted": [
+        "Students who live nearby often walk to college."
+      ],
+      "why": "Who относится к plural students, live.",
+      "distractorWhy": "Lives не согласуется с plural.",
+      "distractorRationales": {
+        "Students who lives nearby often walk to college.": "Lives не согласуется с plural.",
+        "Students who they live nearby often walk to college.": "They дублирует subject."
+      },
+      "skillTarget": "defining-relative-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I6",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the sentence with a defining clause limiting the group to students who submitted the form.",
+      "options": [
+        "Students who submitted the form received a reply.",
+        "The students, who submitted the form, received a reply.",
+        "The form was submitted, which pleased the students."
+      ],
+      "answer": "Students who submitted the form received a reply.",
+      "accepted": [
+        "Students who submitted the form received a reply."
+      ],
+      "why": "Без запятых придаточное ограничивает группу.",
+      "distractorWhy": "С запятыми информация добавочная об уже определённой группе.",
+      "distractorRationales": {
+        "The students, who submitted the form, received a reply.": "С запятыми информация добавочная об уже определённой группе.",
+        "The form was submitted, which pleased the students.": "Which комментирует целое событие."
+      },
+      "skillTarget": "defining-relative-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I7",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the grammatical defining clause about a specific day.",
+      "options": [
+        "the day what we first met",
+        "the day we first met it",
+        "the day we first met"
+      ],
+      "answer": "the day we first met",
+      "accepted": [
+        "the day we first met"
+      ],
+      "why": "Relative word можно опустить после day.",
+      "distractorWhy": "What здесь не подходит.",
+      "distractorRationales": {
+        "the day what we first met": "What здесь не подходит.",
+        "the day we first met it": "It лишнее."
+      },
+      "skillTarget": "defining-relative-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I8",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the grammatical clause about a reason.",
+      "options": [
+        "the reason what I called",
+        "the reason why I called",
+        "the reason why did I call"
+      ],
+      "answer": "the reason why I called",
+      "accepted": [
+        "the reason why I called"
+      ],
+      "why": "Why допустимо после reason.",
+      "distractorWhy": "What не подходит.",
+      "distractorRationales": {
+        "the reason what I called": "What не подходит.",
+        "the reason why did I call": "Relative clause не имеет вопросительной инверсии."
+      },
+      "skillTarget": "defining-relative-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I9",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the clause where the relative word is an object, not a subject.",
+      "options": [
+        "the bike which I repaired",
+        "the bike which broke yesterday",
+        "the bike which needs a new wheel"
+      ],
+      "answer": "the bike which I repaired",
+      "accepted": [
+        "the bike which I repaired"
+      ],
+      "why": "I — subject, which — object repaired.",
+      "distractorWhy": "Which — subject broke.",
+      "distractorRationales": {
+        "the bike which broke yesterday": "Which — subject broke.",
+        "the bike which needs a new wheel": "Which — subject needs."
+      },
+      "skillTarget": "defining-relative-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E1",
+      "group": "Выходная проверка",
+      "prompt": "Choose the correct sentence with a possessive relative clause.",
+      "options": [
+        "I know a woman whose daughter speaks Spanish.",
+        "I know a woman who daughter speaks Spanish.",
+        "I know a woman whose daughter speak Spanish."
+      ],
+      "answer": "I know a woman whose daughter speaks Spanish.",
+      "accepted": [
+        "I know a woman whose daughter speaks Spanish."
+      ],
+      "why": "Whose + daughter + speaks.",
+      "distractorWhy": "Who не выражает принадлежность.",
+      "distractorRationales": {
+        "I know a woman who daughter speaks Spanish.": "Who не выражает принадлежность.",
+        "I know a woman whose daughter speak Spanish.": "Singular daughter требует speaks."
+      },
+      "skillTarget": "defining-relative-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E2",
+      "group": "Выходная проверка",
+      "prompt": "Which pair of relative words is possible for a thing in a defining clause?",
+      "options": [
+        "who / whom",
+        "where / whose without a noun",
+        "which / that"
+      ],
+      "answer": "which / that",
+      "accepted": [
+        "which / that"
+      ],
+      "why": "Which и that могут относиться к предмету.",
+      "distractorWhy": "Who/whom обычно о людях.",
+      "distractorRationales": {
+        "who / whom": "Who/whom обычно о людях.",
+        "where / whose without a noun": "Where и whose имеют другие функции."
+      },
+      "skillTarget": "defining-relative-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E3",
+      "group": "Выходная проверка",
+      "prompt": "Choose the grammatical defining phrase with an indefinite article.",
+      "options": [
+        "a person who he can help us",
+        "a person who can help us",
+        "a person who can to help us"
+      ],
+      "answer": "a person who can help us",
+      "accepted": [
+        "a person who can help us"
+      ],
+      "why": "A person допустимо, who — subject.",
+      "distractorWhy": "He лишнее.",
+      "distractorRationales": {
+        "a person who he can help us": "He лишнее.",
+        "a person who can to help us": "После can нет to."
+      },
+      "skillTarget": "defining-relative-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E4",
+      "group": "Выходная проверка",
+      "prompt": "Choose the defining clause that describes a location using where correctly.",
+      "options": [
+        "a school where children learn music",
+        "a school where teaches music",
+        "a school where it teaches music as subject relative"
+      ],
+      "answer": "a school where children learn music",
+      "accepted": [
+        "a school where children learn music"
+      ],
+      "why": "Where означает место, children — subject.",
+      "distractorWhy": "Where не subject teaches.",
+      "distractorRationales": {
+        "a school where teaches music": "Where не subject teaches.",
+        "a school where it teaches music as subject relative": "Для school как subject нужен which/that, не where."
+      },
+      "skillTarget": "defining-relative-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E5",
+      "group": "Выходная проверка",
+      "prompt": "Choose the accurate rule for leaving out who/which/that in a defining relative clause.",
+      "options": [
+        "All relative pronouns must always be omitted.",
+        "A subject relative pronoun can always be omitted.",
+        "An object relative pronoun can often be omitted; a subject relative pronoun cannot."
+      ],
+      "answer": "An object relative pronoun can often be omitted; a subject relative pronoun cannot.",
+      "accepted": [
+        "An object relative pronoun can often be omitted; a subject relative pronoun cannot."
+      ],
+      "why": "Пропуск зависит от грамматической роли.",
+      "distractorWhy": "Многие relative pronouns обязательны.",
+      "distractorRationales": {
+        "All relative pronouns must always be omitted.": "Многие relative pronouns обязательны.",
+        "A subject relative pronoun can always be omitted.": "Subject relative pronoun нельзя опустить в обычной структуре."
+      },
+      "skillTarget": "defining-relative-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "W1",
+      "group": "Самостоятельное применение",
+      "prompt": "Составь 8 предложений о колледже или приложении: subject и object relatives с who/which/that, object clause без pronoun, whose, where и relative clause с конечным предлогом. Объясни, почему в трёх случаях можно или нельзя опустить относительное слово.",
+      "open": true,
+      "rubric": [
+        "Relative clause уточняет конкретный noun или группу.",
+        "Who/which/that соответствуют объекту и типу clause.",
+        "Subject relative pronoun не опускается.",
+        "Object relative pronoun опускается только в подходящей модели.",
+        "Whose/where и предлоги употреблены по функции.",
+        "Нет дублирующих местоимений и лишних запятых."
+      ],
+      "skillTarget": "Самостоятельное применение A2-14",
+      "interactionType": "open-production",
+      "difficulty": "transfer",
+      "sourceBasis": "Speakbase-authored open production; self-review rubric only until real AI feedback is connected",
+      "contentVersion": "1.1-draft"
+    }
+  ],
+  "markdown": "# Speakbase — A2-14: Defining relative clauses\n\n**Curriculum ID:** `A2-14`  \n**Уровень:** A2  \n**Версия:** 1.1-draft\n**Статус:** drafted; selected source text checked; full source-page and learner acceptance pending\n**Предварительные темы:** A1-01, A1-02  \n**Связь со старым каталогом:** Полное ядро — №33 Relative Clauses\n\n## 1. Результаты обучения\n\n- Добавлять необходимую информацию с who/which/that; понимать, когда object pronoun можно опустить\n- Выбирать целевую форму по значению, структуре предложения и контексту.\n- Объяснять, почему близкая грамматическая форма меняет смысл или регистр.\n- Находить и исправлять типичные ошибки русскоязычных студентов.\n\n## 2. Источники и статус сверки\n\n| Source | PDF navigation | Lesson-specific checks | Status |\n|---|---|---|---|\n| GR-01 U101-102 | PDF pages 213-216 (Unit 101-102) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-02 U92-94 | PDF pages 196-201 (Unit 92-94) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-03 U53-55 | PDF pages 130-135 (Unit 53-55) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-05 A2 p20-21 | PDF pages 20-21 (A2 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n\nUnit/page locations are navigation aids only. They do not prove that the cited explanation, examples, restrictions and answer key have been checked for this lesson. Examples and explanations below are Speakbase-authored, not quotations from the textbook.\n\nПеред переводом этого урока в source-verified необходимо открыть целевые страницы конкретного издания, записать печатную и PDF-пагинацию, сверить ограничения и исключения. Для GR-03 со сканированными страницами обязательна визуальная проверка.\n\n**Evidence for this editorial pass:** GR-02 Units 92–94 theory text directly checked, PDF pp. 196, 198, 200 (printed pp. 184, 186, 188): who/which/that, subject and object roles, omission, final prepositions, what, whose/whom/where. Further sources, exercise pages and visual verification pending. The selected source text was consulted; not all pages, exercises, editions, scanned GR-03 pages or GR-05 descriptors were checked. Author-created explanations and practice are not copied source exercises.\n\n## 3. Место темы и границы\n\nDefining relative clauses дают необходимую информацию для идентификации. Object relative pronoun иногда опускается; subject pronoun — нет.\n\nСтарый каталог содержит: №33 Relative Clauses. Его статус — Полное ядро. Старые отметки завершения не переносятся автоматически на новый постоянный ID. Тема рассматривается в уровне A2 и не заменяет обязательные prerequisites.\n\n## 4. Полный конспект\n\n### 4.1. Основная идея и функция конструкции\n\nDefining relative clause — определительное придаточное, которое уточняет, о каком человеке, предмете или группе идёт речь. Оно отвечает на вопрос «какой именно?». The student who sits near me is learning Italian — студент, который сидит рядом со мной, изучает итальянский. Без уточнения the student слушателю может быть непонятно, о каком студенте говорится.\n\nПридаточное часто объединяет два коротких предложения: I know a woman. She teaches English. → I know a woman who teaches English. Слово who уже заменяет she; повторять местоимение не надо. The book is useful. I borrowed it yesterday. → The book that I borrowed yesterday is useful. Здесь that заменяет it, объект действия borrowed. В зависимости от роли относительного слова его иногда можно опустить. Это центральное различие урока.\n\n### 4.2. Формирование и грамматическая модель\n\n| Относительное слово | Функция | Пример |\n|---|---|---|\n| who | человек | a student who speaks Italian |\n| that | человек или предмет в defining clause | a course that starts in June |\n| which | предмет/животное | a device which works offline |\n| whose | принадлежность + noun | a student whose bag is blue |\n| where | место действия | a room where we study |\n| when | время | the day when we met |\n| whom | формальное object relative для человека | a person whom I trust |\n\nЕсли relative pronoun является подлежащим придаточного, оно обязательно: The bus that stops here goes downtown. После that сразу стоит stops, и отдельного subject нет. Если relative pronoun — дополнение, а внутри уже есть subject, его часто можно опустить: The bus (that) we took was late. We — subject, took — глагол, объект понятен из bus. Who/that для человека и which/that для предмета часто оба допустимы. В письменной практике не объявляй один неверным только потому, что предпочтён другой. Whose стоит перед существительным: the person whose phone rang.\n\n### 4.3. Как выбрать подходящую форму\n\nНайди существительное, которое нужно уточнить. Если это человек, выбирай who/that; если предмет — which/that. Затем найди subject внутри relative clause. Если относительное слово само совершает действие, не опускай его. Если отдельный subject уже есть, например I, she или the students, и относительное слово заменяет object, возможна нулевая форма. Для принадлежности выбирай whose; для места, где что-то происходит, where.\n\nСравни the city where I live и the city which attracts visitors. В первом случае I — subject, where означает in that city; во втором which — subject глагола attracts. Нельзя употреблять where как замену subject предмета: a school where offers courses неверно; a school which offers courses правильно. Если есть предлог, в разговорной речи он часто стоит в конце: the person I spoke to. В формальном стиле возможны the person to whom I spoke или the room in which we met; после вынесенного предлога нельзя использовать that или пропускать relative pronoun.\n\n### 4.4. Сравнение с близкими конструкциями\n\n| Пример | Анализ |\n|---|---|\n| The girl who called me is my friend. | Who — subject; нельзя убрать. |\n| The girl (who) I called is my friend. | I — subject, who — object; можно убрать. |\n| The laptop that broke is mine. | That — subject. |\n| The laptop (that) I repaired is mine. | That — object. |\n| The library where we study is new. | Where = in the library. |\n| The library which opens late is new. | Which — subject. |\n\n### 4.5. Примеры с переводом и объяснением\n\n| English | Перевод | Почему это подходит |\n| --- | --- | --- |\n| I need a dictionary that works offline. | Мне нужен словарь, который работает без интернета. | That — subject придаточного. |\n| The teacher who helped me is very kind. | Преподаватель, который помог мне, очень добрый. | Who — subject. |\n| The book I ordered arrived today. | Книга, которую я заказала, пришла сегодня. | Object relative pronoun опущено. |\n| This is the room where we have lessons. | Это аудитория, где проходят занятия. | Where обозначает место действия. |\n| I met a student whose sister studies here. | Я познакомилась со студентом, чья сестра учится здесь. | Whose + noun. |\n| The person I spoke to was helpful. | Человек, с которым я разговаривала, помог мне. | Предлог to в конце. |\n\n### 4.6. Исключения, ограничения и границы употребления\n\nВ defining clause обычно нет запятых: Students who passed the test received certificates — только сдавшие студенты. Non-defining clause добавляет сведения об уже определённом объекте и отделяется запятыми; эту тему подробно изучим на B1. Не используй what после названного существительного: the book that I bought, не the book what I bought. What само означает «то, что»: What I bought was useful.\n\nПосле whose нельзя механически опустить существительное принадлежности: a woman whose son works here. Who's — сокращение who is/has, не possessive whose. С day/time/reason возможно отсутствие относительного слова: the day we met, the reason I called; также возможны when и why в подходящих конструкциях. Следи за согласованием: the student who lives here, the students who live here. В relative clause не добавляй повторный object: the report I wrote, не the report I wrote it. Уточнение определяет объект, но не всегда делает the обязательным: a student who needs help, people who work here.\n\n### 4.7. Типичные ошибки русскоязычных студентов\n\n| Ошибка | Исправление | Объяснение |\n| --- | --- | --- |\n| The student who he called me is here. | The student who called me is here. | Who уже subject; he лишнее. |\n| The book I bought it was expensive. | The book I bought was expensive. | It дублирует object relative. |\n| A room where has two windows. | A room that has two windows. | That — subject has, where — место. |\n| The laptop what I ordered arrived. | The laptop that I ordered arrived. | После названного noun не употребляется what. |\n| The woman who's son lives here. | The woman whose son lives here. | Whose выражает принадлежность. |\n\n### 4.8. Произношение и восприятие на слух\n\nWho и whose произносятся с начальным /h/, а which — с /w/ в распространённом стандартном произношении. Who's и whose звучат одинаково; различие определяется структурой. В defining clauses обычно нет отдельной паузы вокруг придаточного, потому что оно уточняет noun. Читай noun и его defining clause вместе. Отдельная проверка аудио остаётся открытой.\n\nСначала прослушай или прочитай пример, затем произнеси его целиком. Обрати внимание на смысловое ударение и форму конструкции; не ориентируйся только на буквенный перевод.\n\n### 4.9. Академический английский и TOEFL-перенос\n\nВ Reading определяй, какую именно группу ограничивает придаточное: Students who submitted the form — не все студенты. В Listening распознавай объект по описанию, например the office that handles applications. В Speaking объясняй предмет или человека простыми relative clauses; в Writing объединяй информацию, сохраняя ясность. Это тренировка навыка, не официальный экзаменационный вопрос.\n\nЭто авторская практика переноса навыка. Она не является официальным заданием TOEFL и не выдаётся за официальный результат экзамена.\n\n### 4.10. Примеры для управляемого разбора\n\n- I need a dictionary that works offline. — Мне нужен словарь, который работает без интернета. That — subject придаточного.\n- The teacher who helped me is very kind. — Преподаватель, который помог мне, очень добрый. Who — subject.\n- The book I ordered arrived today. — Книга, которую я заказала, пришла сегодня. Object relative pronoun опущено.\n\nДля каждого примера назови целевую конструкцию, объясни выбор и составь новое предложение в другом контексте. Затем перейди к заданиям: сначала диагностика, затем управляемая и самостоятельная практика, затем новые вопросы выходной проверки.\n\n### 4.11. Самопроверка\n\nПеред отправкой ответа проверь:\n1. Relative clause уточняет конкретный noun или группу.\n2. Who/which/that соответствуют объекту и типу clause.\n3. Subject relative pronoun не опускается.\n4. Object relative pronoun опускается только в подходящей модели.\n5. Whose/where и предлоги употреблены по функции.\n6. Нет дублирующих местоимений и лишних запятых.\n\n### 4.12. Краткая памятка\n\nDefining relative clause уточняет noun, обычно без запятых. Who/that — человек, which/that — предмет; subject relative pronoun нельзя убрать, object часто можно. Whose + noun — принадлежность, where — место действия. Не дублируй subject/object и не используй what после названного noun.\n\nНе выбирай форму только по одному знакомому слову: проверь контекст, значение и структуру. При ошибке вернись к соответствующей части конспекта и составь собственный пример.\n\n## 5. Практика\n\nВ приложении практика разделена на входную диагностику, управляемые задания, самостоятельную практику и новую выходную проверку. Закрытые ответы получают rationale и разбор ошибки. Свободный текст сохраняется и оценивается по рубрике; до подключения и реальной проверки AI-движка система не выдаёт его за автоматическую AI-оценку.\n\n## 6. Интервальное повторение\n\nПовторяй не весь урок автоматически, а конкретную ошибку: выбор формы, согласование, word order, значение, регистр или пунктуацию. Новая попытка должна менять лексический контекст и формулировку, чтобы проверять перенос, а не запоминание одной строки.\n\n## 7. Технический статус\n\n- Постоянный ID: `A2-14`.\n- Прогресс хранится отдельно в course.grammarLessons[\"A2-14\"].\n- Содержание и ключи имеют статус draft; 24 авторских закрытых задания и объяснения вычитаны, выбранные тексты источников проверены. Полная постраничная и пользовательская приёмка остаются открытыми.\n- Предварительное выполнение порогов не равно окончательному mastered: нужны отсроченное повторение и learner review.",
+  "theoryEnd": "## 5."
+}

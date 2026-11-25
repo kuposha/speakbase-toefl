@@ -1,0 +1,745 @@
+{
+  "id": "A2-13",
+  "level": "A2",
+  "sequence": "A2-13",
+  "grammarFamily": "A2-13",
+  "questionBankSource": "topic-specific-authored",
+  "sourceVerification": "draft; selected source text consulted; complete source-page and learner review pending",
+  "topicProfile": {
+    "label": "question forms and indirect questions — introduction",
+    "skillTarget": "direct-and-indirect-questions",
+    "core": "В английском языке порядок слов помогает отличить вопрос от утверждения. Yes/no questions предполагают ответ да или нет, wh-questions запрашивают конкретную информацию. В обычном прямом вопросе вспомогательный глагол ставится перед подлежащим. Но вопрос к самому подлежащему обычно не требует do/does/did: Who called? В косвенном (встроенном) вопросе после вводной фразы используется прямой порядок слов.",
+    "form": "| Тип вопроса | Формула | Пример |\n|---|---|---|\n| Be | Am/Is/Are/Was/Were + subject? | Is the room free? |\n| Present Simple | Do/Does + subject + V1? | Does she study here? |\n| Past Simple | Did + subject + V1? | Did you call? |\n| Continuous | Be + subject + V-ing? | Are they studying? |\n| Perfect | Have/Has + subject + V3? | Have you eaten? |\n| Modal | Modal + subject + V1? | Can you help? |\n| Wh-object | Wh-word + auxiliary + subject + verb? | What did she buy? |\n| Wh-subject | Who/What/Which + verb? | Who bought it? |\n| Embedded wh | Introduction + wh-word + subject + verb | Do you know where she lives? |\n| Embedded yes/no | Introduction + if/whether + subject + verb | I wonder if she is free. |",
+    "selection": "Установи, какую информацию нужно получить. Если да/нет — начни с вспомогательного слова. Если неизвестно место, время, причина или объект, начни с wh-word и затем поставь auxiliary перед subject. Если неизвестен сам исполнитель, поставь вопросительное слово на место subject и сохрани обычную форму сказуемого. Для вежливого запроса информации добавь Could you tell me…? и перестрой внутреннюю часть на subject + verb.",
+    "contrast": "| Прямой вопрос | Встроенный вопрос |\n|---|---|\n| Where is the office? | Could you tell me where the office is? |\n| When does the class start? | Do you know when the class starts? |\n| Why did she leave? | I wonder why she left. |\n| How much will it cost? | Do you know how much it will cost? |\n| Is the office open? | Do you know whether the office is open? |\n| Who called? | Do you know who called? |",
+    "boundary": "Вопросительный знак зависит от всей фразы: Could you tell me where the room is? — вопрос; I don't know where the room is. — утверждение. Внутри embedded question нет второй инверсии. Do/does/did, которые только образовывали вопрос, исчезают, но смысловой do сохраняется: What do you do? → Could you tell me what you do? Вопрос к подлежащему может содержать вспомогательный глагол, если он нужен самой форме: Who has finished? Who is coming?",
+    "pronunciation": "В yes/no questions часто встречается восходящая интонация, в wh-questions — нисходящая, но это не абсолютное правило. Вежливость зависит также от контекста и тона. В Could you tell me where the station is? произнеси всю фразу как один запрос, не превращая where the station is в отдельный прямой вопрос. Вспомогательные do/does/did часто безударны. Аудиосверка остаётся отдельной задачей.",
+    "examples": [
+      [
+        "Does the museum open on Mondays?",
+        "Музей открывается по понедельникам?",
+        "Does + singular subject + V1."
+      ],
+      [
+        "Who sent this message?",
+        "Кто отправил это сообщение?",
+        "Who — subject; sent — V2."
+      ],
+      [
+        "Who did you send the message to?",
+        "Кому ты отправила сообщение?",
+        "Object question с did и конечным to."
+      ],
+      [
+        "Could you tell me where the nearest bus stop is?",
+        "Не могли бы вы сказать, где ближайшая остановка?",
+        "Внутри where-clause прямой порядок."
+      ],
+      [
+        "Do you know if the printer works?",
+        "Ты знаешь, работает ли принтер?",
+        "If вводит встроенный yes/no question."
+      ],
+      [
+        "Haven't you finished yet?",
+        "Ты ещё не закончила?",
+        "Отрицательный вопрос может выражать удивление."
+      ]
+    ],
+    "traps": [
+      [
+        "Where you live?",
+        "Where do you live?",
+        "В прямом Present Simple нужен do."
+      ],
+      [
+        "Does she studies here?",
+        "Does she study here?",
+        "После does нужна V1."
+      ],
+      [
+        "Who did opened the door?",
+        "Who opened the door?",
+        "Нейтральный вопрос к подлежащему без did."
+      ],
+      [
+        "Could you tell me where is the bank?",
+        "Could you tell me where the bank is?",
+        "Во встроенной части прямой порядок."
+      ],
+      [
+        "I wonder does the shop open early.",
+        "I wonder if the shop opens early.",
+        "If + subject + verb."
+      ]
+    ],
+    "toefl": "В Listening распознавай, что именно спрашивает студент: место, время, условие или исполнитель. В Speaking Interview отвечай на содержание вопроса, а в Writing Email формулируй вежливые запросы: Could you tell me when applications close? Для Build a Sentence полезно отдельно проверять порядок слов в embedded questions. Это авторская практика, не официальный вопрос ETS."
+  },
+  "title": "Question forms and indirect questions — introduction",
+  "description": "Формировать wh-/yes-no questions, различать subject/object questions и начинать вежливые indirect questions",
+  "cardDescription": "Теория, guided practice, самостоятельные задания и выходная проверка по постоянному ID A2-13.",
+  "eyebrow": "Полный урок программы A2-13 · drafted",
+  "contentVersion": "1.1-draft",
+  "curriculumVersion": "1.0",
+  "prerequisites": [
+    "A1-03",
+    "A1-06"
+  ],
+  "outcomes": [
+    "Формировать wh-/yes-no questions, различать subject/object questions и начинать вежливые indirect questions",
+    "Выбирать целевую конструкцию по контексту и смыслу.",
+    "Исправлять типичные ошибки и переносить правило в новый пример."
+  ],
+  "sourceRefs": [
+    "GR-01 U45-50",
+    "GR-02 U49-50",
+    "GR-03 U26-27",
+    "GR-05 A2 p19-20",
+    "GR-05 A2 p64-66"
+  ],
+  "sourceStatus": "selected source text consulted; full page verification pending",
+  "status": "drafted",
+  "legacyCoverage": "Частично",
+  "toeflLinks": [
+    "Writing: Build a Sentence",
+    "Listening: tense/aspect, modality, weak forms and discourse cues",
+    "Speaking: Listen and Repeat / Take an Interview",
+    "Writing: Write an Email"
+  ],
+  "thresholds": {
+    "independent": 7,
+    "exit": 4,
+    "criticalIds": [
+      "E1",
+      "E2",
+      "E3"
+    ]
+  },
+  "groups": {
+    "independent": "Самостоятельная практика",
+    "exit": "Выходная проверка"
+  },
+  "items": [
+    {
+      "id": "D1",
+      "group": "Входная диагностика",
+      "prompt": "Choose the question about a present state with be.",
+      "options": [
+        "Does the laboratory be open?",
+        "Is the laboratory open?",
+        "The laboratory is open? (neutral written question)"
+      ],
+      "answer": "Is the laboratory open?",
+      "accepted": [
+        "Is the laboratory open?"
+      ],
+      "why": "Is перед subject образует обычный вопрос.",
+      "distractorWhy": "Do не нужен с be.",
+      "distractorRationales": {
+        "Does the laboratory be open?": "Do не нужен с be.",
+        "The laboratory is open? (neutral written question)": "В нейтральной форме нужна инверсия."
+      },
+      "skillTarget": "direct-and-indirect-questions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D2",
+      "group": "Входная диагностика",
+      "prompt": "Choose the direct question about a regular activity.",
+      "options": [
+        "Does Mia attend this course?",
+        "Does Mia attends this course?",
+        "Is Mia attend this course?"
+      ],
+      "answer": "Does Mia attend this course?",
+      "accepted": [
+        "Does Mia attend this course?"
+      ],
+      "why": "Does + subject + V1.",
+      "distractorWhy": "Attends после does неверно.",
+      "distractorRationales": {
+        "Does Mia attends this course?": "Attends после does неверно.",
+        "Is Mia attend this course?": "Is не образует вопрос с V1 attend."
+      },
+      "skillTarget": "direct-and-indirect-questions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D3",
+      "group": "Входная диагностика",
+      "prompt": "Choose the correct past question about the journey.",
+      "options": [
+        "Where did you went last weekend?",
+        "Where you go last weekend?",
+        "Where did you go last weekend?"
+      ],
+      "answer": "Where did you go last weekend?",
+      "accepted": [
+        "Where did you go last weekend?"
+      ],
+      "why": "Did + subject + V1 go.",
+      "distractorWhy": "Went — V2.",
+      "distractorRationales": {
+        "Where did you went last weekend?": "Went — V2.",
+        "Where you go last weekend?": "Пропущено did."
+      },
+      "skillTarget": "direct-and-indirect-questions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D4",
+      "group": "Входная диагностика",
+      "prompt": "Choose the question about an ongoing activity now.",
+      "options": [
+        "What do the students discussing?",
+        "What are the students discussing?",
+        "What are discussing the students?"
+      ],
+      "answer": "What are the students discussing?",
+      "accepted": [
+        "What are the students discussing?"
+      ],
+      "why": "Are + subject + V-ing.",
+      "distractorWhy": "Do не образует Continuous.",
+      "distractorRationales": {
+        "What do the students discussing?": "Do не образует Continuous.",
+        "What are discussing the students?": "Subject должен стоять после are."
+      },
+      "skillTarget": "direct-and-indirect-questions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G1",
+      "group": "Управляемая практика",
+      "prompt": "Choose the question about a result up to now.",
+      "options": [
+        "Has the instructor replied yet?",
+        "Has the instructor reply yet?",
+        "Does the instructor has replied yet?"
+      ],
+      "answer": "Has the instructor replied yet?",
+      "accepted": [
+        "Has the instructor replied yet?"
+      ],
+      "why": "Has + subject + V3.",
+      "distractorWhy": "Reply — V1.",
+      "distractorRationales": {
+        "Has the instructor reply yet?": "Reply — V1.",
+        "Does the instructor has replied yet?": "Does не добавляется к Perfect."
+      },
+      "skillTarget": "direct-and-indirect-questions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G2",
+      "group": "Управляемая практика",
+      "prompt": "Choose the grammatical question with a modal.",
+      "options": [
+        "What do we can do next?",
+        "What can we to do next?",
+        "What can we do next?"
+      ],
+      "answer": "What can we do next?",
+      "accepted": [
+        "What can we do next?"
+      ],
+      "why": "Modal + subject + V1.",
+      "distractorWhy": "Do не нужен.",
+      "distractorRationales": {
+        "What do we can do next?": "Do не нужен.",
+        "What can we to do next?": "To после can не ставят."
+      },
+      "skillTarget": "direct-and-indirect-questions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G3",
+      "group": "Управляемая практика",
+      "prompt": "Someone moved the chair. Ask who performed the action.",
+      "options": [
+        "Who did moved the chair?",
+        "Who moved the chair?",
+        "Who move the chair yesterday?"
+      ],
+      "answer": "Who moved the chair?",
+      "accepted": [
+        "Who moved the chair?"
+      ],
+      "why": "Who — subject; moved — V2.",
+      "distractorWhy": "После did нельзя V2.",
+      "distractorRationales": {
+        "Who did moved the chair?": "После did нельзя V2.",
+        "Who move the chair yesterday?": "Move не выражает прошлое."
+      },
+      "skillTarget": "direct-and-indirect-questions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G4",
+      "group": "Управляемая практика",
+      "prompt": "Leo invited someone. Ask about the person he invited.",
+      "options": [
+        "Who did Leo invite?",
+        "Who did Leo invited?",
+        "Who Leo invite?"
+      ],
+      "answer": "Who did Leo invite?",
+      "accepted": [
+        "Who did Leo invite?"
+      ],
+      "why": "Who — object; did + Leo + V1.",
+      "distractorWhy": "Invited не V1.",
+      "distractorRationales": {
+        "Who did Leo invited?": "Invited не V1.",
+        "Who Leo invite?": "В прямом вопросе нужен did."
+      },
+      "skillTarget": "direct-and-indirect-questions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G5",
+      "group": "Управляемая практика",
+      "prompt": "Choose the subject question about the number of visitors who arrived.",
+      "options": [
+        "How many visitors did arrived?",
+        "How many visitors arrive yesterday?",
+        "How many visitors arrived?"
+      ],
+      "answer": "How many visitors arrived?",
+      "accepted": [
+        "How many visitors arrived?"
+      ],
+      "why": "How many visitors — subject, arrived — V2.",
+      "distractorWhy": "Did не нужен; V2 после did неверна.",
+      "distractorRationales": {
+        "How many visitors did arrived?": "Did не нужен; V2 после did неверна.",
+        "How many visitors arrive yesterday?": "Нет прошедшей формы."
+      },
+      "skillTarget": "direct-and-indirect-questions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G6",
+      "group": "Управляемая практика",
+      "prompt": "Choose the question about the number of books someone borrowed.",
+      "options": [
+        "How many books did you borrowed?",
+        "How many books did you borrow?",
+        "How much books did you borrow?"
+      ],
+      "answer": "How many books did you borrow?",
+      "accepted": [
+        "How many books did you borrow?"
+      ],
+      "why": "How many + plural object; did + V1.",
+      "distractorWhy": "Borrowed — V2.",
+      "distractorRationales": {
+        "How many books did you borrowed?": "Borrowed — V2.",
+        "How much books did you borrow?": "Much не подходит к plural books."
+      },
+      "skillTarget": "direct-and-indirect-questions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I1",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the ordinary question about the origin of a person.",
+      "options": [
+        "Where do you be from?",
+        "Where you are from? (neutral direct question)",
+        "Where are you from?"
+      ],
+      "answer": "Where are you from?",
+      "accepted": [
+        "Where are you from?"
+      ],
+      "why": "Be перед subject; from в конце.",
+      "distractorWhy": "Do не нужен с be.",
+      "distractorRationales": {
+        "Where do you be from?": "Do не нужен с be.",
+        "Where you are from? (neutral direct question)": "Нет инверсии."
+      },
+      "skillTarget": "direct-and-indirect-questions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I2",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose a question about frequency.",
+      "options": [
+        "How long do you revise grammar?",
+        "How often do you revise grammar?",
+        "How much is the grammar book?"
+      ],
+      "answer": "How often do you revise grammar?",
+      "accepted": [
+        "How often do you revise grammar?"
+      ],
+      "why": "How often спрашивает о частоте.",
+      "distractorWhy": "How long — длительность.",
+      "distractorRationales": {
+        "How long do you revise grammar?": "How long — длительность.",
+        "How much is the grammar book?": "How much is — цена."
+      },
+      "skillTarget": "direct-and-indirect-questions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I3",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the embedded question with correct word order.",
+      "options": [
+        "Could you tell me where the library is?",
+        "Could you tell me where is the library?",
+        "Could you tell me where the library be?"
+      ],
+      "answer": "Could you tell me where the library is?",
+      "accepted": [
+        "Could you tell me where the library is?"
+      ],
+      "why": "Внутри where-clause subject + is.",
+      "distractorWhy": "Лишняя инверсия.",
+      "distractorRationales": {
+        "Could you tell me where is the library?": "Лишняя инверсия.",
+        "Could you tell me where the library be?": "Be не личная форма."
+      },
+      "skillTarget": "direct-and-indirect-questions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I4",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the embedded question about the start time.",
+      "options": [
+        "Do you know when does the workshop begin?",
+        "Do you know when the workshop begin?",
+        "Do you know when the workshop begins?"
+      ],
+      "answer": "Do you know when the workshop begins?",
+      "accepted": [
+        "Do you know when the workshop begins?"
+      ],
+      "why": "Does исчезает, singular workshop + begins.",
+      "distractorWhy": "Внутри придаточного нет do-support вопроса.",
+      "distractorRationales": {
+        "Do you know when does the workshop begin?": "Внутри придаточного нет do-support вопроса.",
+        "Do you know when the workshop begin?": "Нужна форма begins."
+      },
+      "skillTarget": "direct-and-indirect-questions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I5",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the embedded question about a past action.",
+      "options": [
+        "I wonder why did he leave early.",
+        "I wonder why he left early.",
+        "I wonder why he leave early yesterday."
+      ],
+      "answer": "I wonder why he left early.",
+      "accepted": [
+        "I wonder why he left early."
+      ],
+      "why": "Внутри clause обычный порядок и V2.",
+      "distractorWhy": "Did-инверсия лишняя.",
+      "distractorRationales": {
+        "I wonder why did he leave early.": "Did-инверсия лишняя.",
+        "I wonder why he leave early yesterday.": "Leave не выражает прошедшее."
+      },
+      "skillTarget": "direct-and-indirect-questions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I6",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the embedded yes/no question about availability.",
+      "options": [
+        "Do you know whether the seats are available?",
+        "Do you know are the seats available?",
+        "Do you know whether are the seats available?"
+      ],
+      "answer": "Do you know whether the seats are available?",
+      "accepted": [
+        "Do you know whether the seats are available?"
+      ],
+      "why": "Whether + subject + verb.",
+      "distractorWhy": "Нужен if/whether.",
+      "distractorRationales": {
+        "Do you know are the seats available?": "Нужен if/whether.",
+        "Do you know whether are the seats available?": "Лишняя инверсия."
+      },
+      "skillTarget": "direct-and-indirect-questions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I7",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct embedded question with a future modal.",
+      "options": [
+        "Can you tell me how much will the ticket cost?",
+        "Can you tell me how much the ticket will costs?",
+        "Can you tell me how much the ticket will cost?"
+      ],
+      "answer": "Can you tell me how much the ticket will cost?",
+      "accepted": [
+        "Can you tell me how much the ticket will cost?"
+      ],
+      "why": "Во внутренней части subject + will + V1.",
+      "distractorWhy": "Инверсия там не нужна.",
+      "distractorRationales": {
+        "Can you tell me how much will the ticket cost?": "Инверсия там не нужна.",
+        "Can you tell me how much the ticket will costs?": "После will не ставят -s."
+      },
+      "skillTarget": "direct-and-indirect-questions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I8",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the embedded subject question.",
+      "options": [
+        "Do you know who did wrote this article?",
+        "Do you know who wrote this article?",
+        "Do you know who write this article yesterday?"
+      ],
+      "answer": "Do you know who wrote this article?",
+      "accepted": [
+        "Do you know who wrote this article?"
+      ],
+      "why": "Who — subject; wrote — V2.",
+      "distractorWhy": "Did и V2 несовместимы.",
+      "distractorRationales": {
+        "Do you know who did wrote this article?": "Did и V2 несовместимы.",
+        "Do you know who write this article yesterday?": "Write не прошедшая форма."
+      },
+      "skillTarget": "direct-and-indirect-questions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I9",
+      "group": "Самостоятельная практика",
+      "prompt": "You received the email. Answer 'Didn't you receive my email?'",
+      "options": [
+        "Yes, I did.",
+        "No, I didn't.",
+        "Yes, I didn't receive it."
+      ],
+      "answer": "Yes, I did.",
+      "accepted": [
+        "Yes, I did."
+      ],
+      "why": "Yes подтверждает положительный факт.",
+      "distractorWhy": "No, I didn't означает не получила.",
+      "distractorRationales": {
+        "No, I didn't.": "No, I didn't означает не получила.",
+        "Yes, I didn't receive it.": "Yes и отрицание противоречат нужному ответу."
+      },
+      "skillTarget": "direct-and-indirect-questions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E1",
+      "group": "Выходная проверка",
+      "prompt": "Choose the suggestion using a negative why-question.",
+      "options": [
+        "Why don't we take a break?",
+        "Why we don't take a break?",
+        "Why don't we taking a break?"
+      ],
+      "answer": "Why don't we take a break?",
+      "accepted": [
+        "Why don't we take a break?"
+      ],
+      "why": "Why don't we + V1 — предложение.",
+      "distractorWhy": "В прямом вопросе нужна инверсия.",
+      "distractorRationales": {
+        "Why we don't take a break?": "В прямом вопросе нужна инверсия.",
+        "Why don't we taking a break?": "Taking не V1."
+      },
+      "skillTarget": "direct-and-indirect-questions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E2",
+      "group": "Выходная проверка",
+      "prompt": "Choose the correct punctuation for a statement containing an embedded question.",
+      "options": [
+        "I don't know when the lecture ends?",
+        "I don't know, when does the lecture end.",
+        "I don't know when the lecture ends."
+      ],
+      "answer": "I don't know when the lecture ends.",
+      "accepted": [
+        "I don't know when the lecture ends."
+      ],
+      "why": "Всё предложение — сообщение, точка.",
+      "distractorWhy": "Не прямой вопрос.",
+      "distractorRationales": {
+        "I don't know when the lecture ends?": "Не прямой вопрос.",
+        "I don't know, when does the lecture end.": "Нет нужной структуры."
+      },
+      "skillTarget": "direct-and-indirect-questions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E3",
+      "group": "Выходная проверка",
+      "prompt": "Choose the correct question containing an embedded yes/no clause.",
+      "options": [
+        "Could you tell me if is this seat free?",
+        "Could you tell me if this seat is free?",
+        "Could you tell me is this seat free."
+      ],
+      "answer": "Could you tell me if this seat is free?",
+      "accepted": [
+        "Could you tell me if this seat is free?"
+      ],
+      "why": "If + subject + verb; внешний вопрос требует ?.",
+      "distractorWhy": "Лишняя инверсия внутри.",
+      "distractorRationales": {
+        "Could you tell me if is this seat free?": "Лишняя инверсия внутри.",
+        "Could you tell me is this seat free.": "Пропущено if/whether и знак вопроса."
+      },
+      "skillTarget": "direct-and-indirect-questions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E4",
+      "group": "Выходная проверка",
+      "prompt": "Choose the embedded question that preserves the main verb do.",
+      "options": [
+        "Could you tell me what you do for work?",
+        "Could you tell me what do you do for work?",
+        "Could you tell me what you for work?"
+      ],
+      "answer": "Could you tell me what you do for work?",
+      "accepted": [
+        "Could you tell me what you do for work?"
+      ],
+      "why": "Смысловой do сохраняется; auxiliary прямого вопроса исчезает.",
+      "distractorWhy": "Инверсия внутри лишняя.",
+      "distractorRationales": {
+        "Could you tell me what do you do for work?": "Инверсия внутри лишняя.",
+        "Could you tell me what you for work?": "Пропущено сказуемое."
+      },
+      "skillTarget": "direct-and-indirect-questions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E5",
+      "group": "Выходная проверка",
+      "prompt": "Choose the neutral subject question with a perfect auxiliary.",
+      "options": [
+        "Who did has completed the form?",
+        "Who has complete the form?",
+        "Who has completed the form?"
+      ],
+      "answer": "Who has completed the form?",
+      "accepted": [
+        "Who has completed the form?"
+      ],
+      "why": "Who — subject, has completed сохраняет Perfect.",
+      "distractorWhy": "Did не добавляется к has.",
+      "distractorRationales": {
+        "Who did has completed the form?": "Did не добавляется к has.",
+        "Who has complete the form?": "Complete не V3."
+      },
+      "skillTarget": "direct-and-indirect-questions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "W1",
+      "group": "Самостоятельное применение",
+      "prompt": "Составь диалог из 8–10 реплик о записи на курс. Включи yes/no, два wh-object, два subject questions, два вежливых embedded questions (wh и if/whether) и один отрицательный вопрос с ответом. Поясни выбор auxiliary и порядок слов.",
+      "open": true,
+      "rubric": [
+        "Вопросы используют соответствующий auxiliary.",
+        "После do/does/did стоит V1.",
+        "Subject и object questions различены.",
+        "Во встроенных вопросах прямой порядок.",
+        "If/whether вводит встроенный общий вопрос.",
+        "Пунктуация и ответ на отрицательный вопрос передают правильный смысл."
+      ],
+      "skillTarget": "Самостоятельное применение A2-13",
+      "interactionType": "open-production",
+      "difficulty": "transfer",
+      "sourceBasis": "Speakbase-authored open production; self-review rubric only until real AI feedback is connected",
+      "contentVersion": "1.1-draft"
+    }
+  ],
+  "markdown": "# Speakbase — A2-13: Question forms and indirect questions — introduction\n\n**Curriculum ID:** `A2-13`  \n**Уровень:** A2  \n**Версия:** 1.1-draft\n**Статус:** drafted; selected source text checked; full source-page and learner acceptance pending\n**Предварительные темы:** A1-03, A1-06  \n**Связь со старым каталогом:** Частично — №32 Reported Questions; №42 Indirect Questions\n\n## 1. Результаты обучения\n\n- Формировать wh-/yes-no questions, различать subject/object questions и начинать вежливые indirect questions\n- Выбирать целевую форму по значению, структуре предложения и контексту.\n- Объяснять, почему близкая грамматическая форма меняет смысл или регистр.\n- Находить и исправлять типичные ошибки русскоязычных студентов.\n\n## 2. Источники и статус сверки\n\n| Source | PDF navigation | Lesson-specific checks | Status |\n|---|---|---|---|\n| GR-01 U45-50 | PDF pages 101-112 (Unit 45-50) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-02 U49-50 | PDF pages 110-113 (Unit 49-50) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-03 U26-27 | PDF pages 76-79 (Unit 26-27) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-05 A2 p19-20 | PDF pages 19-20 (A2 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-05 A2 p64-66 | PDF pages 64-66 (A2 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n\nUnit/page locations are navigation aids only. They do not prove that the cited explanation, examples, restrictions and answer key have been checked for this lesson. Examples and explanations below are Speakbase-authored, not quotations from the textbook.\n\nПеред переводом этого урока в source-verified необходимо открыть целевые страницы конкретного издания, записать печатную и PDF-пагинацию, сверить ограничения и исключения. Для GR-03 со сканированными страницами обязательна визуальная проверка.\n\n**Evidence for this editorial pass:** GR-02 Units 49–50, theory text directly checked, PDF pp. 110 and 112 (printed pp. 98 and 100): auxiliary inversion, subject/object questions, negative questions, final prepositions and embedded word order. Additional source, exercise-page and visual checks pending. The selected source text was consulted; not all pages, exercises, editions, scanned GR-03 pages or GR-05 descriptors were checked. Author-created explanations and practice are not copied source exercises.\n\n## 3. Место темы и границы\n\nРазведи yes/no, wh-, subject и object questions. Во встроенных вопросах после вводной фразы используй statement word order.\n\nСтарый каталог содержит: №32 Reported Questions; №42 Indirect Questions. Его статус — Частично. Старые отметки завершения не переносятся автоматически на новый постоянный ID. Тема рассматривается в уровне A2 и не заменяет обязательные prerequisites.\n\n## 4. Полный конспект\n\n### 4.1. Основная идея и функция конструкции\n\nВ английском языке порядок слов помогает отличить вопрос от утверждения. Yes/no questions предполагают ответ да или нет, wh-questions запрашивают конкретную информацию. В обычном прямом вопросе вспомогательный глагол ставится перед подлежащим. Но вопрос к самому подлежащему обычно не требует do/does/did: Who called? В косвенном (встроенном) вопросе после вводной фразы используется прямой порядок слов.\n\nСначала сравни три предложения: Anna called Leo. Who called Leo? Who did Anna call? В первом вопросе неизвестно, кто совершил действие, и who занимает место подлежащего Anna. Во втором известен исполнитель Anna, но неизвестен объект действия Leo; поэтому появляется did и начальная форма call. Такой способ анализа работает и с what, which и how many + noun. Например, How many people came? спрашивает о числе пришедших людей, How many people did you invite? — о числе приглашённых тобой людей.\n\n### 4.2. Формирование и грамматическая модель\n\n| Тип вопроса | Формула | Пример |\n|---|---|---|\n| Be | Am/Is/Are/Was/Were + subject? | Is the room free? |\n| Present Simple | Do/Does + subject + V1? | Does she study here? |\n| Past Simple | Did + subject + V1? | Did you call? |\n| Continuous | Be + subject + V-ing? | Are they studying? |\n| Perfect | Have/Has + subject + V3? | Have you eaten? |\n| Modal | Modal + subject + V1? | Can you help? |\n| Wh-object | Wh-word + auxiliary + subject + verb? | What did she buy? |\n| Wh-subject | Who/What/Which + verb? | Who bought it? |\n| Embedded wh | Introduction + wh-word + subject + verb | Do you know where she lives? |\n| Embedded yes/no | Introduction + if/whether + subject + verb | I wonder if she is free. |\n\nВ вопросе с несколькими вспомогательными словами перемещается только первое: She has been working → Has she been working? С be не добавляй do: Where is the library? С modal также не нужен do: What can I do? Если в утвердительном Present/Past Simple нет вспомогательного глагола, добавляется do/does/did. Does и did уже выражают лицо или время, поэтому основной глагол возвращается в V1. She studies → Does she study? He went → Where did he go? В вопросе к подлежащему форма остаётся согласованной: Which bus goes to campus? После who в простом вопросе часто используется singular verb, если число неизвестно.\n\n### 4.3. Как выбрать подходящую форму\n\nУстанови, какую информацию нужно получить. Если да/нет — начни с вспомогательного слова. Если неизвестно место, время, причина или объект, начни с wh-word и затем поставь auxiliary перед subject. Если неизвестен сам исполнитель, поставь вопросительное слово на место subject и сохрани обычную форму сказуемого. Для вежливого запроса информации добавь Could you tell me…? и перестрой внутреннюю часть на subject + verb.\n\nВопросительные слова: who — кто/кого, what — что/какой, which — какой из возможных, where — где/куда, when — когда, why — почему, how — как, how much — сколько (количество неисчисляемого или цена), how many — сколько исчисляемых предметов, how long — как долго, how often — как часто. В обычной разговорной речи предлог часто остаётся в конце: Who are you talking to? Where are you from? В более формальном стиле To whom…? возможно. Если общего вопросительного слова нет, встроенный вопрос начинается с if или whether: Do you know if the office is open?\n\n### 4.4. Сравнение с близкими конструкциями\n\n| Прямой вопрос | Встроенный вопрос |\n|---|---|\n| Where is the office? | Could you tell me where the office is? |\n| When does the class start? | Do you know when the class starts? |\n| Why did she leave? | I wonder why she left. |\n| How much will it cost? | Do you know how much it will cost? |\n| Is the office open? | Do you know whether the office is open? |\n| Who called? | Do you know who called? |\n\n### 4.5. Примеры с переводом и объяснением\n\n| English | Перевод | Почему это подходит |\n| --- | --- | --- |\n| Does the museum open on Mondays? | Музей открывается по понедельникам? | Does + singular subject + V1. |\n| Who sent this message? | Кто отправил это сообщение? | Who — subject; sent — V2. |\n| Who did you send the message to? | Кому ты отправила сообщение? | Object question с did и конечным to. |\n| Could you tell me where the nearest bus stop is? | Не могли бы вы сказать, где ближайшая остановка? | Внутри where-clause прямой порядок. |\n| Do you know if the printer works? | Ты знаешь, работает ли принтер? | If вводит встроенный yes/no question. |\n| Haven't you finished yet? | Ты ещё не закончила? | Отрицательный вопрос может выражать удивление. |\n\n### 4.6. Исключения, ограничения и границы употребления\n\nВопросительный знак зависит от всей фразы: Could you tell me where the room is? — вопрос; I don't know where the room is. — утверждение. Внутри embedded question нет второй инверсии. Do/does/did, которые только образовывали вопрос, исчезают, но смысловой do сохраняется: What do you do? → Could you tell me what you do? Вопрос к подлежащему может содержать вспомогательный глагол, если он нужен самой форме: Who has finished? Who is coming?\n\nОтрицательные вопросы часто передают удивление или ожидание согласия: Didn't you get my message? Ответ Yes, I did означает, что сообщение получено, No, I didn't — не получено. В Why don't we take a break? вопросительная форма выражает предложение. Who did call? возможно с особым усилительным ударением, но это не нейтральная форма subject question. Косвенный вопрос в настоящей ситуации не требует автоматического сдвига времён; пересказ вопроса, произнесённого в прошлом, будет подробно изучаться на B1. Не путай if в embedded question (ли) с условным if (если).\n\n### 4.7. Типичные ошибки русскоязычных студентов\n\n| Ошибка | Исправление | Объяснение |\n| --- | --- | --- |\n| Where you live? | Where do you live? | В прямом Present Simple нужен do. |\n| Does she studies here? | Does she study here? | После does нужна V1. |\n| Who did opened the door? | Who opened the door? | Нейтральный вопрос к подлежащему без did. |\n| Could you tell me where is the bank? | Could you tell me where the bank is? | Во встроенной части прямой порядок. |\n| I wonder does the shop open early. | I wonder if the shop opens early. | If + subject + verb. |\n\n### 4.8. Произношение и восприятие на слух\n\nВ yes/no questions часто встречается восходящая интонация, в wh-questions — нисходящая, но это не абсолютное правило. Вежливость зависит также от контекста и тона. В Could you tell me where the station is? произнеси всю фразу как один запрос, не превращая where the station is в отдельный прямой вопрос. Вспомогательные do/does/did часто безударны. Аудиосверка остаётся отдельной задачей.\n\nСначала прослушай или прочитай пример, затем произнеси его целиком. Обрати внимание на смысловое ударение и форму конструкции; не ориентируйся только на буквенный перевод.\n\n### 4.9. Академический английский и TOEFL-перенос\n\nВ Listening распознавай, что именно спрашивает студент: место, время, условие или исполнитель. В Speaking Interview отвечай на содержание вопроса, а в Writing Email формулируй вежливые запросы: Could you tell me when applications close? Для Build a Sentence полезно отдельно проверять порядок слов в embedded questions. Это авторская практика, не официальный вопрос ETS.\n\nЭто авторская практика переноса навыка. Она не является официальным заданием TOEFL и не выдаётся за официальный результат экзамена.\n\n### 4.10. Примеры для управляемого разбора\n\n- Does the museum open on Mondays? — Музей открывается по понедельникам? Does + singular subject + V1.\n- Who sent this message? — Кто отправил это сообщение? Who — subject; sent — V2.\n- Who did you send the message to? — Кому ты отправила сообщение? Object question с did и конечным to.\n\nДля каждого примера назови целевую конструкцию, объясни выбор и составь новое предложение в другом контексте. Затем перейди к заданиям: сначала диагностика, затем управляемая и самостоятельная практика, затем новые вопросы выходной проверки.\n\n### 4.11. Самопроверка\n\nПеред отправкой ответа проверь:\n1. Вопросы используют соответствующий auxiliary.\n2. После do/does/did стоит V1.\n3. Subject и object questions различены.\n4. Во встроенных вопросах прямой порядок.\n5. If/whether вводит встроенный общий вопрос.\n6. Пунктуация и ответ на отрицательный вопрос передают правильный смысл.\n\n### 4.12. Краткая памятка\n\nПрямой вопрос: auxiliary + subject; с Present/Past Simple — do/does/did + V1. Wh-subject обычно без do-support; wh-object требует обычной вопросительной структуры. Embedded question: wh-word/if/whether + subject + verb. Вопросительный знак ставится по функции всего предложения.\n\nНе выбирай форму только по одному знакомому слову: проверь контекст, значение и структуру. При ошибке вернись к соответствующей части конспекта и составь собственный пример.\n\n## 5. Практика\n\nВ приложении практика разделена на входную диагностику, управляемые задания, самостоятельную практику и новую выходную проверку. Закрытые ответы получают rationale и разбор ошибки. Свободный текст сохраняется и оценивается по рубрике; до подключения и реальной проверки AI-движка система не выдаёт его за автоматическую AI-оценку.\n\n## 6. Интервальное повторение\n\nПовторяй не весь урок автоматически, а конкретную ошибку: выбор формы, согласование, word order, значение, регистр или пунктуацию. Новая попытка должна менять лексический контекст и формулировку, чтобы проверять перенос, а не запоминание одной строки.\n\n## 7. Технический статус\n\n- Постоянный ID: `A2-13`.\n- Прогресс хранится отдельно в course.grammarLessons[\"A2-13\"].\n- Содержание и ключи имеют статус draft; 24 авторских закрытых задания и объяснения вычитаны, выбранные тексты источников проверены. Полная постраничная и пользовательская приёмка остаются открытыми.\n- Предварительное выполнение порогов не равно окончательному mastered: нужны отсроченное повторение и learner review.",
+  "theoryEnd": "## 5."
+}
