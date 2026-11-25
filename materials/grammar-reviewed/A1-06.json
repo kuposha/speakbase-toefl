@@ -1,0 +1,743 @@
+{
+  "id": "A1-06",
+  "level": "A1",
+  "sequence": "A1-06",
+  "grammarFamily": "A1-06",
+  "questionBankSource": "topic-specific-authored",
+  "sourceVerification": "draft; selected source text consulted; complete source-page and learner review pending",
+  "topicProfile": {
+    "label": "Present Simple negatives and questions",
+    "skillTarget": "present-simple-negatives-questions",
+    "core": "Present Simple описывает привычки, регулярные действия, общие факты и состояния. В A1-05 изучалась утвердительная форма: I study English, she studies English. Теперь учимся делать отрицание и задавать вопросы. Для обычных глаголов в Present Simple нужны вспомогательные do или does. Они помогают показать тип предложения; сами по себе в этой функции не означают «делать».",
+    "form": "| Subject | Утверждение | Отрицание | Вопрос |\n|---|---|---|---|\n| I/you/we/they | I work | I don't work | Do I work? |\n| he/she/it | She works | She doesn't work | Does she work? |\n\n| Тип ответа | Do you work? | Does he work? |\n|---|---|---|\n| Yes | Yes, I do. | Yes, he does. |\n| No | No, I don't. | No, he doesn't. |\n\n| Специальный вопрос | Формула | Пример |\n|---|---|---|\n| Место | Where + do/does + subject + V1? | Where does he work? |\n| Частота | How often + do/does + subject + V1? | How often do you read? |\n| Действие | What + do/does + subject + V1? | What do you study? |",
+    "selection": "Найди subject и смысловой глагол. Если нужно отрицание, после subject поставь don't или doesn't, затем V1. Если нужен общий вопрос, поставь do/does перед subject. Для wh-question добавь Where/What/When/Why/How often перед do/does. Если отвечаешь коротко, повтори вспомогательное слово, не весь смысловой глагол. Например, Does your mother work here? — Yes, she does. Проверь, что местоимение ответа относится к нужному человеку или предмету.",
+    "contrast": "| Утверждение | Отрицание | Вопрос |\n|---|---|---|\n| They read books. | They don't read books. | Do they read books? |\n| He reads books. | He doesn't read books. | Does he read books? |\n| She has a laptop. | She doesn't have a laptop. | Does she have a laptop? |\n| It rains here. | It doesn't rain here. | Does it rain here? |\n| She is tired. | She isn't tired. | Is she tired? (be, без do) |",
+    "boundary": "С be в настоящем времени не добавляй do/does: She is a student → Is she a student? / She isn't a student. С modal can тоже без do: Can she swim? / She can't swim. В обычном subject question Who lives here? do/does часто не нужен, потому что who занимает место subject. Но Who do you live with? спрашивает не об исполнителе, поэтому do нужен. Подробно subject/object questions изучаются в A2-13. Have got имеет особую структуру (Have you got…?), изучается в A1-07; здесь обычный have: Do you have…?",
+    "pronunciation": "Do и does в обычных вопросах часто безударны. Does произносится иначе, чем do, и doesn't содержит отрицание. Практикуй Do you LIKE it? и Does she LIKE it? как целые фразы. В коротких ответах Yes, I do и Yes, she does вспомогательное слово может быть ударным. Слушай don't и doesn't вместе с subject. Отдельная аудиосверка пока не завершена.",
+    "examples": [
+      [
+        "I don't drink coffee in the morning.",
+        "Я не пью кофе по утрам.",
+        "I + don't + V1."
+      ],
+      [
+        "She doesn't watch TV on weekdays.",
+        "Она не смотрит телевизор по будням.",
+        "She + doesn't + watch."
+      ],
+      [
+        "Does your brother study English?",
+        "Твой брат изучает английский?",
+        "Does + singular subject + V1."
+      ],
+      [
+        "Where do your friends live?",
+        "Где живут твои друзья?",
+        "Where + do + plural subject + V1."
+      ],
+      [
+        "Do you play chess? — No, I don't.",
+        "Ты играешь в шахматы? — Нет.",
+        "Короткий отрицательный ответ."
+      ],
+      [
+        "What does she do after class?",
+        "Что она делает после занятия?",
+        "Does вспомогательный, do смысловой."
+      ]
+    ],
+    "traps": [
+      [
+        "She don't like tea.",
+        "She doesn't like tea.",
+        "She требует doesn't."
+      ],
+      [
+        "He doesn't plays tennis.",
+        "He doesn't play tennis.",
+        "После doesn't нужна V1."
+      ],
+      [
+        "Do she live here?",
+        "Does she live here?",
+        "She требует does."
+      ],
+      [
+        "Where you work?",
+        "Where do you work?",
+        "В прямом вопросе нужен do."
+      ],
+      [
+        "Does he is happy?",
+        "Is he happy?",
+        "Be строит вопрос без does."
+      ]
+    ],
+    "toefl": "Present Simple помогает точно говорить о привычках, предпочтениях и расписаниях. В Listening различай Do you have time? и Does the office open on Mondays? В Speaking Interview отвечай на вопрос о регулярном действии, а затем объясняй: No, I don't. I usually study at home. В Writing и Build a Sentence проверяй do/does + V1. Это базовая тренировка, не официальный вопрос ETS."
+  },
+  "title": "Present Simple — negatives and questions",
+  "description": "Строить do/does questions и don't/doesn't negatives; не добавлять окончание к основному глаголу после does",
+  "cardDescription": "Теория, guided practice, самостоятельные задания и выходная проверка по постоянному ID A1-06.",
+  "eyebrow": "Полный урок программы A1-06 · drafted",
+  "contentVersion": "1.1-draft",
+  "curriculumVersion": "1.0",
+  "prerequisites": [
+    "A1-03",
+    "A1-05"
+  ],
+  "outcomes": [
+    "Строить do/does questions и don't/doesn't negatives; не добавлять окончание к основному глаголу после does",
+    "Выбирать целевую конструкцию по контексту и смыслу.",
+    "Исправлять типичные ошибки и переносить правило в новый пример."
+  ],
+  "sourceRefs": [
+    "GR-01 U6-8",
+    "GR-02 U2",
+    "GR-05 A1 p8-9",
+    "GR-05 A1 p24-26"
+  ],
+  "sourceStatus": "selected source text consulted; full page verification pending",
+  "status": "drafted",
+  "legacyCoverage": "Полное ядро",
+  "toeflLinks": [
+    "Writing: Build a Sentence",
+    "Speaking: Listen and Repeat / Take an Interview",
+    "Writing: Write an Email"
+  ],
+  "thresholds": {
+    "independent": 7,
+    "exit": 4,
+    "criticalIds": [
+      "E1",
+      "E2",
+      "E3"
+    ]
+  },
+  "groups": {
+    "independent": "Самостоятельная практика",
+    "exit": "Выходная проверка"
+  },
+  "items": [
+    {
+      "id": "D1",
+      "group": "Входная диагностика",
+      "prompt": "Choose the negative with I: I ___ eat meat.",
+      "options": [
+        "doesn't",
+        "don't",
+        "am not"
+      ],
+      "answer": "don't",
+      "accepted": [
+        "don't"
+      ],
+      "why": "I + don't + V1.",
+      "distractorWhy": "Doesn't относится к he/she/it.",
+      "distractorRationales": {
+        "doesn't": "Doesn't относится к he/she/it.",
+        "am not": "Am not не образует Present Simple с eat."
+      },
+      "skillTarget": "present-simple-negatives-questions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D2",
+      "group": "Входная диагностика",
+      "prompt": "Choose the negative with she: Mia ___ drink coffee.",
+      "options": [
+        "doesn't",
+        "don't",
+        "isn't"
+      ],
+      "answer": "doesn't",
+      "accepted": [
+        "doesn't"
+      ],
+      "why": "Mia → she, поэтому doesn't.",
+      "distractorWhy": "Don't не согласуется с singular Mia.",
+      "distractorRationales": {
+        "don't": "Don't не согласуется с singular Mia.",
+        "isn't": "Isn't не сочетается с V1 drink."
+      },
+      "skillTarget": "present-simple-negatives-questions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D3",
+      "group": "Входная диагностика",
+      "prompt": "Choose the correct negative with plural friends.",
+      "options": [
+        "My friends doesn't live near college.",
+        "My friends aren't live near college.",
+        "My friends don't live near college."
+      ],
+      "answer": "My friends don't live near college.",
+      "accepted": [
+        "My friends don't live near college."
+      ],
+      "why": "Plural friends + don't + V1.",
+      "distractorWhy": "Doesn't относится к singular subject.",
+      "distractorRationales": {
+        "My friends doesn't live near college.": "Doesn't относится к singular subject.",
+        "My friends aren't live near college.": "Aren't не образует отрицание обычного Present Simple."
+      },
+      "skillTarget": "present-simple-negatives-questions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D4",
+      "group": "Входная диагностика",
+      "prompt": "Choose the correct main verb after doesn't: He doesn't ___ English at work.",
+      "options": [
+        "speaks",
+        "speak",
+        "speaking"
+      ],
+      "answer": "speak",
+      "accepted": [
+        "speak"
+      ],
+      "why": "После doesn't нужна V1 speak.",
+      "distractorWhy": "Speaks содержит лишнее -s.",
+      "distractorRationales": {
+        "speaks": "Speaks содержит лишнее -s.",
+        "speaking": "Speaking не V1."
+      },
+      "skillTarget": "present-simple-negatives-questions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G1",
+      "group": "Управляемая практика",
+      "prompt": "Choose the correct form of study after doesn't.",
+      "options": [
+        "She doesn't study on Sundays.",
+        "She doesn't studies on Sundays.",
+        "She doesn't studying on Sundays."
+      ],
+      "answer": "She doesn't study on Sundays.",
+      "accepted": [
+        "She doesn't study on Sundays."
+      ],
+      "why": "Doesn't + V1 study.",
+      "distractorWhy": "Studies — форма утверждения для she.",
+      "distractorRationales": {
+        "She doesn't studies on Sundays.": "Studies — форма утверждения для she.",
+        "She doesn't studying on Sundays.": "Studying не V1."
+      },
+      "skillTarget": "present-simple-negatives-questions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G2",
+      "group": "Управляемая практика",
+      "prompt": "Choose the correct negative with main verb have.",
+      "options": [
+        "He doesn't has a car.",
+        "He don't have a car.",
+        "He doesn't have a car."
+      ],
+      "answer": "He doesn't have a car.",
+      "accepted": [
+        "He doesn't have a car."
+      ],
+      "why": "Doesn't + have, V1.",
+      "distractorWhy": "Has не V1.",
+      "distractorRationales": {
+        "He doesn't has a car.": "Has не V1.",
+        "He don't have a car.": "He требует doesn't."
+      },
+      "skillTarget": "present-simple-negatives-questions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G3",
+      "group": "Управляемая практика",
+      "prompt": "Choose the correct negative with main verb do.",
+      "options": [
+        "She doesn't does her homework in the morning.",
+        "She doesn't do her homework in the morning.",
+        "She doesn't her homework in the morning."
+      ],
+      "answer": "She doesn't do her homework in the morning.",
+      "accepted": [
+        "She doesn't do her homework in the morning."
+      ],
+      "why": "Doesn't + смысловой do.",
+      "distractorWhy": "Does после doesn't неверно.",
+      "distractorRationales": {
+        "She doesn't does her homework in the morning.": "Does после doesn't неверно.",
+        "She doesn't her homework in the morning.": "Пропущен смысловой глагол."
+      },
+      "skillTarget": "present-simple-negatives-questions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G4",
+      "group": "Управляемая практика",
+      "prompt": "Choose the general question addressed to a friend.",
+      "options": [
+        "Do you listen to music every day?",
+        "Does you listen to music every day?",
+        "Are you listen to music every day?"
+      ],
+      "answer": "Do you listen to music every day?",
+      "accepted": [
+        "Do you listen to music every day?"
+      ],
+      "why": "You + do; далее V1.",
+      "distractorWhy": "You не требует does.",
+      "distractorRationales": {
+        "Does you listen to music every day?": "You не требует does.",
+        "Are you listen to music every day?": "Are не строит вопрос с V1 listen."
+      },
+      "skillTarget": "present-simple-negatives-questions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G5",
+      "group": "Управляемая практика",
+      "prompt": "Choose the question about a singular person.",
+      "options": [
+        "Do Alex work on Saturdays?",
+        "Does Alex works on Saturdays?",
+        "Does Alex work on Saturdays?"
+      ],
+      "answer": "Does Alex work on Saturdays?",
+      "accepted": [
+        "Does Alex work on Saturdays?"
+      ],
+      "why": "Alex — singular; does + V1.",
+      "distractorWhy": "Do не согласуется с Alex.",
+      "distractorRationales": {
+        "Do Alex work on Saturdays?": "Do не согласуется с Alex.",
+        "Does Alex works on Saturdays?": "Works после does неверно."
+      },
+      "skillTarget": "present-simple-negatives-questions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G6",
+      "group": "Управляемая практика",
+      "prompt": "Choose the question about plural classmates.",
+      "options": [
+        "Does your classmates study together?",
+        "Do your classmates study together?",
+        "Do your classmates studies together?"
+      ],
+      "answer": "Do your classmates study together?",
+      "accepted": [
+        "Do your classmates study together?"
+      ],
+      "why": "Plural classmates требуют do + V1.",
+      "distractorWhy": "Does не согласуется с plural.",
+      "distractorRationales": {
+        "Does your classmates study together?": "Does не согласуется с plural.",
+        "Do your classmates studies together?": "Studies не V1."
+      },
+      "skillTarget": "present-simple-negatives-questions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I1",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the question with go after does.",
+      "options": [
+        "Does she goes to college by bus?",
+        "Does she going to college by bus?",
+        "Does she go to college by bus?"
+      ],
+      "answer": "Does she go to college by bus?",
+      "accepted": [
+        "Does she go to college by bus?"
+      ],
+      "why": "Does + subject + V1 go.",
+      "distractorWhy": "Goes не V1.",
+      "distractorRationales": {
+        "Does she goes to college by bus?": "Goes не V1.",
+        "Does she going to college by bus?": "Going не V1."
+      },
+      "skillTarget": "present-simple-negatives-questions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I2",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct question with a singular subject and have.",
+      "options": [
+        "Does Leo has a laptop?",
+        "Does Leo have a laptop?",
+        "Do Leo have a laptop?"
+      ],
+      "answer": "Does Leo have a laptop?",
+      "accepted": [
+        "Does Leo have a laptop?"
+      ],
+      "why": "Does + Leo + have.",
+      "distractorWhy": "Has после does неверно.",
+      "distractorRationales": {
+        "Does Leo has a laptop?": "Has после does неверно.",
+        "Do Leo have a laptop?": "Leo требует does."
+      },
+      "skillTarget": "present-simple-negatives-questions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I3",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the affirmative short answer to 'Do you read English books?'",
+      "options": [
+        "Yes, I do.",
+        "Yes, I does.",
+        "Yes, I am."
+      ],
+      "answer": "Yes, I do.",
+      "accepted": [
+        "Yes, I do."
+      ],
+      "why": "Ответ с I + do.",
+      "distractorWhy": "I не сочетается с does.",
+      "distractorRationales": {
+        "Yes, I does.": "I не сочетается с does.",
+        "Yes, I am.": "Am не соответствует обычному глаголу read."
+      },
+      "skillTarget": "present-simple-negatives-questions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I4",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the negative short answer to 'Does your sister play chess?'",
+      "options": [
+        "No, she don't.",
+        "No, she isn't.",
+        "No, she doesn't."
+      ],
+      "answer": "No, she doesn't.",
+      "accepted": [
+        "No, she doesn't."
+      ],
+      "why": "Sister → she, повторяем does с not.",
+      "distractorWhy": "Don't не согласуется с she.",
+      "distractorRationales": {
+        "No, she don't.": "Don't не согласуется с she.",
+        "No, she isn't.": "Isn't не соответствует вопросу."
+      },
+      "skillTarget": "present-simple-negatives-questions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I5",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the affirmative short answer to 'Do your friends like this app?'",
+      "options": [
+        "Yes, they does.",
+        "Yes, they do.",
+        "Yes, they are."
+      ],
+      "answer": "Yes, they do.",
+      "accepted": [
+        "Yes, they do."
+      ],
+      "why": "Friends → they + do.",
+      "distractorWhy": "Does не согласуется с they.",
+      "distractorRationales": {
+        "Yes, they does.": "Does не согласуется с they.",
+        "Yes, they are.": "Are не нужный auxiliary."
+      },
+      "skillTarget": "present-simple-negatives-questions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I6",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct direct question about a place.",
+      "options": [
+        "Where do you study?",
+        "Where you study?",
+        "Where does you study?"
+      ],
+      "answer": "Where do you study?",
+      "accepted": [
+        "Where do you study?"
+      ],
+      "why": "Where + do + you + V1.",
+      "distractorWhy": "Пропущено do.",
+      "distractorRationales": {
+        "Where you study?": "Пропущено do.",
+        "Where does you study?": "You требует do, не does."
+      },
+      "skillTarget": "present-simple-negatives-questions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I7",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct question about the start of a class.",
+      "options": [
+        "When does the lesson begins?",
+        "When the lesson begins?",
+        "When does the lesson begin?"
+      ],
+      "answer": "When does the lesson begin?",
+      "accepted": [
+        "When does the lesson begin?"
+      ],
+      "why": "When + does + singular subject + V1.",
+      "distractorWhy": "Begins после does неверно.",
+      "distractorRationales": {
+        "When does the lesson begins?": "Begins после does неверно.",
+        "When the lesson begins?": "Нет вопросительной инверсии с auxiliary."
+      },
+      "skillTarget": "present-simple-negatives-questions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I8",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct question about frequency.",
+      "options": [
+        "How often does they practise English?",
+        "How often do they practise English?",
+        "How often do they practises English?"
+      ],
+      "answer": "How often do they practise English?",
+      "accepted": [
+        "How often do they practise English?"
+      ],
+      "why": "How often + do + they + V1.",
+      "distractorWhy": "They не сочетается с does.",
+      "distractorRationales": {
+        "How often does they practise English?": "They не сочетается с does.",
+        "How often do they practises English?": "Practises не V1."
+      },
+      "skillTarget": "present-simple-negatives-questions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I9",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct question about a word's meaning.",
+      "options": [
+        "What does this phrase mean?",
+        "What does this phrase means?",
+        "What this phrase mean?"
+      ],
+      "answer": "What does this phrase mean?",
+      "accepted": [
+        "What does this phrase mean?"
+      ],
+      "why": "Singular phrase требует does + mean.",
+      "distractorWhy": "Means после does неверно.",
+      "distractorRationales": {
+        "What does this phrase means?": "Means после does неверно.",
+        "What this phrase mean?": "Пропущен does."
+      },
+      "skillTarget": "present-simple-negatives-questions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E1",
+      "group": "Выходная проверка",
+      "prompt": "Choose the question in which the second do is the main verb.",
+      "options": [
+        "What do you do after college?",
+        "What do you does after college?",
+        "What you do after college?"
+      ],
+      "answer": "What do you do after college?",
+      "accepted": [
+        "What do you do after college?"
+      ],
+      "why": "Первое do — auxiliary, второе — V1 do.",
+      "distractorWhy": "Does не V1.",
+      "distractorRationales": {
+        "What do you does after college?": "Does не V1.",
+        "What you do after college?": "Пропущен auxiliary."
+      },
+      "skillTarget": "present-simple-negatives-questions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E2",
+      "group": "Выходная проверка",
+      "prompt": "Choose the correct question with usually.",
+      "options": [
+        "Does she usually walks to school?",
+        "Does usually she walk to school?",
+        "Does she usually walk to school?"
+      ],
+      "answer": "Does she usually walk to school?",
+      "accepted": [
+        "Does she usually walk to school?"
+      ],
+      "why": "Does + subject + usually + V1.",
+      "distractorWhy": "Walks после does неверно.",
+      "distractorRationales": {
+        "Does she usually walks to school?": "Walks после does неверно.",
+        "Does usually she walk to school?": "Неверная нейтральная позиция usually."
+      },
+      "skillTarget": "present-simple-negatives-questions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E3",
+      "group": "Выходная проверка",
+      "prompt": "Choose the ordinary question about a state with be, not a regular action.",
+      "options": [
+        "Does your friend tired?",
+        "Is your friend tired?",
+        "Does your friend is tired?"
+      ],
+      "answer": "Is your friend tired?",
+      "accepted": [
+        "Is your friend tired?"
+      ],
+      "why": "Is + subject + adjective; be без do.",
+      "distractorWhy": "Does требует обычный смысловой глагол.",
+      "distractorRationales": {
+        "Does your friend tired?": "Does требует обычный смысловой глагол.",
+        "Does your friend is tired?": "Does не добавляется к is."
+      },
+      "skillTarget": "present-simple-negatives-questions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E4",
+      "group": "Выходная проверка",
+      "prompt": "Choose the standard sentence with never, meaning not at any time.",
+      "options": [
+        "I never eat fish.",
+        "I don't never eat fish.",
+        "I never eats fish."
+      ],
+      "answer": "I never eat fish.",
+      "accepted": [
+        "I never eat fish."
+      ],
+      "why": "Never уже отрицательно; I + eat.",
+      "distractorWhy": "Лишнее отрицание в стандартной форме.",
+      "distractorRationales": {
+        "I don't never eat fish.": "Лишнее отрицание в стандартной форме.",
+        "I never eats fish.": "I не требует -s."
+      },
+      "skillTarget": "present-simple-negatives-questions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E5",
+      "group": "Выходная проверка",
+      "prompt": "Choose the correct transformation of 'She watches films.' into a negative and a question.",
+      "options": [
+        "She doesn't watches films. / Does she watches films?",
+        "She don't watch films. / Do she watch films?",
+        "She doesn't watch films. / Does she watch films?"
+      ],
+      "answer": "She doesn't watch films. / Does she watch films?",
+      "accepted": [
+        "She doesn't watch films. / Does she watch films?"
+      ],
+      "why": "Does/doesn't + V1 watch в обеих моделях.",
+      "distractorWhy": "После does нет -es.",
+      "distractorRationales": {
+        "She doesn't watches films. / Does she watches films?": "После does нет -es.",
+        "She don't watch films. / Do she watch films?": "She требует does."
+      },
+      "skillTarget": "present-simple-negatives-questions",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "W1",
+      "group": "Самостоятельное применение",
+      "prompt": "Составь диалог из 10 реплик о привычках и учебном расписании. Используй два отрицания с don't/doesn't, два общих вопроса с do/does, три wh-question, краткие ответы и один вопрос с be для сравнения. Подчеркни V1 после does.",
+      "open": true,
+      "rubric": [
+        "Do/does соответствуют subject.",
+        "После do/does/don't/doesn't стоит V1.",
+        "Отрицания и прямые вопросы имеют правильный порядок.",
+        "Wh-word выбран по запрашиваемой информации.",
+        "Короткие ответы грамматически соответствуют вопросу.",
+        "Be и обычный смысловой глагол не смешиваются."
+      ],
+      "skillTarget": "Самостоятельное применение A1-06",
+      "interactionType": "open-production",
+      "difficulty": "transfer",
+      "sourceBasis": "Speakbase-authored open production; self-review rubric only until real AI feedback is connected",
+      "contentVersion": "1.1-draft"
+    }
+  ],
+  "markdown": "# Speakbase — A1-06: Present Simple — negatives and questions\n\n**Curriculum ID:** `A1-06`  \n**Уровень:** A1  \n**Версия:** 1.1-draft\n**Статус:** drafted; selected source text checked; full source-page and learner acceptance pending\n**Предварительные темы:** A1-03, A1-05  \n**Связь со старым каталогом:** Полное ядро — №1 Present Simple\n\n## 1. Результаты обучения\n\n- Строить do/does questions и don't/doesn't negatives; не добавлять окончание к основному глаголу после does\n- Выбирать целевую форму по значению, структуре предложения и контексту.\n- Объяснять, почему близкая грамматическая форма меняет смысл или регистр.\n- Находить и исправлять типичные ошибки русскоязычных студентов.\n\n## 2. Источники и статус сверки\n\n| Source | PDF navigation | Lesson-specific checks | Status |\n|---|---|---|---|\n| GR-01 U6-8 | PDF pages 23-28 (Unit 6-8) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-02 U2 | PDF pages 16-17 (Unit 2) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-05 A1 p8-9 | PDF pages 8-9 (A1 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-05 A1 p24-26 | PDF pages 24-26 (A1 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n\nUnit/page locations are navigation aids only. They do not prove that the cited explanation, examples, restrictions and answer key have been checked for this lesson. Examples and explanations below are Speakbase-authored, not quotations from the textbook.\n\nПеред переводом этого урока в source-verified необходимо открыть целевые страницы конкретного издания, записать печатную и PDF-пагинацию, сверить ограничения и исключения. Для GR-03 со сканированными страницами обязательна визуальная проверка.\n\n**Evidence for this editorial pass:** GR-01 Essential Grammar in Use Russian edition Units 6–8, theory text inspected PDF pp. 23, 25, 27 (printed pp. 22, 24, 26); GR-02 Unit 2 theory text inspected PDF p. 16 (printed p. 4). GR-05 descriptors, exercise pages and visual review pending. The selected source text was consulted; not all pages, exercises, editions, scanned GR-03 pages or GR-05 descriptors were checked. Author-created explanations and practice are not copied source exercises.\n\n## 3. Место темы и границы\n\nРазведи do-support и смысловой глагол: does/did несёт время и согласование, после него смысловой глагол остаётся в base form.\n\nСтарый каталог содержит: №1 Present Simple. Его статус — Полное ядро. Старые отметки завершения не переносятся автоматически на новый постоянный ID. Тема рассматривается в уровне A1 и не заменяет обязательные prerequisites.\n\n## 4. Полный конспект\n\n### 4.1. Основная идея и функция конструкции\n\nPresent Simple описывает привычки, регулярные действия, общие факты и состояния. В A1-05 изучалась утвердительная форма: I study English, she studies English. Теперь учимся делать отрицание и задавать вопросы. Для обычных глаголов в Present Simple нужны вспомогательные do или does. Они помогают показать тип предложения; сами по себе в этой функции не означают «делать».\n\nСравни I work at home и I don't work at home. В отрицании после I появляется don't (= do not). She works at home превращается в She doesn't work at home. Окончание -s не остаётся на work, потому что does уже выражает третье лицо единственного числа. В вопросе do/does ставится перед subject: Do you work at home? Does she work at home? Это главное правило. Не пытайся поставить -s одновременно на does и смысловой глагол.\n\n### 4.2. Формирование и грамматическая модель\n\n| Subject | Утверждение | Отрицание | Вопрос |\n|---|---|---|---|\n| I/you/we/they | I work | I don't work | Do I work? |\n| he/she/it | She works | She doesn't work | Does she work? |\n\n| Тип ответа | Do you work? | Does he work? |\n|---|---|---|\n| Yes | Yes, I do. | Yes, he does. |\n| No | No, I don't. | No, he doesn't. |\n\n| Специальный вопрос | Формула | Пример |\n|---|---|---|\n| Место | Where + do/does + subject + V1? | Where does he work? |\n| Частота | How often + do/does + subject + V1? | How often do you read? |\n| Действие | What + do/does + subject + V1? | What do you study? |\n\nV1 — начальная форма глагола без to: work, live, study, go, have, do. В утверждении he/she/it обычно добавляет -s/-es: works, watches, studies, goes, does, has. В отрицании и вопросе с does используется исходная форма: doesn't study, Does he watch?, Does she go?, doesn't have, doesn't do. Do not и does not — полные формы; don't и doesn't — обычные сокращения. С I, you, we, they используется do/don't; с he, she, it и singular noun — does/doesn't. С plural noun — do/don't: Do your friends play tennis?\n\n### 4.3. Как выбрать подходящую форму\n\nНайди subject и смысловой глагол. Если нужно отрицание, после subject поставь don't или doesn't, затем V1. Если нужен общий вопрос, поставь do/does перед subject. Для wh-question добавь Where/What/When/Why/How often перед do/does. Если отвечаешь коротко, повтори вспомогательное слово, не весь смысловой глагол. Например, Does your mother work here? — Yes, she does. Проверь, что местоимение ответа относится к нужному человеку или предмету.\n\nDo может одновременно быть вспомогательным и смысловым: What do you do after class? Первое do строит вопрос, второе означает делать. What do you do? часто спрашивает о профессии или занятии. She doesn't do her homework every day — doesn't образует отрицание, do означает выполнять. How often do you study? спрашивает частоту; Where do you live? — место; When does the lesson start? — время; What does this word mean? — значение. Наречие usually обычно стоит перед основным глаголом: Do you usually walk to college? She doesn't usually eat breakfast.\n\n### 4.4. Сравнение с близкими конструкциями\n\n| Утверждение | Отрицание | Вопрос |\n|---|---|---|\n| They read books. | They don't read books. | Do they read books? |\n| He reads books. | He doesn't read books. | Does he read books? |\n| She has a laptop. | She doesn't have a laptop. | Does she have a laptop? |\n| It rains here. | It doesn't rain here. | Does it rain here? |\n| She is tired. | She isn't tired. | Is she tired? (be, без do) |\n\n### 4.5. Примеры с переводом и объяснением\n\n| English | Перевод | Почему это подходит |\n| --- | --- | --- |\n| I don't drink coffee in the morning. | Я не пью кофе по утрам. | I + don't + V1. |\n| She doesn't watch TV on weekdays. | Она не смотрит телевизор по будням. | She + doesn't + watch. |\n| Does your brother study English? | Твой брат изучает английский? | Does + singular subject + V1. |\n| Where do your friends live? | Где живут твои друзья? | Where + do + plural subject + V1. |\n| Do you play chess? — No, I don't. | Ты играешь в шахматы? — Нет. | Короткий отрицательный ответ. |\n| What does she do after class? | Что она делает после занятия? | Does вспомогательный, do смысловой. |\n\n### 4.6. Исключения, ограничения и границы употребления\n\nС be в настоящем времени не добавляй do/does: She is a student → Is she a student? / She isn't a student. С modal can тоже без do: Can she swim? / She can't swim. В обычном subject question Who lives here? do/does часто не нужен, потому что who занимает место subject. Но Who do you live with? спрашивает не об исполнителе, поэтому do нужен. Подробно subject/object questions изучаются в A2-13. Have got имеет особую структуру (Have you got…?), изучается в A1-07; здесь обычный have: Do you have…?\n\nNever уже имеет отрицательное значение: I never drink coffee, не I don't never drink coffee в стандартной письменной речи. Don't always означает не всегда, а always don't не является обычной нейтральной формой. Present Simple не означает исключительно ежедневное действие: I don't like tea — состояние/предпочтение; This shop doesn't open on Sundays — расписание. Для действия в процессе сейчас часто нужен Present Continuous: She isn't studying now. Не выбирай don't только по русскому «не» — сначала определи грамматическую форму. Утвердительное do для усиления (I do like it) существует, но это не обычная нейтральная модель A1.\n\n### 4.7. Типичные ошибки русскоязычных студентов\n\n| Ошибка | Исправление | Объяснение |\n| --- | --- | --- |\n| She don't like tea. | She doesn't like tea. | She требует doesn't. |\n| He doesn't plays tennis. | He doesn't play tennis. | После doesn't нужна V1. |\n| Do she live here? | Does she live here? | She требует does. |\n| Where you work? | Where do you work? | В прямом вопросе нужен do. |\n| Does he is happy? | Is he happy? | Be строит вопрос без does. |\n\n### 4.8. Произношение и восприятие на слух\n\nDo и does в обычных вопросах часто безударны. Does произносится иначе, чем do, и doesn't содержит отрицание. Практикуй Do you LIKE it? и Does she LIKE it? как целые фразы. В коротких ответах Yes, I do и Yes, she does вспомогательное слово может быть ударным. Слушай don't и doesn't вместе с subject. Отдельная аудиосверка пока не завершена.\n\nСначала прослушай или прочитай пример, затем произнеси его целиком. Обрати внимание на смысловое ударение и форму конструкции; не ориентируйся только на буквенный перевод.\n\n### 4.9. Академический английский и TOEFL-перенос\n\nPresent Simple помогает точно говорить о привычках, предпочтениях и расписаниях. В Listening различай Do you have time? и Does the office open on Mondays? В Speaking Interview отвечай на вопрос о регулярном действии, а затем объясняй: No, I don't. I usually study at home. В Writing и Build a Sentence проверяй do/does + V1. Это базовая тренировка, не официальный вопрос ETS.\n\nЭто авторская практика переноса навыка. Она не является официальным заданием TOEFL и не выдаётся за официальный результат экзамена.\n\n### 4.10. Примеры для управляемого разбора\n\n- I don't drink coffee in the morning. — Я не пью кофе по утрам. I + don't + V1.\n- She doesn't watch TV on weekdays. — Она не смотрит телевизор по будням. She + doesn't + watch.\n- Does your brother study English? — Твой брат изучает английский? Does + singular subject + V1.\n\nДля каждого примера назови целевую конструкцию, объясни выбор и составь новое предложение в другом контексте. Затем перейди к заданиям: сначала диагностика, затем управляемая и самостоятельная практика, затем новые вопросы выходной проверки.\n\n### 4.11. Самопроверка\n\nПеред отправкой ответа проверь:\n1. Do/does соответствуют subject.\n2. После do/does/don't/doesn't стоит V1.\n3. Отрицания и прямые вопросы имеют правильный порядок.\n4. Wh-word выбран по запрашиваемой информации.\n5. Короткие ответы грамматически соответствуют вопросу.\n6. Be и обычный смысловой глагол не смешиваются.\n\n### 4.12. Краткая памятка\n\nI/you/we/they + don't + V1; he/she/it + doesn't + V1. Общий вопрос: Do/Does + subject + V1? Wh-question: wh-word + do/does + subject + V1? Краткий ответ повторяет do/does/don't/doesn't. После does нет -s на смысловом глаголе. Be и can не требуют do/does.\n\nНе выбирай форму только по одному знакомому слову: проверь контекст, значение и структуру. При ошибке вернись к соответствующей части конспекта и составь собственный пример.\n\n## 5. Практика\n\nВ приложении практика разделена на входную диагностику, управляемые задания, самостоятельную практику и новую выходную проверку. Закрытые ответы получают rationale и разбор ошибки. Свободный текст сохраняется и оценивается по рубрике; до подключения и реальной проверки AI-движка система не выдаёт его за автоматическую AI-оценку.\n\n## 6. Интервальное повторение\n\nПовторяй не весь урок автоматически, а конкретную ошибку: выбор формы, согласование, word order, значение, регистр или пунктуацию. Новая попытка должна менять лексический контекст и формулировку, чтобы проверять перенос, а не запоминание одной строки.\n\n## 7. Технический статус\n\n- Постоянный ID: `A1-06`.\n- Прогресс хранится отдельно в course.grammarLessons[\"A1-06\"].\n- Содержание и ключи имеют статус draft; 24 авторских закрытых задания и объяснения вычитаны, выбранные тексты источников проверены. Полная постраничная и пользовательская приёмка остаются открытыми.\n- Предварительное выполнение порогов не равно окончательному mastered: нужны отсроченное повторение и learner review.",
+  "theoryEnd": "## 5."
+}

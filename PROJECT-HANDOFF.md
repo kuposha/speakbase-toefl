@@ -51,3 +51,7 @@ A2-13 through A2-15 editorial pass: question forms and introductory embedded que
 ## A2 sixth package — editorial pass complete
 
 A2-16 through A2-18: time clauses, reason/purpose/result, prepositions and dependent patterns, core phrasal verbs. 72 original closed tasks with individual option explanations and 3 open rubrics; Markdown and runtime snapshots match. Selected GR-02 theory text inspected: Units 25, 64, 113–116, 121–145. Full additional sources, exercise pages, visual review, pronunciation audio and learner acceptance remain pending; PARTIAL, not source-verified. A2 editorial pass: 18/18; B1: 22/22; combined 40 lessons, 960 closed questions and 40 open rubrics. Next A1-01 onward: confirm exact remaining 16 new lesson IDs and approved A1-05 baseline before editing. Preserve unrelated work and real account progress. Daily integration and TOEFL task linking are pending separate stages.
+
+## A1 first package
+
+A1-03, A1-04 and A1-06 editorial pass: be negatives/questions/short answers, singular/plural nouns and a/an, Present Simple negatives and questions. GR-01 Essential Grammar in Use (2017 Russian edition) selected theory Units 1–2, 6–8, 66–69 directly inspected; GR-02 Units 2, 71, 79 also consulted. 72 original closed questions with individual explanations and 3 open rubrics. Full exercise-page, additional source, visual, audio and learner verification pending; PARTIAL. A1 new lessons: 3/16. Existing A1-01, A1-02 and A1-05 unchanged. Next A1-07–09. Preserve unrelated work and real account data. Daily/TOEFL linking remains pending.

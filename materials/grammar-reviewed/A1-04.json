@@ -1,0 +1,742 @@
+{
+  "id": "A1-04",
+  "level": "A1",
+  "sequence": "A1-04",
+  "grammarFamily": "A1-04",
+  "questionBankSource": "topic-specific-authored",
+  "sourceVerification": "draft; selected source text consulted; complete source-page and learner review pending",
+  "topicProfile": {
+    "label": "singular and plural nouns; a/an",
+    "skillTarget": "plural-nouns-and-a-an",
+    "core": "Noun — существительное: слово, которое называет человека, предмет, животное, место или понятие. Исчисляемое существительное имеет singular (единственное число) и plural (множественное число). One chair — один стул, two chairs — два стула. Перед исчисляемым существительным в единственном числе обычно нужен определитель: a chair, the chair, my chair, this chair. В этом уроке изучаем a/an и основные формы plural.",
+    "form": "| Правило | Singular | Plural |\n|---|---|---|\n| Обычно + s | a book | books |\n| После s, sh, ch, x, z часто + es | a box | boxes |\n| Consonant + y → ies | a city | cities |\n| Vowel + y → s | a key | keys |\n| Некоторые f/fe → ves | a knife | knives |\n| Неправильная форма | a child | children |\n| Одинаковая форма | a sheep | sheep |\n\n| Первый звук | Артикль | Пример |\n|---|---|---|\n| Согласный | a | a pencil, a university |\n| Гласный | an | an egg, an hour |",
+    "selection": "Сначала установи, можно ли посчитать предметы как отдельные единицы. Если да и предмет один, выбери нужный determiner. Для неопределённого одного предмета проверь первый звук и поставь a или an. Если предметов несколько, измени noun на plural и убери a/an. Затем согласуй другие слова: a book is, two books are; this book, these books. Число определяется предметами, а не окончанием adjective: a red bag, two red bags. Adjective не получает plural -s.",
+    "contrast": "| Один предмет | Несколько предметов |\n|---|---|\n| This is a pen. | These are pens. |\n| She is a nurse. | They are nurses. |\n| I have an apple. | I have two apples. |\n| There is a child. | There are three children. |\n| That is a box. | Those are boxes. |\n| It is a useful tool. | They are useful tools. |",
+    "boundary": "Money, water, information, advice, furniture обычно неисчисляемые: some money, some information, not a money или informations. Для единицы можно сказать a piece of advice, a bottle of water. Подробнее изучим это в A1-10. Jeans, scissors, glasses (очки), trousers обычно имеют plural форму даже при одном таком предмете: These scissors are sharp. Для одного комплекта используют a pair of scissors. News оканчивается на s, но обычно singular: The news is good. People — plural в обычном значении: People are friendly.",
+    "pronunciation": "Окончание plural -s произносится /s/ после глухого звука (books), /z/ после звонкого звука или гласного (pens, keys), /ɪz/ после шипящих и свистящих (boxes, buses). Правило зависит от последнего звука основы. У women произношение отличается от woman; эту пару нужно запомнить отдельно. При выборе a/an произнеси первое следующее слово. Отдельная сверка словарных аудио остаётся открытой.",
+    "examples": [
+      [
+        "I need a new notebook.",
+        "Мне нужна новая тетрадь.",
+        "A + singular countable с согласным звуком."
+      ],
+      [
+        "She's an engineer.",
+        "Она инженер.",
+        "An перед гласным звуком."
+      ],
+      [
+        "We visited a university.",
+        "Мы посетили университет.",
+        "University начинается с /j/."
+      ],
+      [
+        "It took an hour.",
+        "Это заняло час.",
+        "H в hour не произносится."
+      ],
+      [
+        "There are three boxes on the floor.",
+        "На полу три коробки.",
+        "Box → boxes."
+      ],
+      [
+        "Two children are playing outside.",
+        "Двое детей играют на улице.",
+        "Child → children, plural are."
+      ]
+    ],
+    "traps": [
+      [
+        "He is doctor.",
+        "He is a doctor.",
+        "Для профессии в singular нужен article."
+      ],
+      [
+        "An university.",
+        "A university.",
+        "Первый звук /j/, согласный."
+      ],
+      [
+        "Two citys.",
+        "Two cities.",
+        "Consonant + y → ies."
+      ],
+      [
+        "Three childs.",
+        "Three children.",
+        "Неправильный plural."
+      ],
+      [
+        "A informations.",
+        "Some information.",
+        "Information обычно неисчисляемое."
+      ]
+    ],
+    "toefl": "Точное число существительных помогает правильно понять вопрос и сформулировать ответ. В учебных текстах различай one student, several students, information. В Speaking представь профессию или предмет с a/an, в Writing проверь noun phrase и согласование: The researcher used a new method; the researchers used two new methods. Это базовая авторская практика, не официальный экзаменационный материал."
+  },
+  "title": "Singular/plural nouns and a/an",
+  "description": "Образовывать множественное число, использовать a/an с исчисляемыми существительными в единственном числе",
+  "cardDescription": "Теория, guided practice, самостоятельные задания и выходная проверка по постоянному ID A1-04.",
+  "eyebrow": "Полный урок программы A1-04 · drafted",
+  "contentVersion": "1.1-draft",
+  "curriculumVersion": "1.0",
+  "prerequisites": [
+    "A1-01"
+  ],
+  "outcomes": [
+    "Образовывать множественное число, использовать a/an с исчисляемыми существительными в единственном числе",
+    "Выбирать целевую конструкцию по контексту и смыслу.",
+    "Исправлять типичные ошибки и переносить правило в новый пример."
+  ],
+  "sourceRefs": [
+    "GR-01 U66-69",
+    "GR-02 U71",
+    "GR-02 U79",
+    "GR-05 A1 p12",
+    "GR-05 A1 p21"
+  ],
+  "sourceStatus": "selected source text consulted; full page verification pending",
+  "status": "drafted",
+  "legacyCoverage": "Частично",
+  "toeflLinks": [
+    "Writing: Build a Sentence",
+    "Writing: Write an Email"
+  ],
+  "thresholds": {
+    "independent": 7,
+    "exit": 4,
+    "criticalIds": [
+      "E1",
+      "E2",
+      "E3"
+    ]
+  },
+  "groups": {
+    "independent": "Самостоятельная практика",
+    "exit": "Выходная проверка"
+  },
+  "items": [
+    {
+      "id": "D1",
+      "group": "Входная диагностика",
+      "prompt": "Choose the article before a consonant sound: ___ desk.",
+      "options": [
+        "an",
+        "a",
+        "two"
+      ],
+      "answer": "a",
+      "accepted": [
+        "a"
+      ],
+      "why": "Desk начинается с согласного звука, нужен a.",
+      "distractorWhy": "An перед гласным звуком.",
+      "distractorRationales": {
+        "an": "An перед гласным звуком.",
+        "two": "Two требует plural desks."
+      },
+      "skillTarget": "plural-nouns-and-a-an",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D2",
+      "group": "Входная диагностика",
+      "prompt": "Choose the article before a vowel sound: ___ egg.",
+      "options": [
+        "an",
+        "a",
+        "many"
+      ],
+      "answer": "an",
+      "accepted": [
+        "an"
+      ],
+      "why": "Egg начинается с гласного звука.",
+      "distractorWhy": "A не подходит перед этим звуком.",
+      "distractorRationales": {
+        "a": "A не подходит перед этим звуком.",
+        "many": "Many требует plural countable."
+      },
+      "skillTarget": "plural-nouns-and-a-an",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D3",
+      "group": "Входная диагностика",
+      "prompt": "Choose the correct phrase with university.",
+      "options": [
+        "an university",
+        "a universities",
+        "a university"
+      ],
+      "answer": "a university",
+      "accepted": [
+        "a university"
+      ],
+      "why": "University начинается со звука /j/.",
+      "distractorWhy": "An выбирают по звуку, не по букве u.",
+      "distractorRationales": {
+        "an university": "An выбирают по звуку, не по букве u.",
+        "a universities": "Universities — plural, a не подходит."
+      },
+      "skillTarget": "plural-nouns-and-a-an",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D4",
+      "group": "Входная диагностика",
+      "prompt": "Choose the correct phrase with hour.",
+      "options": [
+        "a hour",
+        "an hour",
+        "an hours"
+      ],
+      "answer": "an hour",
+      "accepted": [
+        "an hour"
+      ],
+      "why": "H в hour не произносится; первый звук гласный.",
+      "distractorWhy": "A не подходит к этому звуку.",
+      "distractorRationales": {
+        "a hour": "A не подходит к этому звуку.",
+        "an hours": "Hours — plural."
+      },
+      "skillTarget": "plural-nouns-and-a-an",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G1",
+      "group": "Управляемая практика",
+      "prompt": "Choose the article based on the adjective: ___ interesting lesson.",
+      "options": [
+        "an",
+        "a",
+        "many"
+      ],
+      "answer": "an",
+      "accepted": [
+        "an"
+      ],
+      "why": "Interesting начинается с гласного звука.",
+      "distractorWhy": "Артикль определяется звуком interesting, не lesson.",
+      "distractorRationales": {
+        "a": "Артикль определяется звуком interesting, не lesson.",
+        "many": "Many требует plural lessons."
+      },
+      "skillTarget": "plural-nouns-and-a-an",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G2",
+      "group": "Управляемая практика",
+      "prompt": "Choose the correct phrase: a colour adjective before apple.",
+      "options": [
+        "an red apple",
+        "a red apples",
+        "a red apple"
+      ],
+      "answer": "a red apple",
+      "accepted": [
+        "a red apple"
+      ],
+      "why": "Red начинается с согласного звука.",
+      "distractorWhy": "An перед red неверно.",
+      "distractorRationales": {
+        "an red apple": "An перед red неверно.",
+        "a red apples": "A не сочетается с plural apples."
+      },
+      "skillTarget": "plural-nouns-and-a-an",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G3",
+      "group": "Управляемая практика",
+      "prompt": "Choose the correct sentence about a profession.",
+      "options": [
+        "He's mechanic.",
+        "He's a mechanic.",
+        "He's an mechanic."
+      ],
+      "answer": "He's a mechanic.",
+      "accepted": [
+        "He's a mechanic."
+      ],
+      "why": "Singular profession требует a; mechanic начинается с согласного.",
+      "distractorWhy": "Пропущен article.",
+      "distractorRationales": {
+        "He's mechanic.": "Пропущен article.",
+        "He's an mechanic.": "An не подходит по звуку."
+      },
+      "skillTarget": "plural-nouns-and-a-an",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G4",
+      "group": "Управляемая практика",
+      "prompt": "Choose the ordinary plural of pencil.",
+      "options": [
+        "pencils",
+        "penciles",
+        "pencil's"
+      ],
+      "answer": "pencils",
+      "accepted": [
+        "pencils"
+      ],
+      "why": "Добавляется -s.",
+      "distractorWhy": "-es здесь лишнее.",
+      "distractorRationales": {
+        "penciles": "-es здесь лишнее.",
+        "pencil's": "Апостроф не обозначает обычный plural."
+      },
+      "skillTarget": "plural-nouns-and-a-an",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G5",
+      "group": "Управляемая практика",
+      "prompt": "Choose the plural of box.",
+      "options": [
+        "boxs",
+        "boxies",
+        "boxes"
+      ],
+      "answer": "boxes",
+      "accepted": [
+        "boxes"
+      ],
+      "why": "После x добавляется -es.",
+      "distractorWhy": "Boxs неверно написано.",
+      "distractorRationales": {
+        "boxs": "Boxs неверно написано.",
+        "boxies": "Нет правила x → ies."
+      },
+      "skillTarget": "plural-nouns-and-a-an",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G6",
+      "group": "Управляемая практика",
+      "prompt": "Choose the plural of dish.",
+      "options": [
+        "dishs",
+        "dishes",
+        "dishies"
+      ],
+      "answer": "dishes",
+      "accepted": [
+        "dishes"
+      ],
+      "why": "После sh добавляется -es.",
+      "distractorWhy": "Dishs пропускает e.",
+      "distractorRationales": {
+        "dishs": "Dishs пропускает e.",
+        "dishies": "-ies здесь не требуется."
+      },
+      "skillTarget": "plural-nouns-and-a-an",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I1",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the plural of city.",
+      "options": [
+        "citys",
+        "cityes",
+        "cities"
+      ],
+      "answer": "cities",
+      "accepted": [
+        "cities"
+      ],
+      "why": "Consonant + y → ies.",
+      "distractorWhy": "Y нужно заменить на i.",
+      "distractorRationales": {
+        "citys": "Y нужно заменить на i.",
+        "cityes": "Cityes неверно написано."
+      },
+      "skillTarget": "plural-nouns-and-a-an",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I2",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the plural of key.",
+      "options": [
+        "keies",
+        "keys",
+        "keyes"
+      ],
+      "answer": "keys",
+      "accepted": [
+        "keys"
+      ],
+      "why": "Vowel + y → s.",
+      "distractorWhy": "Y сохраняется после гласной.",
+      "distractorRationales": {
+        "keies": "Y сохраняется после гласной.",
+        "keyes": "-es здесь лишнее."
+      },
+      "skillTarget": "plural-nouns-and-a-an",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I3",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the plural of knife.",
+      "options": [
+        "knives",
+        "knifes",
+        "knife's"
+      ],
+      "answer": "knives",
+      "accepted": [
+        "knives"
+      ],
+      "why": "Knife → knives, изменение f/fe.",
+      "distractorWhy": "Knifes не обычный plural существительного knife.",
+      "distractorRationales": {
+        "knifes": "Knifes не обычный plural существительного knife.",
+        "knife's": "Апостроф не образует plural."
+      },
+      "skillTarget": "plural-nouns-and-a-an",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I4",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the ordinary plural of photo.",
+      "options": [
+        "photoes",
+        "photo's",
+        "photos"
+      ],
+      "answer": "photos",
+      "accepted": [
+        "photos"
+      ],
+      "why": "Photo → photos, исключение среди слов на o.",
+      "distractorWhy": "Photoes не стандартная форма.",
+      "distractorRationales": {
+        "photoes": "Photoes не стандартная форма.",
+        "photo's": "Апостроф лишний."
+      },
+      "skillTarget": "plural-nouns-and-a-an",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I5",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the plural of child.",
+      "options": [
+        "childs",
+        "children",
+        "childrens"
+      ],
+      "answer": "children",
+      "accepted": [
+        "children"
+      ],
+      "why": "Child → children.",
+      "distractorWhy": "Childs неверно.",
+      "distractorRationales": {
+        "childs": "Childs неверно.",
+        "childrens": "Children уже plural, -s не нужен."
+      },
+      "skillTarget": "plural-nouns-and-a-an",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I6",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the plural of woman.",
+      "options": [
+        "women",
+        "womans",
+        "womens"
+      ],
+      "answer": "women",
+      "accepted": [
+        "women"
+      ],
+      "why": "Woman → women.",
+      "distractorWhy": "Womans неверно.",
+      "distractorRationales": {
+        "womans": "Womans неверно.",
+        "womens": "Women уже plural."
+      },
+      "skillTarget": "plural-nouns-and-a-an",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I7",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the ordinary plural of person in a general everyday sentence.",
+      "options": [
+        "persons as the usual everyday form",
+        "peoples as the ordinary plural of individual people",
+        "people"
+      ],
+      "answer": "people",
+      "accepted": [
+        "people"
+      ],
+      "why": "People — обычная форма для группы людей.",
+      "distractorWhy": "Persons встречается в формальном контексте, но не обычная цель здесь.",
+      "distractorRationales": {
+        "persons as the usual everyday form": "Persons встречается в формальном контексте, но не обычная цель здесь.",
+        "peoples as the ordinary plural of individual people": "Peoples обычно означает народы."
+      },
+      "skillTarget": "plural-nouns-and-a-an",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I8",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the plural of tooth.",
+      "options": [
+        "tooths",
+        "teeth",
+        "teeths"
+      ],
+      "answer": "teeth",
+      "accepted": [
+        "teeth"
+      ],
+      "why": "Tooth → teeth.",
+      "distractorWhy": "Tooths не стандартная форма.",
+      "distractorRationales": {
+        "tooths": "Tooths не стандартная форма.",
+        "teeths": "Teeth уже plural."
+      },
+      "skillTarget": "plural-nouns-and-a-an",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I9",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the ordinary plural of sheep.",
+      "options": [
+        "sheep",
+        "sheeps",
+        "sheepen"
+      ],
+      "answer": "sheep",
+      "accepted": [
+        "sheep"
+      ],
+      "why": "Sheep имеет одинаковую singular/plural форму.",
+      "distractorWhy": "-s здесь не добавляется.",
+      "distractorRationales": {
+        "sheeps": "-s здесь не добавляется.",
+        "sheepen": "Sheepen неверно."
+      },
+      "skillTarget": "plural-nouns-and-a-an",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E1",
+      "group": "Выходная проверка",
+      "prompt": "Choose the grammatical plural phrase with a number.",
+      "options": [
+        "three notebooks",
+        "a three notebooks",
+        "three notebook"
+      ],
+      "answer": "three notebooks",
+      "accepted": [
+        "three notebooks"
+      ],
+      "why": "После three употребляется plural countable.",
+      "distractorWhy": "A лишний с числом и plural.",
+      "distractorRationales": {
+        "a three notebooks": "A лишний с числом и plural.",
+        "three notebook": "Notebook требует -s."
+      },
+      "skillTarget": "plural-nouns-and-a-an",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E2",
+      "group": "Выходная проверка",
+      "prompt": "Choose the correct agreement with plural children.",
+      "options": [
+        "The children is in the garden.",
+        "The childrens are in the garden.",
+        "The children are in the garden."
+      ],
+      "answer": "The children are in the garden.",
+      "accepted": [
+        "The children are in the garden."
+      ],
+      "why": "Children — plural, are.",
+      "distractorWhy": "Is не согласуется с children.",
+      "distractorRationales": {
+        "The children is in the garden.": "Is не согласуется с children.",
+        "The childrens are in the garden.": "Children уже plural."
+      },
+      "skillTarget": "plural-nouns-and-a-an",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E3",
+      "group": "Выходная проверка",
+      "prompt": "Choose the correct phrase for a single pair of scissors.",
+      "options": [
+        "a scissors",
+        "a pair of scissors",
+        "an scissors"
+      ],
+      "answer": "a pair of scissors",
+      "accepted": [
+        "a pair of scissors"
+      ],
+      "why": "A pair of + plural scissors выделяет один комплект.",
+      "distractorWhy": "A нельзя ставить непосредственно перед scissors.",
+      "distractorRationales": {
+        "a scissors": "A нельзя ставить непосредственно перед scissors.",
+        "an scissors": "An также не подходит."
+      },
+      "skillTarget": "plural-nouns-and-a-an",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E4",
+      "group": "Выходная проверка",
+      "prompt": "Choose the correct amount phrase with uncountable advice.",
+      "options": [
+        "some advice",
+        "an advice",
+        "two advices"
+      ],
+      "answer": "some advice",
+      "accepted": [
+        "some advice"
+      ],
+      "why": "Advice обычно uncountable; some подходит.",
+      "distractorWhy": "An нельзя использовать непосредственно с advice.",
+      "distractorRationales": {
+        "an advice": "An нельзя использовать непосредственно с advice.",
+        "two advices": "Advices не обычный plural."
+      },
+      "skillTarget": "plural-nouns-and-a-an",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E5",
+      "group": "Выходная проверка",
+      "prompt": "Choose the accurate pair showing singular and plural with an adjective.",
+      "options": [
+        "a blue bag / two blues bags",
+        "a blue bags / two blue bag",
+        "a blue bag / two blue bags"
+      ],
+      "answer": "a blue bag / two blue bags",
+      "accepted": [
+        "a blue bag / two blue bags"
+      ],
+      "why": "Adjective не меняет число, noun bags — plural.",
+      "distractorWhy": "Blues не plural adjective в этой модели.",
+      "distractorRationales": {
+        "a blue bag / two blues bags": "Blues не plural adjective в этой модели.",
+        "a blue bags / two blue bag": "A требует singular, two требует plural."
+      },
+      "skillTarget": "plural-nouns-and-a-an",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "W1",
+      "group": "Самостоятельное применение",
+      "prompt": "Опиши учебный стол или комнату в 8 предложениях. Используй четыре singular noun с a/an, четыре plural noun (в том числе -es, -ies и irregular), одно предложение с is и одно с are. Добавь пример a piece of или a pair of. Объясни выбор двух артиклей.",
+      "open": true,
+      "rubric": [
+        "A/an используются только с подходящим singular noun.",
+        "Выбор a/an основан на звуке следующего слова.",
+        "Regular plural написан правильно.",
+        "Irregular plural выбран верно.",
+        "Is/are и число существительного согласованы.",
+        "Нет a/an с plural или обычным uncountable."
+      ],
+      "skillTarget": "Самостоятельное применение A1-04",
+      "interactionType": "open-production",
+      "difficulty": "transfer",
+      "sourceBasis": "Speakbase-authored open production; self-review rubric only until real AI feedback is connected",
+      "contentVersion": "1.1-draft"
+    }
+  ],
+  "markdown": "# Speakbase — A1-04: Singular/plural nouns and a/an\n\n**Curriculum ID:** `A1-04`  \n**Уровень:** A1  \n**Версия:** 1.1-draft\n**Статус:** drafted; selected source text checked; full source-page and learner acceptance pending\n**Предварительные темы:** A1-01  \n**Связь со старым каталогом:** Частично — №11 Articles; №15 Countable and uncountable\n\n## 1. Результаты обучения\n\n- Образовывать множественное число, использовать a/an с исчисляемыми существительными в единственном числе\n- Выбирать целевую форму по значению, структуре предложения и контексту.\n- Объяснять, почему близкая грамматическая форма меняет смысл или регистр.\n- Находить и исправлять типичные ошибки русскоязычных студентов.\n\n## 2. Источники и статус сверки\n\n| Source | PDF navigation | Lesson-specific checks | Status |\n|---|---|---|---|\n| GR-01 U66-69 | PDF pages 143-150 (Unit 66-69) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-02 U71 | PDF pages 154-155 (Unit 71) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-02 U79 | PDF pages 170-171 (Unit 79) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-05 A1 p12 | PDF pages 12 (A1 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-05 A1 p21 | PDF pages 21 (A1 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n\nUnit/page locations are navigation aids only. They do not prove that the cited explanation, examples, restrictions and answer key have been checked for this lesson. Examples and explanations below are Speakbase-authored, not quotations from the textbook.\n\nПеред переводом этого урока в source-verified необходимо открыть целевые страницы конкретного издания, записать печатную и PDF-пагинацию, сверить ограничения и исключения. Для GR-03 со сканированными страницами обязательна визуальная проверка.\n\n**Evidence for this editorial pass:** GR-01 Essential Grammar in Use Russian edition, Units 66–69, theory text inspected PDF pp. 143, 145, 147, 149 (printed pp. 142, 144, 146, 148); GR-02 Units 71 and 79 PDF pp. 154 and 170 (printed pp. 142 and 158), selected theory. GR-05, exercise-page and visual verification pending. The selected source text was consulted; not all pages, exercises, editions, scanned GR-03 pages or GR-05 descriptors were checked. Author-created explanations and practice are not copied source exercises.\n\n## 3. Место темы и границы\n\nСначала определи countability и число, затем выбирай a/an по начальному звуку, а не по букве. Множественное число имеет регулярные spelling patterns и исключения.\n\nСтарый каталог содержит: №11 Articles; №15 Countable and uncountable. Его статус — Частично. Старые отметки завершения не переносятся автоматически на новый постоянный ID. Тема рассматривается в уровне A1 и не заменяет обязательные prerequisites.\n\n## 4. Полный конспект\n\n### 4.1. Основная идея и функция конструкции\n\nNoun — существительное: слово, которое называет человека, предмет, животное, место или понятие. Исчисляемое существительное имеет singular (единственное число) и plural (множественное число). One chair — один стул, two chairs — два стула. Перед исчисляемым существительным в единственном числе обычно нужен определитель: a chair, the chair, my chair, this chair. В этом уроке изучаем a/an и основные формы plural.\n\nA/an — неопределённый артикль. Он показывает один предмет или представителя класса, когда не уточняется, какой именно: I need a pen. Это не значит, что слово a всегда нужно переводить как «один». He is a doctor — Он врач. Перед прилагательным артикль относится ко всей группе: a small room, an interesting book. Важно услышать первый звук следующего слова, а не только увидеть букву. An old book начинается с гласного звука old, хотя book начинается с согласного.\n\n### 4.2. Формирование и грамматическая модель\n\n| Правило | Singular | Plural |\n|---|---|---|\n| Обычно + s | a book | books |\n| После s, sh, ch, x, z часто + es | a box | boxes |\n| Consonant + y → ies | a city | cities |\n| Vowel + y → s | a key | keys |\n| Некоторые f/fe → ves | a knife | knives |\n| Неправильная форма | a child | children |\n| Одинаковая форма | a sheep | sheep |\n\n| Первый звук | Артикль | Пример |\n|---|---|---|\n| Согласный | a | a pencil, a university |\n| Гласный | an | an egg, an hour |\n\nA перед согласным звуком: a desk, a teacher, a useful app (useful начинается со звука /j/). An перед гласным звуком: an apple, an engineer, an umbrella, an honest person (h не произносится). A university имеет начальный /j/, поэтому a. An hour имеет немую h, поэтому an. Если между article и noun есть adjective, проверяй именно его начальный звук: a red apple, an orange bag. A/an нельзя употреблять непосредственно с plural: books, some books, two books, но не a books. Не соединяй a/an с my/this/the: my book, не a my book. A/an употребляются только с singular countable nouns в обычном значении.\n\n### 4.3. Как выбрать подходящую форму\n\nСначала установи, можно ли посчитать предметы как отдельные единицы. Если да и предмет один, выбери нужный determiner. Для неопределённого одного предмета проверь первый звук и поставь a или an. Если предметов несколько, измени noun на plural и убери a/an. Затем согласуй другие слова: a book is, two books are; this book, these books. Число определяется предметами, а не окончанием adjective: a red bag, two red bags. Adjective не получает plural -s.\n\nНекоторые plural forms нужно запомнить: man → men, woman → women, child → children, person → people (обычное множественное), foot → feet, tooth → teeth, mouse → mice. Sheep и deer обычно имеют одинаковую форму в singular и plural; fish также часто имеет fish, fishes возможно для видов или в специальных контекстах. Некоторые слова на -o получают -es (potato → potatoes, tomato → tomatoes), другие -s (photo → photos). Некоторые слова на -f/-fe меняются на -ves (leaf → leaves, knife → knives), но roof → roofs, chief → chiefs. Не распространяй одно правило на все исключения.\n\n### 4.4. Сравнение с близкими конструкциями\n\n| Один предмет | Несколько предметов |\n|---|---|\n| This is a pen. | These are pens. |\n| She is a nurse. | They are nurses. |\n| I have an apple. | I have two apples. |\n| There is a child. | There are three children. |\n| That is a box. | Those are boxes. |\n| It is a useful tool. | They are useful tools. |\n\n### 4.5. Примеры с переводом и объяснением\n\n| English | Перевод | Почему это подходит |\n| --- | --- | --- |\n| I need a new notebook. | Мне нужна новая тетрадь. | A + singular countable с согласным звуком. |\n| She's an engineer. | Она инженер. | An перед гласным звуком. |\n| We visited a university. | Мы посетили университет. | University начинается с /j/. |\n| It took an hour. | Это заняло час. | H в hour не произносится. |\n| There are three boxes on the floor. | На полу три коробки. | Box → boxes. |\n| Two children are playing outside. | Двое детей играют на улице. | Child → children, plural are. |\n\n### 4.6. Исключения, ограничения и границы употребления\n\nMoney, water, information, advice, furniture обычно неисчисляемые: some money, some information, not a money или informations. Для единицы можно сказать a piece of advice, a bottle of water. Подробнее изучим это в A1-10. Jeans, scissors, glasses (очки), trousers обычно имеют plural форму даже при одном таком предмете: These scissors are sharp. Для одного комплекта используют a pair of scissors. News оканчивается на s, но обычно singular: The news is good. People — plural в обычном значении: People are friendly.\n\nA/an часто употребляются при профессии, роли и классификации: an artist, a programmer, a city. В plural артикль не нужен: They are engineers. При общем высказывании возможен plural без артикля: Cats are animals. Some cats означает некоторое число или часть группы, а не всех кошек. The используется для известного/определённого объекта и будет изучаться отдельно по программе. Не считай все существительные на s множественными; например, mathematics обычно singular. У plural существительных не ставь апостроф: books — множественное; book's — форма принадлежности или сокращение в другом контексте.\n\n### 4.7. Типичные ошибки русскоязычных студентов\n\n| Ошибка | Исправление | Объяснение |\n| --- | --- | --- |\n| He is doctor. | He is a doctor. | Для профессии в singular нужен article. |\n| An university. | A university. | Первый звук /j/, согласный. |\n| Two citys. | Two cities. | Consonant + y → ies. |\n| Three childs. | Three children. | Неправильный plural. |\n| A informations. | Some information. | Information обычно неисчисляемое. |\n\n### 4.8. Произношение и восприятие на слух\n\nОкончание plural -s произносится /s/ после глухого звука (books), /z/ после звонкого звука или гласного (pens, keys), /ɪz/ после шипящих и свистящих (boxes, buses). Правило зависит от последнего звука основы. У women произношение отличается от woman; эту пару нужно запомнить отдельно. При выборе a/an произнеси первое следующее слово. Отдельная сверка словарных аудио остаётся открытой.\n\nСначала прослушай или прочитай пример, затем произнеси его целиком. Обрати внимание на смысловое ударение и форму конструкции; не ориентируйся только на буквенный перевод.\n\n### 4.9. Академический английский и TOEFL-перенос\n\nТочное число существительных помогает правильно понять вопрос и сформулировать ответ. В учебных текстах различай one student, several students, information. В Speaking представь профессию или предмет с a/an, в Writing проверь noun phrase и согласование: The researcher used a new method; the researchers used two new methods. Это базовая авторская практика, не официальный экзаменационный материал.\n\nЭто авторская практика переноса навыка. Она не является официальным заданием TOEFL и не выдаётся за официальный результат экзамена.\n\n### 4.10. Примеры для управляемого разбора\n\n- I need a new notebook. — Мне нужна новая тетрадь. A + singular countable с согласным звуком.\n- She's an engineer. — Она инженер. An перед гласным звуком.\n- We visited a university. — Мы посетили университет. University начинается с /j/.\n\nДля каждого примера назови целевую конструкцию, объясни выбор и составь новое предложение в другом контексте. Затем перейди к заданиям: сначала диагностика, затем управляемая и самостоятельная практика, затем новые вопросы выходной проверки.\n\n### 4.11. Самопроверка\n\nПеред отправкой ответа проверь:\n1. A/an используются только с подходящим singular noun.\n2. Выбор a/an основан на звуке следующего слова.\n3. Regular plural написан правильно.\n4. Irregular plural выбран верно.\n5. Is/are и число существительного согласованы.\n6. Нет a/an с plural или обычным uncountable.\n\n### 4.12. Краткая памятка\n\nA/an + singular countable noun; выбор зависит от первого звука. Plural обычно -s, после ряда окончаний -es, consonant + y → ies. Irregular plurals запоминай: children, men, women, people, feet, teeth. Не ставь a/an с plural или обычным uncountable. Согласуй noun с is/are и this/these.\n\nНе выбирай форму только по одному знакомому слову: проверь контекст, значение и структуру. При ошибке вернись к соответствующей части конспекта и составь собственный пример.\n\n## 5. Практика\n\nВ приложении практика разделена на входную диагностику, управляемые задания, самостоятельную практику и новую выходную проверку. Закрытые ответы получают rationale и разбор ошибки. Свободный текст сохраняется и оценивается по рубрике; до подключения и реальной проверки AI-движка система не выдаёт его за автоматическую AI-оценку.\n\n## 6. Интервальное повторение\n\nПовторяй не весь урок автоматически, а конкретную ошибку: выбор формы, согласование, word order, значение, регистр или пунктуацию. Новая попытка должна менять лексический контекст и формулировку, чтобы проверять перенос, а не запоминание одной строки.\n\n## 7. Технический статус\n\n- Постоянный ID: `A1-04`.\n- Прогресс хранится отдельно в course.grammarLessons[\"A1-04\"].\n- Содержание и ключи имеют статус draft; 24 авторских закрытых задания и объяснения вычитаны, выбранные тексты источников проверены. Полная постраничная и пользовательская приёмка остаются открытыми.\n- Предварительное выполнение порогов не равно окончательному mastered: нужны отсроченное повторение и learner review.",
+  "theoryEnd": "## 5."
+}
