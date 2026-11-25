@@ -1,0 +1,742 @@
+{
+  "id": "B1-07",
+  "level": "B1",
+  "sequence": "B1-07",
+  "grammarFamily": "B1-07",
+  "questionBankSource": "topic-specific-authored",
+  "sourceVerification": "draft; selected source text consulted; complete source-page and learner review pending",
+  "topicProfile": {
+    "label": "Passive Voice — core tenses and agent",
+    "skillTarget": "passive-core-tenses-and-agent",
+    "core": "Passive Voice (страдательный залог) помогает поставить в центр предложения объект действия или само действие, а не исполнителя. В активном предложении подлежащее выполняет действие; в пассивном подлежащее испытывает действие. Смысловой глагол имеет форму V3, а время, число и лицо выражаются вспомогательной частью be.",
+    "form": "| Время / форма | Passive | Пример |\n|---|---|---|\n| Present Simple | am/is/are + V3 | The room is cleaned daily. |\n| Past Simple | was/were + V3 | The room was cleaned yesterday. |\n| Present Continuous | am/is/are being + V3 | The room is being cleaned. |\n| Past Continuous | was/were being + V3 | The room was being cleaned. |\n| Present Perfect | have/has been + V3 | The room has been cleaned. |\n| Past Perfect | had been + V3 | The room had been cleaned. |\n| Future | will be + V3 | The room will be cleaned. |\n| Modal | modal + be + V3 | The room must be cleaned. |",
+    "selection": "Сначала найди объект действия и проверь, можно ли сделать его подлежащим. Определи время исходного предложения, согласуй be с новым подлежащим, поставь основной глагол в V3. Если исполнитель важен, добавь by + noun/pronoun. Если средство или инструмент важен, часто используется with.",
+    "contrast": "| Актив | Пассив |\n|---|---|\n| They publish the report each year. | The report is published each year. |\n| They are updating the website. | The website is being updated. |\n| They have checked the samples. | The samples have been checked. |\n| They will send the results. | The results will be sent. |\n| They must protect the data. | The data must be protected. |\n| They gave me a certificate. | I was given a certificate. |",
+    "boundary": "Не каждый глагол образует пассив. Глаголы без дополнения обычно не имеют пассивной формы: An accident happened, не was happened. Некоторые переходные глаголы состояния также редко употребляются в пассиве в конкретных значениях. В passive с двумя дополнениями (give, offer, send) часто можно начать с получателя: She was offered a place.",
+    "pronunciation": "В пассиве вспомогательные формы be часто безударны; смысловое ударение падает на V3 или важный объект: The RESULTS were CHECKED. Различай was checked и was checking; being показывает пассивный процесс. Обращай внимание на окончания -ed и неправильные формы V3.",
+    "examples": [
+      [
+        "The application is reviewed by two tutors.",
+        "Заявление проверяют два преподавателя.",
+        "Present Simple passive и агент."
+      ],
+      [
+        "The samples were stored in a secure laboratory.",
+        "Образцы хранились в защищённой лаборатории.",
+        "Past Simple passive."
+      ],
+      [
+        "The system is being updated now.",
+        "Систему сейчас обновляют.",
+        "Continuous passive."
+      ],
+      [
+        "The data have been checked twice.",
+        "Данные проверены дважды.",
+        "Perfect passive."
+      ],
+      [
+        "The forms must be submitted by Friday.",
+        "Формы необходимо подать к пятнице.",
+        "Модальный пассив."
+      ],
+      [
+        "I was offered a place on the course.",
+        "Мне предложили место на курсе.",
+        "Получатель как подлежащее."
+      ]
+    ],
+    "traps": [
+      [
+        "The report is write every month.",
+        "The report is written every month.",
+        "После be требуется V3."
+      ],
+      [
+        "The samples was tested.",
+        "The samples were tested.",
+        "Plural samples требуют were."
+      ],
+      [
+        "The file has checked by the tutor.",
+        "The file has been checked by the tutor.",
+        "Perfect passive требует been."
+      ],
+      [
+        "The accident was happened yesterday.",
+        "The accident happened yesterday.",
+        "Happen не имеет объекта для пассива."
+      ],
+      [
+        "The document will sent tomorrow.",
+        "The document will be sent tomorrow.",
+        "Future passive требует be."
+      ]
+    ],
+    "toefl": "В академических текстах распознавай, что является объектом процедуры: The samples were analysed under controlled conditions. В Writing описывай методы и результаты точно, не скрывая важного исполнителя. В Speaking используй пассив, когда действие важнее агента; в Listening различай активное и пассивное значения."
+  },
+  "title": "Passive Voice — core tenses and agent",
+  "description": "Строить passive в основных временах и выбирать его для информационного фокуса",
+  "cardDescription": "Теория, guided practice, самостоятельные задания и выходная проверка по постоянному ID B1-07.",
+  "eyebrow": "Полный урок программы B1-07 · drafted",
+  "contentVersion": "1.1-draft",
+  "curriculumVersion": "1.0",
+  "prerequisites": [
+    "A2-01",
+    "A2-07"
+  ],
+  "outcomes": [
+    "Строить passive в основных временах и выбирать его для информационного фокуса",
+    "Выбирать целевую конструкцию по контексту и смыслу.",
+    "Исправлять типичные ошибки и переносить правило в новый пример."
+  ],
+  "sourceRefs": [
+    "GR-01 U22-23",
+    "GR-02 U42-45",
+    "GR-03 U22-25",
+    "GR-05 B1 p58-61"
+  ],
+  "sourceStatus": "selected source text consulted; full page verification pending",
+  "status": "drafted",
+  "legacyCoverage": "Полное ядро",
+  "toeflLinks": [
+    "Writing: Build a Sentence",
+    "Writing: Academic Discussion"
+  ],
+  "thresholds": {
+    "independent": 7,
+    "exit": 4,
+    "criticalIds": [
+      "E1",
+      "E2",
+      "E3"
+    ]
+  },
+  "groups": {
+    "independent": "Самостоятельная практика",
+    "exit": "Выходная проверка"
+  },
+  "items": [
+    {
+      "id": "D1",
+      "group": "Входная диагностика",
+      "prompt": "The samples ___ in a secure laboratory yesterday.",
+      "options": [
+        "was stored",
+        "were stored",
+        "were store"
+      ],
+      "answer": "were stored",
+      "accepted": [
+        "were stored"
+      ],
+      "why": "Plural samples + were + V3.",
+      "distractorWhy": "Was не согласуется с plural.",
+      "distractorRationales": {
+        "was stored": "Was не согласуется с plural.",
+        "were store": "Store — V1."
+      },
+      "skillTarget": "passive-core-tenses-and-agent",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D2",
+      "group": "Входная диагностика",
+      "prompt": "The final report ___ every December.",
+      "options": [
+        "is published",
+        "is publish",
+        "publishes by the team"
+      ],
+      "answer": "is published",
+      "accepted": [
+        "is published"
+      ],
+      "why": "Present Simple passive: is + V3.",
+      "distractorWhy": "Publish — V1.",
+      "distractorRationales": {
+        "is publish": "Publish — V1.",
+        "publishes by the team": "Активная форма не сочетается с by the team в этом значении."
+      },
+      "skillTarget": "passive-core-tenses-and-agent",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D3",
+      "group": "Входная диагностика",
+      "prompt": "The data have ___ by two teams.",
+      "options": [
+        "be checked",
+        "being checked",
+        "been checked"
+      ],
+      "answer": "been checked",
+      "accepted": [
+        "been checked"
+      ],
+      "why": "Perfect passive требует been + V3.",
+      "distractorWhy": "Be — V1, не V3 после have.",
+      "distractorRationales": {
+        "be checked": "Be — V1, не V3 после have.",
+        "being checked": "Being не подходит после have в этой модели."
+      },
+      "skillTarget": "passive-core-tenses-and-agent",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D4",
+      "group": "Входная диагностика",
+      "prompt": "A new bridge ___ next year. Use future passive.",
+      "options": [
+        "will built",
+        "will be built",
+        "will be build"
+      ],
+      "answer": "will be built",
+      "accepted": [
+        "will be built"
+      ],
+      "why": "Will be + V3.",
+      "distractorWhy": "Пропущено be.",
+      "distractorRationales": {
+        "will built": "Пропущено be.",
+        "will be build": "Build — V1."
+      },
+      "skillTarget": "passive-core-tenses-and-agent",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G1",
+      "group": "Управляемая практика",
+      "prompt": "The new policy was introduced ___ the university board. Which preposition marks the agent?",
+      "options": [
+        "by",
+        "with",
+        "from"
+      ],
+      "answer": "by",
+      "accepted": [
+        "by"
+      ],
+      "why": "By вводит исполнителя действия.",
+      "distractorWhy": "With обычно вводит инструмент.",
+      "distractorRationales": {
+        "with": "With обычно вводит инструмент.",
+        "from": "From обозначает источник, не стандартного агента пассива."
+      },
+      "skillTarget": "passive-core-tenses-and-agent",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G2",
+      "group": "Управляемая практика",
+      "prompt": "The temperature was measured ___ a digital sensor. Which marks the instrument?",
+      "options": [
+        "by the",
+        "from",
+        "with"
+      ],
+      "answer": "with",
+      "accepted": [
+        "with"
+      ],
+      "why": "With вводит средство измерения.",
+      "distractorWhy": "By the не завершает грамматически выражение перед a.",
+      "distractorRationales": {
+        "by the": "By the не завершает грамматически выражение перед a.",
+        "from": "From не выражает инструмент в этой конструкции."
+      },
+      "skillTarget": "passive-core-tenses-and-agent",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G3",
+      "group": "Управляемая практика",
+      "prompt": "Choose the correct present continuous passive.",
+      "options": [
+        "The website is been updated now.",
+        "The website is being updated now.",
+        "The website is being update now."
+      ],
+      "answer": "The website is being updated now.",
+      "accepted": [
+        "The website is being updated now."
+      ],
+      "why": "Is being + V3 — текущий пассивный процесс.",
+      "distractorWhy": "Been не образует Continuous passive после is.",
+      "distractorRationales": {
+        "The website is been updated now.": "Been не образует Continuous passive после is.",
+        "The website is being update now.": "Update — V1."
+      },
+      "skillTarget": "passive-core-tenses-and-agent",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G4",
+      "group": "Управляемая практика",
+      "prompt": "Choose the correct negative past passive.",
+      "options": [
+        "The results weren't discussed yesterday.",
+        "The results didn't discussed yesterday.",
+        "The results wasn't discussed yesterday."
+      ],
+      "answer": "The results weren't discussed yesterday.",
+      "accepted": [
+        "The results weren't discussed yesterday."
+      ],
+      "why": "Were not + V3 согласуется с results.",
+      "distractorWhy": "Did не образует пассив.",
+      "distractorRationales": {
+        "The results didn't discussed yesterday.": "Did не образует пассив.",
+        "The results wasn't discussed yesterday.": "Wasn't не согласуется с plural."
+      },
+      "skillTarget": "passive-core-tenses-and-agent",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G5",
+      "group": "Управляемая практика",
+      "prompt": "Choose the correct passive question about a finished action.",
+      "options": [
+        "Has the document be signed?",
+        "Has been the document signed?",
+        "Has the document been signed?"
+      ],
+      "answer": "Has the document been signed?",
+      "accepted": [
+        "Has the document been signed?"
+      ],
+      "why": "Has + subject + been + V3.",
+      "distractorWhy": "Be — V1; после has нужно been.",
+      "distractorRationales": {
+        "Has the document be signed?": "Be — V1; после has нужно been.",
+        "Has been the document signed?": "Been должно следовать за subject."
+      },
+      "skillTarget": "passive-core-tenses-and-agent",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G6",
+      "group": "Управляемая практика",
+      "prompt": "Which sentence cannot normally be changed into passive because the verb has no direct object?",
+      "options": [
+        "The visitors signed the forms.",
+        "The visitors arrived early.",
+        "The visitors checked the timetable."
+      ],
+      "answer": "The visitors arrived early.",
+      "accepted": [
+        "The visitors arrived early."
+      ],
+      "why": "Arrive — непереходный глагол.",
+      "distractorWhy": "Sign имеет объект the forms.",
+      "distractorRationales": {
+        "The visitors signed the forms.": "Sign имеет объект the forms.",
+        "The visitors checked the timetable.": "Check имеет объект the timetable."
+      },
+      "skillTarget": "passive-core-tenses-and-agent",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I1",
+      "group": "Самостоятельная практика",
+      "prompt": "They are repairing the printer. Choose the equivalent passive.",
+      "options": [
+        "The printer has repaired.",
+        "The printer was being repair.",
+        "The printer is being repaired."
+      ],
+      "answer": "The printer is being repaired.",
+      "accepted": [
+        "The printer is being repaired."
+      ],
+      "why": "Present Continuous passive: is being + V3.",
+      "distractorWhy": "Has repaired — активный Perfect.",
+      "distractorRationales": {
+        "The printer has repaired.": "Has repaired — активный Perfect.",
+        "The printer was being repair.": "Was меняет время, repair не V3."
+      },
+      "skillTarget": "passive-core-tenses-and-agent",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I2",
+      "group": "Самостоятельная практика",
+      "prompt": "They had completed the report before noon. Choose the equivalent passive.",
+      "options": [
+        "The report had completed before noon.",
+        "The report had been completed before noon.",
+        "The report had being completed before noon."
+      ],
+      "answer": "The report had been completed before noon.",
+      "accepted": [
+        "The report had been completed before noon."
+      ],
+      "why": "Past Perfect passive: had been + V3.",
+      "distractorWhy": "Had completed — активная форма.",
+      "distractorRationales": {
+        "The report had completed before noon.": "Had completed — активная форма.",
+        "The report had being completed before noon.": "Being не подходит после had."
+      },
+      "skillTarget": "passive-core-tenses-and-agent",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I3",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct modal passive.",
+      "options": [
+        "The files must be protected.",
+        "The files must protected.",
+        "The files must be protect."
+      ],
+      "answer": "The files must be protected.",
+      "accepted": [
+        "The files must be protected."
+      ],
+      "why": "Modal + be + V3.",
+      "distractorWhy": "Пропущено be.",
+      "distractorRationales": {
+        "The files must protected.": "Пропущено be.",
+        "The files must be protect.": "Protect — V1."
+      },
+      "skillTarget": "passive-core-tenses-and-agent",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I4",
+      "group": "Самостоятельная практика",
+      "prompt": "The lecture was being recorded when the system failed. What does the passive form emphasize?",
+      "options": [
+        "A completed recording before the present.",
+        "A regular active habit of the lecture.",
+        "A recording process in progress at that past moment."
+      ],
+      "answer": "A recording process in progress at that past moment.",
+      "accepted": [
+        "A recording process in progress at that past moment."
+      ],
+      "why": "Was being recorded — Past Continuous passive.",
+      "distractorWhy": "Это не Present Perfect.",
+      "distractorRationales": {
+        "A completed recording before the present.": "Это не Present Perfect.",
+        "A regular active habit of the lecture.": "Лекция не является исполнителем записи."
+      },
+      "skillTarget": "passive-core-tenses-and-agent",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I5",
+      "group": "Самостоятельная практика",
+      "prompt": "They gave the student a certificate. Choose the grammatical recipient passive.",
+      "options": [
+        "The student was gave a certificate.",
+        "The student was given a certificate.",
+        "The student was give a certificate."
+      ],
+      "answer": "The student was given a certificate.",
+      "accepted": [
+        "The student was given a certificate."
+      ],
+      "why": "Give допускает пассив с получателем; given — V3.",
+      "distractorWhy": "Gave — V2.",
+      "distractorRationales": {
+        "The student was gave a certificate.": "Gave — V2.",
+        "The student was give a certificate.": "Give — V1."
+      },
+      "skillTarget": "passive-core-tenses-and-agent",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I6",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct passive form of write.",
+      "options": [
+        "The letter was written yesterday.",
+        "The letter was wrote yesterday.",
+        "The letter was write yesterday."
+      ],
+      "answer": "The letter was written yesterday.",
+      "accepted": [
+        "The letter was written yesterday."
+      ],
+      "why": "Written — V3.",
+      "distractorWhy": "Wrote — V2.",
+      "distractorRationales": {
+        "The letter was wrote yesterday.": "Wrote — V2.",
+        "The letter was write yesterday.": "Write — V1."
+      },
+      "skillTarget": "passive-core-tenses-and-agent",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I7",
+      "group": "Самостоятельная практика",
+      "prompt": "Which sentence naturally omits the unknown agent?",
+      "options": [
+        "My bicycle was stole last night.",
+        "My bicycle was steal last night.",
+        "My bicycle was stolen last night."
+      ],
+      "answer": "My bicycle was stolen last night.",
+      "accepted": [
+        "My bicycle was stolen last night."
+      ],
+      "why": "Was stolen — правильный пассив; агент неизвестен.",
+      "distractorWhy": "Stole — V2.",
+      "distractorRationales": {
+        "My bicycle was stole last night.": "Stole — V2.",
+        "My bicycle was steal last night.": "Steal — V1."
+      },
+      "skillTarget": "passive-core-tenses-and-agent",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I8",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct question in Past Simple passive.",
+      "options": [
+        "Did the doors were locked at nine?",
+        "Were the doors locked at nine?",
+        "Was the doors locked at nine?"
+      ],
+      "answer": "Were the doors locked at nine?",
+      "accepted": [
+        "Were the doors locked at nine?"
+      ],
+      "why": "Were перед plural subject + V3.",
+      "distractorWhy": "Did не добавляется к were.",
+      "distractorRationales": {
+        "Did the doors were locked at nine?": "Did не добавляется к were.",
+        "Was the doors locked at nine?": "Was не согласуется с doors."
+      },
+      "skillTarget": "passive-core-tenses-and-agent",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I9",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the natural sentence for a birth in the past.",
+      "options": [
+        "She was born in 2008.",
+        "She was bore in 2008.",
+        "She borned in 2008."
+      ],
+      "answer": "She was born in 2008.",
+      "accepted": [
+        "She was born in 2008."
+      ],
+      "why": "Was born — стандартная форма.",
+      "distractorWhy": "Bore здесь не V3.",
+      "distractorRationales": {
+        "She was bore in 2008.": "Bore здесь не V3.",
+        "She borned in 2008.": "Borned не существует."
+      },
+      "skillTarget": "passive-core-tenses-and-agent",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E1",
+      "group": "Выходная проверка",
+      "prompt": "Which sentence clearly describes a passive action in progress now?",
+      "options": [
+        "The door is being painted.",
+        "The door has been painted.",
+        "The door was painted yesterday."
+      ],
+      "answer": "The door is being painted.",
+      "accepted": [
+        "The door is being painted."
+      ],
+      "why": "Is being + V3 сообщает о текущем процессе.",
+      "distractorWhy": "Perfect passive сообщает о результате.",
+      "distractorRationales": {
+        "The door has been painted.": "Perfect passive сообщает о результате.",
+        "The door was painted yesterday.": "Past Simple passive сообщает о прошлом."
+      },
+      "skillTarget": "passive-core-tenses-and-agent",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E2",
+      "group": "Выходная проверка",
+      "prompt": "Choose the correct negative perfect passive.",
+      "options": [
+        "The documents haven't be sent yet.",
+        "The documents haven't being sent yet.",
+        "The documents haven't been sent yet."
+      ],
+      "answer": "The documents haven't been sent yet.",
+      "accepted": [
+        "The documents haven't been sent yet."
+      ],
+      "why": "Have not been + V3.",
+      "distractorWhy": "После have нужна V3 been.",
+      "distractorRationales": {
+        "The documents haven't be sent yet.": "После have нужна V3 been.",
+        "The documents haven't being sent yet.": "Being не подходит после have."
+      },
+      "skillTarget": "passive-core-tenses-and-agent",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E3",
+      "group": "Выходная проверка",
+      "prompt": "The experiment happened yesterday. Choose the grammatical sentence.",
+      "options": [
+        "The experiment was happened yesterday.",
+        "The experiment happened yesterday.",
+        "The experiment was happen yesterday."
+      ],
+      "answer": "The experiment happened yesterday.",
+      "accepted": [
+        "The experiment happened yesterday."
+      ],
+      "why": "Happen не имеет прямого объекта для пассива.",
+      "distractorWhy": "Was happened — ошибочный пассив.",
+      "distractorRationales": {
+        "The experiment was happened yesterday.": "Was happened — ошибочный пассив.",
+        "The experiment was happen yesterday.": "Was + V1 неверно."
+      },
+      "skillTarget": "passive-core-tenses-and-agent",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E4",
+      "group": "Выходная проверка",
+      "prompt": "Choose the correct agent phrase with a pronoun.",
+      "options": [
+        "The solution was developed by them.",
+        "The solution was developed by they.",
+        "The solution was develop by them."
+      ],
+      "answer": "The solution was developed by them.",
+      "accepted": [
+        "The solution was developed by them."
+      ],
+      "why": "После by нужен объектный them и V3 developed.",
+      "distractorWhy": "They — подлежащая форма.",
+      "distractorRationales": {
+        "The solution was developed by they.": "They — подлежащая форма.",
+        "The solution was develop by them.": "Develop — V1."
+      },
+      "skillTarget": "passive-core-tenses-and-agent",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E5",
+      "group": "Выходная проверка",
+      "prompt": "Choose the passive sentence preserving future modal meaning.",
+      "options": [
+        "The results can checked online.",
+        "The results can be check online.",
+        "The results can be checked online."
+      ],
+      "answer": "The results can be checked online.",
+      "accepted": [
+        "The results can be checked online."
+      ],
+      "why": "Can + be + V3.",
+      "distractorWhy": "Пропущено be.",
+      "distractorRationales": {
+        "The results can checked online.": "Пропущено be.",
+        "The results can be check online.": "Check — V1."
+      },
+      "skillTarget": "passive-core-tenses-and-agent",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "W1",
+      "group": "Самостоятельное применение",
+      "prompt": "Напиши 6–8 предложений о процессе подготовки проекта: Present/Past Simple passive, Continuous passive, Perfect passive, future/modal passive, один вопрос или отрицание, один агент или инструмент. Одно предложение оставь активным и объясни выбор.",
+      "open": true,
+      "rubric": [
+        "Объект преобразован в подлежащее корректно.",
+        "Время и согласование be сохранены.",
+        "Основной глагол стоит в V3.",
+        "Been/being/be используются в нужной модели.",
+        "Агент и инструмент различены.",
+        "Актив и пассив выбираются осознанно."
+      ],
+      "skillTarget": "Самостоятельное применение B1-07",
+      "interactionType": "open-production",
+      "difficulty": "transfer",
+      "sourceBasis": "Speakbase-authored open production; self-review rubric only until real AI feedback is connected",
+      "contentVersion": "1.1-draft"
+    }
+  ],
+  "markdown": "# Speakbase — B1-07: Passive Voice — core tenses and agent\n\n**Curriculum ID:** `B1-07`  \n**Уровень:** B1  \n**Версия:** 1.1-draft\n**Статус:** drafted; selected source text checked; full source-page and learner acceptance pending\n**Предварительные темы:** A2-01, A2-07  \n**Связь со старым каталогом:** Полное ядро — №29 Passive Voice\n\n## 1. Результаты обучения\n\n- Строить passive в основных временах и выбирать его для информационного фокуса\n- Выбирать целевую форму по значению, структуре предложения и контексту.\n- Объяснять, почему близкая грамматическая форма меняет смысл или регистр.\n- Находить и исправлять типичные ошибки русскоязычных студентов.\n\n## 2. Источники и статус сверки\n\n| Source | PDF navigation | Lesson-specific checks | Status |\n|---|---|---|---|\n| GR-01 U22-23 | PDF pages 55-58 (Unit 22-23) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-02 U42-45 | PDF pages 96-103 (Unit 42-45) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-03 U22-25 | PDF pages 68-75 (Unit 22-25) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-05 B1 p58-61 | PDF pages 58-61 (B1 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n\nUnit/page locations are navigation aids only. They do not prove that the cited explanation, examples, restrictions and answer key have been checked for this lesson. Examples and explanations below are Speakbase-authored, not quotations from the textbook.\n\nПеред переводом этого урока в source-verified необходимо открыть целевые страницы конкретного издания, записать печатную и PDF-пагинацию, сверить ограничения и исключения. Для GR-03 со сканированными страницами обязательна визуальная проверка.\n\n**Evidence for this editorial pass:** GR-02 selected theory text: Units 42–45, PDF pp. 96, 98, 100 and 102 (printed pp. 84–90); GR-05 B1 p. 60 selected passive descriptors. The selected source text was consulted; not all pages, exercises, editions, scanned GR-03 pages or GR-05 descriptors were checked. Author-created explanations and practice are not copied source exercises.\n\n## 3. Место темы и границы\n\nОсвой passive в основных временах, выбор агента и информационный фокус. Не образуй обычный passive от непереходных глаголов.\n\nСтарый каталог содержит: №29 Passive Voice. Его статус — Полное ядро. Старые отметки завершения не переносятся автоматически на новый постоянный ID. Тема рассматривается в уровне B1 и не заменяет обязательные prerequisites.\n\n## 4. Полный конспект\n\n### 4.1. Основная идея и функция конструкции\n\nPassive Voice (страдательный залог) помогает поставить в центр предложения объект действия или само действие, а не исполнителя. В активном предложении подлежащее выполняет действие; в пассивном подлежащее испытывает действие. Смысловой глагол имеет форму V3, а время, число и лицо выражаются вспомогательной частью be.\n\nThe technician repaired the device → The device was repaired by the technician. Device из дополнения активного предложения становится подлежащим пассивного. The technician можно не упоминать, если исполнитель очевиден или неизвестен. В академическом английском пассив часто полезен при описании процедур, но не всегда лучше активного: если важно, кто сделал вывод, актив может быть яснее.\n\n### 4.2. Формирование и грамматическая модель\n\n| Время / форма | Passive | Пример |\n|---|---|---|\n| Present Simple | am/is/are + V3 | The room is cleaned daily. |\n| Past Simple | was/were + V3 | The room was cleaned yesterday. |\n| Present Continuous | am/is/are being + V3 | The room is being cleaned. |\n| Past Continuous | was/were being + V3 | The room was being cleaned. |\n| Present Perfect | have/has been + V3 | The room has been cleaned. |\n| Past Perfect | had been + V3 | The room had been cleaned. |\n| Future | will be + V3 | The room will be cleaned. |\n| Modal | modal + be + V3 | The room must be cleaned. |\n\nВремя сохраняется при преобразовании active → passive. Для отрицания ставь not после первого вспомогательного глагола: The file wasn't saved; The file hasn't been saved. В вопросе переставь первый вспомогательный глагол: Was the file saved? Has the file been saved? После be всегда проверяй V3; для неправильных глаголов она может отличаться от V2 (write–wrote–written, make–made–made).\n\n### 4.3. Как выбрать подходящую форму\n\nСначала найди объект действия и проверь, можно ли сделать его подлежащим. Определи время исходного предложения, согласуй be с новым подлежащим, поставь основной глагол в V3. Если исполнитель важен, добавь by + noun/pronoun. Если средство или инструмент важен, часто используется with.\n\nНапример, The researchers measured the temperature with a digital sensor → The temperature was measured by the researchers with a digital sensor. By показывает агента, with — инструмент. Не нужно добавлять by people, by someone или by them, если это ничего не поясняет. Для предметов, которые получают действие, пассив естественен; для событий без объекта (arrive, happen, die) обычный пассив невозможен.\n\n### 4.4. Сравнение с близкими конструкциями\n\n| Актив | Пассив |\n|---|---|\n| They publish the report each year. | The report is published each year. |\n| They are updating the website. | The website is being updated. |\n| They have checked the samples. | The samples have been checked. |\n| They will send the results. | The results will be sent. |\n| They must protect the data. | The data must be protected. |\n| They gave me a certificate. | I was given a certificate. |\n\n### 4.5. Примеры с переводом и объяснением\n\n| English | Перевод | Почему это подходит |\n| --- | --- | --- |\n| The application is reviewed by two tutors. | Заявление проверяют два преподавателя. | Present Simple passive и агент. |\n| The samples were stored in a secure laboratory. | Образцы хранились в защищённой лаборатории. | Past Simple passive. |\n| The system is being updated now. | Систему сейчас обновляют. | Continuous passive. |\n| The data have been checked twice. | Данные проверены дважды. | Perfect passive. |\n| The forms must be submitted by Friday. | Формы необходимо подать к пятнице. | Модальный пассив. |\n| I was offered a place on the course. | Мне предложили место на курсе. | Получатель как подлежащее. |\n\n### 4.6. Исключения, ограничения и границы употребления\n\nНе каждый глагол образует пассив. Глаголы без дополнения обычно не имеют пассивной формы: An accident happened, не was happened. Некоторые переходные глаголы состояния также редко употребляются в пассиве в конкретных значениях. В passive с двумя дополнениями (give, offer, send) часто можно начать с получателя: She was offered a place.\n\nBe + V3 иногда описывает состояние, а не действие: The door is closed может сообщать, что дверь закрыта. The door is being closed однозначно подчёркивает процесс. Be born употребляется как устойчивое выражение: I was born in 2008. Get-passive и impersonal reporting (It is said that...) относятся к дальнейшему углублению. Не смешивай be + V3 с have something done (организованная услуга) — это отдельная тема.\n\n### 4.7. Типичные ошибки русскоязычных студентов\n\n| Ошибка | Исправление | Объяснение |\n| --- | --- | --- |\n| The report is write every month. | The report is written every month. | После be требуется V3. |\n| The samples was tested. | The samples were tested. | Plural samples требуют were. |\n| The file has checked by the tutor. | The file has been checked by the tutor. | Perfect passive требует been. |\n| The accident was happened yesterday. | The accident happened yesterday. | Happen не имеет объекта для пассива. |\n| The document will sent tomorrow. | The document will be sent tomorrow. | Future passive требует be. |\n\n### 4.8. Произношение и восприятие на слух\n\nВ пассиве вспомогательные формы be часто безударны; смысловое ударение падает на V3 или важный объект: The RESULTS were CHECKED. Различай was checked и was checking; being показывает пассивный процесс. Обращай внимание на окончания -ed и неправильные формы V3.\n\nСначала прослушай или прочитай пример, затем произнеси его целиком. Обрати внимание на смысловое ударение и форму конструкции; не ориентируйся только на буквенный перевод.\n\n### 4.9. Академический английский и TOEFL-перенос\n\nВ академических текстах распознавай, что является объектом процедуры: The samples were analysed under controlled conditions. В Writing описывай методы и результаты точно, не скрывая важного исполнителя. В Speaking используй пассив, когда действие важнее агента; в Listening различай активное и пассивное значения.\n\nЭто авторская практика переноса навыка. Она не является официальным заданием TOEFL и не выдаётся за официальный результат экзамена.\n\n### 4.10. Примеры для управляемого разбора\n\n- The application is reviewed by two tutors. — Заявление проверяют два преподавателя. Present Simple passive и агент.\n- The samples were stored in a secure laboratory. — Образцы хранились в защищённой лаборатории. Past Simple passive.\n- The system is being updated now. — Систему сейчас обновляют. Continuous passive.\n\nДля каждого примера назови целевую конструкцию, объясни выбор и составь новое предложение в другом контексте. Затем перейди к заданиям: сначала диагностика, затем управляемая и самостоятельная практика, затем новые вопросы выходной проверки.\n\n### 4.11. Самопроверка\n\nПеред отправкой ответа проверь:\n1. Объект преобразован в подлежащее корректно.\n2. Время и согласование be сохранены.\n3. Основной глагол стоит в V3.\n4. Been/being/be используются в нужной модели.\n5. Агент и инструмент различены.\n6. Актив и пассив выбираются осознанно.\n\n### 4.12. Краткая памятка\n\nПассив = be в нужной форме + V3. Объект активного предложения становится подлежащим. By вводит исполнителя, with — инструмент. Для Perfect passive нужен been, для Continuous passive — being, для modal/future passive — be.\n\nНе выбирай форму только по одному знакомому слову: проверь контекст, значение и структуру. При ошибке вернись к соответствующей части конспекта и составь собственный пример.\n\n## 5. Практика\n\nВ приложении практика разделена на входную диагностику, управляемые задания, самостоятельную практику и новую выходную проверку. Закрытые ответы получают rationale и разбор ошибки. Свободный текст сохраняется и оценивается по рубрике; до подключения и реальной проверки AI-движка система не выдаёт его за автоматическую AI-оценку.\n\n## 6. Интервальное повторение\n\nПовторяй не весь урок автоматически, а конкретную ошибку: выбор формы, согласование, word order, значение, регистр или пунктуацию. Новая попытка должна менять лексический контекст и формулировку, чтобы проверять перенос, а не запоминание одной строки.\n\n## 7. Технический статус\n\n- Постоянный ID: `B1-07`.\n- Прогресс хранится отдельно в course.grammarLessons[\"B1-07\"].\n- Содержание и ключи имеют статус draft; 24 авторских закрытых задания и объяснения вычитаны, выбранные тексты источников проверены. Полная постраничная и пользовательская приёмка остаются открытыми.\n- Предварительное выполнение порогов не равно окончательному mastered: нужны отсроченное повторение и learner review.",
+  "theoryEnd": "## 5."
+}

@@ -1,0 +1,732 @@
+{
+  "id": "B1-06",
+  "level": "B1",
+  "sequence": "B1-06",
+  "grammarFamily": "B1-06",
+  "questionBankSource": "topic-specific-authored",
+  "sourceVerification": "draft; selected source text consulted; complete source-page and learner review pending",
+  "topicProfile": {
+    "label": "Third Conditional",
+    "skillTarget": "third-conditional",
+    "core": "Third Conditional описывает воображаемое прошлое: условие, которое не произошло или было другим, и его предполагаемый прошлый результат. Обычно говорящий оценивает упущенную возможность, объясняет последствия, выражает сожаление или анализирует альтернативный ход событий.",
+    "form": "| Часть | Модель | Пример |\n|---|---|---|\n| Условие | if + had + V3 | If I had studied |\n| Результат | would have + V3 | I would have passed. |\n| Возможность | could have + V3 | I could have passed. |\n| Неуверенный результат | might have + V3 | I might have passed. |\n| Отрицательное условие | if + hadn't + V3 | If I hadn't missed it |\n| Отрицательный результат | wouldn't have + V3 | I wouldn't have been late. |",
+    "selection": "Определи, что уже произошло в прошлом, и какое альтернативное условие ты представляешь. Если и условие, и результат относятся к прошлому, используй had + V3 и would/could/might have + V3. Если результат относится к настоящему, это может быть Mixed Conditional; его подробный разбор будет на B2.",
+    "contrast": "| Пример | Значение |\n|---|---|\n| If I have time, I'll help. | Открытое будущее условие. |\n| If I had time, I'd help. | Воображаемая ситуация сейчас. |\n| If I'd had time yesterday, I'd have helped. | Воображаемый прошлый исход. |\n| If I'd studied harder, I would know more now. | Прошлое условие, настоящий результат (mixed). |\n| I didn't study enough, so I failed. | Сообщение о реальных событиях. |",
+    "boundary": "В обычной условной части Third Conditional не ставится would have. Не путай had + V3 с Past Simple и would have + V3 с would + V1. Would have может встречаться и без if, если условие понятно: I would have helped, but I was ill.",
+    "pronunciation": "Слушай сокращения: If I'd KNOWN, I'd have CALLED. Первое I'd означает had, второе — would. Would have и could have часто произносятся со слабым have; на письме нельзя заменять have на of. Пауза отделяет начальное условие от результата.",
+    "examples": [
+      [
+        "If we had checked the address, we wouldn't have got lost.",
+        "Если бы мы проверили адрес, мы бы не заблудились.",
+        "Альтернативный прошлый исход."
+      ],
+      [
+        "If I had known about the deadline, I would have applied.",
+        "Если бы я знала о сроке, я бы подала заявление.",
+        "Упущенная возможность."
+      ],
+      [
+        "If the team had tested the device, it might have detected the fault.",
+        "Если бы команда проверила устройство, она, возможно, обнаружила бы неисправность.",
+        "Неуверенный результат."
+      ],
+      [
+        "What would you have done if the interview had been cancelled?",
+        "Что бы ты сделала, если бы собеседование отменили?",
+        "Вопрос о прошлой альтернативе."
+      ],
+      [
+        "If they hadn't arrived late, they could have joined the tour.",
+        "Если бы они не опоздали, они могли бы присоединиться к экскурсии.",
+        "Возможность при отрицательном условии."
+      ]
+    ],
+    "traps": [
+      [
+        "If I would have known, I would have called.",
+        "If I had known, I would have called.",
+        "В обычной if-части нужен Past Perfect."
+      ],
+      [
+        "If she had studied, she would have pass.",
+        "If she had studied, she would have passed.",
+        "После have нужна V3."
+      ],
+      [
+        "If we had went earlier, we would have arrived on time.",
+        "If we had gone earlier, we would have arrived on time.",
+        "Gone — V3."
+      ],
+      [
+        "If they had not missed the bus, they would has arrived.",
+        "If they had not missed the bus, they would have arrived.",
+        "После would нужна форма have."
+      ]
+    ],
+    "toefl": "Third Conditional подходит для анализа прошлого опыта и причин: If the survey had included more participants, the findings might have been more reliable. В Writing не выдавай такой предполагаемый исход за результат реально проведённого исследования. В Listening распознавай сожаления и альтернативные объяснения, а в Speaking кратко объясняй, что могло бы измениться в прошлом."
+  },
+  "title": "Third Conditional",
+  "description": "Говорить о нереальных условиях и результатах в прошлом",
+  "cardDescription": "Теория, guided practice, самостоятельные задания и выходная проверка по постоянному ID B1-06.",
+  "eyebrow": "Полный урок программы B1-06 · drafted",
+  "contentVersion": "1.1-draft",
+  "curriculumVersion": "1.0",
+  "prerequisites": [
+    "A2-01",
+    "B1-05"
+  ],
+  "outcomes": [
+    "Говорить о нереальных условиях и результатах в прошлом",
+    "Выбирать целевую конструкцию по контексту и смыслу.",
+    "Исправлять типичные ошибки и переносить правило в новый пример."
+  ],
+  "sourceRefs": [
+    "GR-02 U40",
+    "GR-03 U84-87",
+    "GR-05 B1 p15"
+  ],
+  "sourceStatus": "selected source text consulted; full page verification pending",
+  "status": "drafted",
+  "legacyCoverage": "Полное ядро",
+  "toeflLinks": [
+    "Writing: Build a Sentence",
+    "Speaking: Listen and Repeat / Take an Interview",
+    "Writing: Academic Discussion"
+  ],
+  "thresholds": {
+    "independent": 7,
+    "exit": 4,
+    "criticalIds": [
+      "E1",
+      "E2",
+      "E3"
+    ]
+  },
+  "groups": {
+    "independent": "Самостоятельная практика",
+    "exit": "Выходная проверка"
+  },
+  "items": [
+    {
+      "id": "D1",
+      "group": "Входная диагностика",
+      "prompt": "We booked late and paid more. Choose the alternative past result.",
+      "options": [
+        "If we would have booked earlier, we would have paid less.",
+        "If we had booked earlier, we would have paid less.",
+        "If we had booked earlier, we would have pay less."
+      ],
+      "answer": "If we had booked earlier, we would have paid less.",
+      "accepted": [
+        "If we had booked earlier, we would have paid less."
+      ],
+      "why": "Had + V3 в условии и would have + V3 в результате.",
+      "distractorWhy": "Would have в обычной if-части не нужно.",
+      "distractorRationales": {
+        "If we would have booked earlier, we would have paid less.": "Would have в обычной if-части не нужно.",
+        "If we had booked earlier, we would have pay less.": "Pay — V1."
+      },
+      "skillTarget": "third-conditional",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D2",
+      "group": "Входная диагностика",
+      "prompt": "If she had revised more, she ___ the test. Use would have.",
+      "options": [
+        "would have passed",
+        "would has passed",
+        "would have pass"
+      ],
+      "answer": "would have passed",
+      "accepted": [
+        "would have passed"
+      ],
+      "why": "Would have + V3.",
+      "distractorWhy": "После would используется have.",
+      "distractorRationales": {
+        "would has passed": "После would используется have.",
+        "would have pass": "Pass — V1."
+      },
+      "skillTarget": "third-conditional",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D3",
+      "group": "Входная диагностика",
+      "prompt": "Choose the correct condition: He would have caught the bus if he ___.",
+      "options": [
+        "would have left earlier",
+        "had leave earlier",
+        "had left earlier"
+      ],
+      "answer": "had left earlier",
+      "accepted": [
+        "had left earlier"
+      ],
+      "why": "Had left — Past Perfect.",
+      "distractorWhy": "Would have не ставится в обычной if-части.",
+      "distractorRationales": {
+        "would have left earlier": "Would have не ставится в обычной if-части.",
+        "had leave earlier": "Leave — V1."
+      },
+      "skillTarget": "third-conditional",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D4",
+      "group": "Входная диагностика",
+      "prompt": "If we ___ the map, we might have found the route. Use Past Perfect.",
+      "options": [
+        "had check",
+        "had checked",
+        "would have checked"
+      ],
+      "answer": "had checked",
+      "accepted": [
+        "had checked"
+      ],
+      "why": "Had + checked — V3.",
+      "distractorWhy": "Check — V1.",
+      "distractorRationales": {
+        "had check": "Check — V1.",
+        "would have checked": "Would have — форма результата."
+      },
+      "skillTarget": "third-conditional",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G1",
+      "group": "Управляемая практика",
+      "prompt": "Choose the correct negative hypothetical result.",
+      "options": [
+        "If I had set an alarm, I wouldn't have overslept.",
+        "If I had set an alarm, I wouldn't have oversleep.",
+        "If I had set an alarm, I didn't would have overslept."
+      ],
+      "answer": "If I had set an alarm, I wouldn't have overslept.",
+      "accepted": [
+        "If I had set an alarm, I wouldn't have overslept."
+      ],
+      "why": "Wouldn't have + V3.",
+      "distractorWhy": "Oversleep — V1.",
+      "distractorRationales": {
+        "If I had set an alarm, I wouldn't have oversleep.": "Oversleep — V1.",
+        "If I had set an alarm, I didn't would have overslept.": "Didn't не сочетается с would."
+      },
+      "skillTarget": "third-conditional",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G2",
+      "group": "Управляемая практика",
+      "prompt": "What ___ you have done if the door had been locked?",
+      "options": [
+        "would to",
+        "did would",
+        "would"
+      ],
+      "answer": "would",
+      "accepted": [
+        "would"
+      ],
+      "why": "Would перед subject образует вопрос.",
+      "distractorWhy": "To после would не нужен.",
+      "distractorRationales": {
+        "would to": "To после would не нужен.",
+        "did would": "Did не добавляется к would."
+      },
+      "skillTarget": "third-conditional",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G3",
+      "group": "Управляемая практика",
+      "prompt": "Choose a result expressing past possibility with could.",
+      "options": [
+        "If the library had been open, we could has studied there.",
+        "If the library had been open, we could have studied there.",
+        "If the library had been open, we could have study there."
+      ],
+      "answer": "If the library had been open, we could have studied there.",
+      "accepted": [
+        "If the library had been open, we could have studied there."
+      ],
+      "why": "Could have + V3.",
+      "distractorWhy": "После could нужна форма have.",
+      "distractorRationales": {
+        "If the library had been open, we could has studied there.": "После could нужна форма have.",
+        "If the library had been open, we could have study there.": "Study — V1."
+      },
+      "skillTarget": "third-conditional",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G4",
+      "group": "Управляемая практика",
+      "prompt": "If they hadn't missed the train, they ___ on time. Use would have.",
+      "options": [
+        "would have arrived",
+        "would had arrived",
+        "would have arrive"
+      ],
+      "answer": "would have arrived",
+      "accepted": [
+        "would have arrived"
+      ],
+      "why": "Would have + arrived.",
+      "distractorWhy": "После would нужно have, не had.",
+      "distractorRationales": {
+        "would had arrived": "После would нужно have, не had.",
+        "would have arrive": "Arrive — V1."
+      },
+      "skillTarget": "third-conditional",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G5",
+      "group": "Управляемая практика",
+      "prompt": "Which sentence describes an imagined alternative to a completed past event?",
+      "options": [
+        "If I knew, I would help.",
+        "If I know tomorrow, I will help.",
+        "If I had known, I would have helped."
+      ],
+      "answer": "If I had known, I would have helped.",
+      "accepted": [
+        "If I had known, I would have helped."
+      ],
+      "why": "Third Conditional относится к прошлой альтернативе.",
+      "distractorWhy": "Это гипотеза о настоящем.",
+      "distractorRationales": {
+        "If I knew, I would help.": "Это гипотеза о настоящем.",
+        "If I know tomorrow, I will help.": "Это открытое условие о будущем."
+      },
+      "skillTarget": "third-conditional",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G6",
+      "group": "Управляемая практика",
+      "prompt": "In 'If I'd seen the email, I'd have replied', the first 'd means ___.",
+      "options": [
+        "would",
+        "had",
+        "did"
+      ],
+      "answer": "had",
+      "accepted": [
+        "had"
+      ],
+      "why": "Seen — V3 после had.",
+      "distractorWhy": "Would seen неверно.",
+      "distractorRationales": {
+        "would": "Would seen неверно.",
+        "did": "Did не сокращается так."
+      },
+      "skillTarget": "third-conditional",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I1",
+      "group": "Самостоятельная практика",
+      "prompt": "In 'I'd have called if I had known', 'd means ___.",
+      "options": [
+        "had",
+        "did",
+        "would"
+      ],
+      "answer": "would",
+      "accepted": [
+        "would"
+      ],
+      "why": "Would have called — условный результат.",
+      "distractorWhy": "Had have called не нужная форма.",
+      "distractorRationales": {
+        "had": "Had have called не нужная форма.",
+        "did": "Did не сокращается так."
+      },
+      "skillTarget": "third-conditional",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I2",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct irregular participle in the if-clause.",
+      "options": [
+        "If she had wrote earlier, we would have replied.",
+        "If she had written earlier, we would have replied.",
+        "If she had write earlier, we would have replied."
+      ],
+      "answer": "If she had written earlier, we would have replied.",
+      "accepted": [
+        "If she had written earlier, we would have replied."
+      ],
+      "why": "Written — V3.",
+      "distractorWhy": "Wrote — V2.",
+      "distractorRationales": {
+        "If she had wrote earlier, we would have replied.": "Wrote — V2.",
+        "If she had write earlier, we would have replied.": "Write — V1."
+      },
+      "skillTarget": "third-conditional",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I3",
+      "group": "Самостоятельная практика",
+      "prompt": "He didn't take an umbrella and got wet. Which sentence presents the opposite past outcome?",
+      "options": [
+        "If he had taken an umbrella, he might not have got wet.",
+        "If he took an umbrella tomorrow, he would stay dry.",
+        "If he had taken an umbrella, he might not get wet tomorrow."
+      ],
+      "answer": "If he had taken an umbrella, he might not have got wet.",
+      "accepted": [
+        "If he had taken an umbrella, he might not have got wet."
+      ],
+      "why": "Third Conditional выражает альтернативу прошлому.",
+      "distractorWhy": "Это будущее условие.",
+      "distractorRationales": {
+        "If he took an umbrella tomorrow, he would stay dry.": "Это будущее условие.",
+        "If he had taken an umbrella, he might not get wet tomorrow.": "Результат относится к будущему, не прошлому."
+      },
+      "skillTarget": "third-conditional",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I4",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct order in a past alternative question.",
+      "options": [
+        "Would she joined us if we'd invited her?",
+        "Would have she joined us if we'd invited her?",
+        "Would she have joined us if we'd invited her?"
+      ],
+      "answer": "Would she have joined us if we'd invited her?",
+      "accepted": [
+        "Would she have joined us if we'd invited her?"
+      ],
+      "why": "Would + subject + have + V3.",
+      "distractorWhy": "Пропущено have.",
+      "distractorRationales": {
+        "Would she joined us if we'd invited her?": "Пропущено have.",
+        "Would have she joined us if we'd invited her?": "Have должно следовать после subject."
+      },
+      "skillTarget": "third-conditional",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I5",
+      "group": "Самостоятельная практика",
+      "prompt": "Which sentence explicitly uses a past condition with a present result (mixed)?",
+      "options": [
+        "If I'd slept more, I would have felt better yesterday.",
+        "If I'd slept more, I would feel better now.",
+        "If I sleep more, I will feel better tomorrow."
+      ],
+      "answer": "If I'd slept more, I would feel better now.",
+      "accepted": [
+        "If I'd slept more, I would feel better now."
+      ],
+      "why": "Условие прошлое, результат сейчас.",
+      "distractorWhy": "Обе части относятся к прошлому.",
+      "distractorRationales": {
+        "If I'd slept more, I would have felt better yesterday.": "Обе части относятся к прошлому.",
+        "If I sleep more, I will feel better tomorrow.": "Открытое будущее условие."
+      },
+      "skillTarget": "third-conditional",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I6",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct negative condition: If the team ___ the notice, it would have arrived earlier.",
+      "options": [
+        "hadn't ignored",
+        "hadn't ignore",
+        "wouldn't have ignored"
+      ],
+      "answer": "hadn't ignored",
+      "accepted": [
+        "hadn't ignored"
+      ],
+      "why": "Hadn't + V3 — отрицательный Past Perfect.",
+      "distractorWhy": "Ignore — V1.",
+      "distractorRationales": {
+        "hadn't ignore": "Ignore — V1.",
+        "wouldn't have ignored": "Wouldn't have не обычная if-часть."
+      },
+      "skillTarget": "third-conditional",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I7",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct sentence with the if-clause second.",
+      "options": [
+        "I would stayed if I had known about the event.",
+        "I would have stayed if had I known about the event.",
+        "I would have stayed if I had known about the event."
+      ],
+      "answer": "I would have stayed if I had known about the event.",
+      "accepted": [
+        "I would have stayed if I had known about the event."
+      ],
+      "why": "Would have + V3 и if + subject + had + V3.",
+      "distractorWhy": "Пропущено have.",
+      "distractorRationales": {
+        "I would stayed if I had known about the event.": "Пропущено have.",
+        "I would have stayed if had I known about the event.": "После if здесь не нужна инверсия."
+      },
+      "skillTarget": "third-conditional",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I8",
+      "group": "Самостоятельная практика",
+      "prompt": "Which sentence expresses an uncertain past result with might?",
+      "options": [
+        "If the alarm had worked, the staff might has noticed the problem.",
+        "If the alarm had worked, the staff might have noticed the problem.",
+        "If the alarm had worked, the staff might have notice the problem."
+      ],
+      "answer": "If the alarm had worked, the staff might have noticed the problem.",
+      "accepted": [
+        "If the alarm had worked, the staff might have noticed the problem."
+      ],
+      "why": "Might have + V3 выражает возможность прошлого исхода.",
+      "distractorWhy": "После might нужна have.",
+      "distractorRationales": {
+        "If the alarm had worked, the staff might has noticed the problem.": "После might нужна have.",
+        "If the alarm had worked, the staff might have notice the problem.": "Notice — V1."
+      },
+      "skillTarget": "third-conditional",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I9",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct spelling in the shortened form.",
+      "options": [
+        "If I'd known, I'd have come.",
+        "If I'd knew, I'd have come.",
+        "If I'd known, I'd of come."
+      ],
+      "answer": "If I'd known, I'd have come.",
+      "accepted": [
+        "If I'd known, I'd have come."
+      ],
+      "why": "Known — V3; have — вспомогательный глагол.",
+      "distractorWhy": "Knew — V2.",
+      "distractorRationales": {
+        "If I'd knew, I'd have come.": "Knew — V2.",
+        "If I'd known, I'd of come.": "Of не заменяет have."
+      },
+      "skillTarget": "third-conditional",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E1",
+      "group": "Выходная проверка",
+      "prompt": "They did not send the invitation. What could have happened if they had sent it?",
+      "options": [
+        "More people could have attended.",
+        "More people could has attended.",
+        "More people could have attend."
+      ],
+      "answer": "More people could have attended.",
+      "accepted": [
+        "More people could have attended."
+      ],
+      "why": "Could have + V3 — возможный прошлый исход.",
+      "distractorWhy": "После could используется have.",
+      "distractorRationales": {
+        "More people could has attended.": "После could используется have.",
+        "More people could have attend.": "Attend — V1."
+      },
+      "skillTarget": "third-conditional",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E2",
+      "group": "Выходная проверка",
+      "prompt": "Choose the standard conditional with no inversion in the if-clause.",
+      "options": [
+        "If had I seen the error, I would have corrected it.",
+        "If I would have seen the error, I would have corrected it.",
+        "If I had seen the error, I would have corrected it."
+      ],
+      "answer": "If I had seen the error, I would have corrected it.",
+      "accepted": [
+        "If I had seen the error, I would have corrected it."
+      ],
+      "why": "If + subject + had + V3.",
+      "distractorWhy": "Инверсия Had I seen возможна без if.",
+      "distractorRationales": {
+        "If had I seen the error, I would have corrected it.": "Инверсия Had I seen возможна без if.",
+        "If I would have seen the error, I would have corrected it.": "Would have не нужна в обычной if-части."
+      },
+      "skillTarget": "third-conditional",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E3",
+      "group": "Выходная проверка",
+      "prompt": "Choose the factual past statement, not a hypothetical past result.",
+      "options": [
+        "If I'd remembered the date, I'd have met the deadline.",
+        "I missed the deadline because I forgot the date.",
+        "I would have met the deadline if I'd remembered."
+      ],
+      "answer": "I missed the deadline because I forgot the date.",
+      "accepted": [
+        "I missed the deadline because I forgot the date."
+      ],
+      "why": "Past Simple сообщает о фактах.",
+      "distractorWhy": "Это альтернативное прошлое.",
+      "distractorRationales": {
+        "If I'd remembered the date, I'd have met the deadline.": "Это альтернативное прошлое.",
+        "I would have met the deadline if I'd remembered.": "Это воображаемый результат."
+      },
+      "skillTarget": "third-conditional",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E4",
+      "group": "Выходная проверка",
+      "prompt": "Choose the grammatical alternative past passive result.",
+      "options": [
+        "If they had checked the file, the mistake might have been avoided.",
+        "If they had checked the file, the mistake might have be avoided.",
+        "If they had checked the file, the mistake might has been avoided."
+      ],
+      "answer": "If they had checked the file, the mistake might have been avoided.",
+      "accepted": [
+        "If they had checked the file, the mistake might have been avoided."
+      ],
+      "why": "Might have been + V3 образует модальный перфектный пассив.",
+      "distractorWhy": "После have нужна V3 been.",
+      "distractorRationales": {
+        "If they had checked the file, the mistake might have be avoided.": "После have нужна V3 been.",
+        "If they had checked the file, the mistake might has been avoided.": "После might используется have."
+      },
+      "skillTarget": "third-conditional",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E5",
+      "group": "Выходная проверка",
+      "prompt": "Which sentence correctly expresses regret about an earlier decision?",
+      "options": [
+        "If I had bring my notes, I would have answered the question.",
+        "If I had brought my notes, I would have answer the question.",
+        "If I had brought my notes, I would have answered the question."
+      ],
+      "answer": "If I had brought my notes, I would have answered the question.",
+      "accepted": [
+        "If I had brought my notes, I would have answered the question."
+      ],
+      "why": "Brought и answered — V3.",
+      "distractorWhy": "Bring — V1.",
+      "distractorRationales": {
+        "If I had bring my notes, I would have answered the question.": "Bring — V1.",
+        "If I had brought my notes, I would have answer the question.": "Answer — V1."
+      },
+      "skillTarget": "third-conditional",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "W1",
+      "group": "Самостоятельное применение",
+      "prompt": "Опиши прошлую неудачу или вымышленную проблему (6 предложений). Назови два реальных факта, предложи три альтернативы с would/could/might have, добавь отрицание или вопрос и объясни различие между фактами и предположениями.",
+      "open": true,
+      "rubric": [
+        "Реальные события отделены от альтернативного прошлого.",
+        "If-часть содержит had + V3.",
+        "Результат содержит modal + have + V3.",
+        "Верно выбрана V3 неправильных глаголов.",
+        "Есть отрицание или вопрос.",
+        "Степень уверенности результата выражена осознанно."
+      ],
+      "skillTarget": "Самостоятельное применение B1-06",
+      "interactionType": "open-production",
+      "difficulty": "transfer",
+      "sourceBasis": "Speakbase-authored open production; self-review rubric only until real AI feedback is connected",
+      "contentVersion": "1.1-draft"
+    }
+  ],
+  "markdown": "# Speakbase — B1-06: Third Conditional\n\n**Curriculum ID:** `B1-06`  \n**Уровень:** B1  \n**Версия:** 1.1-draft\n**Статус:** drafted; selected source text checked; full source-page and learner acceptance pending\n**Предварительные темы:** A2-01, B1-05  \n**Связь со старым каталогом:** Полное ядро — №27 Third Conditional\n\n## 1. Результаты обучения\n\n- Говорить о нереальных условиях и результатах в прошлом\n- Выбирать целевую форму по значению, структуре предложения и контексту.\n- Объяснять, почему близкая грамматическая форма меняет смысл или регистр.\n- Находить и исправлять типичные ошибки русскоязычных студентов.\n\n## 2. Источники и статус сверки\n\n| Source | PDF navigation | Lesson-specific checks | Status |\n|---|---|---|---|\n| GR-02 U40 | PDF pages 92-93 (Unit 40) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-03 U84-87 | PDF pages 192-199 (Unit 84-87) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-05 B1 p15 | PDF pages 15 (B1 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n\nUnit/page locations are navigation aids only. They do not prove that the cited explanation, examples, restrictions and answer key have been checked for this lesson. Examples and explanations below are Speakbase-authored, not quotations from the textbook.\n\nПеред переводом этого урока в source-verified необходимо открыть целевые страницы конкретного издания, записать печатную и PDF-пагинацию, сверить ограничения и исключения. Для GR-03 со сканированными страницами обязательна визуальная проверка.\n\n**Evidence for this editorial pass:** GR-02 selected theory text: Units 36 and 40, PDF pp. 84 and 92 (printed pp. 72 and 80); GR-05 B1 p. 15 selected third-conditional descriptor. The selected source text was consulted; not all pages, exercises, editions, scanned GR-03 pages or GR-05 descriptors were checked. Author-created explanations and practice are not copied source exercises.\n\n## 3. Место темы и границы\n\nThird Conditional моделирует контрфактическое прошлое. Разбери would/could/might have + V3 и причинно-следственный смысл.\n\nСтарый каталог содержит: №27 Third Conditional. Его статус — Полное ядро. Старые отметки завершения не переносятся автоматически на новый постоянный ID. Тема рассматривается в уровне B1 и не заменяет обязательные prerequisites.\n\n## 4. Полный конспект\n\n### 4.1. Основная идея и функция конструкции\n\nThird Conditional описывает воображаемое прошлое: условие, которое не произошло или было другим, и его предполагаемый прошлый результат. Обычно говорящий оценивает упущенную возможность, объясняет последствия, выражает сожаление или анализирует альтернативный ход событий.\n\nIf we had left earlier, we would have caught the train означает: мы представляем прошлое, в котором вышли раньше. В типичном контексте мы вышли поздно и не успели на поезд. Эта конструкция не меняет прошлое; она позволяет рассуждать о нём. Контекст устанавливает реальные факты, поэтому не надо превращать каждое условное предложение в доказательство конкретного события.\n\n### 4.2. Формирование и грамматическая модель\n\n| Часть | Модель | Пример |\n|---|---|---|\n| Условие | if + had + V3 | If I had studied |\n| Результат | would have + V3 | I would have passed. |\n| Возможность | could have + V3 | I could have passed. |\n| Неуверенный результат | might have + V3 | I might have passed. |\n| Отрицательное условие | if + hadn't + V3 | If I hadn't missed it |\n| Отрицательный результат | wouldn't have + V3 | I wouldn't have been late. |\n\nВ had + V3 had — вспомогательный глагол Past Perfect. В результате после would/could/might используется have, а не had/has; затем V3. Сокращение I'd неоднозначно: If I'd known = if I had known; I'd have helped = I would have helped. В вопросе What would you have done if…? инверсия в главной части. Порядок частей можно менять: I would have helped if I had known. Запятая обычно отделяет начальную if-часть.\n\n### 4.3. Как выбрать подходящую форму\n\nОпредели, что уже произошло в прошлом, и какое альтернативное условие ты представляешь. Если и условие, и результат относятся к прошлому, используй had + V3 и would/could/might have + V3. Если результат относится к настоящему, это может быть Mixed Conditional; его подробный разбор будет на B2.\n\nWould выражает предполагаемый результат при воображаемом условии, could — возможность/способность, might — менее определённую возможность. Например, If the team had tested the device, it might have found the fault (возможно, обнаружила бы). Could have found также возможен в подходящем контексте, но меняет оттенок. Не выбирай модальный глагол механически по переводу: выясни, какую степень уверенности выражает говорящий.\n\n### 4.4. Сравнение с близкими конструкциями\n\n| Пример | Значение |\n|---|---|\n| If I have time, I'll help. | Открытое будущее условие. |\n| If I had time, I'd help. | Воображаемая ситуация сейчас. |\n| If I'd had time yesterday, I'd have helped. | Воображаемый прошлый исход. |\n| If I'd studied harder, I would know more now. | Прошлое условие, настоящий результат (mixed). |\n| I didn't study enough, so I failed. | Сообщение о реальных событиях. |\n\n### 4.5. Примеры с переводом и объяснением\n\n| English | Перевод | Почему это подходит |\n| --- | --- | --- |\n| If we had checked the address, we wouldn't have got lost. | Если бы мы проверили адрес, мы бы не заблудились. | Альтернативный прошлый исход. |\n| If I had known about the deadline, I would have applied. | Если бы я знала о сроке, я бы подала заявление. | Упущенная возможность. |\n| If the team had tested the device, it might have detected the fault. | Если бы команда проверила устройство, она, возможно, обнаружила бы неисправность. | Неуверенный результат. |\n| What would you have done if the interview had been cancelled? | Что бы ты сделала, если бы собеседование отменили? | Вопрос о прошлой альтернативе. |\n| If they hadn't arrived late, they could have joined the tour. | Если бы они не опоздали, они могли бы присоединиться к экскурсии. | Возможность при отрицательном условии. |\n\n### 4.6. Исключения, ограничения и границы употребления\n\nВ обычной условной части Third Conditional не ставится would have. Не путай had + V3 с Past Simple и would have + V3 с would + V1. Would have может встречаться и без if, если условие понятно: I would have helped, but I was ill.\n\nHad I known… — формальная инверсия с опущенным if, но на данном уровне основная конструкция If I had known… остаётся предпочтительной. Не соединяй if и инверсию: If had I known неверно. В конструкции wish + Past Perfect также выражается сожаление о прошлом, но wish не требует второй части с would have. Это отдельная тема. В отрицании размещай not после had или would, а не между have и V3.\n\n### 4.7. Типичные ошибки русскоязычных студентов\n\n| Ошибка | Исправление | Объяснение |\n| --- | --- | --- |\n| If I would have known, I would have called. | If I had known, I would have called. | В обычной if-части нужен Past Perfect. |\n| If she had studied, she would have pass. | If she had studied, she would have passed. | После have нужна V3. |\n| If we had went earlier, we would have arrived on time. | If we had gone earlier, we would have arrived on time. | Gone — V3. |\n| If they had not missed the bus, they would has arrived. | If they had not missed the bus, they would have arrived. | После would нужна форма have. |\n\n### 4.8. Произношение и восприятие на слух\n\nСлушай сокращения: If I'd KNOWN, I'd have CALLED. Первое I'd означает had, второе — would. Would have и could have часто произносятся со слабым have; на письме нельзя заменять have на of. Пауза отделяет начальное условие от результата.\n\nСначала прослушай или прочитай пример, затем произнеси его целиком. Обрати внимание на смысловое ударение и форму конструкции; не ориентируйся только на буквенный перевод.\n\n### 4.9. Академический английский и TOEFL-перенос\n\nThird Conditional подходит для анализа прошлого опыта и причин: If the survey had included more participants, the findings might have been more reliable. В Writing не выдавай такой предполагаемый исход за результат реально проведённого исследования. В Listening распознавай сожаления и альтернативные объяснения, а в Speaking кратко объясняй, что могло бы измениться в прошлом.\n\nЭто авторская практика переноса навыка. Она не является официальным заданием TOEFL и не выдаётся за официальный результат экзамена.\n\n### 4.10. Примеры для управляемого разбора\n\n- If we had checked the address, we wouldn't have got lost. — Если бы мы проверили адрес, мы бы не заблудились. Альтернативный прошлый исход.\n- If I had known about the deadline, I would have applied. — Если бы я знала о сроке, я бы подала заявление. Упущенная возможность.\n- If the team had tested the device, it might have detected the fault. — Если бы команда проверила устройство, она, возможно, обнаружила бы неисправность. Неуверенный результат.\n\nДля каждого примера назови целевую конструкцию, объясни выбор и составь новое предложение в другом контексте. Затем перейди к заданиям: сначала диагностика, затем управляемая и самостоятельная практика, затем новые вопросы выходной проверки.\n\n### 4.11. Самопроверка\n\nПеред отправкой ответа проверь:\n1. Реальные события отделены от альтернативного прошлого.\n2. If-часть содержит had + V3.\n3. Результат содержит modal + have + V3.\n4. Верно выбрана V3 неправильных глаголов.\n5. Есть отрицание или вопрос.\n6. Степень уверенности результата выражена осознанно.\n\n### 4.12. Краткая памятка\n\nIf + had + V3, would/could/might have + V3. Обе части относятся к альтернативному прошлому. Вопрос — would + subject + have + V3; отрицание — hadn't/wouldn't. Различай воображаемый исход и фактически произошедшие события.\n\nНе выбирай форму только по одному знакомому слову: проверь контекст, значение и структуру. При ошибке вернись к соответствующей части конспекта и составь собственный пример.\n\n## 5. Практика\n\nВ приложении практика разделена на входную диагностику, управляемые задания, самостоятельную практику и новую выходную проверку. Закрытые ответы получают rationale и разбор ошибки. Свободный текст сохраняется и оценивается по рубрике; до подключения и реальной проверки AI-движка система не выдаёт его за автоматическую AI-оценку.\n\n## 6. Интервальное повторение\n\nПовторяй не весь урок автоматически, а конкретную ошибку: выбор формы, согласование, word order, значение, регистр или пунктуацию. Новая попытка должна менять лексический контекст и формулировку, чтобы проверять перенос, а не запоминание одной строки.\n\n## 7. Технический статус\n\n- Постоянный ID: `B1-06`.\n- Прогресс хранится отдельно в course.grammarLessons[\"B1-06\"].\n- Содержание и ключи имеют статус draft; 24 авторских закрытых задания и объяснения вычитаны, выбранные тексты источников проверены. Полная постраничная и пользовательская приёмка остаются открытыми.\n- Предварительное выполнение порогов не равно окончательному mastered: нужны отсроченное повторение и learner review.",
+  "theoryEnd": "## 5."
+}

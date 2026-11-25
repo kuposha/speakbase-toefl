@@ -1,0 +1,732 @@
+{
+  "id": "B1-05",
+  "level": "B1",
+  "sequence": "B1-05",
+  "grammarFamily": "B1-05",
+  "questionBankSource": "topic-specific-authored",
+  "sourceVerification": "draft; selected source text consulted; complete source-page and learner review pending",
+  "topicProfile": {
+    "label": "Second Conditional",
+    "skillTarget": "second-conditional",
+    "core": "Second Conditional выражает воображаемое или маловероятное условие в настоящем или будущем и его предполагаемое следствие. Past Simple в условной части показывает дистанцию от реальности, а не обязательно прошлое время. Конструкция используется для гипотез, советов, мечтаний и обсуждения альтернатив.",
+    "form": "| Часть | Модель | Пример |\n|---|---|---|\n| Условие | if + Past Simple | If I had more time |\n| Результат | would + V1 | I would study more. |\n| Возможность | could + V1 | I could study more. |\n| Менее уверенный результат | might + V1 | I might join the club. |\n| Отрицание условия | if + didn't + V1 | If he didn't work late |\n| Отрицание результата | wouldn't + V1 | I wouldn't worry. |\n| Совет | If I were you, I would + V1 | If I were you, I'd check it. |",
+    "selection": "Определи, относится ли условие к настоящему/будущему и представляется ли оно нереальным или воображаемым. Если да, выбери Past Simple после if и would/could/might + V1 в результате. Для совета используй If I were you, I'd…",
+    "contrast": "| Пример | Значение |\n|---|---|\n| If I have time, I'll help. | Реальная будущая возможность. |\n| If I had more time, I'd help. | Воображаемая ситуация сейчас или в будущем. |\n| If I had had more time yesterday, I'd have helped. | Альтернативное прошлое. |\n| If she studied more, she could improve. | Возможность или способность при условии. |\n| If she studied more, she might improve. | Предполагаемый, не гарантированный результат. |",
+    "boundary": "С be в гипотетическом условии традиционно используется were для всех лиц (особенно If I were you). В разговорном английском was встречается с I/he/she; не объявляй его всегда ошибкой. Для стандартной письменной практики выбирай were. В обычном гипотетическом условии не ставят would после if.",
+    "pronunciation": "В связной речи I'd и you'd часто произносятся кратко. Ударение может падать на контраст: If I HAD more time, I'd STUDY more. При чтении if-части, стоящей первой, небольшая пауза помогает отделить условие от результата.",
+    "examples": [
+      [
+        "If I had a larger desk, I would buy a second monitor.",
+        "Если бы у меня был стол побольше, я купила бы второй монитор.",
+        "Воображаемая ситуация сейчас."
+      ],
+      [
+        "If we lived closer, we could meet every week.",
+        "Если бы мы жили ближе, мы могли бы встречаться каждую неделю.",
+        "Возможность при условии."
+      ],
+      [
+        "If I were you, I'd read the instructions again.",
+        "На твоём месте я бы перечитала инструкцию.",
+        "Совет."
+      ],
+      [
+        "Would you apply if the course were free?",
+        "Ты подала бы заявление, если бы курс был бесплатным?",
+        "Вопрос о гипотезе."
+      ],
+      [
+        "If he didn't have a deadline, he wouldn't rush.",
+        "Если бы у него не было срока, он бы не спешил.",
+        "Отрицание в обеих частях."
+      ]
+    ],
+    "traps": [
+      [
+        "If I would live closer, I would walk.",
+        "If I lived closer, I would walk.",
+        "В обычном условии используется Past Simple, не would."
+      ],
+      [
+        "If I were you, I would to check.",
+        "If I were you, I would check.",
+        "После would нужна V1 без to."
+      ],
+      [
+        "If she didn't studied, she would fail.",
+        "If she didn't study, she would fail.",
+        "После didn't используется V1."
+      ],
+      [
+        "If I have enough money, I would buy it (воображаемая ситуация).",
+        "If I had enough money, I would buy it.",
+        "Для дистанцированной гипотезы нужна прошедшая форма условия."
+      ]
+    ],
+    "toefl": "В Speaking и Writing гипотетическая конструкция помогает предлагать решения и обсуждать альтернативы: If the university offered more evening classes, students could combine work and study. Не выдавай гипотетическое следствие за установленный факт. В Reading и Listening различай реальные планы и воображаемые сценарии."
+  },
+  "title": "Second Conditional",
+  "description": "Выражать гипотетические ситуации настоящего/будущего и давать советы",
+  "cardDescription": "Теория, guided practice, самостоятельные задания и выходная проверка по постоянному ID B1-05.",
+  "eyebrow": "Полный урок программы B1-05 · drafted",
+  "contentVersion": "1.1-draft",
+  "curriculumVersion": "1.0",
+  "prerequisites": [
+    "A2-04",
+    "A2-15"
+  ],
+  "outcomes": [
+    "Выражать гипотетические ситуации настоящего/будущего и давать советы",
+    "Выбирать целевую конструкцию по контексту и смыслу.",
+    "Исправлять типичные ошибки и переносить правило в новый пример."
+  ],
+  "sourceRefs": [
+    "GR-02 U38-39",
+    "GR-03 U83-87",
+    "GR-05 B1 p15-17"
+  ],
+  "sourceStatus": "selected source text consulted; full page verification pending",
+  "status": "drafted",
+  "legacyCoverage": "Полное ядро",
+  "toeflLinks": [
+    "Writing: Build a Sentence",
+    "Speaking: Listen and Repeat / Take an Interview",
+    "Writing: Academic Discussion"
+  ],
+  "thresholds": {
+    "independent": 7,
+    "exit": 4,
+    "criticalIds": [
+      "E1",
+      "E2",
+      "E3"
+    ]
+  },
+  "groups": {
+    "independent": "Самостоятельная практика",
+    "exit": "Выходная проверка"
+  },
+  "items": [
+    {
+      "id": "D1",
+      "group": "Входная диагностика",
+      "prompt": "I live far from campus. Choose the imagined alternative.",
+      "options": [
+        "If I would live nearby, I would walk to class.",
+        "If I lived nearby, I would walk to class.",
+        "If I lived nearby, I would to walk to class."
+      ],
+      "answer": "If I lived nearby, I would walk to class.",
+      "accepted": [
+        "If I lived nearby, I would walk to class."
+      ],
+      "why": "Past Simple в условии и would + V1 в результате.",
+      "distractorWhy": "В обычной if-части не ставят would.",
+      "distractorRationales": {
+        "If I would live nearby, I would walk to class.": "В обычной if-части не ставят would.",
+        "If I lived nearby, I would to walk to class.": "После would не нужен to."
+      },
+      "skillTarget": "second-conditional",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D2",
+      "group": "Входная диагностика",
+      "prompt": "Choose the standard written advice expression.",
+      "options": [
+        "If I were you, I'd check the timetable.",
+        "If I am you, I'd check the timetable.",
+        "If I would be you, I'd check the timetable."
+      ],
+      "answer": "If I were you, I'd check the timetable.",
+      "accepted": [
+        "If I were you, I'd check the timetable."
+      ],
+      "why": "If I were you — стандартная гипотетическая форма совета.",
+      "distractorWhy": "Am не передаёт нужную дистанцию.",
+      "distractorRationales": {
+        "If I am you, I'd check the timetable.": "Am не передаёт нужную дистанцию.",
+        "If I would be you, I'd check the timetable.": "Would в обычном условии не ставится."
+      },
+      "skillTarget": "second-conditional",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D3",
+      "group": "Входная диагностика",
+      "prompt": "If she had a quieter room, she ___ better. Use would.",
+      "options": [
+        "would studies",
+        "would studied",
+        "would study"
+      ],
+      "answer": "would study",
+      "accepted": [
+        "would study"
+      ],
+      "why": "Would + V1.",
+      "distractorWhy": "После would не добавляют -s.",
+      "distractorRationales": {
+        "would studies": "После would не добавляют -s.",
+        "would studied": "Studied не V1."
+      },
+      "skillTarget": "second-conditional",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D4",
+      "group": "Входная диагностика",
+      "prompt": "They would travel more if they ___ enough money. Use the hypothetical past form.",
+      "options": [
+        "would have",
+        "had",
+        "have"
+      ],
+      "answer": "had",
+      "accepted": [
+        "had"
+      ],
+      "why": "Had — Past Simple в воображаемом условии.",
+      "distractorWhy": "Would не ставится в обычной if-части.",
+      "distractorRationales": {
+        "would have": "Would не ставится в обычной if-части.",
+        "have": "Have не выражает нужную дистанцию."
+      },
+      "skillTarget": "second-conditional",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G1",
+      "group": "Управляемая практика",
+      "prompt": "If the office were nearer, we ___ a taxi. Choose the negative result.",
+      "options": [
+        "wouldn't need",
+        "wouldn't needed",
+        "don't would need"
+      ],
+      "answer": "wouldn't need",
+      "accepted": [
+        "wouldn't need"
+      ],
+      "why": "Wouldn't + V1.",
+      "distractorWhy": "Needed — V2/V3.",
+      "distractorRationales": {
+        "wouldn't needed": "Needed — V2/V3.",
+        "don't would need": "Don't не сочетается с would."
+      },
+      "skillTarget": "second-conditional",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G2",
+      "group": "Управляемая практика",
+      "prompt": "Choose the correct question about an imagined scholarship.",
+      "options": [
+        "What you would do if you won it?",
+        "What would you did if you won it?",
+        "What would you do if you won it?"
+      ],
+      "answer": "What would you do if you won it?",
+      "accepted": [
+        "What would you do if you won it?"
+      ],
+      "why": "В главной части вопроса would перед subject, затем V1.",
+      "distractorWhy": "Нет инверсии.",
+      "distractorRationales": {
+        "What you would do if you won it?": "Нет инверсии.",
+        "What would you did if you won it?": "Did — V2."
+      },
+      "skillTarget": "second-conditional",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G3",
+      "group": "Управляемая практика",
+      "prompt": "Which sentence expresses a real open future possibility?",
+      "options": [
+        "If I got the offer, I'd accept it.",
+        "If I get the offer, I'll accept it.",
+        "If I had got the offer, I'd have accepted it."
+      ],
+      "answer": "If I get the offer, I'll accept it.",
+      "accepted": [
+        "If I get the offer, I'll accept it."
+      ],
+      "why": "First Conditional представляет условие открытым.",
+      "distractorWhy": "Second Conditional выражает гипотезу.",
+      "distractorRationales": {
+        "If I got the offer, I'd accept it.": "Second Conditional выражает гипотезу.",
+        "If I had got the offer, I'd have accepted it.": "Third Conditional относится к прошлому."
+      },
+      "skillTarget": "second-conditional",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G4",
+      "group": "Управляемая практика",
+      "prompt": "Choose the correct negative if-clause: If he ___ so late, he'd have more time.",
+      "options": [
+        "didn't work",
+        "didn't worked",
+        "wouldn't work"
+      ],
+      "answer": "didn't work",
+      "accepted": [
+        "didn't work"
+      ],
+      "why": "Didn't + V1 образует отрицательный Past Simple.",
+      "distractorWhy": "После didn't нужна V1.",
+      "distractorRationales": {
+        "didn't worked": "После didn't нужна V1.",
+        "wouldn't work": "Wouldn't не используется в обычном условии."
+      },
+      "skillTarget": "second-conditional",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G5",
+      "group": "Управляемая практика",
+      "prompt": "If we had a larger budget, we could hire another tutor. What does could express?",
+      "options": [
+        "A guaranteed past event.",
+        "An action already completed.",
+        "A possibility under the imagined condition."
+      ],
+      "answer": "A possibility under the imagined condition.",
+      "accepted": [
+        "A possibility under the imagined condition."
+      ],
+      "why": "Could сообщает о возможности при условии.",
+      "distractorWhy": "Это не факт прошлого.",
+      "distractorRationales": {
+        "A guaranteed past event.": "Это не факт прошлого.",
+        "An action already completed.": "О завершении ничего не сказано."
+      },
+      "skillTarget": "second-conditional",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G6",
+      "group": "Управляемая практика",
+      "prompt": "Choose a result expressing an uncertain possibility: If it were cheaper, I ___ buy it.",
+      "options": [
+        "might to",
+        "might",
+        "might have toed"
+      ],
+      "answer": "might",
+      "accepted": [
+        "might"
+      ],
+      "why": "Might + V1 выражает предполагаемую возможность.",
+      "distractorWhy": "После might не нужен to.",
+      "distractorRationales": {
+        "might to": "После might не нужен to.",
+        "might have toed": "Toed не образует нужную конструкцию."
+      },
+      "skillTarget": "second-conditional",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I1",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct punctuation with the if-clause first.",
+      "options": [
+        "If I had a bike I, would cycle to college.",
+        "If, I had a bike I would cycle to college.",
+        "If I had a bike, I would cycle to college."
+      ],
+      "answer": "If I had a bike, I would cycle to college.",
+      "accepted": [
+        "If I had a bike, I would cycle to college."
+      ],
+      "why": "Запятая отделяет целую начальную if-часть.",
+      "distractorWhy": "Нельзя отделять subject от would.",
+      "distractorRationales": {
+        "If I had a bike I, would cycle to college.": "Нельзя отделять subject от would.",
+        "If, I had a bike I would cycle to college.": "Запятая после if разрывает условие."
+      },
+      "skillTarget": "second-conditional",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I2",
+      "group": "Самостоятельная практика",
+      "prompt": "Which sentence places the condition second naturally?",
+      "options": [
+        "I'd stay longer if would I have time.",
+        "I'd stay longer if I had time.",
+        "I'd stay longer if I had have time."
+      ],
+      "answer": "I'd stay longer if I had time.",
+      "accepted": [
+        "I'd stay longer if I had time."
+      ],
+      "why": "Условие во второй части сохраняет прямой порядок слов.",
+      "distractorWhy": "Инверсия и would здесь неверны.",
+      "distractorRationales": {
+        "I'd stay longer if would I have time.": "Инверсия и would здесь неверны.",
+        "I'd stay longer if I had have time.": "Had have не Past Simple."
+      },
+      "skillTarget": "second-conditional",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I3",
+      "group": "Самостоятельная практика",
+      "prompt": "If the library opened later, students ___ stay after class. Choose the ability/possibility modal.",
+      "options": [
+        "could",
+        "could to",
+        "coulded"
+      ],
+      "answer": "could",
+      "accepted": [
+        "could"
+      ],
+      "why": "Could + V1 выражает возможность.",
+      "distractorWhy": "To после could не нужен.",
+      "distractorRationales": {
+        "could to": "To после could не нужен.",
+        "coulded": "Coulded не существует."
+      },
+      "skillTarget": "second-conditional",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I4",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the hypothetical sentence about the present.",
+      "options": [
+        "If I had known the answer yesterday, I'd have told you.",
+        "If I know the answer tomorrow, I'll tell you.",
+        "If I knew the answer, I'd tell you."
+      ],
+      "answer": "If I knew the answer, I'd tell you.",
+      "accepted": [
+        "If I knew the answer, I'd tell you."
+      ],
+      "why": "Past Simple + would описывает гипотезу сейчас.",
+      "distractorWhy": "Это гипотетическое прошлое.",
+      "distractorRationales": {
+        "If I had known the answer yesterday, I'd have told you.": "Это гипотетическое прошлое.",
+        "If I know the answer tomorrow, I'll tell you.": "Это открытая будущая возможность."
+      },
+      "skillTarget": "second-conditional",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I5",
+      "group": "Самостоятельная практика",
+      "prompt": "If he ___ the instructions, he would make fewer mistakes. Use Second Conditional.",
+      "options": [
+        "will read",
+        "read",
+        "would read"
+      ],
+      "answer": "read",
+      "accepted": [
+        "read"
+      ],
+      "why": "Read здесь Past Simple; условие воображаемое.",
+      "distractorWhy": "Will не нужен в обычном условии.",
+      "distractorRationales": {
+        "will read": "Will не нужен в обычном условии.",
+        "would read": "Would обычно стоит в результате."
+      },
+      "skillTarget": "second-conditional",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I6",
+      "group": "Самостоятельная практика",
+      "prompt": "Which sentence correctly expresses a hypothetical state?",
+      "options": [
+        "If she were less busy, she would join us.",
+        "If she would be less busy, she would join us.",
+        "If she were less busy, she would joins us."
+      ],
+      "answer": "If she were less busy, she would join us.",
+      "accepted": [
+        "If she were less busy, she would join us."
+      ],
+      "why": "Were + would join соответствует гипотезе.",
+      "distractorWhy": "Would be в обычном условии неверно.",
+      "distractorRationales": {
+        "If she would be less busy, she would join us.": "Would be в обычном условии неверно.",
+        "If she were less busy, she would joins us.": "После would нет -s."
+      },
+      "skillTarget": "second-conditional",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I7",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct contraction of 'I would'.",
+      "options": [
+        "I've",
+        "I'll",
+        "I'd"
+      ],
+      "answer": "I'd",
+      "accepted": [
+        "I'd"
+      ],
+      "why": "I'd может означать I would перед V1.",
+      "distractorWhy": "I've = I have.",
+      "distractorRationales": {
+        "I've": "I've = I have.",
+        "I'll": "I'll = I will."
+      },
+      "skillTarget": "second-conditional",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I8",
+      "group": "Самостоятельная практика",
+      "prompt": "If I were you, I ___ that source without checking. Choose negative advice.",
+      "options": [
+        "wouldn't cited",
+        "wouldn't cite",
+        "didn't would cite"
+      ],
+      "answer": "wouldn't cite",
+      "accepted": [
+        "wouldn't cite"
+      ],
+      "why": "Wouldn't + V1 выражает совет.",
+      "distractorWhy": "Cited не V1.",
+      "distractorRationales": {
+        "wouldn't cited": "Cited не V1.",
+        "didn't would cite": "Did не добавляют к would."
+      },
+      "skillTarget": "second-conditional",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I9",
+      "group": "Самостоятельная практика",
+      "prompt": "Which is a grammatically correct imagined question?",
+      "options": [
+        "Would they move if the rent were lower?",
+        "Would they moved if the rent were lower?",
+        "Did they would move if the rent were lower?"
+      ],
+      "answer": "Would they move if the rent were lower?",
+      "accepted": [
+        "Would they move if the rent were lower?"
+      ],
+      "why": "Would + subject + V1 образует вопрос.",
+      "distractorWhy": "Moved не V1.",
+      "distractorRationales": {
+        "Would they moved if the rent were lower?": "Moved не V1.",
+        "Did they would move if the rent were lower?": "Did не используется с would."
+      },
+      "skillTarget": "second-conditional",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E1",
+      "group": "Выходная проверка",
+      "prompt": "Choose the sentence that uses could for hypothetical ability.",
+      "options": [
+        "If I spoke Italian fluently, I could study there.",
+        "If I spoke Italian fluently, I could to study there.",
+        "If I could spoke Italian fluently, I would study there."
+      ],
+      "answer": "If I spoke Italian fluently, I could study there.",
+      "accepted": [
+        "If I spoke Italian fluently, I could study there."
+      ],
+      "why": "Could + study — возможность при условии.",
+      "distractorWhy": "После could не нужен to.",
+      "distractorRationales": {
+        "If I spoke Italian fluently, I could to study there.": "После could не нужен to.",
+        "If I could spoke Italian fluently, I would study there.": "После could нужна V1 speak."
+      },
+      "skillTarget": "second-conditional",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E2",
+      "group": "Выходная проверка",
+      "prompt": "I don't own a printer. Which sentence describes an imagined alternative?",
+      "options": [
+        "If I will own one, I would print at home.",
+        "If I owned one, I would printed at home.",
+        "If I owned one, I would print at home."
+      ],
+      "answer": "If I owned one, I would print at home.",
+      "accepted": [
+        "If I owned one, I would print at home."
+      ],
+      "why": "Past Simple выражает воображаемое условие.",
+      "distractorWhy": "Will не требуется в обычной if-части.",
+      "distractorRationales": {
+        "If I will own one, I would print at home.": "Will не требуется в обычной if-части.",
+        "If I owned one, I would printed at home.": "Printed не V1."
+      },
+      "skillTarget": "second-conditional",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E3",
+      "group": "Выходная проверка",
+      "prompt": "Choose the correct result with might for a hypothetical uncertain outcome.",
+      "options": [
+        "If the course were shorter, more people might enrolled.",
+        "If the course were shorter, more people might enrol.",
+        "If the course were shorter, more people might to enrol."
+      ],
+      "answer": "If the course were shorter, more people might enrol.",
+      "accepted": [
+        "If the course were shorter, more people might enrol."
+      ],
+      "why": "Might + V1.",
+      "distractorWhy": "Enrolled не V1.",
+      "distractorRationales": {
+        "If the course were shorter, more people might enrolled.": "Enrolled не V1.",
+        "If the course were shorter, more people might to enrol.": "To после might не ставится."
+      },
+      "skillTarget": "second-conditional",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E4",
+      "group": "Выходная проверка",
+      "prompt": "Which sentence is a Third Conditional rather than a Second Conditional?",
+      "options": [
+        "If I had left earlier, I would have caught the train.",
+        "If I left earlier tomorrow, I would catch the train.",
+        "If I lived nearer, I could walk there."
+      ],
+      "answer": "If I had left earlier, I would have caught the train.",
+      "accepted": [
+        "If I had left earlier, I would have caught the train."
+      ],
+      "why": "Had + V3 и would have + V3 описывают прошлую альтернативу.",
+      "distractorWhy": "Это гипотеза о будущем.",
+      "distractorRationales": {
+        "If I left earlier tomorrow, I would catch the train.": "Это гипотеза о будущем.",
+        "If I lived nearer, I could walk there.": "Это гипотеза о настоящем."
+      },
+      "skillTarget": "second-conditional",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E5",
+      "group": "Выходная проверка",
+      "prompt": "Choose the sentence with correct tense and word order for hypothetical advice.",
+      "options": [
+        "If I would be in your position, I would ask for help.",
+        "If were I in your position, I would ask for help.",
+        "If I were in your position, I would ask for help."
+      ],
+      "answer": "If I were in your position, I would ask for help.",
+      "accepted": [
+        "If I were in your position, I would ask for help."
+      ],
+      "why": "If + subject + were, would + V1.",
+      "distractorWhy": "Would be не нужен в обычной if-части.",
+      "distractorRationales": {
+        "If I would be in your position, I would ask for help.": "Would be не нужен в обычной if-части.",
+        "If were I in your position, I would ask for help.": "В обычной if-части нет инверсии."
+      },
+      "skillTarget": "second-conditional",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "W1",
+      "group": "Самостоятельное применение",
+      "prompt": "Напиши 5–6 предложений о том, как изменилось бы обучение при разных условиях. Используй would, could, might, отрицание, вопрос и совет If I were you. Объясни разницу между одним реальным и одним воображаемым условием.",
+      "open": true,
+      "rubric": [
+        "Условие относится к настоящему или будущему.",
+        "If-часть содержит Past Simple, а не обычный would.",
+        "Результат содержит would/could/might + V1.",
+        "Форма were использована в совете.",
+        "Есть корректные вопрос и отрицание.",
+        "Различены реальная возможность и воображаемая ситуация."
+      ],
+      "skillTarget": "Самостоятельное применение B1-05",
+      "interactionType": "open-production",
+      "difficulty": "transfer",
+      "sourceBasis": "Speakbase-authored open production; self-review rubric only until real AI feedback is connected",
+      "contentVersion": "1.1-draft"
+    }
+  ],
+  "markdown": "# Speakbase — B1-05: Second Conditional\n\n**Curriculum ID:** `B1-05`  \n**Уровень:** B1  \n**Версия:** 1.1-draft\n**Статус:** drafted; selected source text checked; full source-page and learner acceptance pending\n**Предварительные темы:** A2-04, A2-15  \n**Связь со старым каталогом:** Полное ядро — №14 Second Conditional\n\n## 1. Результаты обучения\n\n- Выражать гипотетические ситуации настоящего/будущего и давать советы\n- Выбирать целевую форму по значению, структуре предложения и контексту.\n- Объяснять, почему близкая грамматическая форма меняет смысл или регистр.\n- Находить и исправлять типичные ошибки русскоязычных студентов.\n\n## 2. Источники и статус сверки\n\n| Source | PDF navigation | Lesson-specific checks | Status |\n|---|---|---|---|\n| GR-02 U38-39 | PDF pages 88-91 (Unit 38-39) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-03 U83-87 | PDF pages 190-199 (Unit 83-87) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-05 B1 p15-17 | PDF pages 15-17 (B1 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n\nUnit/page locations are navigation aids only. They do not prove that the cited explanation, examples, restrictions and answer key have been checked for this lesson. Examples and explanations below are Speakbase-authored, not quotations from the textbook.\n\nПеред переводом этого урока в source-verified необходимо открыть целевые страницы конкретного издания, записать печатную и PDF-пагинацию, сверить ограничения и исключения. Для GR-03 со сканированными страницами обязательна визуальная проверка.\n\n**Evidence for this editorial pass:** GR-02 selected theory text: Units 38–39, PDF pp. 88 and 90 (printed pp. 76 and 78); GR-05 B1 p. 15 selected second-conditional and advice descriptors. The selected source text was consulted; not all pages, exercises, editions, scanned GR-03 pages or GR-05 descriptors were checked. Author-created explanations and practice are not copied source exercises.\n\n## 3. Место темы и границы\n\nSecond Conditional выражает гипотетическую ситуацию настоящего/будущего; форма past здесь маркирует дистанцированность, а не обычное прошлое.\n\nСтарый каталог содержит: №14 Second Conditional. Его статус — Полное ядро. Старые отметки завершения не переносятся автоматически на новый постоянный ID. Тема рассматривается в уровне B1 и не заменяет обязательные prerequisites.\n\n## 4. Полный конспект\n\n### 4.1. Основная идея и функция конструкции\n\nSecond Conditional выражает воображаемое или маловероятное условие в настоящем или будущем и его предполагаемое следствие. Past Simple в условной части показывает дистанцию от реальности, а не обязательно прошлое время. Конструкция используется для гипотез, советов, мечтаний и обсуждения альтернатив.\n\nНапример, If I lived near the campus, I would walk to class означает: я представляю ситуацию, в которой живу рядом, и предполагаю результат. Это не сообщение о прошлом месте жительства. If I live near the campus next year, I'll walk to class представляет будущее условие как реально возможное. Степень реальности зависит от того, как говорящий оценивает ситуацию, а не от математической вероятности.\n\n### 4.2. Формирование и грамматическая модель\n\n| Часть | Модель | Пример |\n|---|---|---|\n| Условие | if + Past Simple | If I had more time |\n| Результат | would + V1 | I would study more. |\n| Возможность | could + V1 | I could study more. |\n| Менее уверенный результат | might + V1 | I might join the club. |\n| Отрицание условия | if + didn't + V1 | If he didn't work late |\n| Отрицание результата | wouldn't + V1 | I wouldn't worry. |\n| Совет | If I were you, I would + V1 | If I were you, I'd check it. |\n\nIf-часть может стоять первой или второй. Если она стоит первой, обычно ставится запятая: If I had a car, I would drive. Если она стоит второй, запятая обычно не нужна: I would drive if I had a car. Had здесь Past Simple глагола have, а не Past Perfect. Would not сокращается до wouldn't; I would — I'd. В вопросе Would you travel if you had more money? инверсия происходит в главной части.\n\n### 4.3. Как выбрать подходящую форму\n\nОпредели, относится ли условие к настоящему/будущему и представляется ли оно нереальным или воображаемым. Если да, выбери Past Simple после if и would/could/might + V1 в результате. Для совета используй If I were you, I'd…\n\nЕсли ситуация реально может случиться и говорящий представляет её как открытую возможность, уместен First Conditional: If I get the scholarship, I'll move. Если ситуация воображаемая: If I got the scholarship, I would move. Если условие относится к неизменяемому прошлому, нужен Third Conditional: If I had got the scholarship, I would have moved. Эти модели различают временную перспективу и отношение к реальности.\n\n### 4.4. Сравнение с близкими конструкциями\n\n| Пример | Значение |\n|---|---|\n| If I have time, I'll help. | Реальная будущая возможность. |\n| If I had more time, I'd help. | Воображаемая ситуация сейчас или в будущем. |\n| If I had had more time yesterday, I'd have helped. | Альтернативное прошлое. |\n| If she studied more, she could improve. | Возможность или способность при условии. |\n| If she studied more, she might improve. | Предполагаемый, не гарантированный результат. |\n\n### 4.5. Примеры с переводом и объяснением\n\n| English | Перевод | Почему это подходит |\n| --- | --- | --- |\n| If I had a larger desk, I would buy a second monitor. | Если бы у меня был стол побольше, я купила бы второй монитор. | Воображаемая ситуация сейчас. |\n| If we lived closer, we could meet every week. | Если бы мы жили ближе, мы могли бы встречаться каждую неделю. | Возможность при условии. |\n| If I were you, I'd read the instructions again. | На твоём месте я бы перечитала инструкцию. | Совет. |\n| Would you apply if the course were free? | Ты подала бы заявление, если бы курс был бесплатным? | Вопрос о гипотезе. |\n| If he didn't have a deadline, he wouldn't rush. | Если бы у него не было срока, он бы не спешил. | Отрицание в обеих частях. |\n\n### 4.6. Исключения, ограничения и границы употребления\n\nС be в гипотетическом условии традиционно используется were для всех лиц (особенно If I were you). В разговорном английском was встречается с I/he/she; не объявляй его всегда ошибкой. Для стандартной письменной практики выбирай were. В обычном гипотетическом условии не ставят would после if.\n\nWould в if-части иногда возможен в особых значениях готовности или вежливой просьбы (If you would wait here…), но это не базовый Second Conditional. Не переносим это исключение на If I would have money. Might/could не являются просто взаимозаменяемыми с would: could может обозначать возможность/способность, might — неуверенный результат. Если условие в будущем, форма Past Simple всё равно может употребляться для гипотезы.\n\n### 4.7. Типичные ошибки русскоязычных студентов\n\n| Ошибка | Исправление | Объяснение |\n| --- | --- | --- |\n| If I would live closer, I would walk. | If I lived closer, I would walk. | В обычном условии используется Past Simple, не would. |\n| If I were you, I would to check. | If I were you, I would check. | После would нужна V1 без to. |\n| If she didn't studied, she would fail. | If she didn't study, she would fail. | После didn't используется V1. |\n| If I have enough money, I would buy it (воображаемая ситуация). | If I had enough money, I would buy it. | Для дистанцированной гипотезы нужна прошедшая форма условия. |\n\n### 4.8. Произношение и восприятие на слух\n\nВ связной речи I'd и you'd часто произносятся кратко. Ударение может падать на контраст: If I HAD more time, I'd STUDY more. При чтении if-части, стоящей первой, небольшая пауза помогает отделить условие от результата.\n\nСначала прослушай или прочитай пример, затем произнеси его целиком. Обрати внимание на смысловое ударение и форму конструкции; не ориентируйся только на буквенный перевод.\n\n### 4.9. Академический английский и TOEFL-перенос\n\nВ Speaking и Writing гипотетическая конструкция помогает предлагать решения и обсуждать альтернативы: If the university offered more evening classes, students could combine work and study. Не выдавай гипотетическое следствие за установленный факт. В Reading и Listening различай реальные планы и воображаемые сценарии.\n\nЭто авторская практика переноса навыка. Она не является официальным заданием TOEFL и не выдаётся за официальный результат экзамена.\n\n### 4.10. Примеры для управляемого разбора\n\n- If I had a larger desk, I would buy a second monitor. — Если бы у меня был стол побольше, я купила бы второй монитор. Воображаемая ситуация сейчас.\n- If we lived closer, we could meet every week. — Если бы мы жили ближе, мы могли бы встречаться каждую неделю. Возможность при условии.\n- If I were you, I'd read the instructions again. — На твоём месте я бы перечитала инструкцию. Совет.\n\nДля каждого примера назови целевую конструкцию, объясни выбор и составь новое предложение в другом контексте. Затем перейди к заданиям: сначала диагностика, затем управляемая и самостоятельная практика, затем новые вопросы выходной проверки.\n\n### 4.11. Самопроверка\n\nПеред отправкой ответа проверь:\n1. Условие относится к настоящему или будущему.\n2. If-часть содержит Past Simple, а не обычный would.\n3. Результат содержит would/could/might + V1.\n4. Форма were использована в совете.\n5. Есть корректные вопрос и отрицание.\n6. Различены реальная возможность и воображаемая ситуация.\n\n### 4.12. Краткая памятка\n\nIf + Past Simple, would/could/might + V1. Прошедшая форма здесь передаёт дистанцию от реальности. Для совета — If I were you. Не ставь would в обычной if-части; не путай Second с First и Third.\n\nНе выбирай форму только по одному знакомому слову: проверь контекст, значение и структуру. При ошибке вернись к соответствующей части конспекта и составь собственный пример.\n\n## 5. Практика\n\nВ приложении практика разделена на входную диагностику, управляемые задания, самостоятельную практику и новую выходную проверку. Закрытые ответы получают rationale и разбор ошибки. Свободный текст сохраняется и оценивается по рубрике; до подключения и реальной проверки AI-движка система не выдаёт его за автоматическую AI-оценку.\n\n## 6. Интервальное повторение\n\nПовторяй не весь урок автоматически, а конкретную ошибку: выбор формы, согласование, word order, значение, регистр или пунктуацию. Новая попытка должна менять лексический контекст и формулировку, чтобы проверять перенос, а не запоминание одной строки.\n\n## 7. Технический статус\n\n- Постоянный ID: `B1-05`.\n- Прогресс хранится отдельно в course.grammarLessons[\"B1-05\"].\n- Содержание и ключи имеют статус draft; 24 авторских закрытых задания и объяснения вычитаны, выбранные тексты источников проверены. Полная постраничная и пользовательская приёмка остаются открытыми.\n- Предварительное выполнение порогов не равно окончательному mastered: нужны отсроченное повторение и learner review.",
+  "theoryEnd": "## 5."
+}

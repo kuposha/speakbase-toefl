@@ -1,0 +1,738 @@
+{
+  "id": "B1-04",
+  "level": "B1",
+  "sequence": "B1-04",
+  "grammarFamily": "B1-04",
+  "questionBankSource": "topic-specific-authored",
+  "sourceVerification": "draft; selected source text consulted; complete source-page and learner review pending",
+  "topicProfile": {
+    "label": "future forms and future-in-the-past",
+    "skillTarget": "future-in-the-past-and-perfect",
+    "core": "Будущее в английском выражается несколькими конструкциями. Выбор зависит от того, сообщаем ли мы о решении в момент речи, уже принятом плане, договорённости, расписании, прогнозе или результате к определённой точке. Future-in-the-past описывает будущее относительно момента в прошлом: обещание, намерение или ожидание, существовавшее тогда.",
+    "form": "| Значение | Модель | Пример |\n|---|---|---|\n| Решение сейчас, обещание, прогноз | will + V1 | I'll help you. |\n| Намерение, признаки будущего | am/is/are going to + V1 | I'm going to apply. |\n| Договорённость | Present Continuous | I'm meeting my tutor tomorrow. |\n| Расписание | Present Simple | The train leaves at six. |\n| Процесс в будущей точке | will be + V-ing | I'll be studying at eight. |\n| Результат к будущей точке | will have + V3 | I'll have finished by Friday. |\n| Будущее относительно прошлого | would + V1 | She said she would help. |\n| Прошлый план | was/were going to + V1 | We were going to leave. |\n| Вот-вот | was/were about to + V1 | I was about to call. |\n| Запланированный срок | was/were due to + V1 | The train was due to arrive. |",
+    "selection": "Сначала определи временную точку: сейчас или тогда. Затем выясни, о чём говоришь: расписание, решение, намерение, договорённость, процесс или завершённый результат. Для результата к сроку выбирай will have + V3; для ожидаемого результата к будущему относительно прошлого — would have + V3 в соответствующем контексте.",
+    "contrast": "| Конструкция | Смысл |\n|---|---|\n| I'll email him. | Решение или обещание сейчас. |\n| I'm going to email him. | Намерение существовало до момента речи. |\n| I was going to email him, but I forgot. | Прошлое намерение не реализовано. |\n| He said he would email me. | Переданное обещание, дальнейший факт неизвестен. |\n| At nine I'll be emailing the clients. | Деятельность в будущем моменте. |\n| By nine I'll have emailed all the clients. | Ожидаемое завершение к сроку. |",
+    "boundary": "Would также выражает гипотезы и повторяющиеся прошлые действия. Не считай любой would показателем будущего в прошлом. В придаточных времени после when/as soon as/until, если речь о будущем, обычно используется Present Simple или Present Perfect, а не will: I'll call when I arrive.",
+    "pronunciation": "Will и would в обычной речи часто сокращаются до 'll и 'd. В she'd call сокращение означает would; в she'd called — had. В Future Perfect слушай цепочку will have + V3; have часто безударно. Ударение на about в about to может подчёркивать близость события.",
+    "examples": [
+      [
+        "I'll carry those books for you.",
+        "Я понесу эти книги за тебя.",
+        "Предложение помощи в момент речи."
+      ],
+      [
+        "The seminar starts at ten tomorrow.",
+        "Семинар начинается завтра в десять.",
+        "Расписание."
+      ],
+      [
+        "I'm meeting the supervisor on Friday.",
+        "В пятницу я встречаюсь с руководителем.",
+        "Договорённость."
+      ],
+      [
+        "By Friday we'll have submitted the application.",
+        "К пятнице мы подадим заявление.",
+        "Результат к будущему сроку."
+      ],
+      [
+        "She promised she would return the following day.",
+        "Она обещала вернуться на следующий день.",
+        "Будущее с прошлой точки."
+      ],
+      [
+        "We were about to start when the power went out.",
+        "Мы уже собирались начать, когда отключилось электричество.",
+        "Событие было близко."
+      ]
+    ],
+    "traps": [
+      [
+        "He will to call.",
+        "He will call.",
+        "После will нужна V1 без to."
+      ],
+      [
+        "I will phone you when I will arrive.",
+        "I will phone you when I arrive.",
+        "В придаточном времени обычна форма настоящего."
+      ],
+      [
+        "She said she would called.",
+        "She said she would call.",
+        "После would нужна V1."
+      ],
+      [
+        "By next year I will have finish the course.",
+        "By next year I will have finished the course.",
+        "После have нужна V3."
+      ]
+    ],
+    "toefl": "В Reading и Listening различай запланированные события, прогнозы и уже достигнутые результаты. В Speaking описывай планы и договорённости; в Writing — сроки, ожидаемые результаты и последовательность проекта. Например, Our team will have analysed the data by Friday сообщает о предполагаемом завершении к сроку, а не о том, что данные уже проанализированы."
+  },
+  "title": "Future forms and future-in-the-past",
+  "description": "Различать прогнозы, планы, договорённости, future continuous/perfect и будущее с точки зрения прошлого",
+  "cardDescription": "Теория, guided practice, самостоятельные задания и выходная проверка по постоянному ID B1-04.",
+  "eyebrow": "Полный урок программы B1-04 · drafted",
+  "contentVersion": "1.1-draft",
+  "curriculumVersion": "1.0",
+  "prerequisites": [
+    "A2-04",
+    "A2-05"
+  ],
+  "outcomes": [
+    "Различать прогнозы, планы, договорённости, future continuous/perfect и будущее с точки зрения прошлого",
+    "Выбирать целевую конструкцию по контексту и смыслу.",
+    "Исправлять типичные ошибки и переносить правило в новый пример."
+  ],
+  "sourceRefs": [
+    "GR-02 U19-25",
+    "GR-03 U9-14",
+    "GR-05 B1 p32-35",
+    "GR-05 B1 p49"
+  ],
+  "sourceStatus": "selected source text consulted; full page verification pending",
+  "status": "drafted",
+  "legacyCoverage": "Частично",
+  "toeflLinks": [
+    "Writing: Build a Sentence",
+    "Listening: tense/aspect, modality, weak forms and discourse cues",
+    "Writing: Academic Discussion"
+  ],
+  "thresholds": {
+    "independent": 7,
+    "exit": 4,
+    "criticalIds": [
+      "E1",
+      "E2",
+      "E3"
+    ]
+  },
+  "groups": {
+    "independent": "Самостоятельная практика",
+    "exit": "Выходная проверка"
+  },
+  "items": [
+    {
+      "id": "D1",
+      "group": "Входная диагностика",
+      "prompt": "A friend offers you a heavy bag. Choose the spontaneous offer with will.",
+      "options": [
+        "I'll carrying it.",
+        "I'll carry it.",
+        "I'll to carry it."
+      ],
+      "answer": "I'll carry it.",
+      "accepted": [
+        "I'll carry it."
+      ],
+      "why": "Will + V1 выражает решение сейчас.",
+      "distractorWhy": "После will нельзя ставить V-ing без be.",
+      "distractorRationales": {
+        "I'll carrying it.": "После will нельзя ставить V-ing без be.",
+        "I'll to carry it.": "To после will не нужно."
+      },
+      "skillTarget": "future-in-the-past-and-perfect",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D2",
+      "group": "Входная диагностика",
+      "prompt": "Choose the correct going-to prediction: Look at those black clouds!",
+      "options": [
+        "It's going to rain.",
+        "It's going rain.",
+        "It going to rain."
+      ],
+      "answer": "It's going to rain.",
+      "accepted": [
+        "It's going to rain."
+      ],
+      "why": "Be going to + V1 подходит прогнозу по признакам.",
+      "distractorWhy": "Пропущено to.",
+      "distractorRationales": {
+        "It's going rain.": "Пропущено to.",
+        "It going to rain.": "Пропущен is."
+      },
+      "skillTarget": "future-in-the-past-and-perfect",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D3",
+      "group": "Входная диагностика",
+      "prompt": "Which sentence presents a personal arrangement for Friday?",
+      "options": [
+        "I met my tutor last Friday.",
+        "I meet tutors every Friday.",
+        "I'm meeting my tutor at three on Friday."
+      ],
+      "answer": "I'm meeting my tutor at three on Friday.",
+      "accepted": [
+        "I'm meeting my tutor at three on Friday."
+      ],
+      "why": "Present Continuous с конкретным временем передаёт договорённость.",
+      "distractorWhy": "Это прошлое событие.",
+      "distractorRationales": {
+        "I met my tutor last Friday.": "Это прошлое событие.",
+        "I meet tutors every Friday.": "Это регулярная привычка."
+      },
+      "skillTarget": "future-in-the-past-and-perfect",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D4",
+      "group": "Входная диагностика",
+      "prompt": "Choose the timetable sentence about tomorrow's train.",
+      "options": [
+        "The train left at 7:10 yesterday.",
+        "The train leaves at 7:10 tomorrow.",
+        "The train leave at 7:10 tomorrow."
+      ],
+      "answer": "The train leaves at 7:10 tomorrow.",
+      "accepted": [
+        "The train leaves at 7:10 tomorrow."
+      ],
+      "why": "Present Simple передаёт расписание; train требует -s.",
+      "distractorWhy": "Вчерашнее отправление не расписание на завтра.",
+      "distractorRationales": {
+        "The train left at 7:10 yesterday.": "Вчерашнее отправление не расписание на завтра.",
+        "The train leave at 7:10 tomorrow.": "С train нужна форма leaves."
+      },
+      "skillTarget": "future-in-the-past-and-perfect",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G1",
+      "group": "Управляемая практика",
+      "prompt": "At this time tomorrow, I ___ the test. Use Future Continuous.",
+      "options": [
+        "will be taking",
+        "will taking",
+        "will be take"
+      ],
+      "answer": "will be taking",
+      "accepted": [
+        "will be taking"
+      ],
+      "why": "Will be + V-ing — процесс в будущий момент.",
+      "distractorWhy": "Пропущено be.",
+      "distractorRationales": {
+        "will taking": "Пропущено be.",
+        "will be take": "Take должно иметь -ing."
+      },
+      "skillTarget": "future-in-the-past-and-perfect",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G2",
+      "group": "Управляемая практика",
+      "prompt": "By next Monday, the team ___ all three reports. Use Future Perfect.",
+      "options": [
+        "will has completed",
+        "will have complete",
+        "will have completed"
+      ],
+      "answer": "will have completed",
+      "accepted": [
+        "will have completed"
+      ],
+      "why": "Will have + V3 — завершение к сроку.",
+      "distractorWhy": "После will используется have, не has.",
+      "distractorRationales": {
+        "will has completed": "После will используется have, не has.",
+        "will have complete": "Complete не V3."
+      },
+      "skillTarget": "future-in-the-past-and-perfect",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G3",
+      "group": "Управляемая практика",
+      "prompt": "She promised yesterday that she ___ the next morning. Use future-in-the-past.",
+      "options": [
+        "would returned",
+        "would return",
+        "would to return"
+      ],
+      "answer": "would return",
+      "accepted": [
+        "would return"
+      ],
+      "why": "Would + V1 передаёт будущее с прошлой точки.",
+      "distractorWhy": "Returned — форма прошедшего.",
+      "distractorRationales": {
+        "would returned": "Returned — форма прошедшего.",
+        "would to return": "После would не нужно to."
+      },
+      "skillTarget": "future-in-the-past-and-perfect",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G4",
+      "group": "Управляемая практика",
+      "prompt": "They were going to leave, but the meeting ran late. What is certain?",
+      "options": [
+        "They had intended to leave.",
+        "They definitely left before the meeting.",
+        "They have no plan to leave in the future."
+      ],
+      "answer": "They had intended to leave.",
+      "accepted": [
+        "They had intended to leave."
+      ],
+      "why": "Were going to обозначает прежнее намерение.",
+      "distractorWhy": "Опоздание не доказывает, что они уже ушли.",
+      "distractorRationales": {
+        "They definitely left before the meeting.": "Опоздание не доказывает, что они уже ушли.",
+        "They have no plan to leave in the future.": "О дальнейших планах ничего не сказано."
+      },
+      "skillTarget": "future-in-the-past-and-perfect",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G5",
+      "group": "Управляемая практика",
+      "prompt": "The guests were about ___ when the lights went out.",
+      "options": [
+        "arriving",
+        "arrive",
+        "to arrive"
+      ],
+      "answer": "to arrive",
+      "accepted": [
+        "to arrive"
+      ],
+      "why": "About to + V1 означает ближайшее событие.",
+      "distractorWhy": "После about to не нужна -ing.",
+      "distractorRationales": {
+        "arriving": "После about to не нужна -ing.",
+        "arrive": "Пропущено to."
+      },
+      "skillTarget": "future-in-the-past-and-perfect",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G6",
+      "group": "Управляемая практика",
+      "prompt": "The train was due ___ at six.",
+      "options": [
+        "arriving",
+        "to arrive",
+        "arrive"
+      ],
+      "answer": "to arrive",
+      "accepted": [
+        "to arrive"
+      ],
+      "why": "Be due to + V1 выражает ожидаемый срок.",
+      "distractorWhy": "Due здесь не сочетается с -ing.",
+      "distractorRationales": {
+        "arriving": "Due здесь не сочетается с -ing.",
+        "arrive": "Нужен to."
+      },
+      "skillTarget": "future-in-the-past-and-perfect",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I1",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct future time clause.",
+      "options": [
+        "I'll call you as soon as I will arrive.",
+        "I'll call you as soon as I arriving.",
+        "I'll call you as soon as I arrive."
+      ],
+      "answer": "I'll call you as soon as I arrive.",
+      "accepted": [
+        "I'll call you as soon as I arrive."
+      ],
+      "why": "После as soon as в придаточном времени обычно Present Simple.",
+      "distractorWhy": "Will в этой временной части не требуется.",
+      "distractorRationales": {
+        "I'll call you as soon as I will arrive.": "Will в этой временной части не требуется.",
+        "I'll call you as soon as I arriving.": "Arriving не образует сказуемое."
+      },
+      "skillTarget": "future-in-the-past-and-perfect",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I2",
+      "group": "Самостоятельная практика",
+      "prompt": "Which question asks directly about the future?",
+      "options": [
+        "When the results will be announced?",
+        "When will the results be announced?",
+        "When will the results announced?"
+      ],
+      "answer": "When will the results be announced?",
+      "accepted": [
+        "When will the results be announced?"
+      ],
+      "why": "Прямой вопрос требует will перед подлежащим и be в пассиве.",
+      "distractorWhy": "Нет вопросительного порядка слов.",
+      "distractorRationales": {
+        "When the results will be announced?": "Нет вопросительного порядка слов.",
+        "When will the results announced?": "Пропущено be."
+      },
+      "skillTarget": "future-in-the-past-and-perfect",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I3",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct negative future-in-the-past.",
+      "options": [
+        "He said he wouldn't attend the meeting.",
+        "He said he wouldn't attended the meeting.",
+        "He said he didn't would attend the meeting."
+      ],
+      "answer": "He said he wouldn't attend the meeting.",
+      "accepted": [
+        "He said he wouldn't attend the meeting."
+      ],
+      "why": "Wouldn't + V1 передаёт отрицательное ожидание.",
+      "distractorWhy": "Attended — V2/V3.",
+      "distractorRationales": {
+        "He said he wouldn't attended the meeting.": "Attended — V2/V3.",
+        "He said he didn't would attend the meeting.": "Did не добавляется к would."
+      },
+      "skillTarget": "future-in-the-past-and-perfect",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I4",
+      "group": "Самостоятельная практика",
+      "prompt": "What does 'We will have finished by six' express?",
+      "options": [
+        "An action necessarily still in progress at six.",
+        "A completed event yesterday.",
+        "Expected completion no later than six."
+      ],
+      "answer": "Expected completion no later than six.",
+      "accepted": [
+        "Expected completion no later than six."
+      ],
+      "why": "Future Perfect указывает на завершение к будущей точке.",
+      "distractorWhy": "Процесс в точке выражается Future Continuous.",
+      "distractorRationales": {
+        "An action necessarily still in progress at six.": "Процесс в точке выражается Future Continuous.",
+        "A completed event yesterday.": "Will относится к будущему."
+      },
+      "skillTarget": "future-in-the-past-and-perfect",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I5",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the indirect question about a future event.",
+      "options": [
+        "I don't know when will she arrive.",
+        "I don't know when she will arrive.",
+        "I don't know when she will arrives."
+      ],
+      "answer": "I don't know when she will arrive.",
+      "accepted": [
+        "I don't know when she will arrive."
+      ],
+      "why": "Косвенный вопрос сохраняет subject + will + V1.",
+      "distractorWhy": "Инверсия внутри косвенного вопроса не нужна.",
+      "distractorRationales": {
+        "I don't know when will she arrive.": "Инверсия внутри косвенного вопроса не нужна.",
+        "I don't know when she will arrives.": "После will нет -s."
+      },
+      "skillTarget": "future-in-the-past-and-perfect",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I6",
+      "group": "Самостоятельная практика",
+      "prompt": "Complete with the correct form of be going to: We ___ move abroad next year.",
+      "options": [
+        "are going to",
+        "is going to",
+        "are going"
+      ],
+      "answer": "are going to",
+      "accepted": [
+        "are going to"
+      ],
+      "why": "We требует are и going to.",
+      "distractorWhy": "Is не согласуется с we.",
+      "distractorRationales": {
+        "is going to": "Is не согласуется с we.",
+        "are going": "Пропущено to."
+      },
+      "skillTarget": "future-in-the-past-and-perfect",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I7",
+      "group": "Самостоятельная практика",
+      "prompt": "He knew that by the end of the following month they ___. Use future perfect in the past.",
+      "options": [
+        "would has finished",
+        "would have finish",
+        "would have finished"
+      ],
+      "answer": "would have finished",
+      "accepted": [
+        "would have finished"
+      ],
+      "why": "Would have + V3 выражает ожидаемый результат к сроку с прошлой точки.",
+      "distractorWhy": "После would нужна форма have.",
+      "distractorRationales": {
+        "would has finished": "После would нужна форма have.",
+        "would have finish": "Finish — V1."
+      },
+      "skillTarget": "future-in-the-past-and-perfect",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I8",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the sentence that explicitly indicates a past plan was not carried out.",
+      "options": [
+        "I was going to call after lunch.",
+        "I was going to call, but I forgot.",
+        "I said I would call after lunch."
+      ],
+      "answer": "I was going to call, but I forgot.",
+      "accepted": [
+        "I was going to call, but I forgot."
+      ],
+      "why": "But I forgot сообщает о нереализованном намерении.",
+      "distractorWhy": "О выполнении плана ничего не сказано.",
+      "distractorRationales": {
+        "I was going to call after lunch.": "О выполнении плана ничего не сказано.",
+        "I said I would call after lunch.": "Переданное обещание не доказывает невыполнение."
+      },
+      "skillTarget": "future-in-the-past-and-perfect",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I9",
+      "group": "Самостоятельная практика",
+      "prompt": "At ten tomorrow the students ___ in the hall. Choose Future Continuous.",
+      "options": [
+        "will be working",
+        "will been working",
+        "will be worked"
+      ],
+      "answer": "will be working",
+      "accepted": [
+        "will be working"
+      ],
+      "why": "Will be + V-ing — активный процесс.",
+      "distractorWhy": "После will нужна V1 be.",
+      "distractorRationales": {
+        "will been working": "После will нужна V1 be.",
+        "will be worked": "Worked формирует пассив, не активный процесс."
+      },
+      "skillTarget": "future-in-the-past-and-perfect",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E1",
+      "group": "Выходная проверка",
+      "prompt": "Choose the grammatical promise.",
+      "options": [
+        "I promise I'll send the file today.",
+        "I promise I'll sends the file today.",
+        "I promise I'll sending the file today."
+      ],
+      "answer": "I promise I'll send the file today.",
+      "accepted": [
+        "I promise I'll send the file today."
+      ],
+      "why": "После will используется V1 send.",
+      "distractorWhy": "Окончание -s недопустимо после will.",
+      "distractorRationales": {
+        "I promise I'll sends the file today.": "Окончание -s недопустимо после will.",
+        "I promise I'll sending the file today.": "Sending требует дополнительного be."
+      },
+      "skillTarget": "future-in-the-past-and-perfect",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E2",
+      "group": "Выходная проверка",
+      "prompt": "'I'll call on Monday,' she said yesterday. Report her words from a past viewpoint.",
+      "options": [
+        "She said she would called on Monday.",
+        "She said she would to call on Monday.",
+        "She said she would call on Monday."
+      ],
+      "answer": "She said she would call on Monday.",
+      "accepted": [
+        "She said she would call on Monday."
+      ],
+      "why": "Would + V1 передаёт прежнее обещание.",
+      "distractorWhy": "Called — не V1.",
+      "distractorRationales": {
+        "She said she would called on Monday.": "Called — не V1.",
+        "She said she would to call on Monday.": "To после would не ставится."
+      },
+      "skillTarget": "future-in-the-past-and-perfect",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E3",
+      "group": "Выходная проверка",
+      "prompt": "Which sentence expresses an activity at a future moment, not a completed result?",
+      "options": [
+        "By eight I'll have written the report.",
+        "At eight I'll be writing the report.",
+        "I wrote the report yesterday."
+      ],
+      "answer": "At eight I'll be writing the report.",
+      "accepted": [
+        "At eight I'll be writing the report."
+      ],
+      "why": "Future Continuous описывает процесс в точке.",
+      "distractorWhy": "Future Perfect сообщает завершённость.",
+      "distractorRationales": {
+        "By eight I'll have written the report.": "Future Perfect сообщает завершённость.",
+        "I wrote the report yesterday.": "Past Simple относится к прошлому."
+      },
+      "skillTarget": "future-in-the-past-and-perfect",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E4",
+      "group": "Выходная проверка",
+      "prompt": "Choose the correct indirect question with a past intention.",
+      "options": [
+        "She asked whether we were going to apply.",
+        "She asked whether were we going to apply.",
+        "She asked whether we were going apply."
+      ],
+      "answer": "She asked whether we were going to apply.",
+      "accepted": [
+        "She asked whether we were going to apply."
+      ],
+      "why": "Whether + subject + were going to + V1.",
+      "distractorWhy": "В косвенном вопросе инверсия не нужна.",
+      "distractorRationales": {
+        "She asked whether were we going to apply.": "В косвенном вопросе инверсия не нужна.",
+        "She asked whether we were going apply.": "Пропущено to."
+      },
+      "skillTarget": "future-in-the-past-and-perfect",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E5",
+      "group": "Выходная проверка",
+      "prompt": "Choose the grammatically correct statement about a scheduled arrival in the past.",
+      "options": [
+        "The plane was due land at noon.",
+        "The plane was due landing at noon.",
+        "The plane was due to land at noon."
+      ],
+      "answer": "The plane was due to land at noon.",
+      "accepted": [
+        "The plane was due to land at noon."
+      ],
+      "why": "Was due to + V1 выражает срок.",
+      "distractorWhy": "Пропущено to.",
+      "distractorRationales": {
+        "The plane was due land at noon.": "Пропущено to.",
+        "The plane was due landing at noon.": "Landing не подходит после due в этом значении."
+      },
+      "skillTarget": "future-in-the-past-and-perfect",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "W1",
+      "group": "Самостоятельное применение",
+      "prompt": "Опиши учебный план на неделю и прошлое обещание (6–8 предложений). Включи расписание, договорённость, намерение, процесс в будущей точке, завершение к сроку и два способа выразить будущее относительно прошлого.",
+      "open": true,
+      "rubric": [
+        "Выбрана правильная временная перспектива.",
+        "Различены расписание, договорённость и намерение.",
+        "Future Continuous образован с be + V-ing.",
+        "Future Perfect образован с have + V3.",
+        "Будущее относительно прошлого выражено корректно.",
+        "Объяснено, было ли событие фактом или только ожиданием."
+      ],
+      "skillTarget": "Самостоятельное применение B1-04",
+      "interactionType": "open-production",
+      "difficulty": "transfer",
+      "sourceBasis": "Speakbase-authored open production; self-review rubric only until real AI feedback is connected",
+      "contentVersion": "1.1-draft"
+    }
+  ],
+  "markdown": "# Speakbase — B1-04: Future forms and future-in-the-past\n\n**Curriculum ID:** `B1-04`  \n**Уровень:** B1  \n**Версия:** 1.1-draft\n**Статус:** drafted; selected source text checked; full source-page and learner acceptance pending\n**Предварительные темы:** A2-04, A2-05  \n**Связь со старым каталогом:** Частично — №9 Future forms; №24 Future Continuous; №25 Future Perfect\n\n## 1. Результаты обучения\n\n- Различать прогнозы, планы, договорённости, future continuous/perfect и будущее с точки зрения прошлого\n- Выбирать целевую форму по значению, структуре предложения и контексту.\n- Объяснять, почему близкая грамматическая форма меняет смысл или регистр.\n- Находить и исправлять типичные ошибки русскоязычных студентов.\n\n## 2. Источники и статус сверки\n\n| Source | PDF navigation | Lesson-specific checks | Status |\n|---|---|---|---|\n| GR-02 U19-25 | PDF pages 50-63 (Unit 19-25) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-03 U9-14 | PDF pages 42-53 (Unit 9-14) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-05 B1 p32-35 | PDF pages 32-35 (B1 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-05 B1 p49 | PDF pages 49 (B1 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n\nUnit/page locations are navigation aids only. They do not prove that the cited explanation, examples, restrictions and answer key have been checked for this lesson. Examples and explanations below are Speakbase-authored, not quotations from the textbook.\n\nПеред переводом этого урока в source-verified необходимо открыть целевые страницы конкретного издания, записать печатную и PDF-пагинацию, сверить ограничения и исключения. Для GR-03 со сканированными страницами обязательна визуальная проверка.\n\n**Evidence for this editorial pass:** GR-02 selected theory text: Units 19–25 and 36, PDF pp. 50, 52, 54, 56, 58, 60, 62, 84 (printed pp. 38–50 and 72); GR-05 B1 pp. 32 and 49 selected future-in-the-past descriptors. The selected source text was consulted; not all pages, exercises, editions, scanned GR-03 pages or GR-05 descriptors were checked. Author-created explanations and practice are not copied source exercises.\n\n## 3. Место темы и границы\n\nСобери будущие формы в систему, добавив future continuous/perfect и future-in-the-past. Покажи by vs until и perspective from past.\n\nСтарый каталог содержит: №9 Future forms; №24 Future Continuous; №25 Future Perfect. Его статус — Частично. Старые отметки завершения не переносятся автоматически на новый постоянный ID. Тема рассматривается в уровне B1 и не заменяет обязательные prerequisites.\n\n## 4. Полный конспект\n\n### 4.1. Основная идея и функция конструкции\n\nБудущее в английском выражается несколькими конструкциями. Выбор зависит от того, сообщаем ли мы о решении в момент речи, уже принятом плане, договорённости, расписании, прогнозе или результате к определённой точке. Future-in-the-past описывает будущее относительно момента в прошлом: обещание, намерение или ожидание, существовавшее тогда.\n\nПредставь две временные линии. Сейчас понедельник: I will call on Tuesday. Если в среду ты пересказываешь обещание, данное в понедельник: I said I would call on Tuesday. Would здесь не означает нереальность сам по себе; он передаёт будущее с прошлой точки зрения. Was going to, was about to и was due to также помещают намерение, близкое событие или запланированный срок в прошлую перспективу. Ни одна из этих форм сама по себе не гарантирует, что событие действительно произошло.\n\n### 4.2. Формирование и грамматическая модель\n\n| Значение | Модель | Пример |\n|---|---|---|\n| Решение сейчас, обещание, прогноз | will + V1 | I'll help you. |\n| Намерение, признаки будущего | am/is/are going to + V1 | I'm going to apply. |\n| Договорённость | Present Continuous | I'm meeting my tutor tomorrow. |\n| Расписание | Present Simple | The train leaves at six. |\n| Процесс в будущей точке | will be + V-ing | I'll be studying at eight. |\n| Результат к будущей точке | will have + V3 | I'll have finished by Friday. |\n| Будущее относительно прошлого | would + V1 | She said she would help. |\n| Прошлый план | was/were going to + V1 | We were going to leave. |\n| Вот-вот | was/were about to + V1 | I was about to call. |\n| Запланированный срок | was/were due to + V1 | The train was due to arrive. |\n\nОтрицание: will not = won't; would not = wouldn't; was not going to = wasn't going to. В вопросе вспомогательное слово ставится перед подлежащим: Will you be working? Was she going to apply? После will/would не ставятся to и окончание -s. В Future Perfect will have остаётся неизменным для всех лиц; после have нужна третья форма. В Future Continuous после be нужен -ing.\n\n### 4.3. Как выбрать подходящую форму\n\nСначала определи временную точку: сейчас или тогда. Затем выясни, о чём говоришь: расписание, решение, намерение, договорённость, процесс или завершённый результат. Для результата к сроку выбирай will have + V3; для ожидаемого результата к будущему относительно прошлого — would have + V3 в соответствующем контексте.\n\nПри выборе Present Continuous проверь, действительно ли речь о договорённости (время, место, участники). Going to обозначает решение, принятое заранее, или прогноз на основании видимых признаков. Will может передавать уверенность, обещание, нейтральный прогноз. В реальной речи границы не абсолютны: несколько форм иногда грамматически возможны, но оттенок меняется.\n\n### 4.4. Сравнение с близкими конструкциями\n\n| Конструкция | Смысл |\n|---|---|\n| I'll email him. | Решение или обещание сейчас. |\n| I'm going to email him. | Намерение существовало до момента речи. |\n| I was going to email him, but I forgot. | Прошлое намерение не реализовано. |\n| He said he would email me. | Переданное обещание, дальнейший факт неизвестен. |\n| At nine I'll be emailing the clients. | Деятельность в будущем моменте. |\n| By nine I'll have emailed all the clients. | Ожидаемое завершение к сроку. |\n\n### 4.5. Примеры с переводом и объяснением\n\n| English | Перевод | Почему это подходит |\n| --- | --- | --- |\n| I'll carry those books for you. | Я понесу эти книги за тебя. | Предложение помощи в момент речи. |\n| The seminar starts at ten tomorrow. | Семинар начинается завтра в десять. | Расписание. |\n| I'm meeting the supervisor on Friday. | В пятницу я встречаюсь с руководителем. | Договорённость. |\n| By Friday we'll have submitted the application. | К пятнице мы подадим заявление. | Результат к будущему сроку. |\n| She promised she would return the following day. | Она обещала вернуться на следующий день. | Будущее с прошлой точки. |\n| We were about to start when the power went out. | Мы уже собирались начать, когда отключилось электричество. | Событие было близко. |\n\n### 4.6. Исключения, ограничения и границы употребления\n\nWould также выражает гипотезы и повторяющиеся прошлые действия. Не считай любой would показателем будущего в прошлом. В придаточных времени после when/as soon as/until, если речь о будущем, обычно используется Present Simple или Present Perfect, а не will: I'll call when I arrive.\n\nВ вопросе When will you arrive? will допустим, потому что это прямой вопрос, а не придаточное времени. В сообщении I don't know when she will arrive — косвенный вопрос, поэтому will также допустим. About to выражает непосредственную близость события, а due to — ожидаемый срок или расписание (не путать с due to + noun = из-за). Was going to не означает автоматически, что план сорвался; для этого нужен контекст вроде but I forgot.\n\n### 4.7. Типичные ошибки русскоязычных студентов\n\n| Ошибка | Исправление | Объяснение |\n| --- | --- | --- |\n| He will to call. | He will call. | После will нужна V1 без to. |\n| I will phone you when I will arrive. | I will phone you when I arrive. | В придаточном времени обычна форма настоящего. |\n| She said she would called. | She said she would call. | После would нужна V1. |\n| By next year I will have finish the course. | By next year I will have finished the course. | После have нужна V3. |\n\n### 4.8. Произношение и восприятие на слух\n\nWill и would в обычной речи часто сокращаются до 'll и 'd. В she'd call сокращение означает would; в she'd called — had. В Future Perfect слушай цепочку will have + V3; have часто безударно. Ударение на about в about to может подчёркивать близость события.\n\nСначала прослушай или прочитай пример, затем произнеси его целиком. Обрати внимание на смысловое ударение и форму конструкции; не ориентируйся только на буквенный перевод.\n\n### 4.9. Академический английский и TOEFL-перенос\n\nВ Reading и Listening различай запланированные события, прогнозы и уже достигнутые результаты. В Speaking описывай планы и договорённости; в Writing — сроки, ожидаемые результаты и последовательность проекта. Например, Our team will have analysed the data by Friday сообщает о предполагаемом завершении к сроку, а не о том, что данные уже проанализированы.\n\nЭто авторская практика переноса навыка. Она не является официальным заданием TOEFL и не выдаётся за официальный результат экзамена.\n\n### 4.10. Примеры для управляемого разбора\n\n- I'll carry those books for you. — Я понесу эти книги за тебя. Предложение помощи в момент речи.\n- The seminar starts at ten tomorrow. — Семинар начинается завтра в десять. Расписание.\n- I'm meeting the supervisor on Friday. — В пятницу я встречаюсь с руководителем. Договорённость.\n\nДля каждого примера назови целевую конструкцию, объясни выбор и составь новое предложение в другом контексте. Затем перейди к заданиям: сначала диагностика, затем управляемая и самостоятельная практика, затем новые вопросы выходной проверки.\n\n### 4.11. Самопроверка\n\nПеред отправкой ответа проверь:\n1. Выбрана правильная временная перспектива.\n2. Различены расписание, договорённость и намерение.\n3. Future Continuous образован с be + V-ing.\n4. Future Perfect образован с have + V3.\n5. Будущее относительно прошлого выражено корректно.\n6. Объяснено, было ли событие фактом или только ожиданием.\n\n### 4.12. Краткая памятка\n\nWill/going to/Present Continuous/Present Simple выражают разные способы представить будущее. Will be + V-ing — процесс; will have + V3 — завершённость к точке. Would/was going to/was about to/was due to — будущее относительно прошлого. Проверяй временную перспективу и контекст.\n\nНе выбирай форму только по одному знакомому слову: проверь контекст, значение и структуру. При ошибке вернись к соответствующей части конспекта и составь собственный пример.\n\n## 5. Практика\n\nВ приложении практика разделена на входную диагностику, управляемые задания, самостоятельную практику и новую выходную проверку. Закрытые ответы получают rationale и разбор ошибки. Свободный текст сохраняется и оценивается по рубрике; до подключения и реальной проверки AI-движка система не выдаёт его за автоматическую AI-оценку.\n\n## 6. Интервальное повторение\n\nПовторяй не весь урок автоматически, а конкретную ошибку: выбор формы, согласование, word order, значение, регистр или пунктуацию. Новая попытка должна менять лексический контекст и формулировку, чтобы проверять перенос, а не запоминание одной строки.\n\n## 7. Технический статус\n\n- Постоянный ID: `B1-04`.\n- Прогресс хранится отдельно в course.grammarLessons[\"B1-04\"].\n- Содержание и ключи имеют статус draft; 24 авторских закрытых задания и объяснения вычитаны, выбранные тексты источников проверены. Полная постраничная и пользовательская приёмка остаются открытыми.\n- Предварительное выполнение порогов не равно окончательному mastered: нужны отсроченное повторение и learner review.",
+  "theoryEnd": "## 5."
+}
