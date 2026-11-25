@@ -1,0 +1,740 @@
+{
+  "id": "A2-08",
+  "level": "A2",
+  "sequence": "A2-08",
+  "grammarFamily": "comparative",
+  "questionBankSource": "topic-specific-authored",
+  "sourceVerification": "draft; selected source text consulted; complete source-page and learner review pending",
+  "topicProfile": {
+    "label": "Comparatives",
+    "core": "Comparative (сравнительная степень) показывает, что качество выражено сильнее или слабее у одного объекта по сравнению с другим. Tall → taller, expensive → more expensive. Для равенства используется as…as, для меньшей степени — less…than или not as…as. Сравнивать можно не только предметы, но и действия: She speaks more clearly than I do.",
+    "form": "| Тип слова | Правило | Пример |\n|---|---|---|\n| Односложное | + -er | short → shorter |\n| Конечная e | + -r | large → larger |\n| Короткое CVC | удвоение согласной + er | big → bigger |\n| Consonant + y | y → i + er | easy → easier |\n| Длинное | more + adjective | more expensive |\n| Меньшая степень | less + adjective | less expensive |\n| Равенство | as + adjective + as | as tall as |\n| Неравенство | not as + adjective + as | not as tall as |",
+    "selection": "Определи, сравниваешь ли степень качества или равенство. Для большей степени выбери -er или more; для меньшей — less. Для равенства используй as + обычная форма + as. Затем поставь than перед вторым объектом при сравнительной степени. Проверь написание, форму неправильного прилагательного и отсутствие двойного сравнения.",
+    "contrast": "| Пример | Смысл |\n|---|---|\n| The red bag is cheaper than the blue bag. | Красная дешевле синей. |\n| The blue bag is more expensive than the red bag. | Синяя дороже красной. |\n| This bag is as light as that one. | Одинаковый вес. |\n| This bag isn't as light as that one. | Эта сумка тяжелее другой. |\n| The new screen is much brighter. | Значительно ярче. |\n| It is getting colder and colder. | Становится всё холоднее. |",
+    "boundary": "Не используй more вместе с -er для одного сравнительного признака: more cheaper неверно. Не путай than (чем) и then (затем). В конструкции as…as нужна исходная форма, не comparative: as fast as, не as faster as. После than допустимы объектное местоимение или полное придаточное: taller than me / taller than I am. The same as — одинаковый с, а не the same like.",
+    "pronunciation": "В comparatively формах -er обычно без сильного ударения; ударение сохраняется на основе: BIGger, EASier. More expensive имеет ударение на смысловом прилагательном или more при контрасте. Than в связной речи часто произносится слабо. Сравни as FAST as и FASter than. Произноси полные фразы; отдельная аудиосверка ещё нужна.",
+    "examples": [
+      [
+        "This exercise is easier than the previous one.",
+        "Это упражнение легче предыдущего.",
+        "Easy → easier."
+      ],
+      [
+        "My new room is bigger than my old room.",
+        "Моя новая комната больше старой.",
+        "Big → bigger, удвоение g."
+      ],
+      [
+        "The second explanation is more useful.",
+        "Второе объяснение полезнее.",
+        "More + useful."
+      ],
+      [
+        "The new chair is as comfortable as the old one.",
+        "Новый стул такой же удобный, как старый.",
+        "Равенство."
+      ],
+      [
+        "Today's result is much better.",
+        "Сегодняшний результат намного лучше.",
+        "Good → better, усилитель much."
+      ],
+      [
+        "Please speak a little more slowly.",
+        "Пожалуйста, говорите немного медленнее.",
+        "More + -ly adverb."
+      ]
+    ],
+    "traps": [
+      [
+        "This book is more cheaper.",
+        "This book is cheaper.",
+        "Не удваивай comparative."
+      ],
+      [
+        "She is more tall than me.",
+        "She is taller than me.",
+        "Tall — односложное, обычно -er."
+      ],
+      [
+        "This task is easyer.",
+        "This task is easier.",
+        "Y меняется на i."
+      ],
+      [
+        "He is as faster as his brother.",
+        "He is as fast as his brother.",
+        "В as…as нужна обычная форма."
+      ],
+      [
+        "My sister is older then me.",
+        "My sister is older than me.",
+        "Than вводит сравнение."
+      ]
+    ],
+    "toefl": "В Reading и Listening сравнивай характеристики, данные и оценки, внимательно отслеживая направление сравнения. В Speaking сравни два способа учёбы и объясни выбор. В Writing описывай измеримые отличия без неподтверждённых выводов: The second method is faster but less accurate. Это авторские задания для переноса навыка, не официальный TOEFL."
+  },
+  "title": "Comparatives",
+  "description": "Сравнивать предметы и ситуации; использовать -er/more, than, as…as",
+  "cardDescription": "Теория, guided practice, самостоятельные задания и выходная проверка по постоянному ID A2-08.",
+  "eyebrow": "Полный урок программы A2-08 · drafted",
+  "contentVersion": "1.1-draft",
+  "curriculumVersion": "1.0",
+  "prerequisites": [
+    "A1-11"
+  ],
+  "outcomes": [
+    "Сравнивать предметы и ситуации; использовать -er/more, than, as…as",
+    "Выбирать целевую конструкцию по контексту и смыслу.",
+    "Исправлять типичные ошибки и переносить правило в новый пример."
+  ],
+  "sourceRefs": [
+    "GR-01 U88-90",
+    "GR-02 U105-107",
+    "GR-03 U72-73",
+    "GR-05 A2 p3-10"
+  ],
+  "sourceStatus": "selected source text consulted; full page verification pending",
+  "status": "drafted",
+  "legacyCoverage": "Полное ядро",
+  "toeflLinks": [
+    "Writing: Build a Sentence",
+    "Writing: Write an Email"
+  ],
+  "thresholds": {
+    "independent": 7,
+    "exit": 4,
+    "criticalIds": [
+      "E1",
+      "E2",
+      "E3"
+    ]
+  },
+  "groups": {
+    "independent": "Самостоятельная практика",
+    "exit": "Выходная проверка"
+  },
+  "items": [
+    {
+      "id": "D1",
+      "group": "Входная диагностика",
+      "prompt": "Choose the usual comparative of 'short'.",
+      "options": [
+        "more shorter",
+        "shorter",
+        "shortest"
+      ],
+      "answer": "shorter",
+      "accepted": [
+        "shorter"
+      ],
+      "why": "Односложное short + er.",
+      "distractorWhy": "More и -er дублируют друг друга.",
+      "distractorRationales": {
+        "more shorter": "More и -er дублируют друг друга.",
+        "shortest": "Shortest — превосходная степень."
+      },
+      "skillTarget": "comparative",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D2",
+      "group": "Входная диагностика",
+      "prompt": "Choose the correct comparative spelling of 'big'.",
+      "options": [
+        "bigger",
+        "biger",
+        "biggest"
+      ],
+      "answer": "bigger",
+      "accepted": [
+        "bigger"
+      ],
+      "why": "В big удваивается g перед -er.",
+      "distractorWhy": "Biger пропускает удвоение.",
+      "distractorRationales": {
+        "biger": "Biger пропускает удвоение.",
+        "biggest": "Biggest — superlative."
+      },
+      "skillTarget": "comparative",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D3",
+      "group": "Входная диагностика",
+      "prompt": "Choose the comparative of 'happy'.",
+      "options": [
+        "happyer",
+        "happiest",
+        "happier"
+      ],
+      "answer": "happier",
+      "accepted": [
+        "happier"
+      ],
+      "why": "Consonant + y → ier.",
+      "distractorWhy": "Happyer не учитывает замену y.",
+      "distractorRationales": {
+        "happyer": "Happyer не учитывает замену y.",
+        "happiest": "Happiest — superlative."
+      },
+      "skillTarget": "comparative",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D4",
+      "group": "Входная диагностика",
+      "prompt": "Choose the comparative of 'large'.",
+      "options": [
+        "largeer",
+        "larger",
+        "largest"
+      ],
+      "answer": "larger",
+      "accepted": [
+        "larger"
+      ],
+      "why": "После конечной e добавляется r.",
+      "distractorWhy": "Вторая e лишняя.",
+      "distractorRationales": {
+        "largeer": "Вторая e лишняя.",
+        "largest": "Largest — superlative."
+      },
+      "skillTarget": "comparative",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G1",
+      "group": "Управляемая практика",
+      "prompt": "This course is ___ than the previous one. Use the comparative of useful.",
+      "options": [
+        "more useful",
+        "more usefuler",
+        "most useful"
+      ],
+      "answer": "more useful",
+      "accepted": [
+        "more useful"
+      ],
+      "why": "Useful обычно образует comparative с more.",
+      "distractorWhy": "More и -er не соединяются.",
+      "distractorRationales": {
+        "more usefuler": "More и -er не соединяются.",
+        "most useful": "Most useful — superlative."
+      },
+      "skillTarget": "comparative",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G2",
+      "group": "Управляемая практика",
+      "prompt": "Choose the irregular comparative of 'good'.",
+      "options": [
+        "gooder",
+        "best",
+        "better"
+      ],
+      "answer": "better",
+      "accepted": [
+        "better"
+      ],
+      "why": "Good → better.",
+      "distractorWhy": "Gooder не стандартная форма.",
+      "distractorRationales": {
+        "gooder": "Gooder не стандартная форма.",
+        "best": "Best — superlative."
+      },
+      "skillTarget": "comparative",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G3",
+      "group": "Управляемая практика",
+      "prompt": "Choose the irregular comparative of 'bad'.",
+      "options": [
+        "badder",
+        "worse",
+        "worst"
+      ],
+      "answer": "worse",
+      "accepted": [
+        "worse"
+      ],
+      "why": "Bad → worse.",
+      "distractorWhy": "Badder не стандартная форма в данном значении.",
+      "distractorRationales": {
+        "badder": "Badder не стандартная форма в данном значении.",
+        "worst": "Worst — superlative."
+      },
+      "skillTarget": "comparative",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G4",
+      "group": "Управляемая практика",
+      "prompt": "Choose the correct comparison of two distances.",
+      "options": [
+        "The station is farther than the library.",
+        "The station is farer than the library.",
+        "The station is farthest than the library."
+      ],
+      "answer": "The station is farther than the library.",
+      "accepted": [
+        "The station is farther than the library."
+      ],
+      "why": "Farther — допустимый comparative расстояния.",
+      "distractorWhy": "Farer не стандартная форма.",
+      "distractorRationales": {
+        "The station is farer than the library.": "Farer не стандартная форма.",
+        "The station is farthest than the library.": "Farthest — superlative."
+      },
+      "skillTarget": "comparative",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G5",
+      "group": "Управляемая практика",
+      "prompt": "The blue bag costs less than the red bag. Choose the equivalent sentence.",
+      "options": [
+        "The blue bag is more expensive than the red bag.",
+        "The blue bag is the most expensive of the two.",
+        "The blue bag is cheaper than the red bag."
+      ],
+      "answer": "The blue bag is cheaper than the red bag.",
+      "accepted": [
+        "The blue bag is cheaper than the red bag."
+      ],
+      "why": "Cheaper означает меньшую цену.",
+      "distractorWhy": "More expensive меняет направление.",
+      "distractorRationales": {
+        "The blue bag is more expensive than the red bag.": "More expensive меняет направление.",
+        "The blue bag is the most expensive of the two.": "Most expensive противоречит меньшей цене."
+      },
+      "skillTarget": "comparative",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G6",
+      "group": "Управляемая практика",
+      "prompt": "Choose the connector after comparative in 'This room is quieter ___ that room.'",
+      "options": [
+        "then",
+        "than",
+        "as"
+      ],
+      "answer": "than",
+      "accepted": [
+        "than"
+      ],
+      "why": "Than вводит объект сравнения.",
+      "distractorWhy": "Then означает затем.",
+      "distractorRationales": {
+        "then": "Then означает затем.",
+        "as": "As используется в иной модели."
+      },
+      "skillTarget": "comparative",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I1",
+      "group": "Самостоятельная практика",
+      "prompt": "The two tests have equal difficulty. Choose the equality structure.",
+      "options": [
+        "The first test is as more difficult as the second.",
+        "The first test is as difficult than the second.",
+        "The first test is as difficult as the second."
+      ],
+      "answer": "The first test is as difficult as the second.",
+      "accepted": [
+        "The first test is as difficult as the second."
+      ],
+      "why": "As + ordinary adjective + as выражает равенство.",
+      "distractorWhy": "More внутри этой модели лишнее.",
+      "distractorRationales": {
+        "The first test is as more difficult as the second.": "More внутри этой модели лишнее.",
+        "The first test is as difficult than the second.": "Than не завершает as…as."
+      },
+      "skillTarget": "comparative",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I2",
+      "group": "Самостоятельная практика",
+      "prompt": "The old printer is slower. Choose the equivalent negative equality.",
+      "options": [
+        "The old printer is as faster as the new one.",
+        "The old printer isn't as fast as the new one.",
+        "The old printer isn't as fast than the new one."
+      ],
+      "answer": "The old printer isn't as fast as the new one.",
+      "accepted": [
+        "The old printer isn't as fast as the new one."
+      ],
+      "why": "Not as fast as выражает меньшую скорость.",
+      "distractorWhy": "В as…as не нужна comparative.",
+      "distractorRationales": {
+        "The old printer is as faster as the new one.": "В as…as не нужна comparative.",
+        "The old printer isn't as fast than the new one.": "Than не подходит."
+      },
+      "skillTarget": "comparative",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I3",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct strong modifier of comparative.",
+      "options": [
+        "The new screen is much brighter.",
+        "The new screen is very brighter.",
+        "The new screen is much brightest than before."
+      ],
+      "answer": "The new screen is much brighter.",
+      "accepted": [
+        "The new screen is much brighter."
+      ],
+      "why": "Much усиливает comparative brighter.",
+      "distractorWhy": "Very обычно не усиливает comparative.",
+      "distractorRationales": {
+        "The new screen is very brighter.": "Very обычно не усиливает comparative.",
+        "The new screen is much brightest than before.": "Brightest — superlative, не сравнительная форма."
+      },
+      "skillTarget": "comparative",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I4",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the grammatical comparative of the adverb 'slowly'.",
+      "options": [
+        "slowlyer",
+        "most slowly",
+        "more slowly"
+      ],
+      "answer": "more slowly",
+      "accepted": [
+        "more slowly"
+      ],
+      "why": "Наречие на -ly обычно more + adverb.",
+      "distractorWhy": "Slowlyer не стандартная форма.",
+      "distractorRationales": {
+        "slowlyer": "Slowlyer не стандартная форма.",
+        "most slowly": "Most slowly — superlative."
+      },
+      "skillTarget": "comparative",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I5",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the sentence with a small difference in price.",
+      "options": [
+        "This one is very cheaper.",
+        "This one is a little cheaper.",
+        "This one is a little cheapest than that one."
+      ],
+      "answer": "This one is a little cheaper.",
+      "accepted": [
+        "This one is a little cheaper."
+      ],
+      "why": "A little + comparative передаёт небольшое отличие.",
+      "distractorWhy": "Very не стандартный усилитель comparative.",
+      "distractorRationales": {
+        "This one is very cheaper.": "Very не стандартный усилитель comparative.",
+        "This one is a little cheapest than that one.": "Cheapest — superlative."
+      },
+      "skillTarget": "comparative",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I6",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the natural comparison of age using older.",
+      "options": [
+        "My cousin is older than I am.",
+        "My cousin is elder than I am.",
+        "My cousin is oldest than I am."
+      ],
+      "answer": "My cousin is older than I am.",
+      "accepted": [
+        "My cousin is older than I am."
+      ],
+      "why": "Older than — обычное сравнение возраста.",
+      "distractorWhy": "Elder употребляется главным образом перед family noun.",
+      "distractorRationales": {
+        "My cousin is elder than I am.": "Elder употребляется главным образом перед family noun.",
+        "My cousin is oldest than I am.": "Oldest не сочетается с than."
+      },
+      "skillTarget": "comparative",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I7",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct equality phrase with 'the same'.",
+      "options": [
+        "My answer is the same like yours.",
+        "My answer is the same than yours.",
+        "My answer is the same as yours."
+      ],
+      "answer": "My answer is the same as yours.",
+      "accepted": [
+        "My answer is the same as yours."
+      ],
+      "why": "The same as — устойчивое сравнение.",
+      "distractorWhy": "Like не подходит в этой модели.",
+      "distractorRationales": {
+        "My answer is the same like yours.": "Like не подходит в этой модели.",
+        "My answer is the same than yours.": "Than употребляется после comparative."
+      },
+      "skillTarget": "comparative",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I8",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct quantity comparison for countable books.",
+      "options": [
+        "I have fewer water than Mia.",
+        "I have fewer books than Mia.",
+        "I have fewest books than Mia."
+      ],
+      "answer": "I have fewer books than Mia.",
+      "accepted": [
+        "I have fewer books than Mia."
+      ],
+      "why": "Fewer + plural countable + than.",
+      "distractorWhy": "Water неисчисляемое.",
+      "distractorRationales": {
+        "I have fewer water than Mia.": "Water неисчисляемое.",
+        "I have fewest books than Mia.": "Fewest — superlative."
+      },
+      "skillTarget": "comparative",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I9",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct comparison of uncountable time.",
+      "options": [
+        "We have less time than before.",
+        "We have fewer time than before.",
+        "We have least time than before."
+      ],
+      "answer": "We have less time than before.",
+      "accepted": [
+        "We have less time than before."
+      ],
+      "why": "Less + uncountable noun.",
+      "distractorWhy": "Fewer требует plural countable.",
+      "distractorRationales": {
+        "We have fewer time than before.": "Fewer требует plural countable.",
+        "We have least time than before.": "Least — superlative."
+      },
+      "skillTarget": "comparative",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E1",
+      "group": "Выходная проверка",
+      "prompt": "Choose the construction describing gradual change.",
+      "options": [
+        "The weather is getting colder and colder.",
+        "The weather is getting more colder and colder.",
+        "The weather is getting coldest and colder."
+      ],
+      "answer": "The weather is getting colder and colder.",
+      "accepted": [
+        "The weather is getting colder and colder."
+      ],
+      "why": "Повтор comparative показывает изменение.",
+      "distractorWhy": "More colder — двойная форма.",
+      "distractorRationales": {
+        "The weather is getting more colder and colder.": "More colder — двойная форма.",
+        "The weather is getting coldest and colder.": "Coldest — superlative."
+      },
+      "skillTarget": "comparative",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E2",
+      "group": "Выходная проверка",
+      "prompt": "Choose the grammatical comparative without an explicitly named second object.",
+      "options": [
+        "This chair is more comfortabler.",
+        "This chair is comfortablest than.",
+        "This chair is more comfortable."
+      ],
+      "answer": "This chair is more comfortable.",
+      "accepted": [
+        "This chair is more comfortable."
+      ],
+      "why": "More comfortable допустимо без than, если контекст ясен.",
+      "distractorWhy": "More + -er дублируют форму.",
+      "distractorRationales": {
+        "This chair is more comfortabler.": "More + -er дублируют форму.",
+        "This chair is comfortablest than.": "Неверная superlative и незавершённое than."
+      },
+      "skillTarget": "comparative",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E3",
+      "group": "Выходная проверка",
+      "prompt": "Choose the correct comparison of two prices rather than a price and a laptop.",
+      "options": [
+        "The price of A is lower than laptop B (as an object).",
+        "The price of A is lower than the price of B.",
+        "The price of A is lowerer than the price of B."
+      ],
+      "answer": "The price of A is lower than the price of B.",
+      "accepted": [
+        "The price of A is lower than the price of B."
+      ],
+      "why": "Сравниваются две цены.",
+      "distractorWhy": "Цена и предмет — разные категории.",
+      "distractorRationales": {
+        "The price of A is lower than laptop B (as an object).": "Цена и предмет — разные категории.",
+        "The price of A is lowerer than the price of B.": "Lowerer — двойная сравнительная форма."
+      },
+      "skillTarget": "comparative",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E4",
+      "group": "Выходная проверка",
+      "prompt": "Choose the correct equality of number using many.",
+      "options": [
+        "We have as many exercises as they do.",
+        "We have as much exercises as they do.",
+        "We have as more exercises as they do."
+      ],
+      "answer": "We have as many exercises as they do.",
+      "accepted": [
+        "We have as many exercises as they do."
+      ],
+      "why": "Many + countable plural, as…as.",
+      "distractorWhy": "Much требует uncountable.",
+      "distractorRationales": {
+        "We have as much exercises as they do.": "Much требует uncountable.",
+        "We have as more exercises as they do.": "More не нужен в этой модели."
+      },
+      "skillTarget": "comparative",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E5",
+      "group": "Выходная проверка",
+      "prompt": "Choose the accurate rule about two-syllable adjectives.",
+      "options": [
+        "Every two-syllable adjective must take -er.",
+        "Every two-syllable adjective must take more and -er together.",
+        "Some, such as quiet, allow both -er and more forms."
+      ],
+      "answer": "Some, such as quiet, allow both -er and more forms.",
+      "accepted": [
+        "Some, such as quiet, allow both -er and more forms."
+      ],
+      "why": "Некоторые слова допускают обе модели.",
+      "distractorWhy": "Правило не универсально.",
+      "distractorRationales": {
+        "Every two-syllable adjective must take -er.": "Правило не универсально.",
+        "Every two-syllable adjective must take more and -er together.": "Двойное образование неверно."
+      },
+      "skillTarget": "comparative",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "W1",
+      "group": "Самостоятельное применение",
+      "prompt": "Сравни два вымышленных варианта учебного курса или устройства в 8 предложениях. Используй -er, more, less, better/worse, as…as, not as…as и два усилителя. Объясни три правила образования.",
+      "open": true,
+      "rubric": [
+        "Верно образованы сравнительные формы.",
+        "Than и as…as употреблены правильно.",
+        "Неправильные формы выбраны верно.",
+        "Нет двойных comparative.",
+        "Модификаторы much/a little сочетаются с comparative.",
+        "Сравниваются сопоставимые объекты."
+      ],
+      "skillTarget": "Самостоятельное применение comparative",
+      "interactionType": "open-production",
+      "difficulty": "transfer",
+      "sourceBasis": "Speakbase-authored open production; self-review rubric only until real AI feedback is connected",
+      "contentVersion": "1.1-draft"
+    }
+  ],
+  "markdown": "# Speakbase — A2-08: Comparatives\n\n**Curriculum ID:** `A2-08`  \n**Уровень:** A2  \n**Версия:** 1.1-draft\n**Статус:** drafted; selected source text checked; full source-page and learner acceptance pending\n**Предварительные темы:** A1-11  \n**Связь со старым каталогом:** Полное ядро — №17 Comparatives\n\n## 1. Результаты обучения\n\n- Сравнивать предметы и ситуации; использовать -er/more, than, as…as\n- Выбирать целевую форму по значению, структуре предложения и контексту.\n- Объяснять, почему близкая грамматическая форма меняет смысл или регистр.\n- Находить и исправлять типичные ошибки русскоязычных студентов.\n\n## 2. Источники и статус сверки\n\n| Source | PDF navigation | Lesson-specific checks | Status |\n|---|---|---|---|\n| GR-01 U88-90 | PDF pages 187-192 (Unit 88-90) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-02 U105-107 | PDF pages 222-227 (Unit 105-107) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-03 U72-73 | PDF pages 168-171 (Unit 72-73) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-05 A2 p3-10 | PDF pages 3-10 (A2 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n\nUnit/page locations are navigation aids only. They do not prove that the cited explanation, examples, restrictions and answer key have been checked for this lesson. Examples and explanations below are Speakbase-authored, not quotations from the textbook.\n\nПеред переводом этого урока в source-verified необходимо открыть целевые страницы конкретного издания, записать печатную и PDF-пагинацию, сверить ограничения и исключения. Для GR-03 со сканированными страницами обязательна визуальная проверка.\n\n**Evidence for this editorial pass:** GR-02 Units 105–107, directly checked theory text PDF pp. 222, 224, 226 (printed pp. 210, 212, 214): spelling, irregular forms, modifiers, repeated comparatives, the…the, equality and than/as. GR-01, GR-03, GR-05, exercise pages and visual verification pending. The selected source text was consulted; not all pages, exercises, editions, scanned GR-03 pages or GR-05 descriptors were checked. Author-created explanations and practice are not copied source exercises.\n\n## 3. Место темы и границы\n\nСравнительная степень: -er/more, than, spelling, irregular forms и as…as. Не смешивай comparative и superlative.\n\nСтарый каталог содержит: №17 Comparatives. Его статус — Полное ядро. Старые отметки завершения не переносятся автоматически на новый постоянный ID. Тема рассматривается в уровне A2 и не заменяет обязательные prerequisites.\n\n## 4. Полный конспект\n\n### 4.1. Основная идея и функция конструкции\n\nComparative (сравнительная степень) показывает, что качество выражено сильнее или слабее у одного объекта по сравнению с другим. Tall → taller, expensive → more expensive. Для равенства используется as…as, для меньшей степени — less…than или not as…as. Сравнивать можно не только предметы, но и действия: She speaks more clearly than I do.\n\nВ английском нельзя образовывать сравнительную степень всех прилагательных одним способом. У коротких слов обычно добавляется -er, у длинных используется more. Иногда возможны оба варианта. Than вводит второй объект сравнения: This desk is wider than that one. Если второй объект уже понятен, than можно не добавлять: This desk is wider. Сравнение не обязано содержать два явно названных предмета; контекст может задавать прежнее состояние.\n\n### 4.2. Формирование и грамматическая модель\n\n| Тип слова | Правило | Пример |\n|---|---|---|\n| Односложное | + -er | short → shorter |\n| Конечная e | + -r | large → larger |\n| Короткое CVC | удвоение согласной + er | big → bigger |\n| Consonant + y | y → i + er | easy → easier |\n| Длинное | more + adjective | more expensive |\n| Меньшая степень | less + adjective | less expensive |\n| Равенство | as + adjective + as | as tall as |\n| Неравенство | not as + adjective + as | not as tall as |\n\nУ односложных прилагательных с короткой гласной перед конечной согласной часто удваивается последняя согласная: hot → hotter, thin → thinner. Не удваиваются w, x, y; new → newer. После consonant + y меняем y на i: happy → happier, busy → busier. У многих двухсложных и более длинных прилагательных используется more: more useful, more interesting. Некоторые двухсложные прилагательные допускают оба способа: quieter/more quiet, simpler/more simple. Наречия с -ly обычно образуют comparative с more: more slowly. Fast и hard имеют faster/harder; early → earlier.\n\n### 4.3. Как выбрать подходящую форму\n\nОпредели, сравниваешь ли степень качества или равенство. Для большей степени выбери -er или more; для меньшей — less. Для равенства используй as + обычная форма + as. Затем поставь than перед вторым объектом при сравнительной степени. Проверь написание, форму неправильного прилагательного и отсутствие двойного сравнения.\n\nНеправильные формы: good/well → better; bad/badly → worse; far → farther/further. Further также означает «дополнительный» (further information). Старше — older; elder используется главным образом перед существительным о членах семьи (my elder sister), не elder than. Для количества: many/much → more; little → less; few → fewer. Перед сравнительной степенью употребляются much, a lot, far (значительно), a bit, a little, slightly (немного): much better, a little cheaper. Very обычно усиливает обычную форму, а не comparative: very cheap, much cheaper.\n\n### 4.4. Сравнение с близкими конструкциями\n\n| Пример | Смысл |\n|---|---|\n| The red bag is cheaper than the blue bag. | Красная дешевле синей. |\n| The blue bag is more expensive than the red bag. | Синяя дороже красной. |\n| This bag is as light as that one. | Одинаковый вес. |\n| This bag isn't as light as that one. | Эта сумка тяжелее другой. |\n| The new screen is much brighter. | Значительно ярче. |\n| It is getting colder and colder. | Становится всё холоднее. |\n\n### 4.5. Примеры с переводом и объяснением\n\n| English | Перевод | Почему это подходит |\n| --- | --- | --- |\n| This exercise is easier than the previous one. | Это упражнение легче предыдущего. | Easy → easier. |\n| My new room is bigger than my old room. | Моя новая комната больше старой. | Big → bigger, удвоение g. |\n| The second explanation is more useful. | Второе объяснение полезнее. | More + useful. |\n| The new chair is as comfortable as the old one. | Новый стул такой же удобный, как старый. | Равенство. |\n| Today's result is much better. | Сегодняшний результат намного лучше. | Good → better, усилитель much. |\n| Please speak a little more slowly. | Пожалуйста, говорите немного медленнее. | More + -ly adverb. |\n\n### 4.6. Исключения, ограничения и границы употребления\n\nНе используй more вместе с -er для одного сравнительного признака: more cheaper неверно. Не путай than (чем) и then (затем). В конструкции as…as нужна исходная форма, не comparative: as fast as, не as faster as. После than допустимы объектное местоимение или полное придаточное: taller than me / taller than I am. The same as — одинаковый с, а не the same like.\n\nПовтор comparative показывает постепенное изменение: bigger and bigger, more and more expensive. Конструкция the + comparative…, the + comparative… показывает зависимость: The more you practise, the easier it becomes. Это отдельное углубление на B1; здесь достаточно распознавать модель. Не сравнивай несопоставимые объекты: The price of this laptop is lower than that of the other laptop, не lower than the other laptop (если сравниваются цены). For distance farther/further могут оба подходить. В количественных сравнениях используем as many + plural noun + as, as much + uncountable noun + as.\n\n### 4.7. Типичные ошибки русскоязычных студентов\n\n| Ошибка | Исправление | Объяснение |\n| --- | --- | --- |\n| This book is more cheaper. | This book is cheaper. | Не удваивай comparative. |\n| She is more tall than me. | She is taller than me. | Tall — односложное, обычно -er. |\n| This task is easyer. | This task is easier. | Y меняется на i. |\n| He is as faster as his brother. | He is as fast as his brother. | В as…as нужна обычная форма. |\n| My sister is older then me. | My sister is older than me. | Than вводит сравнение. |\n\n### 4.8. Произношение и восприятие на слух\n\nВ comparatively формах -er обычно без сильного ударения; ударение сохраняется на основе: BIGger, EASier. More expensive имеет ударение на смысловом прилагательном или more при контрасте. Than в связной речи часто произносится слабо. Сравни as FAST as и FASter than. Произноси полные фразы; отдельная аудиосверка ещё нужна.\n\nСначала прослушай или прочитай пример, затем произнеси его целиком. Обрати внимание на смысловое ударение и форму конструкции; не ориентируйся только на буквенный перевод.\n\n### 4.9. Академический английский и TOEFL-перенос\n\nВ Reading и Listening сравнивай характеристики, данные и оценки, внимательно отслеживая направление сравнения. В Speaking сравни два способа учёбы и объясни выбор. В Writing описывай измеримые отличия без неподтверждённых выводов: The second method is faster but less accurate. Это авторские задания для переноса навыка, не официальный TOEFL.\n\nЭто авторская практика переноса навыка. Она не является официальным заданием TOEFL и не выдаётся за официальный результат экзамена.\n\n### 4.10. Примеры для управляемого разбора\n\n- This exercise is easier than the previous one. — Это упражнение легче предыдущего. Easy → easier.\n- My new room is bigger than my old room. — Моя новая комната больше старой. Big → bigger, удвоение g.\n- The second explanation is more useful. — Второе объяснение полезнее. More + useful.\n\nДля каждого примера назови целевую конструкцию, объясни выбор и составь новое предложение в другом контексте. Затем перейди к заданиям: сначала диагностика, затем управляемая и самостоятельная практика, затем новые вопросы выходной проверки.\n\n### 4.11. Самопроверка\n\nПеред отправкой ответа проверь:\n1. Верно образованы сравнительные формы.\n2. Than и as…as употреблены правильно.\n3. Неправильные формы выбраны верно.\n4. Нет двойных comparative.\n5. Модификаторы much/a little сочетаются с comparative.\n6. Сравниваются сопоставимые объекты.\n\n### 4.12. Краткая памятка\n\nКороткие adjectives обычно -er, длинные — more; good/well → better, bad/badly → worse. Than вводит сравнение, as + обычная форма + as — равенство. Much/a little усиливают comparative. Не соединяй more и -er, проверяй написание и сопоставимость объектов.\n\nНе выбирай форму только по одному знакомому слову: проверь контекст, значение и структуру. При ошибке вернись к соответствующей части конспекта и составь собственный пример.\n\n## 5. Практика\n\nВ приложении практика разделена на входную диагностику, управляемые задания, самостоятельную практику и новую выходную проверку. Закрытые ответы получают rationale и разбор ошибки. Свободный текст сохраняется и оценивается по рубрике; до подключения и реальной проверки AI-движка система не выдаёт его за автоматическую AI-оценку.\n\n## 6. Интервальное повторение\n\nПовторяй не весь урок автоматически, а конкретную ошибку: выбор формы, согласование, word order, значение, регистр или пунктуацию. Новая попытка должна менять лексический контекст и формулировку, чтобы проверять перенос, а не запоминание одной строки.\n\n## 7. Технический статус\n\n- Постоянный ID: `A2-08`.\n- Прогресс хранится отдельно в course.grammarLessons[\"A2-08\"].\n- Содержание и ключи имеют статус draft; 24 авторских закрытых задания и объяснения вычитаны, выбранные тексты источников проверены. Полная постраничная и пользовательская приёмка остаются открытыми.\n- Предварительное выполнение порогов не равно окончательному mastered: нужны отсроченное повторение и learner review.",
+  "theoryEnd": "## 5."
+}

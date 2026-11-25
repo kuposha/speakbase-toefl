@@ -35,3 +35,7 @@ A2-01 through A2-03: expanded Russian theory, 72 individually authored closed ta
 ## A2 second package
 
 A2-04 through A2-06 editorial pass: future forms, Present Perfect Simple, Present Perfect vs Past Simple. 72 closed tasks with separate rationales and 3 open rubrics, matching Markdown and runtime. GR-02 Units 19–23, 7–8 and 13–14 theory text directly consulted. Full additional source, exercise-page, visual and learner verification pending; PARTIAL. A2 total: 6/18. Next A2-07–09. Unrelated work preserved.
+
+## A2 third package
+
+A2-07 through A2-09 editorial pass: core modals, comparatives and superlatives. 72 individually authored closed questions and 3 open rubrics, matching runtime snapshots and Markdown. GR-02 selected theory text Units 26–33, 37 and 105–108 directly consulted (PDF pp. 64–78 even, 86, 222–228 even); other sources, exercise-page/visual verification and learner acceptance pending; PARTIAL. A2 total: 9/18. Next A2-10–12, confirm curriculum titles before editing. Preserve unrelated work. Daily route and TOEFL linking remain pending.

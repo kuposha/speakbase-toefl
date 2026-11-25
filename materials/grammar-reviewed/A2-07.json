@@ -1,0 +1,740 @@
+{
+  "id": "A2-07",
+  "level": "A2",
+  "sequence": "A2-07",
+  "grammarFamily": "modalCore",
+  "questionBankSource": "topic-specific-authored",
+  "sourceVerification": "draft; selected source text consulted; complete source-page and learner review pending",
+  "topicProfile": {
+    "label": "core modals: obligation, advice, permission and possibility",
+    "core": "Модальные глаголы помогают сообщать не только о действии, но и об отношении к нему: могу, обязан, следует, разрешено, возможно. Can обозначает способность или разрешение, must/have to — необходимость, should — совет, may/might/could — возможность. В отрицаниях особенно важно различать запрет и отсутствие необходимости.",
+    "form": "| Значение | Конструкция | Пример |\n|---|---|---|\n| Способность | can + V1 | I can swim. |\n| Прошлый навык | could + V1 | I could swim at five. |\n| Необходимость | must / have to + V1 | I must study. |\n| Запрет | mustn't + V1 | You mustn't enter. |\n| Необязательно | don't have to / needn't + V1 | You needn't wait. |\n| Совет | should + V1 | You should rest. |\n| Возможность | may/might/could + V1 | It might rain. |\n| Разрешение | can/may + V1 | You can sit here. |",
+    "selection": "Сначала выясни функцию предложения. Если речь о навыке — can/could; о разрешении — can/may; об обязанности — must/have to; о совете — should; о вероятности — may/might/could. Если действие запрещено, выбирай mustn't или can't в соответствующем контексте. Если оно необязательно, don't have to или needn't. Для прошлой обязанности обычно используй had to.",
+    "contrast": "| Фраза | Перевод и смысл |\n|---|---|\n| You must show your ID. | Ты обязан показать удостоверение. |\n| You mustn't show this private file. | Нельзя показывать этот файл. |\n| You don't have to print it. | Печатать необязательно. |\n| You should check it. | Стоит проверить. |\n| You can use my pen. | Можно воспользоваться моей ручкой. |\n| You might need help. | Возможно, понадобится помощь. |\n| She had to leave. | Ей пришлось уйти. |",
+    "boundary": "Can выражает общую возможность: It can get cold here in winter. Для конкретного предположения о будущем часто употребляются may/might/could: It might get cold tonight. Can't также может означать сильный отрицательный вывод: He can't be here; he's abroad. Must может выражать сильный вывод: She must be tired. Подробно такие выводы рассматриваются на B1, включая modal + have + V3.",
+    "pronunciation": "В коротких фразах can часто безударно, а can't обычно выделяется. Слушай также контекст: I can SWIM и I CAN'T swim. Mustn't, shouldn't, couldn't имеют отрицание внутри сокращённой формы. Could в вежливой просьбе может произноситься мягко. Don't have to содержит отдельное отрицание do not. Это ориентиры для практики; сверка произношения по аудио пока не завершена.",
+    "examples": [
+      [
+        "My brother can repair a bicycle.",
+        "Мой брат умеет ремонтировать велосипед.",
+        "Способность сейчас."
+      ],
+      [
+        "Could you repeat the question, please?",
+        "Не могли бы вы повторить вопрос?",
+        "Вежливая просьба."
+      ],
+      [
+        "Students must bring their ID cards.",
+        "Студенты обязаны принести удостоверения.",
+        "Требование."
+      ],
+      [
+        "You don't have to pay for this workshop.",
+        "За этот семинар платить необязательно.",
+        "Нет обязанности."
+      ],
+      [
+        "You shouldn't skip breakfast.",
+        "Тебе не стоит пропускать завтрак.",
+        "Совет."
+      ],
+      [
+        "The lecture might finish early.",
+        "Возможно, лекция закончится рано.",
+        "Предположение."
+      ]
+    ],
+    "traps": [
+      [
+        "She can speaks English.",
+        "She can speak English.",
+        "После can нет окончания -s."
+      ],
+      [
+        "Do you can help me?",
+        "Can you help me?",
+        "Модальный вопрос без do."
+      ],
+      [
+        "I must to leave.",
+        "I must leave.",
+        "После must нужна V1 без to."
+      ],
+      [
+        "She doesn't has to work today.",
+        "She doesn't have to work today.",
+        "После doesn't используется have."
+      ],
+      [
+        "You mustn't attend (если посещение необязательно).",
+        "You don't have to attend.",
+        "Запрет не равен отсутствию обязанности."
+      ]
+    ],
+    "toefl": "В Listening различай требование в объявлении, рекомендацию преподавателя и возможность. В Speaking формулируй совет и вежливую просьбу; в Writing Email уточняй, что обязательно: Do I have to submit a printed copy? В Reading отличай сильный вывод от предположения. Это авторская практика переноса грамматического навыка, а не официальный экзаменационный материал."
+  },
+  "title": "Core modals: obligation, advice, permission, possibility",
+  "description": "Различать must/have to/should/could/may/might/can't в базовых значениях",
+  "cardDescription": "Теория, guided practice, самостоятельные задания и выходная проверка по постоянному ID A2-07.",
+  "eyebrow": "Полный урок программы A2-07 · drafted",
+  "contentVersion": "1.1-draft",
+  "curriculumVersion": "1.0",
+  "prerequisites": [
+    "A1-06",
+    "A1-15"
+  ],
+  "outcomes": [
+    "Различать must/have to/should/could/may/might/can't в базовых значениях",
+    "Выбирать целевую конструкцию по контексту и смыслу.",
+    "Исправлять типичные ошибки и переносить правило в новый пример."
+  ],
+  "sourceRefs": [
+    "GR-02 U26-37",
+    "GR-03 U15-20",
+    "GR-05 A2 p33-40"
+  ],
+  "sourceStatus": "selected source text consulted; full page verification pending",
+  "status": "drafted",
+  "legacyCoverage": "Полное ядро",
+  "toeflLinks": [
+    "Writing: Build a Sentence",
+    "Writing: Write an Email"
+  ],
+  "thresholds": {
+    "independent": 7,
+    "exit": 4,
+    "criticalIds": [
+      "E1",
+      "E2",
+      "E3"
+    ]
+  },
+  "groups": {
+    "independent": "Самостоятельная практика",
+    "exit": "Выходная проверка"
+  },
+  "items": [
+    {
+      "id": "D1",
+      "group": "Входная диагностика",
+      "prompt": "My sister knows how to swim. Choose the ability sentence.",
+      "options": [
+        "My sister can swims.",
+        "My sister can swim.",
+        "My sister can to swim."
+      ],
+      "answer": "My sister can swim.",
+      "accepted": [
+        "My sister can swim."
+      ],
+      "why": "Can + V1 выражает способность.",
+      "distractorWhy": "После can не ставят -s.",
+      "distractorRationales": {
+        "My sister can swims.": "После can не ставят -s.",
+        "My sister can to swim.": "To не нужно."
+      },
+      "skillTarget": "modalCore",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D2",
+      "group": "Входная диагностика",
+      "prompt": "The library lends laptops for free. Bringing your own is optional. Choose the matching rule.",
+      "options": [
+        "You don't have to bring your laptop.",
+        "You mustn't bring your laptop.",
+        "You can't bring your laptop."
+      ],
+      "answer": "You don't have to bring your laptop.",
+      "accepted": [
+        "You don't have to bring your laptop."
+      ],
+      "why": "Необязательно — don't have to.",
+      "distractorWhy": "Mustn't означало бы запрет.",
+      "distractorRationales": {
+        "You mustn't bring your laptop.": "Mustn't означало бы запрет.",
+        "You can't bring your laptop.": "Can't означало бы запрет или невозможность."
+      },
+      "skillTarget": "modalCore",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D3",
+      "group": "Входная диагностика",
+      "prompt": "The sign says 'No photographs'. Choose the prohibition.",
+      "options": [
+        "You needn't take photos here.",
+        "You should take photos here.",
+        "You mustn't take photos here."
+      ],
+      "answer": "You mustn't take photos here.",
+      "accepted": [
+        "You mustn't take photos here."
+      ],
+      "why": "Mustn't выражает запрет.",
+      "distractorWhy": "Needn't означает необязательно.",
+      "distractorRationales": {
+        "You needn't take photos here.": "Needn't означает необязательно.",
+        "You should take photos here.": "Should рекомендует фотографировать."
+      },
+      "skillTarget": "modalCore",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D4",
+      "group": "Входная диагностика",
+      "prompt": "Your friend is tired. Choose a recommendation using should.",
+      "options": [
+        "You should taking a break.",
+        "You should take a break.",
+        "You should to take a break."
+      ],
+      "answer": "You should take a break.",
+      "accepted": [
+        "You should take a break."
+      ],
+      "why": "Should + V1 — совет.",
+      "distractorWhy": "Taking не V1.",
+      "distractorRationales": {
+        "You should taking a break.": "Taking не V1.",
+        "You should to take a break.": "To после should не нужно."
+      },
+      "skillTarget": "modalCore",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G1",
+      "group": "Управляемая практика",
+      "prompt": "Choose the correct question about ability.",
+      "options": [
+        "Can Leo play the guitar?",
+        "Does Leo can play the guitar?",
+        "Can Leo plays the guitar?"
+      ],
+      "answer": "Can Leo play the guitar?",
+      "accepted": [
+        "Can Leo play the guitar?"
+      ],
+      "why": "Can ставится перед subject.",
+      "distractorWhy": "Do/does не добавляется к can.",
+      "distractorRationales": {
+        "Does Leo can play the guitar?": "Do/does не добавляется к can.",
+        "Can Leo plays the guitar?": "Play должна быть V1."
+      },
+      "skillTarget": "modalCore",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G2",
+      "group": "Управляемая практика",
+      "prompt": "Choose a grammatical uncertain prediction with might.",
+      "options": [
+        "The class might finishes early.",
+        "The class might to finish early.",
+        "The class might finish early."
+      ],
+      "answer": "The class might finish early.",
+      "accepted": [
+        "The class might finish early."
+      ],
+      "why": "Might + V1 выражает возможность.",
+      "distractorWhy": "Finishes не V1.",
+      "distractorRationales": {
+        "The class might finishes early.": "Finishes не V1.",
+        "The class might to finish early.": "To лишнее."
+      },
+      "skillTarget": "modalCore",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G3",
+      "group": "Управляемая практика",
+      "prompt": "Choose the third-person form of have to.",
+      "options": [
+        "Anna have to wear a uniform.",
+        "Anna has to wear a uniform.",
+        "Anna haves to wear a uniform."
+      ],
+      "answer": "Anna has to wear a uniform.",
+      "accepted": [
+        "Anna has to wear a uniform."
+      ],
+      "why": "Anna требует has to.",
+      "distractorWhy": "Have не согласуется с Anna.",
+      "distractorRationales": {
+        "Anna have to wear a uniform.": "Have не согласуется с Anna.",
+        "Anna haves to wear a uniform.": "Haves не стандартная форма."
+      },
+      "skillTarget": "modalCore",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G4",
+      "group": "Управляемая практика",
+      "prompt": "Choose the correct question about a present obligation with have to.",
+      "options": [
+        "Does Leo have to attend the workshop?",
+        "Does Leo has to attend the workshop?",
+        "Is Leo have to attend the workshop?"
+      ],
+      "answer": "Does Leo have to attend the workshop?",
+      "accepted": [
+        "Does Leo have to attend the workshop?"
+      ],
+      "why": "Does + subject + have to + V1.",
+      "distractorWhy": "После does нужна have.",
+      "distractorRationales": {
+        "Does Leo has to attend the workshop?": "После does нужна have.",
+        "Is Leo have to attend the workshop?": "Is не образует такой вопрос."
+      },
+      "skillTarget": "modalCore",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G5",
+      "group": "Управляемая практика",
+      "prompt": "Last Tuesday the office required everyone to stay late. Choose past obligation.",
+      "options": [
+        "We musted stay late.",
+        "We have to stay late last Tuesday.",
+        "We had to stay late."
+      ],
+      "answer": "We had to stay late.",
+      "accepted": [
+        "We had to stay late."
+      ],
+      "why": "Had to выражает прошлую обязанность.",
+      "distractorWhy": "Musted не существует.",
+      "distractorRationales": {
+        "We musted stay late.": "Musted не существует.",
+        "We have to stay late last Tuesday.": "Have to не соответствует прошлому моменту."
+      },
+      "skillTarget": "modalCore",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G6",
+      "group": "Управляемая практика",
+      "prompt": "Choose a future necessity with have to.",
+      "options": [
+        "I'll must renew my card next month.",
+        "I'll have to renew my card next month.",
+        "I'll has to renew my card next month."
+      ],
+      "answer": "I'll have to renew my card next month.",
+      "accepted": [
+        "I'll have to renew my card next month."
+      ],
+      "why": "Will have to + V1.",
+      "distractorWhy": "Два modals так не соединяются.",
+      "distractorRationales": {
+        "I'll must renew my card next month.": "Два modals так не соединяются.",
+        "I'll has to renew my card next month.": "После will нужна have."
+      },
+      "skillTarget": "modalCore",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I1",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose a polite request using could.",
+      "options": [
+        "Could you to pass me the worksheet?",
+        "Could you passed me the worksheet?",
+        "Could you pass me the worksheet?"
+      ],
+      "answer": "Could you pass me the worksheet?",
+      "accepted": [
+        "Could you pass me the worksheet?"
+      ],
+      "why": "Could + subject + V1 — просьба.",
+      "distractorWhy": "To лишнее.",
+      "distractorRationales": {
+        "Could you to pass me the worksheet?": "To лишнее.",
+        "Could you passed me the worksheet?": "Passed не V1."
+      },
+      "skillTarget": "modalCore",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I2",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose a formal request for permission with may.",
+      "options": [
+        "May I to ask another question?",
+        "May I ask another question?",
+        "May I asking another question?"
+      ],
+      "answer": "May I ask another question?",
+      "accepted": [
+        "May I ask another question?"
+      ],
+      "why": "May I + V1 — формальный запрос разрешения.",
+      "distractorWhy": "To после may не нужен.",
+      "distractorRationales": {
+        "May I to ask another question?": "To после may не нужен.",
+        "May I asking another question?": "Asking не V1."
+      },
+      "skillTarget": "modalCore",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I3",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose a short affirmative answer to 'Can you ride a bicycle?'",
+      "options": [
+        "Yes, I can.",
+        "Yes, I do.",
+        "Yes, I am."
+      ],
+      "answer": "Yes, I can.",
+      "accepted": [
+        "Yes, I can."
+      ],
+      "why": "Краткий ответ повторяет can.",
+      "distractorWhy": "Do не соответствует modal.",
+      "distractorRationales": {
+        "Yes, I do.": "Do не соответствует modal.",
+        "Yes, I am.": "Am не соответствует вопросу."
+      },
+      "skillTarget": "modalCore",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I4",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct negative of have to with she.",
+      "options": [
+        "She doesn't has to work on Sunday.",
+        "She don't have to work on Sunday.",
+        "She doesn't have to work on Sunday."
+      ],
+      "answer": "She doesn't have to work on Sunday.",
+      "accepted": [
+        "She doesn't have to work on Sunday."
+      ],
+      "why": "Doesn't + V1 have.",
+      "distractorWhy": "Has после doesn't неверно.",
+      "distractorRationales": {
+        "She doesn't has to work on Sunday.": "Has после doesn't неверно.",
+        "She don't have to work on Sunday.": "She требует doesn't."
+      },
+      "skillTarget": "modalCore",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I5",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the sentence with a general past ability.",
+      "options": [
+        "At seven, I could to read simple stories.",
+        "At seven, I could read simple stories.",
+        "At seven, I could readed simple stories."
+      ],
+      "answer": "At seven, I could read simple stories.",
+      "accepted": [
+        "At seven, I could read simple stories."
+      ],
+      "why": "Could + V1 передаёт прошлый навык.",
+      "distractorWhy": "To не требуется.",
+      "distractorRationales": {
+        "At seven, I could to read simple stories.": "To не требуется.",
+        "At seven, I could readed simple stories.": "Readed не стандартная форма."
+      },
+      "skillTarget": "modalCore",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I6",
+      "group": "Самостоятельная практика",
+      "prompt": "The door was stuck, but you succeeded in opening it once yesterday. Choose the explicit success expression.",
+      "options": [
+        "I managed to open the door.",
+        "I managed open the door.",
+        "I can opened the door."
+      ],
+      "answer": "I managed to open the door.",
+      "accepted": [
+        "I managed to open the door."
+      ],
+      "why": "Managed to подчёркивает успешное действие.",
+      "distractorWhy": "После manage нужен to-infinitive.",
+      "distractorRationales": {
+        "I managed open the door.": "После manage нужен to-infinitive.",
+        "I can opened the door.": "Can не относится к прошлому успеху, opened не V1."
+      },
+      "skillTarget": "modalCore",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I7",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the sentence expressing no necessity with needn't.",
+      "options": [
+        "You needn't to wait for me.",
+        "You needn't waiting for me.",
+        "You needn't wait for me."
+      ],
+      "answer": "You needn't wait for me.",
+      "accepted": [
+        "You needn't wait for me."
+      ],
+      "why": "Needn't + V1.",
+      "distractorWhy": "To не требуется.",
+      "distractorRationales": {
+        "You needn't to wait for me.": "To не требуется.",
+        "You needn't waiting for me.": "Waiting не V1."
+      },
+      "skillTarget": "modalCore",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I8",
+      "group": "Самостоятельная практика",
+      "prompt": "Which sentence asks about an obligation in the past?",
+      "options": [
+        "Do you have to wear a uniform now?",
+        "Did you have to wear a uniform at school?",
+        "Will you have to wear a uniform tomorrow?"
+      ],
+      "answer": "Did you have to wear a uniform at school?",
+      "accepted": [
+        "Did you have to wear a uniform at school?"
+      ],
+      "why": "Did + have to спрашивает о прошлом.",
+      "distractorWhy": "Do относится к настоящему.",
+      "distractorRationales": {
+        "Do you have to wear a uniform now?": "Do относится к настоящему.",
+        "Will you have to wear a uniform tomorrow?": "Will относится к будущему."
+      },
+      "skillTarget": "modalCore",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I9",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose a future ability after completing a course.",
+      "options": [
+        "You'll be able to repair the device.",
+        "You'll can repair the device.",
+        "You'll be able repair the device."
+      ],
+      "answer": "You'll be able to repair the device.",
+      "accepted": [
+        "You'll be able to repair the device."
+      ],
+      "why": "Will be able to выражает будущую способность.",
+      "distractorWhy": "Will can неверно.",
+      "distractorRationales": {
+        "You'll can repair the device.": "Will can неверно.",
+        "You'll be able repair the device.": "Пропущено to."
+      },
+      "skillTarget": "modalCore",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E1",
+      "group": "Выходная проверка",
+      "prompt": "What does 'The tutor may be busy' express?",
+      "options": [
+        "A possibility, not a confirmed fact.",
+        "A compulsory action for the tutor.",
+        "A prohibition on being busy."
+      ],
+      "answer": "A possibility, not a confirmed fact.",
+      "accepted": [
+        "A possibility, not a confirmed fact."
+      ],
+      "why": "May выражает неопределённое предположение.",
+      "distractorWhy": "Обязанность не выражена.",
+      "distractorRationales": {
+        "A compulsory action for the tutor.": "Обязанность не выражена.",
+        "A prohibition on being busy.": "Запрета нет."
+      },
+      "skillTarget": "modalCore",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E2",
+      "group": "Выходная проверка",
+      "prompt": "Choose the grammatical negative recommendation.",
+      "options": [
+        "You shouldn't to leave your notes at home.",
+        "You shouldn't left your notes at home.",
+        "You shouldn't leave your notes at home."
+      ],
+      "answer": "You shouldn't leave your notes at home.",
+      "accepted": [
+        "You shouldn't leave your notes at home."
+      ],
+      "why": "Shouldn't + V1.",
+      "distractorWhy": "To лишнее.",
+      "distractorRationales": {
+        "You shouldn't to leave your notes at home.": "To лишнее.",
+        "You shouldn't left your notes at home.": "Left — V2/V3."
+      },
+      "skillTarget": "modalCore",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E3",
+      "group": "Выходная проверка",
+      "prompt": "Choose the strong negative conclusion about someone known to be abroad now.",
+      "options": [
+        "He can to be in this classroom now.",
+        "He can't be in this classroom now.",
+        "He can't is in this classroom now."
+      ],
+      "answer": "He can't be in this classroom now.",
+      "accepted": [
+        "He can't be in this classroom now."
+      ],
+      "why": "Can't be передаёт вывод о невозможности.",
+      "distractorWhy": "To после can лишнее.",
+      "distractorRationales": {
+        "He can to be in this classroom now.": "To после can лишнее.",
+        "He can't is in this classroom now.": "Is не V1."
+      },
+      "skillTarget": "modalCore",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E4",
+      "group": "Выходная проверка",
+      "prompt": "Choose the correct statement about may and might.",
+      "options": [
+        "Both can express an uncertain possibility.",
+        "May always means exactly fifty percent probability.",
+        "Might always refers to the past."
+      ],
+      "answer": "Both can express an uncertain possibility.",
+      "accepted": [
+        "Both can express an uncertain possibility."
+      ],
+      "why": "Оба выражают возможность.",
+      "distractorWhy": "Нет фиксированной вероятности.",
+      "distractorRationales": {
+        "May always means exactly fifty percent probability.": "Нет фиксированной вероятности.",
+        "Might always refers to the past.": "Might может относиться к будущему."
+      },
+      "skillTarget": "modalCore",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E5",
+      "group": "Выходная проверка",
+      "prompt": "Choose the matching pair of a strict requirement and optional action.",
+      "options": [
+        "You must to register, but you mustn't print the form if printing is optional.",
+        "You musts register, but you don't has to print the form.",
+        "You must register, but you don't have to print the form."
+      ],
+      "answer": "You must register, but you don't have to print the form.",
+      "accepted": [
+        "You must register, but you don't have to print the form."
+      ],
+      "why": "Must + V1 и don't have to выражают нужные значения.",
+      "distractorWhy": "To после must лишнее, запрет не равен необязательности.",
+      "distractorRationales": {
+        "You must to register, but you mustn't print the form if printing is optional.": "To после must лишнее, запрет не равен необязательности.",
+        "You musts register, but you don't has to print the form.": "Musts и don't has неверны."
+      },
+      "skillTarget": "modalCore",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "W1",
+      "group": "Самостоятельное применение",
+      "prompt": "Составь диалог нового студента и преподавателя из 8–10 реплик. Включи способность, разрешение, обязанность, запрет, отсутствие необходимости, совет, возможность и вежливую просьбу. Перенеси одну обязанность в прошлое.",
+      "open": true,
+      "rubric": [
+        "Различены запрет и отсутствие необходимости.",
+        "Модальные глаголы передают нужную функцию.",
+        "После modal стоит V1 без лишнего to/-s.",
+        "Have to согласовано с subject и временем.",
+        "Вопросы и отрицания грамматически корректны.",
+        "Предположение не представлено как факт."
+      ],
+      "skillTarget": "Самостоятельное применение modalCore",
+      "interactionType": "open-production",
+      "difficulty": "transfer",
+      "sourceBasis": "Speakbase-authored open production; self-review rubric only until real AI feedback is connected",
+      "contentVersion": "1.1-draft"
+    }
+  ],
+  "markdown": "# Speakbase — A2-07: Core modals: obligation, advice, permission, possibility\n\n**Curriculum ID:** `A2-07`  \n**Уровень:** A2  \n**Версия:** 1.1-draft\n**Статус:** drafted; selected source text checked; full source-page and learner acceptance pending\n**Предварительные темы:** A1-06, A1-15  \n**Связь со старым каталогом:** Полное ядро — №10 Modal verbs\n\n## 1. Результаты обучения\n\n- Различать must/have to/should/could/may/might/can't в базовых значениях\n- Выбирать целевую форму по значению, структуре предложения и контексту.\n- Объяснять, почему близкая грамматическая форма меняет смысл или регистр.\n- Находить и исправлять типичные ошибки русскоязычных студентов.\n\n## 2. Источники и статус сверки\n\n| Source | PDF navigation | Lesson-specific checks | Status |\n|---|---|---|---|\n| GR-02 U26-37 | PDF pages 64-87 (Unit 26-37) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-03 U15-20 | PDF pages 54-65 (Unit 15-20) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-05 A2 p33-40 | PDF pages 33-40 (A2 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n\nUnit/page locations are navigation aids only. They do not prove that the cited explanation, examples, restrictions and answer key have been checked for this lesson. Examples and explanations below are Speakbase-authored, not quotations from the textbook.\n\nПеред переводом этого урока в source-verified необходимо открыть целевые страницы конкретного издания, записать печатную и PDF-пагинацию, сверить ограничения и исключения. Для GR-03 со сканированными страницами обязательна визуальная проверка.\n\n**Evidence for this editorial pass:** GR-02 selected theory text directly checked: Units 26–33 and 37, PDF pp. 64, 66, 68, 70, 72, 74, 76, 78, 86 (printed pp. 52–66 and 74); GR-03 and GR-05, exercise pages and visual verification pending. The selected source text was consulted; not all pages, exercises, editions, scanned GR-03 pages or GR-05 descriptors were checked. Author-created explanations and practice are not copied source exercises.\n\n## 3. Место темы и границы\n\nРазличай обязанность, совет, разрешение и возможность. Особенно важно mustn’t (запрет) против don’t have to (нет необходимости).\n\nСтарый каталог содержит: №10 Modal verbs. Его статус — Полное ядро. Старые отметки завершения не переносятся автоматически на новый постоянный ID. Тема рассматривается в уровне A2 и не заменяет обязательные prerequisites.\n\n## 4. Полный конспект\n\n### 4.1. Основная идея и функция конструкции\n\nМодальные глаголы помогают сообщать не только о действии, но и об отношении к нему: могу, обязан, следует, разрешено, возможно. Can обозначает способность или разрешение, must/have to — необходимость, should — совет, may/might/could — возможность. В отрицаниях особенно важно различать запрет и отсутствие необходимости.\n\nВ русском языке «не должен» может означать разные вещи. You mustn't enter — входить запрещено. You don't have to enter — входить необязательно, но можно. You shouldn't enter — лучше не входить, это совет. Если прочитать эти фразы как одинаковые, можно неправильно понять инструкцию. Модальная конструкция не всегда сообщает, что действие действительно произошло: She might come — возможно, она придёт.\n\n### 4.2. Формирование и грамматическая модель\n\n| Значение | Конструкция | Пример |\n|---|---|---|\n| Способность | can + V1 | I can swim. |\n| Прошлый навык | could + V1 | I could swim at five. |\n| Необходимость | must / have to + V1 | I must study. |\n| Запрет | mustn't + V1 | You mustn't enter. |\n| Необязательно | don't have to / needn't + V1 | You needn't wait. |\n| Совет | should + V1 | You should rest. |\n| Возможность | may/might/could + V1 | It might rain. |\n| Разрешение | can/may + V1 | You can sit here. |\n\nCan, could, must, should, may, might не принимают -s с he/she/it. После них используется V1 без to: She can sing, не She cans sings. Отрицание строится с not: cannot/can't, couldn't, mustn't, shouldn't, may not, might not. В вопросе модальный глагол ставится перед подлежащим: Can she sing? Should I wait? Не добавляй do/does/did. Have to ведёт себя иначе: I have to, she has to, we had to. Do you have to work? Does she have to work? Did they have to work? После does/did нужна V1 have. Будущая необходимость выражается will have to. Краткие ответы: Can you swim? — Yes, I can / No, I can't. Do you have to go? — Yes, I do / No, I don't.\n\n### 4.3. Как выбрать подходящую форму\n\nСначала выясни функцию предложения. Если речь о навыке — can/could; о разрешении — can/may; об обязанности — must/have to; о совете — should; о вероятности — may/might/could. Если действие запрещено, выбирай mustn't или can't в соответствующем контексте. Если оно необязательно, don't have to или needn't. Для прошлой обязанности обычно используй had to.\n\nMust и have to близки по смыслу. Have to часто сообщает о внешних обстоятельствах, например о рабочем графике. Must часто подчёркивает требование говорящего или официальное правило. Это не жёсткое разделение: оба варианта могут быть естественны. Could в Could you open the window? выражает вежливую просьбу, а не прошлое время. May I…? звучит формальнее Can I…?. May и might часто взаимозаменяемы в предположениях; не назначай им фиксированные проценты вероятности.\n\n### 4.4. Сравнение с близкими конструкциями\n\n| Фраза | Перевод и смысл |\n|---|---|\n| You must show your ID. | Ты обязан показать удостоверение. |\n| You mustn't show this private file. | Нельзя показывать этот файл. |\n| You don't have to print it. | Печатать необязательно. |\n| You should check it. | Стоит проверить. |\n| You can use my pen. | Можно воспользоваться моей ручкой. |\n| You might need help. | Возможно, понадобится помощь. |\n| She had to leave. | Ей пришлось уйти. |\n\n### 4.5. Примеры с переводом и объяснением\n\n| English | Перевод | Почему это подходит |\n| --- | --- | --- |\n| My brother can repair a bicycle. | Мой брат умеет ремонтировать велосипед. | Способность сейчас. |\n| Could you repeat the question, please? | Не могли бы вы повторить вопрос? | Вежливая просьба. |\n| Students must bring their ID cards. | Студенты обязаны принести удостоверения. | Требование. |\n| You don't have to pay for this workshop. | За этот семинар платить необязательно. | Нет обязанности. |\n| You shouldn't skip breakfast. | Тебе не стоит пропускать завтрак. | Совет. |\n| The lecture might finish early. | Возможно, лекция закончится рано. | Предположение. |\n\n### 4.6. Исключения, ограничения и границы употребления\n\nCan выражает общую возможность: It can get cold here in winter. Для конкретного предположения о будущем часто употребляются may/might/could: It might get cold tonight. Can't также может означать сильный отрицательный вывод: He can't be here; he's abroad. Must может выражать сильный вывод: She must be tired. Подробно такие выводы рассматриваются на B1, включая modal + have + V3.\n\nДля общего прошлого навыка можно использовать could: I could read at six. Для одного реально выполненного сложного действия обычно естественнее managed to или was able to: I managed to open the stuck door. Для будущей способности используют will be able to, не will can. Needn't + V1 и don't need to + V1 выражают отсутствие необходимости; не смешивай их: needn't to go неверно. Ought to близко should, но содержит to. На этом уровне сначала освой основные формы, а оттенки had better, past deductions и perfect modals оставь для B1.\n\n### 4.7. Типичные ошибки русскоязычных студентов\n\n| Ошибка | Исправление | Объяснение |\n| --- | --- | --- |\n| She can speaks English. | She can speak English. | После can нет окончания -s. |\n| Do you can help me? | Can you help me? | Модальный вопрос без do. |\n| I must to leave. | I must leave. | После must нужна V1 без to. |\n| She doesn't has to work today. | She doesn't have to work today. | После doesn't используется have. |\n| You mustn't attend (если посещение необязательно). | You don't have to attend. | Запрет не равен отсутствию обязанности. |\n\n### 4.8. Произношение и восприятие на слух\n\nВ коротких фразах can часто безударно, а can't обычно выделяется. Слушай также контекст: I can SWIM и I CAN'T swim. Mustn't, shouldn't, couldn't имеют отрицание внутри сокращённой формы. Could в вежливой просьбе может произноситься мягко. Don't have to содержит отдельное отрицание do not. Это ориентиры для практики; сверка произношения по аудио пока не завершена.\n\nСначала прослушай или прочитай пример, затем произнеси его целиком. Обрати внимание на смысловое ударение и форму конструкции; не ориентируйся только на буквенный перевод.\n\n### 4.9. Академический английский и TOEFL-перенос\n\nВ Listening различай требование в объявлении, рекомендацию преподавателя и возможность. В Speaking формулируй совет и вежливую просьбу; в Writing Email уточняй, что обязательно: Do I have to submit a printed copy? В Reading отличай сильный вывод от предположения. Это авторская практика переноса грамматического навыка, а не официальный экзаменационный материал.\n\nЭто авторская практика переноса навыка. Она не является официальным заданием TOEFL и не выдаётся за официальный результат экзамена.\n\n### 4.10. Примеры для управляемого разбора\n\n- My brother can repair a bicycle. — Мой брат умеет ремонтировать велосипед. Способность сейчас.\n- Could you repeat the question, please? — Не могли бы вы повторить вопрос? Вежливая просьба.\n- Students must bring their ID cards. — Студенты обязаны принести удостоверения. Требование.\n\nДля каждого примера назови целевую конструкцию, объясни выбор и составь новое предложение в другом контексте. Затем перейди к заданиям: сначала диагностика, затем управляемая и самостоятельная практика, затем новые вопросы выходной проверки.\n\n### 4.11. Самопроверка\n\nПеред отправкой ответа проверь:\n1. Различены запрет и отсутствие необходимости.\n2. Модальные глаголы передают нужную функцию.\n3. После modal стоит V1 без лишнего to/-s.\n4. Have to согласовано с subject и временем.\n5. Вопросы и отрицания грамматически корректны.\n6. Предположение не представлено как факт.\n\n### 4.12. Краткая памятка\n\nModal + V1 без to и -s; вопрос с modal перед subject, отрицание с not. Must/have to — необходимость, mustn't — запрет, don't have to/needn't — необязательно, should — совет, can — способность или разрешение, may/might/could — возможность. Have to изменяется по лицу и времени.\n\nНе выбирай форму только по одному знакомому слову: проверь контекст, значение и структуру. При ошибке вернись к соответствующей части конспекта и составь собственный пример.\n\n## 5. Практика\n\nВ приложении практика разделена на входную диагностику, управляемые задания, самостоятельную практику и новую выходную проверку. Закрытые ответы получают rationale и разбор ошибки. Свободный текст сохраняется и оценивается по рубрике; до подключения и реальной проверки AI-движка система не выдаёт его за автоматическую AI-оценку.\n\n## 6. Интервальное повторение\n\nПовторяй не весь урок автоматически, а конкретную ошибку: выбор формы, согласование, word order, значение, регистр или пунктуацию. Новая попытка должна менять лексический контекст и формулировку, чтобы проверять перенос, а не запоминание одной строки.\n\n## 7. Технический статус\n\n- Постоянный ID: `A2-07`.\n- Прогресс хранится отдельно в course.grammarLessons[\"A2-07\"].\n- Содержание и ключи имеют статус draft; 24 авторских закрытых задания и объяснения вычитаны, выбранные тексты источников проверены. Полная постраничная и пользовательская приёмка остаются открытыми.\n- Предварительное выполнение порогов не равно окончательному mastered: нужны отсроченное повторение и learner review.",
+  "theoryEnd": "## 5."
+}

@@ -1,0 +1,740 @@
+{
+  "id": "A2-09",
+  "level": "A2",
+  "sequence": "A2-09",
+  "grammarFamily": "superlative",
+  "questionBankSource": "topic-specific-authored",
+  "sourceVerification": "draft; selected source text consulted; complete source-page and learner review pending",
+  "topicProfile": {
+    "label": "Superlatives",
+    "core": "Superlative (превосходная степень) выделяет объект с максимальной или минимальной степенью качества в некоторой группе. Tallest — самый высокий, most interesting — самый интересный, least expensive — наименее дорогой. Группу нужно назвать или сделать понятной из контекста.",
+    "form": "| Тип | Образование | Пример |\n|---|---|---|\n| Короткое прилагательное | the + adjective-est | the shortest |\n| Конечная e | the + adjective-st | the largest |\n| Короткое CVC | удвоение + est | the biggest |\n| Consonant + y | y → i + est | the easiest |\n| Длинное прилагательное | the most + adjective | the most useful |\n| Минимальная степень | the least + adjective | the least expensive |\n| Один из группы | one of the + superlative + plural noun | one of the best books |",
+    "selection": "Сначала найди группу сравнения: все комнаты в гостинице, все предметы на столе, все события за год. Затем выбери качество и нужную степень: максимальное или минимальное значение. Образуй superlative по длине и особенностям слова. Перед прилагательным обычно употребляется the или другой определитель, например my. Если выбираешь один объект из группы лучших, используй one of the + superlative + plural countable noun.",
+    "contrast": "| Comparative | Superlative |\n|---|---|\n| This bag is cheaper than that bag. | This is the cheapest bag in the shop. |\n| This task is easier than the last one. | This is the easiest task in the set. |\n| Her result is better than mine. | Her result is the best in the group. |\n| This course is less expensive than that one. | This is the least expensive course on the list. |\n| This book is more interesting than that one. | This is one of the most interesting books I've read. |",
+    "boundary": "The часто употребляется с superlative, но не добавляется перед possessive: my best friend, her youngest brother, не my the best friend. В наречиях и некоторых предикативных конструкциях артикль может отсутствовать: She runs fastest; I feel happiest at home. На A2 сначала освоим обычную форму the + superlative + noun и possessive + superlative + noun.",
+    "pronunciation": "Суффикс -est обычно образует безударное окончание: TALLest, BUSiest. В most expensive главное ударение часто на adjective, а most выделяется при контрасте. Не пропускай конечные согласные в best/worst. Слушай отличие better и best, more и most; оно меняет смысл. Это ориентир, словарное аудио ещё не проверено.",
+    "examples": [
+      [
+        "This is the smallest room in the building.",
+        "Это самая маленькая комната в здании.",
+        "Короткое adjective + est."
+      ],
+      [
+        "Monday was the busiest day of the week.",
+        "Понедельник был самым загруженным днём недели.",
+        "Busy → busiest, of для периода."
+      ],
+      [
+        "This is the most useful tool on the list.",
+        "Это самый полезный инструмент в списке.",
+        "Most + длинное adjective."
+      ],
+      [
+        "She's one of the best students in the class.",
+        "Она одна из лучших студенток в группе.",
+        "One of + plural students."
+      ],
+      [
+        "This is my oldest notebook.",
+        "Это моя самая старая тетрадь.",
+        "Possessive заменяет the."
+      ],
+      [
+        "What's the best book you've ever read?",
+        "Какая лучшая книга из тех, что ты читала?",
+        "Superlative и опыт до сейчас."
+      ]
+    ],
+    "traps": [
+      [
+        "This is the most cheapest option.",
+        "This is the cheapest option.",
+        "Не объединяй most и -est."
+      ],
+      [
+        "It is the easyest task.",
+        "It is the easiest task.",
+        "Y → i перед -est."
+      ],
+      [
+        "She is one of the best student.",
+        "She is one of the best students.",
+        "После one of требуется plural noun."
+      ],
+      [
+        "He is my the best friend.",
+        "He is my best friend.",
+        "My уже determiner, the лишний."
+      ],
+      [
+        "It is the tallest building of the city.",
+        "It is the tallest building in the city.",
+        "In обычно вводит место сравнения."
+      ]
+    ],
+    "toefl": "В Reading и Listening проверяй, в какой группе объект назван самым большим или лучшим. В Speaking выбирай вариант и объясняй критерий: This is the most practical option for students who work. В Writing не утверждай the best без указанной группы или аргумента. Сравни данные, а не только впечатления. Это авторская практика переноса, не официальный вопрос ETS."
+  },
+  "title": "Superlatives",
+  "description": "Выражать высшую степень, использовать the most/-est и one of the…",
+  "cardDescription": "Теория, guided practice, самостоятельные задания и выходная проверка по постоянному ID A2-09.",
+  "eyebrow": "Полный урок программы A2-09 · drafted",
+  "contentVersion": "1.1-draft",
+  "curriculumVersion": "1.0",
+  "prerequisites": [
+    "A2-08"
+  ],
+  "outcomes": [
+    "Выражать высшую степень, использовать the most/-est и one of the…",
+    "Выбирать целевую конструкцию по контексту и смыслу.",
+    "Исправлять типичные ошибки и переносить правило в новый пример."
+  ],
+  "sourceRefs": [
+    "GR-01 U91",
+    "GR-02 U108",
+    "GR-03 U72-73",
+    "GR-05 A2 p7-10"
+  ],
+  "sourceStatus": "selected source text consulted; full page verification pending",
+  "status": "drafted",
+  "legacyCoverage": "Полное ядро",
+  "toeflLinks": [
+    "Writing: Build a Sentence",
+    "Writing: Write an Email"
+  ],
+  "thresholds": {
+    "independent": 7,
+    "exit": 4,
+    "criticalIds": [
+      "E1",
+      "E2",
+      "E3"
+    ]
+  },
+  "groups": {
+    "independent": "Самостоятельная практика",
+    "exit": "Выходная проверка"
+  },
+  "items": [
+    {
+      "id": "D1",
+      "group": "Входная диагностика",
+      "prompt": "Choose the usual superlative of 'small'.",
+      "options": [
+        "the smaller",
+        "the smallest",
+        "the most smallest"
+      ],
+      "answer": "the smallest",
+      "accepted": [
+        "the smallest"
+      ],
+      "why": "Small + est — superlative.",
+      "distractorWhy": "Smaller — comparative.",
+      "distractorRationales": {
+        "the smaller": "Smaller — comparative.",
+        "the most smallest": "Most и -est дублируют форму."
+      },
+      "skillTarget": "superlative",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D2",
+      "group": "Входная диагностика",
+      "prompt": "Choose the correct superlative spelling of 'hot'.",
+      "options": [
+        "the hottest",
+        "the hotest",
+        "the hotter"
+      ],
+      "answer": "the hottest",
+      "accepted": [
+        "the hottest"
+      ],
+      "why": "Hot удваивает t перед -est.",
+      "distractorWhy": "Hotest пропускает удвоение.",
+      "distractorRationales": {
+        "the hotest": "Hotest пропускает удвоение.",
+        "the hotter": "Hotter — comparative."
+      },
+      "skillTarget": "superlative",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D3",
+      "group": "Входная диагностика",
+      "prompt": "Choose the superlative of 'busy'.",
+      "options": [
+        "the busyest",
+        "the busier",
+        "the busiest"
+      ],
+      "answer": "the busiest",
+      "accepted": [
+        "the busiest"
+      ],
+      "why": "Consonant + y → iest.",
+      "distractorWhy": "Busyest неверно написано.",
+      "distractorRationales": {
+        "the busyest": "Busyest неверно написано.",
+        "the busier": "Busier — comparative."
+      },
+      "skillTarget": "superlative",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D4",
+      "group": "Входная диагностика",
+      "prompt": "Choose the correct superlative of 'nice'.",
+      "options": [
+        "the niceest",
+        "the nicest",
+        "the nicer"
+      ],
+      "answer": "the nicest",
+      "accepted": [
+        "the nicest"
+      ],
+      "why": "После конечной e добавляем st.",
+      "distractorWhy": "Лишняя e.",
+      "distractorRationales": {
+        "the niceest": "Лишняя e.",
+        "the nicer": "Nicer — comparative."
+      },
+      "skillTarget": "superlative",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G1",
+      "group": "Управляемая практика",
+      "prompt": "Choose the superlative of 'interesting'.",
+      "options": [
+        "the most interesting",
+        "the interestinger",
+        "the most interestingest"
+      ],
+      "answer": "the most interesting",
+      "accepted": [
+        "the most interesting"
+      ],
+      "why": "Длинное adjective: most + ordinary form.",
+      "distractorWhy": "Interestinger не стандартная форма.",
+      "distractorRationales": {
+        "the interestinger": "Interestinger не стандартная форма.",
+        "the most interestingest": "Most + -est дублируют степень."
+      },
+      "skillTarget": "superlative",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G2",
+      "group": "Управляемая практика",
+      "prompt": "Choose the irregular superlative of 'good'.",
+      "options": [
+        "the better",
+        "the goodest",
+        "the best"
+      ],
+      "answer": "the best",
+      "accepted": [
+        "the best"
+      ],
+      "why": "Good → best.",
+      "distractorWhy": "Better — comparative.",
+      "distractorRationales": {
+        "the better": "Better — comparative.",
+        "the goodest": "Goodest не стандартная форма."
+      },
+      "skillTarget": "superlative",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G3",
+      "group": "Управляемая практика",
+      "prompt": "Choose the irregular superlative of 'bad'.",
+      "options": [
+        "the worse",
+        "the worst",
+        "the baddest"
+      ],
+      "answer": "the worst",
+      "accepted": [
+        "the worst"
+      ],
+      "why": "Bad → worst в обычной оценке качества.",
+      "distractorWhy": "Worse — comparative.",
+      "distractorRationales": {
+        "the worse": "Worse — comparative.",
+        "the baddest": "Baddest не стандартная форма в данном значении."
+      },
+      "skillTarget": "superlative",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G4",
+      "group": "Управляемая практика",
+      "prompt": "Choose the phrase meaning the lowest price among several options.",
+      "options": [
+        "the least expensive option",
+        "the more expensive option",
+        "the most expensive option"
+      ],
+      "answer": "the least expensive option",
+      "accepted": [
+        "the least expensive option"
+      ],
+      "why": "Least expensive означает наименьшую цену.",
+      "distractorWhy": "More expensive выражает сравнительную степень в другом направлении.",
+      "distractorRationales": {
+        "the more expensive option": "More expensive выражает сравнительную степень в другом направлении.",
+        "the most expensive option": "Most expensive означает наибольшую цену."
+      },
+      "skillTarget": "superlative",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G5",
+      "group": "Управляемая практика",
+      "prompt": "Choose the correct expression for a place of comparison.",
+      "options": [
+        "the tallest building than the city",
+        "the tallest building of the city (standard location pattern)",
+        "the tallest building in the city"
+      ],
+      "answer": "the tallest building in the city",
+      "accepted": [
+        "the tallest building in the city"
+      ],
+      "why": "In вводит место сравнения.",
+      "distractorWhy": "Than не употребляется после superlative в этой модели.",
+      "distractorRationales": {
+        "the tallest building than the city": "Than не употребляется после superlative в этой модели.",
+        "the tallest building of the city (standard location pattern)": "Для места здесь обычно in."
+      },
+      "skillTarget": "superlative",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G6",
+      "group": "Управляемая практика",
+      "prompt": "Choose the correct expression for a day within a time period.",
+      "options": [
+        "the coldest day than the year",
+        "the coldest day of the year",
+        "the colder day of the year (meaning the coldest)"
+      ],
+      "answer": "the coldest day of the year",
+      "accepted": [
+        "the coldest day of the year"
+      ],
+      "why": "Of the year обозначает период.",
+      "distractorWhy": "Than не вводит период здесь.",
+      "distractorRationales": {
+        "the coldest day than the year": "Than не вводит период здесь.",
+        "the colder day of the year (meaning the coldest)": "Colder — comparative."
+      },
+      "skillTarget": "superlative",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I1",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct one-of construction with books.",
+      "options": [
+        "one of the most useful book",
+        "one of most useful book",
+        "one of the most useful books"
+      ],
+      "answer": "one of the most useful books",
+      "accepted": [
+        "one of the most useful books"
+      ],
+      "why": "One of the + superlative + plural noun.",
+      "distractorWhy": "Book должно быть plural.",
+      "distractorRationales": {
+        "one of the most useful book": "Book должно быть plural.",
+        "one of most useful book": "Пропущено the и неверное число."
+      },
+      "skillTarget": "superlative",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I2",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct agreement when 'one' is the subject.",
+      "options": [
+        "One of the best applications are free.",
+        "One of the best applications is free.",
+        "One of the best application is free."
+      ],
+      "answer": "One of the best applications is free.",
+      "accepted": [
+        "One of the best applications is free."
+      ],
+      "why": "One — singular, applications — plural внутри of-phrase.",
+      "distractorWhy": "Are не согласуется с one.",
+      "distractorRationales": {
+        "One of the best applications are free.": "Are не согласуется с one.",
+        "One of the best application is free.": "После one of нужно plural applications."
+      },
+      "skillTarget": "superlative",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I3",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the possessive superlative phrase.",
+      "options": [
+        "my youngest brother",
+        "my the youngest brother",
+        "the my youngest brother"
+      ],
+      "answer": "my youngest brother",
+      "accepted": [
+        "my youngest brother"
+      ],
+      "why": "My заменяет the.",
+      "distractorWhy": "Два determiners дублируются.",
+      "distractorRationales": {
+        "my the youngest brother": "Два determiners дублируются.",
+        "the my youngest brother": "The my не стандартная структура."
+      },
+      "skillTarget": "superlative",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I4",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the appropriate superlative for a building's age.",
+      "options": [
+        "the eldest building in the village",
+        "the older building than the village",
+        "the oldest building in the village"
+      ],
+      "answer": "the oldest building in the village",
+      "accepted": [
+        "the oldest building in the village"
+      ],
+      "why": "Oldest используется для возраста предметов.",
+      "distractorWhy": "Eldest обычно о членах семьи.",
+      "distractorRationales": {
+        "the eldest building in the village": "Eldest обычно о членах семьи.",
+        "the older building than the village": "Older — comparative, village не сопоставимый объект."
+      },
+      "skillTarget": "superlative",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I5",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the sentence using a superlative to describe lifetime experience.",
+      "options": [
+        "This is the better meal I've ever had as the single best.",
+        "This is the best meal I've ever had.",
+        "This is the best meal I've ever have."
+      ],
+      "answer": "This is the best meal I've ever had.",
+      "accepted": [
+        "This is the best meal I've ever had."
+      ],
+      "why": "Best + present perfect выражает высшую оценку опыта.",
+      "distractorWhy": "Better не выражает максимальную степень.",
+      "distractorRationales": {
+        "This is the better meal I've ever had as the single best.": "Better не выражает максимальную степень.",
+        "This is the best meal I've ever have.": "Have после I've нужно в V3 had."
+      },
+      "skillTarget": "superlative",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I6",
+      "group": "Самостоятельная практика",
+      "prompt": "A costs 20, B costs 30 and C costs 40. Which sentence matches the prices?",
+      "options": [
+        "A is the cheapest of the three.",
+        "A is the most expensive of the three.",
+        "C is the cheapest of the three."
+      ],
+      "answer": "A is the cheapest of the three.",
+      "accepted": [
+        "A is the cheapest of the three."
+      ],
+      "why": "A имеет самую низкую цену.",
+      "distractorWhy": "A не самый дорогой.",
+      "distractorRationales": {
+        "A is the most expensive of the three.": "A не самый дорогой.",
+        "C is the cheapest of the three.": "C имеет максимальную цену."
+      },
+      "skillTarget": "superlative",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I7",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct phrase specifying an explicit set of three runners.",
+      "options": [
+        "the fastest than the three runners",
+        "the more fastest of the three runners",
+        "the fastest of the three runners"
+      ],
+      "answer": "the fastest of the three runners",
+      "accepted": [
+        "the fastest of the three runners"
+      ],
+      "why": "Of вводит конкретный набор.",
+      "distractorWhy": "Than не подходит после fastest.",
+      "distractorRationales": {
+        "the fastest than the three runners": "Than не подходит после fastest.",
+        "the more fastest of the three runners": "More fastest — двойная форма."
+      },
+      "skillTarget": "superlative",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I8",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the superlative statement, not the comparative.",
+      "options": [
+        "This seat is more comfortable than that one.",
+        "This is the most comfortable seat in the room.",
+        "This seat is as comfortable as that one."
+      ],
+      "answer": "This is the most comfortable seat in the room.",
+      "accepted": [
+        "This is the most comfortable seat in the room."
+      ],
+      "why": "Most comfortable выделяет внутри группы.",
+      "distractorWhy": "More comfortable сравнивает два объекта.",
+      "distractorRationales": {
+        "This seat is more comfortable than that one.": "More comfortable сравнивает два объекта.",
+        "This seat is as comfortable as that one.": "As…as показывает равенство."
+      },
+      "skillTarget": "superlative",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I9",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct comparative for two specified screens.",
+      "options": [
+        "Screen A is brighter than screen B.",
+        "Screen A is the brightest than screen B.",
+        "Screen A is more brighter than screen B."
+      ],
+      "answer": "Screen A is brighter than screen B.",
+      "accepted": [
+        "Screen A is brighter than screen B."
+      ],
+      "why": "Brighter than сравнивает A и B.",
+      "distractorWhy": "Brightest не сочетается с than в этой модели.",
+      "distractorRationales": {
+        "Screen A is the brightest than screen B.": "Brightest не сочетается с than в этой модели.",
+        "Screen A is more brighter than screen B.": "More brighter — двойное образование."
+      },
+      "skillTarget": "superlative",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E1",
+      "group": "Выходная проверка",
+      "prompt": "Choose the grammatical quantity superlative for countable mistakes.",
+      "options": [
+        "This report contains the fewest mistakes.",
+        "This report contains the few mistakes than the others.",
+        "This report contains the fewest information."
+      ],
+      "answer": "This report contains the fewest mistakes.",
+      "accepted": [
+        "This report contains the fewest mistakes."
+      ],
+      "why": "Fewest + plural countable noun.",
+      "distractorWhy": "Few не comparative.",
+      "distractorRationales": {
+        "This report contains the few mistakes than the others.": "Few не comparative.",
+        "This report contains the fewest information.": "Information неисчисляемое."
+      },
+      "skillTarget": "superlative",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E2",
+      "group": "Выходная проверка",
+      "prompt": "Choose the correct superlative with an uncountable quantity.",
+      "options": [
+        "Method A uses the fewest water.",
+        "Method A uses the leastest water.",
+        "Method A uses the least water."
+      ],
+      "answer": "Method A uses the least water.",
+      "accepted": [
+        "Method A uses the least water."
+      ],
+      "why": "Least сочетается с количеством неисчисляемого water.",
+      "distractorWhy": "Fewest требует plural countable.",
+      "distractorRationales": {
+        "Method A uses the fewest water.": "Fewest требует plural countable.",
+        "Method A uses the leastest water.": "Leastest не стандартная форма."
+      },
+      "skillTarget": "superlative",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E3",
+      "group": "Выходная проверка",
+      "prompt": "Which phrase means a majority rather than a superlative adjective?",
+      "options": [
+        "the most careful students",
+        "most students",
+        "the youngest students"
+      ],
+      "answer": "most students",
+      "accepted": [
+        "most students"
+      ],
+      "why": "Most students означает большинство студентов.",
+      "distractorWhy": "The most careful выражает высшую степень careful.",
+      "distractorRationales": {
+        "the most careful students": "The most careful выражает высшую степень careful.",
+        "the youngest students": "Youngest — superlative."
+      },
+      "skillTarget": "superlative",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E4",
+      "group": "Выходная проверка",
+      "prompt": "Choose the correct standard sentence with the group of comparison.",
+      "options": [
+        "Mia is the youngest student in our class.",
+        "Mia is youngest student than our class.",
+        "Mia is the most youngest student in our class."
+      ],
+      "answer": "Mia is the youngest student in our class.",
+      "accepted": [
+        "Mia is the youngest student in our class."
+      ],
+      "why": "The youngest + noun + in group.",
+      "distractorWhy": "Нет правильного determiner и используется than.",
+      "distractorRationales": {
+        "Mia is youngest student than our class.": "Нет правильного determiner и используется than.",
+        "Mia is the most youngest student in our class.": "Most youngest — двойная форма."
+      },
+      "skillTarget": "superlative",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E5",
+      "group": "Выходная проверка",
+      "prompt": "Choose the accurate interpretation of 'one of the best films'.",
+      "options": [
+        "It necessarily is the only film that can be considered good.",
+        "The noun after 'one of' must always be singular here.",
+        "It belongs to a group of highly rated films; it need not be the only best film."
+      ],
+      "answer": "It belongs to a group of highly rated films; it need not be the only best film.",
+      "accepted": [
+        "It belongs to a group of highly rated films; it need not be the only best film."
+      ],
+      "why": "One of обозначает элемент группы.",
+      "distractorWhy": "Исключительность не утверждается.",
+      "distractorRationales": {
+        "It necessarily is the only film that can be considered good.": "Исключительность не утверждается.",
+        "The noun after 'one of' must always be singular here.": "Films — plural noun."
+      },
+      "skillTarget": "superlative",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "W1",
+      "group": "Самостоятельное применение",
+      "prompt": "Опиши три вымышленных курса или предмета в 8 предложениях. Используй -est, most, least, best/worst, one of the + plural noun, possessive и in/of. Добавь одно comparative для двух объектов и поясни разницу.",
+      "open": true,
+      "rubric": [
+        "Superlative образована без двойной маркировки.",
+        "Неправильные формы выбраны верно.",
+        "Группа сравнения понятна.",
+        "The и possessive не дублируются.",
+        "One of the сопровождается plural noun.",
+        "In/of и comparative/superlative различены."
+      ],
+      "skillTarget": "Самостоятельное применение superlative",
+      "interactionType": "open-production",
+      "difficulty": "transfer",
+      "sourceBasis": "Speakbase-authored open production; self-review rubric only until real AI feedback is connected",
+      "contentVersion": "1.1-draft"
+    }
+  ],
+  "markdown": "# Speakbase — A2-09: Superlatives\n\n**Curriculum ID:** `A2-09`  \n**Уровень:** A2  \n**Версия:** 1.1-draft\n**Статус:** drafted; selected source text checked; full source-page and learner acceptance pending\n**Предварительные темы:** A2-08  \n**Связь со старым каталогом:** Полное ядро — №18 Superlatives\n\n## 1. Результаты обучения\n\n- Выражать высшую степень, использовать the most/-est и one of the…\n- Выбирать целевую форму по значению, структуре предложения и контексту.\n- Объяснять, почему близкая грамматическая форма меняет смысл или регистр.\n- Находить и исправлять типичные ошибки русскоязычных студентов.\n\n## 2. Источники и статус сверки\n\n| Source | PDF navigation | Lesson-specific checks | Status |\n|---|---|---|---|\n| GR-01 U91 | PDF pages 193-194 (Unit 91) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-02 U108 | PDF pages 228-229 (Unit 108) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-03 U72-73 | PDF pages 168-171 (Unit 72-73) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-05 A2 p7-10 | PDF pages 7-10 (A2 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n\nUnit/page locations are navigation aids only. They do not prove that the cited explanation, examples, restrictions and answer key have been checked for this lesson. Examples and explanations below are Speakbase-authored, not quotations from the textbook.\n\nПеред переводом этого урока в source-verified необходимо открыть целевые страницы конкретного издания, записать печатную и PDF-пагинацию, сверить ограничения и исключения. Для GR-03 со сканированными страницами обязательна визуальная проверка.\n\n**Evidence for this editorial pass:** GR-02 Unit 108, directly checked theory text PDF p. 228 / printed p. 216; comparative spelling support Unit 105 PDF p. 222 / printed p. 210: -est/most, irregular forms, the/possessives, oldest/eldest, in/of and perfect after superlative. GR-01, GR-03, GR-05 and visual/exercise review pending. The selected source text was consulted; not all pages, exercises, editions, scanned GR-03 pages or GR-05 descriptors were checked. Author-created explanations and practice are not copied source exercises.\n\n## 3. Место темы и границы\n\nSuperlative выделяет объект внутри группы; отработай the + -est/most и one of the + superlative + plural noun.\n\nСтарый каталог содержит: №18 Superlatives. Его статус — Полное ядро. Старые отметки завершения не переносятся автоматически на новый постоянный ID. Тема рассматривается в уровне A2 и не заменяет обязательные prerequisites.\n\n## 4. Полный конспект\n\n### 4.1. Основная идея и функция конструкции\n\nSuperlative (превосходная степень) выделяет объект с максимальной или минимальной степенью качества в некоторой группе. Tallest — самый высокий, most interesting — самый интересный, least expensive — наименее дорогой. Группу нужно назвать или сделать понятной из контекста.\n\nA is taller than B сравнивает два объекта. A is the tallest student in the class выделяет одного студента внутри всего класса. Сравнительная степень отвечает на вопрос «какой из двух выше?», превосходная — «какой самый высокий в указанной группе?». В повседневной речи superlative возможна и для двух вариантов, хотя comparative часто предпочтительна при явном сравнении двух. Не делай правило о количестве объектов абсолютным.\n\n### 4.2. Формирование и грамматическая модель\n\n| Тип | Образование | Пример |\n|---|---|---|\n| Короткое прилагательное | the + adjective-est | the shortest |\n| Конечная e | the + adjective-st | the largest |\n| Короткое CVC | удвоение + est | the biggest |\n| Consonant + y | y → i + est | the easiest |\n| Длинное прилагательное | the most + adjective | the most useful |\n| Минимальная степень | the least + adjective | the least expensive |\n| Один из группы | one of the + superlative + plural noun | one of the best books |\n\nПравила написания близки к comparative: hot → hottest, thin → thinnest, nice → nicest, busy → busiest. У длинных слов most + обычная форма: the most comfortable, the most interesting. Не добавляй -est после most: most cheapest неверно. Неправильные формы: good/well → best, bad/badly → worst, far → farthest/furthest. Many/much → most, little (количество) → least, few → fewest. Some two-syllable adjectives allow alternatives: quietest/most quiet, simplest/most simple. Запоминай распространённую форму и учитывай контекст.\n\n### 4.3. Как выбрать подходящую форму\n\nСначала найди группу сравнения: все комнаты в гостинице, все предметы на столе, все события за год. Затем выбери качество и нужную степень: максимальное или минимальное значение. Образуй superlative по длине и особенностям слова. Перед прилагательным обычно употребляется the или другой определитель, например my. Если выбираешь один объект из группы лучших, используй one of the + superlative + plural countable noun.\n\nПосле superlative обычно ставим in для места и коллектива: the tallest building in town, the youngest student in the class. Of часто обозначает период времени или явно названный набор: the hottest day of the year, the fastest of the three runners. Of the world в выражении the tallest building in the world обычно не используется. В конструкции one of the… после of стоит множественное число существительного, а само one согласуется в singular: One of the most useful apps is free.\n\n### 4.4. Сравнение с близкими конструкциями\n\n| Comparative | Superlative |\n|---|---|\n| This bag is cheaper than that bag. | This is the cheapest bag in the shop. |\n| This task is easier than the last one. | This is the easiest task in the set. |\n| Her result is better than mine. | Her result is the best in the group. |\n| This course is less expensive than that one. | This is the least expensive course on the list. |\n| This book is more interesting than that one. | This is one of the most interesting books I've read. |\n\n### 4.5. Примеры с переводом и объяснением\n\n| English | Перевод | Почему это подходит |\n| --- | --- | --- |\n| This is the smallest room in the building. | Это самая маленькая комната в здании. | Короткое adjective + est. |\n| Monday was the busiest day of the week. | Понедельник был самым загруженным днём недели. | Busy → busiest, of для периода. |\n| This is the most useful tool on the list. | Это самый полезный инструмент в списке. | Most + длинное adjective. |\n| She's one of the best students in the class. | Она одна из лучших студенток в группе. | One of + plural students. |\n| This is my oldest notebook. | Это моя самая старая тетрадь. | Possessive заменяет the. |\n| What's the best book you've ever read? | Какая лучшая книга из тех, что ты читала? | Superlative и опыт до сейчас. |\n\n### 4.6. Исключения, ограничения и границы употребления\n\nThe часто употребляется с superlative, но не добавляется перед possessive: my best friend, her youngest brother, не my the best friend. В наречиях и некоторых предикативных конструкциях артикль может отсутствовать: She runs fastest; I feel happiest at home. На A2 сначала освоим обычную форму the + superlative + noun и possessive + superlative + noun.\n\nOldest — стандартная форма для возраста предметов и людей; eldest употребляется главным образом для членов семьи: my eldest sister. После superlative часто используется Present Perfect для опыта до настоящего: This is the best film I've ever seen. Если период опыта закончен, возможен Past Simple: It was the best film I saw at last year's festival. Most без the также может обозначать большинство или очень в формальном регистре: most students — большинство студентов. Не путай количественное most с the most interesting. One of the best students означает один из лучших, а не обязательно единственный лучший.\n\n### 4.7. Типичные ошибки русскоязычных студентов\n\n| Ошибка | Исправление | Объяснение |\n| --- | --- | --- |\n| This is the most cheapest option. | This is the cheapest option. | Не объединяй most и -est. |\n| It is the easyest task. | It is the easiest task. | Y → i перед -est. |\n| She is one of the best student. | She is one of the best students. | После one of требуется plural noun. |\n| He is my the best friend. | He is my best friend. | My уже determiner, the лишний. |\n| It is the tallest building of the city. | It is the tallest building in the city. | In обычно вводит место сравнения. |\n\n### 4.8. Произношение и восприятие на слух\n\nСуффикс -est обычно образует безударное окончание: TALLest, BUSiest. В most expensive главное ударение часто на adjective, а most выделяется при контрасте. Не пропускай конечные согласные в best/worst. Слушай отличие better и best, more и most; оно меняет смысл. Это ориентир, словарное аудио ещё не проверено.\n\nСначала прослушай или прочитай пример, затем произнеси его целиком. Обрати внимание на смысловое ударение и форму конструкции; не ориентируйся только на буквенный перевод.\n\n### 4.9. Академический английский и TOEFL-перенос\n\nВ Reading и Listening проверяй, в какой группе объект назван самым большим или лучшим. В Speaking выбирай вариант и объясняй критерий: This is the most practical option for students who work. В Writing не утверждай the best без указанной группы или аргумента. Сравни данные, а не только впечатления. Это авторская практика переноса, не официальный вопрос ETS.\n\nЭто авторская практика переноса навыка. Она не является официальным заданием TOEFL и не выдаётся за официальный результат экзамена.\n\n### 4.10. Примеры для управляемого разбора\n\n- This is the smallest room in the building. — Это самая маленькая комната в здании. Короткое adjective + est.\n- Monday was the busiest day of the week. — Понедельник был самым загруженным днём недели. Busy → busiest, of для периода.\n- This is the most useful tool on the list. — Это самый полезный инструмент в списке. Most + длинное adjective.\n\nДля каждого примера назови целевую конструкцию, объясни выбор и составь новое предложение в другом контексте. Затем перейди к заданиям: сначала диагностика, затем управляемая и самостоятельная практика, затем новые вопросы выходной проверки.\n\n### 4.11. Самопроверка\n\nПеред отправкой ответа проверь:\n1. Superlative образована без двойной маркировки.\n2. Неправильные формы выбраны верно.\n3. Группа сравнения понятна.\n4. The и possessive не дублируются.\n5. One of the сопровождается plural noun.\n6. In/of и comparative/superlative различены.\n\n### 4.12. Краткая памятка\n\nSuperlative: the + -est для коротких, the most + adjective для длинных; good → best, bad → worst. Least — минимальная степень. In обычно вводит место/коллектив, of — период или набор. One of the + superlative + plural noun. С my/your и другими possessives the не ставится.\n\nНе выбирай форму только по одному знакомому слову: проверь контекст, значение и структуру. При ошибке вернись к соответствующей части конспекта и составь собственный пример.\n\n## 5. Практика\n\nВ приложении практика разделена на входную диагностику, управляемые задания, самостоятельную практику и новую выходную проверку. Закрытые ответы получают rationale и разбор ошибки. Свободный текст сохраняется и оценивается по рубрике; до подключения и реальной проверки AI-движка система не выдаёт его за автоматическую AI-оценку.\n\n## 6. Интервальное повторение\n\nПовторяй не весь урок автоматически, а конкретную ошибку: выбор формы, согласование, word order, значение, регистр или пунктуацию. Новая попытка должна менять лексический контекст и формулировку, чтобы проверять перенос, а не запоминание одной строки.\n\n## 7. Технический статус\n\n- Постоянный ID: `A2-09`.\n- Прогресс хранится отдельно в course.grammarLessons[\"A2-09\"].\n- Содержание и ключи имеют статус draft; 24 авторских закрытых задания и объяснения вычитаны, выбранные тексты источников проверены. Полная постраничная и пользовательская приёмка остаются открытыми.\n- Предварительное выполнение порогов не равно окончательному mastered: нужны отсроченное повторение и learner review.",
+  "theoryEnd": "## 5."
+}
