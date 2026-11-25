@@ -1815,6 +1815,9 @@ function buildAll() {
       }
     }
   }
+  // Reviewed lesson snapshots are the canonical editorial overrides; never regenerate them from draft templates.
+  const reviewedDir=path.join(root,'materials','grammar-reviewed');
+  if(fs.existsSync(reviewedDir)){for(const name of fs.readdirSync(reviewedDir).filter(n=>n.endsWith('.json'))){const reviewed=JSON.parse(fs.readFileSync(path.join(reviewedDir,name),'utf8'));const idx=generated.findIndex(l=>l.id===reviewed.id);if(idx<0||name!==reviewed.id+'.json')throw new Error('Invalid reviewed lesson '+name);generated[idx]=reviewed;write(path.join('materials','grammar-lessons',reviewed.id+'.md'),reviewed.markdown);}}
   const payload='window.grammarBulkLessons = '+JSON.stringify(generated)+';\nwindow.grammarBulkCurriculumIds = '+JSON.stringify(topics.map(t=>t.id))+';\n';
   write('grammar-curriculum-bulk-data.js',payload);
   const report={

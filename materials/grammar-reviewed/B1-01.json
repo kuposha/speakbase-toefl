@@ -1,0 +1,725 @@
+{
+  "id": "B1-01",
+  "level": "B1",
+  "sequence": "B1-01",
+  "grammarFamily": "B1-01",
+  "questionBankSource": "topic-specific-authored",
+  "sourceVerification": "draft; GR-02 theory text checked, GR-03/GR-05 and visual/exercise review pending",
+  "topicProfile": {
+    "label": "Present Perfect Continuous — duration and ongoing activity",
+    "skillTarget": "present-perfect-continuous-duration",
+    "core": "Процесс начался в прошлом и связан с настоящим: продолжается сейчас, повторялся в течение периода или недавно закончился, оставив следы.",
+    "form": "Subject + have/has been + V-ing; negative: have/has not been + V-ing; direct question: Have/Has + subject + been + V-ing?",
+    "selection": "Выбирай по смыслу: длительность или недавняя активность — Continuous; состояние или завершённое количество — Simple. For вводит период, since — начало.",
+    "contrast": "I have been studying for three hours (focus on process/duration). I have written three pages (focus on completed result/quantity).",
+    "boundary": "Stative verbs обычно требуют Simple; live/work допускают обе формы, а have зависит от значения. Continuous не гарантирует завершения процесса.",
+    "pronunciation": "Have/has been часто редуцируется в речи; слушай последовательность auxiliary + been + -ing. For and since помогают распознать длительность, но смысл важнее marker.",
+    "examples": [
+      [
+        "I have been learning Italian since September.",
+        "Я учу итальянский с сентября.",
+        "Продолжающийся процесс."
+      ],
+      [
+        "How long have you been waiting?",
+        "Как долго ты уже ждёшь?",
+        "Вопрос о длительности."
+      ],
+      [
+        "The floor is dusty because we have been repairing the shelves.",
+        "Пол пыльный, потому что мы ремонтировали полки.",
+        "Недавний процесс объясняет состояние сейчас."
+      ],
+      [
+        "She hasn't been sleeping well recently.",
+        "В последнее время она плохо спит.",
+        "Отрицание недавней активности."
+      ]
+    ],
+    "traps": [
+      [
+        "She has been study all morning.",
+        "She has been studying all morning.",
+        "Present Perfect Continuous requires have/has been + V-ing.",
+        "Study is the base form and cannot follow been in this structure."
+      ],
+      [
+        "I have been knowing him for years.",
+        "I have known him for years.",
+        "Know is normally stative and uses Present Perfect Simple.",
+        "Have been knowing is not the standard form for a continuing state of knowledge."
+      ],
+      [
+        "They have worked here for two hours and are still working (focus on ongoing process).",
+        "They have been working here for two hours.",
+        "Continuous emphasizes the ongoing activity and duration.",
+        "Present Perfect Simple is possible with some verbs, but the target meaning here foregrounds the process."
+      ]
+    ],
+    "toefl": "This aspect is useful for describing ongoing preparation, trends and processes in Speaking and Writing; keep it distinct from quantity-focused Present Perfect Simple."
+  },
+  "title": "Present Perfect Continuous",
+  "description": "Выражать длительность и недавнюю активность; сравнивать с Present Perfect Simple",
+  "cardDescription": "Теория, guided practice, самостоятельные задания и выходная проверка по постоянному ID B1-01.",
+  "eyebrow": "Полный урок программы B1-01 · drafted",
+  "contentVersion": "1.1-draft",
+  "curriculumVersion": "1.0",
+  "prerequisites": [
+    "A2-05",
+    "A2-06"
+  ],
+  "outcomes": [
+    "Выражать длительность и недавнюю активность; сравнивать с Present Perfect Simple",
+    "Выбирать целевую конструкцию по контексту и смыслу.",
+    "Исправлять типичные ошибки и переносить правило в новый пример."
+  ],
+  "sourceRefs": [
+    "GR-02 U9-12",
+    "GR-03 U6",
+    "GR-05 B1 p65-67"
+  ],
+  "sourceStatus": "GR-02 theory text checked; other source page verification pending",
+  "status": "drafted",
+  "legacyCoverage": "Полное ядро",
+  "toeflLinks": [
+    "Writing: Build a Sentence",
+    "Listening: tense/aspect, modality, weak forms and discourse cues",
+    "Writing: Academic Discussion"
+  ],
+  "thresholds": {
+    "independent": 7,
+    "exit": 4,
+    "criticalIds": [
+      "E1",
+      "E2",
+      "E3"
+    ]
+  },
+  "groups": {
+    "independent": "Самостоятельная практика",
+    "exit": "Выходная проверка"
+  },
+  "items": [
+    {
+      "id": "D1",
+      "group": "Входная диагностика",
+      "prompt": "I started revising at eight and I am still revising. I ___ for two hours.",
+      "options": [
+        "am revising",
+        "have been revising",
+        "revised"
+      ],
+      "answer": "have been revising",
+      "accepted": [
+        "have been revising"
+      ],
+      "why": "Процесс начался раньше и продолжается сейчас: have been + V-ing.",
+      "distractorWhy": "Present Continuous не показывает длительность от прошлого до настоящего.",
+      "distractorRationales": {
+        "am revising": "Present Continuous не показывает длительность от прошлого до настоящего.",
+        "revised": "Past Simple помещает действие в завершённое прошлое."
+      },
+      "skillTarget": "present-perfect-continuous-duration",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; GR-02 Units 9-12 theory text checked",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D2",
+      "group": "Входная диагностика",
+      "prompt": "Why are your sleeves wet? ___ the car?",
+      "options": [
+        "Have you been washing",
+        "Did you been washing",
+        "Has you been washing"
+      ],
+      "answer": "Have you been washing",
+      "accepted": [
+        "Have you been washing"
+      ],
+      "why": "Вопрос о недавнем процессе, результат которого виден сейчас; have + you + been + V-ing.",
+      "distractorWhy": "Did требует инфинитив без to; сочетание did been неверно.",
+      "distractorRationales": {
+        "Did you been washing": "Did требует инфинитив без to; сочетание did been неверно.",
+        "Has you been washing": "С you используется have."
+      },
+      "skillTarget": "present-perfect-continuous-duration",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; GR-02 Units 9-12 theory text checked",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D3",
+      "group": "Входная диагностика",
+      "prompt": "My sister ___ well lately; she looks exhausted.",
+      "options": [
+        "haven't been sleeping",
+        "doesn't been sleeping",
+        "hasn't been sleeping"
+      ],
+      "answer": "hasn't been sleeping",
+      "accepted": [
+        "hasn't been sleeping"
+      ],
+      "why": "Отрицание длительной недавней активности: has not been + V-ing.",
+      "distractorWhy": "С she нужен has.",
+      "distractorRationales": {
+        "haven't been sleeping": "С she нужен has.",
+        "doesn't been sleeping": "Doesn't не сочетается с been в этой модели."
+      },
+      "skillTarget": "present-perfect-continuous-duration",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; GR-02 Units 9-12 theory text checked",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D4",
+      "group": "Входная диагностика",
+      "prompt": "The volunteers have been collecting donations ___ last Monday.",
+      "options": [
+        "for",
+        "since",
+        "ago"
+      ],
+      "answer": "since",
+      "accepted": [
+        "since"
+      ],
+      "why": "Since вводит начальную точку периода.",
+      "distractorWhy": "For вводит продолжительность, а не день начала.",
+      "distractorRationales": {
+        "for": "For вводит продолжительность, а не день начала.",
+        "ago": "Ago обозначает расстояние до прошлого момента, а не продолжительность до сейчас."
+      },
+      "skillTarget": "present-perfect-continuous-duration",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; GR-02 Units 9-12 theory text checked",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G1",
+      "group": "Управляемая практика",
+      "prompt": "Which sentence explicitly reports a completed quantity of reports?",
+      "options": [
+        "I have submitted four reports.",
+        "I have been working on four reports.",
+        "I have been preparing reports all week."
+      ],
+      "answer": "I have submitted four reports.",
+      "accepted": [
+        "I have submitted four reports."
+      ],
+      "why": "Present Perfect Simple с количеством сообщает о завершённых результатах.",
+      "distractorWhy": "Работа над четырьмя отчётами не гарантирует сдачу.",
+      "distractorRationales": {
+        "I have been working on four reports.": "Работа над четырьмя отчётами не гарантирует сдачу.",
+        "I have been preparing reports all week.": "Длительность подготовки не сообщает число завершённых отчётов."
+      },
+      "skillTarget": "present-perfect-continuous-duration",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; GR-02 Units 9-12 theory text checked",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G2",
+      "group": "Управляемая практика",
+      "prompt": "We ___ this professor for three years. Choose the normal form for a continuing state of acquaintance.",
+      "options": [
+        "have been knowing",
+        "are knowing",
+        "have known"
+      ],
+      "answer": "have known",
+      "accepted": [
+        "have known"
+      ],
+      "why": "Know в значении знакомства обычно не употребляется в Continuous.",
+      "distractorWhy": "Been knowing не является обычной формой длительного знакомства.",
+      "distractorRationales": {
+        "have been knowing": "Been knowing не является обычной формой длительного знакомства.",
+        "are knowing": "Are knowing не выражает длительность состояния от прошлого до настоящего."
+      },
+      "skillTarget": "present-perfect-continuous-duration",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; GR-02 Units 9-12 theory text checked",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G3",
+      "group": "Управляемая практика",
+      "prompt": "How long ___ for the scholarship?",
+      "options": [
+        "they have been preparing",
+        "have they been preparing",
+        "have they preparing"
+      ],
+      "answer": "have they been preparing",
+      "accepted": [
+        "have they been preparing"
+      ],
+      "why": "В прямом вопросе have стоит перед подлежащим; been обязателен.",
+      "distractorWhy": "Это порядок слов косвенного вопроса.",
+      "distractorRationales": {
+        "they have been preparing": "Это порядок слов косвенного вопроса.",
+        "have they preparing": "В форме Perfect Continuous не хватает been."
+      },
+      "skillTarget": "present-perfect-continuous-duration",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; GR-02 Units 9-12 theory text checked",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G4",
+      "group": "Управляемая практика",
+      "prompt": "It is 10 a.m. and the team started at 7 a.m. They have been testing the system ___ three hours.",
+      "options": [
+        "for",
+        "since",
+        "from"
+      ],
+      "answer": "for",
+      "accepted": [
+        "for"
+      ],
+      "why": "For + длительность: three hours.",
+      "distractorWhy": "Since требует точку начала.",
+      "distractorRationales": {
+        "since": "Since требует точку начала.",
+        "from": "From без конечной границы не образует здесь нужное выражение длительности."
+      },
+      "skillTarget": "present-perfect-continuous-duration",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; GR-02 Units 9-12 theory text checked",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G5",
+      "group": "Управляемая практика",
+      "prompt": "Which sentence shows that a repeated activity began in the past and continues regularly now?",
+      "options": [
+        "She attended the club last Friday.",
+        "She is attending the club right now.",
+        "She has been attending the club every Friday since March."
+      ],
+      "answer": "She has been attending the club every Friday since March.",
+      "accepted": [
+        "She has been attending the club every Friday since March."
+      ],
+      "why": "Present Perfect Continuous описывает и повторяющуюся активность за период до настоящего.",
+      "distractorWhy": "Past Simple сообщает об одном завершённом посещении.",
+      "distractorRationales": {
+        "She attended the club last Friday.": "Past Simple сообщает об одном завершённом посещении.",
+        "She is attending the club right now.": "Present Continuous здесь описывает только текущий момент."
+      },
+      "skillTarget": "present-perfect-continuous-duration",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; GR-02 Units 9-12 theory text checked",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G6",
+      "group": "Управляемая практика",
+      "prompt": "Choose the natural sentence for an ongoing activity that explains why the keyboard is dusty now.",
+      "options": [
+        "I sand a shelf near my desk every day last year.",
+        "I have been sanding a shelf near my desk.",
+        "I have been sand a shelf near my desk."
+      ],
+      "answer": "I have been sanding a shelf near my desk.",
+      "accepted": [
+        "I have been sanding a shelf near my desk."
+      ],
+      "why": "Have been sanding связывает недавний процесс с его нынешними следами.",
+      "distractorWhy": "Present Simple конфликтует с last year.",
+      "distractorRationales": {
+        "I sand a shelf near my desk every day last year.": "Present Simple конфликтует с last year.",
+        "I have been sand a shelf near my desk.": "После been нужен -ing."
+      },
+      "skillTarget": "present-perfect-continuous-duration",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; GR-02 Units 9-12 theory text checked",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I1",
+      "group": "Самостоятельная практика",
+      "prompt": "The library has been updating its catalogue ___ April.",
+      "options": [
+        "for",
+        "during",
+        "since"
+      ],
+      "answer": "since",
+      "accepted": [
+        "since"
+      ],
+      "why": "April обозначает начало периода до настоящего.",
+      "distractorWhy": "For April не выражает начальную точку.",
+      "distractorRationales": {
+        "for": "For April не выражает начальную точку.",
+        "during": "During April ограничивает действие самим апрелем, а не периодом от апреля."
+      },
+      "skillTarget": "present-perfect-continuous-duration",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; GR-02 Units 9-12 theory text checked",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I2",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the grammatically correct question about duration up to now.",
+      "options": [
+        "How long the researcher has been collecting samples?",
+        "How long has the researcher been collecting samples?",
+        "How long has the researcher collecting samples?"
+      ],
+      "answer": "How long has the researcher been collecting samples?",
+      "accepted": [
+        "How long has the researcher been collecting samples?"
+      ],
+      "why": "Has + подлежащее + been + V-ing образуют прямой вопрос.",
+      "distractorWhy": "В прямом вопросе требуется инверсия вспомогательного глагола.",
+      "distractorRationales": {
+        "How long the researcher has been collecting samples?": "В прямом вопросе требуется инверсия вспомогательного глагола.",
+        "How long has the researcher collecting samples?": "Пропущен been."
+      },
+      "skillTarget": "present-perfect-continuous-duration",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; GR-02 Units 9-12 theory text checked",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I3",
+      "group": "Самостоятельная практика",
+      "prompt": "The oven is hot, but nobody is baking now. What describes the recent activity without claiming that a cake is finished?",
+      "options": [
+        "Someone has been baking.",
+        "Someone has baked a cake.",
+        "Someone bakes every Sunday."
+      ],
+      "answer": "Someone has been baking.",
+      "accepted": [
+        "Someone has been baking."
+      ],
+      "why": "Perfect Continuous описывает недавний процесс, даже если он прекратился.",
+      "distractorWhy": "Этот вариант прямо утверждает завершение выпечки торта.",
+      "distractorRationales": {
+        "Someone has baked a cake.": "Этот вариант прямо утверждает завершение выпечки торта.",
+        "Someone bakes every Sunday.": "Present Simple описывает привычку, а не недавнюю активность."
+      },
+      "skillTarget": "present-perfect-continuous-duration",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; GR-02 Units 9-12 theory text checked",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I4",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the usual form for a continuing state of possession: We ___ this laptop since 2022.",
+      "options": [
+        "have been having",
+        "are having",
+        "have had"
+      ],
+      "answer": "have had",
+      "accepted": [
+        "have had"
+      ],
+      "why": "Have в значении владения обычно употребляется в Simple.",
+      "distractorWhy": "Continuous не подходит обычному значению владения.",
+      "distractorRationales": {
+        "have been having": "Continuous не подходит обычному значению владения.",
+        "are having": "Present Continuous не выражает здесь продолжающееся владение."
+      },
+      "skillTarget": "present-perfect-continuous-duration",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; GR-02 Units 9-12 theory text checked",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I5",
+      "group": "Самостоятельная практика",
+      "prompt": "Correct the sentence: He have been looking for a flat since June.",
+      "options": [
+        "He has been look for a flat since June.",
+        "He has been looking for a flat since June.",
+        "He have looked for a flat since June."
+      ],
+      "answer": "He has been looking for a flat since June.",
+      "accepted": [
+        "He has been looking for a flat since June."
+      ],
+      "why": "He требует has; после been нужен looking.",
+      "distractorWhy": "После been нужна форма -ing.",
+      "distractorRationales": {
+        "He has been look for a flat since June.": "После been нужна форма -ing.",
+        "He have looked for a flat since June.": "Have не согласуется с he."
+      },
+      "skillTarget": "present-perfect-continuous-duration",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; GR-02 Units 9-12 theory text checked",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I6",
+      "group": "Самостоятельная практика",
+      "prompt": "Which sentence explicitly states how many times the action has been completed?",
+      "options": [
+        "We have interviewed six applicants this week.",
+        "We have been interviewing applicants all week.",
+        "We are interviewing an applicant now."
+      ],
+      "answer": "We have interviewed six applicants this week.",
+      "accepted": [
+        "We have interviewed six applicants this week."
+      ],
+      "why": "Число завершённых собеседований выражено Present Perfect Simple.",
+      "distractorWhy": "Этот вариант описывает длительность активности.",
+      "distractorRationales": {
+        "We have been interviewing applicants all week.": "Этот вариант описывает длительность активности.",
+        "We are interviewing an applicant now.": "Этот вариант сообщает о текущем собеседовании."
+      },
+      "skillTarget": "present-perfect-continuous-duration",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; GR-02 Units 9-12 theory text checked",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I7",
+      "group": "Самостоятельная практика",
+      "prompt": "I have been waiting ___ the bus stopped running.",
+      "options": [
+        "for",
+        "ago",
+        "since"
+      ],
+      "answer": "since",
+      "accepted": [
+        "since"
+      ],
+      "why": "Since может вводить придаточное с событием, обозначающим начало периода.",
+      "distractorWhy": "For не вводит здесь придаточное времени.",
+      "distractorRationales": {
+        "for": "For не вводит здесь придаточное времени.",
+        "ago": "Ago не используется для введения начального события."
+      },
+      "skillTarget": "present-perfect-continuous-duration",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; GR-02 Units 9-12 theory text checked",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I8",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the sentence that correctly describes a continuing action with for.",
+      "options": [
+        "The students have been rehearsing since forty minutes.",
+        "The students have been rehearsing for forty minutes.",
+        "The students have been rehearse for forty minutes."
+      ],
+      "answer": "The students have been rehearsing for forty minutes.",
+      "accepted": [
+        "The students have been rehearsing for forty minutes."
+      ],
+      "why": "For вводит период; rehearsing соответствует форме Continuous.",
+      "distractorWhy": "Since требует точку начала.",
+      "distractorRationales": {
+        "The students have been rehearsing since forty minutes.": "Since требует точку начала.",
+        "The students have been rehearse for forty minutes.": "Rehearse должно иметь окончание -ing."
+      },
+      "skillTarget": "present-perfect-continuous-duration",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; GR-02 Units 9-12 theory text checked",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I9",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the natural sentence with always describing a lifelong residence.",
+      "options": [
+        "I have always lived in a small town.",
+        "I have always live in a small town.",
+        "I am always live in a small town."
+      ],
+      "answer": "I have always lived in a small town.",
+      "accepted": [
+        "I have always lived in a small town."
+      ],
+      "why": "С always и постоянным местом жительства естественна форма Perfect Simple; lived — V3.",
+      "distractorWhy": "После have нужен V3.",
+      "distractorRationales": {
+        "I have always live in a small town.": "После have нужен V3.",
+        "I am always live in a small town.": "Am не сочетается здесь с live."
+      },
+      "skillTarget": "present-perfect-continuous-duration",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; GR-02 Units 9-12 theory text checked",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E1",
+      "group": "Выходная проверка",
+      "prompt": "Which question asks when an activity began rather than how long it has continued?",
+      "options": [
+        "When did you start learning English?",
+        "How long have you been learning English?",
+        "Have you been learning English recently?"
+      ],
+      "answer": "When did you start learning English?",
+      "accepted": [
+        "When did you start learning English?"
+      ],
+      "why": "When did ... start? спрашивает о точке начала в прошлом.",
+      "distractorWhy": "How long спрашивает о длительности.",
+      "distractorRationales": {
+        "How long have you been learning English?": "How long спрашивает о длительности.",
+        "Have you been learning English recently?": "Вопрос с recently уточняет недавнюю активность, не время начала."
+      },
+      "skillTarget": "present-perfect-continuous-duration",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; GR-02 Units 9-12 theory text checked",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E2",
+      "group": "Выходная проверка",
+      "prompt": "The campus paths are slippery, although the snowfall has stopped. Choose the sentence emphasizing the recent process.",
+      "options": [
+        "It is snowing.",
+        "It snows every winter.",
+        "It has been snowing."
+      ],
+      "answer": "It has been snowing.",
+      "accepted": [
+        "It has been snowing."
+      ],
+      "why": "Present Perfect Continuous может объяснять нынешние следы уже прекратившегося процесса.",
+      "distractorWhy": "Present Continuous утверждает, что снег идёт сейчас.",
+      "distractorRationales": {
+        "It is snowing.": "Present Continuous утверждает, что снег идёт сейчас.",
+        "It snows every winter.": "Present Simple описывает обычное сезонное явление."
+      },
+      "skillTarget": "present-perfect-continuous-duration",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; GR-02 Units 9-12 theory text checked",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E3",
+      "group": "Выходная проверка",
+      "prompt": "Choose the correct negative question: ___ the new software lately?",
+      "options": [
+        "Hasn't you been using",
+        "Haven't you been using",
+        "Haven't you been use"
+      ],
+      "answer": "Haven't you been using",
+      "accepted": [
+        "Haven't you been using"
+      ],
+      "why": "Haven't + you + been + V-ing — отрицательный вопрос.",
+      "distractorWhy": "You требует have, а не has.",
+      "distractorRationales": {
+        "Hasn't you been using": "You требует have, а не has.",
+        "Haven't you been use": "После been нужна форма using."
+      },
+      "skillTarget": "present-perfect-continuous-duration",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; GR-02 Units 9-12 theory text checked",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E4",
+      "group": "Выходная проверка",
+      "prompt": "Choose the expression that emphasizes the activity rather than a finished translation.",
+      "options": [
+        "I have been translating the article all afternoon.",
+        "I have translated the entire article.",
+        "I translated the article yesterday."
+      ],
+      "answer": "I have been translating the article all afternoon.",
+      "accepted": [
+        "I have been translating the article all afternoon."
+      ],
+      "why": "Perfect Continuous выделяет процесс за период до сейчас.",
+      "distractorWhy": "Perfect Simple с entire сообщает о завершении всей статьи.",
+      "distractorRationales": {
+        "I have translated the entire article.": "Perfect Simple с entire сообщает о завершении всей статьи.",
+        "I translated the article yesterday.": "Past Simple относит завершение к прошлому дню."
+      },
+      "skillTarget": "present-perfect-continuous-duration",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; GR-02 Units 9-12 theory text checked",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E5",
+      "group": "Выходная проверка",
+      "prompt": "Which sentence is correct without a for/since marker?",
+      "options": [
+        "They have been studying for all day.",
+        "They have been study all day.",
+        "They have been studying all day."
+      ],
+      "answer": "They have been studying all day.",
+      "accepted": [
+        "They have been studying all day."
+      ],
+      "why": "All day само обозначает длительность; после been требуется -ing.",
+      "distractorWhy": "В данной модели перед all day обычно не ставят for.",
+      "distractorRationales": {
+        "They have been studying for all day.": "В данной модели перед all day обычно не ставят for.",
+        "They have been study all day.": "Study без -ing неверно после been."
+      },
+      "skillTarget": "present-perfect-continuous-duration",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; GR-02 Units 9-12 theory text checked",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "W1",
+      "group": "Самостоятельное применение",
+      "prompt": "Напиши 5 предложений: о продолжающейся подготовке к экзамену (for), о её начале (since), о недавней активности с видимым результатом, вопрос о длительности и предложение о числе уже выполненных заданий. Выдели, где ты выбрала Perfect Continuous, а где Simple, и почему.",
+      "open": true,
+      "rubric": [
+        "Использовано for с периодом времени.",
+        "Использовано since с начальной точкой.",
+        "Недавняя активность объясняет состояние сейчас.",
+        "Прямой вопрос построен с корректной инверсией.",
+        "Завершённое количество выражено Perfect Simple.",
+        "Объяснён выбор временной формы; соблюдены согласование и V-ing."
+      ],
+      "skillTarget": "Самостоятельное применение B1-01",
+      "interactionType": "open-production",
+      "difficulty": "transfer",
+      "sourceBasis": "Speakbase-authored open production; self-review rubric only until real AI feedback is connected",
+      "contentVersion": "1.1-draft"
+    }
+  ],
+  "markdown": "# Speakbase — B1-01: Present Perfect Continuous\n\n**Curriculum ID:** `B1-01`  \n**Уровень:** B1  \n**Версия:** 1.1-draft\n**Статус:** drafted; GR-02 theory text reviewed; GR-03/GR-05 and learner acceptance pending\n**Предварительные темы:** A2-05, A2-06  \n**Связь со старым каталогом:** Полное ядро — №21 Present Perfect Continuous\n\n## 1. Результаты обучения\n\n- Выражать длительность и недавнюю активность; сравнивать с Present Perfect Simple\n- Выбирать целевую форму по значению, структуре предложения и контексту.\n- Объяснять, почему близкая грамматическая форма меняет смысл или регистр.\n- Находить и исправлять типичные ошибки русскоязычных студентов.\n\n## 2. Источники и статус сверки\n\n| Source | PDF navigation | Lesson-specific checks | Status |\n|---|---|---|---|\n| GR-02 U9-12 | PDF pp. 30, 32, 34, 36 / printed pp. 18, 20, 22, 24 | Theory text checked: duration, repetition, recent activity, simple/continuous, stative verbs, for/since | theory text reviewed; exercise pages and visual review pending |\n| GR-03 U6 | PDF pages 36-37 (Unit 6) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-05 B1 p65-67 | PDF pages 65-67 (B1 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n\nUnit/page locations are navigation aids only. They do not prove that the cited explanation, examples, restrictions and answer key have been checked for this lesson. Examples and explanations below are Speakbase-authored, not quotations from the textbook.\n\nПеред переводом этого урока в source-verified необходимо открыть целевые страницы конкретного издания, записать печатную и PDF-пагинацию, сверить ограничения и исключения. Для GR-03 со сканированными страницами обязательна визуальная проверка.\n\n## 3. Место темы и границы\n\nPresent Perfect Continuous выделяет длительность/недавнюю активность; сравни с Perfect Simple по фокусу на процессе и результате.\n\nСтарый каталог содержит: №21 Present Perfect Continuous. Его статус — Полное ядро. Старые отметки завершения не переносятся автоматически на новый постоянный ID. Тема рассматривается в уровне B1 и не заменяет обязательные prerequisites.\n\n## 4. Полный конспект\n\n### 4.1. Основная идея\nPresent Perfect Continuous (настоящее совершенное длительное) связывает действие, начавшееся в прошлом, с настоящим. В центре внимания находится процесс, а не число законченных действий. Он может продолжаться сейчас или недавно закончиться, оставив заметный результат. Например, человек запыхался после бега; сама пробежка уже закончилась, но её последствия видны сейчас.\n\n### 4.2. Формула и порядок слов\n\n| Тип предложения | Формула | Пример |\n|---|---|---|\n| Утверждение | I/you/we/they + have been + V-ing | I have been reading. |\n| Утверждение | he/she/it + has been + V-ing | She has been reading. |\n| Отрицание | have/has not been + V-ing | She hasn't been reading. |\n| Общий вопрос | Have/Has + subject + been + V-ing? | Has she been reading? |\n| Специальный вопрос | How long + have/has + subject + been + V-ing? | How long has she been reading? |\n\nHave/has согласуется с подлежащим. Been — неизменяемая третья форма be, после неё нужен глагол с -ing. Сокращения: I've, you've, he's (= he has здесь), haven't, hasn't. В прямом вопросе вспомогательный глагол ставится перед подлежащим; в косвенном сохраняется прямой порядок: I wonder how long she has been reading.\n\n### 4.3. Когда употреблять\n\n1. Действие началось раньше и продолжается: We have been preparing for the exam since September.\n2. Недавняя деятельность объясняет состояние сейчас: Your hands are covered in flour. Have you been making bread?\n3. Повторяющаяся деятельность за период до настоящего: She has been visiting the library every Saturday since January.\n4. Отрицание недавнего процесса: I haven't been exercising much lately. Речь об активности за период, а не об одном пропущенном занятии.\n\nФорма не утверждает, что действие обязательно закончено, и не утверждает, что оно обязательно продолжается в момент речи. Смысл уточняется контекстом.\n\n### 4.4. For, since, how long\n\n| Выражение | Значение | Пример |\n|---|---|---|\n| for + период | как долго | for three weeks |\n| since + точка | с какого момента | since Monday |\n| since + придаточное | с момента события | since I moved here |\n| how long | вопрос о длительности | How long have you been practising? |\n| lately / recently | в последнее время | I've been practising a lot lately. |\n| all day / all morning | весь день / всё утро | I've been studying all morning. |\n\nFor часто можно опустить в утвердительных выражениях длительности, но в отрицании обычно сохраняют. В выражениях all day, all my life for обычно не ставится. Ago используется для расстояния до прошлой точки: I started two hours ago; для длительности до настоящего — I've been studying for two hours.\n\n### 4.5. Сравнение с близкими временами\n\n| Время | Что выделяем | Пример и перевод |\n|---|---|---|\n| Present Continuous | процесс прямо сейчас | I'm editing the report now. — Я сейчас редактирую отчёт. |\n| Present Perfect Continuous | процесс от прошлого до настоящего или его следы | I've been editing the report for two hours. — Я редактирую отчёт уже два часа. |\n| Present Perfect Simple | завершённое количество или результат | I've edited three pages. — Я отредактировала три страницы. |\n| Past Simple | событие в завершённом прошлом | I edited it yesterday. — Я отредактировала его вчера. |\n\nНе выбирай форму только по словам for или since. Вопрос When did you start? относится к прошлому началу; How long have you been working? — к длительности до настоящего. С work и live возможны обе формы Perfect: I've lived here for years / I've been living here for years. Continuous сильнее выделяет процесс, Simple — факт или устойчивое состояние. С always при постоянном состоянии естественнее Simple.\n\n### 4.6. Ограничения и исключения\n\nГлаголы состояния know, own, believe, like и have в значении владения обычно употребляются в Present Perfect Simple: I've known her since school; We've had this laptop for years. Не переноси это правило механически на все значения глаголов: have в значении деятельности допускает Continuous (I've been having trouble with my computer). В конструкциях want и mean to возможна форма Perfect Continuous при продолжающемся намерении: I've been meaning to email my tutor. Вопрос о завершённом количестве обычно требует Perfect Simple: How many chapters have you read? Вопрос о длительности текущего чтения — How long have you been reading?\n\n### 4.7. Примеры с переводом\n\n| English | Русский перевод | Объяснение |\n|---|---|---|\n| I have been learning Italian since September. | Я учу итальянский с сентября. | Начало в прошлом, процесс продолжается. |\n| How long have you been waiting? | Как долго ты уже ждёшь? | Вопрос о длительности. |\n| The floor is dusty because we have been repairing the shelves. | Пол пыльный, потому что мы ремонтировали полки. | Недавняя работа объясняет нынешнее состояние. |\n| She hasn't been sleeping well recently. | В последнее время она плохо спит. | Отрицание недавней регулярной активности. |\n| We have known each other for years. | Мы знакомы много лет. | Know — состояние; Perfect Simple. |\n| I've submitted three assignments this week. | На этой неделе я сдала три задания. | Завершённое количество; Perfect Simple. |\n\n### 4.8. Типичные ошибки\n\n| Ошибка | Правильно | Почему |\n|---|---|---|\n| She have been working. | She has been working. | She требует has. |\n| I have been study. | I have been studying. | После been нужна форма -ing. |\n| I study here since May. | I have been studying here since May. | Продолжающийся процесс начался раньше. |\n| I have been knowing him for years. | I have known him for years. | Know обычно не употребляется в Continuous. |\n| We have been waiting since two hours. | We have been waiting for two hours. | Two hours — период, а не точка. |\n| How long you have been waiting? | How long have you been waiting? | Прямой вопрос требует инверсии. |\n\n### 4.9. Произношение и восприятие\nВ связной речи have/has часто произносятся кратко, а been и вспомогательный глагол не получают основного ударения. Слушай смысловой глагол и выражение длительности. Сравни I've been WORKing for TWO hours и I've FINished TWO tasks. Это ориентир для тренировки слуха, не фонетическая оценка.\n\n### 4.10. Академический перенос\nДля TOEFL Writing и Speaking используй эту форму, когда объясняешь длительную подготовку, повторяющуюся деятельность или недавние изменения. Например: Our group has been collecting data since October. Для точного числа завершённых наблюдений используй Our group has collected sixty responses. В Reading и Listening различай процесс и уже достигнутый результат. Это авторская практика переноса навыка, не официальный экзаменационный вопрос.\n\n### 4.11. Алгоритм выбора\n1. Определи, связана ли деятельность с настоящим.\n2. Проверь, что важно: длительность/процесс, состояние или завершённое количество.\n3. Если важен процесс, выбери have/has been + V-ing; если состояние или завершённый результат — проверь Perfect Simple.\n4. Проверь согласование и порядок слов.\n5. Выбери for для периода и since для начала периода.\n\n### 4.12. Памятка\nHave/has been + V-ing — действие в течение периода до настоящего или недавняя активность с видимыми последствиями. Perfect Simple — прежде всего результат, количество или состояние. Контекст важнее отдельного маркера времени.\n\n## 5. Практика\n\nВ приложении практика разделена на входную диагностику, управляемые задания, самостоятельную практику и новую выходную проверку. Закрытые ответы получают rationale и разбор ошибки. Свободный текст сохраняется и оценивается по рубрике; до подключения и реальной проверки AI-движка система не выдаёт его за автоматическую AI-оценку.\n\n## 6. Интервальное повторение\n\nПовторяй не весь урок автоматически, а конкретную ошибку: выбор формы, согласование, word order, значение, регистр или пунктуацию. Новая попытка должна менять лексический контекст и формулировку, чтобы проверять перенос, а не запоминание одной строки.\n\n## 7. Технический статус\n\n- Постоянный ID: `B1-01`.\n- Прогресс хранится отдельно в course.grammarLessons[\"B1-01\"].\n- Содержание и ключи имеют статус draft; 24 новых закрытых задания и их объяснения вычитаны, текст GR-02 проверен; GR-03, GR-05, страницы упражнений и learner test остаются открытыми.\n- Предварительное выполнение порогов не равно окончательному mastered: нужны отсроченное повторение и learner review.",
+  "theoryEnd": "## 5."
+}

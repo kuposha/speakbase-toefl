@@ -26,6 +26,13 @@
     const cs=courseState();
     cs.grammarLessons=cs.grammarLessons||{};
     const state=cs.grammarLessons[id]||(cs.grammarLessons[id]={mode:'catalog',pos:0,answers:{},drafts:{},contentVersion:lessons.get(id).contentVersion||'1.0-draft'});
+    // Keep previous answers and drafts under their original version when a reviewed bank replaces its questions.
+    const version=lessons.get(id).contentVersion||'1.0-draft';
+    if(version==='1.1-draft' && (state.contentVersion||'1.0-draft')!==version){
+      const archive=state.previousVersions||(state.previousVersions=[]);
+      archive.push({contentVersion:state.contentVersion||'1.0-draft',mode:state.mode,pos:state.pos,answers:state.answers||{},drafts:state.drafts||{},archivedAt:Date.now()});
+      state.contentVersion=version;state.mode='theory';state.pos=0;state.answers={};state.drafts={};save();
+    }
     state.answers=state.answers||{};
     state.drafts=state.drafts||{};
     state.pos=Math.max(0,Math.min(Number(state.pos)||0,lessons.get(id).items.length-1));
