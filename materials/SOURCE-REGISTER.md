@@ -94,3 +94,17 @@
 7. В приложении показывать короткую ссылку на использованные учебные источники и не выдавать AI-generated practice за официальные задания ETS.
 
 **Статус:** все 30 файлов инвентаризированы; названия/издания основных грамматических книг проверены по титульным и выходным страницам; оглавления EGIU и Advanced Grammar in Use изучены; уровневые рубрики A1–C1 извлечены; дубликаты проверены хешами. Полная проверка отдельных страниц и юнитов проводится в карте грамматики и перед созданием каждого урока.
+
+## 9. Внешние грамматические справочники
+
+Внешние справочники получают префикс EXT-, чтобы их идентификаторы не конфликтовали с локальными PDF и книгами GR-01–GR-06. Это проверочные источники, а не часть папки «Источники».
+
+| ID | Источник | Роль в Speakbase |
+|---|---|---|
+| EXT-01 | Cambridge Dictionary, *English Grammar Today: Word order and focus* — https://dictionary.cambridge.org/us/grammar/british-grammar/word-order-and-focus_2 | Типичный порядок слов, subject–verb–object, отличие базового порядка от fronting/emphasis |
+| EXT-02 | Cambridge Dictionary, *English Grammar Today: Clause types* — https://dictionary.cambridge.org/grammar/british-grammar/clause-types | Структура declarative clauses и отличие утверждений от вопросов/императивов |
+| EXT-03 | Cambridge Dictionary, *English Grammar Today: Subjects* — https://dictionary.cambridge.org/us/grammar/british-grammar/subjects | Роль и позиция subject, выраженное подлежащее, типичные ошибки |
+| EXT-04 | British Council LearnEnglish, *Clause structure and verb patterns* — https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/clause-structure-verb-patterns | Элементы clause structure: subject, verb, object, complement, adverbial; базовые модели |
+| EXT-05 | Cambridge Dictionary, *English Grammar Today: Present simple (I work)* — https://dictionary.cambridge.org/us/grammar/british-grammar/present-simple | Независимая проверка формы и употребления Present Simple |
+| EXT-06 | Cambridge Dictionary, *English Grammar Today: Subject–verb agreement* — https://dictionary.cambridge.org/grammar/british-grammar/subject-verb-agreement | Согласование подлежащего и сказуемого |
+| EXT-07 | IDP IELTS, *How to pronounce the s/es ending accurately* — https://ielts.idp.com/vietnam/about/news-and-articles/article-how-to-pronounce-s-es/en-gb | Дополнительная проверка произношения окончаний /s/, /z/, /ɪz/; использовать только как произносительный справочник, не как TOEFL источник |

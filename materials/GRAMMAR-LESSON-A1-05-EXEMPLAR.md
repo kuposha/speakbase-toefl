@@ -26,11 +26,11 @@
 |---|---|---|
 | GR-01 Raymond Murphy, *Essential Grammar in Use*, русское издание, 2017 | Unit 6; PDF p. 23 (печатная p. 22), упражнения на PDF p. 24 | Формы I/we/you/they и he/she/it; -s/-es; формы do/does/goes/has; привычки, факты и постоянные состояния; частые наречия |
 | GR-02 Raymond Murphy, *English Grammar in Use*, 5th ed., 2019 | Unit 2; PDF pp. 14–24 (диапазон Units 1–6) | Базовые значения Present Simple и противопоставление с Present Continuous в общей системе |
-| GR-06 Cambridge Dictionary, *English Grammar Today: Present simple (I work)* | Онлайн-справочник, разделы form / spelling / uses | Независимая проверка базовой формы, -s/-es spelling, habits, facts, states and timetables: https://dictionary.cambridge.org/us/grammar/british-grammar/present-simple |
-| GR-07 Cambridge Dictionary, *Subject–verb agreement* | Онлайн-справочник | Проверка принципа: лицо и число глагола определяются подлежащим, а не ближайшим существительным: https://dictionary.cambridge.org/grammar/british-grammar/subject-verb-agreement |
-| GR-08 IDP IELTS, *How to pronounce the s/es ending accurately* | Онлайн-справочник, разделы /s/, /z/, /ɪz/ | Перекрёстная проверка произношения окончаний третьего лица: https://ielts.idp.com/vietnam/about/news-and-articles/article-how-to-pronounce-s-es/en-gb |
+| EXT-05 Cambridge Dictionary, *English Grammar Today: Present simple (I work)* | Онлайн-справочник, разделы form / spelling / uses | Независимая проверка базовой формы, -s/-es spelling, habits, facts, states and timetables: https://dictionary.cambridge.org/us/grammar/british-grammar/present-simple |
+| EXT-06 Cambridge Dictionary, *Subject–verb agreement* | Онлайн-справочник | Проверка принципа: лицо и число глагола определяются подлежащим, а не ближайшим существительным: https://dictionary.cambridge.org/grammar/british-grammar/subject-verb-agreement |
+| EXT-07 IDP IELTS, *How to pronounce the s/es ending accurately* | Онлайн-справочник, разделы /s/, /z/, /ɪz/ | Перекрёстная проверка произношения окончаний третьего лица: https://ielts.idp.com/vietnam/about/news-and-articles/article-how-to-pronounce-s-es/en-gb |
 
-**Статус источников:** GR-01 — page-verified; GR-02 — page-verified на уровне диапазона Units 1–6; GR-06/GR-07 — cross-checked для формы, употребления и согласования; GR-08 — cross-checked для трёх вариантов произношения. Дополнительные примеры, формулировки, задания и ключи написаны Speakbase самостоятельно; упражнения учебников не воспроизводятся.
+**Статус источников:** GR-01 — page-verified; GR-02 — page-verified на уровне диапазона Units 1–6; EXT-05/EXT-06 — cross-checked для формы, употребления и согласования; EXT-07 — cross-checked для трёх вариантов произношения. Дополнительные примеры, формулировки, задания и ключи написаны Speakbase самостоятельно; упражнения учебников не воспроизводятся.
 
 ## 3. Входная диагностика (показывать после полного конспекта, разделы 4–5)
 
