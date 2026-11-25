@@ -31,3 +31,7 @@ All 22 B1 lessons (B1-01 through B1-22) now have reviewed 1.1-draft runtime snap
 ## A2 editorial pass — first package
 
 A2-01 through A2-03: expanded Russian theory, 72 individually authored closed tasks and 3 open tasks with rubrics; runtime snapshots and Markdown updated. GR-02 Units 5–6 theory text directly consulted (PDF pp. 22 and 24; printed pp. 10 and 12). Additional sources, exercise pages, visual verification and learner acceptance pending. Status PARTIAL. Next: A2-04 future forms, then A2-05–06 Present Perfect. Preserve unrelated uncommitted changes.
+
+## A2 second package
+
+A2-04 through A2-06 editorial pass: future forms, Present Perfect Simple, Present Perfect vs Past Simple. 72 closed tasks with separate rationales and 3 open rubrics, matching Markdown and runtime. GR-02 Units 19–23, 7–8 and 13–14 theory text directly consulted. Full additional source, exercise-page, visual and learner verification pending; PARTIAL. A2 total: 6/18. Next A2-07–09. Unrelated work preserved.

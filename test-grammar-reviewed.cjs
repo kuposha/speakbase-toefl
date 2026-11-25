@@ -5,7 +5,7 @@ vm.runInContext(fs.readFileSync('grammar-lesson-engine.js','utf8'),ctx);
 vm.runInContext(fs.readFileSync('grammar-curriculum-bulk-data.js','utf8'),ctx);
 const engine=ctx.window.GrammarLessonEngine;
 const ids=Array.from({length:22},(_,i)=>'B1-'+String(i+1).padStart(2,'0'));
-const a2=Array.from({length:3},(_,i)=>'A2-'+String(i+1).padStart(2,'0'));
+const a2=Array.from({length:6},(_,i)=>'A2-'+String(i+1).padStart(2,'0'));
 ids.push(...a2);
 const log=fs.readFileSync('materials/GRAMMAR-MANUAL-REVIEW-LOG.md','utf8');
 const norm=s=>s.replace(/\r\n/g,'\n');

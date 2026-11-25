@@ -1,0 +1,743 @@
+{
+  "id": "A2-06",
+  "level": "A2",
+  "sequence": "A2-06",
+  "grammarFamily": "perfectVsPast",
+  "questionBankSource": "topic-specific-authored",
+  "sourceVerification": "draft; selected source text consulted; complete source-page and learner review pending",
+  "topicProfile": {
+    "label": "Present Perfect vs Past Simple",
+    "core": "Past Simple описывает факт в прошлом, а Present Perfect Simple связывает действие с настоящим. Главное различие — не давность события, а временная перспектива. I lost my card yesterday сообщает о вчерашнем событии. I've lost my card, so I can't enter сообщает о нынешней проблеме.",
+    "form": "| | Present Perfect | Past Simple |\n|---|---|---|\n| Утверждение | have/has + V3 | V2 |\n| Отрицание | haven't/hasn't + V3 | didn't + V1 |\n| Общий вопрос | Have/Has + subject + V3? | Did + subject + V1? |\n| Вопрос о точном прошлом времени | обычно не используется для завершённой даты события | When did you arrive? |\n| Пример | I've seen that film. | I saw that film on Sunday. |",
+    "selection": "1. Если указано законченное время действия (yesterday, last week, in 2019, two hours ago), выбирай Past Simple. 2. Если речь о жизненном опыте до сейчас, текущем результате или количестве за ещё открытый период, Present Perfect часто естественнее. 3. Если спрашиваешь, когда произошло отдельное завершённое событие, используй When did…? 4. Если описываешь состояние, продолжающееся до настоящего, проверь Present Perfect с for/since.",
+    "contrast": "| Present Perfect | Past Simple |\n|---|---|\n| I've finished three tasks so far. | I finished three tasks yesterday. |\n| I've lived here for five years (still here). | I lived there for five years (finished period). |\n| Have you ever visited Rome? | Did you visit Rome during your trip last year? |\n| She has left, so she isn't here. | She left yesterday but is back now. |\n| I've just received a message. | I received a message ten minutes ago. |",
+    "boundary": "For не является обязательным признаком Perfect: I worked there for two years and then left — завершённый период. I've worked there for two years and still work there — период продолжается. Since с началом продолжающегося периода часто употребляется с Perfect, а событие после since может стоять в Past Simple: I've lived here since I started college. Не смешивай завершённую дату самого действия с датой начала после since.",
+    "pronunciation": "Сравни I've SEEN it и I SAW it. В Perfect вспомогательное have часто безударно, но не исчезает из грамматики. При вопросах слушай Have you…? и Did you…?; окончание основного глагола может быть одинаковым у правильных форм. Для неправильных форм ориентируйся на всю конструкцию, а не только на звучание одного слова.",
+    "examples": [
+      [
+        "I've sent the email, so you can check your inbox.",
+        "Я отправила письмо, так что можешь проверить почту.",
+        "Текущий результат."
+      ],
+      [
+        "I sent the email at nine yesterday.",
+        "Я отправила письмо вчера в девять.",
+        "Законченный прошлый момент."
+      ],
+      [
+        "Have you ever taken an online course?",
+        "Ты когда-нибудь проходила онлайн-курс?",
+        "Опыт до настоящего."
+      ],
+      [
+        "When did you take that course?",
+        "Когда ты проходила этот курс?",
+        "Вопрос о конкретном прошлом событии."
+      ],
+      [
+        "I've known her since 2022.",
+        "Я знаю её с 2022 года.",
+        "Состояние продолжается."
+      ],
+      [
+        "I lived in that town from 2018 to 2022.",
+        "Я жила в том городе с 2018 по 2022 год.",
+        "Законченный период."
+      ]
+    ],
+    "traps": [
+      [
+        "I've visited the museum yesterday.",
+        "I visited the museum yesterday.",
+        "Yesterday указывает на законченный момент."
+      ],
+      [
+        "When have you bought this book? (вопрос о дате одной покупки).",
+        "When did you buy this book?",
+        "Вопрос о конкретном прошлом событии."
+      ],
+      [
+        "I have saw her before.",
+        "I have seen her before.",
+        "После have нужна V3."
+      ],
+      [
+        "Did you went to the seminar?",
+        "Did you go to the seminar?",
+        "После did нужна V1."
+      ],
+      [
+        "I live here since 2022 (если всё ещё живу здесь).",
+        "I've lived here since 2022.",
+        "Продолжающееся состояние с since."
+      ]
+    ],
+    "toefl": "В Reading и Listening отличай исторический факт от нынешнего статуса проекта. В Speaking при рассказе об опыте сначала назови общий опыт с Present Perfect, затем детали с Past Simple. В Writing Email объясняй, что уже выполнено и когда именно произошло отдельное событие: I've uploaded the report. I uploaded it at ten yesterday. Это авторская тренировка, не официальный экзаменационный материал."
+  },
+  "title": "Present Perfect vs Past Simple",
+  "description": "Выбирать время по связи с настоящим, завершённому времени и конкретному прошлому моменту",
+  "cardDescription": "Теория, guided practice, самостоятельные задания и выходная проверка по постоянному ID A2-06.",
+  "eyebrow": "Полный урок программы A2-06 · drafted",
+  "contentVersion": "1.1-draft",
+  "curriculumVersion": "1.0",
+  "prerequisites": [
+    "A2-01",
+    "A2-05"
+  ],
+  "outcomes": [
+    "Выбирать время по связи с настоящим, завершённому времени и конкретному прошлому моменту",
+    "Выбирать целевую конструкцию по контексту и смыслу.",
+    "Исправлять типичные ошибки и переносить правило в новый пример."
+  ],
+  "sourceRefs": [
+    "GR-01 U21",
+    "GR-02 U13-14",
+    "GR-03 U3",
+    "GR-03 U8",
+    "GR-05 A2 p41",
+    "GR-05 A2 p50-51"
+  ],
+  "sourceStatus": "selected source text consulted; full page verification pending",
+  "status": "drafted",
+  "legacyCoverage": "Полное ядро",
+  "toeflLinks": [
+    "Writing: Build a Sentence",
+    "Writing: Write an Email"
+  ],
+  "thresholds": {
+    "independent": 7,
+    "exit": 4,
+    "criticalIds": [
+      "E1",
+      "E2",
+      "E3"
+    ]
+  },
+  "groups": {
+    "independent": "Самостоятельная практика",
+    "exit": "Выходная проверка"
+  },
+  "items": [
+    {
+      "id": "D1",
+      "group": "Входная диагностика",
+      "prompt": "Yesterday at noon I ___ the application. Use the tense for a finished past time.",
+      "options": [
+        "have submitted",
+        "submitted",
+        "has submitted"
+      ],
+      "answer": "submitted",
+      "accepted": [
+        "submitted"
+      ],
+      "why": "Yesterday at noon — законченная точка в прошлом; V2.",
+      "distractorWhy": "Present Perfect обычно не сочетается с такой датой действия.",
+      "distractorRationales": {
+        "have submitted": "Present Perfect обычно не сочетается с такой датой действия.",
+        "has submitted": "Has также не согласуется с I."
+      },
+      "skillTarget": "perfectVsPast",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D2",
+      "group": "Входная диагностика",
+      "prompt": "I still can't enter the building. Choose the present-result sentence.",
+      "options": [
+        "I've lost my access card.",
+        "I have lose my access card.",
+        "I has lost my access card."
+      ],
+      "answer": "I've lost my access card.",
+      "accepted": [
+        "I've lost my access card."
+      ],
+      "why": "Present Perfect выражает текущую проблему; have lost.",
+      "distractorWhy": "Lose — V1.",
+      "distractorRationales": {
+        "I have lose my access card.": "Lose — V1.",
+        "I has lost my access card.": "I требует have."
+      },
+      "skillTarget": "perfectVsPast",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D3",
+      "group": "Входная диагностика",
+      "prompt": "Choose the question about the exact time of a completed journey.",
+      "options": [
+        "When have you arrive in Rome?",
+        "When did you arrived in Rome?",
+        "When did you arrive in Rome?"
+      ],
+      "answer": "When did you arrive in Rome?",
+      "accepted": [
+        "When did you arrive in Rome?"
+      ],
+      "why": "When did + V1 спрашивает о прошлом событии.",
+      "distractorWhy": "После have нужна V3; точный прошлый момент обычно Simple.",
+      "distractorRationales": {
+        "When have you arrive in Rome?": "После have нужна V3; точный прошлый момент обычно Simple.",
+        "When did you arrived in Rome?": "Arrived — V2 после did."
+      },
+      "skillTarget": "perfectVsPast",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D4",
+      "group": "Входная диагностика",
+      "prompt": "Choose the present-perfect question about life experience, without a specified date.",
+      "options": [
+        "Have you ever attend a conference?",
+        "Have you ever attended a conference?",
+        "Has you ever attended a conference?"
+      ],
+      "answer": "Have you ever attended a conference?",
+      "accepted": [
+        "Have you ever attended a conference?"
+      ],
+      "why": "Have + subject + ever + V3.",
+      "distractorWhy": "Attend — V1.",
+      "distractorRationales": {
+        "Have you ever attend a conference?": "Attend — V1.",
+        "Has you ever attended a conference?": "You требует have."
+      },
+      "skillTarget": "perfectVsPast",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G1",
+      "group": "Управляемая практика",
+      "prompt": "Choose the answer reporting a finished event two days ago.",
+      "options": [
+        "I received the message two days ago.",
+        "I've received the message two days ago.",
+        "I receive the message two days ago."
+      ],
+      "answer": "I received the message two days ago.",
+      "accepted": [
+        "I received the message two days ago."
+      ],
+      "why": "Two days ago требует Past Simple в стандартном контексте.",
+      "distractorWhy": "Perfect не сочетается с этим законченным моментом действия.",
+      "distractorRationales": {
+        "I've received the message two days ago.": "Perfect не сочетается с этим законченным моментом действия.",
+        "I receive the message two days ago.": "Receive — V1, не прошедшее."
+      },
+      "skillTarget": "perfectVsPast",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G2",
+      "group": "Управляемая практика",
+      "prompt": "She lived in Paris from 2017 to 2020 and then moved away. Choose the matching form.",
+      "options": [
+        "She's lived in Paris for three years and still lives there.",
+        "She has live in Paris for three years.",
+        "She lived in Paris for three years."
+      ],
+      "answer": "She lived in Paris for three years.",
+      "accepted": [
+        "She lived in Paris for three years."
+      ],
+      "why": "Past Simple описывает завершённый период.",
+      "distractorWhy": "Still lives противоречит переезду.",
+      "distractorRationales": {
+        "She's lived in Paris for three years and still lives there.": "Still lives противоречит переезду.",
+        "She has live in Paris for three years.": "Live не V3."
+      },
+      "skillTarget": "perfectVsPast",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G3",
+      "group": "Управляемая практика",
+      "prompt": "She started living here in 2021 and still lives here. Choose Present Perfect.",
+      "options": [
+        "She has live here since 2021.",
+        "She's lived here since 2021.",
+        "She have lived here since 2021."
+      ],
+      "answer": "She's lived here since 2021.",
+      "accepted": [
+        "She's lived here since 2021."
+      ],
+      "why": "Has + lived выражает продолжающееся состояние.",
+      "distractorWhy": "Live — V1.",
+      "distractorRationales": {
+        "She has live here since 2021.": "Live — V1.",
+        "She have lived here since 2021.": "She требует has."
+      },
+      "skillTarget": "perfectVsPast",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G4",
+      "group": "Управляемая практика",
+      "prompt": "Choose the grammatical follow-up about the time after 'I've finished the report.'",
+      "options": [
+        "When did you finish it?",
+        "When did you finished it?",
+        "When have you finish it?"
+      ],
+      "answer": "When did you finish it?",
+      "accepted": [
+        "When did you finish it?"
+      ],
+      "why": "When did спрашивает о конкретном моменте.",
+      "distractorWhy": "После did нужна V1.",
+      "distractorRationales": {
+        "When did you finished it?": "После did нужна V1.",
+        "When have you finish it?": "Finish не V3."
+      },
+      "skillTarget": "perfectVsPast",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G5",
+      "group": "Управляемая практика",
+      "prompt": "Choose the sentence explicitly reporting the number of completed tasks up to now.",
+      "options": [
+        "We completed five exercises last Monday.",
+        "We will complete five exercises next Monday.",
+        "We've completed five exercises so far."
+      ],
+      "answer": "We've completed five exercises so far.",
+      "accepted": [
+        "We've completed five exercises so far."
+      ],
+      "why": "So far означает количество к настоящему.",
+      "distractorWhy": "Last Monday — законченный период.",
+      "distractorRationales": {
+        "We completed five exercises last Monday.": "Last Monday — законченный период.",
+        "We will complete five exercises next Monday.": "Next Monday — будущее."
+      },
+      "skillTarget": "perfectVsPast",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G6",
+      "group": "Управляемая практика",
+      "prompt": "At 7 p.m., you ask about an event this morning. Choose the standard finished-period question.",
+      "options": [
+        "Did you saw Leo this morning?",
+        "Did you see Leo this morning?",
+        "Have you see Leo this morning?"
+      ],
+      "answer": "Did you see Leo this morning?",
+      "accepted": [
+        "Did you see Leo this morning?"
+      ],
+      "why": "Утро закончилось, Past Simple; did + V1.",
+      "distractorWhy": "Saw — V2 после did.",
+      "distractorRationales": {
+        "Did you saw Leo this morning?": "Saw — V2 после did.",
+        "Have you see Leo this morning?": "See — V1 после have неверно."
+      },
+      "skillTarget": "perfectVsPast",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I1",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the grammatical perfect sentence about an open period with so far.",
+      "options": [
+        "It haven't rained this week so far.",
+        "It hasn't rain this week so far.",
+        "It hasn't rained this week so far."
+      ],
+      "answer": "It hasn't rained this week so far.",
+      "accepted": [
+        "It hasn't rained this week so far."
+      ],
+      "why": "It + hasn't + V3 и so far.",
+      "distractorWhy": "Haven't не согласуется с it.",
+      "distractorRationales": {
+        "It haven't rained this week so far.": "Haven't не согласуется с it.",
+        "It hasn't rain this week so far.": "Rain — V1."
+      },
+      "skillTarget": "perfectVsPast",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I2",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the historical statement about an event in 1969.",
+      "options": [
+        "The first crewed Moon landing has taken place in 1969.",
+        "The first crewed Moon landing took place in 1969.",
+        "The first crewed Moon landing take place in 1969."
+      ],
+      "answer": "The first crewed Moon landing took place in 1969.",
+      "accepted": [
+        "The first crewed Moon landing took place in 1969."
+      ],
+      "why": "In 1969 — завершённая историческая дата; took.",
+      "distractorWhy": "Perfect не подходит к дате этого события.",
+      "distractorRationales": {
+        "The first crewed Moon landing has taken place in 1969.": "Perfect не подходит к дате этого события.",
+        "The first crewed Moon landing take place in 1969.": "Take не выражает прошедшее."
+      },
+      "skillTarget": "perfectVsPast",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I3",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct past negative about a specific evening.",
+      "options": [
+        "I didn't see her at the party last Saturday.",
+        "I didn't saw her at the party last Saturday.",
+        "I haven't saw her at the party last Saturday."
+      ],
+      "answer": "I didn't see her at the party last Saturday.",
+      "accepted": [
+        "I didn't see her at the party last Saturday."
+      ],
+      "why": "Didn't + V1 с законченной датой.",
+      "distractorWhy": "Saw — V2.",
+      "distractorRationales": {
+        "I didn't saw her at the party last Saturday.": "Saw — V2.",
+        "I haven't saw her at the party last Saturday.": "После have нужна V3 и выбран неподходящий временной фокус."
+      },
+      "skillTarget": "perfectVsPast",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I4",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the perfect negative about an expected answer up to now.",
+      "options": [
+        "I haven't hear from the tutor yet.",
+        "I hasn't heard from the tutor yet.",
+        "I haven't heard from the tutor yet."
+      ],
+      "answer": "I haven't heard from the tutor yet.",
+      "accepted": [
+        "I haven't heard from the tutor yet."
+      ],
+      "why": "Have not + V3 heard и yet.",
+      "distractorWhy": "Hear — V1.",
+      "distractorRationales": {
+        "I haven't hear from the tutor yet.": "Hear — V1.",
+        "I hasn't heard from the tutor yet.": "I требует have."
+      },
+      "skillTarget": "perfectVsPast",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I5",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the ordinary past form for a habit during a finished childhood period.",
+      "options": [
+        "I've never eaten olives when I was a child.",
+        "I never ate olives when I was a child.",
+        "I never eat olives when I was a child."
+      ],
+      "answer": "I never ate olives when I was a child.",
+      "accepted": [
+        "I never ate olives when I was a child."
+      ],
+      "why": "When I was a child задаёт завершённый период.",
+      "distractorWhy": "Perfect не подходит к этому законченному периоду.",
+      "distractorRationales": {
+        "I've never eaten olives when I was a child.": "Perfect не подходит к этому законченному периоду.",
+        "I never eat olives when I was a child.": "Eat — настоящее."
+      },
+      "skillTarget": "perfectVsPast",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I6",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the sentence about an experience that has never occurred up to now.",
+      "options": [
+        "I've never flown in a helicopter.",
+        "I've never flew in a helicopter.",
+        "I has never flown in a helicopter."
+      ],
+      "answer": "I've never flown in a helicopter.",
+      "accepted": [
+        "I've never flown in a helicopter."
+      ],
+      "why": "Have + flown (V3) описывает опыт.",
+      "distractorWhy": "Flew — V2.",
+      "distractorRationales": {
+        "I've never flew in a helicopter.": "Flew — V2.",
+        "I has never flown in a helicopter.": "I требует have."
+      },
+      "skillTarget": "perfectVsPast",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I7",
+      "group": "Самостоятельная практика",
+      "prompt": "Which statement is necessarily true if 'She lost her keys yesterday' is true?",
+      "options": [
+        "She definitely still has no keys.",
+        "She definitely found them this morning.",
+        "The loss happened yesterday; her current situation is unspecified."
+      ],
+      "answer": "The loss happened yesterday; her current situation is unspecified.",
+      "accepted": [
+        "The loss happened yesterday; her current situation is unspecified."
+      ],
+      "why": "Past Simple сообщает о прошлом факте.",
+      "distractorWhy": "Текущее отсутствие не гарантировано.",
+      "distractorRationales": {
+        "She definitely still has no keys.": "Текущее отсутствие не гарантировано.",
+        "She definitely found them this morning.": "О находке ничего не сказано."
+      },
+      "skillTarget": "perfectVsPast",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I8",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the sentence that states an event at a finished time and its later reversal.",
+      "options": [
+        "It has stopped raining at noon, but now it's raining again.",
+        "It stopped raining at noon, but now it's raining again.",
+        "It stop raining at noon, but now it's raining again."
+      ],
+      "answer": "It stopped raining at noon, but now it's raining again.",
+      "accepted": [
+        "It stopped raining at noon, but now it's raining again."
+      ],
+      "why": "Past Simple с прошлой точкой и последующим изменением.",
+      "distractorWhy": "Perfect о нынешнем результате не соответствует возобновлению дождя и прошлому времени.",
+      "distractorRationales": {
+        "It has stopped raining at noon, but now it's raining again.": "Perfect о нынешнем результате не соответствует возобновлению дождя и прошлому времени.",
+        "It stop raining at noon, but now it's raining again.": "Stop — V1."
+      },
+      "skillTarget": "perfectVsPast",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I9",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the correct contrast using see in both tenses.",
+      "options": [
+        "I've seen this play before; I saw it last year.",
+        "I've saw this play before; I seen it last year.",
+        "I've see this play before; I have saw it last year."
+      ],
+      "answer": "I've seen this play before; I saw it last year.",
+      "accepted": [
+        "I've seen this play before; I saw it last year."
+      ],
+      "why": "Seen — V3, saw — V2.",
+      "distractorWhy": "V2 и V3 перепутаны.",
+      "distractorRationales": {
+        "I've saw this play before; I seen it last year.": "V2 и V3 перепутаны.",
+        "I've see this play before; I have saw it last year.": "Неверные формы после have."
+      },
+      "skillTarget": "perfectVsPast",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E1",
+      "group": "Выходная проверка",
+      "prompt": "Choose the correct question about one completed purchase on Monday.",
+      "options": [
+        "Did you buy the textbook on Monday?",
+        "Did you bought the textbook on Monday?",
+        "Have you buy the textbook on Monday?"
+      ],
+      "answer": "Did you buy the textbook on Monday?",
+      "accepted": [
+        "Did you buy the textbook on Monday?"
+      ],
+      "why": "Did + V1 для конкретного прошлого события.",
+      "distractorWhy": "Bought — V2 после did неверно.",
+      "distractorRationales": {
+        "Did you bought the textbook on Monday?": "Bought — V2 после did неверно.",
+        "Have you buy the textbook on Monday?": "Buy не V3."
+      },
+      "skillTarget": "perfectVsPast",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E2",
+      "group": "Выходная проверка",
+      "prompt": "Which pair shows a finished duration followed by an ongoing duration?",
+      "options": [
+        "I've worked there for two years until I left in 2020; I worked here for three years and still work here now.",
+        "I work there for two years yesterday; I've work here for three years.",
+        "I worked there for two years; I've worked here for three years and still work here."
+      ],
+      "answer": "I worked there for two years; I've worked here for three years and still work here.",
+      "accepted": [
+        "I worked there for two years; I've worked here for three years and still work here."
+      ],
+      "why": "Первый период прошлый, второй продолжается.",
+      "distractorWhy": "Временные перспективы не соответствуют указанным условиям.",
+      "distractorRationales": {
+        "I've worked there for two years until I left in 2020; I worked here for three years and still work here now.": "Временные перспективы не соответствуют указанным условиям.",
+        "I work there for two years yesterday; I've work here for three years.": "Неверное время и форма Perfect."
+      },
+      "skillTarget": "perfectVsPast",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E3",
+      "group": "Выходная проверка",
+      "prompt": "Choose the correct construction with a past event marking the start of a continuing state.",
+      "options": [
+        "I've knew her since we started college.",
+        "I've known her since we started college.",
+        "I know her since we started college."
+      ],
+      "answer": "I've known her since we started college.",
+      "accepted": [
+        "I've known her since we started college."
+      ],
+      "why": "Have known + since-clause с прошлым событием.",
+      "distractorWhy": "Knew — V2.",
+      "distractorRationales": {
+        "I've knew her since we started college.": "Knew — V2.",
+        "I know her since we started college.": "Present Simple не обычная форма продолжающегося состояния с since."
+      },
+      "skillTarget": "perfectVsPast",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E4",
+      "group": "Выходная проверка",
+      "prompt": "Which rule about 'today' is accurate?",
+      "options": [
+        "It can be an open period, but a specific completed event today can use Past Simple.",
+        "It always makes Past Simple incorrect.",
+        "It always makes Present Perfect incorrect."
+      ],
+      "answer": "It can be an open period, but a specific completed event today can use Past Simple.",
+      "accepted": [
+        "It can be an open period, but a specific completed event today can use Past Simple."
+      ],
+      "why": "Контекст и перспектива важнее слова today.",
+      "distractorWhy": "Past Simple возможен для отдельного завершённого факта.",
+      "distractorRationales": {
+        "It always makes Past Simple incorrect.": "Past Simple возможен для отдельного завершённого факта.",
+        "It always makes Present Perfect incorrect.": "Perfect возможен для открытого периода."
+      },
+      "skillTarget": "perfectVsPast",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E5",
+      "group": "Выходная проверка",
+      "prompt": "Choose the grammatical exchange moving from present result to past details.",
+      "options": [
+        "I've broke my glasses. — How did you broke them?",
+        "I've break my glasses. — How have you break them?",
+        "I've broken my glasses. — How did you break them?"
+      ],
+      "answer": "I've broken my glasses. — How did you break them?",
+      "accepted": [
+        "I've broken my glasses. — How did you break them?"
+      ],
+      "why": "Broken — V3; did + break — вопрос о деталях.",
+      "distractorWhy": "Broke не V3 и не V1 после did.",
+      "distractorRationales": {
+        "I've broke my glasses. — How did you broke them?": "Broke не V3 и не V1 после did.",
+        "I've break my glasses. — How have you break them?": "Break не V3 после have."
+      },
+      "skillTarget": "perfectVsPast",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "W1",
+      "group": "Самостоятельное применение",
+      "prompt": "Напиши диалог из 8 реплик о подготовке к экзамену: нынешний результат, вопрос о прошлом времени, детали события, жизненный опыт, открытый и закрытый периоды. Используй оба времени и объясни четыре выбора.",
+      "open": true,
+      "rubric": [
+        "Точные завершённые прошлые даты употреблены с Past Simple.",
+        "Нынешние результаты и опыт выражены по контексту.",
+        "Have/has + V3 и did + V1 правильны.",
+        "For/since и завершённые периоды различены.",
+        "Диалог естественно меняет временную перспективу.",
+        "Не делаются необоснованные выводы о нынешнем результате."
+      ],
+      "skillTarget": "Самостоятельное применение perfectVsPast",
+      "interactionType": "open-production",
+      "difficulty": "transfer",
+      "sourceBasis": "Speakbase-authored open production; self-review rubric only until real AI feedback is connected",
+      "contentVersion": "1.1-draft"
+    }
+  ],
+  "markdown": "# Speakbase — A2-06: Present Perfect vs Past Simple\n\n**Curriculum ID:** `A2-06`  \n**Уровень:** A2  \n**Версия:** 1.1-draft\n**Статус:** drafted; selected source text checked; full source-page and learner acceptance pending\n**Предварительные темы:** A2-01, A2-05  \n**Связь со старым каталогом:** Полное ядро — №20 Present Perfect vs Past Simple\n\n## 1. Результаты обучения\n\n- Выбирать время по связи с настоящим, завершённому времени и конкретному прошлому моменту\n- Выбирать целевую форму по значению, структуре предложения и контексту.\n- Объяснять, почему близкая грамматическая форма меняет смысл или регистр.\n- Находить и исправлять типичные ошибки русскоязычных студентов.\n\n## 2. Источники и статус сверки\n\n| Source | PDF navigation | Lesson-specific checks | Status |\n|---|---|---|---|\n| GR-01 U21 | PDF pages 53-54 (Unit 21) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-02 U13-14 | PDF pages 38-41 (Unit 13-14) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-03 U3 | PDF pages 30-31 (Unit 3) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-03 U8 | PDF pages 40-41 (Unit 8) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-05 A2 p41 | PDF pages 41 (A2 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-05 A2 p50-51 | PDF pages 50-51 (A2 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n\nUnit/page locations are navigation aids only. They do not prove that the cited explanation, examples, restrictions and answer key have been checked for this lesson. Examples and explanations below are Speakbase-authored, not quotations from the textbook.\n\nПеред переводом этого урока в source-verified необходимо открыть целевые страницы конкретного издания, записать печатную и PDF-пагинацию, сверить ограничения и исключения. Для GR-03 со сканированными страницами обязательна визуальная проверка.\n\n**Evidence for this editorial pass:** GR-02 Units 13–14, directly consulted theory text PDF pp. 38, 40 (printed pp. 26, 28): current result vs past fact, new information and follow-up, finished/unfinished time, when-questions, continuing and finished periods. Other sources and exercise pages pending. The selected source text was consulted; not all pages, exercises, editions, scanned GR-03 pages or GR-05 descriptors were checked. Author-created explanations and practice are not copied source exercises.\n\n## 3. Место темы и границы\n\nВыбор между Present Perfect и Past Simple зависит от точки отсчёта и связи с настоящим, а не только от отдельного временного наречия.\n\nСтарый каталог содержит: №20 Present Perfect vs Past Simple. Его статус — Полное ядро. Старые отметки завершения не переносятся автоматически на новый постоянный ID. Тема рассматривается в уровне A2 и не заменяет обязательные prerequisites.\n\n## 4. Полный конспект\n\n### 4.1. Основная идея и функция конструкции\n\nPast Simple описывает факт в прошлом, а Present Perfect Simple связывает действие с настоящим. Главное различие — не давность события, а временная перспектива. I lost my card yesterday сообщает о вчерашнем событии. I've lost my card, so I can't enter сообщает о нынешней проблеме.\n\nЕсли кто-то потерял карточку, а потом нашёл её, предложение I lost my card yesterday остаётся верным. Но в ситуации, где карточка уже найдена, сообщение I've lost my card как объяснение её нынешнего отсутствия не подходит. Present Perfect часто вводит новую информацию, после чего детали обсуждают в Past Simple: I've broken my glasses. — How did you break them? — I dropped them on the floor. Это естественная смена фокуса с результата сейчас на обстоятельства прошлого.\n\n### 4.2. Формирование и грамматическая модель\n\n| | Present Perfect | Past Simple |\n|---|---|---|\n| Утверждение | have/has + V3 | V2 |\n| Отрицание | haven't/hasn't + V3 | didn't + V1 |\n| Общий вопрос | Have/Has + subject + V3? | Did + subject + V1? |\n| Вопрос о точном прошлом времени | обычно не используется для завершённой даты события | When did you arrive? |\n| Пример | I've seen that film. | I saw that film on Sunday. |\n\nПроверь неправильные глаголы: see–saw–seen, write–wrote–written, go–went–gone, eat–ate–eaten, take–took–taken, be–was/were–been. После have/has используй V3; после did — V1, а в утвердительном Past Simple — V2. Примеры: I've seen it. I saw it. Did you see it? I haven't seen it. I didn't see it. В Past Simple be образует was/were без did.\n\n### 4.3. Как выбрать подходящую форму\n\n1. Если указано законченное время действия (yesterday, last week, in 2019, two hours ago), выбирай Past Simple. 2. Если речь о жизненном опыте до сейчас, текущем результате или количестве за ещё открытый период, Present Perfect часто естественнее. 3. Если спрашиваешь, когда произошло отдельное завершённое событие, используй When did…? 4. Если описываешь состояние, продолжающееся до настоящего, проверь Present Perfect с for/since.\n\nToday, this week и this morning не всегда автоматически требуют Perfect. В 10 утра this morning ещё продолжается; в 6 вечера этот период закончен. Have you seen the tutor this morning? (ещё утро) — вопрос о периоде до сейчас. Did you see the tutor this morning? (уже вечер) — вопрос о прошлом периоде. Даже в открытом периоде Past Simple возможен, если говорящий фокусируется на отдельном законченном событии: I saw him at nine today. Поэтому сначала оцени весь контекст.\n\n### 4.4. Сравнение с близкими конструкциями\n\n| Present Perfect | Past Simple |\n|---|---|\n| I've finished three tasks so far. | I finished three tasks yesterday. |\n| I've lived here for five years (still here). | I lived there for five years (finished period). |\n| Have you ever visited Rome? | Did you visit Rome during your trip last year? |\n| She has left, so she isn't here. | She left yesterday but is back now. |\n| I've just received a message. | I received a message ten minutes ago. |\n\n### 4.5. Примеры с переводом и объяснением\n\n| English | Перевод | Почему это подходит |\n| --- | --- | --- |\n| I've sent the email, so you can check your inbox. | Я отправила письмо, так что можешь проверить почту. | Текущий результат. |\n| I sent the email at nine yesterday. | Я отправила письмо вчера в девять. | Законченный прошлый момент. |\n| Have you ever taken an online course? | Ты когда-нибудь проходила онлайн-курс? | Опыт до настоящего. |\n| When did you take that course? | Когда ты проходила этот курс? | Вопрос о конкретном прошлом событии. |\n| I've known her since 2022. | Я знаю её с 2022 года. | Состояние продолжается. |\n| I lived in that town from 2018 to 2022. | Я жила в том городе с 2018 по 2022 год. | Законченный период. |\n\n### 4.6. Исключения, ограничения и границы употребления\n\nFor не является обязательным признаком Perfect: I worked there for two years and then left — завершённый период. I've worked there for two years and still work there — период продолжается. Since с началом продолжающегося периода часто употребляется с Perfect, а событие после since может стоять в Past Simple: I've lived here since I started college. Не смешивай завершённую дату самого действия с датой начала после since.\n\nАмериканский английский часто использует Past Simple с just, already и yet; британский английский чаще выбирает Present Perfect в соответствующем текущем контексте. В обоих вариантах законченный прошлый момент самого действия обычно требует Past Simple. Never может сочетаться с Past Simple, если речь об окончившемся периоде: I never rode a bike as a child. В Present Perfect — опыт до сейчас: I've never ridden a bike. Не делай вывод о нынешнем результате только из Past Simple: She lost her keys не говорит, нашла ли она их позже.\n\n### 4.7. Типичные ошибки русскоязычных студентов\n\n| Ошибка | Исправление | Объяснение |\n| --- | --- | --- |\n| I've visited the museum yesterday. | I visited the museum yesterday. | Yesterday указывает на законченный момент. |\n| When have you bought this book? (вопрос о дате одной покупки). | When did you buy this book? | Вопрос о конкретном прошлом событии. |\n| I have saw her before. | I have seen her before. | После have нужна V3. |\n| Did you went to the seminar? | Did you go to the seminar? | После did нужна V1. |\n| I live here since 2022 (если всё ещё живу здесь). | I've lived here since 2022. | Продолжающееся состояние с since. |\n\n### 4.8. Произношение и восприятие на слух\n\nСравни I've SEEN it и I SAW it. В Perfect вспомогательное have часто безударно, но не исчезает из грамматики. При вопросах слушай Have you…? и Did you…?; окончание основного глагола может быть одинаковым у правильных форм. Для неправильных форм ориентируйся на всю конструкцию, а не только на звучание одного слова.\n\nСначала прослушай или прочитай пример, затем произнеси его целиком. Обрати внимание на смысловое ударение и форму конструкции; не ориентируйся только на буквенный перевод.\n\n### 4.9. Академический английский и TOEFL-перенос\n\nВ Reading и Listening отличай исторический факт от нынешнего статуса проекта. В Speaking при рассказе об опыте сначала назови общий опыт с Present Perfect, затем детали с Past Simple. В Writing Email объясняй, что уже выполнено и когда именно произошло отдельное событие: I've uploaded the report. I uploaded it at ten yesterday. Это авторская тренировка, не официальный экзаменационный материал.\n\nЭто авторская практика переноса навыка. Она не является официальным заданием TOEFL и не выдаётся за официальный результат экзамена.\n\n### 4.10. Примеры для управляемого разбора\n\n- I've sent the email, so you can check your inbox. — Я отправила письмо, так что можешь проверить почту. Текущий результат.\n- I sent the email at nine yesterday. — Я отправила письмо вчера в девять. Законченный прошлый момент.\n- Have you ever taken an online course? — Ты когда-нибудь проходила онлайн-курс? Опыт до настоящего.\n\nДля каждого примера назови целевую конструкцию, объясни выбор и составь новое предложение в другом контексте. Затем перейди к заданиям: сначала диагностика, затем управляемая и самостоятельная практика, затем новые вопросы выходной проверки.\n\n### 4.11. Самопроверка\n\nПеред отправкой ответа проверь:\n1. Точные завершённые прошлые даты употреблены с Past Simple.\n2. Нынешние результаты и опыт выражены по контексту.\n3. Have/has + V3 и did + V1 правильны.\n4. For/since и завершённые периоды различены.\n5. Диалог естественно меняет временную перспективу.\n6. Не делаются необоснованные выводы о нынешнем результате.\n\n### 4.12. Краткая памятка\n\nPresent Perfect: have/has + V3, связь с сейчас. Past Simple: V2, законченное прошлое; did/didn't + V1. Точная прошлая дата и вопрос о моменте отдельного события обычно требуют Past Simple. For/since и never зависят от контекста; unfinished time не гарантирует единственную возможную форму.\n\nНе выбирай форму только по одному знакомому слову: проверь контекст, значение и структуру. При ошибке вернись к соответствующей части конспекта и составь собственный пример.\n\n## 5. Практика\n\nВ приложении практика разделена на входную диагностику, управляемые задания, самостоятельную практику и новую выходную проверку. Закрытые ответы получают rationale и разбор ошибки. Свободный текст сохраняется и оценивается по рубрике; до подключения и реальной проверки AI-движка система не выдаёт его за автоматическую AI-оценку.\n\n## 6. Интервальное повторение\n\nПовторяй не весь урок автоматически, а конкретную ошибку: выбор формы, согласование, word order, значение, регистр или пунктуацию. Новая попытка должна менять лексический контекст и формулировку, чтобы проверять перенос, а не запоминание одной строки.\n\n## 7. Технический статус\n\n- Постоянный ID: `A2-06`.\n- Прогресс хранится отдельно в course.grammarLessons[\"A2-06\"].\n- Содержание и ключи имеют статус draft; 24 авторских закрытых задания и объяснения вычитаны, выбранные тексты источников проверены. Полная постраничная и пользовательская приёмка остаются открытыми.\n- Предварительное выполнение порогов не равно окончательному mastered: нужны отсроченное повторение и learner review.",
+  "theoryEnd": "## 5."
+}

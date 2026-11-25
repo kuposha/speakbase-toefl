@@ -1,0 +1,743 @@
+{
+  "id": "A2-05",
+  "level": "A2",
+  "sequence": "A2-05",
+  "grammarFamily": "presentPerfect",
+  "questionBankSource": "topic-specific-authored",
+  "sourceVerification": "draft; selected source text consulted; complete source-page and learner review pending",
+  "topicProfile": {
+    "label": "Present Perfect Simple — experience and result",
+    "core": "Present Perfect Simple (настоящее совершенное время) связывает действие или опыт в прошлом с настоящим. Важно не просто то, что действие было, а результат сейчас, жизненный опыт или количество действий за период, который продолжается до настоящего. I have lost my card — я потеряла карточку, и сейчас её нет.",
+    "form": "| Тип | Формула | Пример |\n|---|---|---|\n| Утверждение I/you/we/they | have + V3 | I have finished. |\n| Утверждение he/she/it | has + V3 | She has finished. |\n| Отрицание | have/has not + V3 | She hasn't finished. |\n| Общий вопрос | Have/Has + subject + V3? | Has she finished? |\n| Специальный вопрос | Wh-word + have/has + subject + V3? | What have you done? |",
+    "selection": "Используй Present Perfect для нового сообщения о результате сейчас, опыта за жизнь до настоящего момента, повторяющихся действий за открытый период и некоторых состояний, продолжающихся до сейчас. Не называй точное законченное прошлое время действия в той же конструкции: yesterday, last year, two days ago обычно требуют Past Simple.",
+    "contrast": "| Пример | Значение |\n|---|---|\n| I've just finished the test. | Только что закончила; результат сейчас. |\n| Have you ever tried skiing? | Опыт за жизнь. |\n| I have never tried it. | Такого опыта пока нет. |\n| She has gone to the library. | Она ушла в библиотеку, ещё не вернулась (в обычном контексте). |\n| She has been to the library. | Она побывала там; в данном контексте вернулась. |\n| This is the first time I've used this app. | Первый такой опыт до настоящего. |",
+    "boundary": "Been to и gone to не взаимозаменяемы в обычной ситуации: gone to подразумевает, что человек ещё там или по пути туда; been to описывает посещение. Never уже отрицательно: I have never seen it, не I haven't never seen it в стандартной письменной речи. Не смешивай have/has как вспомогательное с смысловым have: I have had lunch — пообедала; had здесь V3 глагола have.",
+    "pronunciation": "Have/has часто сокращаются и произносятся слабо: I've DONE, she's FINished. В she's finished сокращение 's означает has, если finished — V3 в конструкции Perfect; в she's working — is. У неправильных форм обращай внимание на различие saw/seen, went/gone, wrote/written. Словарное аудио и отдельная фонетическая сверка пока не выполнены.",
+    "examples": [
+      [
+        "I've misplaced my notebook, so I can't find it now.",
+        "Я куда-то положила тетрадь и сейчас не могу найти её.",
+        "Нынешний результат."
+      ],
+      [
+        "Have you ever visited a science museum?",
+        "Ты когда-нибудь посещала научный музей?",
+        "Вопрос об опыте."
+      ],
+      [
+        "We've already sent the application.",
+        "Мы уже отправили заявление.",
+        "Already после auxiliary."
+      ],
+      [
+        "She hasn't received the confirmation yet.",
+        "Она ещё не получила подтверждение.",
+        "Yet в отрицании."
+      ],
+      [
+        "He's gone to the laboratory; he'll be back soon.",
+        "Он ушёл в лабораторию и скоро вернётся.",
+        "Gone to; сейчас отсутствует."
+      ],
+      [
+        "I've been to that exhibition twice.",
+        "Я дважды была на той выставке.",
+        "Опыт посещения."
+      ]
+    ],
+    "traps": [
+      [
+        "She have finished her report.",
+        "She has finished her report.",
+        "She требует has."
+      ],
+      [
+        "I have saw the film.",
+        "I have seen the film.",
+        "Seen — V3, saw — V2."
+      ],
+      [
+        "Did you have finished the task?",
+        "Have you finished the task?",
+        "Вопрос образуется с have без did."
+      ],
+      [
+        "I haven't never visited Italy.",
+        "I have never visited Italy.",
+        "Never уже выражает отрицание."
+      ],
+      [
+        "She has gone to Rome twice and is back home (если речь об опыте посещения).",
+        "She has been to Rome twice.",
+        "Been to описывает завершённые посещения."
+      ]
+    ],
+    "toefl": "В Reading и Listening обращай внимание на завершённые результаты и опыт к настоящему моменту. В Speaking расскажи, что уже успела изучить и чего ещё не делала. В Writing Email сообщай о текущем статусе: I've submitted the form, but I haven't received confirmation yet. Не указывай официальный балл за эти упражнения; это тренировка точности."
+  },
+  "title": "Present Perfect Simple — experience and result",
+  "description": "Говорить об опыте и результате, использовать ever/never/just/already/yet",
+  "cardDescription": "Теория, guided practice, самостоятельные задания и выходная проверка по постоянному ID A2-05.",
+  "eyebrow": "Полный урок программы A2-05 · drafted",
+  "contentVersion": "1.1-draft",
+  "curriculumVersion": "1.0",
+  "prerequisites": [
+    "A1-05",
+    "A2-01"
+  ],
+  "outcomes": [
+    "Говорить об опыте и результате, использовать ever/never/just/already/yet",
+    "Выбирать целевую конструкцию по контексту и смыслу.",
+    "Исправлять типичные ошибки и переносить правило в новый пример."
+  ],
+  "sourceRefs": [
+    "GR-01 U16-20",
+    "GR-02 U7-8",
+    "GR-03 U3",
+    "GR-03 U6",
+    "GR-05 A2 p41",
+    "GR-05 A2 p50-51"
+  ],
+  "sourceStatus": "selected source text consulted; full page verification pending",
+  "status": "drafted",
+  "legacyCoverage": "Полное ядро",
+  "toeflLinks": [
+    "Writing: Build a Sentence",
+    "Writing: Write an Email"
+  ],
+  "thresholds": {
+    "independent": 7,
+    "exit": 4,
+    "criticalIds": [
+      "E1",
+      "E2",
+      "E3"
+    ]
+  },
+  "groups": {
+    "independent": "Самостоятельная практика",
+    "exit": "Выходная проверка"
+  },
+  "items": [
+    {
+      "id": "D1",
+      "group": "Входная диагностика",
+      "prompt": "Use Present Perfect: I can't find my student card. I ___ it.",
+      "options": [
+        "has lost",
+        "have lost",
+        "have lose"
+      ],
+      "answer": "have lost",
+      "accepted": [
+        "have lost"
+      ],
+      "why": "I + have + V3 lost; результат актуален.",
+      "distractorWhy": "Has не согласуется с I.",
+      "distractorRationales": {
+        "has lost": "Has не согласуется с I.",
+        "have lose": "Lose — V1."
+      },
+      "skillTarget": "presentPerfect",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D2",
+      "group": "Входная диагностика",
+      "prompt": "She ___ the report already. Use Present Perfect of write.",
+      "options": [
+        "has written",
+        "has wrote",
+        "have written"
+      ],
+      "answer": "has written",
+      "accepted": [
+        "has written"
+      ],
+      "why": "She + has + written (V3).",
+      "distractorWhy": "Wrote — V2.",
+      "distractorRationales": {
+        "has wrote": "Wrote — V2.",
+        "have written": "Have не согласуется с she."
+      },
+      "skillTarget": "presentPerfect",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D3",
+      "group": "Входная диагностика",
+      "prompt": "Choose the correct negative about a result not achieved yet.",
+      "options": [
+        "We hasn't received the email yet.",
+        "We haven't receive the email yet.",
+        "We haven't received the email yet."
+      ],
+      "answer": "We haven't received the email yet.",
+      "accepted": [
+        "We haven't received the email yet."
+      ],
+      "why": "We + haven't + V3.",
+      "distractorWhy": "Hasn't не согласуется с we.",
+      "distractorRationales": {
+        "We hasn't received the email yet.": "Hasn't не согласуется с we.",
+        "We haven't receive the email yet.": "Receive — V1."
+      },
+      "skillTarget": "presentPerfect",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D4",
+      "group": "Входная диагностика",
+      "prompt": "Choose the question about experience up to now.",
+      "options": [
+        "Did you ever have tried pottery?",
+        "Have you ever tried pottery?",
+        "Have you ever try pottery?"
+      ],
+      "answer": "Have you ever tried pottery?",
+      "accepted": [
+        "Have you ever tried pottery?"
+      ],
+      "why": "Have + subject + ever + V3.",
+      "distractorWhy": "Did не добавляется к Perfect.",
+      "distractorRationales": {
+        "Did you ever have tried pottery?": "Did не добавляется к Perfect.",
+        "Have you ever try pottery?": "Try — V1."
+      },
+      "skillTarget": "presentPerfect",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G1",
+      "group": "Управляемая практика",
+      "prompt": "Choose the correct sentence with never.",
+      "options": [
+        "I've never ridden a horse.",
+        "I haven't never ridden a horse.",
+        "I've never rode a horse."
+      ],
+      "answer": "I've never ridden a horse.",
+      "accepted": [
+        "I've never ridden a horse."
+      ],
+      "why": "Never после have и V3 ridden.",
+      "distractorWhy": "Двойное отрицание в стандартной модели.",
+      "distractorRationales": {
+        "I haven't never ridden a horse.": "Двойное отрицание в стандартной модели.",
+        "I've never rode a horse.": "Rode — V2."
+      },
+      "skillTarget": "presentPerfect",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G2",
+      "group": "Управляемая практика",
+      "prompt": "Choose the present perfect with just.",
+      "options": [
+        "He just has finish his lunch.",
+        "He's just finish his lunch.",
+        "He's just finished his lunch."
+      ],
+      "answer": "He's just finished his lunch.",
+      "accepted": [
+        "He's just finished his lunch."
+      ],
+      "why": "Has + just + V3 finished.",
+      "distractorWhy": "Finish не V3.",
+      "distractorRationales": {
+        "He just has finish his lunch.": "Finish не V3.",
+        "He's just finish his lunch.": "После has нужна V3."
+      },
+      "skillTarget": "presentPerfect",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G3",
+      "group": "Управляемая практика",
+      "prompt": "The tutor is still away at the library. Choose the usual expression.",
+      "options": [
+        "She's been to the library and returned.",
+        "She's gone to the library.",
+        "She's going to the library yesterday."
+      ],
+      "answer": "She's gone to the library.",
+      "accepted": [
+        "She's gone to the library."
+      ],
+      "why": "Gone to передаёт её отсутствие.",
+      "distractorWhy": "Been and returned противоречит контексту.",
+      "distractorRationales": {
+        "She's been to the library and returned.": "Been and returned противоречит контексту.",
+        "She's going to the library yesterday.": "Yesterday не согласуется с этой формой."
+      },
+      "skillTarget": "presentPerfect",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G4",
+      "group": "Управляемая практика",
+      "prompt": "Anna visited Madrid and is back home. Choose the experience expression.",
+      "options": [
+        "Anna has been to Madrid.",
+        "Anna has gone to Madrid and is still there.",
+        "Anna has be to Madrid."
+      ],
+      "answer": "Anna has been to Madrid.",
+      "accepted": [
+        "Anna has been to Madrid."
+      ],
+      "why": "Been to описывает посещение.",
+      "distractorWhy": "Gone and still there противоречит возвращению.",
+      "distractorRationales": {
+        "Anna has gone to Madrid and is still there.": "Gone and still there противоречит возвращению.",
+        "Anna has be to Madrid.": "Be — V1."
+      },
+      "skillTarget": "presentPerfect",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G5",
+      "group": "Управляемая практика",
+      "prompt": "Choose the correct placement of already in the target pattern.",
+      "options": [
+        "They've already book the tickets.",
+        "They has already booked the tickets.",
+        "They've already booked the tickets."
+      ],
+      "answer": "They've already booked the tickets.",
+      "accepted": [
+        "They've already booked the tickets."
+      ],
+      "why": "Have + already + V3.",
+      "distractorWhy": "Book — V1.",
+      "distractorRationales": {
+        "They've already book the tickets.": "Book — V1.",
+        "They has already booked the tickets.": "They требует have."
+      },
+      "skillTarget": "presentPerfect",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G6",
+      "group": "Управляемая практика",
+      "prompt": "Choose the question with yet about an expected result.",
+      "options": [
+        "Has the parcel arrive yet?",
+        "Has the parcel arrived yet?",
+        "Have the parcel arrived yet?"
+      ],
+      "answer": "Has the parcel arrived yet?",
+      "accepted": [
+        "Has the parcel arrived yet?"
+      ],
+      "why": "Has + singular subject + V3; yet в конце.",
+      "distractorWhy": "Arrive — V1.",
+      "distractorRationales": {
+        "Has the parcel arrive yet?": "Arrive — V1.",
+        "Have the parcel arrived yet?": "Parcel требует has."
+      },
+      "skillTarget": "presentPerfect",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I1",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose a short affirmative answer to 'Have you eaten?'",
+      "options": [
+        "Yes, I did eaten.",
+        "Yes, I has.",
+        "Yes, I have."
+      ],
+      "answer": "Yes, I have.",
+      "accepted": [
+        "Yes, I have."
+      ],
+      "why": "Повторяется have.",
+      "distractorWhy": "Did eaten неверно.",
+      "distractorRationales": {
+        "Yes, I did eaten.": "Did eaten неверно.",
+        "Yes, I has.": "I требует have."
+      },
+      "skillTarget": "presentPerfect",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I2",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose a short negative answer to 'Has she called?'",
+      "options": [
+        "No, she haven't.",
+        "No, she hasn't.",
+        "No, she not has."
+      ],
+      "answer": "No, she hasn't.",
+      "accepted": [
+        "No, she hasn't."
+      ],
+      "why": "Hasn't согласуется с she.",
+      "distractorWhy": "Haven't не согласуется.",
+      "distractorRationales": {
+        "No, she haven't.": "Haven't не согласуется.",
+        "No, she not has.": "Not has неверный порядок."
+      },
+      "skillTarget": "presentPerfect",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I3",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the third form of take.",
+      "options": [
+        "taken",
+        "took",
+        "taking"
+      ],
+      "answer": "taken",
+      "accepted": [
+        "taken"
+      ],
+      "why": "Taken — V3.",
+      "distractorWhy": "Took — V2.",
+      "distractorRationales": {
+        "took": "Took — V2.",
+        "taking": "Taking — -ing."
+      },
+      "skillTarget": "presentPerfect",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I4",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the third form of break.",
+      "options": [
+        "broke",
+        "breaked",
+        "broken"
+      ],
+      "answer": "broken",
+      "accepted": [
+        "broken"
+      ],
+      "why": "Broken — V3.",
+      "distractorWhy": "Broke — V2.",
+      "distractorRationales": {
+        "broke": "Broke — V2.",
+        "breaked": "Breaked не стандартная форма."
+      },
+      "skillTarget": "presentPerfect",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I5",
+      "group": "Самостоятельная практика",
+      "prompt": "This is the first time I ___ this program. Use Present Perfect.",
+      "options": [
+        "has used",
+        "have used",
+        "have use"
+      ],
+      "answer": "have used",
+      "accepted": [
+        "have used"
+      ],
+      "why": "First time + present perfect для первого опыта до сейчас.",
+      "distractorWhy": "Has не согласуется с I.",
+      "distractorRationales": {
+        "has used": "Has не согласуется с I.",
+        "have use": "Use — V1."
+      },
+      "skillTarget": "presentPerfect",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I6",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the sentence about a period continuing to now, using so far.",
+      "options": [
+        "We've completed four lessons so far.",
+        "We has completed four lessons so far.",
+        "We've complete four lessons so far."
+      ],
+      "answer": "We've completed four lessons so far.",
+      "accepted": [
+        "We've completed four lessons so far."
+      ],
+      "why": "Have + V3 и so far передают результат к сейчас.",
+      "distractorWhy": "We требует have.",
+      "distractorRationales": {
+        "We has completed four lessons so far.": "We требует have.",
+        "We've complete four lessons so far.": "Complete — V1."
+      },
+      "skillTarget": "presentPerfect",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I7",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the normal form for an acquaintance that began in May and continues now.",
+      "options": [
+        "I've knew her since May.",
+        "I've been know her since May.",
+        "I've known her since May."
+      ],
+      "answer": "I've known her since May.",
+      "accepted": [
+        "I've known her since May."
+      ],
+      "why": "Know в состоянии: have + known (V3).",
+      "distractorWhy": "Knew — V2.",
+      "distractorRationales": {
+        "I've knew her since May.": "Knew — V2.",
+        "I've been know her since May.": "Been know не грамматическая форма."
+      },
+      "skillTarget": "presentPerfect",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I8",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the duration expression in 'I've lived here ___ three years.'",
+      "options": [
+        "since",
+        "for",
+        "ago"
+      ],
+      "answer": "for",
+      "accepted": [
+        "for"
+      ],
+      "why": "For + длительность.",
+      "distractorWhy": "Since вводит начало.",
+      "distractorRationales": {
+        "since": "Since вводит начало.",
+        "ago": "Ago обозначает отдалённость прошлого события."
+      },
+      "skillTarget": "presentPerfect",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I9",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the starting-point expression in 'She's studied here ___ September.'",
+      "options": [
+        "since",
+        "for",
+        "ago"
+      ],
+      "answer": "since",
+      "accepted": [
+        "since"
+      ],
+      "why": "Since + начало периода.",
+      "distractorWhy": "For требует длительность.",
+      "distractorRationales": {
+        "for": "For требует длительность.",
+        "ago": "Ago не вводит начальную точку."
+      },
+      "skillTarget": "presentPerfect",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E1",
+      "group": "Выходная проверка",
+      "prompt": "Choose the correct form with main verb have.",
+      "options": [
+        "I've had breakfast.",
+        "I've have breakfast.",
+        "I've having breakfast."
+      ],
+      "answer": "I've had breakfast.",
+      "accepted": [
+        "I've had breakfast."
+      ],
+      "why": "Have + V3 had.",
+      "distractorWhy": "Have — V1.",
+      "distractorRationales": {
+        "I've have breakfast.": "Have — V1.",
+        "I've having breakfast.": "Having не V3."
+      },
+      "skillTarget": "presentPerfect",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E2",
+      "group": "Выходная проверка",
+      "prompt": "Choose the correct present perfect special question.",
+      "options": [
+        "What you have done with the keys?",
+        "What have you did with the keys?",
+        "What have you done with the keys?"
+      ],
+      "answer": "What have you done with the keys?",
+      "accepted": [
+        "What have you done with the keys?"
+      ],
+      "why": "Wh + have + subject + V3.",
+      "distractorWhy": "Нет прямой вопросительной инверсии.",
+      "distractorRationales": {
+        "What you have done with the keys?": "Нет прямой вопросительной инверсии.",
+        "What have you did with the keys?": "Did — V2."
+      },
+      "skillTarget": "presentPerfect",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E3",
+      "group": "Выходная проверка",
+      "prompt": "Which sentence explicitly reports a total up to the present moment?",
+      "options": [
+        "I answered six questions last night.",
+        "I've answered six questions so far.",
+        "I will answer six questions tomorrow."
+      ],
+      "answer": "I've answered six questions so far.",
+      "accepted": [
+        "I've answered six questions so far."
+      ],
+      "why": "So far обозначает итог до сейчас.",
+      "distractorWhy": "Last night — законченное прошлое.",
+      "distractorRationales": {
+        "I answered six questions last night.": "Last night — законченное прошлое.",
+        "I will answer six questions tomorrow.": "Will — будущее."
+      },
+      "skillTarget": "presentPerfect",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E4",
+      "group": "Выходная проверка",
+      "prompt": "Choose the correct contraction expansion in 'She's written three pages.'",
+      "options": [
+        "She has written three pages.",
+        "She is written three pages.",
+        "She was written three pages."
+      ],
+      "answer": "She has written three pages.",
+      "accepted": [
+        "She has written three pages."
+      ],
+      "why": "'s перед written в активном Perfect означает has.",
+      "distractorWhy": "Is written — пассив, не этот смысл.",
+      "distractorRationales": {
+        "She is written three pages.": "Is written — пассив, не этот смысл.",
+        "She was written three pages.": "'s не сокращение was."
+      },
+      "skillTarget": "presentPerfect",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E5",
+      "group": "Выходная проверка",
+      "prompt": "Choose the accurate rule for the past participle in Present Perfect.",
+      "options": [
+        "Always use V2 after have or has.",
+        "Use V-ing directly after have or has.",
+        "Use V3 after have or has."
+      ],
+      "answer": "Use V3 after have or has.",
+      "accepted": [
+        "Use V3 after have or has."
+      ],
+      "why": "Perfect требует V3.",
+      "distractorWhy": "V2 и V3 не всегда совпадают.",
+      "distractorRationales": {
+        "Always use V2 after have or has.": "V2 и V3 не всегда совпадают.",
+        "Use V-ing directly after have or has.": "V-ing требует иной конструкции."
+      },
+      "skillTarget": "presentPerfect",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase-authored reviewed item; selected source theory consulted",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "W1",
+      "group": "Самостоятельное применение",
+      "prompt": "Напиши 7–9 предложений о своём учебном опыте и текущих результатах. Включи ever, never, just, already, yet, been to или gone to, вопрос и краткий ответ. Подчеркни V3.",
+      "open": true,
+      "rubric": [
+        "Действия связаны с настоящим или опытом.",
+        "Have/has согласуются с subject.",
+        "Правильные и неправильные V3 выбраны верно.",
+        "Наречия употреблены по смыслу.",
+        "Been/gone различены в контексте.",
+        "Вопрос и отрицание оформлены правильно."
+      ],
+      "skillTarget": "Самостоятельное применение presentPerfect",
+      "interactionType": "open-production",
+      "difficulty": "transfer",
+      "sourceBasis": "Speakbase-authored open production; self-review rubric only until real AI feedback is connected",
+      "contentVersion": "1.1-draft"
+    }
+  ],
+  "markdown": "# Speakbase — A2-05: Present Perfect Simple — experience and result\n\n**Curriculum ID:** `A2-05`  \n**Уровень:** A2  \n**Версия:** 1.1-draft\n**Статус:** drafted; selected source text checked; full source-page and learner acceptance pending\n**Предварительные темы:** A1-05, A2-01  \n**Связь со старым каталогом:** Полное ядро — №8 Present Perfect\n\n## 1. Результаты обучения\n\n- Говорить об опыте и результате, использовать ever/never/just/already/yet\n- Выбирать целевую форму по значению, структуре предложения и контексту.\n- Объяснять, почему близкая грамматическая форма меняет смысл или регистр.\n- Находить и исправлять типичные ошибки русскоязычных студентов.\n\n## 2. Источники и статус сверки\n\n| Source | PDF navigation | Lesson-specific checks | Status |\n|---|---|---|---|\n| GR-01 U16-20 | PDF pages 43-52 (Unit 16-20) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-02 U7-8 | PDF pages 26-29 (Unit 7-8) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-03 U3 | PDF pages 30-31 (Unit 3) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-03 U6 | PDF pages 36-37 (Unit 6) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-05 A2 p41 | PDF pages 41 (A2 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-05 A2 p50-51 | PDF pages 50-51 (A2 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n\nUnit/page locations are navigation aids only. They do not prove that the cited explanation, examples, restrictions and answer key have been checked for this lesson. Examples and explanations below are Speakbase-authored, not quotations from the textbook.\n\nПеред переводом этого урока в source-verified необходимо открыть целевые страницы конкретного издания, записать печатную и PDF-пагинацию, сверить ограничения и исключения. Для GR-03 со сканированными страницами обязательна визуальная проверка.\n\n**Evidence for this editorial pass:** GR-02 Units 7–8, directly consulted theory text PDF pp. 26, 28 (printed pp. 14, 16): have/has + V3, present result, experience, unfinished periods, been/gone, just/already/yet and first-time construction. Additional sources, exercise pages and visual verification pending. The selected source text was consulted; not all pages, exercises, editions, scanned GR-03 pages or GR-05 descriptors were checked. Author-created explanations and practice are not copied source exercises.\n\n## 3. Место темы и границы\n\nФокус на опыте и результате Present Perfect: ever/never/just/already/yet и связь с настоящим. Не ставь конкретный завершённый past-time marker.\n\nСтарый каталог содержит: №8 Present Perfect. Его статус — Полное ядро. Старые отметки завершения не переносятся автоматически на новый постоянный ID. Тема рассматривается в уровне A2 и не заменяет обязательные prerequisites.\n\n## 4. Полный конспект\n\n### 4.1. Основная идея и функция конструкции\n\nPresent Perfect Simple (настоящее совершенное время) связывает действие или опыт в прошлом с настоящим. Важно не просто то, что действие было, а результат сейчас, жизненный опыт или количество действий за период, который продолжается до настоящего. I have lost my card — я потеряла карточку, и сейчас её нет.\n\nЭто не обычное прошедшее время. I have visited Rome twice сообщает об опыте до настоящего момента, не называя точные даты. I have finished my homework подчёркивает нынешний результат. We have completed three tasks today может относиться к сегодняшнему ещё не законченному периоду. В русском переводе часто используется прошедшее время, но английская конструкция сохраняет связь с сейчас. Форма сама по себе не гарантирует, что результат любого действия неизменно сохраняется; интерпретация зависит от глагола и контекста.\n\n### 4.2. Формирование и грамматическая модель\n\n| Тип | Формула | Пример |\n|---|---|---|\n| Утверждение I/you/we/they | have + V3 | I have finished. |\n| Утверждение he/she/it | has + V3 | She has finished. |\n| Отрицание | have/has not + V3 | She hasn't finished. |\n| Общий вопрос | Have/Has + subject + V3? | Has she finished? |\n| Специальный вопрос | Wh-word + have/has + subject + V3? | What have you done? |\n\nV3 — past participle (третья форма). Правильные: work–worked–worked, study–studied–studied. Неправильные: go–went–gone, see–saw–seen, write–wrote–written, do–did–done, eat–ate–eaten, take–took–taken, be–was/were–been, buy–bought–bought, make–made–made, break–broke–broken. В Present Perfect нужна именно V3, даже если она отличается от V2. Сокращения: I've, you've, she's (= she has перед V3), we've, they've; haven't, hasn't. В кратком ответе повторяется вспомогательное: Have you finished? — Yes, I have / No, I haven't.\n\n### 4.3. Как выбрать подходящую форму\n\nИспользуй Present Perfect для нового сообщения о результате сейчас, опыта за жизнь до настоящего момента, повторяющихся действий за открытый период и некоторых состояний, продолжающихся до сейчас. Не называй точное законченное прошлое время действия в той же конструкции: yesterday, last year, two days ago обычно требуют Past Simple.\n\nEver — когда-либо (обычно в вопросах и некоторых сравнительных конструкциях); never — никогда, отрицание уже внутри слова. Just — только что, already — уже (часто раньше ожидаемого), yet — ещё/уже к настоящему моменту (обычно в отрицаниях и вопросах). Ever, never, just, already обычно стоят после have/has и до V3; yet часто в конце. So far — пока что; recently — недавно, в последнее время. These expressions могут иметь другие допустимые позиции или сочетаться с Past Simple в подходящем контексте, особенно в американском английском.\n\n### 4.4. Сравнение с близкими конструкциями\n\n| Пример | Значение |\n|---|---|\n| I've just finished the test. | Только что закончила; результат сейчас. |\n| Have you ever tried skiing? | Опыт за жизнь. |\n| I have never tried it. | Такого опыта пока нет. |\n| She has gone to the library. | Она ушла в библиотеку, ещё не вернулась (в обычном контексте). |\n| She has been to the library. | Она побывала там; в данном контексте вернулась. |\n| This is the first time I've used this app. | Первый такой опыт до настоящего. |\n\n### 4.5. Примеры с переводом и объяснением\n\n| English | Перевод | Почему это подходит |\n| --- | --- | --- |\n| I've misplaced my notebook, so I can't find it now. | Я куда-то положила тетрадь и сейчас не могу найти её. | Нынешний результат. |\n| Have you ever visited a science museum? | Ты когда-нибудь посещала научный музей? | Вопрос об опыте. |\n| We've already sent the application. | Мы уже отправили заявление. | Already после auxiliary. |\n| She hasn't received the confirmation yet. | Она ещё не получила подтверждение. | Yet в отрицании. |\n| He's gone to the laboratory; he'll be back soon. | Он ушёл в лабораторию и скоро вернётся. | Gone to; сейчас отсутствует. |\n| I've been to that exhibition twice. | Я дважды была на той выставке. | Опыт посещения. |\n\n### 4.6. Исключения, ограничения и границы употребления\n\nBeen to и gone to не взаимозаменяемы в обычной ситуации: gone to подразумевает, что человек ещё там или по пути туда; been to описывает посещение. Never уже отрицательно: I have never seen it, не I haven't never seen it в стандартной письменной речи. Не смешивай have/has как вспомогательное с смысловым have: I have had lunch — пообедала; had здесь V3 глагола have.\n\nFor + период (for two years), since + начальная точка (since May) могут использоваться с продолжающимся состоянием: I've known her for two years. Подробное различие Simple и Continuous будет на B1. First/second time и превосходная степень могут сочетаться с опытом: This is the best book I've read this year. В британском английском Present Perfect типичен с just/already/yet; в американском варианте обычен также Past Simple. Не считай альтернативный вариант ошибкой без контекста. Уточнение точного времени часто переводит разговор на Past Simple, что изучается в A2-06.\n\n### 4.7. Типичные ошибки русскоязычных студентов\n\n| Ошибка | Исправление | Объяснение |\n| --- | --- | --- |\n| She have finished her report. | She has finished her report. | She требует has. |\n| I have saw the film. | I have seen the film. | Seen — V3, saw — V2. |\n| Did you have finished the task? | Have you finished the task? | Вопрос образуется с have без did. |\n| I haven't never visited Italy. | I have never visited Italy. | Never уже выражает отрицание. |\n| She has gone to Rome twice and is back home (если речь об опыте посещения). | She has been to Rome twice. | Been to описывает завершённые посещения. |\n\n### 4.8. Произношение и восприятие на слух\n\nHave/has часто сокращаются и произносятся слабо: I've DONE, she's FINished. В she's finished сокращение 's означает has, если finished — V3 в конструкции Perfect; в she's working — is. У неправильных форм обращай внимание на различие saw/seen, went/gone, wrote/written. Словарное аудио и отдельная фонетическая сверка пока не выполнены.\n\nСначала прослушай или прочитай пример, затем произнеси его целиком. Обрати внимание на смысловое ударение и форму конструкции; не ориентируйся только на буквенный перевод.\n\n### 4.9. Академический английский и TOEFL-перенос\n\nВ Reading и Listening обращай внимание на завершённые результаты и опыт к настоящему моменту. В Speaking расскажи, что уже успела изучить и чего ещё не делала. В Writing Email сообщай о текущем статусе: I've submitted the form, but I haven't received confirmation yet. Не указывай официальный балл за эти упражнения; это тренировка точности.\n\nЭто авторская практика переноса навыка. Она не является официальным заданием TOEFL и не выдаётся за официальный результат экзамена.\n\n### 4.10. Примеры для управляемого разбора\n\n- I've misplaced my notebook, so I can't find it now. — Я куда-то положила тетрадь и сейчас не могу найти её. Нынешний результат.\n- Have you ever visited a science museum? — Ты когда-нибудь посещала научный музей? Вопрос об опыте.\n- We've already sent the application. — Мы уже отправили заявление. Already после auxiliary.\n\nДля каждого примера назови целевую конструкцию, объясни выбор и составь новое предложение в другом контексте. Затем перейди к заданиям: сначала диагностика, затем управляемая и самостоятельная практика, затем новые вопросы выходной проверки.\n\n### 4.11. Самопроверка\n\nПеред отправкой ответа проверь:\n1. Действия связаны с настоящим или опытом.\n2. Have/has согласуются с subject.\n3. Правильные и неправильные V3 выбраны верно.\n4. Наречия употреблены по смыслу.\n5. Been/gone различены в контексте.\n6. Вопрос и отрицание оформлены правильно.\n\n### 4.12. Краткая памятка\n\nHave/has + V3. Has с he/she/it. Вопрос — have/has перед subject; отрицание — not после auxiliary. Present Perfect сообщает о результате сейчас, опыте или открытом периоде. Ever/never/just/already/yet помогают передать смысл. Been to и gone to различаются по контексту.\n\nНе выбирай форму только по одному знакомому слову: проверь контекст, значение и структуру. При ошибке вернись к соответствующей части конспекта и составь собственный пример.\n\n## 5. Практика\n\nВ приложении практика разделена на входную диагностику, управляемые задания, самостоятельную практику и новую выходную проверку. Закрытые ответы получают rationale и разбор ошибки. Свободный текст сохраняется и оценивается по рубрике; до подключения и реальной проверки AI-движка система не выдаёт его за автоматическую AI-оценку.\n\n## 6. Интервальное повторение\n\nПовторяй не весь урок автоматически, а конкретную ошибку: выбор формы, согласование, word order, значение, регистр или пунктуацию. Новая попытка должна менять лексический контекст и формулировку, чтобы проверять перенос, а не запоминание одной строки.\n\n## 7. Технический статус\n\n- Постоянный ID: `A2-05`.\n- Прогресс хранится отдельно в course.grammarLessons[\"A2-05\"].\n- Содержание и ключи имеют статус draft; 24 авторских закрытых задания и объяснения вычитаны, выбранные тексты источников проверены. Полная постраничная и пользовательская приёмка остаются открытыми.\n- Предварительное выполнение порогов не равно окончательному mastered: нужны отсроченное повторение и learner review.",
+  "theoryEnd": "## 5."
+}
