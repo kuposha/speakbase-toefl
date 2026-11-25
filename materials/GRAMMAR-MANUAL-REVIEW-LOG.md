@@ -46,7 +46,7 @@ Do not infer completion from automated structural tests or source navigation che
 | Lesson | Status | Evidence / remaining work |
 |---|---|---|
 | B2-01 | PARTIAL | Reviewed unreal present/past conditionals, both mixed time directions, wish/if only, could/could have, wish + would and hope/wish contrasts; manually checked all seven closed keys/rationales. Clarified the subject/agency restriction on wish + would, separated future hope from present unreality, strengthened if-only emphasis and the time logic of mixed clauses, added Russian translations and repaired prompt notation. GR-05 comparison, source-page image confirmation, full app rendering and learner test remain open. |
-| B2-02 | NOT_REVIEWED | Review advanced condition markers and logical differences; check every key. |
+| B2-02 | PARTIAL | Reviewed in case vs if, in case of, unless, provided/providing, as/so long as, even if/even though, supposing and on condition that; manually checked all seven closed keys/rationales. Added the missing theory for two bank-tested markers, clarified duration vs condition and factual vs hypothetical concession, expanded past precaution usage, added translations and repaired prompt notation. GR-05 comparison, full app rendering and learner test remain open. |
 | B2-03 | NOT_REVIEWED | Review modal deduction and degrees of certainty; check past/present reference and keys. |
 | B2-04 | NOT_REVIEWED | Review passive and causative patterns; check object structures and keys. |
 | B2-05 | NOT_REVIEWED | Review reporting structures and verb patterns; check tense/stance and keys. |
