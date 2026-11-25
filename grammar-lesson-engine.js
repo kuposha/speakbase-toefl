@@ -123,7 +123,7 @@
       if(saved.open){
         feedback='<div class="a105-feedback"><b>Ответ сохранён — автоматическая оценка открытого текста пока не подключена.</b><p>Проверь работу по критериям ниже. Система не оценивает свободный текст простым сравнением с одним образцом.</p><ul>'+item.rubric.map(value=>'<li>'+escValue(value)+'</li>').join('')+'</ul></div>';
       }else{
-        feedback='<div class="a105-feedback '+(saved.ok?'is-correct':'is-wrong')+'"><b>'+(saved.ok?'Верно':'Нужно повторить')+'</b><p>'+escValue(item.why)+'</p>'+(saved.ok?'':'<p><b>Один из правильных ответов:</b> '+escValue(item.answer)+'</p>')+'</div>';
+        feedback='<div class="a105-feedback '+(saved.ok?'is-correct':'is-wrong')+'"><b>'+(saved.ok?'Верно':'Нужно повторить')+'</b><p>'+escValue(item.why)+'</p>'+(saved.ok?'':'<p>'+escValue(item.distractorRationales?.[saved.value]||item.distractorWhy||'')+'</p><p><b>Один из правильных ответов:</b> '+escValue(item.answer)+'</p>')+'</div>';
       }
     }
     const progress=Math.round((state.pos/config.items.length)*100);

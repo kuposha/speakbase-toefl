@@ -1,5 +1,6 @@
 (function(){
   const legacyGrammarLibraryView = window.grammarLibraryView;
+  window.legacyGrammarLibraryView = legacyGrammarLibraryView;
   const a105Items = [
     {id:'D1',group:'Входная диагностика',prompt:'В предложении My brother lives in Berlin найди подлежащее.',options:['My brother','lives','in Berlin'],answer:'My brother',why:'Подлежащее называет того, о ком говорится в предложении: My brother.'},
     {id:'D2',group:'Входная диагностика',prompt:'Какое местоимение может заменить Anna?',options:['he','she','they'],answer:'she',why:'Anna — одно лицо женского рода, поэтому используем she.'},

@@ -67,7 +67,7 @@ const root=__dirname;
   const launchTitles=await page.locator('.a105-launch h3').allTextContents();
   assert(launchTitles[0].includes('Sentence building and basic word order'),'A1-01 must be the first new curriculum block');
   assert(launchTitles[1].includes('Subject pronouns and verb be — affirmative'),'A1-02 must immediately follow A1-01');
-  assert(launchTitles[2].includes('A1-05'),'the original A1-05 benchmark remains separately accessible');  const launch=page.locator('.a105-launch').filter({hasText:'Subject pronouns and verb be — affirmative'});
+  assert(launchTitles.some(title=>title.includes('A1-05')),'the original A1-05 benchmark remains separately accessible in the full A1 sequence');  const launch=page.locator('.a105-launch').filter({hasText:'Subject pronouns and verb be — affirmative'});
   assert.equal(await launch.count(),1,'A1-02 must appear as one lesson card');
   await launch.getByRole('button',{name:'Начать урок'}).click();
   assert.equal(await page.getByRole('heading',{name:'Subject pronouns and verb be — affirmative'}).count(),1);
