@@ -172,3 +172,13 @@ GR-03 scanned pages were reopened and their theory and exercise instructions che
 - C1-12: GR-03 PDF pp. 84–87.
 - C1-13: GR-03 PDF pp. 166–169, 174–175.
 - C1-14: GR-03 PDF pp. 228–235.
+
+## Final text and item review — 26 November 2026
+
+This second-stage review records the exact evidence and remaining gates; PARTIAL remains until the documented full acceptance criteria are met. All 24 closed items in each listed lesson and the open rubric were reread; no unsupported COMPLETE labels.
+
+| Lesson | Status | Evidence and changes |
+|---|---|---|
+| A1-03 | TEXT_AND_ITEMS_REVIEWED | GR-01 U1–2 PDF pp. 13–16: re-read available theory and exercise text; GR-05 A1 pp. 8–9: checked negative clauses and be-interrogative descriptors. All 24 closed prompts/options/keys/rationales and W1 rubric manually reread. Examples, translations and core rules checked; visual inspection of picture-based source exercises and dictionary audio remain open. |
+| A1-04 | TEXT_AND_ITEMS_REVIEWED | GR-01 U66–69 PDF pp. 143–150; GR-02 U71 and U79 PDF pp. 154–155, 170–171: checked available theory and exercise text, including countability shifts and paired nouns. GR-05 A1 pp. 12, 21: checked article and regular-plural descriptors; irregular plural is a pedagogical extension, not an exact corpus-level claim. All 24 keys/options/rationales, lecture examples/translations and W1 rubric reread. Visual picture-exercise and audio acceptance pending. |
+| A1-06 | TEXT_AND_ITEMS_REVIEWED | GR-01 U6–8 PDF pp. 23–28, GR-02 U2 pp. 16–17: checked available theory and exercise text; GR-05 A1 pp. 8–9, 24–26: checked lexical-verb negatives and question/auxiliary evidence. Questions with ordinary lexical verbs are taught early as pedagogical preparation; the corpus descriptors are not prescriptive. All 24 keys, distractors and rationales, theory examples/translations and W1 rubric reread; source picture and audio checks remain pending. |
