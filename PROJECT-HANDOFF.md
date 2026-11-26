@@ -87,3 +87,7 @@ C1-07–09: advanced passive/causatives, reporting and academic attribution, mod
 ## Editorial continuation C1-10 through C1-14
 
 Updated runtime, snapshots, lecture notes and review log. Preserved previous-version answers through the existing lesson migration. Selected GR-05 descriptors checked; outstanding source and acceptance gates remain open.
+
+## Editorial continuation B2-01 through B2-21
+
+Updated runtime, snapshots, lecture notes and review log. Preserved previous-version answers through the existing lesson migration. Selected GR-05 descriptors checked; outstanding source and acceptance gates remain open.

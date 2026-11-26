@@ -1,0 +1,687 @@
+{
+  "id": "B2-13",
+  "level": "B2",
+  "sequence": "B2-13",
+  "grammarFamily": "B2-13",
+  "questionBankSource": "topic-specific-authored",
+  "sourceVerification": "draft; selected GR-05 descriptor checked, remaining source review pending",
+  "topicProfile": {
+    "label": "adverb position, degree, focus and viewpoint",
+    "skillTarget": "adverb-position-focus-viewpoint",
+    "core": "Наречие меняет действие, степень признака или сообщение целиком. It rose slightly описывает величину изменения; surprisingly, it rose сообщает оценку автора. Положение only определяет, какой элемент выделяется.",
+    "form": "Сравни high above the roof и highly unlikely. Производное с -ly может иметь самостоятельное значение. Для сравнительной степени подойдут far или slightly; для предельного признака — completely, если смысл действительно допускает полный предел.",
+    "selection": "После связки употребляется прилагательное: the voice sounded calm. В she answered calmly описывается действие. Enough после признака показывает достаточность для цели: wide enough to enter. Перед существительным порядок другой: enough space.",
+    "contrast": "Only Maria reviewed the paper (nobody else). Maria only reviewed the paper (did nothing else). Maria reviewed only the paper (nothing else was reviewed).",
+    "boundary": "Some adverbs allow more than one position with a change in focus or style. Avoid ambiguous placement when the intended scope matters in academic writing.",
+    "pronunciation": "Окончание -ly обычно не создаёт отдельного слога, если не требует структура слова. Ударение в multi-syllable adverbs может отличаться от интуитивного; проверяй словарную форму.",
+    "examples": [],
+    "traps": [],
+    "toefl": "Наречия степени и осторожности помогают калибровать утверждение. В Writing ставь only, mainly, generally, particularly рядом с тем элементом, который они ограничивают."
+  },
+  "title": "Adverb position, degree, focus and viewpoint",
+  "description": "Использовать stance/viewpoint/comment adverbs и управлять фокусом высказывания",
+  "cardDescription": "Теория, guided practice, самостоятельные задания и выходная проверка по постоянному ID B2-13.",
+  "eyebrow": "Полный урок программы B2-13 · drafted",
+  "contentVersion": "1.1-draft",
+  "curriculumVersion": "1.0",
+  "prerequisites": [
+    "A2-11",
+    "B1-22"
+  ],
+  "outcomes": [
+    "Использовать stance/viewpoint/comment adverbs и управлять фокусом высказывания",
+    "Выбирать целевую конструкцию по контексту и смыслу.",
+    "Исправлять типичные ошибки и переносить правило в новый пример."
+  ],
+  "sourceRefs": [
+    "GR-02 U98-112",
+    "GR-03 U74-78",
+    "GR-05 B2 p7-14",
+    "GR-05 B2 p18"
+  ],
+  "sourceStatus": "partial; GR-05 B2 p. 4, 7–8: degree and modifier position; full page verification pending",
+  "status": "drafted",
+  "legacyCoverage": "Частично",
+  "toeflLinks": [
+    "Writing: Build a Sentence",
+    "Listening: tense/aspect, modality, weak forms and discourse cues",
+    "Speaking: Listen and Repeat / Take an Interview",
+    "Writing: Academic Discussion"
+  ],
+  "thresholds": {
+    "independent": 7,
+    "exit": 4,
+    "criticalIds": [
+      "E1",
+      "E2",
+      "E3"
+    ]
+  },
+  "groups": {
+    "independent": "Самостоятельная практика",
+    "exit": "Выходная проверка"
+  },
+  "items": [
+    {
+      "id": "D1",
+      "group": "Входная диагностика",
+      "prompt": "___ the final chapter discusses the limitations; the earlier chapters do not.",
+      "options": [
+        "Even",
+        "Only",
+        "Almost"
+      ],
+      "answer": "Only",
+      "accepted": [
+        "Only"
+      ],
+      "why": "Only directly restricts the subject/focus to the final chapter.",
+      "distractorWhy": "Even adds unexpected emphasis, not the intended restriction.",
+      "distractorRationales": {
+        "Even": "Even adds unexpected emphasis, not the intended restriction.",
+        "Almost": "Almost means nearly and does not restrict the set in this way."
+      },
+      "skillTarget": "adverb-position-focus-viewpoint",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D2",
+      "group": "Входная диагностика",
+      "prompt": "The findings were ___ statistically significant.",
+      "options": [
+        "barely",
+        "bare",
+        "bareness"
+      ],
+      "answer": "barely",
+      "accepted": [
+        "barely"
+      ],
+      "why": "Barely is an adverb modifying the adjective phrase statistically significant.",
+      "distractorWhy": "Bare is an adjective and cannot modify the adjective phrase here.",
+      "distractorRationales": {
+        "bare": "Bare is an adjective and cannot modify the adjective phrase here.",
+        "bareness": "Bareness is a noun."
+      },
+      "skillTarget": "adverb-position-focus-viewpoint",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D3",
+      "group": "Входная диагностика",
+      "prompt": "The team agreed ___ to revise the protocol, not to abandon it.",
+      "options": [
+        "mere",
+        "mereness",
+        "merely"
+      ],
+      "answer": "merely",
+      "accepted": [
+        "merely"
+      ],
+      "why": "Merely is an adverb placed before the to-infinitive and restricts the action the team agreed to.",
+      "distractorWhy": "Mere is an adjective and cannot modify the infinitive phrase in this position.",
+      "distractorRationales": {
+        "mere": "Mere is an adjective and cannot modify the infinitive phrase in this position.",
+        "mereness": "Mereness is a noun."
+      },
+      "skillTarget": "adverb-position-focus-viewpoint",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D4",
+      "group": "Входная диагностика",
+      "prompt": "___, the evidence does not support the stronger claim.",
+      "options": [
+        "Arguable",
+        "Arguably",
+        "Argument"
+      ],
+      "answer": "Arguably",
+      "accepted": [
+        "Arguably"
+      ],
+      "why": "Arguably is a stance adverb modifying the whole proposition.",
+      "distractorWhy": "Arguable is an adjective, not a sentence adverb.",
+      "distractorRationales": {
+        "Arguable": "Arguable is an adjective, not a sentence adverb.",
+        "Argument": "Argument is a noun."
+      },
+      "skillTarget": "adverb-position-focus-viewpoint",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G1",
+      "group": "Управляемая практика",
+      "prompt": "The film was ___, so the audience became bored.",
+      "options": [
+        "boring",
+        "bored",
+        "bore"
+      ],
+      "answer": "boring",
+      "accepted": [
+        "boring"
+      ],
+      "why": "Boring describes the thing that causes the feeling; the audience became bored.",
+      "distractorWhy": "Bored describes the audience, not the film in this sentence.",
+      "distractorRationales": {
+        "bored": "Bored describes the audience, not the film in this sentence.",
+        "bore": "Bore is a verb/noun and does not fit as an adjective here."
+      },
+      "skillTarget": "adverb-position-focus-viewpoint",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G2",
+      "group": "Управляемая практика",
+      "prompt": "The second estimate is far ___ than the first. Сравни именно точность двух оценок.",
+      "options": [
+        "most accurate",
+        "as accurate",
+        "more accurate"
+      ],
+      "answer": "more accurate",
+      "accepted": [
+        "more accurate"
+      ],
+      "why": "Far can intensify a comparative form: far more accurate than.",
+      "distractorWhy": "Most accurate is a superlative and does not fit than the first.",
+      "distractorRationales": {
+        "most accurate": "Most accurate is a superlative and does not fit than the first.",
+        "as accurate": "As accurate requires an as...as structure."
+      },
+      "skillTarget": "adverb-position-focus-viewpoint",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G3",
+      "group": "Управляемая практика",
+      "prompt": "The results are ___ consistent with the earlier study.",
+      "options": [
+        "broad",
+        "broadly",
+        "breadth"
+      ],
+      "answer": "broadly",
+      "accepted": [
+        "broadly"
+      ],
+      "why": "Broadly is an adverb meaning generally/overall; it modifies the adjective consistent.",
+      "distractorWhy": "Broad is an adjective.",
+      "distractorRationales": {
+        "broad": "Broad is an adjective.",
+        "breadth": "Breadth is a noun."
+      },
+      "skillTarget": "adverb-position-focus-viewpoint",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G4",
+      "group": "Управляемая практика",
+      "prompt": "The drone climbed ___ into the sky. Без сравнения.",
+      "options": [
+        "high",
+        "highly",
+        "higher"
+      ],
+      "answer": "high",
+      "accepted": [
+        "high"
+      ],
+      "why": "High обозначает буквальную высоту или признак после связки.",
+      "distractorWhy": "Highly выражает высокую степень оценки.",
+      "distractorRationales": {
+        "highly": "Highly выражает высокую степень оценки.",
+        "higher": "Сравнительная степень указывает на большую высоту."
+      },
+      "skillTarget": "adverb-position-focus-viewpoint",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G5",
+      "group": "Управляемая практика",
+      "prompt": "Only the driver saw the sign. Что выделено?",
+      "options": [
+        "Фокус на объекте",
+        "Оценка сообщения",
+        "Фокус на подлежащем"
+      ],
+      "answer": "Фокус на подлежащем",
+      "accepted": [
+        "Фокус на подлежащем"
+      ],
+      "why": "Only непосредственно перед именной группой подлежащего ограничивает выбор лица или предмета.",
+      "distractorWhy": "Only перед дополнением выделяет предмет действия.",
+      "distractorRationales": {
+        "Фокус на объекте": "Only перед дополнением выделяет предмет действия.",
+        "Оценка сообщения": "Вводное наречие выражает отношение говорящего ко всему событию."
+      },
+      "skillTarget": "adverb-position-focus-viewpoint",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G6",
+      "group": "Управляемая практика",
+      "prompt": "The route is ___ shorter, by just two metres.",
+      "options": [
+        "completely",
+        "slightly",
+        "enough"
+      ],
+      "answer": "slightly",
+      "accepted": [
+        "slightly"
+      ],
+      "why": "Наречие выражает малую степень различия.",
+      "distractorWhy": "Наречие указывает на достижение предела.",
+      "distractorRationales": {
+        "completely": "Наречие указывает на достижение предела.",
+        "enough": "После прилагательного enough выражает достаточность для цели."
+      },
+      "skillTarget": "adverb-position-focus-viewpoint",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I1",
+      "group": "Самостоятельная практика",
+      "prompt": "The copy is ___ unlikely to survive. Усиль оценку.",
+      "options": [
+        "high",
+        "higher",
+        "highly"
+      ],
+      "answer": "highly",
+      "accepted": [
+        "highly"
+      ],
+      "why": "Highly выражает высокую степень оценки.",
+      "distractorWhy": "High обозначает буквальную высоту или признак после связки.",
+      "distractorRationales": {
+        "high": "High обозначает буквальную высоту или признак после связки.",
+        "higher": "Сравнительная степень указывает на большую высоту."
+      },
+      "skillTarget": "adverb-position-focus-viewpoint",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I2",
+      "group": "Самостоятельная практика",
+      "prompt": "The driver saw only the sign. Что выделено?",
+      "options": [
+        "Фокус на подлежащем",
+        "Фокус на объекте",
+        "Оценка сообщения"
+      ],
+      "answer": "Фокус на объекте",
+      "accepted": [
+        "Фокус на объекте"
+      ],
+      "why": "Only перед дополнением выделяет предмет действия.",
+      "distractorWhy": "Only непосредственно перед именной группой подлежащего ограничивает выбор лица или предмета.",
+      "distractorRationales": {
+        "Фокус на подлежащем": "Only непосредственно перед именной группой подлежащего ограничивает выбор лица или предмета.",
+        "Оценка сообщения": "Вводное наречие выражает отношение говорящего ко всему событию."
+      },
+      "skillTarget": "adverb-position-focus-viewpoint",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I3",
+      "group": "Самостоятельная практика",
+      "prompt": "The box is ___ empty: nothing remains. Усиль абсолютный признак.",
+      "options": [
+        "completely",
+        "slightly",
+        "enough"
+      ],
+      "answer": "completely",
+      "accepted": [
+        "completely"
+      ],
+      "why": "Наречие указывает на достижение предела.",
+      "distractorWhy": "Наречие выражает малую степень различия.",
+      "distractorRationales": {
+        "slightly": "Наречие выражает малую степень различия.",
+        "enough": "После прилагательного enough выражает достаточность для цели."
+      },
+      "skillTarget": "adverb-position-focus-viewpoint",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I4",
+      "group": "Самостоятельная практика",
+      "prompt": "The new shelf sits ___ than the old one.",
+      "options": [
+        "high",
+        "highly",
+        "higher"
+      ],
+      "answer": "higher",
+      "accepted": [
+        "higher"
+      ],
+      "why": "Сравнительная степень указывает на большую высоту.",
+      "distractorWhy": "High обозначает буквальную высоту или признак после связки.",
+      "distractorRationales": {
+        "high": "High обозначает буквальную высоту или признак после связки.",
+        "highly": "Highly выражает высокую степень оценки."
+      },
+      "skillTarget": "adverb-position-focus-viewpoint",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I5",
+      "group": "Самостоятельная практика",
+      "prompt": "Luckily, the driver saw the sign. Что добавляет luckily?",
+      "options": [
+        "Фокус на подлежащем",
+        "Оценка сообщения",
+        "Фокус на объекте"
+      ],
+      "answer": "Оценка сообщения",
+      "accepted": [
+        "Оценка сообщения"
+      ],
+      "why": "Вводное наречие выражает отношение говорящего ко всему событию.",
+      "distractorWhy": "Only непосредственно перед именной группой подлежащего ограничивает выбор лица или предмета.",
+      "distractorRationales": {
+        "Фокус на подлежащем": "Only непосредственно перед именной группой подлежащего ограничивает выбор лица или предмета.",
+        "Фокус на объекте": "Only перед дополнением выделяет предмет действия."
+      },
+      "skillTarget": "adverb-position-focus-viewpoint",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I6",
+      "group": "Самостоятельная практика",
+      "prompt": "The doorway is wide ___ for a wheelchair.",
+      "options": [
+        "enough",
+        "slightly",
+        "completely"
+      ],
+      "answer": "enough",
+      "accepted": [
+        "enough"
+      ],
+      "why": "После прилагательного enough выражает достаточность для цели.",
+      "distractorWhy": "Наречие выражает малую степень различия.",
+      "distractorRationales": {
+        "slightly": "Наречие выражает малую степень различия.",
+        "completely": "Наречие указывает на достижение предела."
+      },
+      "skillTarget": "adverb-position-focus-viewpoint",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I7",
+      "group": "Самостоятельная практика",
+      "prompt": "The kite flew ___ above the field. Передай «высоко».",
+      "options": [
+        "highly",
+        "higher",
+        "high"
+      ],
+      "answer": "high",
+      "accepted": [
+        "high"
+      ],
+      "why": "High обозначает буквальную высоту или признак после связки.",
+      "distractorWhy": "Highly выражает высокую степень оценки.",
+      "distractorRationales": {
+        "highly": "Highly выражает высокую степень оценки.",
+        "higher": "Сравнительная степень указывает на большую высоту."
+      },
+      "skillTarget": "adverb-position-focus-viewpoint",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I8",
+      "group": "Самостоятельная практика",
+      "prompt": "Sadly, the final page is missing. Какова функция sadly?",
+      "options": [
+        "Фокус на подлежащем",
+        "Оценка сообщения",
+        "Фокус на объекте"
+      ],
+      "answer": "Оценка сообщения",
+      "accepted": [
+        "Оценка сообщения"
+      ],
+      "why": "Вводное наречие выражает отношение говорящего ко всему событию.",
+      "distractorWhy": "Only непосредственно перед именной группой подлежащего ограничивает выбор лица или предмета.",
+      "distractorRationales": {
+        "Фокус на подлежащем": "Only непосредственно перед именной группой подлежащего ограничивает выбор лица или предмета.",
+        "Фокус на объекте": "Only перед дополнением выделяет предмет действия."
+      },
+      "skillTarget": "adverb-position-focus-viewpoint",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I9",
+      "group": "Самостоятельная практика",
+      "prompt": "The test was ___ easier than last year's, just a little.",
+      "options": [
+        "slightly",
+        "completely",
+        "enough"
+      ],
+      "answer": "slightly",
+      "accepted": [
+        "slightly"
+      ],
+      "why": "Наречие выражает малую степень различия.",
+      "distractorWhy": "Наречие указывает на достижение предела.",
+      "distractorRationales": {
+        "completely": "Наречие указывает на достижение предела.",
+        "enough": "После прилагательного enough выражает достаточность для цели."
+      },
+      "skillTarget": "adverb-position-focus-viewpoint",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E1",
+      "group": "Выходная проверка",
+      "prompt": "The mentor spoke ___ of the design. Вырази одобрение.",
+      "options": [
+        "highly",
+        "high",
+        "higher"
+      ],
+      "answer": "highly",
+      "accepted": [
+        "highly"
+      ],
+      "why": "Highly выражает высокую степень оценки.",
+      "distractorWhy": "High обозначает буквальную высоту или признак после связки.",
+      "distractorRationales": {
+        "high": "High обозначает буквальную высоту или признак после связки.",
+        "higher": "Сравнительная степень указывает на большую высоту."
+      },
+      "skillTarget": "adverb-position-focus-viewpoint",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E2",
+      "group": "Выходная проверка",
+      "prompt": "Only the final page is missing. Что выделено в позиции подлежащего?",
+      "options": [
+        "Фокус на объекте",
+        "Оценка сообщения",
+        "Фокус на подлежащем"
+      ],
+      "answer": "Фокус на подлежащем",
+      "accepted": [
+        "Фокус на подлежащем"
+      ],
+      "why": "Only непосредственно перед именной группой подлежащего ограничивает выбор лица или предмета.",
+      "distractorWhy": "Only перед дополнением выделяет предмет действия.",
+      "distractorRationales": {
+        "Фокус на объекте": "Only перед дополнением выделяет предмет действия.",
+        "Оценка сообщения": "Вводное наречие выражает отношение говорящего ко всему событию."
+      },
+      "skillTarget": "adverb-position-focus-viewpoint",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E3",
+      "group": "Выходная проверка",
+      "prompt": "The pages are ___ identical, right down to the last comma. Подчеркни полное совпадение.",
+      "options": [
+        "slightly",
+        "completely",
+        "enough"
+      ],
+      "answer": "completely",
+      "accepted": [
+        "completely"
+      ],
+      "why": "Наречие указывает на достижение предела.",
+      "distractorWhy": "Наречие выражает малую степень различия.",
+      "distractorRationales": {
+        "slightly": "Наречие выражает малую степень различия.",
+        "enough": "После прилагательного enough выражает достаточность для цели."
+      },
+      "skillTarget": "adverb-position-focus-viewpoint",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E4",
+      "group": "Выходная проверка",
+      "prompt": "The second flight went ___ than the first.",
+      "options": [
+        "higher",
+        "high",
+        "highly"
+      ],
+      "answer": "higher",
+      "accepted": [
+        "higher"
+      ],
+      "why": "Сравнительная степень указывает на большую высоту.",
+      "distractorWhy": "High обозначает буквальную высоту или признак после связки.",
+      "distractorRationales": {
+        "high": "High обозначает буквальную высоту или признак после связки.",
+        "highly": "Highly выражает высокую степень оценки."
+      },
+      "skillTarget": "adverb-position-focus-viewpoint",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E5",
+      "group": "Выходная проверка",
+      "prompt": "We copied only the final page. Какова область действия only?",
+      "options": [
+        "Фокус на подлежащем",
+        "Оценка сообщения",
+        "Фокус на объекте"
+      ],
+      "answer": "Фокус на объекте",
+      "accepted": [
+        "Фокус на объекте"
+      ],
+      "why": "Only перед дополнением выделяет предмет действия.",
+      "distractorWhy": "Only непосредственно перед именной группой подлежащего ограничивает выбор лица или предмета.",
+      "distractorRationales": {
+        "Фокус на подлежащем": "Only непосредственно перед именной группой подлежащего ограничивает выбор лица или предмета.",
+        "Оценка сообщения": "Вводное наречие выражает отношение говорящего ко всему событию."
+      },
+      "skillTarget": "adverb-position-focus-viewpoint",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "W1",
+      "group": "Самостоятельное применение",
+      "prompt": "Сравни два зала, опиши степень различия и дважды употреби only так, чтобы изменилось, кого или что ты выделяешь.",
+      "open": true,
+      "rubric": [
+        "Названы обе стороны сравнения",
+        "Усилитель подходит к сравнительной степени",
+        "Положение only меняет фокус",
+        "Все части задания выполнены в одном связном контексте",
+        "Перевод сохраняет роль участников и смысл конструкции",
+        "Ответ содержит собственный английский пример, который можно понять без текста задания."
+      ],
+      "skillTarget": "Самостоятельное применение B2-13",
+      "interactionType": "open-production",
+      "difficulty": "transfer",
+      "sourceBasis": "Speakbase-authored open production; self-review rubric only until real AI feedback is connected",
+      "contentVersion": "1.1-draft"
+    }
+  ],
+  "markdown": "# Speakbase — B2-13: Adverb position, degree, focus and viewpoint\n\n**Curriculum ID:** `B2-13`  \n**Уровень:** B2  \n**Версия:** 1.1-draft\n**Статус:** drafted; exact source-page verification, editorial key review and learner test are pending  \n**Предварительные темы:** A2-11, B1-22  \n**Связь со старым каталогом:** Частично — №19 Adverbs\n\n## 1. Результаты обучения\n\n- Использовать stance/viewpoint/comment adverbs и управлять фокусом высказывания\n- Выбирать целевую форму по значению, структуре предложения и контексту.\n- Объяснять, почему близкая грамматическая форма меняет смысл или регистр.\n- Находить и исправлять типичные ошибки русскоязычных студентов.\n\n## 2. Источники и статус сверки\n\n| Source | PDF navigation | Lesson-specific checks | Status |\n|---|---|---|\n| GR-02 U98 | PDF pages 208-209 (Unit 98) | -ing/-ed adjectives: cause vs experiencer feeling; adjective complement patterns; explanations and exercises text-extracted and checked | text extracted and checked |\n| GR-02 U99 | PDF pages 210-211 (Unit 99) | Adjective order, opinion/fact adjectives, linking verbs and adjective vs adverb after look/feel/sound/taste/smell; explanations and exercises text-extracted and checked | text extracted and checked |\n| GR-02 U100 | PDF pages 212-213 (Unit 100) | Adjective vs adverb form, -ly formation and adverbs modifying adjectives/adverbs/participles; explanations and exercises text-extracted and checked | text extracted and checked |\n| GR-02 U101 | PDF pages 214-215 (Unit 101) | Good/well, fast/hard/late, hardly and hardly ever; explanations and exercises text-extracted and checked | text extracted and checked |\n| GR-02 U102 | PDF pages 216-217 (Unit 102) | So + adjective/adverb vs such + noun phrase; so/such ... that; explanations and exercises text-extracted and checked | text extracted and checked |\n| GR-02 U103 | PDF pages 218-219 (Unit 103) | Enough and too: position with adjectives/adverbs/nouns; enough/too + for/to; too ... to; explanations and exercises text-extracted and checked | text extracted and checked |\n| GR-02 U104 | PDF pages 220-221 (Unit 104) | Quite/pretty/rather/fairly: degree and the two meanings of quite; explanations and exercises text-extracted and checked | text extracted and checked |\n| GR-02 U105 | PDF pages 222-223 (Unit 105) | Comparative forms -er/more, spelling and irregular forms; explanations and exercises text-extracted and checked | text extracted and checked |\n| GR-02 U106 | PDF pages 224-225 (Unit 106) | Comparative intensifiers, any/no + comparative, repeated comparatives, the...the..., older/elder; explanations and exercises text-extracted and checked | text extracted and checked |\n| GR-02 U107 | PDF pages 226-227 (Unit 107) | As...as/not as...as, less than and comparative equivalence; explanations and exercises text-extracted and checked | text extracted and checked |\n| GR-02 U108 | PDF pages 228-229 (Unit 108) | Superlatives, the + superlative, in/of, one of + superlative; explanations and exercises text-extracted and checked | text extracted and checked |\n| GR-02 U109 | PDF pages 230-231 (Unit 109) | Word order: verb + object, place and time; explanations and exercises text-extracted and checked | text extracted and checked |\n| GR-02 U110 | PDF pages 232-233 (Unit 110) | Adverb mid-position with one/multi-word verbs, all/both and auxiliary substitution; explanations and exercises text-extracted and checked | text extracted and checked |\n| GR-02 U111 | PDF pages 234-235 (Unit 111) | Still, any more/any longer, no longer, already and yet; explanations and exercises text-extracted and checked | text extracted and checked |\n| GR-02 U112 | PDF pages 236-237 (Unit 112) | Even as a focus adverb, even + comparative, even though/when/if and contrast with if; explanations and exercises text-extracted and checked | text extracted and checked |\n| GR-03 U74 | PDF pages 172-173 (printed pp. 148-149, Unit 74) | Adverb position: end position and natural ordering; visually checked | visually checked; unit-text checked |\n| GR-03 U75 | PDF pages 174-175 (printed pp. 150-151, Unit 75) | Adverb position: front/mid position and clause-level adverbs; visually checked | visually checked; unit-text checked |\n| GR-03 U76 | PDF pages 176-177 (printed pp. 152-153, Unit 76) | Adverbs of place, direction and indefinite frequency; visually checked | visually checked; unit-text checked |\n| GR-03 U77 | PDF pages 178-179 (printed pp. 154-155, Unit 77) | Degree adverbs and focus adverbs; scope and placement; visually checked | visually checked; unit-text checked |\n| GR-03 U78 | PDF pages 180-181 (printed pp. 156-157, Unit 78) | Comment adverbs and viewpoint adverbs; stance scope; visually checked | visually checked; unit-text checked |\n| GR-05 B2 p7-14 | PDF pages 7-14 (B2 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-05 B2 p18 | PDF pages 18 (B2 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n\nGR-02 Units 98-112 were text-extracted and checked; GR-03 Units 74-78 were visually checked against the scanned pages. Examples and explanations below are Speakbase-authored, not quotations from the textbook. GR-05 corpus-based evidence remains pending.\n\nПеред переводом этого урока в source-verified необходимо открыть целевые страницы конкретного издания, записать печатную и PDF-пагинацию, сверить ограничения и исключения. Для GR-03 со сканированными страницами обязательна визуальная проверка.\n\nСверка этой редакции: GR-05 B2 p. 4, 7–8: degree and modifier position. Остальные строки сохраняют прежний статус.\n\n## 3. Место темы и границы\n\nAdverb position, focus and viewpoint: stance/comment adverbs, scope и degree modifiers; позиция может менять интерпретацию.\n\nСтарый каталог содержит: №19 Adverbs. Его статус — Частично. Старые отметки завершения не переносятся автоматически на новый постоянный ID. Тема рассматривается в уровне B2 и не заменяет обязательные prerequisites.\n\n## 4. Полный конспект\n\n### 4.1. Основная идея и функция конструкции\n\nНаречие меняет действие, степень признака или сообщение целиком. It rose slightly описывает величину изменения; surprisingly, it rose сообщает оценку автора. Положение only определяет, какой элемент выделяется.\n\n### 4.2. Формирование и грамматические модели\n\nСравни high above the roof и highly unlikely. Производное с -ly может иметь самостоятельное значение. Для сравнительной степени подойдут far или slightly; для предельного признака — completely, если смысл действительно допускает полный предел.\n\n### 4.3. Как выбрать подходящую форму\n\nПосле связки употребляется прилагательное: the voice sounded calm. В she answered calmly описывается действие. Enough после признака показывает достаточность для цели: wide enough to enter. Перед существительным порядок другой: enough space.\n\n### 4.4. Сравнение с близкими конструкциями\n\n| Contrast | Meaning |\n|---|---|\n| an interesting film / interested viewers | -ing causes the feeling; -ed describes the experiencer |\n| a beautiful old wooden table | opinion -> size/age/colour/origin/material |\n| speaks good English / speaks English well | adjective + noun vs adverb modifying verb |\n| works hard / hardly works | with effort vs almost not |\n| so difficult / such a difficult task | so + adjective; such + noun phrase |\n| too heavy to carry / not light enough to carry | excessive degree vs insufficient degree |\n| quite good / quite certain | less than very vs completely |\n| much better / any better / no better | intensified comparison / question / negative comparison |\n| as tall as / not as tall as | equality / inequality |\n| the more you practise, the easier it becomes | linked comparative change |\n| She usually works / She is usually tired | mid-position before lexical verb / after be |\n| still works here / doesn't work here any more | continuing situation / changed situation |\n| has already left / hasn't left yet | sooner than expected / expected but not happened by now |\n\n### 4.5. Примеры с переводом и объяснением\n\n| English | Перевод | Почему это подходит |\n|---|---|---|\n| `Only the final chapter discusses the limitations; the earlier chapters do not.` | Только в последней главе обсуждаются ограничения; в предыдущих главах они не рассматриваются. | Only directly restricts the subject/focus to the final chapter. |\n| `The findings were barely statistically significant.` | Результаты едва достигли статистической значимости. | Barely is an adverb modifying the adjective phrase statistically significant. |\n| `The team agreed merely to revise the protocol, not to abandon it.` | Команда лишь согласилась пересмотреть протокол, а не отказаться от него. | Merely is placed before the to-infinitive and restricts the action the team agreed to. |\n| `Arguably, the evidence does not support the stronger claim.` | Вероятно, эти данные не подтверждают более сильный тезис. | Arguably is a stance adverb modifying the whole proposition. |\n\nПримеры составлены Speakbase. Они иллюстрируют грамматическую функцию, но не подменяют индивидуальную проверку всех возможных вариантов и исключений.\n\n### 4.6. Исключения, ограничения и границы употребления\n\n- -ing/-ed is a useful tendency, not a mechanical rule for every adjective; learn lexical patterns and complements.\n- Adjective order is a strong tendency; not every combination has one rigid order. Opinion adjectives usually precede fact adjectives.\n- Linking verbs take adjective complements; do not use an adverb simply because the verb is present.\n- Not all adverbs end in -ly; some -ly words are adjectives. Hard/hardly and late/lately have different meanings.\n- Good is an adjective; well is usually an adverb but can describe health.\n- So modifies adjectives/adverbs; such introduces a noun phrase. Use such a, not a such.\n- Enough follows adjectives/adverbs but precedes nouns; too/enough + to-infinitive can omit an understood object pronoun.\n- Quite can mean 'moderately' or 'completely'; adjective choice and context decide. Pretty is informal; fairly is weaker.\n- Some two-syllable adjectives allow both -er and more; irregular comparatives must be learned.\n- Elder is mainly used before a family noun (my elder sister); older is the general comparative.\n- Use in for places/groups and of for periods after superlatives; one of + superlative takes a plural noun.\n- Verb and object normally stay together; do not insert an adverb between them.\n- Adverb position is not free: be, one-word verbs and multi-word verb phrases have different mid-position patterns.\n- Still, already and yet have different time/aspect meanings; do not substitute them mechanically.\n- Focus adverb placement changes meaning (Only Maria..., Maria only..., Maria reviewed only...).\n\n### 4.7. Типичные ошибки русскоязычных студентов\n\n| `Even the final chapter discusses the limitations; the earlier chapters do not.` | `Only the final chapter discusses the limitations; the earlier chapters do not.` | Even adds unexpected emphasis, not the intended restriction. |\n| `The findings were bare statistically significant.` | `The findings were barely statistically significant.` | Bare is an adjective and cannot modify the adjective phrase here. |\n| `The team mere agreed to revise the protocol, not to abandon it.` | `The team merely agreed to revise the protocol, not to abandon it.` | Mere is an adjective and cannot modify agreed. |\n\nРусский перевод помогает понять смысл, но не управляет английской формой напрямую. Проверяй роль каждого элемента и грамматическую модель английского предложения.\n\n### 4.8. Произношение и восприятие на слух\n\nTopic-specific pronunciation practice for Adverb position, degree, focus and viewpoint: focus on weak forms, endings and sentence stress. Phonetic examples still require dictionary-audio verification.\n\nДля аудирования распознавай слабые формы вспомогательных глаголов, окончания и границы смысловых групп. Не ориентируйся только на чтение по буквам.\n\n### 4.9. Академический английский и TOEFL-перенос\n\nTOEFL transfer for Adverb position, degree, focus and viewpoint: use the target structure to interpret syntax in Reading/Listening and construct clear sentences in Writing/Speaking. This is skill transfer, not a separate exam task.\n\n- **Reading:** синтаксические связи, reference, modifiers и логические отношения.\n- **Listening:** tense/aspect, weak forms, modality, speaker stance и связи между идеями.\n- **Writing — Build a Sentence:** точность структуры, согласование, порядок слов и verb patterns.\n- **Writing — Email / Academic Discussion:** ясность, appropriate register, аргументация и cohesion.\n- **Speaking — Listen and Repeat / Take an Interview:** точность воспроизведения формы и самостоятельное применение.\n\nЭто перенос навыка, а не полноценный экзаменационный пробник и не обещание конкретного балла.\n\n### 4.10. Примеры для управляемого разбора\n\n- ___ the final chapter discusses the limitations; the earlier chapters do not. ? `Only`. Almost\n- The findings were ___ statistically significant. ? `barely`. bareness\n- The team agreed ___ to revise the protocol, not to abandon it. ? `merely`. mereness\n\nДля каждого примера назови целевой элемент, объясни форму, укажи, почему отвлекающий вариант неверен, и придумай собственное предложение с тем же правилом.\n\n### 4.11. Самопроверка\n\nПеред отправкой ответа проверь:\n1. Правильно ли определена функция конструкции?\n2. Согласована ли форма с подлежащим и временной перспективой?\n3. Не перенесён ли русский порядок слов напрямую?\n4. Не смешаны ли две похожие модели?\n5. Не сильнее ли утверждение, чем позволяют контекст и доказательства?\n\n### 4.12. Краткая памятка\n\n- -ing adjective = cause; -ed adjective = experiencer's feeling.\n- Adjective order: opinion before fact; linking verbs take adjective complements.\n- Adjective describes noun/state; adverb modifies verb/adjective/adverb/clause.\n- Good/well; hard/hardly; late/lately are different patterns.\n- So + adjective/adverb; such + noun phrase; too = excessive; enough = sufficient.\n- Quite can mean moderately or completely; pretty informal; fairly weaker.\n- Comparatives: -er/more + than; as...as; much/far/a bit + comparative; the...the...; superlative + in/of.\n- Verb + object stay together; place/time follow natural order.\n- Mid adverb: before main verb, after be, after first auxiliary; focus adverb near target.\n- Still = continuing; not any more/no longer = stopped; already = sooner than expected; yet = expected but not happened.\n\n## 5. Практика\n\nВ приложении практика разделена на входную диагностику, управляемые задания, самостоятельную практику и новую выходную проверку. Закрытые ответы получают rationale и разбор ошибки. Свободный текст сохраняется и оценивается по рубрике; до подключения и реальной проверки AI-движка система не выдаёт его за автоматическую AI-оценку.\n\n## 6. Интервальное повторение\n\nПовторяй не весь урок автоматически, а конкретную ошибку: выбор формы, согласование, word order, значение, регистр или пунктуацию. Новая попытка должна менять лексический контекст и формулировку, чтобы проверять перенос, а не запоминание одной строки.\n\n## 7. Технический статус\n\n- Постоянный ID: `B2-13`.\n- Прогресс хранится отдельно в course.grammarLessons[\"B2-13\"].\n- Содержание и ключи имеют статус draft; источник page verification pending.\n- Предварительное выполнение порогов не равно окончательному mastered: нужны отсроченное повторение и learner review.",
+  "theoryEnd": "## 5."
+}

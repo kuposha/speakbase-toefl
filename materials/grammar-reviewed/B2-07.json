@@ -1,0 +1,686 @@
+{
+  "id": "B2-07",
+  "level": "B2",
+  "sequence": "B2-07",
+  "grammarFamily": "B2-07",
+  "questionBankSource": "topic-specific-authored",
+  "sourceVerification": "draft; selected GR-05 descriptor checked, remaining source review pending",
+  "topicProfile": {
+    "label": "complex relative and participle clauses",
+    "skillTarget": "complex-relative-and-participle-clauses",
+    "core": "Относительное придаточное отвечает либо на вопрос «который именно?», либо добавляет сведения об уже определённом предмете. Запятые меняют объём группы: guests who paid — заплатившие гости; the guests, who paid, — заплатили все названные гости.",
+    "form": "Whose + существительное указывает на владельца. После вынесенного предлога в формальном стиле выбирай whom для людей и which для вещей: to whom, in which. В разговорном варианте предлог можно оставить в конце.",
+    "selection": "В определительном придаточном иногда опускается объектное местоимение, но не подлежащее. Сокращённое visitors waiting передаёт активное действие, forms signed by Jo — действие над формами. Which может отсылать и ко всему событию.",
+    "contrast": "The method by which the samples were analysed; the researcher to whom I spoke; the devices installed last year.",
+    "boundary": "Preposition stranding and fronting vary by register. Some participle reductions can be ambiguous or create dangling modifiers; choose the explicit relative clause when reference is unclear.",
+    "pronunciation": "В длинных non-finite clauses важно интонационное членение: короткая пауза после вводного оборота помогает слушателю восстановить связь с главным clause.",
+    "examples": [],
+    "traps": [],
+    "toefl": "Non-finite clauses повышают плотность академического текста, но перегруженные или dangling modifiers ухудшают ясность. Используй их только при однозначном субъекте."
+  },
+  "title": "Complex relative and participle clauses",
+  "description": "Использовать preposition + relative pronoun, reduced relatives и participle clauses",
+  "cardDescription": "Теория, guided practice, самостоятельные задания и выходная проверка по постоянному ID B2-07.",
+  "eyebrow": "Полный урок программы B2-07 · drafted",
+  "contentVersion": "1.1-draft",
+  "curriculumVersion": "1.0",
+  "prerequisites": [
+    "B1-14",
+    "B1-21"
+  ],
+  "outcomes": [
+    "Использовать preposition + relative pronoun, reduced relatives и participle clauses",
+    "Выбирать целевую конструкцию по контексту и смыслу.",
+    "Исправлять типичные ошибки и переносить правило в новый пример."
+  ],
+  "sourceRefs": [
+    "GR-02 U92-97",
+    "GR-03 U53-59",
+    "GR-05 B2 p12-13",
+    "GR-05 B2 p55-56"
+  ],
+  "sourceStatus": "partial; GR-05 B2 p. 12–13: relatives and prepositions; full page verification pending",
+  "status": "drafted",
+  "legacyCoverage": "Частично",
+  "toeflLinks": [
+    "Writing: Build a Sentence",
+    "Reading: clause structure, reference, modifiers and logical relationships",
+    "Writing: Academic Discussion"
+  ],
+  "thresholds": {
+    "independent": 7,
+    "exit": 4,
+    "criticalIds": [
+      "E1",
+      "E2",
+      "E3"
+    ]
+  },
+  "groups": {
+    "independent": "Самостоятельная практика",
+    "exit": "Выходная проверка"
+  },
+  "items": [
+    {
+      "id": "D1",
+      "group": "Входная диагностика",
+      "prompt": "The framework within ___ the study was conducted was established earlier.",
+      "options": [
+        "who",
+        "which",
+        "whose"
+      ],
+      "answer": "which",
+      "accepted": [
+        "which"
+      ],
+      "why": "Which refers to the framework after a fronted preposition within.",
+      "distractorWhy": "Who refers to people.",
+      "distractorRationales": {
+        "who": "Who refers to people.",
+        "whose": "Whose expresses possession and would need a following noun."
+      },
+      "skillTarget": "complex-relative-and-participle-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D2",
+      "group": "Входная диагностика",
+      "prompt": "The consultant to ___ we sent the report replied immediately.",
+      "options": [
+        "whom",
+        "which",
+        "whose"
+      ],
+      "answer": "whom",
+      "accepted": [
+        "whom"
+      ],
+      "why": "Whom is the formal object form referring to a person after a preposition.",
+      "distractorWhy": "Which refers to things, not the consultant.",
+      "distractorRationales": {
+        "which": "Which refers to things, not the consultant.",
+        "whose": "Whose shows possession, not the object of to."
+      },
+      "skillTarget": "complex-relative-and-participle-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D3",
+      "group": "Входная диагностика",
+      "prompt": "The survey included five hundred participants, many of ___ were international students.",
+      "options": [
+        "which",
+        "whose",
+        "whom"
+      ],
+      "answer": "whom",
+      "accepted": [
+        "whom"
+      ],
+      "why": "Whom refers to people after many of.",
+      "distractorWhy": "Which refers to things.",
+      "distractorRationales": {
+        "which": "Which refers to things.",
+        "whose": "Whose expresses possession and needs a noun."
+      },
+      "skillTarget": "complex-relative-and-participle-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D4",
+      "group": "Входная диагностика",
+      "prompt": "The devices ___ during the trial are now being inspected.",
+      "options": [
+        "damaging",
+        "damaged",
+        "damage"
+      ],
+      "answer": "damaged",
+      "accepted": [
+        "damaged"
+      ],
+      "why": "Damaged is a passive participle: the devices received the action.",
+      "distractorWhy": "Damaging would imply the devices caused damage.",
+      "distractorRationales": {
+        "damaging": "Damaging would imply the devices caused damage.",
+        "damage": "Damage is a base verb and does not form the reduced relative clause."
+      },
+      "skillTarget": "complex-relative-and-participle-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G1",
+      "group": "Управляемая практика",
+      "prompt": "The model, through ___ the data were processed, is described in Appendix B.",
+      "options": [
+        "which",
+        "who",
+        "whose"
+      ],
+      "answer": "which",
+      "accepted": [
+        "which"
+      ],
+      "why": "Which refers to the model after the preposition through.",
+      "distractorWhy": "Who refers to people.",
+      "distractorRationales": {
+        "who": "Who refers to people.",
+        "whose": "Whose expresses possession."
+      },
+      "skillTarget": "complex-relative-and-participle-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G2",
+      "group": "Управляемая практика",
+      "prompt": "The committee members, several of ___ had field experience, supported the proposal.",
+      "options": [
+        "which",
+        "where",
+        "whom"
+      ],
+      "answer": "whom",
+      "accepted": [
+        "whom"
+      ],
+      "why": "Whom refers to people after several of.",
+      "distractorWhy": "Which refers to things.",
+      "distractorRationales": {
+        "which": "Which refers to things.",
+        "where": "Where refers to a place, not people."
+      },
+      "skillTarget": "complex-relative-and-participle-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G3",
+      "group": "Управляемая практика",
+      "prompt": "The report ___ by the external reviewers contains several corrections.",
+      "options": [
+        "revising",
+        "revised",
+        "revise"
+      ],
+      "answer": "revised",
+      "accepted": [
+        "revised"
+      ],
+      "why": "Revised is a passive participle describing the report that received revision.",
+      "distractorWhy": "Revising would mean the report is performing the revision.",
+      "distractorRationales": {
+        "revising": "Revising would mean the report is performing the revision.",
+        "revise": "Revise is a base verb and cannot modify report in this clause."
+      },
+      "skillTarget": "complex-relative-and-participle-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G4",
+      "group": "Управляемая практика",
+      "prompt": "The hut ___ roof collapsed is closed.",
+      "options": [
+        "whose",
+        "where",
+        "which"
+      ],
+      "answer": "whose",
+      "accepted": [
+        "whose"
+      ],
+      "why": "Whose вводит принадлежность и стоит перед существительным.",
+      "distractorWhy": "Where обозначает место действия внутри придаточного.",
+      "distractorRationales": {
+        "where": "Where обозначает место действия внутри придаточного.",
+        "which": "Which заменяет предмет, например подлежащее придаточного."
+      },
+      "skillTarget": "complex-relative-and-participle-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G5",
+      "group": "Управляемая практика",
+      "prompt": "Students who booked early paid less. О каких студентах речь?",
+      "options": [
+        "Дополнительное сообщение",
+        "Отсылка ко всему факту",
+        "Ограничение группы"
+      ],
+      "answer": "Ограничение группы",
+      "accepted": [
+        "Ограничение группы"
+      ],
+      "why": "Определительное придаточное без запятых выбирает подгруппу.",
+      "distractorWhy": "Обособленное придаточное даёт попутный комментарий.",
+      "distractorRationales": {
+        "Дополнительное сообщение": "Обособленное придаточное даёт попутный комментарий.",
+        "Отсылка ко всему факту": "Which после события может пояснять следствие целого сообщения."
+      },
+      "skillTarget": "complex-relative-and-participle-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G6",
+      "group": "Управляемая практика",
+      "prompt": "The visitors ___ in the lobby need seats. Они сейчас ждут.",
+      "options": [
+        "selected",
+        "waiting",
+        "to arrive"
+      ],
+      "answer": "waiting",
+      "accepted": [
+        "waiting"
+      ],
+      "why": "Причастие -ing представляет активное действие определяемого лица.",
+      "distractorWhy": "Причастие прошедшего времени передаёт пассивный отбор.",
+      "distractorRationales": {
+        "selected": "Причастие прошедшего времени передаёт пассивный отбор.",
+        "to arrive": "После порядкового числительного инфинитив может обозначать место в последовательности."
+      },
+      "skillTarget": "complex-relative-and-participle-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I1",
+      "group": "Самостоятельная практика",
+      "prompt": "The room ___ we recorded the talk was tiny.",
+      "options": [
+        "whose",
+        "which",
+        "where"
+      ],
+      "answer": "where",
+      "accepted": [
+        "where"
+      ],
+      "why": "Where обозначает место действия внутри придаточного.",
+      "distractorWhy": "Whose вводит принадлежность и стоит перед существительным.",
+      "distractorRationales": {
+        "whose": "Whose вводит принадлежность и стоит перед существительным.",
+        "which": "Which заменяет предмет, например подлежащее придаточного."
+      },
+      "skillTarget": "complex-relative-and-participle-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I2",
+      "group": "Самостоятельная практика",
+      "prompt": "Jo, who booked early, paid less. Какую роль играет who-clause?",
+      "options": [
+        "Ограничение группы",
+        "Дополнительное сообщение",
+        "Отсылка ко всему факту"
+      ],
+      "answer": "Дополнительное сообщение",
+      "accepted": [
+        "Дополнительное сообщение"
+      ],
+      "why": "Обособленное придаточное даёт попутный комментарий.",
+      "distractorWhy": "Определительное придаточное без запятых выбирает подгруппу.",
+      "distractorRationales": {
+        "Ограничение группы": "Определительное придаточное без запятых выбирает подгруппу.",
+        "Отсылка ко всему факту": "Which после события может пояснять следствие целого сообщения."
+      },
+      "skillTarget": "complex-relative-and-participle-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I3",
+      "group": "Самостоятельная практика",
+      "prompt": "The visitors ___ by lottery received passes.",
+      "options": [
+        "selected",
+        "waiting",
+        "to arrive"
+      ],
+      "answer": "selected",
+      "accepted": [
+        "selected"
+      ],
+      "why": "Причастие прошедшего времени передаёт пассивный отбор.",
+      "distractorWhy": "Причастие -ing представляет активное действие определяемого лица.",
+      "distractorRationales": {
+        "waiting": "Причастие -ing представляет активное действие определяемого лица.",
+        "to arrive": "После порядкового числительного инфинитив может обозначать место в последовательности."
+      },
+      "skillTarget": "complex-relative-and-participle-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I4",
+      "group": "Самостоятельная практика",
+      "prompt": "The screen, ___ weighs very little, fits my bag.",
+      "options": [
+        "whose",
+        "where",
+        "which"
+      ],
+      "answer": "which",
+      "accepted": [
+        "which"
+      ],
+      "why": "Which заменяет предмет, например подлежащее придаточного.",
+      "distractorWhy": "Whose вводит принадлежность и стоит перед существительным.",
+      "distractorRationales": {
+        "whose": "Whose вводит принадлежность и стоит перед существительным.",
+        "where": "Where обозначает место действия внутри придаточного."
+      },
+      "skillTarget": "complex-relative-and-participle-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I5",
+      "group": "Самостоятельная практика",
+      "prompt": "The bus broke down, which delayed the trip. К чему относится which?",
+      "options": [
+        "Ограничение группы",
+        "Отсылка ко всему факту",
+        "Дополнительное сообщение"
+      ],
+      "answer": "Отсылка ко всему факту",
+      "accepted": [
+        "Отсылка ко всему факту"
+      ],
+      "why": "Which после события может пояснять следствие целого сообщения.",
+      "distractorWhy": "Определительное придаточное без запятых выбирает подгруппу.",
+      "distractorRationales": {
+        "Ограничение группы": "Определительное придаточное без запятых выбирает подгруппу.",
+        "Дополнительное сообщение": "Обособленное придаточное даёт попутный комментарий."
+      },
+      "skillTarget": "complex-relative-and-participle-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I6",
+      "group": "Самостоятельная практика",
+      "prompt": "Nora was the first guest ___ at the gate.",
+      "options": [
+        "to arrive",
+        "waiting",
+        "selected"
+      ],
+      "answer": "to arrive",
+      "accepted": [
+        "to arrive"
+      ],
+      "why": "После порядкового числительного инфинитив может обозначать место в последовательности.",
+      "distractorWhy": "Причастие -ing представляет активное действие определяемого лица.",
+      "distractorRationales": {
+        "waiting": "Причастие -ing представляет активное действие определяемого лица.",
+        "selected": "Причастие прошедшего времени передаёт пассивный отбор."
+      },
+      "skillTarget": "complex-relative-and-participle-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I7",
+      "group": "Самостоятельная практика",
+      "prompt": "The hall ___ the debate took place is upstairs.",
+      "options": [
+        "whose",
+        "which",
+        "where"
+      ],
+      "answer": "where",
+      "accepted": [
+        "where"
+      ],
+      "why": "Where обозначает место действия внутри придаточного.",
+      "distractorWhy": "Whose вводит принадлежность и стоит перед существительным.",
+      "distractorRationales": {
+        "whose": "Whose вводит принадлежность и стоит перед существительным.",
+        "which": "Which заменяет предмет, например подлежащее придаточного."
+      },
+      "skillTarget": "complex-relative-and-participle-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I8",
+      "group": "Самостоятельная практика",
+      "prompt": "Books that have red labels stay here. Как действует определение?",
+      "options": [
+        "Дополнительное сообщение",
+        "Ограничение группы",
+        "Отсылка ко всему факту"
+      ],
+      "answer": "Ограничение группы",
+      "accepted": [
+        "Ограничение группы"
+      ],
+      "why": "Определительное придаточное без запятых выбирает подгруппу.",
+      "distractorWhy": "Обособленное придаточное даёт попутный комментарий.",
+      "distractorRationales": {
+        "Дополнительное сообщение": "Обособленное придаточное даёт попутный комментарий.",
+        "Отсылка ко всему факту": "Which после события может пояснять следствие целого сообщения."
+      },
+      "skillTarget": "complex-relative-and-participle-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I9",
+      "group": "Самостоятельная практика",
+      "prompt": "People ___ outside are getting wet. Они стоят в очереди.",
+      "options": [
+        "waiting",
+        "selected",
+        "to arrive"
+      ],
+      "answer": "waiting",
+      "accepted": [
+        "waiting"
+      ],
+      "why": "Причастие -ing представляет активное действие определяемого лица.",
+      "distractorWhy": "Причастие прошедшего времени передаёт пассивный отбор.",
+      "distractorRationales": {
+        "selected": "Причастие прошедшего времени передаёт пассивный отбор.",
+        "to arrive": "После порядкового числительного инфинитив может обозначать место в последовательности."
+      },
+      "skillTarget": "complex-relative-and-participle-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E1",
+      "group": "Выходная проверка",
+      "prompt": "A lens ___ coating is damaged may blur the image.",
+      "options": [
+        "whose",
+        "where",
+        "which"
+      ],
+      "answer": "whose",
+      "accepted": [
+        "whose"
+      ],
+      "why": "Whose вводит принадлежность и стоит перед существительным.",
+      "distractorWhy": "Where обозначает место действия внутри придаточного.",
+      "distractorRationales": {
+        "where": "Where обозначает место действия внутри придаточного.",
+        "which": "Which заменяет предмет, например подлежащее придаточного."
+      },
+      "skillTarget": "complex-relative-and-participle-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E2",
+      "group": "Выходная проверка",
+      "prompt": "My only sister, who lives nearby, helped. Что добавлено?",
+      "options": [
+        "Ограничение группы",
+        "Отсылка ко всему факту",
+        "Дополнительное сообщение"
+      ],
+      "answer": "Дополнительное сообщение",
+      "accepted": [
+        "Дополнительное сообщение"
+      ],
+      "why": "Обособленное придаточное даёт попутный комментарий.",
+      "distractorWhy": "Определительное придаточное без запятых выбирает подгруппу.",
+      "distractorRationales": {
+        "Ограничение группы": "Определительное придаточное без запятых выбирает подгруппу.",
+        "Отсылка ко всему факту": "Which после события может пояснять следствие целого сообщения."
+      },
+      "skillTarget": "complex-relative-and-participle-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E3",
+      "group": "Выходная проверка",
+      "prompt": "The three names ___ by the judge appear below.",
+      "options": [
+        "waiting",
+        "selected",
+        "to arrive"
+      ],
+      "answer": "selected",
+      "accepted": [
+        "selected"
+      ],
+      "why": "Причастие прошедшего времени передаёт пассивный отбор.",
+      "distractorWhy": "Причастие -ing представляет активное действие определяемого лица.",
+      "distractorRationales": {
+        "waiting": "Причастие -ing представляет активное действие определяемого лица.",
+        "to arrive": "После порядкового числительного инфинитив может обозначать место в последовательности."
+      },
+      "skillTarget": "complex-relative-and-participle-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E4",
+      "group": "Выходная проверка",
+      "prompt": "The poster, ___ lists all the dates, is new.",
+      "options": [
+        "which",
+        "whose",
+        "where"
+      ],
+      "answer": "which",
+      "accepted": [
+        "which"
+      ],
+      "why": "Which заменяет предмет, например подлежащее придаточного.",
+      "distractorWhy": "Whose вводит принадлежность и стоит перед существительным.",
+      "distractorRationales": {
+        "whose": "Whose вводит принадлежность и стоит перед существительным.",
+        "where": "Where обозначает место действия внутри придаточного."
+      },
+      "skillTarget": "complex-relative-and-participle-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E5",
+      "group": "Выходная проверка",
+      "prompt": "The lift doors jammed, which upset the guests. Что именно их расстроило?",
+      "options": [
+        "Ограничение группы",
+        "Дополнительное сообщение",
+        "Отсылка ко всему факту"
+      ],
+      "answer": "Отсылка ко всему факту",
+      "accepted": [
+        "Отсылка ко всему факту"
+      ],
+      "why": "Which после события может пояснять следствие целого сообщения.",
+      "distractorWhy": "Определительное придаточное без запятых выбирает подгруппу.",
+      "distractorRationales": {
+        "Ограничение группы": "Определительное придаточное без запятых выбирает подгруппу.",
+        "Дополнительное сообщение": "Обособленное придаточное даёт попутный комментарий."
+      },
+      "skillTarget": "complex-relative-and-participle-clauses",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "W1",
+      "group": "Самостоятельное применение",
+      "prompt": "Опиши участников семинара: выбери подгруппу, добавь необязательный факт об одном человеке и назови предмет, который он подписал.",
+      "open": true,
+      "rubric": [
+        "Определение однозначно выбирает подгруппу",
+        "Дополнительное сообщение обособлено",
+        "В пассивном определении предмет получает действие",
+        "Все части задания выполнены в одном связном контексте",
+        "Перевод сохраняет роль участников и смысл конструкции",
+        "Ответ содержит собственный английский пример, который можно понять без текста задания."
+      ],
+      "skillTarget": "Самостоятельное применение B2-07",
+      "interactionType": "open-production",
+      "difficulty": "transfer",
+      "sourceBasis": "Speakbase-authored open production; self-review rubric only until real AI feedback is connected",
+      "contentVersion": "1.1-draft"
+    }
+  ],
+  "markdown": "# Speakbase — B2-07: Complex relative and participle clauses\n\n**Curriculum ID:** `B2-07`  \n**Уровень:** B2  \n**Версия:** 1.1-draft\n**Статус:** drafted; exact source-page verification, editorial key review and learner test are pending  \n**Предварительные темы:** B1-14, B1-21  \n**Связь со старым каталогом:** Частично — №33 Relative Clauses; №34 Non-defining Relative Clauses; №46 Participle Clauses\n\n## 1. Результаты обучения\n\n- Использовать preposition + relative pronoun, reduced relatives и participle clauses\n- Выбирать целевую форму по значению, структуре предложения и контексту.\n- Объяснять, почему близкая грамматическая форма меняет смысл или регистр.\n- Находить и исправлять типичные ошибки русскоязычных студентов.\n\n## 2. Источники и статус сверки\n\n| Source | PDF navigation | Lesson-specific checks | Status |\n|---|---|---|---|\n| GR-02 U92 | PDF pages 196-197 (Unit 92) | Defining relative clauses with who/that/which and relative pronouns as subject/object; explanations and exercises text-extracted and checked | text extracted and checked |\n| GR-02 U93 | PDF pages 198-199 (Unit 93) | Relative pronouns that can be omitted when object; preposition stranding and what vs that; explanations and exercises text-extracted and checked | text extracted and checked |\n| GR-02 U94 | PDF pages 200-201 (Unit 94) | Whose/whom/where and relative clauses with time/reason expressions; explanations and exercises text-extracted and checked | text extracted and checked |\n| GR-02 U95 | PDF pages 202-203 (Unit 95) | Defining vs non-defining relative clauses, commas, that restrictions and omission rules; explanations and exercises text-extracted and checked | text extracted and checked |\n| GR-02 U96 | PDF pages 204-205 (Unit 96) | Preposition + whom/which, quantifier + of whom/which and which referring to a whole clause; explanations and exercises text-extracted and checked | text extracted and checked |\n| GR-02 U97 | PDF pages 206-207 (Unit 97) | -ing and -ed reduced relative clauses; active vs passive participles; explanations and exercises text-extracted and checked | text extracted and checked |\n| GR-03 U53 | PDF pages 130-131 (printed pp. 106-107, Unit 53) | Relative pronouns, defining/non-defining clauses and omission; explanations and exercises visually checked | visually checked; unit-text checked |\n| GR-03 U54 | PDF pages 132-133 (printed pp. 108-109, Unit 54) | Other relative words: whose, when, whereby, where, why, whatever/whoever; explanations and exercises visually checked | visually checked; unit-text checked |\n| GR-03 U55 | PDF pages 134-135 (printed pp. 110-111, Unit 55) | Prepositions in relative clauses: fronting vs stranding, whom/which; explanations and exercises visually checked | visually checked; unit-text checked |\n| GR-03 U56 | PDF pages 136-137 (printed pp. 112-113, Unit 56) | Apposition, comment clauses, participle phrases and adding information to noun phrases; explanations and exercises visually checked | visually checked; unit-text checked |\n| GR-03 U57 | PDF pages 138-139 (printed pp. 114-115, Unit 57) | Prepositional phrases and reduced/expanded relative clauses; ambiguity; explanations and exercises visually checked | visually checked; unit-text checked |\n| GR-03 U58 | PDF pages 140-141 (printed pp. 116-117, Unit 58) | Participle clauses: -ing/-ed, perfect forms and implied subject; explanations and exercises visually checked | visually checked; unit-text checked |\n| GR-03 U59 | PDF pages 142-143 (printed pp. 118-119, Unit 59) | Preposition + -ing and conjunction + participle patterns; explanations and exercises visually checked | visually checked; unit-text checked |\n| GR-05 B2 p12-13 | PDF pages 12-13 (B2 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-05 B2 p55-56 | PDF pages 55-56 (B2 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n\nUnit/page locations are navigation aids only. They do not prove that the cited explanation, examples, restrictions and answer key have been checked for this lesson. Examples and explanations below are Speakbase-authored, not quotations from the textbook.\n\nПеред переводом этого урока в source-verified необходимо открыть целевые страницы конкретного издания, записать печатную и PDF-пагинацию, сверить ограничения и исключения. Для GR-03 со сканированными страницами обязательна визуальная проверка.\n\nСверка этой редакции: GR-05 B2 p. 12–13: relatives and prepositions. Остальные строки сохраняют прежний статус.\n\n## 3. Место темы и границы\n\nСистематизируй complex relatives, preposition + relative pronoun и participle clauses; контролируй reference и punctuation.\n\nСтарый каталог содержит: №33 Relative Clauses; №34 Non-defining Relative Clauses; №46 Participle Clauses. Его статус — Частично. Старые отметки завершения не переносятся автоматически на новый постоянный ID. Тема рассматривается в уровне B2 и не заменяет обязательные prerequisites.\n\n## 4. Полный конспект\n\n### 4.1. Основная идея и функция конструкции\n\nОтносительное придаточное отвечает либо на вопрос «который именно?», либо добавляет сведения об уже определённом предмете. Запятые меняют объём группы: guests who paid — заплатившие гости; the guests, who paid, — заплатили все названные гости.\n\n### 4.2. Формирование и грамматические модели\n\nWhose + существительное указывает на владельца. После вынесенного предлога в формальном стиле выбирай whom для людей и which для вещей: to whom, in which. В разговорном варианте предлог можно оставить в конце.\n\n### 4.3. Как выбрать подходящую форму\n\nВ определительном придаточном иногда опускается объектное местоимение, но не подлежащее. Сокращённое visitors waiting передаёт активное действие, forms signed by Jo — действие над формами. Which может отсылать и ко всему событию.\n\n### 4.4. Сравнение с близкими конструкциями\n\n| Form | Example | Difference |\n|---|---|---|\n| defining | The researcher who designed the test received an award. | Identifies which researcher; no commas |\n| non-defining | Dr Lee, who designed the test, received an award. | Adds extra information; commas; no that |\n| object relative omitted | The paper (that) I read was useful. | Relative pronoun is object |\n| subject relative | The paper that explains the method is useful. | Relative pronoun is subject; cannot omit |\n| fronted preposition | the consultant to whom I wrote | Formal; preposition before whom |\n| stranded preposition | the consultant (who/that) I wrote to | Neutral/informal |\n| clause-level which | The trial failed, which surprised the team. | Which refers to the whole preceding event |\n| reduced relative | the devices installed last year | Passive V3 phrase; devices receive the action |\n\n### 4.5. Примеры с переводом и объяснением\n\n| English | Перевод | Почему это подходит |\n|---|---|---|---|\n| `The framework within which the study was conducted was established earlier.` | Концептуальная основа, в рамках которой проводилось исследование, была разработана ранее. | Which refers to the framework after a fronted preposition within. |\n| `The consultant to whom we sent the report replied immediately.` | Консультант, которому мы отправили отчёт, ответил немедленно. | Whom is the formal object form referring to a person after a preposition. |\n| `The survey included five hundred participants, many of whom were international students.` | В опросе участвовали пятьсот человек, многие из которых были иностранными студентами. | Whom refers to people after many of. |\n| `The devices damaged during the trial are now being inspected.` | Устройства, повреждённые во время испытания, сейчас проходят осмотр. | Damaged is a passive participle: the devices received the action. |\n\nПримеры составлены Speakbase. Они иллюстрируют грамматическую функцию, но не подменяют индивидуальную проверку всех возможных вариантов и исключений.\n\n### 4.6. Исключения, ограничения и границы употребления\n\n- Do not omit a relative pronoun when it is the subject of its clause.\n- Object pronoun omission is possible in defining clauses in appropriate positions; non-defining clauses retain the pronoun.\n- Do not use that in non-defining relative clauses or directly after a fronted preposition.\n- Whom is formal; in everyday English, a stranded preposition with who/that or no pronoun is usually more natural.\n- What means 'the thing(s) that' and cannot normally follow an antecedent noun such as everything or the thing.\n- Which can refer to a whole preceding clause; what cannot.\n- Whose is not limited to people; it can refer to organisations/things when possession is intended.\n- Use where for place and when for time; do not use them as generic substitutes for which.\n- Quantifier + of whom/which must have a clear plural antecedent.\n- Reduced participle phrases need an unambiguous logical head; dangling or misplaced modifiers change the meaning.\n- Non-defining clauses require commas; punctuation can change whether the information is identifying or additional.\n\n### 4.7. Типичные ошибки русскоязычных студентов\n\n| `The framework within who the study was conducted was established earlier.` | `The framework within which the study was conducted was established earlier.` | Who refers to people. |\n| `The consultant to which we sent the report replied immediately.` | `The consultant to whom we sent the report replied immediately.` | Which refers to things, not the consultant. |\n| `The survey included five hundred participants, many of which were international students.` | `The survey included five hundred participants, many of whom were international students.` | Which refers to things. |\n\nРусский перевод помогает понять смысл, но не управляет английской формой напрямую. Проверяй роль каждого элемента и грамматическую модель английского предложения.\n\n### 4.8. Произношение и восприятие на слух\n\nTopic-specific pronunciation practice for Complex relative and participle clauses: focus on weak forms, endings and sentence stress. Phonetic examples still require dictionary-audio verification.\n\nДля аудирования распознавай слабые формы вспомогательных глаголов, окончания и границы смысловых групп. Не ориентируйся только на чтение по буквам.\n\n### 4.9. Академический английский и TOEFL-перенос\n\nTOEFL transfer for Complex relative and participle clauses: use the target structure to interpret syntax in Reading/Listening and construct clear sentences in Writing/Speaking. This is skill transfer, not a separate exam task.\n\n- **Reading:** синтаксические связи, reference, modifiers и логические отношения.\n- **Listening:** tense/aspect, weak forms, modality, speaker stance и связи между идеями.\n- **Writing — Build a Sentence:** точность структуры, согласование, порядок слов и verb patterns.\n- **Writing — Email / Academic Discussion:** ясность, appropriate register, аргументация и cohesion.\n- **Speaking — Listen and Repeat / Take an Interview:** точность воспроизведения формы и самостоятельное применение.\n\nЭто перенос навыка, а не полноценный экзаменационный пробник и не обещание конкретного балла.\n\n### 4.10. Примеры для управляемого разбора\n\n- The framework within ___ the study was conducted was established earlier. => `which` (not *whose*).\n- The consultant to ___ we sent the report replied immediately. => `whom` (not *whose*).\n- The survey included five hundred participants, many of ___ were international students. => `whom` (not *whose*).\n\nДля каждого примера назови целевой элемент, объясни форму, укажи, почему отвлекающий вариант неверен, и придумай собственное предложение с тем же правилом.\n\n### 4.11. Самопроверка\n\nПеред отправкой ответа проверь:\n1. Правильно ли определена функция конструкции?\n2. Согласована ли форма с подлежащим и временной перспективой?\n3. Не перенесён ли русский порядок слов напрямую?\n4. Не смешаны ли две похожие модели?\n5. Не сильнее ли утверждение, чем позволяют контекст и доказательства?\n\n### 4.12. Краткая памятка\n\n- Defining = identifies the noun, no commas; non-defining = extra information, commas, no that and no omission.\n- Relative pronoun as subject cannot be omitted; object may be omitted in defining clauses.\n- Who/whom = people; which = things/whole clause; whose = possession; where/when/why = place/time/reason.\n- Formal: preposition + whom/which; neutral: preposition can remain at the end.\n- Quantifier + of whom/which refers to a plural set.\n- What = the thing(s) that; never use after an antecedent noun.\n- Reduced relative: -ing active, V3 passive; check the logical head and ambiguity.\n\n## 5. Практика\n\nВ приложении практика разделена на входную диагностику, управляемые задания, самостоятельную практику и новую выходную проверку. Закрытые ответы получают rationale и разбор ошибки. Свободный текст сохраняется и оценивается по рубрике; до подключения и реальной проверки AI-движка система не выдаёт его за автоматическую AI-оценку.\n\n## 6. Интервальное повторение\n\nПовторяй не весь урок автоматически, а конкретную ошибку: выбор формы, согласование, word order, значение, регистр или пунктуацию. Новая попытка должна менять лексический контекст и формулировку, чтобы проверять перенос, а не запоминание одной строки.\n\n## 7. Технический статус\n\n- Постоянный ID: `B2-07`.\n- Прогресс хранится отдельно в course.grammarLessons[\"B2-07\"].\n- Содержание и ключи имеют статус draft; источник page verification pending.\n- Предварительное выполнение порогов не равно окончательному mastered: нужны отсроченное повторение и learner review.",
+  "theoryEnd": "## 5."
+}

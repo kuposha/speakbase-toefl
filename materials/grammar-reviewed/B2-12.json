@@ -1,0 +1,684 @@
+{
+  "id": "B2-12",
+  "level": "B2",
+  "sequence": "B2-12",
+  "grammarFamily": "B2-12",
+  "questionBankSource": "topic-specific-authored",
+  "sourceVerification": "draft; selected GR-05 descriptor checked, remaining source review pending",
+  "topicProfile": {
+    "label": "advanced quantifiers and determiners",
+    "skillTarget": "advanced-quantifiers-determiners",
+    "core": "Сначала проверь исчисляемость и число. Many и few относятся к отдельным предметам, much и little — к массе или абстрактной величине. В equipment, advice, research английский не считает отдельные единицы без уточнения.",
+    "form": "Few и little подчёркивают нехватку. A few и a little выделяют небольшое, но реальное наличие. В There are a few seats left вывод обычно оптимистичнее, чем в Very few seats remain. Важны контекст и намерение автора.",
+    "selection": "Each распределяет признак по отдельным участникам. Both относится к двум вместе, neither — ни к одному из двух, either — к одному из двух. Перед конкретной группой часто нужен of: each of the files. После each + существительное ставь единственное число.",
+    "contrast": "Few participants responded (almost none, negative tone). A few participants responded (some, positive/neutral). Little evidence exists (almost none). A little evidence exists (some).",
+    "boundary": "Agreement after quantifier phrases depends on grammatical head and meaning; all/none/some can show variation. Avoid using quantifier + noun combinations that contradict countability.",
+    "pronunciation": "Слабые формы of и артиклей часто редуцируются; ударение на few/little/all/either может выделять контраст или уточнять количество.",
+    "examples": [],
+    "traps": [],
+    "toefl": "Quantifiers важны для точного описания данных: few vs a few, much vs many, most vs almost all. Не преувеличивай долю и количество."
+  },
+  "title": "Advanced quantifiers and determiners",
+  "description": "Точно использовать all/whole, few/little, either/neither, no/none, not all/not every",
+  "cardDescription": "Теория, guided practice, самостоятельные задания и выходная проверка по постоянному ID B2-12.",
+  "eyebrow": "Полный урок программы B2-12 · drafted",
+  "contentVersion": "1.1-draft",
+  "curriculumVersion": "1.0",
+  "prerequisites": [
+    "A2-10"
+  ],
+  "outcomes": [
+    "Точно использовать all/whole, few/little, either/neither, no/none, not all/not every",
+    "Выбирать целевую конструкцию по контексту и смыслу.",
+    "Исправлять типичные ошибки и переносить правило в новый пример."
+  ],
+  "sourceRefs": [
+    "GR-02 U85-91",
+    "GR-03 U48-52",
+    "GR-05 B2 p17-18",
+    "GR-05 B2 p43-48"
+  ],
+  "sourceStatus": "partial; GR-05 B2 p. 17, 59: quantity and pronouns; full page verification pending",
+  "status": "drafted",
+  "legacyCoverage": "Частично",
+  "toeflLinks": [
+    "Writing: Build a Sentence",
+    "Writing: Academic Discussion"
+  ],
+  "thresholds": {
+    "independent": 7,
+    "exit": 4,
+    "criticalIds": [
+      "E1",
+      "E2",
+      "E3"
+    ]
+  },
+  "groups": {
+    "independent": "Самостоятельная практика",
+    "exit": "Выходная проверка"
+  },
+  "items": [
+    {
+      "id": "D1",
+      "group": "Входная диагностика",
+      "prompt": "There is ___ evidence to support the claim, so no conclusion can be drawn.",
+      "options": [
+        "a great number of",
+        "hardly any",
+        "a few"
+      ],
+      "answer": "hardly any",
+      "accepted": [
+        "hardly any"
+      ],
+      "why": "Hardly any expresses an almost zero quantity; evidence is uncountable.",
+      "distractorWhy": "A great number of requires a plural countable noun.",
+      "distractorRationales": {
+        "a great number of": "A great number of requires a plural countable noun.",
+        "a few": "A few is used with plural countable nouns and suggests some quantity."
+      },
+      "skillTarget": "advanced-quantifiers-determiners",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D2",
+      "group": "Входная диагностика",
+      "prompt": "A large number of applications ___ received after the deadline yesterday.",
+      "options": [
+        "were",
+        "was",
+        "has been"
+      ],
+      "answer": "were",
+      "accepted": [
+        "were"
+      ],
+      "why": "A large number of + plural countable noun normally takes plural agreement; yesterday requires Past Simple passive were received.",
+      "distractorWhy": "Was incorrectly treats number as the singular head in this expression.",
+      "distractorRationales": {
+        "was": "Was incorrectly treats number as the singular head in this expression.",
+        "has been": "Has been is present perfect and does not match the finished past time marker yesterday."
+      },
+      "skillTarget": "advanced-quantifiers-determiners",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D3",
+      "group": "Входная диагностика",
+      "prompt": "A great deal of research ___ been devoted to this question.",
+      "options": [
+        "have",
+        "are",
+        "has"
+      ],
+      "answer": "has",
+      "accepted": [
+        "has"
+      ],
+      "why": "Research is uncountable and the head phrase takes singular agreement: has been.",
+      "distractorWhy": "Have is plural and does not agree with the uncountable noun phrase.",
+      "distractorRationales": {
+        "have": "Have is plural and does not agree with the uncountable noun phrase.",
+        "are": "Are does not form the required present perfect passive."
+      },
+      "skillTarget": "advanced-quantifiers-determiners",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D4",
+      "group": "Входная диагностика",
+      "prompt": "___ of the two proposals was acceptable to the review panel.",
+      "options": [
+        "Both",
+        "Neither",
+        "All"
+      ],
+      "answer": "Neither",
+      "accepted": [
+        "Neither"
+      ],
+      "why": "Neither means not one and not the other; the singular verb was is standard in this sentence.",
+      "distractorWhy": "Both means the two proposals together, which conflicts with was and the intended negative meaning.",
+      "distractorRationales": {
+        "Both": "Both means the two proposals together, which conflicts with was and the intended negative meaning.",
+        "All": "All is not used for a set of two in this contrast and does not fit the singular verb."
+      },
+      "skillTarget": "advanced-quantifiers-determiners",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G1",
+      "group": "Управляемая практика",
+      "prompt": "Very ___ applicants met all the requirements; the position remains vacant.",
+      "options": [
+        "few",
+        "a few",
+        "little"
+      ],
+      "answer": "few",
+      "accepted": [
+        "few"
+      ],
+      "why": "Few emphasizes an insufficiently small number of plural countable applicants.",
+      "distractorWhy": "A few means some and does not carry the intended negative implication.",
+      "distractorRationales": {
+        "a few": "A few means some and does not carry the intended negative implication.",
+        "little": "Little is used with uncountable nouns."
+      },
+      "skillTarget": "advanced-quantifiers-determiners",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G2",
+      "group": "Управляемая практика",
+      "prompt": "We have ___ information about the latest revision, but enough to begin.",
+      "options": [
+        "a few",
+        "few",
+        "a little"
+      ],
+      "answer": "a little",
+      "accepted": [
+        "a little"
+      ],
+      "why": "A little means some amount of uncountable information.",
+      "distractorWhy": "A few is used with plural countable nouns.",
+      "distractorRationales": {
+        "a few": "A few is used with plural countable nouns.",
+        "few": "Few requires a plural countable noun."
+      },
+      "skillTarget": "advanced-quantifiers-determiners",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G3",
+      "group": "Управляемая практика",
+      "prompt": "They spent the ___ afternoon reviewing the evidence.",
+      "options": [
+        "all",
+        "whole",
+        "every"
+      ],
+      "answer": "whole",
+      "accepted": [
+        "whole"
+      ],
+      "why": "Whole follows the determiner the and modifies the singular count noun afternoon: the whole afternoon.",
+      "distractorWhy": "All afternoon is possible without the, but the all afternoon is not grammatical in this frame.",
+      "distractorRationales": {
+        "all": "All afternoon is possible without the, but the all afternoon is not grammatical in this frame.",
+        "every": "Every afternoon means on each afternoon (habitually), not the complete afternoon on one occasion."
+      },
+      "skillTarget": "advanced-quantifiers-determiners",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G4",
+      "group": "Управляемая практика",
+      "prompt": "We have ___ spare chairs, so three visitors can sit. Подчеркни наличие.",
+      "options": [
+        "a few",
+        "few",
+        "little"
+      ],
+      "answer": "a few",
+      "accepted": [
+        "a few"
+      ],
+      "why": "A few с исчисляемым множественным указывает, что некоторое количество всё же есть.",
+      "distractorWhy": "Few с исчисляемым множественным подчёркивает малое количество как недостаток.",
+      "distractorRationales": {
+        "few": "Few с исчисляемым множественным подчёркивает малое количество как недостаток.",
+        "little": "Little без a перед неисчисляемым подчёркивает нехватку."
+      },
+      "skillTarget": "advanced-quantifiers-determiners",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G5",
+      "group": "Управляемая практика",
+      "prompt": "Each guest received a different code. Как распределили коды?",
+      "options": [
+        "Оба вместе",
+        "Ни один из двух",
+        "Все по отдельности"
+      ],
+      "answer": "Все по отдельности",
+      "accepted": [
+        "Все по отдельности"
+      ],
+      "why": "Each выделяет отдельных членов группы.",
+      "distractorWhy": "Both относится к двум участникам одновременно.",
+      "distractorRationales": {
+        "Оба вместе": "Both относится к двум участникам одновременно.",
+        "Ни один из двух": "Neither исключает оба варианта."
+      },
+      "skillTarget": "advanced-quantifiers-determiners",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G6",
+      "group": "Управляемая практика",
+      "prompt": "How ___ equipment did the studio lend us?",
+      "options": [
+        "many",
+        "much",
+        "either"
+      ],
+      "answer": "much",
+      "accepted": [
+        "much"
+      ],
+      "why": "Much сочетается с неисчисляемым.",
+      "distractorWhy": "Many сочетается с исчисляемым множественным.",
+      "distractorRationales": {
+        "many": "Many сочетается с исчисляемым множественным.",
+        "either": "Either перед единственным указывает на один из двух вариантов."
+      },
+      "skillTarget": "advanced-quantifiers-determiners",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I1",
+      "group": "Самостоятельная практика",
+      "prompt": "There is ___ evidence for the claim, so we cannot rely on it.",
+      "options": [
+        "few",
+        "a few",
+        "little"
+      ],
+      "answer": "little",
+      "accepted": [
+        "little"
+      ],
+      "why": "Little без a перед неисчисляемым подчёркивает нехватку.",
+      "distractorWhy": "Few с исчисляемым множественным подчёркивает малое количество как недостаток.",
+      "distractorRationales": {
+        "few": "Few с исчисляемым множественным подчёркивает малое количество как недостаток.",
+        "a few": "A few с исчисляемым множественным указывает, что некоторое количество всё же есть."
+      },
+      "skillTarget": "advanced-quantifiers-determiners",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I2",
+      "group": "Самостоятельная практика",
+      "prompt": "Both exits were blocked. Сколько из двух выходов заблокировано?",
+      "options": [
+        "Все по отдельности",
+        "Оба вместе",
+        "Ни один из двух"
+      ],
+      "answer": "Оба вместе",
+      "accepted": [
+        "Оба вместе"
+      ],
+      "why": "Both относится к двум участникам одновременно.",
+      "distractorWhy": "Each выделяет отдельных членов группы.",
+      "distractorRationales": {
+        "Все по отдельности": "Each выделяет отдельных членов группы.",
+        "Ни один из двух": "Neither исключает оба варианта."
+      },
+      "skillTarget": "advanced-quantifiers-determiners",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I3",
+      "group": "Самостоятельная практика",
+      "prompt": "How ___ tripods can you carry?",
+      "options": [
+        "many",
+        "much",
+        "either"
+      ],
+      "answer": "many",
+      "accepted": [
+        "many"
+      ],
+      "why": "Many сочетается с исчисляемым множественным.",
+      "distractorWhy": "Much сочетается с неисчисляемым.",
+      "distractorRationales": {
+        "much": "Much сочетается с неисчисляемым.",
+        "either": "Either перед единственным указывает на один из двух вариантов."
+      },
+      "skillTarget": "advanced-quantifiers-determiners",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I4",
+      "group": "Самостоятельная практика",
+      "prompt": "Very ___ candidates met the standard. Передай дефицит.",
+      "options": [
+        "a few",
+        "little",
+        "few"
+      ],
+      "answer": "few",
+      "accepted": [
+        "few"
+      ],
+      "why": "Few с исчисляемым множественным подчёркивает малое количество как недостаток.",
+      "distractorWhy": "A few с исчисляемым множественным указывает, что некоторое количество всё же есть.",
+      "distractorRationales": {
+        "a few": "A few с исчисляемым множественным указывает, что некоторое количество всё же есть.",
+        "little": "Little без a перед неисчисляемым подчёркивает нехватку."
+      },
+      "skillTarget": "advanced-quantifiers-determiners",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I5",
+      "group": "Самостоятельная практика",
+      "prompt": "Neither switch controls the fan. Какой из двух подходит?",
+      "options": [
+        "Все по отдельности",
+        "Ни один из двух",
+        "Оба вместе"
+      ],
+      "answer": "Ни один из двух",
+      "accepted": [
+        "Ни один из двух"
+      ],
+      "why": "Neither исключает оба варианта.",
+      "distractorWhy": "Each выделяет отдельных членов группы.",
+      "distractorRationales": {
+        "Все по отдельности": "Each выделяет отдельных членов группы.",
+        "Оба вместе": "Both относится к двум участникам одновременно."
+      },
+      "skillTarget": "advanced-quantifiers-determiners",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I6",
+      "group": "Самостоятельная практика",
+      "prompt": "You can choose ___ route; the two are equally short.",
+      "options": [
+        "either",
+        "many",
+        "much"
+      ],
+      "answer": "either",
+      "accepted": [
+        "either"
+      ],
+      "why": "Either перед единственным указывает на один из двух вариантов.",
+      "distractorWhy": "Many сочетается с исчисляемым множественным.",
+      "distractorRationales": {
+        "many": "Many сочетается с исчисляемым множественным.",
+        "much": "Much сочетается с неисчисляемым."
+      },
+      "skillTarget": "advanced-quantifiers-determiners",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I7",
+      "group": "Самостоятельная практика",
+      "prompt": "Luckily, ___ reviewers replied, enough to start.",
+      "options": [
+        "few",
+        "little",
+        "a few"
+      ],
+      "answer": "a few",
+      "accepted": [
+        "a few"
+      ],
+      "why": "A few с исчисляемым множественным указывает, что некоторое количество всё же есть.",
+      "distractorWhy": "Few с исчисляемым множественным подчёркивает малое количество как недостаток.",
+      "distractorRationales": {
+        "few": "Few с исчисляемым множественным подчёркивает малое количество как недостаток.",
+        "little": "Little без a перед неисчисляемым подчёркивает нехватку."
+      },
+      "skillTarget": "advanced-quantifiers-determiners",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I8",
+      "group": "Самостоятельная практика",
+      "prompt": "Each of the partners signed separately. Что выделяет each?",
+      "options": [
+        "Оба вместе",
+        "Все по отдельности",
+        "Ни один из двух"
+      ],
+      "answer": "Все по отдельности",
+      "accepted": [
+        "Все по отдельности"
+      ],
+      "why": "Each выделяет отдельных членов группы.",
+      "distractorWhy": "Both относится к двум участникам одновременно.",
+      "distractorRationales": {
+        "Оба вместе": "Both относится к двум участникам одновременно.",
+        "Ни один из двух": "Neither исключает оба варианта."
+      },
+      "skillTarget": "advanced-quantifiers-determiners",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I9",
+      "group": "Самостоятельная практика",
+      "prompt": "There isn't ___ luggage in the aisle.",
+      "options": [
+        "much",
+        "many",
+        "either"
+      ],
+      "answer": "much",
+      "accepted": [
+        "much"
+      ],
+      "why": "Much сочетается с неисчисляемым.",
+      "distractorWhy": "Many сочетается с исчисляемым множественным.",
+      "distractorRationales": {
+        "many": "Many сочетается с исчисляемым множественным.",
+        "either": "Either перед единственным указывает на один из двух вариантов."
+      },
+      "skillTarget": "advanced-quantifiers-determiners",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E1",
+      "group": "Выходная проверка",
+      "prompt": "We have very ___ time before closing.",
+      "options": [
+        "little",
+        "few",
+        "a few"
+      ],
+      "answer": "little",
+      "accepted": [
+        "little"
+      ],
+      "why": "Little без a перед неисчисляемым подчёркивает нехватку.",
+      "distractorWhy": "Few с исчисляемым множественным подчёркивает малое количество как недостаток.",
+      "distractorRationales": {
+        "few": "Few с исчисляемым множественным подчёркивает малое количество как недостаток.",
+        "a few": "A few с исчисляемым множественным указывает, что некоторое количество всё же есть."
+      },
+      "skillTarget": "advanced-quantifiers-determiners",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E2",
+      "group": "Выходная проверка",
+      "prompt": "Neither of my two pens works. Какие работают?",
+      "options": [
+        "Все по отдельности",
+        "Оба вместе",
+        "Ни один из двух"
+      ],
+      "answer": "Ни один из двух",
+      "accepted": [
+        "Ни один из двух"
+      ],
+      "why": "Neither исключает оба варианта.",
+      "distractorWhy": "Each выделяет отдельных членов группы.",
+      "distractorRationales": {
+        "Все по отдельности": "Each выделяет отдельных членов группы.",
+        "Оба вместе": "Both относится к двум участникам одновременно."
+      },
+      "skillTarget": "advanced-quantifiers-determiners",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E3",
+      "group": "Выходная проверка",
+      "prompt": "Too ___ bags have been left near the exit.",
+      "options": [
+        "much",
+        "many",
+        "either"
+      ],
+      "answer": "many",
+      "accepted": [
+        "many"
+      ],
+      "why": "Many сочетается с исчисляемым множественным.",
+      "distractorWhy": "Much сочетается с неисчисляемым.",
+      "distractorRationales": {
+        "much": "Much сочетается с неисчисляемым.",
+        "either": "Either перед единственным указывает на один из двух вариантов."
+      },
+      "skillTarget": "advanced-quantifiers-determiners",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E4",
+      "group": "Выходная проверка",
+      "prompt": "So ___ tickets remained that most visitors went home.",
+      "options": [
+        "few",
+        "a few",
+        "little"
+      ],
+      "answer": "few",
+      "accepted": [
+        "few"
+      ],
+      "why": "Few с исчисляемым множественным подчёркивает малое количество как недостаток.",
+      "distractorWhy": "A few с исчисляемым множественным указывает, что некоторое количество всё же есть.",
+      "distractorRationales": {
+        "a few": "A few с исчисляемым множественным указывает, что некоторое количество всё же есть.",
+        "little": "Little без a перед неисчисляемым подчёркивает нехватку."
+      },
+      "skillTarget": "advanced-quantifiers-determiners",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E5",
+      "group": "Выходная проверка",
+      "prompt": "Both sides accepted the date. Кто согласился?",
+      "options": [
+        "Все по отдельности",
+        "Ни один из двух",
+        "Оба вместе"
+      ],
+      "answer": "Оба вместе",
+      "accepted": [
+        "Оба вместе"
+      ],
+      "why": "Both относится к двум участникам одновременно.",
+      "distractorWhy": "Each выделяет отдельных членов группы.",
+      "distractorRationales": {
+        "Все по отдельности": "Each выделяет отдельных членов группы.",
+        "Ни один из двух": "Neither исключает оба варианта."
+      },
+      "skillTarget": "advanced-quantifiers-determiners",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "W1",
+      "group": "Самостоятельное применение",
+      "prompt": "Распредели ресурсы на занятие: сообщи о нехватке времени, наличии нескольких мест и выборе одного из двух залов.",
+      "open": true,
+      "rubric": [
+        "Время обозначено неисчисляемым",
+        "Несколько мест обозначены исчисляемым множественным",
+        "Выбор из двух указан явно",
+        "Все части задания выполнены в одном связном контексте",
+        "Перевод сохраняет роль участников и смысл конструкции",
+        "Ответ содержит собственный английский пример, который можно понять без текста задания."
+      ],
+      "skillTarget": "Самостоятельное применение B2-12",
+      "interactionType": "open-production",
+      "difficulty": "transfer",
+      "sourceBasis": "Speakbase-authored open production; self-review rubric only until real AI feedback is connected",
+      "contentVersion": "1.1-draft"
+    }
+  ],
+  "markdown": "# Speakbase — B2-12: Advanced quantifiers and determiners\n\n**Curriculum ID:** `B2-12`  \n**Уровень:** B2  \n**Версия:** 1.1-draft\n**Статус:** drafted; exact source-page verification, editorial key review and learner test are pending  \n**Предварительные темы:** A2-10  \n**Связь со старым каталогом:** Частично — №15 Countable and uncountable; №16 Quantifiers\n\n## 1. Результаты обучения\n\n- Точно использовать all/whole, few/little, either/neither, no/none, not all/not every\n- Выбирать целевую форму по значению, структуре предложения и контексту.\n- Объяснять, почему близкая грамматическая форма меняет смысл или регистр.\n- Находить и исправлять типичные ошибки русскоязычных студентов.\n\n## 2. Источники и статус сверки\n\n| Source | PDF navigation | Lesson-specific checks | Status |\n|---|---|---|\n| GR-02 U85 | PDF pages 182-183 (Unit 85) | Some/any in positive, negative and question contexts; any = no matter which; some in offers/requests; text-extracted and checked | text extracted and checked |\n| GR-02 U86 | PDF pages 184-185 (Unit 86) | No + noun, none (of), nobody/nothing/nowhere and avoidance of double negatives; text-extracted and checked | text extracted and checked |\n| GR-02 U87 | PDF pages 186-187 (Unit 87) | Much/many, a lot/lots/plenty, little/few and a little/a few; less/fewer; text-extracted and checked | text extracted and checked |\n| GR-02 U88 | PDF pages 188-189 (Unit 88) | All/most/some/any/none + noun vs of + determiner/pronoun; general vs specific reference; text-extracted and checked | text extracted and checked |\n| GR-02 U89 | PDF pages 190-191 (Unit 89) | Both/neither/either for two; both/neither/either of; correlative pairs and agreement; text-extracted and checked | text extracted and checked |\n| GR-02 U90 | PDF pages 192-193 (Unit 90) | All, whole, every/everybody/everything; all day vs every day; singular agreement; text-extracted and checked | text extracted and checked |\n| GR-02 U91 | PDF pages 194-195 (Unit 91) | Each vs every, each of/every one of, each for two and everyone vs every one; text-extracted and checked | text extracted and checked |\n| GR-03 U48 | PDF pages 120-121 (printed pp. 96-97, Unit 48) | Some/any, no/none, much/many, all/whole/every/each, few/little/less/fewer; visually checked | visually checked; unit-text checked |\n| GR-03 U49 | PDF pages 122-123 (printed pp. 98-99, Unit 49) | Some/any, no/none, much/many, all/whole/every/each, few/little/less/fewer; visually checked | visually checked; unit-text checked |\n| GR-03 U50 | PDF pages 124-125 (printed pp. 100-101, Unit 50) | Some/any, no/none, much/many, all/whole/every/each, few/little/less/fewer; visually checked | visually checked; unit-text checked |\n| GR-03 U51 | PDF pages 126-127 (printed pp. 102-103, Unit 51) | Some/any, no/none, much/many, all/whole/every/each, few/little/less/fewer; visually checked | visually checked; unit-text checked |\n| GR-03 U52 | PDF pages 128-129 (printed pp. 104-105, Unit 52) | Some/any, no/none, much/many, all/whole/every/each, few/little/less/fewer; visually checked | visually checked; unit-text checked |\n| GR-05 B2 p17-18 | PDF pages 17-18 (B2 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-05 B2 p43-48 | PDF pages 43-48 (B2 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n\nUnit/page locations are navigation aids only. They do not prove that the cited explanation, examples, restrictions and answer key have been checked for this lesson. Examples and explanations below are Speakbase-authored, not quotations from the textbook.\n\nПеред переводом этого урока в source-verified необходимо открыть целевые страницы конкретного издания, записать печатную и PDF-пагинацию, сверить ограничения и исключения. Для GR-03 со сканированными страницами обязательна визуальная проверка.\n\nСверка этой редакции: GR-05 B2 p. 17, 59: quantity and pronouns. Остальные строки сохраняют прежний статус.\n\n## 3. Место темы и границы\n\nAdvanced quantifiers/determiners: all/whole, few/little, either/neither, no/none, not all/not every; согласование и оттенки значения.\n\nСтарый каталог содержит: №15 Countable and uncountable; №16 Quantifiers. Его статус — Частично. Старые отметки завершения не переносятся автоматически на новый постоянный ID. Тема рассматривается в уровне B2 и не заменяет обязательные prerequisites.\n\n## 4. Полный конспект\n\n### 4.1. Основная идея и функция конструкции\n\nСначала проверь исчисляемость и число. Many и few относятся к отдельным предметам, much и little — к массе или абстрактной величине. В equipment, advice, research английский не считает отдельные единицы без уточнения.\n\n### 4.2. Формирование и грамматические модели\n\nFew и little подчёркивают нехватку. A few и a little выделяют небольшое, но реальное наличие. В There are a few seats left вывод обычно оптимистичнее, чем в Very few seats remain. Важны контекст и намерение автора.\n\n### 4.3. Как выбрать подходящую форму\n\nEach распределяет признак по отдельным участникам. Both относится к двум вместе, neither — ни к одному из двух, either — к одному из двух. Перед конкретной группой часто нужен of: each of the files. После each + существительное ставь единственное число.\n\n### 4.4. Сравнение с близкими конструкциями\n\n| Form | Meaning | Example |\n|---|---|---|\n| some | an amount/person expected or known to exist | Would you like some coffee? |\n| any | open possibility / no matter which | Do you have any questions? Take any seat. |\n| no + noun | not a/any | There was no bus. |\n| none (of) | not one/any from a set | None of the tickets was/were valid. |\n| few / little | not many/not much; often insufficient | Few people agreed; little time remained. |\n| a few / a little | some; a small amount/number | A few people agreed; a little time remained. |\n| less / fewer | uncountable amount / countable number | less time; fewer mistakes |\n| all / whole | total quantity / complete single item | all the information; the whole book |\n| every / each | group/frequency / individual focus | every student; each student |\n| everyone / every one | everybody / each item/person individually | Everyone arrived; every one of the files was checked |\n\n### 4.5. Примеры с переводом и объяснением\n\n| English | Перевод | Почему это подходит |\n|---|---|---|---|\n| `There is hardly any evidence to support the claim, so no conclusion can be drawn.` | Почти нет доказательств, подтверждающих это утверждение, поэтому нельзя сделать никакого вывода. | Hardly any expresses an almost zero quantity; evidence is uncountable. |\n| `A large number of applications were received after the deadline yesterday.` | Вчера после окончания срока было получено большое количество заявок. | A large number of + plural countable noun normally takes plural agreement; yesterday requires Past Simple passive were received. |\n| `A great deal of research has been devoted to this question.` | Для этого вопроса было посвящено очень много исследований. | Research is uncountable and the head phrase takes singular agreement: has been. |\n| `Only a small minority of the respondents selected the final option.` | Лишь небольшое меньшинство респондентов выбрало окончательный вариант. | A small minority of is the standard noun phrase for a small proportion of a group. |\n\nПримеры составлены Speakbase. Они иллюстрируют грамматическую функцию, но не подменяют индивидуальную проверку всех возможных вариантов и исключений.\n\n### 4.6. Исключения, ограничения и границы употребления\n\n- Some is possible in questions when offering/requesting or when the speaker expects the item exists; any is common in open questions and negatives.\n- Any can mean 'no matter which' and is not always negative.\n- Someone/anyone/everyone are grammatically singular but can take singular they/their.\n- No + noun and no-compounds already express negation; avoid double negatives in standard English.\n- None of + plural noun can take singular or plural agreement; context and register matter.\n- Much is less natural in many affirmative everyday statements; a lot of is usually more idiomatic.\n- Few/little and a few/a little differ in whether the amount is insufficient or simply small.\n- Fewer is standard with plural count nouns; less is standard with uncountable nouns, though less is also used with measures/amounts viewed as a unit.\n- Use of before pronouns and specific determiners in most of/some of/none of; omit of for general plural nouns.\n- Both/either/neither refer to two; all/any/none usually refer to more than two.\n- Whole normally modifies a singular count noun with a determiner; all is used with uncountable nouns.\n- Every takes a singular noun and verb; each can be used for two and can stand alone.\n- Everyone (one word) means everybody; every one (two words) refers to each member of a set.\n\n### 4.7. Типичные ошибки русскоязычных студентов\n\n| `There is a great number of evidence to support the claim, so no conclusion can be drawn.` | `There is hardly any evidence to support the claim, so no conclusion can be drawn.` | A great number of requires a plural countable noun. |\n| `A large number of applications was received after the deadline yesterday.` | `A large number of applications were received after the deadline yesterday.` | Was incorrectly treats number as the singular head in this expression. |\n| `A great deal of research have been devoted to this question.` | `A great deal of research has been devoted to this question.` | Have is plural and does not agree with the uncountable noun phrase. |\n\nРусский перевод помогает понять смысл, но не управляет английской формой напрямую. Проверяй роль каждого элемента и грамматическую модель английского предложения.\n\n### 4.8. Произношение и восприятие на слух\n\nTopic-specific pronunciation practice for Advanced quantifiers and determiners: focus on weak forms, endings and sentence stress. Phonetic examples still require dictionary-audio verification.\n\nДля аудирования распознавай слабые формы вспомогательных глаголов, окончания и границы смысловых групп. Не ориентируйся только на чтение по буквам.\n\n### 4.9. Академический английский и TOEFL-перенос\n\nTOEFL transfer for Advanced quantifiers and determiners: use the target structure to interpret syntax in Reading/Listening and construct clear sentences in Writing/Speaking. This is skill transfer, not a separate exam task.\n\n- **Reading:** синтаксические связи, reference, modifiers и логические отношения.\n- **Listening:** tense/aspect, weak forms, modality, speaker stance и связи между идеями.\n- **Writing — Build a Sentence:** точность структуры, согласование, порядок слов и verb patterns.\n- **Writing — Email / Academic Discussion:** ясность, appropriate register, аргументация и cohesion.\n- **Speaking — Listen and Repeat / Take an Interview:** точность воспроизведения формы и самостоятельное применение.\n\nЭто перенос навыка, а не полноценный экзаменационный пробник и не обещание конкретного балла.\n\n### 4.10. Примеры для управляемого разбора\n\n- There is ___ evidence to support the claim, so no conclusion can be drawn. => `hardly any` (evidence is uncountable).\n- A large number of applications ___ received after the deadline yesterday. => `were` (plural count noun; finished past time).\n- A great deal of research ___ been devoted to this question. => `has` (research is uncountable).\n\nДля каждого примера назови целевой элемент, объясни форму, укажи, почему отвлекающий вариант неверен, и придумай собственное предложение с тем же правилом.\n\n### 4.11. Самопроверка\n\nПеред отправкой ответа проверь:\n1. Правильно ли определена функция конструкции?\n2. Согласована ли форма с подлежащим и временной перспективой?\n3. Не перенесён ли русский порядок слов напрямую?\n4. Не смешаны ли две похожие модели?\n5. Не сильнее ли утверждение, чем позволяют контекст и доказательства?\n\n### 4.12. Краткая памятка\n\n- Some: positive/offer/request; any: negative/open question/conditional/'no matter which'.\n- No + noun; none (of) without a noun; nobody/nothing/nowhere already negative.\n- Much/little = uncountable; many/few = plural countable; a lot/plenty = both.\n- Few/little = not enough; a few/a little = some.\n- Less + uncountable; fewer + plural count noun (measures may use less).\n- General set: most people; specific set/pronoun: most of the people/most of them.\n- Both/either/neither = two; all/any/none = larger groups.\n- All = total; whole = complete singular count noun; every = each member/frequency.\n- Each focuses on individuals (can be two); every views a group; each of/every one of + plural set.\n- Everyone = everybody; every one = each item/person.\n\n## 5. Практика\n\nВ приложении практика разделена на входную диагностику, управляемые задания, самостоятельную практику и новую выходную проверку. Закрытые ответы получают rationale и разбор ошибки. Свободный текст сохраняется и оценивается по рубрике; до подключения и реальной проверки AI-движка система не выдаёт его за автоматическую AI-оценку.\n\n## 6. Интервальное повторение\n\nПовторяй не весь урок автоматически, а конкретную ошибку: выбор формы, согласование, word order, значение, регистр или пунктуацию. Новая попытка должна менять лексический контекст и формулировку, чтобы проверять перенос, а не запоминание одной строки.\n\n## 7. Технический статус\n\n- Постоянный ID: `B2-12`.\n- Прогресс хранится отдельно в course.grammarLessons[\"B2-12\"].\n- Содержание и ключи имеют статус draft; источник page verification pending.\n- Предварительное выполнение порогов не равно окончательному mastered: нужны отсроченное повторение и learner review.",
+  "theoryEnd": "## 5."
+}

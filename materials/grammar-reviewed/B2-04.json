@@ -1,0 +1,684 @@
+{
+  "id": "B2-04",
+  "level": "B2",
+  "sequence": "B2-04",
+  "grammarFamily": "B2-04",
+  "questionBankSource": "topic-specific-authored",
+  "sourceVerification": "draft; selected GR-05 descriptor checked, remaining source review pending",
+  "topicProfile": {
+    "label": "passive with modals and reporting passive",
+    "skillTarget": "passive-with-modals-and-reporting-passive",
+    "core": "Пассив меняет точку зрения: The clerk must check the receipt ставит в центр сотрудника, The receipt must be checked — документ. Сохраняй модальность: can обозначает возможность, must — требование.",
+    "form": "Сравни must be sent today и may have been sent yesterday. В первом предложении нужен be + V3 после модального глагола, во втором — have been + V3 для более раннего события. Исполнителя с by добавляй, только когда он важен.",
+    "selection": "В It is believed that the author lives abroad и The author is believed to live abroad сообщается одна версия. Если отъезд произошёл раньше, скажи is believed to have left. Для текущего процесса используй to be working.",
+    "contrast": "The team must complete the form → The form must be completed. People believe she left → She is believed to have left.",
+    "boundary": "Reporting passive не означает, что сообщение достоверно; it is said/believed/reported отражает источник или распространённое утверждение. Не путай его с фактом, подтверждённым самим автором.",
+    "pronunciation": "Форма be может быть безударной, а смысловой центр — на past participle или агенте. В Listening не теряй вспомогательный глагол: он несёт время и модальность.",
+    "examples": [],
+    "traps": [],
+    "toefl": "Passive особенно уместен при описании методов, процедур и результатов исследований, но не заменяй им все active clauses: важны ясность и фокус."
+  },
+  "title": "Passive with modals and reporting passive",
+  "description": "Строить modal passive, impersonal/reporting passive и выбирать информационный фокус",
+  "cardDescription": "Теория, guided practice, самостоятельные задания и выходная проверка по постоянному ID B2-04.",
+  "eyebrow": "Полный урок программы B2-04 · drafted",
+  "contentVersion": "1.1-draft",
+  "curriculumVersion": "1.0",
+  "prerequisites": [
+    "B1-07",
+    "B1-09"
+  ],
+  "outcomes": [
+    "Строить modal passive, impersonal/reporting passive и выбирать информационный фокус",
+    "Выбирать целевую конструкцию по контексту и смыслу.",
+    "Исправлять типичные ошибки и переносить правило в новый пример."
+  ],
+  "sourceRefs": [
+    "GR-02 U42-45",
+    "GR-03 U22-25",
+    "GR-05 B2 p42-46"
+  ],
+  "sourceStatus": "partial; GR-05 B2 p. 44–45: modal perfect and modal passive; full page verification pending",
+  "status": "drafted",
+  "legacyCoverage": "Частично",
+  "toeflLinks": [
+    "Writing: Build a Sentence",
+    "Writing: Academic Discussion"
+  ],
+  "thresholds": {
+    "independent": 7,
+    "exit": 4,
+    "criticalIds": [
+      "E1",
+      "E2",
+      "E3"
+    ]
+  },
+  "groups": {
+    "independent": "Самостоятельная практика",
+    "exit": "Выходная проверка"
+  },
+  "items": [
+    {
+      "id": "D1",
+      "group": "Входная диагностика",
+      "prompt": "All applications must ___ by Friday.",
+      "options": [
+        "submit",
+        "be submitted",
+        "have submit"
+      ],
+      "answer": "be submitted",
+      "accepted": [
+        "be submitted"
+      ],
+      "why": "Modal passive = must + be + V3.",
+      "distractorWhy": "Submit is active base form; the subject applications receive the action.",
+      "distractorRationales": {
+        "submit": "Submit is active base form; the subject applications receive the action.",
+        "have submit": "Have submit is not a valid modal passive construction."
+      },
+      "skillTarget": "passive-with-modals-and-reporting-passive",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D2",
+      "group": "Входная диагностика",
+      "prompt": "The missing documents should have ___ earlier.",
+      "options": [
+        "been sent",
+        "sent",
+        "being sent"
+      ],
+      "answer": "been sent",
+      "accepted": [
+        "been sent"
+      ],
+      "why": "Modal perfect passive = should have been + V3.",
+      "distractorWhy": "Sent omits been and is not the complete passive sequence.",
+      "distractorRationales": {
+        "sent": "Sent omits been and is not the complete passive sequence.",
+        "being sent": "Being sent does not fit after should have in this perfect passive structure."
+      },
+      "skillTarget": "passive-with-modals-and-reporting-passive",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D3",
+      "group": "Входная диагностика",
+      "prompt": "It is widely believed that this species ___ extinct.",
+      "options": [
+        "is become",
+        "have became",
+        "has become"
+      ],
+      "answer": "has become",
+      "accepted": [
+        "has become"
+      ],
+      "why": "This species is unambiguously singular; the present perfect is has become.",
+      "distractorWhy": "Is become is not a valid present perfect form.",
+      "distractorRationales": {
+        "is become": "Is become is not a valid present perfect form.",
+        "have became": "Have became has incorrect agreement and participle form."
+      },
+      "skillTarget": "passive-with-modals-and-reporting-passive",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D4",
+      "group": "Входная диагностика",
+      "prompt": "The scientist is thought ___ the original samples.",
+      "options": [
+        "to destroy yesterday",
+        "to have destroyed",
+        "that destroyed"
+      ],
+      "answer": "to have destroyed",
+      "accepted": [
+        "to have destroyed"
+      ],
+      "why": "To have + V3 marks an action earlier than the current reporting point.",
+      "distractorWhy": "To destroy does not mark the earlier completed event and the time phrase conflicts.",
+      "distractorRationales": {
+        "to destroy yesterday": "To destroy does not mark the earlier completed event and the time phrase conflicts.",
+        "that destroyed": "That destroyed cannot follow is thought in this subject + passive reporting pattern."
+      },
+      "skillTarget": "passive-with-modals-and-reporting-passive",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G1",
+      "group": "Управляемая практика",
+      "prompt": "The new procedure can ___ in small laboratories.",
+      "options": [
+        "be used",
+        "use",
+        "be using"
+      ],
+      "answer": "be used",
+      "accepted": [
+        "be used"
+      ],
+      "why": "Modal passive is can + be + V3.",
+      "distractorWhy": "Use is active; the subject procedure receives the action.",
+      "distractorRationales": {
+        "use": "Use is active; the subject procedure receives the action.",
+        "be using": "Be using expresses progressive active meaning, not passive."
+      },
+      "skillTarget": "passive-with-modals-and-reporting-passive",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G2",
+      "group": "Управляемая практика",
+      "prompt": "The results are expected ___ next month.",
+      "options": [
+        "to publish them",
+        "that publish",
+        "to be published"
+      ],
+      "answer": "to be published",
+      "accepted": [
+        "to be published"
+      ],
+      "why": "Expected + to-infinitive passive expresses an anticipated publication.",
+      "distractorWhy": "To publish them makes the results perform the action.",
+      "distractorRationales": {
+        "to publish them": "To publish them makes the results perform the action.",
+        "that publish": "That publish does not complete the subject + reporting passive pattern."
+      },
+      "skillTarget": "passive-with-modals-and-reporting-passive",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G3",
+      "group": "Управляемая практика",
+      "prompt": "The old bridge may have ___ during the storm.",
+      "options": [
+        "damaged",
+        "been damaged",
+        "being damaged"
+      ],
+      "answer": "been damaged",
+      "accepted": [
+        "been damaged"
+      ],
+      "why": "May have been + V3 is modal perfect passive.",
+      "distractorWhy": "Damaged omits been after may have.",
+      "distractorRationales": {
+        "damaged": "Damaged omits been after may have.",
+        "being damaged": "Being damaged does not fit the modal perfect passive sequence."
+      },
+      "skillTarget": "passive-with-modals-and-reporting-passive",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G4",
+      "group": "Управляемая практика",
+      "prompt": "The new form must ___ tomorrow by the panel.",
+      "options": [
+        "be reviewed",
+        "have been reviewed",
+        "review"
+      ],
+      "answer": "be reviewed",
+      "accepted": [
+        "be reviewed"
+      ],
+      "why": "Be + причастие после модального обозначает пассив без перфекта.",
+      "distractorWhy": "Have been + причастие относит пассивное событие к более раннему моменту.",
+      "distractorRationales": {
+        "have been reviewed": "Have been + причастие относит пассивное событие к более раннему моменту.",
+        "review": "Базовая форма активна, подлежащее само проверяет объект."
+      },
+      "skillTarget": "passive-with-modals-and-reporting-passive",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G5",
+      "group": "Управляемая практика",
+      "prompt": "The bridge is believed to be safe. Что сообщает инфинитив?",
+      "options": [
+        "Сообщение о более раннем событии",
+        "Сообщение о текущем процессе",
+        "Сообщение о нынешнем состоянии"
+      ],
+      "answer": "Сообщение о нынешнем состоянии",
+      "accepted": [
+        "Сообщение о нынешнем состоянии"
+      ],
+      "why": "To be после reporting passive связывает состояние со временем сообщения.",
+      "distractorWhy": "To have + причастие показывает предшествование.",
+      "distractorRationales": {
+        "Сообщение о более раннем событии": "To have + причастие показывает предшествование.",
+        "Сообщение о текущем процессе": "To be + -ing выделяет процесс."
+      },
+      "skillTarget": "passive-with-modals-and-reporting-passive",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G6",
+      "group": "Управляемая практика",
+      "prompt": "It ___ the tunnel will reopen on Friday.",
+      "options": [
+        "is expected to",
+        "is expected that",
+        "expect to"
+      ],
+      "answer": "is expected that",
+      "accepted": [
+        "is expected that"
+      ],
+      "why": "Безличная рамка с it вводит that-clause.",
+      "distractorWhy": "Личное подлежащее + reporting passive требует to-инфинитива.",
+      "distractorRationales": {
+        "is expected to": "Личное подлежащее + reporting passive требует to-инфинитива.",
+        "expect to": "Множественное подлежащее в активе само ожидает действия."
+      },
+      "skillTarget": "passive-with-modals-and-reporting-passive",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I1",
+      "group": "Самостоятельная практика",
+      "prompt": "The auditors must ___ all receipts tomorrow.",
+      "options": [
+        "be reviewed",
+        "have been reviewed",
+        "review"
+      ],
+      "answer": "review",
+      "accepted": [
+        "review"
+      ],
+      "why": "Базовая форма активна, подлежащее само проверяет объект.",
+      "distractorWhy": "Be + причастие после модального обозначает пассив без перфекта.",
+      "distractorRationales": {
+        "be reviewed": "Be + причастие после модального обозначает пассив без перфекта.",
+        "have been reviewed": "Have been + причастие относит пассивное событие к более раннему моменту."
+      },
+      "skillTarget": "passive-with-modals-and-reporting-passive",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I2",
+      "group": "Самостоятельная практика",
+      "prompt": "The artist is said to have left in May. Каково время отъезда?",
+      "options": [
+        "Сообщение о нынешнем состоянии",
+        "Сообщение о более раннем событии",
+        "Сообщение о текущем процессе"
+      ],
+      "answer": "Сообщение о более раннем событии",
+      "accepted": [
+        "Сообщение о более раннем событии"
+      ],
+      "why": "To have + причастие показывает предшествование.",
+      "distractorWhy": "To be после reporting passive связывает состояние со временем сообщения.",
+      "distractorRationales": {
+        "Сообщение о нынешнем состоянии": "To be после reporting passive связывает состояние со временем сообщения.",
+        "Сообщение о текущем процессе": "To be + -ing выделяет процесс."
+      },
+      "skillTarget": "passive-with-modals-and-reporting-passive",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I3",
+      "group": "Самостоятельная практика",
+      "prompt": "The tunnel ___ reopen after inspection.",
+      "options": [
+        "is expected to",
+        "is expected that",
+        "expect to"
+      ],
+      "answer": "is expected to",
+      "accepted": [
+        "is expected to"
+      ],
+      "why": "Личное подлежащее + reporting passive требует to-инфинитива.",
+      "distractorWhy": "Безличная рамка с it вводит that-clause.",
+      "distractorRationales": {
+        "is expected that": "Безличная рамка с it вводит that-clause.",
+        "expect to": "Множественное подлежащее в активе само ожидает действия."
+      },
+      "skillTarget": "passive-with-modals-and-reporting-passive",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I4",
+      "group": "Самостоятельная практика",
+      "prompt": "The old form may ___ last week; check the archive.",
+      "options": [
+        "be reviewed",
+        "review",
+        "have been reviewed"
+      ],
+      "answer": "have been reviewed",
+      "accepted": [
+        "have been reviewed"
+      ],
+      "why": "Have been + причастие относит пассивное событие к более раннему моменту.",
+      "distractorWhy": "Be + причастие после модального обозначает пассив без перфекта.",
+      "distractorRationales": {
+        "be reviewed": "Be + причастие после модального обозначает пассив без перфекта.",
+        "review": "Базовая форма активна, подлежащее само проверяет объект."
+      },
+      "skillTarget": "passive-with-modals-and-reporting-passive",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I5",
+      "group": "Самостоятельная практика",
+      "prompt": "The team is thought to be testing a sensor. На чём фокус?",
+      "options": [
+        "Сообщение о нынешнем состоянии",
+        "Сообщение о текущем процессе",
+        "Сообщение о более раннем событии"
+      ],
+      "answer": "Сообщение о текущем процессе",
+      "accepted": [
+        "Сообщение о текущем процессе"
+      ],
+      "why": "To be + -ing выделяет процесс.",
+      "distractorWhy": "To be после reporting passive связывает состояние со временем сообщения.",
+      "distractorRationales": {
+        "Сообщение о нынешнем состоянии": "To be после reporting passive связывает состояние со временем сообщения.",
+        "Сообщение о более раннем событии": "To have + причастие показывает предшествование."
+      },
+      "skillTarget": "passive-with-modals-and-reporting-passive",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I6",
+      "group": "Самостоятельная практика",
+      "prompt": "We ___ hear the decision before noon.",
+      "options": [
+        "expect to",
+        "is expected to",
+        "is expected that"
+      ],
+      "answer": "expect to",
+      "accepted": [
+        "expect to"
+      ],
+      "why": "Множественное подлежащее в активе само ожидает действия.",
+      "distractorWhy": "Личное подлежащее + reporting passive требует to-инфинитива.",
+      "distractorRationales": {
+        "is expected to": "Личное подлежащее + reporting passive требует to-инфинитива.",
+        "is expected that": "Безличная рамка с it вводит that-clause."
+      },
+      "skillTarget": "passive-with-modals-and-reporting-passive",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I7",
+      "group": "Самостоятельная практика",
+      "prompt": "Each report should ___ before publication next month.",
+      "options": [
+        "have been reviewed",
+        "review",
+        "be reviewed"
+      ],
+      "answer": "be reviewed",
+      "accepted": [
+        "be reviewed"
+      ],
+      "why": "Be + причастие после модального обозначает пассив без перфекта.",
+      "distractorWhy": "Have been + причастие относит пассивное событие к более раннему моменту.",
+      "distractorRationales": {
+        "have been reviewed": "Have been + причастие относит пассивное событие к более раннему моменту.",
+        "review": "Базовая форма активна, подлежащее само проверяет объект."
+      },
+      "skillTarget": "passive-with-modals-and-reporting-passive",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I8",
+      "group": "Самостоятельная практика",
+      "prompt": "The room is reported to be empty. Как соотнесены времена?",
+      "options": [
+        "Сообщение о более раннем событии",
+        "Сообщение о нынешнем состоянии",
+        "Сообщение о текущем процессе"
+      ],
+      "answer": "Сообщение о нынешнем состоянии",
+      "accepted": [
+        "Сообщение о нынешнем состоянии"
+      ],
+      "why": "To be после reporting passive связывает состояние со временем сообщения.",
+      "distractorWhy": "To have + причастие показывает предшествование.",
+      "distractorRationales": {
+        "Сообщение о более раннем событии": "To have + причастие показывает предшествование.",
+        "Сообщение о текущем процессе": "To be + -ing выделяет процесс."
+      },
+      "skillTarget": "passive-with-modals-and-reporting-passive",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I9",
+      "group": "Самостоятельная практика",
+      "prompt": "It ___ the marks will arrive by email.",
+      "options": [
+        "is expected that",
+        "is expected to",
+        "expect to"
+      ],
+      "answer": "is expected that",
+      "accepted": [
+        "is expected that"
+      ],
+      "why": "Безличная рамка с it вводит that-clause.",
+      "distractorWhy": "Личное подлежащее + reporting passive требует to-инфинитива.",
+      "distractorRationales": {
+        "is expected to": "Личное подлежащее + reporting passive требует to-инфинитива.",
+        "expect to": "Множественное подлежащее в активе само ожидает действия."
+      },
+      "skillTarget": "passive-with-modals-and-reporting-passive",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E1",
+      "group": "Выходная проверка",
+      "prompt": "The assistant can ___ a draft on request.",
+      "options": [
+        "review",
+        "be reviewed",
+        "have been reviewed"
+      ],
+      "answer": "review",
+      "accepted": [
+        "review"
+      ],
+      "why": "Базовая форма активна, подлежащее само проверяет объект.",
+      "distractorWhy": "Be + причастие после модального обозначает пассив без перфекта.",
+      "distractorRationales": {
+        "be reviewed": "Be + причастие после модального обозначает пассив без перфекта.",
+        "have been reviewed": "Have been + причастие относит пассивное событие к более раннему моменту."
+      },
+      "skillTarget": "passive-with-modals-and-reporting-passive",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E2",
+      "group": "Выходная проверка",
+      "prompt": "The coin is believed to have belonged to a sailor. Какая связь во времени?",
+      "options": [
+        "Сообщение о нынешнем состоянии",
+        "Сообщение о текущем процессе",
+        "Сообщение о более раннем событии"
+      ],
+      "answer": "Сообщение о более раннем событии",
+      "accepted": [
+        "Сообщение о более раннем событии"
+      ],
+      "why": "To have + причастие показывает предшествование.",
+      "distractorWhy": "To be после reporting passive связывает состояние со временем сообщения.",
+      "distractorRationales": {
+        "Сообщение о нынешнем состоянии": "To be после reporting passive связывает состояние со временем сообщения.",
+        "Сообщение о текущем процессе": "To be + -ing выделяет процесс."
+      },
+      "skillTarget": "passive-with-modals-and-reporting-passive",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E3",
+      "group": "Выходная проверка",
+      "prompt": "The new figures ___ show a modest rise.",
+      "options": [
+        "is expected that",
+        "is expected to",
+        "expect to"
+      ],
+      "answer": "is expected to",
+      "accepted": [
+        "is expected to"
+      ],
+      "why": "Личное подлежащее + reporting passive требует to-инфинитива.",
+      "distractorWhy": "Безличная рамка с it вводит that-clause.",
+      "distractorRationales": {
+        "is expected that": "Безличная рамка с it вводит that-clause.",
+        "expect to": "Множественное подлежащее в активе само ожидает действия."
+      },
+      "skillTarget": "passive-with-modals-and-reporting-passive",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E4",
+      "group": "Выходная проверка",
+      "prompt": "The appeal might ___ before you arrived yesterday.",
+      "options": [
+        "have been reviewed",
+        "be reviewed",
+        "review"
+      ],
+      "answer": "have been reviewed",
+      "accepted": [
+        "have been reviewed"
+      ],
+      "why": "Have been + причастие относит пассивное событие к более раннему моменту.",
+      "distractorWhy": "Be + причастие после модального обозначает пассив без перфекта.",
+      "distractorRationales": {
+        "be reviewed": "Be + причастие после модального обозначает пассив без перфекта.",
+        "review": "Базовая форма активна, подлежащее само проверяет объект."
+      },
+      "skillTarget": "passive-with-modals-and-reporting-passive",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E5",
+      "group": "Выходная проверка",
+      "prompt": "The interns are said to be preparing slides. Что выделено?",
+      "options": [
+        "Сообщение о нынешнем состоянии",
+        "Сообщение о более раннем событии",
+        "Сообщение о текущем процессе"
+      ],
+      "answer": "Сообщение о текущем процессе",
+      "accepted": [
+        "Сообщение о текущем процессе"
+      ],
+      "why": "To be + -ing выделяет процесс.",
+      "distractorWhy": "To be после reporting passive связывает состояние со временем сообщения.",
+      "distractorRationales": {
+        "Сообщение о нынешнем состоянии": "To be после reporting passive связывает состояние со временем сообщения.",
+        "Сообщение о более раннем событии": "To have + причастие показывает предшествование."
+      },
+      "skillTarget": "passive-with-modals-and-reporting-passive",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "W1",
+      "group": "Самостоятельное применение",
+      "prompt": "Напиши объявление об архиве: обязательная будущая проверка, возможная прошлая отправка и сообщение о предполагаемом местонахождении письма.",
+      "open": true,
+      "rubric": [
+        "Требование выражено пассивом",
+        "Прошлая отправка обозначена modal + have been + V3",
+        "Источник предположения указан",
+        "Все части задания выполнены в одном связном контексте",
+        "Перевод сохраняет роль участников и смысл конструкции",
+        "Ответ содержит собственный английский пример, который можно понять без текста задания."
+      ],
+      "skillTarget": "Самостоятельное применение B2-04",
+      "interactionType": "open-production",
+      "difficulty": "transfer",
+      "sourceBasis": "Speakbase-authored open production; self-review rubric only until real AI feedback is connected",
+      "contentVersion": "1.1-draft"
+    }
+  ],
+  "markdown": "# Speakbase — B2-04: Passive with modals and reporting passive\n\n**Curriculum ID:** `B2-04`  \n**Уровень:** B2  \n**Версия:** 1.1-draft\n**Статус:** draft; manual content review in progress; GR-05 comparison, app rendering and learner test remain pending\n**Предварительные темы:** B1-07, B1-09  \n**Связь со старым каталогом:** Частично — №29 Passive Voice; №30 Passive with Modals\n\n## 1. Результаты обучения\n\n- Строить modal passive, impersonal/reporting passive и выбирать информационный фокус\n- Выбирать целевую форму по значению, структуре предложения и контексту.\n- Объяснять, почему близкая грамматическая форма меняет смысл или регистр.\n- Находить и исправлять типичные ошибки русскоязычных студентов.\n\n## 2. Источники и статус сверки\n\n| Source | PDF navigation | Lesson-specific checks | Status |\n|---|---|---|---|\n| GR-02 U42 | PDF pages 96-97 (Unit 42) | Present/past simple passive, agent/by phrase, passive information focus; explanation and exercises text-checked | text extracted and checked |\n| GR-02 U43 | PDF pages 98-99 (Unit 43) | Present/past perfect passive, continuous passive, infinitive and perfect infinitive passive; text-checked | text extracted and checked |\n| GR-02 U44 | PDF pages 100-101 (Unit 44) | Two-object passive, being + V3, get-passive and born; text-checked | text extracted and checked |\n| GR-02 U45 | PDF pages 102-103 (Unit 45) | It is said that / subject is said to; reporting and supposed to meanings; text-checked | text extracted and checked |\n| GR-03 U22 | PDF pages 68-69 (printed pp. 44-45, Unit 22) | Passive patterns and choice of passive form visually checked | visually checked; unit-text checked |\n| GR-03 U23 | PDF pages 70-71 (printed pp. 46-47, Unit 23) | Passive with verb + -ing and verb + to-infinitive visually checked | visually checked; unit-text checked |\n| GR-03 U24 | PDF pages 72-73 (printed pp. 48-49, Unit 24) | Passive reporting patterns and infinitive complement distinctions visually checked | visually checked; unit-text checked |\n| GR-03 U25 | PDF pages 74-75 (printed pp. 50-51, Unit 25) | Advanced passive patterns and causative/reporting distinctions visually checked | visually checked; unit-text checked |\n| GR-05 B2 p42-46 | PDF pages 42-46 (B2 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n\nUnit/page locations are navigation aids only. They do not prove that the cited explanation, examples, restrictions and answer key have been checked for this lesson. Examples and explanations below are Speakbase-authored, not quotations from the textbook.\n\nПеред переводом этого урока в source-verified необходимо открыть целевые страницы конкретного издания, записать печатную и PDF-пагинацию, сверить ограничения и исключения. Для GR-03 со сканированными страницами обязательна визуальная проверка.\n\nСверка этой редакции: GR-05 B2 p. 44–45: modal perfect and modal passive. Остальные строки сохраняют прежний статус.\n\n## 3. Место темы и границы\n\nModal passive и reporting/impersonal passive: modal + be + V3; it is said/believed that; subject + is said to.\n\nСтарый каталог содержит: №29 Passive Voice; №30 Passive with Modals. Его статус — Частично. Старые отметки завершения не переносятся автоматически на новый постоянный ID. Тема рассматривается в уровне B2 и не заменяет обязательные prerequisites.\n\n## 4. Полный конспект\n\n### 4.1. Основная идея и функция конструкции\n\nПассив меняет точку зрения: The clerk must check the receipt ставит в центр сотрудника, The receipt must be checked — документ. Сохраняй модальность: can обозначает возможность, must — требование.\n\n### 4.2. Формирование и грамматические модели\n\nСравни must be sent today и may have been sent yesterday. В первом предложении нужен be + V3 после модального глагола, во втором — have been + V3 для более раннего события. Исполнителя с by добавляй, только когда он важен.\n\n### 4.3. Как выбрать подходящую форму\n\nВ It is believed that the author lives abroad и The author is believed to live abroad сообщается одна версия. Если отъезд произошёл раньше, скажи is believed to have left. Для текущего процесса используй to be working.\n\n### 4.4. Сравнение с близкими конструкциями\n\nThe team must complete the form → The form must be completed. People believe she left → She is believed to have left.\n\n| Что проверяем | Вопрос для выбора |\n|---|---|\n| Форма | Какие элементы обязательны и в каком порядке они стоят? |\n| Значение | Что именно меняется: время, длительность, реальность, степень уверенности или фокус? |\n| Контекст | Что уже известно собеседнику и каков регистр высказывания? |\n| Проверка | Если заменить форму близкой конструкцией, изменится ли смысл? Объясни, почему. |\n\n### 4.5. Примеры с переводом и объяснением\n\n| English | Перевод | Почему это подходит |\n|---|---|---|---|\n| `All applications must be submitted by Friday.` | Все заявки должны быть отправлены до пятницы. | Modal passive = must + be + V3. |\n| `The missing documents should have been sent earlier.` | Отсутствующие документы следовало отправить раньше. | Modal perfect passive = should have been + V3. |\n| `It is widely believed that this species has become extinct.` | Широко распространено мнение, что этот вид вымер. | This species is unambiguously singular; the present perfect is has become. |\n| `The scientist is thought to have destroyed the original samples.` | Считается, что учёный уничтожил исходные образцы. | To have + V3 marks an action earlier than the current reporting point. |\n\nПримеры составлены Speakbase. Они иллюстрируют грамматическую функцию, но не подменяют индивидуальную проверку всех возможных вариантов и исключений.\n\n### 4.6. Исключения, ограничения и границы употребления\n\n- Not every verb is passivised naturally; check whether it takes an object and whether the passive preserves the intended meaning.\n- Be + V3 can describe a state as well as an event; context distinguishes the two.\n- Continuous passive requires **being + V3**; perfect passive requires **been + V3**.\n- With two-object verbs, both passive orders are not always equally natural or available.\n- Get-passive is more informal and event-focused; it is not a universal replacement for be.\n- **Being born** is not the normal expression for the event of birth; use **was/were born** for the event and **are born** for general facts.\n- Reporting passive expresses what is said/believed/reported, not a verified fact.\n- **Supposed to** has several meanings: reported belief, intended arrangement/expectation, and rule/prohibition. Interpret by context.\n- In a reporting passive, to have + V3 marks an earlier event; do not use it merely because the reporting verb is in the present.\n\n### 4.7. Типичные ошибки русскоязычных студентов\n\n| `All applications must submit by Friday.` | `All applications must be submitted by Friday.` | Submit is active base form; the subject applications receive the action. |\n| `The missing documents should have sent earlier.` | `The missing documents should have been sent earlier.` | Sent omits been and is not the complete passive sequence. |\n| `It is widely believed that this species is become extinct.` | `It is widely believed that this species has become extinct.` | Is become is not a valid present perfect form. |\n\nРусский перевод помогает понять смысл, но не управляет английской формой напрямую. Проверяй роль каждого элемента и грамматическую модель английского предложения.\n\n### 4.8. Произношение и восприятие на слух\n\nIn connected speech, passive auxiliaries are often unstressed, but the sequence of **be/been/being** carries essential aspect information. Listen for the contrast between **must be submitted**, **must have been submitted** and **is being submitted**. In reporting passive, the infinitive marker and perfect aspect help locate the reported event in time. Phonetic transcriptions and audio examples still require dictionary-audio verification.\n\nДля аудирования распознавай слабые формы вспомогательных глаголов, окончания и границы смысловых групп. Не ориентируйся только на чтение по буквам.\n\n### 4.9. Академический английский и TOEFL-перенос\n\nTOEFL transfer for Passive with modals and reporting passive: use the target structure to interpret syntax in Reading/Listening and construct clear sentences in Writing/Speaking. This is skill transfer, not a separate exam task.\n\n- **Reading:** синтаксические связи, reference, modifiers и логические отношения.\n- **Listening:** tense/aspect, weak forms, modality, speaker stance и связи между идеями.\n- **Writing — Build a Sentence:** точность структуры, согласование, порядок слов и verb patterns.\n- **Writing — Email / Academic Discussion:** ясность, appropriate register, аргументация и cohesion.\n- **Speaking — Listen and Repeat / Take an Interview:** точность воспроизведения формы и самостоятельное применение.\n\nЭто перенос навыка, а не полноценный экзаменационный пробник и не обещание конкретного балла.\n\n### 4.10. Примеры для управляемого разбора\n\n- All applications must ___ by Friday. → `be submitted`.\n- The missing documents should have ___ earlier. → `been sent`.\n- It is widely believed that this species ___ extinct. → `has become`.\n\nДля каждого примера назови целевой элемент, объясни форму, укажи, почему отвлекающий вариант неверен, и придумай собственное предложение с тем же правилом.\n\n### 4.11. Самопроверка\n\nПеред отправкой ответа проверь:\n1. Правильно ли определена функция конструкции?\n2. Согласована ли форма с подлежащим и временной перспективой?\n3. Не перенесён ли русский порядок слов напрямую?\n4. Не смешаны ли две похожие модели?\n5. Не сильнее ли утверждение, чем позволяют контекст и доказательства?\n\n### 4.12. Краткая памятка\n\n- Simple passive = be + V3; perfect = have/has/had + been + V3; continuous = be + being + V3.\n- Modal passive = modal + be + V3; modal perfect passive = modal + have been + V3.\n- Infinitive passive = to be + V3; earlier passive event = to have been + V3.\n- Two-object verbs can allow person-focused and thing-focused passive patterns.\n- Being + V3 is passive -ing; get-passive is informal/event-focused.\n- Reporting: It is said that... / X is said to... / X is said to have...\n- Supposed to = reported belief, arrangement/expectation or rule; use context.\n\n## 5. Практика\n\nВ приложении практика разделена на входную диагностику, управляемые задания, самостоятельную практику и новую выходную проверку. Закрытые ответы получают rationale и разбор ошибки. Свободный текст сохраняется и оценивается по рубрике; до подключения и реальной проверки AI-движка система не выдаёт его за автоматическую AI-оценку.\n\n## 6. Интервальное повторение\n\nПовторяй не весь урок автоматически, а конкретную ошибку: выбор формы, согласование, word order, значение, регистр или пунктуацию. Новая попытка должна менять лексический контекст и формулировку, чтобы проверять перенос, а не запоминание одной строки.\n\n## 7. Технический статус\n\n- Постоянный ID: `B2-04`.\n- Прогресс хранится отдельно в course.grammarLessons[\"B2-04\"].\n- Содержание и ключи имеют статус draft; источник page verification pending.\n- Предварительное выполнение порогов не равно окончательному mastered: нужны отсроченное повторение и learner review.",
+  "theoryEnd": "## 5."
+}

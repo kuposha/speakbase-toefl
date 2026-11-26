@@ -45,7 +45,7 @@
     "GR-05 C1 p29",
     "GR-05 C1 p35"
   ],
-  "sourceStatus": "partial; GR-05 C1 pp. 30, 40: abstract nouns and impersonal passive",
+  "sourceStatus": "partial; GR-05 C1 pp. 30, 40: abstract nouns and impersonal passive; full page verification pending",
   "status": "drafted",
   "legacyCoverage": "Нет",
   "toeflLinks": [
@@ -677,7 +677,8 @@
         "Наблюдение отделено от причины",
         "Исполнитель сокращённого оборота ясен",
         "Согласование и отсылки однозначны",
-        "Ограничение соответствует данным"
+        "Ограничение соответствует данным",
+        "Ответ содержит собственный английский пример, который можно понять без текста задания."
       ],
       "skillTarget": "Самостоятельное применение C1-14",
       "interactionType": "open-production",

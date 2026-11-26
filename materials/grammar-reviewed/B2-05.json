@@ -1,0 +1,686 @@
+{
+  "id": "B2-05",
+  "level": "B2",
+  "sequence": "B2-05",
+  "grammarFamily": "B2-05",
+  "questionBankSource": "topic-specific-authored",
+  "sourceVerification": "draft; selected GR-05 descriptor checked, remaining source review pending",
+  "topicProfile": {
+    "label": "reporting verbs and reporting structures",
+    "skillTarget": "reporting-verbs-and-complement-patterns",
+    "core": "Reporting verb передаёт действие говорящего. Deny означает отрицать факт, admit — признавать, suggest — предлагать, accuse — обвинять. Неверный reporting verb меняет содержание даже при правильном времени.",
+    "form": "Запоминай слово с моделью: admit copying, advise somebody to wait, accuse somebody of copying, insist on checking. После suggest доступны -ing и that-clause. В косвенном вопросе используй порядок подлежащее + глагол: she asked where it was.",
+    "selection": "Сдвиг времени показывает точку зрения из прошлого, но не обязателен во всех сообщениях об актуальном факте. Для приказов и просьб обычно подходит object + (not) to + V1. Различай say something to somebody и tell somebody something.",
+    "contrast": "She suggested changing the plan. He denied taking the file. They accused him of copying the answer. The tutor encouraged us to revise.",
+    "boundary": "Некоторые verbs допускают несколько patterns с разными значениями (insist on doing / insist that…). Используй словарное управление вместе с контекстом и регистром.",
+    "pronunciation": "В устной речи reporting verbs несут отношение говорящего; различай neutral say/tell и глаголы позиции. Интонация помогает распознать прямую речь и цитату, но письменная форма должна сохранять ясный источник.",
+    "examples": [],
+    "traps": [],
+    "toefl": "Reporting verbs и stance нужны для paraphrase и ссылок на источники в Academic Discussion. Выбирай глагол, который точно отражает позицию автора, а не усиливает её."
+  },
+  "title": "Reporting verbs and reporting structures",
+  "description": "Передавать позицию автора, выбирать reporting verb и модели с that/to/-ing",
+  "cardDescription": "Теория, guided practice, самостоятельные задания и выходная проверка по постоянному ID B2-05.",
+  "eyebrow": "Полный урок программы B2-05 · drafted",
+  "contentVersion": "1.1-draft",
+  "curriculumVersion": "1.0",
+  "prerequisites": [
+    "B1-11",
+    "B1-13"
+  ],
+  "outcomes": [
+    "Передавать позицию автора, выбирать reporting verb и модели с that/to/-ing",
+    "Выбирать целевую конструкцию по контексту и смыслу.",
+    "Исправлять типичные ошибки и переносить правило в новый пример."
+  ],
+  "sourceRefs": [
+    "GR-02 U47-48",
+    "GR-02 U53-68",
+    "GR-03 U32-39",
+    "GR-05 B2 p64-66"
+  ],
+  "sourceStatus": "partial; GR-05 B2 p. 64–66: reported speech, shifts and requests; full page verification pending",
+  "status": "drafted",
+  "legacyCoverage": "Частично",
+  "toeflLinks": [
+    "Writing: Build a Sentence",
+    "Listening: tense/aspect, modality, weak forms and discourse cues",
+    "Writing: Academic Discussion"
+  ],
+  "thresholds": {
+    "independent": 7,
+    "exit": 4,
+    "criticalIds": [
+      "E1",
+      "E2",
+      "E3"
+    ]
+  },
+  "groups": {
+    "independent": "Самостоятельная практика",
+    "exit": "Выходная проверка"
+  },
+  "items": [
+    {
+      "id": "D1",
+      "group": "Входная диагностика",
+      "prompt": "The committee suggested ___ the deadline.",
+      "options": [
+        "to extend",
+        "extending",
+        "extend"
+      ],
+      "answer": "extending",
+      "accepted": [
+        "extending"
+      ],
+      "why": "Suggest commonly takes a gerund or a that-clause; here gerund is required.",
+      "distractorWhy": "To extend does not fit the selected suggest + V-ing pattern.",
+      "distractorRationales": {
+        "to extend": "To extend does not fit the selected suggest + V-ing pattern.",
+        "extend": "Bare extend is not the complement form in this sentence."
+      },
+      "skillTarget": "reporting-verbs-and-complement-patterns",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D2",
+      "group": "Входная диагностика",
+      "prompt": "The student denied ___ the confidential file.",
+      "options": [
+        "copying",
+        "to copy",
+        "copy"
+      ],
+      "answer": "copying",
+      "accepted": [
+        "copying"
+      ],
+      "why": "Deny is followed by a gerund when referring to an action.",
+      "distractorWhy": "To copy is not the standard complement after deny.",
+      "distractorRationales": {
+        "to copy": "To copy is not the standard complement after deny.",
+        "copy": "Bare copy is not used after deny in this structure."
+      },
+      "skillTarget": "reporting-verbs-and-complement-patterns",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D3",
+      "group": "Входная диагностика",
+      "prompt": "The journalist accused the official ___ misleading the public.",
+      "options": [
+        "for",
+        "to",
+        "of"
+      ],
+      "answer": "of",
+      "accepted": [
+        "of"
+      ],
+      "why": "Accuse + object + of + V-ing is the standard pattern.",
+      "distractorWhy": "For does not govern the complement after accuse in this structure.",
+      "distractorRationales": {
+        "for": "For does not govern the complement after accuse in this structure.",
+        "to": "To would incorrectly introduce an infinitive rather than the required preposition pattern."
+      },
+      "skillTarget": "reporting-verbs-and-complement-patterns",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D4",
+      "group": "Входная диагностика",
+      "prompt": "The supervisor encouraged the interns ___ questions.",
+      "options": [
+        "asking",
+        "to ask",
+        "ask"
+      ],
+      "answer": "to ask",
+      "accepted": [
+        "to ask"
+      ],
+      "why": "Encourage + object + to-infinitive: encouraged the interns to ask.",
+      "distractorWhy": "Asking omits the required to-infinitive marker after the object.",
+      "distractorRationales": {
+        "asking": "Asking omits the required to-infinitive marker after the object.",
+        "ask": "Bare ask is not the complement in this structure."
+      },
+      "skillTarget": "reporting-verbs-and-complement-patterns",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G1",
+      "group": "Управляемая практика",
+      "prompt": "The witness insisted ___ the truth.",
+      "options": [
+        "on telling",
+        "to tell",
+        "tell"
+      ],
+      "answer": "on telling",
+      "accepted": [
+        "on telling"
+      ],
+      "why": "Insist on + gerund expresses persistence in performing an action.",
+      "distractorWhy": "To tell belongs to a different clause pattern and cannot follow this use of insist directly.",
+      "distractorRationales": {
+        "to tell": "To tell belongs to a different clause pattern and cannot follow this use of insist directly.",
+        "tell": "Bare tell is not licensed by insist in this structure."
+      },
+      "skillTarget": "reporting-verbs-and-complement-patterns",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G2",
+      "group": "Управляемая практика",
+      "prompt": "She warned us ___ the damaged staircase.",
+      "options": [
+        "not using",
+        "to not using",
+        "not to use"
+      ],
+      "answer": "not to use",
+      "accepted": [
+        "not to use"
+      ],
+      "why": "Warn + object + (not) to-infinitive gives a warning/instruction.",
+      "distractorWhy": "Not using is a gerund and does not complete the warning pattern.",
+      "distractorRationales": {
+        "not using": "Not using is a gerund and does not complete the warning pattern.",
+        "to not using": "To not using mixes infinitive marker and gerund."
+      },
+      "skillTarget": "reporting-verbs-and-complement-patterns",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G3",
+      "group": "Управляемая практика",
+      "prompt": "The report recommends ___ its procedures before implementation.",
+      "options": [
+        "to review",
+        "reviewing",
+        "review"
+      ],
+      "answer": "reviewing",
+      "accepted": [
+        "reviewing"
+      ],
+      "why": "Recommend can be followed by a gerund: recommends reviewing.",
+      "distractorWhy": "To review is not the standard complement in this construction without an object.",
+      "distractorRationales": {
+        "to review": "To review is not the standard complement in this construction without an object.",
+        "review": "Bare review does not complete recommend + gerund here."
+      },
+      "skillTarget": "reporting-verbs-and-complement-patterns",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G4",
+      "group": "Управляемая практика",
+      "prompt": "The author agreed ___ her notes.",
+      "options": [
+        "to share",
+        "sharing",
+        "us to share"
+      ],
+      "answer": "to share",
+      "accepted": [
+        "to share"
+      ],
+      "why": "После agree или promise употребляется to-инфинитив.",
+      "distractorWhy": "После admit или deny употребляется -ing.",
+      "distractorRationales": {
+        "sharing": "После admit или deny употребляется -ing.",
+        "us to share": "После advise или urge нужен адресат перед to-инфинитивом."
+      },
+      "skillTarget": "reporting-verbs-and-complement-patterns",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G5",
+      "group": "Управляемая практика",
+      "prompt": "Rita denied altering the chart. Какова позиция Риты?",
+      "options": [
+        "Обвинение",
+        "Признание",
+        "Отрицание"
+      ],
+      "answer": "Отрицание",
+      "accepted": [
+        "Отрицание"
+      ],
+      "why": "Deny doing оспаривает факт.",
+      "distractorWhy": "Accuse somebody of doing приписывает проступок другому.",
+      "distractorRationales": {
+        "Обвинение": "Accuse somebody of doing приписывает проступок другому.",
+        "Признание": "Admit doing принимает ответственность или признаёт факт."
+      },
+      "skillTarget": "reporting-verbs-and-complement-patterns",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G6",
+      "group": "Управляемая практика",
+      "prompt": "She asked me ___ the folder. Передай вопрос «куда».",
+      "options": [
+        "not to put",
+        "where I had put",
+        "that I had put"
+      ],
+      "answer": "where I had put",
+      "accepted": [
+        "where I had put"
+      ],
+      "why": "Косвенный вопрос сохраняет прямой порядок и относит действие к более раннему времени.",
+      "distractorWhy": "Отрицательное побуждение после tell + адресат передаётся инфинитивом.",
+      "distractorRationales": {
+        "not to put": "Отрицательное побуждение после tell + адресат передаётся инфинитивом.",
+        "that I had put": "That-clause после say или admit передаёт сообщение о факте."
+      },
+      "skillTarget": "reporting-verbs-and-complement-patterns",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I1",
+      "group": "Самостоятельная практика",
+      "prompt": "The committee urged ___ our draft early.",
+      "options": [
+        "to share",
+        "sharing",
+        "us to share"
+      ],
+      "answer": "us to share",
+      "accepted": [
+        "us to share"
+      ],
+      "why": "После advise или urge нужен адресат перед to-инфинитивом.",
+      "distractorWhy": "После agree или promise употребляется to-инфинитив.",
+      "distractorRationales": {
+        "to share": "После agree или promise употребляется to-инфинитив.",
+        "sharing": "После admit или deny употребляется -ing."
+      },
+      "skillTarget": "reporting-verbs-and-complement-patterns",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I2",
+      "group": "Самостоятельная практика",
+      "prompt": "Leo accused the vendor of changing the count. Каков речевой акт?",
+      "options": [
+        "Признание",
+        "Обвинение",
+        "Отрицание"
+      ],
+      "answer": "Обвинение",
+      "accepted": [
+        "Обвинение"
+      ],
+      "why": "Accuse somebody of doing приписывает проступок другому.",
+      "distractorWhy": "Admit doing принимает ответственность или признаёт факт.",
+      "distractorRationales": {
+        "Признание": "Admit doing принимает ответственность или признаёт факт.",
+        "Отрицание": "Deny doing оспаривает факт."
+      },
+      "skillTarget": "reporting-verbs-and-complement-patterns",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I3",
+      "group": "Самостоятельная практика",
+      "prompt": "The tutor told me ___ my address online. Передай запрет.",
+      "options": [
+        "not to put",
+        "where I had put",
+        "that I had put"
+      ],
+      "answer": "not to put",
+      "accepted": [
+        "not to put"
+      ],
+      "why": "Отрицательное побуждение после tell + адресат передаётся инфинитивом.",
+      "distractorWhy": "Косвенный вопрос сохраняет прямой порядок и относит действие к более раннему времени.",
+      "distractorRationales": {
+        "where I had put": "Косвенный вопрос сохраняет прямой порядок и относит действие к более раннему времени.",
+        "that I had put": "That-clause после say или admit передаёт сообщение о факте."
+      },
+      "skillTarget": "reporting-verbs-and-complement-patterns",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I4",
+      "group": "Самостоятельная практика",
+      "prompt": "The student admitted ___ a password.",
+      "options": [
+        "to share",
+        "us to share",
+        "sharing"
+      ],
+      "answer": "sharing",
+      "accepted": [
+        "sharing"
+      ],
+      "why": "После admit или deny употребляется -ing.",
+      "distractorWhy": "После agree или promise употребляется to-инфинитив.",
+      "distractorRationales": {
+        "to share": "После agree или promise употребляется to-инфинитив.",
+        "us to share": "После advise или urge нужен адресат перед to-инфинитивом."
+      },
+      "skillTarget": "reporting-verbs-and-complement-patterns",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I5",
+      "group": "Самостоятельная практика",
+      "prompt": "Ana admitted deleting the line. Как она отнеслась к факту?",
+      "options": [
+        "Обвинение",
+        "Признание",
+        "Отрицание"
+      ],
+      "answer": "Признание",
+      "accepted": [
+        "Признание"
+      ],
+      "why": "Admit doing принимает ответственность или признаёт факт.",
+      "distractorWhy": "Accuse somebody of doing приписывает проступок другому.",
+      "distractorRationales": {
+        "Обвинение": "Accuse somebody of doing приписывает проступок другому.",
+        "Отрицание": "Deny doing оспаривает факт."
+      },
+      "skillTarget": "reporting-verbs-and-complement-patterns",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I6",
+      "group": "Самостоятельная практика",
+      "prompt": "I admitted ___ the wrong date on the form. Передай утверждение.",
+      "options": [
+        "that I had put",
+        "where I had put",
+        "not to put"
+      ],
+      "answer": "that I had put",
+      "accepted": [
+        "that I had put"
+      ],
+      "why": "That-clause после say или admit передаёт сообщение о факте.",
+      "distractorWhy": "Косвенный вопрос сохраняет прямой порядок и относит действие к более раннему времени.",
+      "distractorRationales": {
+        "where I had put": "Косвенный вопрос сохраняет прямой порядок и относит действие к более раннему времени.",
+        "not to put": "Отрицательное побуждение после tell + адресат передаётся инфинитивом."
+      },
+      "skillTarget": "reporting-verbs-and-complement-patterns",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I7",
+      "group": "Самостоятельная практика",
+      "prompt": "The guide promised ___ the route map.",
+      "options": [
+        "sharing",
+        "us to share",
+        "to share"
+      ],
+      "answer": "to share",
+      "accepted": [
+        "to share"
+      ],
+      "why": "После agree или promise употребляется to-инфинитив.",
+      "distractorWhy": "После admit или deny употребляется -ing.",
+      "distractorRationales": {
+        "sharing": "После admit или deny употребляется -ing.",
+        "us to share": "После advise или urge нужен адресат перед to-инфинитивом."
+      },
+      "skillTarget": "reporting-verbs-and-complement-patterns",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I8",
+      "group": "Самостоятельная практика",
+      "prompt": "The team denied ignoring the alert. Что делает команда?",
+      "options": [
+        "Обвинение",
+        "Отрицание",
+        "Признание"
+      ],
+      "answer": "Отрицание",
+      "accepted": [
+        "Отрицание"
+      ],
+      "why": "Deny doing оспаривает факт.",
+      "distractorWhy": "Accuse somebody of doing приписывает проступок другому.",
+      "distractorRationales": {
+        "Обвинение": "Accuse somebody of doing приписывает проступок другому.",
+        "Признание": "Admit doing принимает ответственность или признаёт факт."
+      },
+      "skillTarget": "reporting-verbs-and-complement-patterns",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I9",
+      "group": "Самостоятельная практика",
+      "prompt": "The archivist asked ___ the original map. Вопрос был о месте.",
+      "options": [
+        "where I had put",
+        "not to put",
+        "that I had put"
+      ],
+      "answer": "where I had put",
+      "accepted": [
+        "where I had put"
+      ],
+      "why": "Косвенный вопрос сохраняет прямой порядок и относит действие к более раннему времени.",
+      "distractorWhy": "Отрицательное побуждение после tell + адресат передаётся инфинитивом.",
+      "distractorRationales": {
+        "not to put": "Отрицательное побуждение после tell + адресат передаётся инфинитивом.",
+        "that I had put": "That-clause после say или admit передаёт сообщение о факте."
+      },
+      "skillTarget": "reporting-verbs-and-complement-patterns",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E1",
+      "group": "Выходная проверка",
+      "prompt": "The office advised ___ the updated figures.",
+      "options": [
+        "us to share",
+        "to share",
+        "sharing"
+      ],
+      "answer": "us to share",
+      "accepted": [
+        "us to share"
+      ],
+      "why": "После advise или urge нужен адресат перед to-инфинитивом.",
+      "distractorWhy": "После agree или promise употребляется to-инфинитив.",
+      "distractorRationales": {
+        "to share": "После agree или promise употребляется to-инфинитив.",
+        "sharing": "После admit или deny употребляется -ing."
+      },
+      "skillTarget": "reporting-verbs-and-complement-patterns",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E2",
+      "group": "Выходная проверка",
+      "prompt": "The clerk accused a visitor of taking the badge. Какая позиция передана?",
+      "options": [
+        "Признание",
+        "Отрицание",
+        "Обвинение"
+      ],
+      "answer": "Обвинение",
+      "accepted": [
+        "Обвинение"
+      ],
+      "why": "Accuse somebody of doing приписывает проступок другому.",
+      "distractorWhy": "Admit doing принимает ответственность или признаёт факт.",
+      "distractorRationales": {
+        "Признание": "Admit doing принимает ответственность или признаёт факт.",
+        "Отрицание": "Deny doing оспаривает факт."
+      },
+      "skillTarget": "reporting-verbs-and-complement-patterns",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E3",
+      "group": "Выходная проверка",
+      "prompt": "He warned me ___ numbers in the public notes. Передай предостережение.",
+      "options": [
+        "where I had put",
+        "not to put",
+        "that I had put"
+      ],
+      "answer": "not to put",
+      "accepted": [
+        "not to put"
+      ],
+      "why": "Отрицательное побуждение после tell + адресат передаётся инфинитивом.",
+      "distractorWhy": "Косвенный вопрос сохраняет прямой порядок и относит действие к более раннему времени.",
+      "distractorRationales": {
+        "where I had put": "Косвенный вопрос сохраняет прямой порядок и относит действие к более раннему времени.",
+        "that I had put": "That-clause после say или admit передаёт сообщение о факте."
+      },
+      "skillTarget": "reporting-verbs-and-complement-patterns",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E4",
+      "group": "Выходная проверка",
+      "prompt": "The editor denied ___ a private letter.",
+      "options": [
+        "sharing",
+        "to share",
+        "us to share"
+      ],
+      "answer": "sharing",
+      "accepted": [
+        "sharing"
+      ],
+      "why": "После admit или deny употребляется -ing.",
+      "distractorWhy": "После agree или promise употребляется to-инфинитив.",
+      "distractorRationales": {
+        "to share": "После agree или promise употребляется to-инфинитив.",
+        "us to share": "После advise или urge нужен адресат перед to-инфинитивом."
+      },
+      "skillTarget": "reporting-verbs-and-complement-patterns",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E5",
+      "group": "Выходная проверка",
+      "prompt": "Bo admitted uploading a duplicate. Что он сообщил?",
+      "options": [
+        "Обвинение",
+        "Отрицание",
+        "Признание"
+      ],
+      "answer": "Признание",
+      "accepted": [
+        "Признание"
+      ],
+      "why": "Admit doing принимает ответственность или признаёт факт.",
+      "distractorWhy": "Accuse somebody of doing приписывает проступок другому.",
+      "distractorRationales": {
+        "Обвинение": "Accuse somebody of doing приписывает проступок другому.",
+        "Отрицание": "Deny doing оспаривает факт."
+      },
+      "skillTarget": "reporting-verbs-and-complement-patterns",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "W1",
+      "group": "Самостоятельное применение",
+      "prompt": "Передай три реплики в косвенной речи: просьбу никому не звонить, признание ошибки и вопрос о месте встречи.",
+      "open": true,
+      "rubric": [
+        "Запрет передан отрицательным инфинитивом",
+        "Признание введено глаголом admit",
+        "В косвенном вопросе прямой порядок слов",
+        "Все части задания выполнены в одном связном контексте",
+        "Перевод сохраняет роль участников и смысл конструкции",
+        "Ответ содержит собственный английский пример, который можно понять без текста задания."
+      ],
+      "skillTarget": "Самостоятельное применение B2-05",
+      "interactionType": "open-production",
+      "difficulty": "transfer",
+      "sourceBasis": "Speakbase-authored open production; self-review rubric only until real AI feedback is connected",
+      "contentVersion": "1.1-draft"
+    }
+  ],
+  "markdown": "# Speakbase — B2-05: Reporting verbs and reporting structures\n\n**Curriculum ID:** `B2-05`  \n**Уровень:** B2  \n**Версия:** 1.1-draft\n**Статус:** drafted; exact source-page verification, editorial key review and learner test are pending  \n**Предварительные темы:** B1-11, B1-13  \n**Связь со старым каталогом:** Частично — №31 Reported Speech\n\n## 1. Результаты обучения\n\n- Передавать позицию автора, выбирать reporting verb и модели с that/to/-ing\n- Выбирать целевую форму по значению, структуре предложения и контексту.\n- Объяснять, почему близкая грамматическая форма меняет смысл или регистр.\n- Находить и исправлять типичные ошибки русскоязычных студентов.\n\n## 2. Источники и статус сверки\n\n| Source | PDF navigation | Lesson-specific checks | Status |\n|---|---|---|---|\n| GR-02 U47 | PDF pages 106-107 (Unit 47) | Direct vs reported speech, common backshift and past simple/past perfect alternatives; text-extracted and checked | text extracted and checked |\n| GR-02 U48 | PDF pages 108-109 (Unit 48) | When backshift is optional, say/tell, reported instructions and requests; text-extracted and checked | text extracted and checked |\n| GR-02 U53 | PDF pages 118-119 (Unit 53) | Verb + -ing, including suggest/recommend/admit/deny and object + -ing; text-checked | text extracted and checked |\n| GR-02 U54 | PDF pages 120-121 (Unit 54) | Verb + to-infinitive, including promise/offer/refuse/agree and reporting patterns; text-checked | text extracted and checked |\n| GR-02 U55 | PDF pages 122-123 (Unit 55) | Verb + object + to-infinitive, including tell/advise/warn/encourage/persuade; suggest exception; text-checked | text extracted and checked |\n| GR-02 U60 | PDF pages 132-133 (Unit 60) | Preposition + -ing, including instead of, in spite of, by, without and to as a preposition; text-checked | text extracted and checked |\n| GR-02 U62 | PDF pages 136-137 (Unit 62) | Verb + preposition + -ing and object + preposition + -ing, including accuse of, prevent from, insist on and apologise for; text-checked | text extracted and checked |\n| GR-03 U32 | PDF pages 88-89 (printed pp. 64-65, Unit 32) | Reporting what people say and think; direct and indirect speech; explanations and exercises visually checked | visually checked; unit-text checked |\n| GR-03 U33 | PDF pages 90-91 (printed pp. 66-67, Unit 33) | Reporting statements and that-clause complements; explanations and exercises visually checked | visually checked; unit-text checked |\n| GR-03 U34 | PDF pages 92-93 (printed pp. 68-69, Unit 34) | Reporting questions and wh-/whether-clause patterns; explanations and exercises visually checked | visually checked; unit-text checked |\n| GR-03 U35 | PDF pages 94-95 (printed pp. 70-71, Unit 35) | Tense and time reference in reported clauses; explanations and exercises visually checked | visually checked; unit-text checked |\n| GR-03 U36 | PDF pages 96-97 (printed pp. 72-73, Unit 36) | Reporting offers, suggestions, orders and intentions; explanations and exercises visually checked | visually checked; unit-text checked |\n| GR-03 U37 | PDF pages 98-99 (printed pp. 74-75, Unit 37) | Modal verbs and reported modality; explanations and exercises visually checked | visually checked; unit-text checked |\n| GR-03 U38 | PDF pages 100-101 (printed pp. 76-77, Unit 38) | Reporting nouns/adjectives and complement patterns; explanations and exercises visually checked | visually checked; unit-text checked |\n| GR-03 U39 | PDF pages 102-103 (printed pp. 78-79, Unit 39) | Should in that-clauses and mandative subjunctive; explanations and exercises visually checked | visually checked; unit-text checked |\n| GR-05 B2 p64-66 | PDF pages 64-66 (B2 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n\nUnit/page locations are navigation aids only. They do not prove that the cited explanation, examples, restrictions and answer key have been checked for this lesson. Examples and explanations below are Speakbase-authored, not quotations from the textbook.\n\nПеред переводом этого урока в source-verified необходимо открыть целевые страницы конкретного издания, записать печатную и PDF-пагинацию, сверить ограничения и исключения. Для GR-03 со сканированными страницами обязательна визуальная проверка.\n\nСверка этой редакции: GR-05 B2 p. 64–66: reported speech, shifts and requests. Остальные строки сохраняют прежний статус.\n\n## 3. Место темы и границы\n\nReporting verbs и модели that/to/-ing; сопоставь claim, admit, deny, suggest, recommend, warn и их управление.\n\nСтарый каталог содержит: №31 Reported Speech. Его статус — Частично. Старые отметки завершения не переносятся автоматически на новый постоянный ID. Тема рассматривается в уровне B2 и не заменяет обязательные prerequisites.\n\n## 4. Полный конспект\n\n### 4.1. Основная идея и функция конструкции\n\nReporting verb передаёт действие говорящего. Deny означает отрицать факт, admit — признавать, suggest — предлагать, accuse — обвинять. Неверный reporting verb меняет содержание даже при правильном времени.\n\n### 4.2. Формирование и грамматические модели\n\nЗапоминай слово с моделью: admit copying, advise somebody to wait, accuse somebody of copying, insist on checking. После suggest доступны -ing и that-clause. В косвенном вопросе используй порядок подлежащее + глагол: she asked where it was.\n\n### 4.3. Как выбрать подходящую форму\n\nСдвиг времени показывает точку зрения из прошлого, но не обязателен во всех сообщениях об актуальном факте. Для приказов и просьб обычно подходит object + (not) to + V1. Различай say something to somebody и tell somebody something.\n\n### 4.4. Сравнение с близкими конструкциями\n\nShe suggested changing the plan. He denied taking the file. They accused him of copying the answer. The tutor encouraged us to revise.\n\n| Что проверяем | Вопрос для выбора |\n|---|---|\n| Форма | Какие элементы обязательны и в каком порядке они стоят? |\n| Значение | Что именно меняется: время, длительность, реальность, степень уверенности или фокус? |\n| Контекст | Что уже известно собеседнику и каков регистр высказывания? |\n| Проверка | Если заменить форму близкой конструкцией, изменится ли смысл? Объясни, почему. |\n\n### 4.5. Примеры с переводом и объяснением\n\n| English | Перевод | Почему это подходит |\n|---|---|---|---|\n| `The committee suggested extending the deadline.` | Комитет предложил продлить срок. | Suggest commonly takes a gerund or a that-clause; here the gerund is used. |\n| `The student denied copying the confidential file.` | Студент отрицал, что скопировал конфиденциальный файл. | Deny is followed by a gerund when referring to an action. |\n| `The journalist accused the official of misleading the public.` | Журналист обвинил чиновника в том, что тот вводил общественность в заблуждение. | Accuse + object + of + V-ing is the standard pattern. |\n| `The supervisor encouraged the interns to ask questions.` | Руководитель поощрял стажёров задавать вопросы. | Encourage + object + to-infinitive: encouraged the interns to ask. |\n\nПримеры составлены Speakbase. Они иллюстрируют грамматическую функцию, но не подменяют индивидуальную проверку всех возможных вариантов и исключений.\n\n### 4.6. Исключения, ограничения и границы употребления\n\n- Backshift is common, not automatic; a fact that remains true/current can stay in the present.\n- Past simple can sometimes remain past simple or become past perfect; use context to show sequence.\n- Say does not take a listener as a direct object (*say me*); tell normally needs an object when the listener is specified.\n- Reported questions use statement order, not direct-question inversion.\n- Suggest/recommend do not normally take object + to-infinitive; use -ing or a that-clause.\n- Tell/ask/warn/advise + object + to-infinitive requires the object when the person is specified.\n- Verbs such as admit/deny can take -ing or a that-clause; choose the structure that preserves the intended meaning.\n- Preposition + -ing patterns are lexical: accuse of, insist on, prevent from, apologise for, thank for. Do not replace the preposition with a guessed alternative.\n- Reporting language attributes a claim; it does not prove the claim true.\n\n### 4.7. Типичные ошибки русскоязычных студентов\n\n| `The committee suggested to extend the deadline.` | `The committee suggested extending the deadline.` | To extend does not fit the selected suggest + V-ing pattern. |\n| `The student denied to copy the confidential file.` | `The student denied copying the confidential file.` | To copy is not the standard complement after deny. |\n| `The journalist accused the official for misleading the public.` | `The journalist accused the official of misleading the public.` | For does not govern the complement after accuse in this structure. |\n\nРусский перевод помогает понять смысл, но не управляет английской формой напрямую. Проверяй роль каждого элемента и грамматическую модель английского предложения.\n\n### 4.8. Произношение и восприятие на слух\n\nTopic-specific pronunciation practice for Reporting verbs and reporting structures: focus on weak forms, endings and sentence stress. Phonetic examples still require dictionary-audio verification.\n\nДля аудирования распознавай слабые формы вспомогательных глаголов, окончания и границы смысловых групп. Не ориентируйся только на чтение по буквам.\n\n### 4.9. Академический английский и TOEFL-перенос\n\nTOEFL transfer for Reporting verbs and reporting structures: use the target structure to interpret syntax in Reading/Listening and construct clear sentences in Writing/Speaking. This is skill transfer, not a separate exam task.\n\n- **Reading:** синтаксические связи, reference, modifiers и логические отношения.\n- **Listening:** tense/aspect, weak forms, modality, speaker stance и связи между идеями.\n- **Writing — Build a Sentence:** точность структуры, согласование, порядок слов и verb patterns.\n- **Writing — Email / Academic Discussion:** ясность, appropriate register, аргументация и cohesion.\n- **Speaking — Listen and Repeat / Take an Interview:** точность воспроизведения формы и самостоятельное применение.\n\nЭто перенос навыка, а не полноценный экзаменационный пробник и не обещание конкретного балла.\n\n### 4.10. Примеры для управляемого разбора\n\n- The committee suggested ___ the deadline. => `extending` (not *extend* or *to extend* in this pattern).\n- The student denied ___ the confidential file. => `copying` (not *copy* or *to copy*).\n- The journalist accused the official ___ misleading the public. => `of` (accuse someone of doing something).\n\nДля каждого примера назови целевой элемент, объясни форму, укажи, почему отвлекающий вариант неверен, и придумай собственное предложение с тем же правилом.\n\n### 4.11. Самопроверка\n\nПеред отправкой ответа проверь:\n1. Правильно ли определена функция конструкции?\n2. Согласована ли форма с подлежащим и временной перспективой?\n3. Не перенесён ли русский порядок слов напрямую?\n4. Не смешаны ли две похожие модели?\n5. Не сильнее ли утверждение, чем позволяют контекст и доказательства?\n\n### 4.12. Краткая памятка\n\n- Direct speech quotes; reported speech adapts pronouns, tense and time/place reference.\n- Backshift is common after a past reporting verb, but current truths may remain present.\n- Say + clause; tell + object + clause; say something to somebody.\n- Reported questions = wh-/if/whether + statement word order.\n- Instructions = tell/ask + object + (not) to-infinitive.\n- Suggest/recommend + -ing or that-clause; admit/deny + -ing or that-clause.\n- Promise/offer/refuse/agree + to-infinitive; persuade/encourage/warn/tell + object + to-infinitive.\n- Accuse of / insist on / prevent from / apologise for + -ing.\n- Choose reporting verbs that accurately represent source stance and evidence.\n\n## 5. Практика\n\nВ приложении практика разделена на входную диагностику, управляемые задания, самостоятельную практику и новую выходную проверку. Закрытые ответы получают rationale и разбор ошибки. Свободный текст сохраняется и оценивается по рубрике; до подключения и реальной проверки AI-движка система не выдаёт его за автоматическую AI-оценку.\n\n## 6. Интервальное повторение\n\nПовторяй не весь урок автоматически, а конкретную ошибку: выбор формы, согласование, word order, значение, регистр или пунктуацию. Новая попытка должна менять лексический контекст и формулировку, чтобы проверять перенос, а не запоминание одной строки.\n\n## 7. Технический статус\n\n- Постоянный ID: `B2-05`.\n- Прогресс хранится отдельно в course.grammarLessons[\"B2-05\"].\n- Содержание и ключи имеют статус draft; источник page verification pending.\n- Предварительное выполнение порогов не равно окончательному mastered: нужны отсроченное повторение и learner review.",
+  "theoryEnd": "## 5."
+}

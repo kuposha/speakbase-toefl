@@ -39,7 +39,7 @@
     "GR-03 U100",
     "GR-05 C1 p11-14"
   ],
-  "sourceStatus": "partial; GR-05 C1 p. 12: correlative conjunctions, inversion, yet",
+  "sourceStatus": "partial; GR-05 C1 p. 12: correlative conjunctions, inversion, yet; full page verification pending",
   "status": "drafted",
   "legacyCoverage": "Частично",
   "toeflLinks": [
@@ -671,7 +671,8 @@
         "Уступка содержит главное утверждение",
         "В паре соединены однотипные элементы",
         "Инверсия соответствует позиции not only",
-        "Итоговый выбор объяснён"
+        "Итоговый выбор объяснён",
+        "Ответ содержит собственный английский пример, который можно понять без текста задания."
       ],
       "skillTarget": "Самостоятельное применение C1-10",
       "interactionType": "open-production",

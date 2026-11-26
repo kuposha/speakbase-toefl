@@ -37,7 +37,7 @@
     "GR-03 U28-31",
     "GR-05 B2 p67-70"
   ],
-  "sourceStatus": "partial; GR-05 B2 p. 67: perception and meaning-changing complements",
+  "sourceStatus": "partial; GR-05 B2 p. 67: perception and meaning-changing complements; full page verification pending",
   "status": "drafted",
   "legacyCoverage": "Частично",
   "toeflLinks": [
@@ -668,7 +668,8 @@
         "Воспоминание отличено от обязанности",
         "После remember выбраны разные модели",
         "Разрешение оформлено через let или allow",
-        "Хронология ясна"
+        "Хронология ясна",
+        "Ответ содержит собственный английский пример, который можно понять без текста задания."
       ],
       "skillTarget": "Самостоятельное применение C1-12",
       "interactionType": "open-production",

@@ -1,0 +1,686 @@
+{
+  "id": "B2-17",
+  "level": "B2",
+  "sequence": "B2-17",
+  "grammarFamily": "B2-17",
+  "questionBankSource": "topic-specific-authored",
+  "sourceVerification": "draft; selected GR-05 descriptor checked, remaining source review pending",
+  "topicProfile": {
+    "label": "fronting and inversion — introduction",
+    "skillTarget": "fronting-and-inversion-introduction",
+    "core": "Отрицательное или ограничительное обстоятельство в начале меняет порядок слов в главной части: Never have I seen this. При обычном порядке инверсии нет: I have never seen this. Инверсия здесь усиливает фокус, не образуя вопрос.",
+    "form": "Если нет вспомогательного глагола, добавь do, does или did и верни смысловой глагол к V1. В Only after the bell rang did we leave порядок меняется в главной части. После начального only + подлежащее инверсия не нужна: Only Rita left.",
+    "selection": "Отличай формальную отрицательную инверсию от повествовательной конструкции места: On the shelf stood a vase. С местоимением обычнее Here it is. Начальное обстоятельство времени вроде Yesterday само по себе не требует инверсии.",
+    "contrast": "We had rarely seen this result. → Rarely had we seen this result. Only after the test did the team understand the issue.",
+    "boundary": "Не всякое fronting вызывает inversion. После initial time/place phrases обычный порядок слов может сохраняться. Используй инверсию только в лицензирующих конструкциях.",
+    "pronunciation": "В устной речи inversion часто получает сильное интонационное выделение; в академическом письме используй её редко и осознанно.",
+    "examples": [],
+    "traps": [],
+    "toefl": "Inversion может добавить точный акцент, но экзаменационный ответ оценивается по ясности и естественности. Не используй редкую форму, если не уверен в структуре."
+  },
+  "title": "Fronting and inversion — introduction",
+  "description": "Понимать изменение порядка слов ради фокуса и формальности",
+  "cardDescription": "Теория, guided practice, самостоятельные задания и выходная проверка по постоянному ID B2-17.",
+  "eyebrow": "Полный урок программы B2-17 · drafted",
+  "contentVersion": "1.1-draft",
+  "curriculumVersion": "1.0",
+  "prerequisites": [
+    "B1-16",
+    "B2-15"
+  ],
+  "outcomes": [
+    "Понимать изменение порядка слов ради фокуса и формальности",
+    "Выбирать целевую конструкцию по контексту и смыслу.",
+    "Исправлять типичные ошибки и переносить правило в новый пример."
+  ],
+  "sourceRefs": [
+    "GR-03 U98-100",
+    "GR-05 B2 p9-11",
+    "GR-05 B2 p39",
+    "GR-05 B2 p49"
+  ],
+  "sourceStatus": "partial; GR-05 B2 p. 9, 39, 49: negative inversion; full page verification pending",
+  "status": "drafted",
+  "legacyCoverage": "Частично",
+  "toeflLinks": [
+    "Writing: Build a Sentence",
+    "Reading: clause structure, reference, modifiers and logical relationships",
+    "Writing: Academic Discussion"
+  ],
+  "thresholds": {
+    "independent": 7,
+    "exit": 4,
+    "criticalIds": [
+      "E1",
+      "E2",
+      "E3"
+    ]
+  },
+  "groups": {
+    "independent": "Самостоятельная практика",
+    "exit": "Выходная проверка"
+  },
+  "items": [
+    {
+      "id": "D1",
+      "group": "Входная диагностика",
+      "prompt": "Rarely ___ such a convincing explanation.",
+      "options": [
+        "we have heard",
+        "have we heard",
+        "did we have heard"
+      ],
+      "answer": "have we heard",
+      "accepted": [
+        "have we heard"
+      ],
+      "why": "Rarely in initial position triggers subject–auxiliary inversion: have we heard.",
+      "distractorWhy": "We have heard keeps normal statement order after negative initial adverb.",
+      "distractorRationales": {
+        "we have heard": "We have heard keeps normal statement order after negative initial adverb.",
+        "did we have heard": "Did we have heard stacks auxiliaries and uses the wrong tense."
+      },
+      "skillTarget": "fronting-and-inversion-introduction",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D2",
+      "group": "Входная диагностика",
+      "prompt": "Only after the second trial ___ the error.",
+      "options": [
+        "did they identify",
+        "they identified",
+        "have they identify"
+      ],
+      "answer": "did they identify",
+      "accepted": [
+        "did they identify"
+      ],
+      "why": "Only after at the beginning triggers inversion; past simple needs did + subject + base verb.",
+      "distractorWhy": "They identified lacks inversion after the restrictive initial expression.",
+      "distractorRationales": {
+        "they identified": "They identified lacks inversion after the restrictive initial expression.",
+        "have they identify": "Have they identify mixes auxiliaries and uses the wrong verb form."
+      },
+      "skillTarget": "fronting-and-inversion-introduction",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D3",
+      "group": "Входная диагностика",
+      "prompt": "Not until the report was published ___ the scale of the problem.",
+      "options": [
+        "we understood",
+        "had we understand",
+        "did we understand"
+      ],
+      "answer": "did we understand",
+      "accepted": [
+        "did we understand"
+      ],
+      "why": "Not until in initial position triggers inversion; past simple uses did + subject + base form.",
+      "distractorWhy": "We understood keeps normal order and misses required inversion.",
+      "distractorRationales": {
+        "we understood": "We understood keeps normal order and misses required inversion.",
+        "had we understand": "Had we understand has an incorrect participle form and does not match the intended tense."
+      },
+      "skillTarget": "fronting-and-inversion-introduction",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D4",
+      "group": "Входная диагностика",
+      "prompt": "Under no circumstances ___ personal data be shared publicly.",
+      "options": [
+        "we should",
+        "should",
+        "do should"
+      ],
+      "answer": "should",
+      "accepted": [
+        "should"
+      ],
+      "why": "Negative initial phrase triggers inversion: should + subject.",
+      "distractorWhy": "We should uses statement order, not inversion.",
+      "distractorRationales": {
+        "we should": "We should uses statement order, not inversion.",
+        "do should": "Do should incorrectly stacks do-support with modal should."
+      },
+      "skillTarget": "fronting-and-inversion-introduction",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G1",
+      "group": "Управляемая практика",
+      "prompt": "This issue, ___ discuss tomorrow.",
+      "options": [
+        "we can",
+        "can we",
+        "did we"
+      ],
+      "answer": "we can",
+      "accepted": [
+        "we can"
+      ],
+      "why": "Ordinary object topicalisation keeps subject-verb order: we can discuss.",
+      "distractorWhy": "Can we reverses subject and auxiliary, which would form a question/inversion not licensed by this topicalisation.",
+      "distractorRationales": {
+        "can we": "Can we reverses subject and auxiliary, which would form a question/inversion not licensed by this topicalisation.",
+        "did we": "Did we changes the tense and also inverts without a licensing trigger."
+      },
+      "skillTarget": "fronting-and-inversion-introduction",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G2",
+      "group": "Управляемая практика",
+      "prompt": "At the end of the corridor stood ___.",
+      "options": [
+        "it",
+        "there",
+        "a large wooden door"
+      ],
+      "answer": "a large wooden door",
+      "accepted": [
+        "a large wooden door"
+      ],
+      "why": "With a fronted place phrase and the intransitive verb stood, a full noun subject can follow the verb.",
+      "distractorWhy": "Pronoun subjects normally keep subject-verb order: At the end of the corridor, it stood.",
+      "distractorRationales": {
+        "it": "Pronoun subjects normally keep subject-verb order: At the end of the corridor, it stood.",
+        "there": "There cannot serve as the post-verbal noun subject in this construction."
+      },
+      "skillTarget": "fronting-and-inversion-introduction",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G3",
+      "group": "Управляемая практика",
+      "prompt": "Not only ___ the deadline, but they also failed to notify the client.",
+      "options": [
+        "they missed",
+        "did they miss",
+        "had they miss"
+      ],
+      "answer": "did they miss",
+      "accepted": [
+        "did they miss"
+      ],
+      "why": "Not only at the beginning triggers inversion; past simple uses did + subject + base verb.",
+      "distractorWhy": "They missed does not invert after not only.",
+      "distractorRationales": {
+        "they missed": "They missed does not invert after not only.",
+        "had they miss": "Had they miss has an incorrect past participle."
+      },
+      "skillTarget": "fronting-and-inversion-introduction",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G4",
+      "group": "Управляемая практика",
+      "prompt": "Only then ___ the second exit. Передай простое прошедшее.",
+      "options": [
+        "did we notice",
+        "we noticed",
+        "had we noticed"
+      ],
+      "answer": "did we notice",
+      "accepted": [
+        "did we notice"
+      ],
+      "why": "После начального отрицательного обстоятельства нужна инверсия с did и V1.",
+      "distractorWhy": "В обычном повествовании подлежащее стоит перед сказуемым.",
+      "distractorRationales": {
+        "we noticed": "В обычном повествовании подлежащее стоит перед сказуемым.",
+        "had we noticed": "После начального hardly для подчёркнутого предшествования употребляется Past Perfect с инверсией."
+      },
+      "skillTarget": "fronting-and-inversion-introduction",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G5",
+      "group": "Управляемая практика",
+      "prompt": "Only after Jo spoke did we act. Где сработала инверсия?",
+      "options": [
+        "Прямой порядок",
+        "Локативная инверсия",
+        "Инверсия главного предложения"
+      ],
+      "answer": "Инверсия главного предложения",
+      "accepted": [
+        "Инверсия главного предложения"
+      ],
+      "why": "При выносе ограничивающего обстоятельства вспомогательный глагол ставят перед подлежащим главной части.",
+      "distractorWhy": "Начальное подлежащее или обычное обстоятельство не требует инверсии.",
+      "distractorRationales": {
+        "Прямой порядок": "Начальное подлежащее или обычное обстоятельство не требует инверсии.",
+        "Локативная инверсия": "После обстоятельства места возможен глагол перед новым именным подлежащим."
+      },
+      "skillTarget": "fronting-and-inversion-introduction",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G6",
+      "group": "Управляемая практика",
+      "prompt": "Rarely ___ paper maps these days. Используй Present Simple.",
+      "options": [
+        "has she used",
+        "does she use",
+        "she uses"
+      ],
+      "answer": "does she use",
+      "accepted": [
+        "does she use"
+      ],
+      "why": "Для Present Simple с she при инверсии нужны does и V1.",
+      "distractorWhy": "Для Present Perfect с she вспомогательный has ставится перед подлежащим.",
+      "distractorRationales": {
+        "has she used": "Для Present Perfect с she вспомогательный has ставится перед подлежащим.",
+        "she uses": "В обычном утвердительном предложении окончание -s несёт смысловой глагол."
+      },
+      "skillTarget": "fronting-and-inversion-introduction",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I1",
+      "group": "Самостоятельная практика",
+      "prompt": "On the second visit ___ the narrow doorway. Обычный рассказ.",
+      "options": [
+        "did we notice",
+        "had we noticed",
+        "we noticed"
+      ],
+      "answer": "we noticed",
+      "accepted": [
+        "we noticed"
+      ],
+      "why": "В обычном повествовании подлежащее стоит перед сказуемым.",
+      "distractorWhy": "После начального отрицательного обстоятельства нужна инверсия с did и V1.",
+      "distractorRationales": {
+        "did we notice": "После начального отрицательного обстоятельства нужна инверсия с did и V1.",
+        "had we noticed": "После начального hardly для подчёркнутого предшествования употребляется Past Perfect с инверсией."
+      },
+      "skillTarget": "fronting-and-inversion-introduction",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I2",
+      "group": "Самостоятельная практика",
+      "prompt": "Only Jo spoke at the hearing. Каков порядок после начального only Jo?",
+      "options": [
+        "Инверсия главного предложения",
+        "Прямой порядок",
+        "Локативная инверсия"
+      ],
+      "answer": "Прямой порядок",
+      "accepted": [
+        "Прямой порядок"
+      ],
+      "why": "Начальное подлежащее или обычное обстоятельство не требует инверсии.",
+      "distractorWhy": "При выносе ограничивающего обстоятельства вспомогательный глагол ставят перед подлежащим главной части.",
+      "distractorRationales": {
+        "Инверсия главного предложения": "При выносе ограничивающего обстоятельства вспомогательный глагол ставят перед подлежащим главной части.",
+        "Локативная инверсия": "После обстоятельства места возможен глагол перед новым именным подлежащим."
+      },
+      "skillTarget": "fronting-and-inversion-introduction",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I3",
+      "group": "Самостоятельная практика",
+      "prompt": "Never before ___ this entrance. Выбери Present Perfect.",
+      "options": [
+        "has she used",
+        "does she use",
+        "she uses"
+      ],
+      "answer": "has she used",
+      "accepted": [
+        "has she used"
+      ],
+      "why": "Для Present Perfect с she вспомогательный has ставится перед подлежащим.",
+      "distractorWhy": "Для Present Simple с she при инверсии нужны does и V1.",
+      "distractorRationales": {
+        "does she use": "Для Present Simple с she при инверсии нужны does и V1.",
+        "she uses": "В обычном утвердительном предложении окончание -s несёт смысловой глагол."
+      },
+      "skillTarget": "fronting-and-inversion-introduction",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I4",
+      "group": "Самостоятельная практика",
+      "prompt": "Hardly ___ the crack when the glass split. Используй Past Perfect.",
+      "options": [
+        "did we notice",
+        "we noticed",
+        "had we noticed"
+      ],
+      "answer": "had we noticed",
+      "accepted": [
+        "had we noticed"
+      ],
+      "why": "После начального hardly для подчёркнутого предшествования употребляется Past Perfect с инверсией.",
+      "distractorWhy": "После начального отрицательного обстоятельства нужна инверсия с did и V1.",
+      "distractorRationales": {
+        "did we notice": "После начального отрицательного обстоятельства нужна инверсия с did и V1.",
+        "we noticed": "В обычном повествовании подлежащее стоит перед сказуемым."
+      },
+      "skillTarget": "fronting-and-inversion-introduction",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I5",
+      "group": "Самостоятельная практика",
+      "prompt": "On the far wall hung a portrait. Как построено предложение?",
+      "options": [
+        "Инверсия главного предложения",
+        "Локативная инверсия",
+        "Прямой порядок"
+      ],
+      "answer": "Локативная инверсия",
+      "accepted": [
+        "Локативная инверсия"
+      ],
+      "why": "После обстоятельства места возможен глагол перед новым именным подлежащим.",
+      "distractorWhy": "При выносе ограничивающего обстоятельства вспомогательный глагол ставят перед подлежащим главной части.",
+      "distractorRationales": {
+        "Инверсия главного предложения": "При выносе ограничивающего обстоятельства вспомогательный глагол ставят перед подлежащим главной части.",
+        "Прямой порядок": "Начальное подлежащее или обычное обстоятельство не требует инверсии."
+      },
+      "skillTarget": "fronting-and-inversion-introduction",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I6",
+      "group": "Самостоятельная практика",
+      "prompt": "When her phone is flat, ___ a printed map. Прямой порядок.",
+      "options": [
+        "she uses",
+        "does she use",
+        "has she used"
+      ],
+      "answer": "she uses",
+      "accepted": [
+        "she uses"
+      ],
+      "why": "В обычном утвердительном предложении окончание -s несёт смысловой глагол.",
+      "distractorWhy": "Для Present Simple с she при инверсии нужны does и V1.",
+      "distractorRationales": {
+        "does she use": "Для Present Simple с she при инверсии нужны does и V1.",
+        "has she used": "Для Present Perfect с she вспомогательный has ставится перед подлежащим."
+      },
+      "skillTarget": "fronting-and-inversion-introduction",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I7",
+      "group": "Самостоятельная практика",
+      "prompt": "Not until noon ___ the wrong date. Выбери Past Simple.",
+      "options": [
+        "we noticed",
+        "had we noticed",
+        "did we notice"
+      ],
+      "answer": "did we notice",
+      "accepted": [
+        "did we notice"
+      ],
+      "why": "После начального отрицательного обстоятельства нужна инверсия с did и V1.",
+      "distractorWhy": "В обычном повествовании подлежащее стоит перед сказуемым.",
+      "distractorRationales": {
+        "we noticed": "В обычном повествовании подлежащее стоит перед сказуемым.",
+        "had we noticed": "После начального hardly для подчёркнутого предшествования употребляется Past Perfect с инверсией."
+      },
+      "skillTarget": "fronting-and-inversion-introduction",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I8",
+      "group": "Самостоятельная практика",
+      "prompt": "Never before had we missed a vote. Как устроена главная часть?",
+      "options": [
+        "Прямой порядок",
+        "Инверсия главного предложения",
+        "Локативная инверсия"
+      ],
+      "answer": "Инверсия главного предложения",
+      "accepted": [
+        "Инверсия главного предложения"
+      ],
+      "why": "При выносе ограничивающего обстоятельства вспомогательный глагол ставят перед подлежащим главной части.",
+      "distractorWhy": "Начальное подлежащее или обычное обстоятельство не требует инверсии.",
+      "distractorRationales": {
+        "Прямой порядок": "Начальное подлежащее или обычное обстоятельство не требует инверсии.",
+        "Локативная инверсия": "После обстоятельства места возможен глагол перед новым именным подлежащим."
+      },
+      "skillTarget": "fronting-and-inversion-introduction",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I9",
+      "group": "Самостоятельная практика",
+      "prompt": "Only on Fridays ___ the studio. Нужна регулярная привычка.",
+      "options": [
+        "does she use",
+        "has she used",
+        "she uses"
+      ],
+      "answer": "does she use",
+      "accepted": [
+        "does she use"
+      ],
+      "why": "Для Present Simple с she при инверсии нужны does и V1.",
+      "distractorWhy": "Для Present Perfect с she вспомогательный has ставится перед подлежащим.",
+      "distractorRationales": {
+        "has she used": "Для Present Perfect с she вспомогательный has ставится перед подлежащим.",
+        "she uses": "В обычном утвердительном предложении окончание -s несёт смысловой глагол."
+      },
+      "skillTarget": "fronting-and-inversion-introduction",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E1",
+      "group": "Выходная проверка",
+      "prompt": "During the final round ___ the unusual pattern. Без инверсии.",
+      "options": [
+        "we noticed",
+        "did we notice",
+        "had we noticed"
+      ],
+      "answer": "we noticed",
+      "accepted": [
+        "we noticed"
+      ],
+      "why": "В обычном повествовании подлежащее стоит перед сказуемым.",
+      "distractorWhy": "После начального отрицательного обстоятельства нужна инверсия с did и V1.",
+      "distractorRationales": {
+        "did we notice": "После начального отрицательного обстоятельства нужна инверсия с did и V1.",
+        "had we noticed": "После начального hardly для подчёркнутого предшествования употребляется Past Perfect с инверсией."
+      },
+      "skillTarget": "fronting-and-inversion-introduction",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E2",
+      "group": "Выходная проверка",
+      "prompt": "Yesterday the group met upstairs. Каков порядок?",
+      "options": [
+        "Инверсия главного предложения",
+        "Локативная инверсия",
+        "Прямой порядок"
+      ],
+      "answer": "Прямой порядок",
+      "accepted": [
+        "Прямой порядок"
+      ],
+      "why": "Начальное подлежащее или обычное обстоятельство не требует инверсии.",
+      "distractorWhy": "При выносе ограничивающего обстоятельства вспомогательный глагол ставят перед подлежащим главной части.",
+      "distractorRationales": {
+        "Инверсия главного предложения": "При выносе ограничивающего обстоятельства вспомогательный глагол ставят перед подлежащим главной части.",
+        "Локативная инверсия": "После обстоятельства места возможен глагол перед новым именным подлежащим."
+      },
+      "skillTarget": "fronting-and-inversion-introduction",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E3",
+      "group": "Выходная проверка",
+      "prompt": "Not once this month ___ the lift. Передай незавершённый период через Present Perfect.",
+      "options": [
+        "does she use",
+        "has she used",
+        "she uses"
+      ],
+      "answer": "has she used",
+      "accepted": [
+        "has she used"
+      ],
+      "why": "Для Present Perfect с she вспомогательный has ставится перед подлежащим.",
+      "distractorWhy": "Для Present Simple с she при инверсии нужны does и V1.",
+      "distractorRationales": {
+        "does she use": "Для Present Simple с she при инверсии нужны does и V1.",
+        "she uses": "В обычном утвердительном предложении окончание -s несёт смысловой глагол."
+      },
+      "skillTarget": "fronting-and-inversion-introduction",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E4",
+      "group": "Выходная проверка",
+      "prompt": "Hardly ___ the shadow when it disappeared. Выбери Past Perfect.",
+      "options": [
+        "had we noticed",
+        "did we notice",
+        "we noticed"
+      ],
+      "answer": "had we noticed",
+      "accepted": [
+        "had we noticed"
+      ],
+      "why": "После начального hardly для подчёркнутого предшествования употребляется Past Perfect с инверсией.",
+      "distractorWhy": "После начального отрицательного обстоятельства нужна инверсия с did и V1.",
+      "distractorRationales": {
+        "did we notice": "После начального отрицательного обстоятельства нужна инверсия с did и V1.",
+        "we noticed": "В обычном повествовании подлежащее стоит перед сказуемым."
+      },
+      "skillTarget": "fronting-and-inversion-introduction",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E5",
+      "group": "Выходная проверка",
+      "prompt": "At the end of the path stood a tower. Как введён новый предмет?",
+      "options": [
+        "Инверсия главного предложения",
+        "Прямой порядок",
+        "Локативная инверсия"
+      ],
+      "answer": "Локативная инверсия",
+      "accepted": [
+        "Локативная инверсия"
+      ],
+      "why": "После обстоятельства места возможен глагол перед новым именным подлежащим.",
+      "distractorWhy": "При выносе ограничивающего обстоятельства вспомогательный глагол ставят перед подлежащим главной части.",
+      "distractorRationales": {
+        "Инверсия главного предложения": "При выносе ограничивающего обстоятельства вспомогательный глагол ставят перед подлежащим главной части.",
+        "Прямой порядок": "Начальное подлежащее или обычное обстоятельство не требует инверсии."
+      },
+      "skillTarget": "fronting-and-inversion-introduction",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "W1",
+      "group": "Самостоятельное применение",
+      "prompt": "Расскажи, когда обнаружили пропажу. Перефразируй с Only after и Never before, сохрани время и отметь, где осталось прямое расположение подлежащего.",
+      "open": true,
+      "rubric": [
+        "После отрицательного обстоятельства есть инверсия",
+        "Время и смысл исходной фразы сохранены",
+        "После only after придаточное сохранило прямой порядок",
+        "Все части задания выполнены в одном связном контексте",
+        "Перевод сохраняет роль участников и смысл конструкции",
+        "Ответ содержит собственный английский пример, который можно понять без текста задания."
+      ],
+      "skillTarget": "Самостоятельное применение B2-17",
+      "interactionType": "open-production",
+      "difficulty": "transfer",
+      "sourceBasis": "Speakbase-authored open production; self-review rubric only until real AI feedback is connected",
+      "contentVersion": "1.1-draft"
+    }
+  ],
+  "markdown": "# Speakbase — B2-17: Fronting and inversion — introduction\n\n**Curriculum ID:** `B2-17`  \n**Уровень:** B2  \n**Версия:** 1.1-draft\n**Статус:** drafted; exact source-page verification, editorial key review and learner test are pending  \n**Предварительные темы:** B1-16, B2-15  \n**Связь со старым каталогом:** Частично — №45 Inversion\n\n## 1. Результаты обучения\n\n- Понимать изменение порядка слов ради фокуса и формальности\n- Выбирать целевую форму по значению, структуре предложения и контексту.\n- Объяснять, почему близкая грамматическая форма меняет смысл или регистр.\n- Находить и исправлять типичные ошибки русскоязычных студентов.\n\n## 2. Источники и статус сверки\n\n| Source | PDF navigation | Lesson-specific checks | Status |\n|---|---|---|---|\n| GR-03 U98 | PDF pages 220-221 (printed pp. 196-197, Unit 98) | It-clefts and wh-clefts: focus and information structure | indexed; source scan unavailable for recheck |\n| GR-03 U99 | PDF pages 222-223 (printed pp. 198-199, Unit 99) | Fronted place/direction expressions and subject–verb inversion | indexed; source scan unavailable for recheck |\n| GR-03 U100 | PDF pages 224-225 (printed pp. 200-201, Unit 100) | Inversion after negative/restrictive adverbials, not only, so/such, neither/nor | indexed; source scan unavailable for recheck |\n| GR-05 B2 p9-11 | PDF pages 9-11 (B2 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-05 B2 p39 | PDF pages 39 (B2 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-05 B2 p49 | PDF pages 49 (B2 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n\nUnit/page locations are navigation aids only. They do not prove that the cited explanation, examples, restrictions and answer key have been checked for this lesson. Examples and explanations below are Speakbase-authored, not quotations from the textbook.\n\nПеред переводом этого урока в source-verified необходимо открыть целевые страницы конкретного издания, записать печатную и PDF-пагинацию, сверить ограничения и исключения. Для GR-03 со сканированными страницами обязательна визуальная проверка.\n\nСверка этой редакции: GR-05 B2 p. 9, 39, 49: negative inversion. Остальные строки сохраняют прежний статус.\n\n## 3. Место темы и границы\n\nFronting/inversion — средства фокуса и формального регистра; отличай topicalisation от обязательной negative inversion.\n\nСтарый каталог содержит: №45 Inversion. Его статус — Частично. Старые отметки завершения не переносятся автоматически на новый постоянный ID. Тема рассматривается в уровне B2 и не заменяет обязательные prerequisites.\n\n## 4. Полный конспект\n\n### 4.1. Основная идея и функция конструкции\n\nОтрицательное или ограничительное обстоятельство в начале меняет порядок слов в главной части: Never have I seen this. При обычном порядке инверсии нет: I have never seen this. Инверсия здесь усиливает фокус, не образуя вопрос.\n\n### 4.2. Формирование и грамматическая модель\n\nЕсли нет вспомогательного глагола, добавь do, does или did и верни смысловой глагол к V1. В Only after the bell rang did we leave порядок меняется в главной части. После начального only + подлежащее инверсия не нужна: Only Rita left.\n\n### 4.3. Как выбрать подходящую форму\n\nОтличай формальную отрицательную инверсию от повествовательной конструкции места: On the shelf stood a vase. С местоимением обычнее Here it is. Начальное обстоятельство времени вроде Yesterday само по себе не требует инверсии.\n\n### 4.4. Сравнение с близкими конструкциями\n\nWe had rarely seen this result. → Rarely had we seen this result. Only after the test did the team understand the issue.\n\n| Что проверяем | Вопрос для выбора |\n|---|---|\n| Форма | Какие элементы обязательны и в каком порядке они стоят? |\n| Значение | Что именно меняется: время, длительность, реальность, степень уверенности или фокус? |\n| Контекст | Что уже известно собеседнику и каков регистр высказывания? |\n| Проверка | Если заменить форму близкой конструкцией, изменится ли смысл? Объясни, почему. |\n\n### 4.5. Примеры с переводом и объяснением\n\n| English | Перевод | Почему это подходит |\n|---|---|---|\n| `Rarely have we heard such a convincing explanation.` | Редко нам доводилось слышать настолько убедительное объяснение. | Rarely in initial position triggers subject–auxiliary inversion: have we heard. |\n| `Only after the second trial did they identify the error.` | Только после второго испытания они обнаружили ошибку. | Only after at the beginning triggers inversion; past simple needs did + subject + base verb. |\n| `Not until the report was published did we understand the scale of the problem.` | Лишь после публикации отчёта мы поняли масштаб проблемы. | Not until in initial position triggers inversion; past simple uses did + subject + base form. |\n| `Under no circumstances should personal data be shared publicly.` | Ни при каких обстоятельствах нельзя публиковать персональные данные. | Negative initial phrase triggers inversion: should + subject. |\n| `Into the room came the director.` | В комнату вошёл директор. | A fronted place phrase can license verb + full noun subject with an appropriate intransitive verb. |\n| `This issue, we can discuss tomorrow.` | Этот вопрос мы можем обсудить завтра. | Ordinary object topicalisation keeps subject-verb order; fronting alone does not trigger inversion. |\n\nПримеры составлены Speakbase. Они иллюстрируют грамматическую функцию, но не подменяют индивидуальную проверку всех возможных вариантов и исключений.\n\n### 4.6. Исключения, ограничения и границы употребления\n\n- Cleft-конструкции меняют информационный фокус; они не являются декоративной заменой обычного предложения.\n- Обычное topicalisation объекта не вызывает инверсию автоматически.\n- Place/direction inversion ограничена определёнными непереходными глаголами и контекстами.\n- После here/there местоименное подлежащее обычно сохраняет обычный порядок: Here it comes.\n- Negative/restrictive inversion требуется, когда соответствующее выражение вынесено в начало; в середине предложения оно не вызывает такой перестановки.\n- Если auxiliary отсутствует, нужен do-support; нельзя просто переставить lexical verb перед subject.\n- Not only, neither/nor, so и such имеют собственные модели; следи за параллельностью частей.\n- Инверсия маркирована и часто формальна; в нейтральной разговорной речи не используй её без коммуникативной причины.\n\n- An initial only phrase does not always trigger inversion: Only Maria knew has an ordinary subject; Only then did Maria know has an initial adverbial.\n- A correlative subject pair (Neither the director nor the assistants...) does not trigger inversion; compare a separate negative agreeing clause (The first test failed, and neither did the second).\n### 4.7. Типичные ошибки русскоязычных студентов\n\n| Incorrect | Correct | Why |\n|---|---|---|\n| `Rarely we have heard such a convincing explanation.` | `Rarely have we heard such a convincing explanation.` | Initial negative adverb requires subject-auxiliary inversion. |\n| `Only after the second trial they identified the error.` | `Only after the second trial did they identify the error.` | Only after at the beginning triggers inversion; use did + subject + base verb. |\n| `Not until the report was published we understood the scale of the problem.` | `Not until the report was published did we understand the scale of the problem.` | Not until triggers inversion in the main clause, not in the subordinate clause. |\n\nРусский перевод помогает понять смысл, но не управляет английской формой напрямую. Проверяй роль каждого элемента и грамматическую модель английского предложения.\n\n### 4.8. Произношение и восприятие на слух\n\nListen for the auxiliary moved before the subject (*Rarely HAVE we seen...; Only THEN did they...*). The fronted expression carries contrastive stress; the auxiliary is often weak unless emphasised.\n\nДля аудирования распознавай слабые формы вспомогательных глаголов, окончания и границы смысловых групп. Не ориентируйся только на чтение по буквам.\n\n### 4.9. Академический английский и TOEFL-перенос\n\nTOEFL transfer for Fronting and inversion — introduction: use the target structure to interpret syntax in Reading/Listening and construct clear sentences in Writing/Speaking. This is skill transfer, not a separate exam task.\n\n- **Reading:** синтаксические связи, reference, modifiers и логические отношения.\n- **Listening:** tense/aspect, weak forms, modality, speaker stance и связи между идеями.\n- **Writing — Build a Sentence:** точность структуры, согласование, порядок слов и verb patterns.\n- **Writing — Email / Academic Discussion:** ясность, appropriate register, аргументация и cohesion.\n- **Speaking — Listen and Repeat / Take an Interview:** точность воспроизведения формы и самостоятельное применение.\n\nЭто перенос навыка, а не полноценный экзаменационный пробник и не обещание конкретного балла.\n\n### 4.10. Примеры для управляемого разбора\n\n- Rarely ___ such a convincing explanation. => `have we heard` (fronted negative adverb + present perfect auxiliary inversion).\n- Only after the second trial ___ the error. => `did they identify` (do-support + subject + base verb).\n- Not until the report was published ___ the scale of the problem. => `did we understand` (inversion occurs in the main clause).\n- This issue, ___ discuss tomorrow. => `we can` (ordinary topicalisation, no inversion).\n- At the end of the corridor stood ___. => `a large wooden door` (locative inversion with a full noun subject).\n\nДля каждого примера назови целевой элемент, объясни форму, укажи, почему отвлекающий вариант неверен, и придумай собственное предложение с тем же правилом.\n\n### 4.11. Самопроверка\n\nПеред отправкой ответа проверь:\n1. Правильно ли определена функция конструкции?\n2. Согласована ли форма с подлежащим и временной перспективой?\n3. Не перенесён ли русский порядок слов напрямую?\n4. Не смешаны ли две похожие модели?\n5. Не сильнее ли утверждение, чем позволяют контекст и доказательства?\n\n### 4.12. Краткая памятка\n\n- It-cleft = It + be + focus + that/who; what-cleft = What + clause + be + focus.\n- Обычное topic-fronting сохраняет subject–verb order.\n- Place/direction fronting иногда допускает verb + full noun subject; местоимение обычно остаётся после обычного subject–verb порядка.\n- Начальное negative/restrictive expression → auxiliary + subject; если auxiliary нет, используй do-support.\n- Начальные not only/neither/nor и конструкции so/such имеют отдельные модели инверсии.\n- Инверсия маркирована: применяй её только там, где она структурно лицензирована.\n\n## 5. Практика\n\nВ приложении практика разделена на входную диагностику, управляемые задания, самостоятельную практику и новую выходную проверку. Закрытые ответы получают rationale и разбор ошибки. Свободный текст сохраняется и оценивается по рубрике; до подключения и реальной проверки AI-движка система не выдаёт его за автоматическую AI-оценку.\n\n## 6. Интервальное повторение\n\nПовторяй не весь урок автоматически, а конкретную ошибку: выбор формы, согласование, word order, значение, регистр или пунктуацию. Новая попытка должна менять лексический контекст и формулировку, чтобы проверять перенос, а не запоминание одной строки.\n\n## 7. Технический статус\n\n- Постоянный ID: `B2-17`.\n- Прогресс хранится отдельно в course.grammarLessons[\"B2-17\"].\n- Содержание и ключи имеют статус draft; источник page verification pending.\n- Предварительное выполнение порогов не равно окончательному mastered: нужны отсроченное повторение и learner review.\n",
+  "theoryEnd": "## 5."
+}

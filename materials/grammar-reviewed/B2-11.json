@@ -1,0 +1,723 @@
+{
+  "id": "B2-11",
+  "level": "B2",
+  "sequence": "B2-11",
+  "grammarFamily": "articlesAdvanced",
+  "questionBankSource": "topic-specific-authored",
+  "sourceVerification": "draft; selected GR-05 descriptor checked, remaining source review pending",
+  "topicProfile": {
+    "label": "advanced articles and reference",
+    "core": "Сначала реши, указываешь ли ты на определённый предмет. A ticket вводит один билет, the ticket отсылает к понятному билету. Нулевой артикль обычен для множественного или неисчисляемого в обобщении: Tickets cost money. Information matters.",
+    "form": "A и an выбираются по звуку: a university начинается с согласного /j/, an hour — с гласного. Нельзя сказать an advice в обычном значении: используй a piece of advice или some advice.",
+    "selection": "В британском go to school обычно обозначает деятельность ученика, go to the school — поездку в конкретную школу. Конкретизирующее определение не автоматически требует the: слушателю должно быть понятно, какой объект имеется в виду.",
+    "contrast": "A researcher contacted the laboratory — неопределённый исследователь, конкретная лаборатория. Researchers need funding — generic plural без article. The researchers in this study — определённая группа. Research is essential — uncountable abstract reference.",
+    "boundary": "Abstract nouns могут быть countable или uncountable в зависимости от значения (experience, education, research). Institutional expressions (at school / at the school) различаются по функции. Geographical names имеют много устойчивых исключений, которые нужно учить по группам.",
+    "pronunciation": "A/an/the обычно безударны; the может иметь сильную форму перед гласным для акцента. В Listening артикль короткий, но меняет generic/specific reference.",
+    "examples": [
+      [
+        "Technology has changed communication.",
+        "Технологии изменили коммуникацию.",
+        "Generic abstract concept, zero article."
+      ],
+      [
+        "The technology used in this experiment is expensive.",
+        "Технология, использованная в этом эксперименте, дорогая.",
+        "Specific identified technology takes the."
+      ],
+      [
+        "A university should support its students.",
+        "Университет должен поддерживать своих студентов.",
+        "Singular countable noun introduced as a member of the category takes a."
+      ],
+      [
+        "The university near the river has a new library.",
+        "В университете у реки новая библиотека.",
+        "Specific identifiable institution takes the."
+      ]
+    ],
+    "traps": [
+      [
+        "The information is important for education in general. (generic meaning)",
+        "Information is important for education in general.",
+        "Generic uncountable nouns often take zero article.",
+        "The would make the reference specific/identifiable rather than generic."
+      ],
+      [
+        "A students need support.",
+        "Students need support.",
+        "Generic plural countable nouns take zero article.",
+        "A cannot precede a plural noun."
+      ],
+      [
+        "The life is complex. (general life)",
+        "Life is complex.",
+        "Abstract uncountable noun used generically takes zero article.",
+        "The would imply a specific identifiable life or concept."
+      ]
+    ],
+    "toefl": "Article choice affects precision in academic Reading and Writing: generic claims, specific evidence and institution references need distinct forms."
+  },
+  "title": "Advanced articles and reference",
+  "description": "Выбирать articles/zero article для generic, specific и abstract reference",
+  "cardDescription": "Теория, guided practice, самостоятельные задания и выходная проверка по постоянному ID B2-11.",
+  "eyebrow": "Полный урок программы B2-11 · drafted",
+  "contentVersion": "1.1-draft",
+  "curriculumVersion": "1.0",
+  "prerequisites": [
+    "A1-04",
+    "A2-10"
+  ],
+  "outcomes": [
+    "Выбирать articles/zero article для generic, specific и abstract reference",
+    "Выбирать целевую конструкцию по контексту и смыслу.",
+    "Исправлять типичные ошибки и переносить правило в новый пример."
+  ],
+  "sourceRefs": [
+    "GR-02 U71-78",
+    "GR-03 U44-47",
+    "GR-05 B2 p16-17"
+  ],
+  "sourceStatus": "partial; GR-05 B2 p. 41: no article; full page verification pending",
+  "status": "drafted",
+  "legacyCoverage": "Частично",
+  "toeflLinks": [
+    "Writing: Build a Sentence",
+    "Writing: Academic Discussion"
+  ],
+  "thresholds": {
+    "independent": 7,
+    "exit": 4,
+    "criticalIds": [
+      "E1",
+      "E2",
+      "E3"
+    ]
+  },
+  "groups": {
+    "independent": "Самостоятельная практика",
+    "exit": "Выходная проверка"
+  },
+  "items": [
+    {
+      "id": "D1",
+      "group": "Входная диагностика",
+      "prompt": "___ is essential for making an informed decision. Начни с существительного, обозначающего информацию вообще.",
+      "options": [
+        "The information",
+        "Information",
+        "An information"
+      ],
+      "answer": "Information",
+      "accepted": [
+        "Information"
+      ],
+      "why": "Information is uncountable and generic here, so it takes zero article.",
+      "distractorWhy": "The information would refer to specific identifiable information.",
+      "distractorRationales": {
+        "The information": "The information would refer to specific identifiable information.",
+        "An information": "An cannot precede an uncountable noun in this meaning."
+      },
+      "skillTarget": "articlesAdvanced",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D2",
+      "group": "Входная диагностика",
+      "prompt": "___ Netherlands is known for its extensive cycling infrastructure.",
+      "options": [
+        "The",
+        "A",
+        "Zero article"
+      ],
+      "answer": "The",
+      "accepted": [
+        "The"
+      ],
+      "why": "The is part of the established geographical name the Netherlands.",
+      "distractorWhy": "A is not used before the plural country name Netherlands.",
+      "distractorRationales": {
+        "A": "A is not used before the plural country name Netherlands.",
+        "Zero article": "The country name requires the definite article; zero article is not standard here."
+      },
+      "skillTarget": "articlesAdvanced",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D3",
+      "group": "Входная диагностика",
+      "prompt": "___ can improve employment opportunities. Начни с существительного, обозначающего образование вообще.",
+      "options": [
+        "The education",
+        "An education",
+        "Education"
+      ],
+      "answer": "Education",
+      "accepted": [
+        "Education"
+      ],
+      "why": "Education is an abstract uncountable concept used generically.",
+      "distractorWhy": "The would make it a specific identified education system/experience.",
+      "distractorRationales": {
+        "The education": "The would make it a specific identified education system/experience.",
+        "An education": "An is not used with education in this uncountable generic sense."
+      },
+      "skillTarget": "articlesAdvanced",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D4",
+      "group": "Входная диагностика",
+      "prompt": "She is studying at ___ university in the north of the country. Упомяни один прежде неизвестный университет.",
+      "options": [
+        "the",
+        "a",
+        "an"
+      ],
+      "answer": "a",
+      "accepted": [
+        "a"
+      ],
+      "why": "The sentence introduces one non-specified university; use a.",
+      "distractorWhy": "The would refer to a university identifiable to the reader.",
+      "distractorRationales": {
+        "the": "The would refer to a university identifiable to the reader.",
+        "an": "An is incorrect because university begins with a consonant /j/ sound."
+      },
+      "skillTarget": "articlesAdvanced",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G1",
+      "group": "Управляемая практика",
+      "prompt": "___ university we visited yesterday has a historic library. Имеется в виду конкретный посещённый университет.",
+      "options": [
+        "The",
+        "A",
+        "Zero article"
+      ],
+      "answer": "The",
+      "accepted": [
+        "The"
+      ],
+      "why": "Yesterday's visit identifies a specific university, so use the.",
+      "distractorWhy": "A would introduce a non-specific member of the category.",
+      "distractorRationales": {
+        "A": "A would introduce a non-specific member of the category.",
+        "Zero article": "Zero article is not used before this singular countable noun phrase."
+      },
+      "skillTarget": "articlesAdvanced",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G2",
+      "group": "Управляемая практика",
+      "prompt": "___ into sleep patterns has increased in recent years. Речь об области исследований в целом, начни с существительного.",
+      "options": [
+        "The research",
+        "A research",
+        "Research"
+      ],
+      "answer": "Research",
+      "accepted": [
+        "Research"
+      ],
+      "why": "Research is uncountable and generic in this broad statement.",
+      "distractorWhy": "The would refer to specific research already identifiable.",
+      "distractorRationales": {
+        "The research": "The would refer to specific research already identifiable.",
+        "A research": "A is not used with research in the generic uncountable sense."
+      },
+      "skillTarget": "articlesAdvanced",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G3",
+      "group": "Управляемая практика",
+      "prompt": "Children usually start ___ at five in this district. Выбери обычное обозначение начала учёбы.",
+      "options": [
+        "the school",
+        "school",
+        "a school"
+      ],
+      "answer": "school",
+      "accepted": [
+        "school"
+      ],
+      "why": "Start school is the fixed expression for beginning formal education as an activity.",
+      "distractorWhy": "The school refers to a particular institution or building, not the general activity.",
+      "distractorRationales": {
+        "the school": "The school refers to a particular institution or building, not the general activity.",
+        "a school": "A school would mean one unspecified school as a place, not the conventional activity expression."
+      },
+      "skillTarget": "articlesAdvanced",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G4",
+      "group": "Управляемая практика",
+      "prompt": "I met ___ university tutor for the first time. Неопределённый предмет.",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "answer": "a",
+      "accepted": [
+        "a"
+      ],
+      "why": "Неопределённый артикль перед согласным звуком вводит один экземпляр.",
+      "distractorWhy": "Неопределённый артикль перед гласным звуком вводит один экземпляр.",
+      "distractorRationales": {
+        "an": "Неопределённый артикль перед гласным звуком вводит один экземпляр.",
+        "the": "Определённый артикль обозначает идентифицируемый предмет."
+      },
+      "skillTarget": "articlesAdvanced",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G5",
+      "group": "Управляемая практика",
+      "prompt": "Books can be expensive. Каков охват books?",
+      "options": [
+        "Конкретная группа",
+        "Один представитель",
+        "Обобщение"
+      ],
+      "answer": "Обобщение",
+      "accepted": [
+        "Обобщение"
+      ],
+      "why": "Нулевой артикль с множественным или неисчисляемым обозначает класс или вещество вообще.",
+      "distractorWhy": "The обозначает определённый набор или порцию.",
+      "distractorRationales": {
+        "Конкретная группа": "The обозначает определённый набор или порцию.",
+        "Один представитель": "A или an вводит отдельный исчисляемый предмет."
+      },
+      "skillTarget": "articlesAdvanced",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G6",
+      "group": "Управляемая практика",
+      "prompt": "In British English, children go to ___ to study. Выбери типичное обозначение деятельности.",
+      "options": [
+        "the school",
+        "school",
+        "a school"
+      ],
+      "answer": "school",
+      "accepted": [
+        "school"
+      ],
+      "why": "Без артикля school после go to обозначает учёбу как обычную деятельность.",
+      "distractorWhy": "The указывает на определённую школу или её здание.",
+      "distractorRationales": {
+        "the school": "The указывает на определённую школу или её здание.",
+        "a school": "A вводит одну пока не идентифицированную школу."
+      },
+      "skillTarget": "articlesAdvanced",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I1",
+      "group": "Самостоятельная практика",
+      "prompt": "We need ___ hour to check this. Назови одну единицу времени.",
+      "options": [
+        "a",
+        "the",
+        "an"
+      ],
+      "answer": "an",
+      "accepted": [
+        "an"
+      ],
+      "why": "Неопределённый артикль перед гласным звуком вводит один экземпляр.",
+      "distractorWhy": "Неопределённый артикль перед согласным звуком вводит один экземпляр.",
+      "distractorRationales": {
+        "a": "Неопределённый артикль перед согласным звуком вводит один экземпляр.",
+        "the": "Определённый артикль обозначает идентифицируемый предмет."
+      },
+      "skillTarget": "articlesAdvanced",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I2",
+      "group": "Самостоятельная практика",
+      "prompt": "The books on my desk belong to Ana. О каких книгах речь?",
+      "options": [
+        "Обобщение",
+        "Конкретная группа",
+        "Один представитель"
+      ],
+      "answer": "Конкретная группа",
+      "accepted": [
+        "Конкретная группа"
+      ],
+      "why": "The обозначает определённый набор или порцию.",
+      "distractorWhy": "Нулевой артикль с множественным или неисчисляемым обозначает класс или вещество вообще.",
+      "distractorRationales": {
+        "Обобщение": "Нулевой артикль с множественным или неисчисляемым обозначает класс или вещество вообще.",
+        "Один представитель": "A или an вводит отдельный исчисляемый предмет."
+      },
+      "skillTarget": "articlesAdvanced",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I3",
+      "group": "Самостоятельная практика",
+      "prompt": "The plumber went to ___ we had discussed to fix a tap.",
+      "options": [
+        "the school",
+        "school",
+        "a school"
+      ],
+      "answer": "the school",
+      "accepted": [
+        "the school"
+      ],
+      "why": "The указывает на определённую школу или её здание.",
+      "distractorWhy": "Без артикля school после go to обозначает учёбу как обычную деятельность.",
+      "distractorRationales": {
+        "school": "Без артикля school после go to обозначает учёбу как обычную деятельность.",
+        "a school": "A вводит одну пока не идентифицированную школу."
+      },
+      "skillTarget": "articlesAdvanced",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I4",
+      "group": "Самостоятельная практика",
+      "prompt": "Please lock ___ only window in this room.",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "answer": "the",
+      "accepted": [
+        "the"
+      ],
+      "why": "Определённый артикль обозначает идентифицируемый предмет.",
+      "distractorWhy": "Неопределённый артикль перед согласным звуком вводит один экземпляр.",
+      "distractorRationales": {
+        "a": "Неопределённый артикль перед согласным звуком вводит один экземпляр.",
+        "an": "Неопределённый артикль перед гласным звуком вводит один экземпляр."
+      },
+      "skillTarget": "articlesAdvanced",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I5",
+      "group": "Самостоятельная практика",
+      "prompt": "A book fell from the top shelf. Как введён предмет?",
+      "options": [
+        "Обобщение",
+        "Один представитель",
+        "Конкретная группа"
+      ],
+      "answer": "Один представитель",
+      "accepted": [
+        "Один представитель"
+      ],
+      "why": "A или an вводит отдельный исчисляемый предмет.",
+      "distractorWhy": "Нулевой артикль с множественным или неисчисляемым обозначает класс или вещество вообще.",
+      "distractorRationales": {
+        "Обобщение": "Нулевой артикль с множественным или неисчисляемым обозначает класс или вещество вообще.",
+        "Конкретная группа": "The обозначает определённый набор или порцию."
+      },
+      "skillTarget": "articlesAdvanced",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I6",
+      "group": "Самостоятельная практика",
+      "prompt": "They plan to build ___ somewhere in this district. Место ещё не выбрано.",
+      "options": [
+        "a school",
+        "school",
+        "the school"
+      ],
+      "answer": "a school",
+      "accepted": [
+        "a school"
+      ],
+      "why": "A вводит одну пока не идентифицированную школу.",
+      "distractorWhy": "Без артикля school после go to обозначает учёбу как обычную деятельность.",
+      "distractorRationales": {
+        "school": "Без артикля school после go to обозначает учёбу как обычную деятельность.",
+        "the school": "The указывает на определённую школу или её здание."
+      },
+      "skillTarget": "articlesAdvanced",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I7",
+      "group": "Самостоятельная практика",
+      "prompt": "She gave me ___ useful hint. Вводится одна подсказка.",
+      "options": [
+        "an",
+        "the",
+        "a"
+      ],
+      "answer": "a",
+      "accepted": [
+        "a"
+      ],
+      "why": "Неопределённый артикль перед согласным звуком вводит один экземпляр.",
+      "distractorWhy": "Неопределённый артикль перед гласным звуком вводит один экземпляр.",
+      "distractorRationales": {
+        "an": "Неопределённый артикль перед гласным звуком вводит один экземпляр.",
+        "the": "Определённый артикль обозначает идентифицируемый предмет."
+      },
+      "skillTarget": "articlesAdvanced",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I8",
+      "group": "Самостоятельная практика",
+      "prompt": "Water expands when it freezes. О какой воде речь?",
+      "options": [
+        "Конкретная группа",
+        "Обобщение",
+        "Один представитель"
+      ],
+      "answer": "Обобщение",
+      "accepted": [
+        "Обобщение"
+      ],
+      "why": "Нулевой артикль с множественным или неисчисляемым обозначает класс или вещество вообще.",
+      "distractorWhy": "The обозначает определённый набор или порцию.",
+      "distractorRationales": {
+        "Конкретная группа": "The обозначает определённый набор или порцию.",
+        "Один представитель": "A или an вводит отдельный исчисляемый предмет."
+      },
+      "skillTarget": "articlesAdvanced",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I9",
+      "group": "Самостоятельная практика",
+      "prompt": "As a pupil, Jo goes to ___ every weekday. Вырази посещение занятий.",
+      "options": [
+        "school",
+        "the school",
+        "a school"
+      ],
+      "answer": "school",
+      "accepted": [
+        "school"
+      ],
+      "why": "Без артикля school после go to обозначает учёбу как обычную деятельность.",
+      "distractorWhy": "The указывает на определённую школу или её здание.",
+      "distractorRationales": {
+        "the school": "The указывает на определённую школу или её здание.",
+        "a school": "A вводит одну пока не идентифицированную школу."
+      },
+      "skillTarget": "articlesAdvanced",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E1",
+      "group": "Выходная проверка",
+      "prompt": "They recorded ___ unusual sound at night. Первое упоминание.",
+      "options": [
+        "an",
+        "a",
+        "the"
+      ],
+      "answer": "an",
+      "accepted": [
+        "an"
+      ],
+      "why": "Неопределённый артикль перед гласным звуком вводит один экземпляр.",
+      "distractorWhy": "Неопределённый артикль перед согласным звуком вводит один экземпляр.",
+      "distractorRationales": {
+        "a": "Неопределённый артикль перед согласным звуком вводит один экземпляр.",
+        "the": "Определённый артикль обозначает идентифицируемый предмет."
+      },
+      "skillTarget": "articlesAdvanced",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E2",
+      "group": "Выходная проверка",
+      "prompt": "The water in this bottle tastes salty. Что выделено?",
+      "options": [
+        "Обобщение",
+        "Один представитель",
+        "Конкретная группа"
+      ],
+      "answer": "Конкретная группа",
+      "accepted": [
+        "Конкретная группа"
+      ],
+      "why": "The обозначает определённый набор или порцию.",
+      "distractorWhy": "Нулевой артикль с множественным или неисчисляемым обозначает класс или вещество вообще.",
+      "distractorRationales": {
+        "Обобщение": "Нулевой артикль с множественным или неисчисляемым обозначает класс или вещество вообще.",
+        "Один представитель": "A или an вводит отдельный исчисляемый предмет."
+      },
+      "skillTarget": "articlesAdvanced",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E3",
+      "group": "Выходная проверка",
+      "prompt": "The inspector photographed ___ shown in the complaint.",
+      "options": [
+        "school",
+        "the school",
+        "a school"
+      ],
+      "answer": "the school",
+      "accepted": [
+        "the school"
+      ],
+      "why": "The указывает на определённую школу или её здание.",
+      "distractorWhy": "Без артикля school после go to обозначает учёбу как обычную деятельность.",
+      "distractorRationales": {
+        "school": "Без артикля school после go to обозначает учёбу как обычную деятельность.",
+        "a school": "A вводит одну пока не идентифицированную школу."
+      },
+      "skillTarget": "articlesAdvanced",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E4",
+      "group": "Выходная проверка",
+      "prompt": "I found a key; ___ key opened the desk. Повторное упоминание.",
+      "options": [
+        "the",
+        "a",
+        "an"
+      ],
+      "answer": "the",
+      "accepted": [
+        "the"
+      ],
+      "why": "Определённый артикль обозначает идентифицируемый предмет.",
+      "distractorWhy": "Неопределённый артикль перед согласным звуком вводит один экземпляр.",
+      "distractorRationales": {
+        "a": "Неопределённый артикль перед согласным звуком вводит один экземпляр.",
+        "an": "Неопределённый артикль перед гласным звуком вводит один экземпляр."
+      },
+      "skillTarget": "articlesAdvanced",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E5",
+      "group": "Выходная проверка",
+      "prompt": "An engineer called during lunch. Что известно об участнике?",
+      "options": [
+        "Обобщение",
+        "Конкретная группа",
+        "Один представитель"
+      ],
+      "answer": "Один представитель",
+      "accepted": [
+        "Один представитель"
+      ],
+      "why": "A или an вводит отдельный исчисляемый предмет.",
+      "distractorWhy": "Нулевой артикль с множественным или неисчисляемым обозначает класс или вещество вообще.",
+      "distractorRationales": {
+        "Обобщение": "Нулевой артикль с множественным или неисчисляемым обозначает класс или вещество вообще.",
+        "Конкретная группа": "The обозначает определённый набор или порцию."
+      },
+      "skillTarget": "articlesAdvanced",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "W1",
+      "group": "Самостоятельное применение",
+      "prompt": "Расскажи о новом университете, затем сошлись на нём повторно. Добавь обобщение об образовании и предложение о конкретной информации.",
+      "open": true,
+      "rubric": [
+        "Первое упоминание вводит один университет",
+        "Повторное упоминание однозначно",
+        "Обобщение и конкретная информация различены",
+        "Все части задания выполнены в одном связном контексте",
+        "Перевод сохраняет роль участников и смысл конструкции",
+        "Ответ содержит собственный английский пример, который можно понять без текста задания."
+      ],
+      "skillTarget": "Самостоятельное применение articlesAdvanced",
+      "interactionType": "open-production",
+      "difficulty": "transfer",
+      "sourceBasis": "Speakbase-authored open production; self-review rubric only until real AI feedback is connected",
+      "contentVersion": "1.1-draft"
+    }
+  ],
+  "markdown": "# Speakbase — B2-11: Advanced articles and reference\n\n**Curriculum ID:** `B2-11`  \n**Уровень:** B2  \n**Версия:** 1.1-draft\n**Статус:** drafted; exact source-page verification, editorial key review and learner test are pending  \n**Предварительные темы:** A1-04, A2-10  \n**Связь со старым каталогом:** Частично — №11 Articles\n\n## 1. Результаты обучения\n\n- Выбирать articles/zero article для generic, specific и abstract reference\n- Выбирать целевую форму по значению, структуре предложения и контексту.\n- Объяснять, почему близкая грамматическая форма меняет смысл или регистр.\n- Находить и исправлять типичные ошибки русскоязычных студентов.\n\n## 2. Источники и статус сверки\n\n| Source | PDF navigation | Lesson-specific checks | Status |\n|---|---|---|---|\n| GR-02 U71 | PDF pages 154-155 (Unit 71) | Generic reference and zero article with plural/uncountable nouns; text-extracted and checked | text extracted and checked |\n| GR-02 U72 | PDF pages 156-157 (Unit 72) | The with specific reference and shared knowledge; text-extracted and checked | text extracted and checked |\n| GR-02 U73 | PDF pages 158-159 (Unit 73) | The with geographical names and groups of places; text-extracted and checked | text extracted and checked |\n| GR-02 U74 | PDF pages 160-161 (Unit 74) | The with institutions, public buildings, newspapers and organisations; text-extracted and checked | text extracted and checked |\n| GR-02 U75 | PDF pages 162-163 (Unit 75) | The with nationalities, languages, inventions and historical periods; text-extracted and checked | text extracted and checked |\n| GR-02 U76 | PDF pages 164-165 (Unit 76) | The with names of families, places and institutions; zero article with names; text-extracted and checked | text extracted and checked |\n| GR-02 U77 | PDF pages 166-167 (Unit 77) | Titles and names with/without the; the with rivers, seas, mountain ranges and plural names; text-extracted and checked | text extracted and checked |\n| GR-02 U78 | PDF pages 168-169 (Unit 78) | Street/building/institution names, names with of, company names and organisations; text-extracted and checked | text extracted and checked |\n| GR-03 U44 | PDF pages 112-113 (printed pp. 88-89, Unit 44) | A/an, the and zero article in countable/generic/specific reference; visually checked | visually checked; unit-text checked |\n| GR-03 U45 | PDF pages 114-115 (printed pp. 90-91, Unit 45) | A/an, the and zero article in countable/generic/specific reference; visually checked | visually checked; unit-text checked |\n| GR-03 U46 | PDF pages 116-117 (printed pp. 92-93, Unit 46) | A/an, the and zero article in countable/generic/specific reference; visually checked | visually checked; unit-text checked |\n| GR-03 U47 | PDF pages 118-119 (printed pp. 94-95, Unit 47) | A/an, the and zero article in countable/generic/specific reference; visually checked | visually checked; unit-text checked |\n| GR-05 B2 p16-17 | PDF pages 16-17 (B2 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n\nUnit/page locations are navigation aids only. They do not prove that the cited explanation, examples, restrictions and answer key have been checked for this lesson. Examples and explanations below are Speakbase-authored, not quotations from the textbook.\n\nПеред переводом этого урока в source-verified необходимо открыть целевые страницы конкретного издания, записать печатную и PDF-пагинацию, сверить ограничения и исключения. Для GR-03 со сканированными страницами обязательна визуальная проверка.\n\nСверка этой редакции: GR-05 B2 p. 41: no article. Остальные строки сохраняют прежний статус.\n\n## 3. Место темы и границы\n\nArticles/reference: generic vs specific, abstract reference, zero article и связь с контекстом/discourse.\n\nСтарый каталог содержит: №11 Articles. Его статус — Частично. Старые отметки завершения не переносятся автоматически на новый постоянный ID. Тема рассматривается в уровне B2 и не заменяет обязательные prerequisites.\n\n## 4. Полный конспект\n\n### 4.1. Основная идея и функция конструкции\n\nСначала реши, указываешь ли ты на определённый предмет. A ticket вводит один билет, the ticket отсылает к понятному билету. Нулевой артикль обычен для множественного или неисчисляемого в обобщении: Tickets cost money. Information matters.\n\n### 4.2. Формирование и грамматические модели\n\nA и an выбираются по звуку: a university начинается с согласного /j/, an hour — с гласного. Нельзя сказать an advice в обычном значении: используй a piece of advice или some advice.\n\n### 4.3. Как выбрать подходящую форму\n\nВ британском go to school обычно обозначает деятельность ученика, go to the school — поездку в конкретную школу. Конкретизирующее определение не автоматически требует the: слушателю должно быть понятно, какой объект имеется в виду.\n\n### 4.4. Сравнение с близкими конструкциями\n\nA researcher contacted the laboratory — неопределённый исследователь, конкретная лаборатория. Researchers need funding — generic plural без article. The researchers in this study — определённая группа. Research is essential — uncountable abstract reference.\n\n| Что проверяем | Вопрос для выбора |\n|---|---|\n| Форма | Какие элементы обязательны и в каком порядке они стоят? |\n| Значение | Что именно меняется: время, длительность, реальность, степень уверенности или фокус? |\n| Контекст | Что уже известно собеседнику и каков регистр высказывания? |\n| Проверка | Если заменить форму близкой конструкцией, изменится ли смысл? Объясни, почему. |\n\n### 4.5. Примеры с переводом и объяснением\n\n| English | Перевод | Почему это подходит |\n|---|---|---|---|\n| `Technology has changed communication.` | Технологии изменили коммуникацию. | Generic abstract concept, zero article. |\n| `The technology used in this experiment is expensive.` | Технология, использованная в этом эксперименте, дорогая. | Specific identified technology takes the. |\n| `A university should support its students.` | Университет должен поддерживать своих студентов. | Singular countable noun introduced as a member of the category takes a. |\n| `The university near the river has a new library.` | В университете у реки новая библиотека. | Specific identifiable institution takes the. |\n\nПримеры составлены Speakbase. Они иллюстрируют грамматическую функцию, но не подменяют индивидуальную проверку всех возможных вариантов и исключений.\n\n### 4.6. Исключения, ограничения и границы употребления\n\n- A/an depends on the initial sound, not the first letter.\n- The is used when the referent is identifiable; it is not simply a marker for something mentioned before.\n- Zero article is common with generic plural/uncountable nouns; specific reference often requires the.\n- Generic singular the is possible in some class/species/invention contexts but is more formal; do not apply it to every noun.\n- Geographical names have many lexicalised exceptions; check whether the name contains a common noun, is plural, or names a single mountain/lake/city.\n- Titles before personal names normally have no the (Doctor Johnson); common titles do (the doctor).\n- Names with of usually take the (the University of Cambridge), while Cambridge University normally does not.\n- Building/institution names can differ from common-noun descriptions (Buckingham Palace vs the Royal Palace).\n- Company names are usually zero article; newspapers and many organisations take the.\n- Institutional expressions such as go to school/church/hospital can differ from go to the school/church/hospital when the building itself is meant.\n\n### 4.7. Типичные ошибки русскоязычных студентов\n\n| `The information is important for education in general. (generic meaning)` | `Information is important for education in general.` | Generic uncountable nouns often take zero article. |\n| `A students need support.` | `Students need support.` | Generic plural countable nouns take zero article. |\n| `The life is complex. (general life)` | `Life is complex.` | Abstract uncountable noun used generically takes zero article. |\n\nРусский перевод помогает понять смысл, но не управляет английской формой напрямую. Проверяй роль каждого элемента и грамматическую модель английского предложения.\n\n### 4.8. Произношение и восприятие на слух\n\nTopic-specific pronunciation practice for Advanced articles and reference: focus on weak forms, endings and sentence stress. Phonetic examples still require dictionary-audio verification.\n\nДля аудирования распознавай слабые формы вспомогательных глаголов, окончания и границы смысловых групп. Не ориентируйся только на чтение по буквам.\n\n### 4.9. Академический английский и TOEFL-перенос\n\nArticle choice affects precision in academic Reading and Writing: generic claims, specific evidence and institution references need distinct forms.\n\n- **Reading:** синтаксические связи, reference, modifiers и логические отношения.\n- **Listening:** tense/aspect, weak forms, modality, speaker stance и связи между идеями.\n- **Writing — Build a Sentence:** точность структуры, согласование, порядок слов и verb patterns.\n- **Writing — Email / Academic Discussion:** ясность, appropriate register, аргументация и cohesion.\n- **Speaking — Listen and Repeat / Take an Interview:** точность воспроизведения формы и самостоятельное применение.\n\nЭто перенос навыка, а не полноценный экзаменационный пробник и не обещание конкретного балла.\n\n### 4.10. Примеры для управляемого разбора\n\n- ___ information is essential for making an informed decision. => `Information` (generic uncountable noun).\n- ___ Netherlands is known for its extensive cycling infrastructure. => `The` (the Netherlands is the established country name).\n- ___ education can improve employment opportunities. => `Education` (generic uncountable concept; *an education* means a particular educational experience/type).\n\nДля каждого примера назови целевой элемент, объясни форму, укажи, почему отвлекающий вариант неверен, и придумай собственное предложение с тем же правилом.\n\n### 4.11. Самопроверка\n\nПеред отправкой ответа проверь:\n1. Правильно ли определена функция конструкции?\n2. Согласована ли форма с подлежащим и временной перспективой?\n3. Не перенесён ли русский порядок слов напрямую?\n4. Не смешаны ли две похожие модели?\n5. Не сильнее ли утверждение, чем позволяют контекст и доказательства?\n\n### 4.12. Краткая памятка\n\n- A/an = one non-specific singular countable noun; choose by sound.\n- The = specific/identifiable reference.\n- Zero article = generic plural/uncountable reference.\n- Generic class: a/an + singular, plural zero article, or the + singular in some formal contexts.\n- The with rivers/seas/oceans/canals/deserts/mountain ranges/plural names; usually no the with cities/countries/continents/individual mountains/lakes.\n- Names with of usually take the; many place/person + institution names do not.\n- Title + personal name normally has no the; the doctor/president uses the.\n- Distinguish institution/activity expressions from a particular building.\n\n## 5. Практика\n\nВ приложении практика разделена на входную диагностику, управляемые задания, самостоятельную практику и новую выходную проверку. Закрытые ответы получают rationale и разбор ошибки. Свободный текст сохраняется и оценивается по рубрике; до подключения и реальной проверки AI-движка система не выдаёт его за автоматическую AI-оценку.\n\n## 6. Интервальное повторение\n\nПовторяй не весь урок автоматически, а конкретную ошибку: выбор формы, согласование, word order, значение, регистр или пунктуацию. Новая попытка должна менять лексический контекст и формулировку, чтобы проверять перенос, а не запоминание одной строки.\n\n## 7. Технический статус\n\n- Постоянный ID: `B2-11`.\n- Прогресс хранится отдельно в course.grammarLessons[\"B2-11\"].\n- Содержание и ключи имеют статус draft; источник page verification pending.\n- Предварительное выполнение порогов не равно окончательному mastered: нужны отсроченное повторение и learner review.",
+  "theoryEnd": "## 5."
+}

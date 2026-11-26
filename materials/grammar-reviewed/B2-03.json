@@ -1,0 +1,686 @@
+{
+  "id": "B2-03",
+  "level": "B2",
+  "sequence": "B2-03",
+  "grammarFamily": "B2-03",
+  "questionBankSource": "topic-specific-authored",
+  "sourceVerification": "draft; selected GR-05 descriptor checked, remaining source review pending",
+  "topicProfile": {
+    "label": "advanced modality and modal perfect",
+    "skillTarget": "advanced-modality-modal-perfect",
+    "core": "В modal + have + V3 модальный глагол передаёт отношение говорящего, а have + V3 относит событие к прошлому. May have left — возможно, ушла; must have left — судя по данным, наверняка ушла; can't have left — уход исключён.",
+    "form": "Для упрёка выбери should have + V3, если контекст показывает упущенную обязанность. Needn't have paid сообщает, что человек заплатил зря. Didn't need to pay сообщает лишь об отсутствии необходимости: факт оплаты надо узнать из контекста.",
+    "selection": "В пассиве между have и причастием появляется been: might have been moved. Не путай запрет mustn't с отрицательным выводом can't have. Could have в зависимости от контекста допускает предположение или неиспользованный шанс.",
+    "contrast": "You needn't have printed it (you did, but it was unnecessary). You didn't need to print it (there was no need; whether you did it is not specified).",
+    "boundary": "Modal choice is context-sensitive; must have can express a deduction, while should have may express expectation or criticism. Avoid treating every modal perfect as a simple past tense.",
+    "pronunciation": "Безударные модальные формы могут редуцироваться; отрицательные формы и ударение меняют силу высказывания. В Speaking интонация помогает отличать совет от категоричного требования.",
+    "examples": [],
+    "traps": [],
+    "toefl": "Модальность критична для академической осторожности: distinguish may suggest from proves, should from must, and likely from certain. Не преувеличивай выводы."
+  },
+  "title": "Advanced modality and modal perfect",
+  "description": "Выражать степень уверенности, критику, упрёк, вероятность и контрфактические выводы",
+  "cardDescription": "Теория, guided practice, самостоятельные задания и выходная проверка по постоянному ID B2-03.",
+  "eyebrow": "Полный урок программы B2-03 · drafted",
+  "contentVersion": "1.1-draft",
+  "curriculumVersion": "1.0",
+  "prerequisites": [
+    "B1-09",
+    "B1-10"
+  ],
+  "outcomes": [
+    "Выражать степень уверенности, критику, упрёк, вероятность и контрфактические выводы",
+    "Выбирать целевую конструкцию по контексту и смыслу.",
+    "Исправлять типичные ошибки и переносить правило в новый пример."
+  ],
+  "sourceRefs": [
+    "GR-02 U26-37",
+    "GR-03 U15-20",
+    "GR-05 B2 p44-46"
+  ],
+  "sourceStatus": "partial; GR-05 B2 p. 28: past speculation and regret; full page verification pending",
+  "status": "drafted",
+  "legacyCoverage": "Частично",
+  "toeflLinks": [
+    "Writing: Build a Sentence",
+    "Listening: tense/aspect, modality, weak forms and discourse cues",
+    "Speaking: Listen and Repeat / Take an Interview",
+    "Writing: Academic Discussion"
+  ],
+  "thresholds": {
+    "independent": 7,
+    "exit": 4,
+    "criticalIds": [
+      "E1",
+      "E2",
+      "E3"
+    ]
+  },
+  "groups": {
+    "independent": "Самостоятельная практика",
+    "exit": "Выходная проверка"
+  },
+  "items": [
+    {
+      "id": "D1",
+      "group": "Входная диагностика",
+      "prompt": "You ___ have brought a printed copy; the digital version was enough.",
+      "options": [
+        "mustn't",
+        "needn't",
+        "couldn't"
+      ],
+      "answer": "needn't",
+      "accepted": [
+        "needn't"
+      ],
+      "why": "Needn't have + V3 means the action happened but was unnecessary.",
+      "distractorWhy": "Mustn't have does not express lack of necessity in this sense.",
+      "distractorRationales": {
+        "mustn't": "Mustn't have does not express lack of necessity in this sense.",
+        "couldn't": "Couldn't have means impossibility, not unnecessary action."
+      },
+      "skillTarget": "advanced-modality-modal-perfect",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D2",
+      "group": "Входная диагностика",
+      "prompt": "The results are inconsistent. The team ___ have entered one value incorrectly; this is one possible explanation.",
+      "options": [
+        "may",
+        "must to",
+        "should"
+      ],
+      "answer": "may",
+      "accepted": [
+        "may"
+      ],
+      "why": "May have expresses a possible explanation without claiming certainty.",
+      "distractorWhy": "To is not used after modal may.",
+      "distractorRationales": {
+        "must to": "To is not used after modal may.",
+        "should": "Should have usually expresses an unrealised obligation or criticism, not a neutral possibility in this context."
+      },
+      "skillTarget": "advanced-modality-modal-perfect",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D3",
+      "group": "Входная диагностика",
+      "prompt": "You ___ have told me earlier; I could have helped.",
+      "options": [
+        "should to",
+        "must",
+        "should"
+      ],
+      "answer": "should",
+      "accepted": [
+        "should"
+      ],
+      "why": "Should have + V3 expresses criticism or an unrealised advisable past action.",
+      "distractorWhy": "To is not used after should.",
+      "distractorRationales": {
+        "should to": "To is not used after should.",
+        "must": "Must have expresses deduction, not advice/criticism in this context."
+      },
+      "skillTarget": "advanced-modality-modal-perfect",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D4",
+      "group": "Входная диагностика",
+      "prompt": "The parcel isn't here. It ___ have been delivered to the wrong address.",
+      "options": [
+        "might to",
+        "might",
+        "might be"
+      ],
+      "answer": "might",
+      "accepted": [
+        "might"
+      ],
+      "why": "Might have been delivered is a possibility about a past passive event.",
+      "distractorWhy": "To is not used after modal might.",
+      "distractorRationales": {
+        "might to": "To is not used after modal might.",
+        "might be": "Might be is present possibility and omits the past participle phrase."
+      },
+      "skillTarget": "advanced-modality-modal-perfect",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G1",
+      "group": "Управляемая практика",
+      "prompt": "He ___ have known about the change; nobody informed him. Вырази уверенный отрицательный вывод, считая передачу сведений единственным источником.",
+      "options": [
+        "can't",
+        "must",
+        "should"
+      ],
+      "answer": "can't",
+      "accepted": [
+        "can't"
+      ],
+      "why": "Can't have known expresses a strong negative deduction about the past.",
+      "distractorWhy": "Must have known expresses the opposite positive deduction.",
+      "distractorRationales": {
+        "must": "Must have known expresses the opposite positive deduction.",
+        "should": "Should have known suggests obligation/expectation rather than evidence-based impossibility."
+      },
+      "skillTarget": "advanced-modality-modal-perfect",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G2",
+      "group": "Управляемая практика",
+      "prompt": "They ___ have completed the task by now; they started only ten minutes ago. Для этой задачи гарантированно требуется час. Сделай отрицательный вывод.",
+      "options": [
+        "must",
+        "should",
+        "can't"
+      ],
+      "answer": "can't",
+      "accepted": [
+        "can't"
+      ],
+      "why": "The short time makes completion highly implausible; can't have completed is a negative deduction.",
+      "distractorWhy": "Must have completed makes a strong positive deduction.",
+      "distractorRationales": {
+        "must": "Must have completed makes a strong positive deduction.",
+        "should": "Should have completed expresses expectation rather than likelihood."
+      },
+      "skillTarget": "advanced-modality-modal-perfect",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G3",
+      "group": "Управляемая практика",
+      "prompt": "You ___ tell anyone about the confidential results; disclosure is prohibited.",
+      "options": [
+        "needn't",
+        "mustn't",
+        "don't have to"
+      ],
+      "answer": "mustn't",
+      "accepted": [
+        "mustn't"
+      ],
+      "why": "Mustn't expresses prohibition: do not disclose the information.",
+      "distractorWhy": "Needn't means disclosure is not necessary, not that it is forbidden.",
+      "distractorRationales": {
+        "needn't": "Needn't means disclosure is not necessary, not that it is forbidden.",
+        "don't have to": "Don't have to means there is no obligation; it does not prohibit the action."
+      },
+      "skillTarget": "advanced-modality-modal-perfect",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G4",
+      "group": "Управляемая практика",
+      "prompt": "The only key is gone and Jo has just used it. She ___ taken it. Вырази сильный вывод.",
+      "options": [
+        "must have",
+        "might have",
+        "can't have"
+      ],
+      "answer": "must have",
+      "accepted": [
+        "must have"
+      ],
+      "why": "Сильный положительный вывод о прошлом.",
+      "distractorWhy": "Возможное объяснение без уверенности.",
+      "distractorRationales": {
+        "might have": "Возможное объяснение без уверенности.",
+        "can't have": "Уверенное отрицание прошлой возможности."
+      },
+      "skillTarget": "advanced-modality-modal-perfect",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G5",
+      "group": "Управляемая практика",
+      "prompt": "I bought two stamps. You needn't have bought either. Что известно о покупке?",
+      "options": [
+        "Упрёк за упущенное действие",
+        "Прошлая возможность без вывода о реализации",
+        "Ненужное выполненное действие"
+      ],
+      "answer": "Ненужное выполненное действие",
+      "accepted": [
+        "Ненужное выполненное действие"
+      ],
+      "why": "Needn't have done подтверждает действие и отрицает его необходимость.",
+      "distractorWhy": "Should have done в этом контексте противопоставляет должное реальному.",
+      "distractorRationales": {
+        "Упрёк за упущенное действие": "Should have done в этом контексте противопоставляет должное реальному.",
+        "Прошлая возможность без вывода о реализации": "Could have done допускает возможность, а контекст определяет результат."
+      },
+      "skillTarget": "advanced-modality-modal-perfect",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G6",
+      "group": "Управляемая практика",
+      "prompt": "The missing invitation might have ___ to my old address. Приглашение получало действие.",
+      "options": [
+        "sent",
+        "been sent",
+        "been sending"
+      ],
+      "answer": "been sent",
+      "accepted": [
+        "been sent"
+      ],
+      "why": "Have been + причастие обозначает прошлый пассив.",
+      "distractorWhy": "Have + причастие с деятельным субъектом выражает актив.",
+      "distractorRationales": {
+        "sent": "Have + причастие с деятельным субъектом выражает актив.",
+        "been sending": "Have been + -ing подчёркивает ход действия."
+      },
+      "skillTarget": "advanced-modality-modal-perfect",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I1",
+      "group": "Самостоятельная практика",
+      "prompt": "The label is blank. Someone ___ erased it, but there are other explanations.",
+      "options": [
+        "must have",
+        "can't have",
+        "might have"
+      ],
+      "answer": "might have",
+      "accepted": [
+        "might have"
+      ],
+      "why": "Возможное объяснение без уверенности.",
+      "distractorWhy": "Сильный положительный вывод о прошлом.",
+      "distractorRationales": {
+        "must have": "Сильный положительный вывод о прошлом.",
+        "can't have": "Уверенное отрицание прошлой возможности."
+      },
+      "skillTarget": "advanced-modality-modal-perfect",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I2",
+      "group": "Самостоятельная практика",
+      "prompt": "You should have sent the warning; no one received it. Как оценено бездействие?",
+      "options": [
+        "Ненужное выполненное действие",
+        "Упрёк за упущенное действие",
+        "Прошлая возможность без вывода о реализации"
+      ],
+      "answer": "Упрёк за упущенное действие",
+      "accepted": [
+        "Упрёк за упущенное действие"
+      ],
+      "why": "Should have done в этом контексте противопоставляет должное реальному.",
+      "distractorWhy": "Needn't have done подтверждает действие и отрицает его необходимость.",
+      "distractorRationales": {
+        "Ненужное выполненное действие": "Needn't have done подтверждает действие и отрицает его необходимость.",
+        "Прошлая возможность без вывода о реализации": "Could have done допускает возможность, а контекст определяет результат."
+      },
+      "skillTarget": "advanced-modality-modal-perfect",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I3",
+      "group": "Самостоятельная практика",
+      "prompt": "The coordinator must have ___ the notice herself. Нужна завершённая отправка.",
+      "options": [
+        "sent",
+        "been sent",
+        "been sending"
+      ],
+      "answer": "sent",
+      "accepted": [
+        "sent"
+      ],
+      "why": "Have + причастие с деятельным субъектом выражает актив.",
+      "distractorWhy": "Have been + причастие обозначает прошлый пассив.",
+      "distractorRationales": {
+        "been sent": "Have been + причастие обозначает прошлый пассив.",
+        "been sending": "Have been + -ing подчёркивает ход действия."
+      },
+      "skillTarget": "advanced-modality-modal-perfect",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I4",
+      "group": "Самостоятельная практика",
+      "prompt": "The room did not exist in 1990. That meeting ___ taken place there in 1990.",
+      "options": [
+        "must have",
+        "might have",
+        "can't have"
+      ],
+      "answer": "can't have",
+      "accepted": [
+        "can't have"
+      ],
+      "why": "Уверенное отрицание прошлой возможности.",
+      "distractorWhy": "Сильный положительный вывод о прошлом.",
+      "distractorRationales": {
+        "must have": "Сильный положительный вывод о прошлом.",
+        "might have": "Возможное объяснение без уверенности."
+      },
+      "skillTarget": "advanced-modality-modal-perfect",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I5",
+      "group": "Самостоятельная практика",
+      "prompt": "We could have taken the ferry; I don't know which route we chose. Что установлено?",
+      "options": [
+        "Ненужное выполненное действие",
+        "Прошлая возможность без вывода о реализации",
+        "Упрёк за упущенное действие"
+      ],
+      "answer": "Прошлая возможность без вывода о реализации",
+      "accepted": [
+        "Прошлая возможность без вывода о реализации"
+      ],
+      "why": "Could have done допускает возможность, а контекст определяет результат.",
+      "distractorWhy": "Needn't have done подтверждает действие и отрицает его необходимость.",
+      "distractorRationales": {
+        "Ненужное выполненное действие": "Needn't have done подтверждает действие и отрицает его необходимость.",
+        "Упрёк за упущенное действие": "Should have done в этом контексте противопоставляет должное реальному."
+      },
+      "skillTarget": "advanced-modality-modal-perfect",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I6",
+      "group": "Самостоятельная практика",
+      "prompt": "She may have ___ reminders all afternoon. Выдели процесс рассылки.",
+      "options": [
+        "been sending",
+        "been sent",
+        "sent"
+      ],
+      "answer": "been sending",
+      "accepted": [
+        "been sending"
+      ],
+      "why": "Have been + -ing подчёркивает ход действия.",
+      "distractorWhy": "Have been + причастие обозначает прошлый пассив.",
+      "distractorRationales": {
+        "been sent": "Have been + причастие обозначает прошлый пассив.",
+        "sent": "Have + причастие с деятельным субъектом выражает актив."
+      },
+      "skillTarget": "advanced-modality-modal-perfect",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I7",
+      "group": "Самостоятельная практика",
+      "prompt": "The date is smudged; it ___ said May, but I cannot tell.",
+      "options": [
+        "must have",
+        "can't have",
+        "might have"
+      ],
+      "answer": "might have",
+      "accepted": [
+        "might have"
+      ],
+      "why": "Возможное объяснение без уверенности.",
+      "distractorWhy": "Сильный положительный вывод о прошлом.",
+      "distractorRationales": {
+        "must have": "Сильный положительный вывод о прошлом.",
+        "can't have": "Уверенное отрицание прошлой возможности."
+      },
+      "skillTarget": "advanced-modality-modal-perfect",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I8",
+      "group": "Самостоятельная практика",
+      "prompt": "You needn't have copied the file; it was already shared. Что следует о копировании?",
+      "options": [
+        "Упрёк за упущенное действие",
+        "Ненужное выполненное действие",
+        "Прошлая возможность без вывода о реализации"
+      ],
+      "answer": "Ненужное выполненное действие",
+      "accepted": [
+        "Ненужное выполненное действие"
+      ],
+      "why": "Needn't have done подтверждает действие и отрицает его необходимость.",
+      "distractorWhy": "Should have done в этом контексте противопоставляет должное реальному.",
+      "distractorRationales": {
+        "Упрёк за упущенное действие": "Should have done в этом контексте противопоставляет должное реальному.",
+        "Прошлая возможность без вывода о реализации": "Could have done допускает возможность, а контекст определяет результат."
+      },
+      "skillTarget": "advanced-modality-modal-perfect",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I9",
+      "group": "Самостоятельная практика",
+      "prompt": "The requests should have ___ before noon. Заявки отправляли.",
+      "options": [
+        "been sent",
+        "sent",
+        "been sending"
+      ],
+      "answer": "been sent",
+      "accepted": [
+        "been sent"
+      ],
+      "why": "Have been + причастие обозначает прошлый пассив.",
+      "distractorWhy": "Have + причастие с деятельным субъектом выражает актив.",
+      "distractorRationales": {
+        "sent": "Have + причастие с деятельным субъектом выражает актив.",
+        "been sending": "Have been + -ing подчёркивает ход действия."
+      },
+      "skillTarget": "advanced-modality-modal-perfect",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E1",
+      "group": "Выходная проверка",
+      "prompt": "The signed original is in my hand. It ___ been destroyed yesterday.",
+      "options": [
+        "can't have",
+        "must have",
+        "might have"
+      ],
+      "answer": "can't have",
+      "accepted": [
+        "can't have"
+      ],
+      "why": "Уверенное отрицание прошлой возможности.",
+      "distractorWhy": "Сильный положительный вывод о прошлом.",
+      "distractorRationales": {
+        "must have": "Сильный положительный вывод о прошлом.",
+        "might have": "Возможное объяснение без уверенности."
+      },
+      "skillTarget": "advanced-modality-modal-perfect",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E2",
+      "group": "Выходная проверка",
+      "prompt": "You should have locked up, but you left the door open. Как оценено решение?",
+      "options": [
+        "Ненужное выполненное действие",
+        "Прошлая возможность без вывода о реализации",
+        "Упрёк за упущенное действие"
+      ],
+      "answer": "Упрёк за упущенное действие",
+      "accepted": [
+        "Упрёк за упущенное действие"
+      ],
+      "why": "Should have done в этом контексте противопоставляет должное реальному.",
+      "distractorWhy": "Needn't have done подтверждает действие и отрицает его необходимость.",
+      "distractorRationales": {
+        "Ненужное выполненное действие": "Needn't have done подтверждает действие и отрицает его необходимость.",
+        "Прошлая возможность без вывода о реализации": "Could have done допускает возможность, а контекст определяет результат."
+      },
+      "skillTarget": "advanced-modality-modal-perfect",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E3",
+      "group": "Выходная проверка",
+      "prompt": "The clerk can't have ___ this receipt: he was abroad. Укажи исполнителя отправки.",
+      "options": [
+        "been sent",
+        "sent",
+        "been sending"
+      ],
+      "answer": "sent",
+      "accepted": [
+        "sent"
+      ],
+      "why": "Have + причастие с деятельным субъектом выражает актив.",
+      "distractorWhy": "Have been + причастие обозначает прошлый пассив.",
+      "distractorRationales": {
+        "been sent": "Have been + причастие обозначает прошлый пассив.",
+        "been sending": "Have been + -ing подчёркивает ход действия."
+      },
+      "skillTarget": "advanced-modality-modal-perfect",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E4",
+      "group": "Выходная проверка",
+      "prompt": "The only route was flooded and their shoes are soaked. They ___ crossed the water. Вырази уверенный вывод.",
+      "options": [
+        "must have",
+        "might have",
+        "can't have"
+      ],
+      "answer": "must have",
+      "accepted": [
+        "must have"
+      ],
+      "why": "Сильный положительный вывод о прошлом.",
+      "distractorWhy": "Возможное объяснение без уверенности.",
+      "distractorRationales": {
+        "might have": "Возможное объяснение без уверенности.",
+        "can't have": "Уверенное отрицание прошлой возможности."
+      },
+      "skillTarget": "advanced-modality-modal-perfect",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E5",
+      "group": "Выходная проверка",
+      "prompt": "They could have appealed; the records do not say whether they did. Что сообщает could?",
+      "options": [
+        "Ненужное выполненное действие",
+        "Упрёк за упущенное действие",
+        "Прошлая возможность без вывода о реализации"
+      ],
+      "answer": "Прошлая возможность без вывода о реализации",
+      "accepted": [
+        "Прошлая возможность без вывода о реализации"
+      ],
+      "why": "Could have done допускает возможность, а контекст определяет результат.",
+      "distractorWhy": "Needn't have done подтверждает действие и отрицает его необходимость.",
+      "distractorRationales": {
+        "Ненужное выполненное действие": "Needn't have done подтверждает действие и отрицает его необходимость.",
+        "Упрёк за упущенное действие": "Should have done в этом контексте противопоставляет должное реальному."
+      },
+      "skillTarget": "advanced-modality-modal-perfect",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "W1",
+      "group": "Самостоятельное применение",
+      "prompt": "Письмо потерялось. Предложи возможную причину, исключи одну версию по известному факту и скажи, что следовало сделать заранее.",
+      "open": true,
+      "rubric": [
+        "Гипотеза выражена модальным глаголом",
+        "Исключённая версия подкреплена фактом",
+        "Упущенное действие выражено через should have",
+        "Все части задания выполнены в одном связном контексте",
+        "Перевод сохраняет роль участников и смысл конструкции",
+        "Ответ содержит собственный английский пример, который можно понять без текста задания."
+      ],
+      "skillTarget": "Самостоятельное применение B2-03",
+      "interactionType": "open-production",
+      "difficulty": "transfer",
+      "sourceBasis": "Speakbase-authored open production; self-review rubric only until real AI feedback is connected",
+      "contentVersion": "1.1-draft"
+    }
+  ],
+  "markdown": "# Speakbase — B2-03: Advanced modality and modal perfect\n\n**Curriculum ID:** `B2-03`  \n**Уровень:** B2  \n**Версия:** 1.1-draft\n**Статус:** draft; manual content review in progress; GR-05 comparison, app rendering and learner test remain pending\n**Предварительные темы:** B1-09, B1-10  \n**Связь со старым каталогом:** Частично — №10 Modal verbs; №37 Modal Deduction; №38 Past Modal Deduction\n\n## 1. Результаты обучения\n\n- Выражать степень уверенности, критику, упрёк, вероятность и контрфактические выводы\n- Выбирать целевую форму по значению, структуре предложения и контексту.\n- Объяснять, почему близкая грамматическая форма меняет смысл или регистр.\n- Находить и исправлять типичные ошибки русскоязычных студентов.\n\n## 2. Источники и статус сверки\n\n| Source | PDF navigation | Lesson-specific checks | Status |\n|---|---|---|---|\n| GR-02 U26 | PDF pages 64-65 (Unit 26) | Can/could/be able to: ability, permission and specific past achievement; explanation and exercises text-extracted and checked | text extracted and checked |\n| GR-02 U27 | PDF pages 66-67 (Unit 27) | Could/could have: suggestions, possibility and unrealised past opportunity; explanation and exercises text-extracted and checked | text extracted and checked |\n| GR-02 U28 | PDF pages 68-69 (Unit 28) | Must/can't: present and past deduction; explanation and exercises text-extracted and checked | text extracted and checked |\n| GR-02 U29 | PDF pages 70-71 (Unit 29) | May/might: present possibility and past possibility with have + V3; explanation and exercises text-extracted and checked | text extracted and checked |\n| GR-02 U30 | PDF pages 72-73 (Unit 30) | May/might for future possibility, possible plans and might as well; explanation and exercises text-extracted and checked | text extracted and checked |\n| GR-02 U31 | PDF pages 74-75 (Unit 31) | Have to/must: obligation, external requirement, mustn't and don't have to; explanation and exercises text-extracted and checked | text extracted and checked |\n| GR-02 U32 | PDF pages 76-77 (Unit 32) | Must/mustn't, needn?t/don't need to and needn?t have/didn?t need to; explanation and exercises text-extracted and checked | text extracted and checked |\n| GR-02 U33 | PDF pages 78-79 (Unit 33) | Should/shouldn?t: advice, expectation and should have for past criticism/regret; explanation and exercises text-extracted and checked | text extracted and checked |\n| GR-02 U34 | PDF pages 80-81 (Unit 34) | Should in that-clauses, mandative subjunctive and conditional should; explanation and exercises text-extracted and checked | text extracted and checked |\n| GR-02 U35 | PDF pages 82-83 (Unit 35) | Had better and it's time + past form; explanation and exercises text-extracted and checked | text extracted and checked |\n| GR-02 U36 | PDF pages 84-85 (Unit 36) | Would: hypothetical, past habits, refusal and reported will; explanation and exercises text-extracted and checked | text extracted and checked |\n| GR-02 U37 | PDF pages 86-87 (Unit 37) | Can/could/would/may for requests, offers, permission and invitations; explanation and exercises text-extracted and checked | text extracted and checked |\n| GR-03 U15 | PDF pages 54-55 (printed pp. 30-31, Unit 15) | Advanced modal meanings and usage; visually checked | visually checked; unit-text checked |\n| GR-03 U16 | PDF pages 56-57 (printed pp. 32-33, Unit 16) | Advanced modal meanings and usage; visually checked | visually checked; unit-text checked |\n| GR-03 U17 | PDF pages 58-59 (printed pp. 34-35, Unit 17) | Advanced modal meanings and usage; visually checked | visually checked; unit-text checked |\n| GR-03 U18 | PDF pages 60-61 (printed pp. 36-37, Unit 18) | Advanced modal meanings and usage; visually checked | visually checked; unit-text checked |\n| GR-03 U19 | PDF pages 62-63 (printed pp. 38-39, Unit 19) | Advanced modal meanings and usage; visually checked | visually checked; unit-text checked |\n| GR-03 U20 | PDF pages 64-65 (printed pp. 40-41, Unit 20) | Advanced modal meanings and usage; visually checked | visually checked; unit-text checked |\n| GR-05 B2 p44-46 | PDF pages 44-46 (B2 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n\nUnit/page locations are navigation aids only. They do not prove that the cited explanation, examples, restrictions and answer key have been checked for this lesson. Examples and explanations below are Speakbase-authored, not quotations from the textbook.\n\nПеред переводом этого урока в source-verified необходимо открыть целевые страницы конкретного издания, записать печатную и PDF-пагинацию, сверить ограничения и исключения. Для GR-03 со сканированными страницами обязательна визуальная проверка.\n\nСверка этой редакции: GR-05 B2 p. 28: past speculation and regret. Остальные строки сохраняют прежний статус.\n\n## 3. Место темы и границы\n\nПродвинутая модальность: certainty, deduction, criticism, obligation и modal perfect. Сила формы должна соответствовать evidence.\n\nСтарый каталог содержит: №10 Modal verbs; №37 Modal Deduction; №38 Past Modal Deduction. Его статус — Частично. Старые отметки завершения не переносятся автоматически на новый постоянный ID. Тема рассматривается в уровне B2 и не заменяет обязательные prerequisites.\n\n## 4. Полный конспект\n\n### 4.1. Основная идея и функция конструкции\n\nВ modal + have + V3 модальный глагол передаёт отношение говорящего, а have + V3 относит событие к прошлому. May have left — возможно, ушла; must have left — судя по данным, наверняка ушла; can't have left — уход исключён.\n\n### 4.2. Формирование и грамматические модели\n\nДля упрёка выбери should have + V3, если контекст показывает упущенную обязанность. Needn't have paid сообщает, что человек заплатил зря. Didn't need to pay сообщает лишь об отсутствии необходимости: факт оплаты надо узнать из контекста.\n\n### 4.3. Как выбрать подходящую форму\n\nВ пассиве между have и причастием появляется been: might have been moved. Не путай запрет mustn't с отрицательным выводом can't have. Could have в зависимости от контекста допускает предположение или неиспользованный шанс.\n\n### 4.4. Сравнение с близкими конструкциями\n\n| Form | Meaning | Contrast |\n|---|---|---|\n| could speak five languages | general past ability | was able to escape = specific successful achievement |\n| could have stayed | past opportunity that was not taken | might have stayed = possible past action |\n| must have left | strong positive deduction | might have left = uncertain possibility |\n| can't have received | strong negative deduction | might not have received = perhaps did not receive |\n| mustn't tell | prohibition | needn't tell = no necessity |\n| needn't have booked | booked, but it was unnecessary | didn't need to book = no necessity; occurrence not specified |\n| should have called | past criticism/expectation | had better call = strong advice now/for a specific situation |\n| should review / should have reviewed | advice now / unfulfilled past expectation | must review = stronger obligation |\n| might as well go | no better alternative | may go = possible choice |\n\n### 4.5. Примеры с переводом и объяснением\n\n| English | Перевод | Почему это подходит |\n|---|---|---|---|\n| `You needn't have brought a printed copy; the digital version was enough.` | Тебе не нужно было приносить распечатанную копию: цифровой версии было достаточно. | Needn't have + V3 means the action happened but was unnecessary. |\n| `The results are inconsistent. It is possible that the team may have entered one value incorrectly.` | Результаты противоречивы. Возможно, команда неправильно ввела одно из значений; это одно из возможных объяснений. | May have expresses a possible explanation without claiming certainty. |\n| `You should have told me earlier; I could have helped.` | Тебе следовало сказать мне раньше — я мог(ла) бы помочь. | Should have + V3 expresses criticism or an unrealised advisable past action. |\n| `The parcel isn't here. It might have been delivered to the wrong address.` | Посылки здесь нет. Возможно, её доставили не по тому адресу. | Might have been delivered is a possibility about a past passive event. |\n\nПримеры составлены Speakbase. Они иллюстрируют грамматическую функцию, но не подменяют индивидуальную проверку всех возможных вариантов и исключений.\n\n### 4.6. Исключения, ограничения и границы употребления\n\n- Could is normally used for general past ability; for a single successful achievement, use was/were able to or managed to.\n- Must/can't as deductions are different from must/have to as obligation; context determines the meaning.\n- Mustn't means prohibition, not lack of necessity. Use needn't/don't have to for absence of necessity.\n- Needn't have + V3 presupposes that the action happened; didn't need to does not specify whether it happened.\n- May/might not express uncertain negative possibility; can't/couldn't have can express strong negative deduction. **Couldn't** may also express inability, depending on context.\n- Should have can express criticism/regret or an unfulfilled expectation; must have usually expresses a strong deduction about the past.\n- Had better is usually tied to a specific situation and possible consequence; should is broader and less forceful.\n- The mandative subjunctive uses the base form without third-person -s; do not add to after suggest in the pattern suggest that + clause.\n- Might as well is an idiom of practical choice, not a simple synonym of may.\n- Would has several meanings (hypothetical, reported will, refusal, repeated past action); do not assign one meaning to every occurrence.\n\n### 4.7. Типичные ошибки русскоязычных студентов\n\n| `You mustn't have brought a printed copy; the digital version was enough.` | `You needn't have brought a printed copy; the digital version was enough.` | Mustn't have does not express lack of necessity in this sense. |\n| `The results are inconsistent. It is possible that the team must to have entered one value incorrectly.` | `The results are inconsistent. It is possible that the team may have entered one value incorrectly.` | To is not used after modal may. |\n| `You should to have told me earlier; I could have helped.` | `You should have told me earlier; I could have helped.` | To is not used after should. |\n\nРусский перевод помогает понять смысл, но не управляет английской формой напрямую. Проверяй роль каждого элемента и грамматическую модель английского предложения.\n\n### 4.8. Произношение и восприятие на слух\n\nModal auxiliaries are commonly unstressed and reduced in connected speech; their full forms may become prominent under contrast or emphasis. Listen for the distinction between **must have** and **might have**, and for the weak auxiliary sequence in **should have**. Sentence stress can strengthen or soften a deduction. Phonetic transcriptions and audio examples still require dictionary-audio verification.\n\nДля аудирования распознавай слабые формы вспомогательных глаголов, окончания и границы смысловых групп. Не ориентируйся только на чтение по буквам.\n\n### 4.9. Академический английский и TOEFL-перенос\n\nTOEFL transfer for Advanced modality and modal perfect: use the target structure to interpret syntax in Reading/Listening and construct clear sentences in Writing/Speaking. This is skill transfer, not a separate exam task.\n\n- **Reading:** синтаксические связи, reference, modifiers и логические отношения.\n- **Listening:** tense/aspect, weak forms, modality, speaker stance и связи между идеями.\n- **Writing — Build a Sentence:** точность структуры, согласование, порядок слов и verb patterns.\n- **Writing — Email / Academic Discussion:** ясность, appropriate register, аргументация и cohesion.\n- **Speaking — Listen and Repeat / Take an Interview:** точность воспроизведения формы и самостоятельное применение.\n\nЭто перенос навыка, а не полноценный экзаменационный пробник и не обещание конкретного балла.\n\n### 4.10. Примеры для управляемого разбора\n\n- You ___ have brought a printed copy; the digital version was enough. → `needn't`.\n- The results are inconsistent. The team ___ have entered one value incorrectly; this is one possible explanation. → `may`.\n- You ___ have told me earlier; I could have helped. → `should`.\n\nДля каждого примера назови целевой элемент, объясни форму, укажи, почему отвлекающий вариант неверен, и придумай собственное предложение с тем же правилом.\n\n### 4.11. Самопроверка\n\nПеред отправкой ответа проверь:\n1. Правильно ли определена функция конструкции?\n2. Согласована ли форма с подлежащим и временной перспективой?\n3. Не перенесён ли русский порядок слов напрямую?\n4. Не смешаны ли две похожие модели?\n5. Не сильнее ли утверждение, чем позволяют контекст и доказательства?\n\n### 4.12. Краткая памятка\n\n- Ability: can (present/general), could (general past), was able to/managed to (specific past success).\n- Deduction: must (strong positive), can't/couldn't (strong negative); past = must/can't have + V3.\n- Possibility: may/might/could; past = may/might/could have + V3.\n- Obligation: must/have to; prohibition = mustn't; no necessity = needn't/don't have to.\n- Needn't have done = done but unnecessary; didn't need to = no necessity, occurrence unspecified.\n- Advice: should/ought to; past = should have + V3; urgent specific advice = had better.\n- Formal that-clause: should + base verb or mandative subjunctive base form.\n- Would can be hypothetical, reported, refusal or repeated past action; use context.\n\n## 5. Практика\n\nВ приложении практика разделена на входную диагностику, управляемые задания, самостоятельную практику и новую выходную проверку. Закрытые ответы получают rationale и разбор ошибки. Свободный текст сохраняется и оценивается по рубрике; до подключения и реальной проверки AI-движка система не выдаёт его за автоматическую AI-оценку.\n\n## 6. Интервальное повторение\n\nПовторяй не весь урок автоматически, а конкретную ошибку: выбор формы, согласование, word order, значение, регистр или пунктуацию. Новая попытка должна менять лексический контекст и формулировку, чтобы проверять перенос, а не запоминание одной строки.\n\n## 7. Технический статус\n\n- Постоянный ID: `B2-03`.\n- Прогресс хранится отдельно в course.grammarLessons[\"B2-03\"].\n- Содержание и ключи имеют статус draft; источник page verification pending.\n- Предварительное выполнение порогов не равно окончательному mastered: нужны отсроченное повторение и learner review.",
+  "theoryEnd": "## 5."
+}

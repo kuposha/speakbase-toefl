@@ -39,7 +39,7 @@
     "GR-05 C1 p15",
     "GR-05 C1 p36-40"
   ],
-  "sourceStatus": "partial; GR-05 C1 p. 36: that of and those of",
+  "sourceStatus": "partial; GR-05 C1 p. 36: that of and those of; full page verification pending",
   "status": "drafted",
   "legacyCoverage": "Нет",
   "toeflLinks": [
@@ -672,7 +672,8 @@
         "One или ones согласовано с существительным",
         "Вспомогательный глагол сохраняет время",
         "У местоимения один референт",
-        "Расшифровка совпадает по смыслу"
+        "Расшифровка совпадает по смыслу",
+        "Ответ содержит собственный английский пример, который можно понять без текста задания."
       ],
       "skillTarget": "Самостоятельное применение C1-11",
       "interactionType": "open-production",

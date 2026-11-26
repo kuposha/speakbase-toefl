@@ -38,7 +38,7 @@
     "GR-05 C1 p5-8",
     "GR-05 C1 p18-20"
   ],
-  "sourceStatus": "partial; GR-05 C1 pp. 6–7: degree, comparatives and certainty",
+  "sourceStatus": "partial; GR-05 C1 pp. 6–7: degree, comparatives and certainty; full page verification pending",
   "status": "drafted",
   "legacyCoverage": "Частично",
   "toeflLinks": [
@@ -671,7 +671,8 @@
         "Наречие манеры относится к действию",
         "Сравнение имеет подходящий усилитель",
         "Only выделяет разные элементы",
-        "Перевод передаёт оба фокуса"
+        "Перевод передаёт оба фокуса",
+        "Ответ содержит собственный английский пример, который можно понять без текста задания."
       ],
       "skillTarget": "Самостоятельное применение C1-13",
       "interactionType": "open-production",

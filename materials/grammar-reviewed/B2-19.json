@@ -1,0 +1,685 @@
+{
+  "id": "B2-19",
+  "level": "B2",
+  "sequence": "B2-19",
+  "grammarFamily": "B2-19",
+  "questionBankSource": "topic-specific-authored",
+  "sourceVerification": "draft; selected GR-05 descriptor checked, remaining source review pending",
+  "topicProfile": {
+    "label": "complex prepositions and dependent patterns",
+    "skillTarget": "complex-prepositions-and-dependent-patterns",
+    "core": "Составной предлог устанавливает отношение: owing to — причина, in spite of — уступка, on behalf of — представительство, by means of — способ. Выбирай по вопросу, который задаёшь к группе.",
+    "form": "Отдельно учи зависимый предлог вместе со словом: depend on, an objection to, responsible for. После такого to может стоять -ing: object to waiting. В доступе к материалам говорят access to the files.",
+    "selection": "После prior to обычно нужна именная группа: prior to the trial. Если нужен субъект со сказуемым, выбери before the trial began. Не путай as a result of, указывающее причину, с in accordance with, указывающим соблюдённое правило.",
+    "contrast": "In light of the evidence — considering the evidence. Prior to publication — before publication. On behalf of the committee — representing the committee.",
+    "boundary": "These phrases tend to be formal and should be used only where their exact meaning fits. Avoid stacking several heavy prepositional phrases in one sentence.",
+    "pronunciation": "В речи предлоги часто безударны и редуцируются. В Listening распознавай их по связи с соседним словом; предлог может быть коротким, но менять смысл.",
+    "examples": [],
+    "traps": [],
+    "toefl": "Точные предлоги особенно важны в Build a Sentence и академических noun phrases. Учите частотные сочетания блоками и фиксируйте свои повторяющиеся ошибки."
+  },
+  "title": "Complex prepositions and dependent patterns",
+  "description": "Использовать сложные prepositional phrases и устойчивые грамматические сочетания",
+  "cardDescription": "Теория, guided practice, самостоятельные задания и выходная проверка по постоянному ID B2-19.",
+  "eyebrow": "Полный урок программы B2-19 · drafted",
+  "contentVersion": "1.1-draft",
+  "curriculumVersion": "1.0",
+  "prerequisites": [
+    "B1-20"
+  ],
+  "outcomes": [
+    "Использовать сложные prepositional phrases и устойчивые грамматические сочетания",
+    "Выбирать целевую конструкцию по контексту и смыслу.",
+    "Исправлять типичные ошибки и переносить правило в новый пример."
+  ],
+  "sourceRefs": [
+    "GR-02 U129-136",
+    "GR-03 U88-94",
+    "GR-03 U101",
+    "GR-05 B2 p68-71"
+  ],
+  "sourceStatus": "partial; GR-05 B2 p. 70: prepositional verb patterns; full page verification pending",
+  "status": "drafted",
+  "legacyCoverage": "Частично",
+  "toeflLinks": [
+    "Writing: Build a Sentence",
+    "Reading: clause structure, reference, modifiers and logical relationships",
+    "Writing: Academic Discussion"
+  ],
+  "thresholds": {
+    "independent": 7,
+    "exit": 4,
+    "criticalIds": [
+      "E1",
+      "E2",
+      "E3"
+    ]
+  },
+  "groups": {
+    "independent": "Самостоятельная практика",
+    "exit": "Выходная проверка"
+  },
+  "items": [
+    {
+      "id": "D1",
+      "group": "Входная диагностика",
+      "prompt": "___ the latest evidence, the policy was revised.",
+      "options": [
+        "On behalf of",
+        "In light of",
+        "By means"
+      ],
+      "answer": "In light of",
+      "accepted": [
+        "In light of"
+      ],
+      "why": "In light of means considering the latest evidence.",
+      "distractorWhy": "On behalf of means representing someone, not considering evidence.",
+      "distractorRationales": {
+        "On behalf of": "On behalf of means representing someone, not considering evidence.",
+        "By means": "By means of introduces an instrument/method."
+      },
+      "skillTarget": "complex-prepositions-and-dependent-patterns",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D2",
+      "group": "Входная диагностика",
+      "prompt": "The application must be submitted ___ the published guidelines.",
+      "options": [
+        "in accordance with",
+        "in contrast to",
+        "on behalf of"
+      ],
+      "answer": "in accordance with",
+      "accepted": [
+        "in accordance with"
+      ],
+      "why": "In accordance with means following/compliant with the guidelines.",
+      "distractorWhy": "In contrast to expresses difference, not compliance.",
+      "distractorRationales": {
+        "in contrast to": "In contrast to expresses difference, not compliance.",
+        "on behalf of": "On behalf of means representing an organisation/person."
+      },
+      "skillTarget": "complex-prepositions-and-dependent-patterns",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D3",
+      "group": "Входная диагностика",
+      "prompt": "The director spoke ___ the entire research team.",
+      "options": [
+        "in terms of",
+        "prior to",
+        "on behalf of"
+      ],
+      "answer": "on behalf of",
+      "accepted": [
+        "on behalf of"
+      ],
+      "why": "On behalf of means representing the team.",
+      "distractorWhy": "In terms of means with regard to/aspects of.",
+      "distractorRationales": {
+        "in terms of": "In terms of means with regard to/aspects of.",
+        "prior to": "Prior to means before a time/event."
+      },
+      "skillTarget": "complex-prepositions-and-dependent-patterns",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D4",
+      "group": "Входная диагностика",
+      "prompt": "The findings should be considered ___ their limitations.",
+      "options": [
+        "on behalf of",
+        "in terms of",
+        "by means of"
+      ],
+      "answer": "in terms of",
+      "accepted": [
+        "in terms of"
+      ],
+      "why": "In terms of introduces the perspective/aspect for consideration.",
+      "distractorWhy": "On behalf of indicates representation, not analytical perspective.",
+      "distractorRationales": {
+        "on behalf of": "On behalf of indicates representation, not analytical perspective.",
+        "by means of": "By means of refers to a method or instrument."
+      },
+      "skillTarget": "complex-prepositions-and-dependent-patterns",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G1",
+      "group": "Управляемая практика",
+      "prompt": "The procedure was changed ___ the safety review. Укажи причину, а не соответствие предписанию.",
+      "options": [
+        "as a result of",
+        "in accordance with",
+        "in contrast to"
+      ],
+      "answer": "as a result of",
+      "accepted": [
+        "as a result of"
+      ],
+      "why": "As a result of expresses cause and is followed by noun phrase.",
+      "distractorWhy": "In accordance with means in compliance with, not cause.",
+      "distractorRationales": {
+        "in accordance with": "In accordance with means in compliance with, not cause.",
+        "in contrast to": "In contrast to indicates difference, not consequence."
+      },
+      "skillTarget": "complex-prepositions-and-dependent-patterns",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G2",
+      "group": "Управляемая практика",
+      "prompt": "All participants gave consent ___ the trial. Choose the preposition meaning before.",
+      "options": [
+        "on behalf of",
+        "in light of",
+        "prior to"
+      ],
+      "answer": "prior to",
+      "accepted": [
+        "prior to"
+      ],
+      "why": "Prior to places consent before the trial.",
+      "distractorWhy": "On behalf of indicates representation.",
+      "distractorRationales": {
+        "on behalf of": "On behalf of indicates representation.",
+        "in light of": "In light of introduces a basis for judgment."
+      },
+      "skillTarget": "complex-prepositions-and-dependent-patterns",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G3",
+      "group": "Управляемая практика",
+      "prompt": "The samples were transported ___ a temperature-controlled container.",
+      "options": [
+        "with regard to",
+        "by means of",
+        "in spite of"
+      ],
+      "answer": "by means of",
+      "accepted": [
+        "by means of"
+      ],
+      "why": "By means of introduces the instrument/method of transport.",
+      "distractorWhy": "With regard to marks topic/reference, not means.",
+      "distractorRationales": {
+        "with regard to": "With regard to marks topic/reference, not means.",
+        "in spite of": "In spite of introduces concession, not instrument."
+      },
+      "skillTarget": "complex-prepositions-and-dependent-patterns",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G4",
+      "group": "Управляемая практика",
+      "prompt": "The match was cancelled ___ flooding. Укажи причину.",
+      "options": [
+        "owing to",
+        "in spite of",
+        "instead of"
+      ],
+      "answer": "owing to",
+      "accepted": [
+        "owing to"
+      ],
+      "why": "Составной предлог называет причину.",
+      "distractorWhy": "Предлог вводит уступительное препятствие.",
+      "distractorRationales": {
+        "in spite of": "Предлог вводит уступительное препятствие.",
+        "instead of": "Предлог указывает на замену одного действия или объекта другим."
+      },
+      "skillTarget": "complex-prepositions-and-dependent-patterns",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G5",
+      "group": "Управляемая практика",
+      "prompt": "In “rely on a friend”, what selects on?",
+      "options": [
+        "Зависимый предлог прилагательного",
+        "Уточнение существительного",
+        "Зависимый предлог глагола"
+      ],
+      "answer": "Зависимый предлог глагола",
+      "accepted": [
+        "Зависимый предлог глагола"
+      ],
+      "why": "Предлог входит в управление глагола.",
+      "distractorWhy": "Предлог присоединяет дополнение к прилагательному.",
+      "distractorRationales": {
+        "Зависимый предлог прилагательного": "Предлог присоединяет дополнение к прилагательному.",
+        "Уточнение существительного": "Предложная группа зависит от существительного."
+      },
+      "skillTarget": "complex-prepositions-and-dependent-patterns",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G6",
+      "group": "Управляемая практика",
+      "prompt": "Whether we leave depends ___ the weather.",
+      "options": [
+        "for",
+        "on",
+        "to"
+      ],
+      "answer": "on",
+      "accepted": [
+        "on"
+      ],
+      "why": "Depend и insist выбирают on.",
+      "distractorWhy": "Responsible и apologise в указанных значениях выбирают for.",
+      "distractorRationales": {
+        "for": "Responsible и apologise в указанных значениях выбирают for.",
+        "to": "Objection и access вводят объект через to."
+      },
+      "skillTarget": "complex-prepositions-and-dependent-patterns",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I1",
+      "group": "Самостоятельная практика",
+      "prompt": "The match went ahead ___ flooding. Подчеркни препятствие.",
+      "options": [
+        "owing to",
+        "instead of",
+        "in spite of"
+      ],
+      "answer": "in spite of",
+      "accepted": [
+        "in spite of"
+      ],
+      "why": "Предлог вводит уступительное препятствие.",
+      "distractorWhy": "Составной предлог называет причину.",
+      "distractorRationales": {
+        "owing to": "Составной предлог называет причину.",
+        "instead of": "Предлог указывает на замену одного действия или объекта другим."
+      },
+      "skillTarget": "complex-prepositions-and-dependent-patterns",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I2",
+      "group": "Самостоятельная практика",
+      "prompt": "In “interested in design”, what selects in?",
+      "options": [
+        "Зависимый предлог глагола",
+        "Зависимый предлог прилагательного",
+        "Уточнение существительного"
+      ],
+      "answer": "Зависимый предлог прилагательного",
+      "accepted": [
+        "Зависимый предлог прилагательного"
+      ],
+      "why": "Предлог присоединяет дополнение к прилагательному.",
+      "distractorWhy": "Предлог входит в управление глагола.",
+      "distractorRationales": {
+        "Зависимый предлог глагола": "Предлог входит в управление глагола.",
+        "Уточнение существительного": "Предложная группа зависит от существительного."
+      },
+      "skillTarget": "complex-prepositions-and-dependent-patterns",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I3",
+      "group": "Самостоятельная практика",
+      "prompt": "The chair is responsible ___ the final vote.",
+      "options": [
+        "for",
+        "on",
+        "to"
+      ],
+      "answer": "for",
+      "accepted": [
+        "for"
+      ],
+      "why": "Responsible и apologise в указанных значениях выбирают for.",
+      "distractorWhy": "Depend и insist выбирают on.",
+      "distractorRationales": {
+        "on": "Depend и insist выбирают on.",
+        "to": "Objection и access вводят объект через to."
+      },
+      "skillTarget": "complex-prepositions-and-dependent-patterns",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I4",
+      "group": "Самостоятельная практика",
+      "prompt": "We used the hall ___ the flooded field. Назови замену.",
+      "options": [
+        "owing to",
+        "in spite of",
+        "instead of"
+      ],
+      "answer": "instead of",
+      "accepted": [
+        "instead of"
+      ],
+      "why": "Предлог указывает на замену одного действия или объекта другим.",
+      "distractorWhy": "Составной предлог называет причину.",
+      "distractorRationales": {
+        "owing to": "Составной предлог называет причину.",
+        "in spite of": "Предлог вводит уступительное препятствие."
+      },
+      "skillTarget": "complex-prepositions-and-dependent-patterns",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I5",
+      "group": "Самостоятельная практика",
+      "prompt": "In “a reason for the delay”, what does for the delay modify?",
+      "options": [
+        "Зависимый предлог глагола",
+        "Уточнение существительного",
+        "Зависимый предлог прилагательного"
+      ],
+      "answer": "Уточнение существительного",
+      "accepted": [
+        "Уточнение существительного"
+      ],
+      "why": "Предложная группа зависит от существительного.",
+      "distractorWhy": "Предлог входит в управление глагола.",
+      "distractorRationales": {
+        "Зависимый предлог глагола": "Предлог входит в управление глагола.",
+        "Зависимый предлог прилагательного": "Предлог присоединяет дополнение к прилагательному."
+      },
+      "skillTarget": "complex-prepositions-and-dependent-patterns",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I6",
+      "group": "Самостоятельная практика",
+      "prompt": "We recorded an objection ___ the new rule.",
+      "options": [
+        "to",
+        "on",
+        "for"
+      ],
+      "answer": "to",
+      "accepted": [
+        "to"
+      ],
+      "why": "Objection и access вводят объект через to.",
+      "distractorWhy": "Depend и insist выбирают on.",
+      "distractorRationales": {
+        "on": "Depend и insist выбирают on.",
+        "for": "Responsible и apologise в указанных значениях выбирают for."
+      },
+      "skillTarget": "complex-prepositions-and-dependent-patterns",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I7",
+      "group": "Самостоятельная практика",
+      "prompt": "Classes ended early ___ a power cut. Укажи основание.",
+      "options": [
+        "in spite of",
+        "instead of",
+        "owing to"
+      ],
+      "answer": "owing to",
+      "accepted": [
+        "owing to"
+      ],
+      "why": "Составной предлог называет причину.",
+      "distractorWhy": "Предлог вводит уступительное препятствие.",
+      "distractorRationales": {
+        "in spite of": "Предлог вводит уступительное препятствие.",
+        "instead of": "Предлог указывает на замену одного действия или объекта другим."
+      },
+      "skillTarget": "complex-prepositions-and-dependent-patterns",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I8",
+      "group": "Самостоятельная практика",
+      "prompt": "В responsible for admissions от какого слова зависит for?",
+      "options": [
+        "Зависимый предлог глагола",
+        "Зависимый предлог прилагательного",
+        "Уточнение существительного"
+      ],
+      "answer": "Зависимый предлог прилагательного",
+      "accepted": [
+        "Зависимый предлог прилагательного"
+      ],
+      "why": "Предлог присоединяет дополнение к прилагательному.",
+      "distractorWhy": "Предлог входит в управление глагола.",
+      "distractorRationales": {
+        "Зависимый предлог глагола": "Предлог входит в управление глагола.",
+        "Уточнение существительного": "Предложная группа зависит от существительного."
+      },
+      "skillTarget": "complex-prepositions-and-dependent-patterns",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I9",
+      "group": "Самостоятельная практика",
+      "prompt": "They insisted ___ checking all the receipts.",
+      "options": [
+        "on",
+        "for",
+        "to"
+      ],
+      "answer": "on",
+      "accepted": [
+        "on"
+      ],
+      "why": "Depend и insist выбирают on.",
+      "distractorWhy": "Responsible и apologise в указанных значениях выбирают for.",
+      "distractorRationales": {
+        "for": "Responsible и apologise в указанных значениях выбирают for.",
+        "to": "Objection и access вводят объект через to."
+      },
+      "skillTarget": "complex-prepositions-and-dependent-patterns",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E1",
+      "group": "Выходная проверка",
+      "prompt": "Classes continued ___ the noise. Назови помеху.",
+      "options": [
+        "in spite of",
+        "owing to",
+        "instead of"
+      ],
+      "answer": "in spite of",
+      "accepted": [
+        "in spite of"
+      ],
+      "why": "Предлог вводит уступительное препятствие.",
+      "distractorWhy": "Составной предлог называет причину.",
+      "distractorRationales": {
+        "owing to": "Составной предлог называет причину.",
+        "instead of": "Предлог указывает на замену одного действия или объекта другим."
+      },
+      "skillTarget": "complex-prepositions-and-dependent-patterns",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E2",
+      "group": "Выходная проверка",
+      "prompt": "В object to the change что требует to?",
+      "options": [
+        "Зависимый предлог прилагательного",
+        "Уточнение существительного",
+        "Зависимый предлог глагола"
+      ],
+      "answer": "Зависимый предлог глагола",
+      "accepted": [
+        "Зависимый предлог глагола"
+      ],
+      "why": "Предлог входит в управление глагола.",
+      "distractorWhy": "Предлог присоединяет дополнение к прилагательному.",
+      "distractorRationales": {
+        "Зависимый предлог прилагательного": "Предлог присоединяет дополнение к прилагательному.",
+        "Уточнение существительного": "Предложная группа зависит от существительного."
+      },
+      "skillTarget": "complex-prepositions-and-dependent-patterns",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E3",
+      "group": "Выходная проверка",
+      "prompt": "I apologise ___ the interruption.",
+      "options": [
+        "on",
+        "for",
+        "to"
+      ],
+      "answer": "for",
+      "accepted": [
+        "for"
+      ],
+      "why": "Responsible и apologise в указанных значениях выбирают for.",
+      "distractorWhy": "Depend и insist выбирают on.",
+      "distractorRationales": {
+        "on": "Depend и insist выбирают on.",
+        "to": "Objection и access вводят объект через to."
+      },
+      "skillTarget": "complex-prepositions-and-dependent-patterns",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E4",
+      "group": "Выходная проверка",
+      "prompt": "We wrote a note ___ calling during the lecture. Укажи альтернативу.",
+      "options": [
+        "instead of",
+        "owing to",
+        "in spite of"
+      ],
+      "answer": "instead of",
+      "accepted": [
+        "instead of"
+      ],
+      "why": "Предлог указывает на замену одного действия или объекта другим.",
+      "distractorWhy": "Составной предлог называет причину.",
+      "distractorRationales": {
+        "owing to": "Составной предлог называет причину.",
+        "in spite of": "Предлог вводит уступительное препятствие."
+      },
+      "skillTarget": "complex-prepositions-and-dependent-patterns",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E5",
+      "group": "Выходная проверка",
+      "prompt": "В a solution to the puzzle что присоединяет группу to the puzzle?",
+      "options": [
+        "Зависимый предлог глагола",
+        "Зависимый предлог прилагательного",
+        "Уточнение существительного"
+      ],
+      "answer": "Уточнение существительного",
+      "accepted": [
+        "Уточнение существительного"
+      ],
+      "why": "Предложная группа зависит от существительного.",
+      "distractorWhy": "Предлог входит в управление глагола.",
+      "distractorRationales": {
+        "Зависимый предлог глагола": "Предлог входит в управление глагола.",
+        "Зависимый предлог прилагательного": "Предлог присоединяет дополнение к прилагательному."
+      },
+      "skillTarget": "complex-prepositions-and-dependent-patterns",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "W1",
+      "group": "Самостоятельное применение",
+      "prompt": "Напиши координатору, кто отвечает за доступ, по какой причине изменили время и в соответствии с каким правилом действовали.",
+      "open": true,
+      "rubric": [
+        "Ответственность выражена responsible for",
+        "Причина выражена подходящим предлогом",
+        "Правило связано через in accordance with",
+        "Все части задания выполнены в одном связном контексте",
+        "Перевод сохраняет роль участников и смысл конструкции",
+        "Ответ содержит собственный английский пример, который можно понять без текста задания."
+      ],
+      "skillTarget": "Самостоятельное применение B2-19",
+      "interactionType": "open-production",
+      "difficulty": "transfer",
+      "sourceBasis": "Speakbase-authored open production; self-review rubric only until real AI feedback is connected",
+      "contentVersion": "1.1-draft"
+    }
+  ],
+  "markdown": "# Speakbase — B2-19: Complex prepositions and dependent patterns\n\n**Curriculum ID:** `B2-19`  \n**Уровень:** B2  \n**Версия:** 1.1-draft\n**Статус:** drafted; exact source-page verification, editorial key review and learner test are pending  \n**Предварительные темы:** B1-20  \n**Связь со старым каталогом:** Частично — №12 Prepositions\n\n## 1. Результаты обучения\n\n- Использовать сложные prepositional phrases и устойчивые грамматические сочетания\n- Выбирать целевую форму по значению, структуре предложения и контексту.\n- Объяснять, почему близкая грамматическая форма меняет смысл или регистр.\n- Находить и исправлять типичные ошибки русскоязычных студентов.\n\n## 2. Источники и статус сверки\n\n| Source | PDF navigation | Lesson-specific checks | Status |\n|---|---|---|---|\n| GR-02 U129 | PDF pages 270-271 (Unit 129) | Noun + preposition: reason for, cause of, increase in, relationship with/between, solution to | indexed; exact source text unavailable for recheck |\n| GR-02 U130 | PDF pages 272-273 (Unit 130) | Adjective + preposition 1: nice of/to, pleased with, surprised at/by, sorry about/for | indexed; exact source text unavailable for recheck |\n| GR-02 U131 | PDF pages 274-275 (Unit 131) | Adjective + preposition 2: afraid of, good at, proud of, similar to, dependent on, interested in | indexed; exact source text unavailable for recheck |\n| GR-02 U132 | PDF pages 276-277 (Unit 132) | Verb + preposition to/at; explain to, apologise to, listen to, look at; shout/throw at vs to | indexed; exact source text unavailable for recheck |\n| GR-02 U133 | PDF pages 278-279 (Unit 133) | Verb + preposition about/for/of/after; discuss vs talk about; care for/about; look for/after | indexed; exact source text unavailable for recheck |\n| GR-02 U134 | PDF pages 280-281 (Unit 134) | Verb + preposition about/of/from; hear about/of/from, think of/about, remind about/of, complain about/of | indexed; exact source text unavailable for recheck |\n| GR-02 U135 | PDF pages 282-283 (Unit 135) | Verb + preposition of/for/from/on; accuse of, congratulate on, thank/forgive for, depend/rely on | indexed; exact source text unavailable for recheck |\n| GR-02 U136 | PDF pages 284-285 (Unit 136) | Verb + preposition in/into/with/to/on; believe in, specialise in, provide with, prefer to, insist on | indexed; exact source text unavailable for recheck |\n| GR-03 U92 | PDF pages 208-209 (printed pp. 184-185, Unit 92) | Prepositions after verbs and lexical verb-preposition patterns | indexed; source scan unavailable for recheck |\n| GR-03 U93 | PDF pages 210-211 (printed pp. 186-187, Unit 93) | Prepositions after nouns and noun + preposition patterns | indexed; source scan unavailable for recheck |\n| GR-03 U94 | PDF pages 212-213 (printed pp. 188-189, Unit 94) | Multi-word verbs and word order; separable/inseparable phrasal verbs | indexed; source scan unavailable for recheck |\n| GR-03 U101 | PDF pages 226-227 (printed pp. 202-203, Unit 101) | Preposition + noun phrase combinations and complex noun phrase patterns | indexed; source scan unavailable for recheck |\n| GR-05 B2 p68-71 | PDF pages 68-71 (B2 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n\nUnit/page locations are navigation aids only. They do not prove that the cited explanation, examples, restrictions and answer key have been checked for this lesson. Examples and explanations below are Speakbase-authored, not quotations from the textbook.\n\nПеред переводом этого урока в source-verified необходимо открыть целевые страницы конкретного издания, записать печатную и PDF-пагинацию, сверить ограничения и исключения. Для GR-03 со сканированными страницами обязательна визуальная проверка.\n\nСверка этой редакции: GR-05 B2 p. 70: prepositional verb patterns. Остальные строки сохраняют прежний статус.\n\n## 3. Место темы и границы\n\nComplex prepositions и dependent patterns: устойчивые фразы, управление и семантические различия.\n\nСтарый каталог содержит: №12 Prepositions. Его статус — Частично. Старые отметки завершения не переносятся автоматически на новый постоянный ID. Тема рассматривается в уровне B2 и не заменяет обязательные prerequisites.\n\n## 4. Полный конспект\n\n### 4.1. Основная идея и функция конструкции\n\nСоставной предлог устанавливает отношение: owing to — причина, in spite of — уступка, on behalf of — представительство, by means of — способ. Выбирай по вопросу, который задаёшь к группе.\n\n### 4.2. Формирование и грамматическая модель\n\nОтдельно учи зависимый предлог вместе со словом: depend on, an objection to, responsible for. После такого to может стоять -ing: object to waiting. В доступе к материалам говорят access to the files.\n\n### 4.3. Как выбрать подходящую форму\n\nПосле prior to обычно нужна именная группа: prior to the trial. Если нужен субъект со сказуемым, выбери before the trial began. Не путай as a result of, указывающее причину, с in accordance with, указывающим соблюдённое правило.\n\n### 4.4. Сравнение с близкими конструкциями\n\nIn light of the evidence — considering the evidence. Prior to publication — before publication. On behalf of the committee — representing the committee.\n\n| Что проверяем | Вопрос для выбора |\n|---|---|\n| Форма | Какие элементы обязательны и в каком порядке они стоят? |\n| Значение | Что именно меняется: время, длительность, реальность, степень уверенности или фокус? |\n| Контекст | Что уже известно собеседнику и каков регистр высказывания? |\n| Проверка | Если заменить форму близкой конструкцией, изменится ли смысл? Объясни, почему. |\n\n### 4.5. Примеры с переводом и объяснением\n\n| English | Перевод | Почему это подходит |\n|---|---|---|\n| `In light of the latest evidence, the policy was revised.` | В свете последних данных политика была пересмотрена. | In light of means considering the latest evidence. |\n| `The application must be submitted in accordance with the published guidelines.` | Заявку необходимо подать в соответствии с опубликованными рекомендациями. | In accordance with means following/compliant with the guidelines. |\n| `The director spoke on behalf of the entire research team.` | Директор выступил от имени всей исследовательской группы. | On behalf of means representing the team. |\n| `The findings should be considered in terms of their limitations.` | Результаты следует рассматривать с учётом их ограничений. | In terms of introduces the perspective/aspect for consideration. |\n\nПримеры составлены Speakbase. Они иллюстрируют грамматическую функцию, но не подменяют индивидуальную проверку всех возможных вариантов и исключений.\n\n### 4.6. Исключения, ограничения и границы употребления\n\n- Preposition choice is often lexical; учи noun/adjective/verb + preposition как одну единицу.\n- Nice/kind/generous of someone оценивает действие; nice/kind to someone описывает отношение.\n- Explain something to someone, но ask someone a question; модели объектов у глаголов различаются.\n- Shout at часто звучит агрессивно; shout to используют, чтобы человек услышал.\n- Hear about/of/from и look for/after имеют разные значения.\n- Think about обычно значит consider; think of может означать придумать идею или высказать мнение.\n- Accuse of, congratulate on, thank/forgive for, depend/rely on, insist on и provide with — устойчивые модели.\n- После предлога используется -ing, но infinitive to не является предлогом.\n- Phrasal verb может быть separable или inseparable; prepositional verb обычно сохраняет предлог перед объектом.\n- В separable phrasal verb местоимение обычно ставится между verb и particle; не переноси это правило на look after.\n- Complex prepositions часто формальны; не перегружай ими простую фразу.\n\n### 4.7. Типичные ошибки русскоязычных студентов\n\n| `On behalf of the latest evidence, the policy was revised.` | В свете последних данных политика была пересмотрена. | On behalf of means representing someone, not considering evidence. |\n| `The application must be submitted in contrast to the published guidelines.` | Заявку необходимо подать в соответствии с опубликованными рекомендациями. | In contrast to expresses difference, not compliance. |\n| `The director spoke in terms of the entire research team.` | Директор выступил от имени всей исследовательской группы. | In terms of means with regard to/aspects of. |\n\nРусский перевод помогает понять смысл, но не управляет английской формой напрямую. Проверяй роль каждого элемента и грамматическую модель английского предложения.\n\n### 4.8. Произношение и восприятие на слух\n\nListen for reduced prepositions in connected speech, especially in common multi-word phrases. Practise the stress contrast between a preposition and a particle in multi-word verbs, and listen for the full dependent phrase rather than translating one preposition in isolation.\n\nДля аудирования распознавай слабые формы вспомогательных глаголов, окончания и границы смысловых групп. Не ориентируйся только на чтение по буквам.\n\n### 4.9. Академический английский и TOEFL-перенос\n\nTOEFL transfer for Complex prepositions and dependent patterns: use the target structure to interpret syntax in Reading/Listening and construct clear sentences in Writing/Speaking. This is skill transfer, not a separate exam task.\n\n- **Reading:** синтаксические связи, reference, modifiers и логические отношения.\n- **Listening:** tense/aspect, weak forms, modality, speaker stance и связи между идеями.\n- **Writing — Build a Sentence:** точность структуры, согласование, порядок слов и verb patterns.\n- **Writing — Email / Academic Discussion:** ясность, appropriate register, аргументация и cohesion.\n- **Speaking — Listen and Repeat / Take an Interview:** точность воспроизведения формы и самостоятельное применение.\n\nЭто перенос навыка, а не полноценный экзаменационный пробник и не обещание конкретного балла.\n\n### 4.10. Примеры для управляемого разбора\n\n- ___ the latest evidence, the policy was revised. => `In light of` (considering the evidence).\n- The application must be submitted ___ the published guidelines. => `in accordance with` (in compliance with).\n- The director spoke ___ the entire research team. => `on behalf of` (representing the team).\n\nДля каждого примера назови целевой элемент, объясни форму, укажи, почему отвлекающий вариант неверен, и придумай собственное предложение с тем же правилом.\n\n### 4.11. Самопроверка\n\nПеред отправкой ответа проверь:\n1. Правильно ли определена функция конструкции?\n2. Согласована ли форма с подлежащим и временной перспективой?\n3. Не перенесён ли русский порядок слов напрямую?\n4. Не смешаны ли две похожие модели?\n5. Не сильнее ли утверждение, чем позволяют контекст и доказательства?\n\n### 4.12. Краткая памятка\n\n- in light of = considering; with regard to = concerning; in terms of = from the perspective of.\n- in accordance with = compliant with; on behalf of = representing; prior to = before; by means of = using.\n- Noun + prep: reason for, cause of, increase in, relationship with/between, solution to.\n- Adjective + prep: nice of/to, pleased with, afraid of, good at, proud of, dependent on, interested in.\n- Verb + prep: listen to, explain to, look at, ask for, wait for, look after, hear about/of/from.\n- accuse of, congratulate on, thank/forgive for, depend/rely on, insist on, provide with.\n- After a preposition use noun/pronoun/-ing; prepositional to + -ing differs from infinitive to + base verb.\n- Check whether a multi-word verb is separable; pronoun placement follows the verb pattern.\n\n## 5. Практика\n\nВ приложении практика разделена на входную диагностику, управляемые задания, самостоятельную практику и новую выходную проверку. Закрытые ответы получают rationale и разбор ошибки. Свободный текст сохраняется и оценивается по рубрике; до подключения и реальной проверки AI-движка система не выдаёт его за автоматическую AI-оценку.\n\n## 6. Интервальное повторение\n\nПовторяй не весь урок автоматически, а конкретную ошибку: выбор формы, согласование, word order, значение, регистр или пунктуацию. Новая попытка должна менять лексический контекст и формулировку, чтобы проверять перенос, а не запоминание одной строки.\n\n## 7. Технический статус\n\n- Постоянный ID: `B2-19`.\n- Прогресс хранится отдельно в course.grammarLessons[\"B2-19\"].\n- Содержание и ключи имеют статус draft; источник page verification pending.\n- Предварительное выполнение порогов не равно окончательному mastered: нужны отсроченное повторение и learner review.\n",
+  "theoryEnd": "## 5."
+}

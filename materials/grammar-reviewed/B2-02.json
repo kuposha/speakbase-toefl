@@ -1,0 +1,685 @@
+{
+  "id": "B2-02",
+  "level": "B2",
+  "sequence": "B2-02",
+  "grammarFamily": "B2-02",
+  "questionBankSource": "topic-specific-authored",
+  "sourceVerification": "draft; selected GR-05 descriptor checked, remaining source review pending",
+  "topicProfile": {
+    "label": "advanced condition markers",
+    "skillTarget": "advanced-condition-markers",
+    "core": "Проверь, зависит ли результат от условия. You may enter provided that you sign in — регистрацию требуют для входа. Even if you sign in, you cannot enter — регистрация не меняет запрета.",
+    "form": "Unless часто заменяет if … not. В I won't go unless Jo calls отсутствие звонка исключает поездку, но сам звонок ещё не гарантирует её. In case объясняет, почему готовятся заранее: Take cash in case the reader fails.",
+    "selection": "As long as бывает временным («пока») и условным («при условии что»). Определи связь по главной части. После supposing можно представить маловероятную ситуацию с Past Simple. Не ставь will механически в обычное будущее условие.",
+    "contrast": "You may leave provided that you sign out (condition). Take a charger in case the battery runs low (precaution). Even if it rains, we will go (result remains).",
+    "boundary": "In case is not interchangeable with if: it motivates preparation before a possible event. Unless already contains negation and should not normally be combined with another negative in the same condition.",
+    "pronunciation": "В устной речи if-clause может быть редуцирована; логическое ударение часто падает на условие или результат в зависимости от контраста. В Speaking не ускоряй условную часть так, чтобы потерять if или вспомогательный глагол.",
+    "examples": [],
+    "traps": [],
+    "toefl": "Conditionals полезны для оценки последствий, ограничений и альтернативных объяснений. В академическом стиле ясно отделяй реальные выводы от гипотетических."
+  },
+  "title": "Advanced condition markers",
+  "description": "Использовать unless/provided/as long as/in case/even if и выбирать подходящий смысловой оттенок",
+  "cardDescription": "Теория, guided practice, самостоятельные задания и выходная проверка по постоянному ID B2-02.",
+  "eyebrow": "Полный урок программы B2-02 · drafted",
+  "contentVersion": "1.1-draft",
+  "curriculumVersion": "1.0",
+  "prerequisites": [
+    "A2-15",
+    "B1-17"
+  ],
+  "outcomes": [
+    "Использовать unless/provided/as long as/in case/even if и выбирать подходящий смысловой оттенок",
+    "Выбирать целевую конструкцию по контексту и смыслу.",
+    "Исправлять типичные ошибки и переносить правило в новый пример."
+  ],
+  "sourceRefs": [
+    "GR-02 U114-120",
+    "GR-03 U83-87",
+    "GR-05 B2 p11-16"
+  ],
+  "sourceStatus": "partial; GR-05 B2 p. 13: conditions; full page verification pending",
+  "status": "drafted",
+  "legacyCoverage": "Частично",
+  "toeflLinks": [
+    "Writing: Build a Sentence",
+    "Speaking: Listen and Repeat / Take an Interview",
+    "Writing: Academic Discussion"
+  ],
+  "thresholds": {
+    "independent": 7,
+    "exit": 4,
+    "criticalIds": [
+      "E1",
+      "E2",
+      "E3"
+    ]
+  },
+  "groups": {
+    "independent": "Самостоятельная практика",
+    "exit": "Выходная проверка"
+  },
+  "items": [
+    {
+      "id": "D1",
+      "group": "Входная диагностика",
+      "prompt": "You can borrow the equipment ___ you return it by Friday. Выдай разрешение с обязательным условием.",
+      "options": [
+        "even if",
+        "provided that",
+        "in case"
+      ],
+      "answer": "provided that",
+      "accepted": [
+        "provided that"
+      ],
+      "why": "Provided that introduces a necessary condition for permission.",
+      "distractorWhy": "Even if means the result remains true regardless of the condition.",
+      "distractorRationales": {
+        "even if": "Even if means the result remains true regardless of the condition.",
+        "in case": "In case expresses precaution, not a condition for granting permission."
+      },
+      "skillTarget": "advanced-condition-markers",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D2",
+      "group": "Входная диагностика",
+      "prompt": "Take a printed map ___ your phone battery dies.",
+      "options": [
+        "in case",
+        "unless",
+        "even if"
+      ],
+      "answer": "in case",
+      "accepted": [
+        "in case"
+      ],
+      "why": "In case introduces a possible future event for which preparation is made.",
+      "distractorWhy": "Unless means if not and changes the logic.",
+      "distractorRationales": {
+        "unless": "Unless means if not and changes the logic.",
+        "even if": "Even if means the outcome holds regardless; it does not express precaution."
+      },
+      "skillTarget": "advanced-condition-markers",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D3",
+      "group": "Входная диагностика",
+      "prompt": "___ the cost increases, the project will continue. Продолжение уже решено при любом росте затрат.",
+      "options": [
+        "Provided that",
+        "In case",
+        "Even if"
+      ],
+      "answer": "Even if",
+      "accepted": [
+        "Even if"
+      ],
+      "why": "Even if signals that the result remains the same despite the condition.",
+      "distractorWhy": "Provided that makes the condition a requirement for the result.",
+      "distractorRationales": {
+        "Provided that": "Provided that makes the condition a requirement for the result.",
+        "In case": "In case means as a precaution and does not fit this concessive condition."
+      },
+      "skillTarget": "advanced-condition-markers",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D4",
+      "group": "Входная диагностика",
+      "prompt": "The contract is valid ___ both parties sign it. Обе подписи обязательны.",
+      "options": [
+        "even if",
+        "on condition that",
+        "in case"
+      ],
+      "answer": "on condition that",
+      "accepted": [
+        "on condition that"
+      ],
+      "why": "On condition that introduces a requirement that must be satisfied.",
+      "distractorWhy": "Even if removes the necessity of the condition.",
+      "distractorRationales": {
+        "even if": "Even if removes the necessity of the condition.",
+        "in case": "In case expresses precaution rather than a binding condition."
+      },
+      "skillTarget": "advanced-condition-markers",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G1",
+      "group": "Управляемая практика",
+      "prompt": "You may use the lab ___ you follow the safety rules. Соблюдение правил обязательно.",
+      "options": [
+        "as long as",
+        "in case",
+        "even though"
+      ],
+      "answer": "as long as",
+      "accepted": [
+        "as long as"
+      ],
+      "why": "As long as means provided that in this condition.",
+      "distractorWhy": "In case would mean use the lab as a precaution, not under a requirement.",
+      "distractorRationales": {
+        "in case": "In case would mean use the lab as a precaution, not under a requirement.",
+        "even though": "Even though introduces a fact/concession, not a sufficient condition."
+      },
+      "skillTarget": "advanced-condition-markers",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G2",
+      "group": "Управляемая практика",
+      "prompt": "___ you were offered the position, would you accept it?",
+      "options": [
+        "Unless",
+        "In case",
+        "Supposing"
+      ],
+      "answer": "Supposing",
+      "accepted": [
+        "Supposing"
+      ],
+      "why": "Supposing introduces a hypothetical possibility for discussion.",
+      "distractorWhy": "Unless means if not and does not fit a hypothetical question here.",
+      "distractorRationales": {
+        "Unless": "Unless means if not and does not fit a hypothetical question here.",
+        "In case": "In case is used for precaution, not a hypothetical question."
+      },
+      "skillTarget": "advanced-condition-markers",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G3",
+      "group": "Управляемая практика",
+      "prompt": "The team will not publish the data ___ the consent forms are complete. Публикацию запрещают при отсутствии согласий.",
+      "options": [
+        "even if",
+        "unless",
+        "in case"
+      ],
+      "answer": "unless",
+      "accepted": [
+        "unless"
+      ],
+      "why": "Unless means if not: publication is withheld if forms are incomplete.",
+      "distractorWhy": "Even if would prohibit publication even with completed forms; it does not identify an exception.",
+      "distractorRationales": {
+        "even if": "Even if would prohibit publication even with completed forms; it does not identify an exception.",
+        "in case": "In case is not the negative condition required here."
+      },
+      "skillTarget": "advanced-condition-markers",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G4",
+      "group": "Управляемая практика",
+      "prompt": "Carry a paper ticket ___ the scanner fails. Объясни запасной вариант.",
+      "options": [
+        "in case",
+        "provided that",
+        "even if"
+      ],
+      "answer": "in case",
+      "accepted": [
+        "in case"
+      ],
+      "why": "Предосторожность принимают до возможного события.",
+      "distractorWhy": "Это обязательное оговорённое условие разрешения.",
+      "distractorRationales": {
+        "provided that": "Это обязательное оговорённое условие разрешения.",
+        "even if": "Результат сохраняется независимо от условия."
+      },
+      "skillTarget": "advanced-condition-markers",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G5",
+      "group": "Управляемая практика",
+      "prompt": "Supposing the library stayed open overnight, would you use it? Зачем задан вопрос?",
+      "options": [
+        "Ограничение",
+        "Предосторожность",
+        "Воображаемая ситуация"
+      ],
+      "answer": "Воображаемая ситуация",
+      "accepted": [
+        "Воображаемая ситуация"
+      ],
+      "why": "Suppose или supposing вводит мысленный эксперимент.",
+      "distractorWhy": "Only if и unless отсекают случаи, в которых действие недоступно.",
+      "distractorRationales": {
+        "Ограничение": "Only if и unless отсекают случаи, в которых действие недоступно.",
+        "Предосторожность": "In case объясняет заблаговременное действие."
+      },
+      "skillTarget": "advanced-condition-markers",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G6",
+      "group": "Управляемая практика",
+      "prompt": "The badge won't work ___ the office activates it. Активация необходима.",
+      "options": [
+        "whether",
+        "unless",
+        "as long as"
+      ],
+      "answer": "unless",
+      "accepted": [
+        "unless"
+      ],
+      "why": "Unless вводит исключение из отрицательного результата, часто соответствует if not.",
+      "distractorWhy": "Whether вводит косвенный вопрос о двух возможностях.",
+      "distractorRationales": {
+        "whether": "Whether вводит косвенный вопрос о двух возможностях.",
+        "as long as": "As long as в условном значении соответствует provided that."
+      },
+      "skillTarget": "advanced-condition-markers",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I1",
+      "group": "Самостоятельная практика",
+      "prompt": "You may leave early ___ another guide takes your place. Назови условие разрешения.",
+      "options": [
+        "in case",
+        "even if",
+        "provided that"
+      ],
+      "answer": "provided that",
+      "accepted": [
+        "provided that"
+      ],
+      "why": "Это обязательное оговорённое условие разрешения.",
+      "distractorWhy": "Предосторожность принимают до возможного события.",
+      "distractorRationales": {
+        "in case": "Предосторожность принимают до возможного события.",
+        "even if": "Результат сохраняется независимо от условия."
+      },
+      "skillTarget": "advanced-condition-markers",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I2",
+      "group": "Самостоятельная практика",
+      "prompt": "Keep the invoice in case the unit breaks. Зачем хранить чек?",
+      "options": [
+        "Ограничение",
+        "Предосторожность",
+        "Воображаемая ситуация"
+      ],
+      "answer": "Предосторожность",
+      "accepted": [
+        "Предосторожность"
+      ],
+      "why": "In case объясняет заблаговременное действие.",
+      "distractorWhy": "Only if и unless отсекают случаи, в которых действие недоступно.",
+      "distractorRationales": {
+        "Ограничение": "Only if и unless отсекают случаи, в которых действие недоступно.",
+        "Воображаемая ситуация": "Suppose или supposing вводит мысленный эксперимент."
+      },
+      "skillTarget": "advanced-condition-markers",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I3",
+      "group": "Самостоятельная практика",
+      "prompt": "We haven't decided ___ the second group should attend. Передай открытый вопрос.",
+      "options": [
+        "whether",
+        "unless",
+        "as long as"
+      ],
+      "answer": "whether",
+      "accepted": [
+        "whether"
+      ],
+      "why": "Whether вводит косвенный вопрос о двух возможностях.",
+      "distractorWhy": "Unless вводит исключение из отрицательного результата, часто соответствует if not.",
+      "distractorRationales": {
+        "unless": "Unless вводит исключение из отрицательного результата, часто соответствует if not.",
+        "as long as": "As long as в условном значении соответствует provided that."
+      },
+      "skillTarget": "advanced-condition-markers",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I4",
+      "group": "Самостоятельная практика",
+      "prompt": "The session will run ___ only two people come. Число участников ничего не меняет.",
+      "options": [
+        "in case",
+        "provided that",
+        "even if"
+      ],
+      "answer": "even if",
+      "accepted": [
+        "even if"
+      ],
+      "why": "Результат сохраняется независимо от условия.",
+      "distractorWhy": "Предосторожность принимают до возможного события.",
+      "distractorRationales": {
+        "in case": "Предосторожность принимают до возможного события.",
+        "provided that": "Это обязательное оговорённое условие разрешения."
+      },
+      "skillTarget": "advanced-condition-markers",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I5",
+      "group": "Самостоятельная практика",
+      "prompt": "Only if you book online can you choose a seat. Какая связь установлена?",
+      "options": [
+        "Воображаемая ситуация",
+        "Ограничение",
+        "Предосторожность"
+      ],
+      "answer": "Ограничение",
+      "accepted": [
+        "Ограничение"
+      ],
+      "why": "Only if и unless отсекают случаи, в которых действие недоступно.",
+      "distractorWhy": "Suppose или supposing вводит мысленный эксперимент.",
+      "distractorRationales": {
+        "Воображаемая ситуация": "Suppose или supposing вводит мысленный эксперимент.",
+        "Предосторожность": "In case объясняет заблаговременное действие."
+      },
+      "skillTarget": "advanced-condition-markers",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I6",
+      "group": "Самостоятельная практика",
+      "prompt": "You can keep the book ___ you renew it on time. Укажи условие разрешения.",
+      "options": [
+        "as long as",
+        "unless",
+        "whether"
+      ],
+      "answer": "as long as",
+      "accepted": [
+        "as long as"
+      ],
+      "why": "As long as в условном значении соответствует provided that.",
+      "distractorWhy": "Unless вводит исключение из отрицательного результата, часто соответствует if not.",
+      "distractorRationales": {
+        "unless": "Unless вводит исключение из отрицательного результата, часто соответствует if not.",
+        "whether": "Whether вводит косвенный вопрос о двух возможностях."
+      },
+      "skillTarget": "advanced-condition-markers",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I7",
+      "group": "Самостоятельная практика",
+      "prompt": "Save a local copy ___ the network goes down during the talk.",
+      "options": [
+        "provided that",
+        "even if",
+        "in case"
+      ],
+      "answer": "in case",
+      "accepted": [
+        "in case"
+      ],
+      "why": "Предосторожность принимают до возможного события.",
+      "distractorWhy": "Это обязательное оговорённое условие разрешения.",
+      "distractorRationales": {
+        "provided that": "Это обязательное оговорённое условие разрешения.",
+        "even if": "Результат сохраняется независимо от условия."
+      },
+      "skillTarget": "advanced-condition-markers",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I8",
+      "group": "Самостоятельная практика",
+      "prompt": "Suppose buses were free: would demand rise? Что задаёт первая часть?",
+      "options": [
+        "Ограничение",
+        "Воображаемая ситуация",
+        "Предосторожность"
+      ],
+      "answer": "Воображаемая ситуация",
+      "accepted": [
+        "Воображаемая ситуация"
+      ],
+      "why": "Suppose или supposing вводит мысленный эксперимент.",
+      "distractorWhy": "Only if и unless отсекают случаи, в которых действие недоступно.",
+      "distractorRationales": {
+        "Ограничение": "Only if и unless отсекают случаи, в которых действие недоступно.",
+        "Предосторожность": "In case объясняет заблаговременное действие."
+      },
+      "skillTarget": "advanced-condition-markers",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I9",
+      "group": "Самостоятельная практика",
+      "prompt": "I wonder ___ the map includes the new entrance. Передай вопрос без инверсии.",
+      "options": [
+        "whether",
+        "unless",
+        "as long as"
+      ],
+      "answer": "whether",
+      "accepted": [
+        "whether"
+      ],
+      "why": "Whether вводит косвенный вопрос о двух возможностях.",
+      "distractorWhy": "Unless вводит исключение из отрицательного результата, часто соответствует if not.",
+      "distractorRationales": {
+        "unless": "Unless вводит исключение из отрицательного результата, часто соответствует if not.",
+        "as long as": "As long as в условном значении соответствует provided that."
+      },
+      "skillTarget": "advanced-condition-markers",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E1",
+      "group": "Выходная проверка",
+      "prompt": "Visitors may use the camera ___ they sign the loan form. Это правило выдачи.",
+      "options": [
+        "provided that",
+        "in case",
+        "even if"
+      ],
+      "answer": "provided that",
+      "accepted": [
+        "provided that"
+      ],
+      "why": "Это обязательное оговорённое условие разрешения.",
+      "distractorWhy": "Предосторожность принимают до возможного события.",
+      "distractorRationales": {
+        "in case": "Предосторожность принимают до возможного события.",
+        "even if": "Результат сохраняется независимо от условия."
+      },
+      "skillTarget": "advanced-condition-markers",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E2",
+      "group": "Выходная проверка",
+      "prompt": "Don't open the envelope unless the panel asks. Какую роль играет unless?",
+      "options": [
+        "Воображаемая ситуация",
+        "Предосторожность",
+        "Ограничение"
+      ],
+      "answer": "Ограничение",
+      "accepted": [
+        "Ограничение"
+      ],
+      "why": "Only if и unless отсекают случаи, в которых действие недоступно.",
+      "distractorWhy": "Suppose или supposing вводит мысленный эксперимент.",
+      "distractorRationales": {
+        "Воображаемая ситуация": "Suppose или supposing вводит мысленный эксперимент.",
+        "Предосторожность": "In case объясняет заблаговременное действие."
+      },
+      "skillTarget": "advanced-condition-markers",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E3",
+      "group": "Выходная проверка",
+      "prompt": "No changes will be accepted ___ both reviewers agree. Нужно согласие обоих.",
+      "options": [
+        "whether",
+        "unless",
+        "as long as"
+      ],
+      "answer": "unless",
+      "accepted": [
+        "unless"
+      ],
+      "why": "Unless вводит исключение из отрицательного результата, часто соответствует if not.",
+      "distractorWhy": "Whether вводит косвенный вопрос о двух возможностях.",
+      "distractorRationales": {
+        "whether": "Whether вводит косвенный вопрос о двух возможностях.",
+        "as long as": "As long as в условном значении соответствует provided that."
+      },
+      "skillTarget": "advanced-condition-markers",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E4",
+      "group": "Выходная проверка",
+      "prompt": "We'll keep the old date ___ a cheaper room appears. Дата окончательная.",
+      "options": [
+        "even if",
+        "in case",
+        "provided that"
+      ],
+      "answer": "even if",
+      "accepted": [
+        "even if"
+      ],
+      "why": "Результат сохраняется независимо от условия.",
+      "distractorWhy": "Предосторожность принимают до возможного события.",
+      "distractorRationales": {
+        "in case": "Предосторожность принимают до возможного события.",
+        "provided that": "Это обязательное оговорённое условие разрешения."
+      },
+      "skillTarget": "advanced-condition-markers",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E5",
+      "group": "Выходная проверка",
+      "prompt": "I've packed a torch in case we finish after dark. Что объясняет придаточное?",
+      "options": [
+        "Ограничение",
+        "Воображаемая ситуация",
+        "Предосторожность"
+      ],
+      "answer": "Предосторожность",
+      "accepted": [
+        "Предосторожность"
+      ],
+      "why": "In case объясняет заблаговременное действие.",
+      "distractorWhy": "Only if и unless отсекают случаи, в которых действие недоступно.",
+      "distractorRationales": {
+        "Ограничение": "Only if и unless отсекают случаи, в которых действие недоступно.",
+        "Воображаемая ситуация": "Suppose или supposing вводит мысленный эксперимент."
+      },
+      "skillTarget": "advanced-condition-markers",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "W1",
+      "group": "Самостоятельное применение",
+      "prompt": "Составь инструкцию гостю: условие получения ключа, мера на случай поломки и решение, которое останется в силе при любой погоде.",
+      "open": true,
+      "rubric": [
+        "Разрешение имеет обязательное условие",
+        "Предосторожность предшествует проблеме",
+        "Решение не зависит от погоды",
+        "Все части задания выполнены в одном связном контексте",
+        "Перевод сохраняет роль участников и смысл конструкции",
+        "Ответ содержит собственный английский пример, который можно понять без текста задания."
+      ],
+      "skillTarget": "Самостоятельное применение B2-02",
+      "interactionType": "open-production",
+      "difficulty": "transfer",
+      "sourceBasis": "Speakbase-authored open production; self-review rubric only until real AI feedback is connected",
+      "contentVersion": "1.1-draft"
+    }
+  ],
+  "markdown": "# Speakbase — B2-02: Advanced condition markers\n\n**Curriculum ID:** `B2-02`  \n**Уровень:** B2  \n**Версия:** 1.1-draft\n**Статус:** draft; manual content review in progress; GR-05 comparison, app rendering and learner test remain pending\n**Предварительные темы:** A2-15, B1-17  \n**Связь со старым каталогом:** Частично — №13 First Conditional; №26 Zero Conditional\n\n## 1. Результаты обучения\n\n- Использовать unless/provided/as long as/in case/even if и выбирать подходящий смысловой оттенок\n- Выбирать целевую форму по значению, структуре предложения и контексту.\n- Объяснять, почему близкая грамматическая форма меняет смысл или регистр.\n- Находить и исправлять типичные ошибки русскоязычных студентов.\n\n## 2. Источники и статус сверки\n\n| Source | PDF navigation | Lesson-specific checks | Status |\n|---|---|---|---|\n| GR-02 U114 | PDF pages 240-241 (Unit 114) | In case vs if, present/past in case clauses, in case of + noun and precaution meaning; explanation and exercises text-checked | text extracted and checked |\n| GR-02 U115 | PDF pages 242-243 (Unit 115) | Unless = except if; as long as/so long as/provided/providing; future clauses without will; explanation and exercises text-checked | text extracted and checked |\n| GR-03 U83 | PDF pages 190-191 (printed pp. 166-167, Unit 83) | Real/unreal condition background and conditional time relationships visually checked | visually checked; contextual |\n| GR-03 U84 | PDF pages 192-193 (printed pp. 168-169, Unit 84) | Conditional patterns with should, had and were to; formal alternatives visually checked | visually checked; contextual |\n| GR-03 U85 | PDF pages 194-195 (printed pp. 170-171, Unit 85) | Hypothetical were and related hypothetical patterns visually checked | visually checked; contextual |\n| GR-03 U86 | PDF pages 196-197 (printed pp. 172-173, Unit 86) | Unless/if not and conditional boundaries visually checked | visually checked; unit-text checked |\n| GR-05 B2 p11-16 | PDF pages 11-16 (B2 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n\nUnit/page locations are navigation aids only. They do not prove that the cited explanation, examples, restrictions and answer key have been checked for this lesson. Examples and explanations below are Speakbase-authored, not quotations from the textbook.\n\nПеред переводом этого урока в source-verified необходимо открыть целевые страницы конкретного издания, записать печатную и PDF-пагинацию, сверить ограничения и исключения. Для GR-03 со сканированными страницами обязательна визуальная проверка.\n\nСверка этой редакции: GR-05 B2 p. 13: conditions. Остальные строки сохраняют прежний статус.\n\n## 3. Место темы и границы\n\nРазличай unless, provided/providing, as long as, in case и even if по логике условия и семантическим ограничениям.\n\nСтарый каталог содержит: №13 First Conditional; №26 Zero Conditional. Его статус — Частично. Старые отметки завершения не переносятся автоматически на новый постоянный ID. Тема рассматривается в уровне B2 и не заменяет обязательные prerequisites.\n\n## 4. Полный конспект\n\n### 4.1. Основная идея и функция конструкции\n\nПроверь, зависит ли результат от условия. You may enter provided that you sign in — регистрацию требуют для входа. Even if you sign in, you cannot enter — регистрация не меняет запрета.\n\n### 4.2. Формирование и грамматические модели\n\nUnless часто заменяет if … not. В I won't go unless Jo calls отсутствие звонка исключает поездку, но сам звонок ещё не гарантирует её. In case объясняет, почему готовятся заранее: Take cash in case the reader fails.\n\n### 4.3. Как выбрать подходящую форму\n\nAs long as бывает временным («пока») и условным («при условии что»). Определи связь по главной части. После supposing можно представить маловероятную ситуацию с Past Simple. Не ставь will механически в обычное будущее условие.\n\n### 4.4. Сравнение с близкими конструкциями\n\n| Form | Example | Meaning |\n|---|---|---|\n| in case + clause | Take a map in case you get lost. | Prepare now because the event is possible |\n| if + clause | I'll take a map if I get lost. | Take action only if the event happens |\n| in case of + noun | In case of fire, leave the building. | If there is a fire; notice/instruction |\n| unless | You can't enter unless you are a member. | Except if / if not |\n| as long as | You can borrow it as long as you return it. | Permission depends on a condition |\n| provided/providing | We'll go provided the weather is good. | A required condition |\n| even if | Even if it rains, we'll go. | The result remains despite the condition |\n\n### 4.5. Примеры с переводом и объяснением\n\n| English | Перевод | Почему это подходит |\n|---|---|---|---|\n| `You can borrow the equipment provided that you return it by Friday.` | Ты можешь взять оборудование при условии, что вернёшь его до пятницы. | Provided that introduces a necessary condition for permission. |\n| `Take a printed map in case your phone battery dies.` | Возьми бумажную карту на случай, если разрядится аккумулятор телефона. | In case introduces a possible future event for which preparation is made. |\n| `Even if the cost increases, the project will continue.` | Даже если расходы вырастут, проект продолжится. | Even if signals that the result remains the same despite the condition. |\n| `The contract is valid on condition that both parties sign it.` | Договор действителен при условии, что обе стороны его подпишут. | On condition that introduces a requirement that must be satisfied. |\n\nПримеры составлены Speakbase. Они иллюстрируют грамматическую функцию, но не подменяют индивидуальную проверку всех возможных вариантов и исключений.\n\n### 4.6. Исключения, ограничения и границы употребления\n\n- In case is a precaution marker, not a simple synonym of if. It can refer to a future possibility (*in case it rains*) or a past precaution (*I took a map in case I got lost*).\n- Do not normally use will after in case, unless, as long as, so long as, provided or providing in an ordinary future conditional clause.\n- In case of is followed by a noun phrase: *in case of emergency*, not *in case of something happens*.\n- Unless already means except if/if not; avoid an additional negative unless the intended meaning is carefully controlled.\n- Provided/providing and as long as make the result dependent on a condition; they do not express precaution. As/so long as can also express duration, so inspect the meaning.\n- Even if is concessive/hypothetical: the result is unchanged even if the condition occurs. Even though presents the contrast as a fact.\n- Do not confuse in case + clause with in case of + noun phrase.\n- Use a full clause after unless/provided/as long as; use a noun phrase after in case of. On condition that is formal; supposing/suppose frames a hypothetical possibility.\n\n### 4.7. Типичные ошибки русскоязычных студентов\n\n| `You can borrow the equipment even if you return it by Friday.` | `You can borrow the equipment provided that you return it by Friday.` | Even if means the result remains true regardless of the condition. |\n| `Take a printed map unless your phone battery dies.` | `Take a printed map in case your phone battery dies.` | Unless means if not and changes the logic. |\n| `Provided that the cost increases, the project will continue.` | `Even if the cost increases, the project will continue.` | Provided that makes the condition a requirement for the result. |\n\nРусский перевод помогает понять смысл, но не управляет английской формой напрямую. Проверяй роль каждого элемента и грамматическую модель английского предложения.\n\n### 4.8. Произношение и восприятие на слух\n\nIn connected speech, **in case**, **unless** and **as long as** may be reduced; identify the marker from the clause relation, not only its sound. Contrastive stress can highlight the condition (*ONLY if*, *EVEN if*), changing the speaker's emphasis. Phonetic transcriptions and audio examples still require dictionary-audio verification.\n\nДля аудирования распознавай слабые формы вспомогательных глаголов, окончания и границы смысловых групп. Не ориентируйся только на чтение по буквам.\n\n### 4.9. Академический английский и TOEFL-перенос\n\nTOEFL transfer for Advanced condition markers: use the target structure to interpret syntax in Reading/Listening and construct clear sentences in Writing/Speaking. This is skill transfer, not a separate exam task.\n\n- **Reading:** синтаксические связи, reference, modifiers и логические отношения.\n- **Listening:** tense/aspect, weak forms, modality, speaker stance и связи между идеями.\n- **Writing — Build a Sentence:** точность структуры, согласование, порядок слов и verb patterns.\n- **Writing — Email / Academic Discussion:** ясность, appropriate register, аргументация и cohesion.\n- **Speaking — Listen and Repeat / Take an Interview:** точность воспроизведения формы и самостоятельное применение.\n\nЭто перенос навыка, а не полноценный экзаменационный пробник и не обещание конкретного балла.\n\n### 4.10. Примеры для управляемого разбора\n\n- You can borrow the equipment ___ you return it by Friday. → `provided that`.\n- Take a printed map ___ your phone battery dies. → `in case`.\n- ___ the cost increases, the project will continue. → `Even if`.\n\nДля каждого примера назови целевой элемент, объясни форму, укажи, почему отвлекающий вариант неверен, и придумай собственное предложение с тем же правилом.\n\n### 4.11. Самопроверка\n\nПеред отправкой ответа проверь:\n1. Правильно ли определена функция конструкции?\n2. Согласована ли форма с подлежащим и временной перспективой?\n3. Не перенесён ли русский порядок слов напрямую?\n4. Не смешаны ли две похожие модели?\n5. Не сильнее ли утверждение, чем позволяют контекст и доказательства?\n\n### 4.12. Краткая памятка\n\n- In case + clause = take precaution now; if + clause = action depends on condition.\n- In case of + noun = if there is... (not a finite clause).\n- Unless = except if / if not.\n- As long as / so long as / provided / providing = required condition.\n- Even if = the result remains despite the condition.\n- Use present tense for future conditions after unless/as long as/provided/providing; do not add will.\n- Avoid double negatives with unless.\n\n## 5. Практика\n\nВ приложении практика разделена на входную диагностику, управляемые задания, самостоятельную практику и новую выходную проверку. Закрытые ответы получают rationale и разбор ошибки. Свободный текст сохраняется и оценивается по рубрике; до подключения и реальной проверки AI-движка система не выдаёт его за автоматическую AI-оценку.\n\n## 6. Интервальное повторение\n\nПовторяй не весь урок автоматически, а конкретную ошибку: выбор формы, согласование, word order, значение, регистр или пунктуацию. Новая попытка должна менять лексический контекст и формулировку, чтобы проверять перенос, а не запоминание одной строки.\n\n## 7. Технический статус\n\n- Постоянный ID: `B2-02`.\n- Прогресс хранится отдельно в course.grammarLessons[\"B2-02\"].\n- Содержание и ключи имеют статус draft; источник page verification pending.\n- Предварительное выполнение порогов не равно окончательному mastered: нужны отсроченное повторение и learner review.",
+  "theoryEnd": "## 5."
+}

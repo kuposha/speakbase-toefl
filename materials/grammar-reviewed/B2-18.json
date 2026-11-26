@@ -1,0 +1,685 @@
+{
+  "id": "B2-18",
+  "level": "B2",
+  "sequence": "B2-18",
+  "grammarFamily": "B2-18",
+  "questionBankSource": "topic-specific-authored",
+  "sourceVerification": "draft; selected GR-05 descriptor checked, remaining source review pending",
+  "topicProfile": {
+    "label": "hedging and stance in academic English",
+    "skillTarget": "academic-hedging-and-stance",
+    "core": "Сила формулировки должна соответствовать данным. May reflect описывает возможную причину; tends to occur — тенденцию; was observed in this group — факт в пределах выборки. Одно наблюдение не подтверждает всеобщность.",
+    "form": "После may или might используй V1. После appear или seem подойдут прилагательное или to-инфинитив: seems plausible, appears to vary. Consistent with означает совместимость, а не уникальное доказательство причины.",
+    "selection": "Укажи границы вывода там, где они известны. Among our respondents точнее, чем people generally. Ссылка according to the report передаёт источник. Не ослабляй точное измерение без причины и не складывай несколько одинаковых маркеров неуверенности.",
+    "contrast": "The results prove X — categorical. The results suggest X — cautious interpretation. X may contribute to Y — possibility, not established causation.",
+    "boundary": "Hedging is not vagueness: it should state precisely what is uncertain and why. Too many hedges can make a sentence unclear; too few can overstate evidence.",
+    "pronunciation": "В устной академической речи ударение на may/might/likely и паузы могут калибровать степень уверенности. Не превращай каждую реплику в набор вводных слов.",
+    "examples": [],
+    "traps": [],
+    "toefl": "Hedging особенно важно в Academic Discussion: выражай позицию уверенно, но не сильнее, чем позволяют основания. Используй may/suggest/likely точно и разнообразно."
+  },
+  "title": "Hedging and stance in academic English",
+  "description": "Смягчать утверждения, выражать осторожность и степень уверенности",
+  "cardDescription": "Теория, guided practice, самостоятельные задания и выходная проверка по постоянному ID B2-18.",
+  "eyebrow": "Полный урок программы B2-18 · drafted",
+  "contentVersion": "1.1-draft",
+  "curriculumVersion": "1.0",
+  "prerequisites": [
+    "B1-09",
+    "B1-18"
+  ],
+  "outcomes": [
+    "Смягчать утверждения, выражать осторожность и степень уверенности",
+    "Выбирать целевую конструкцию по контексту и смыслу.",
+    "Исправлять типичные ошибки и переносить правило в новый пример."
+  ],
+  "sourceRefs": [
+    "GR-03 U66-78",
+    "GR-03 U102",
+    "GR-03 U105",
+    "GR-05 B2 p26-27"
+  ],
+  "sourceStatus": "partial; GR-05 B2 p. 26–29: hedging and likelihood; full page verification pending",
+  "status": "drafted",
+  "legacyCoverage": "Частично",
+  "toeflLinks": [
+    "Writing: Build a Sentence",
+    "Writing: Academic Discussion"
+  ],
+  "thresholds": {
+    "independent": 7,
+    "exit": 4,
+    "criticalIds": [
+      "E1",
+      "E2",
+      "E3"
+    ]
+  },
+  "groups": {
+    "independent": "Самостоятельная практика",
+    "exit": "Выходная проверка"
+  },
+  "items": [
+    {
+      "id": "D1",
+      "group": "Входная диагностика",
+      "prompt": "The findings ___ indicate a possible relationship between sleep and memory. Вырази возможность без уверенного вывода.",
+      "options": [
+        "must",
+        "may",
+        "prove"
+      ],
+      "answer": "may",
+      "accepted": [
+        "may"
+      ],
+      "why": "May indicates possibility without claiming certainty.",
+      "distractorWhy": "Must expresses strong necessity/certainty and overstates limited evidence.",
+      "distractorRationales": {
+        "must": "Must expresses strong necessity/certainty and overstates limited evidence.",
+        "prove": "Prove is categorical and is too strong for a possible relationship."
+      },
+      "skillTarget": "academic-hedging-and-stance",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D2",
+      "group": "Входная диагностика",
+      "prompt": "The observed pattern appears ___ with earlier research.",
+      "options": [
+        "consistent",
+        "consistently",
+        "consistency"
+      ],
+      "answer": "consistent",
+      "accepted": [
+        "consistent"
+      ],
+      "why": "Appear + adjective complement: consistent.",
+      "distractorWhy": "Consistently is an adverb and does not complete the linking verb complement.",
+      "distractorRationales": {
+        "consistently": "Consistently is an adverb and does not complete the linking verb complement.",
+        "consistency": "Consistency is a noun."
+      },
+      "skillTarget": "academic-hedging-and-stance",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D3",
+      "group": "Входная диагностика",
+      "prompt": "The results ___ that further investigation is needed. Выбери осторожное утверждение.",
+      "options": [
+        "prove beyond doubt",
+        "guarantee",
+        "suggest"
+      ],
+      "answer": "suggest",
+      "accepted": [
+        "suggest"
+      ],
+      "why": "Suggest presents an evidence-based but cautious interpretation.",
+      "distractorWhy": "Prove beyond doubt is stronger than the described evidence supports.",
+      "distractorRationales": {
+        "prove beyond doubt": "Prove beyond doubt is stronger than the described evidence supports.",
+        "guarantee": "Guarantee presents certainty and overstates a research interpretation."
+      },
+      "skillTarget": "academic-hedging-and-stance",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D4",
+      "group": "Входная диагностика",
+      "prompt": "This difference is ___ attributable to sampling variation.",
+      "options": [
+        "possible",
+        "possibly",
+        "possibility"
+      ],
+      "answer": "possibly",
+      "accepted": [
+        "possibly"
+      ],
+      "why": "Possibly is a stance adverb modifying attributable.",
+      "distractorWhy": "Possible is an adjective and would require a different syntax.",
+      "distractorRationales": {
+        "possible": "Possible is an adjective and would require a different syntax.",
+        "possibility": "Possibility is a noun."
+      },
+      "skillTarget": "academic-hedging-and-stance",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G1",
+      "group": "Управляемая практика",
+      "prompt": "The intervention might ___ improve attendance in some settings.",
+      "options": [
+        "help",
+        "helps",
+        "to help"
+      ],
+      "answer": "help",
+      "accepted": [
+        "help"
+      ],
+      "why": "Might is followed by the base verb help.",
+      "distractorWhy": "Helps adds third-person -s after a modal, which is not allowed.",
+      "distractorRationales": {
+        "helps": "Helps adds third-person -s after a modal, which is not allowed.",
+        "to help": "To help is an infinitive with an unnecessary to after might."
+      },
+      "skillTarget": "academic-hedging-and-stance",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G2",
+      "group": "Управляемая практика",
+      "prompt": "These findings should be interpreted with ___.",
+      "options": [
+        "cautiously",
+        "cautious",
+        "caution"
+      ],
+      "answer": "caution",
+      "accepted": [
+        "caution"
+      ],
+      "why": "With is followed by a noun phrase; caution is a noun.",
+      "distractorWhy": "Cautiously is an adverb, not a noun complement after with.",
+      "distractorRationales": {
+        "cautiously": "Cautiously is an adverb, not a noun complement after with.",
+        "cautious": "Cautious is an adjective and cannot stand alone as the object of with."
+      },
+      "skillTarget": "academic-hedging-and-stance",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G3",
+      "group": "Управляемая практика",
+      "prompt": "The model is likely ___ perform better with a larger dataset.",
+      "options": [
+        "that",
+        "to",
+        "for"
+      ],
+      "answer": "to",
+      "accepted": [
+        "to"
+      ],
+      "why": "Likely + to-infinitive expresses probability.",
+      "distractorWhy": "That would require a finite clause and different structure.",
+      "distractorRationales": {
+        "that": "That would require a finite clause and different structure.",
+        "for": "For does not complete likely + infinitive."
+      },
+      "skillTarget": "academic-hedging-and-stance",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G4",
+      "group": "Управляемая практика",
+      "prompt": "The change ___ reflect seasonal demand; this is one of several hypotheses. Вырази возможность.",
+      "options": [
+        "may",
+        "must",
+        "cannot"
+      ],
+      "answer": "may",
+      "accepted": [
+        "may"
+      ],
+      "why": "May допускает возможность, сохраняя неопределённость.",
+      "distractorWhy": "Must выражает сильный вывод или необходимость по контексту.",
+      "distractorRationales": {
+        "must": "Must выражает сильный вывод или необходимость по контексту.",
+        "cannot": "Cannot исключает возможность или выражает невозможность."
+      },
+      "skillTarget": "academic-hedging-and-stance",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G5",
+      "group": "Управляемая практика",
+      "prompt": "Visitors tend to arrive early. Что смягчает обобщение?",
+      "options": [
+        "Граница выборки",
+        "Атрибуция",
+        "Тенденция"
+      ],
+      "answer": "Тенденция",
+      "accepted": [
+        "Тенденция"
+      ],
+      "why": "Tend to описывает обычное, но не всеобщее поведение.",
+      "distractorWhy": "Ограничивающая группа задаёт участников или условия наблюдения.",
+      "distractorRationales": {
+        "Граница выборки": "Ограничивающая группа задаёт участников или условия наблюдения.",
+        "Атрибуция": "Ссылка на источник отделяет позицию автора от чужого утверждения."
+      },
+      "skillTarget": "academic-hedging-and-stance",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G6",
+      "group": "Управляемая практика",
+      "prompt": "These observations are ___ a delay, but other explanations remain. Укажи совместимость.",
+      "options": [
+        "proof of",
+        "consistent with",
+        "unrelated to"
+      ],
+      "answer": "consistent with",
+      "accepted": [
+        "consistent with"
+      ],
+      "why": "Совместимость допускает и другие объяснения.",
+      "distractorWhy": "Proof of заявляет доказанность.",
+      "distractorRationales": {
+        "proof of": "Proof of заявляет доказанность.",
+        "unrelated to": "Unrelated to прямо отрицает связь."
+      },
+      "skillTarget": "academic-hedging-and-stance",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I1",
+      "group": "Самостоятельная практика",
+      "prompt": "Under the definition, a triangle ___ have three sides. Укажи необходимость.",
+      "options": [
+        "may",
+        "cannot",
+        "must"
+      ],
+      "answer": "must",
+      "accepted": [
+        "must"
+      ],
+      "why": "Must выражает сильный вывод или необходимость по контексту.",
+      "distractorWhy": "May допускает возможность, сохраняя неопределённость.",
+      "distractorRationales": {
+        "may": "May допускает возможность, сохраняя неопределённость.",
+        "cannot": "Cannot исключает возможность или выражает невозможность."
+      },
+      "skillTarget": "academic-hedging-and-stance",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I2",
+      "group": "Самостоятельная практика",
+      "prompt": "Among the fourteen respondents, cost mattered most. Что ограничивает вывод?",
+      "options": [
+        "Тенденция",
+        "Граница выборки",
+        "Атрибуция"
+      ],
+      "answer": "Граница выборки",
+      "accepted": [
+        "Граница выборки"
+      ],
+      "why": "Ограничивающая группа задаёт участников или условия наблюдения.",
+      "distractorWhy": "Tend to описывает обычное, но не всеобщее поведение.",
+      "distractorRationales": {
+        "Тенденция": "Tend to описывает обычное, но не всеобщее поведение.",
+        "Атрибуция": "Ссылка на источник отделяет позицию автора от чужого утверждения."
+      },
+      "skillTarget": "academic-hedging-and-stance",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I3",
+      "group": "Самостоятельная практика",
+      "prompt": "The author called the signed receipt ___ payment. Передай именно заявленное доказательство.",
+      "options": [
+        "proof of",
+        "consistent with",
+        "unrelated to"
+      ],
+      "answer": "proof of",
+      "accepted": [
+        "proof of"
+      ],
+      "why": "Proof of заявляет доказанность.",
+      "distractorWhy": "Совместимость допускает и другие объяснения.",
+      "distractorRationales": {
+        "consistent with": "Совместимость допускает и другие объяснения.",
+        "unrelated to": "Unrelated to прямо отрицает связь."
+      },
+      "skillTarget": "academic-hedging-and-stance",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I4",
+      "group": "Самостоятельная практика",
+      "prompt": "A file created today ___ have been attached to yesterday's email. Исключи возможность.",
+      "options": [
+        "may",
+        "must",
+        "cannot"
+      ],
+      "answer": "cannot",
+      "accepted": [
+        "cannot"
+      ],
+      "why": "Cannot исключает возможность или выражает невозможность.",
+      "distractorWhy": "May допускает возможность, сохраняя неопределённость.",
+      "distractorRationales": {
+        "may": "May допускает возможность, сохраняя неопределённость.",
+        "must": "Must выражает сильный вывод или необходимость по контексту."
+      },
+      "skillTarget": "academic-hedging-and-stance",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I5",
+      "group": "Самостоятельная практика",
+      "prompt": "According to the librarian, the queue was shorter. Чья позиция обозначена?",
+      "options": [
+        "Тенденция",
+        "Атрибуция",
+        "Граница выборки"
+      ],
+      "answer": "Атрибуция",
+      "accepted": [
+        "Атрибуция"
+      ],
+      "why": "Ссылка на источник отделяет позицию автора от чужого утверждения.",
+      "distractorWhy": "Tend to описывает обычное, но не всеобщее поведение.",
+      "distractorRationales": {
+        "Тенденция": "Tend to описывает обычное, но не всеобщее поведение.",
+        "Граница выборки": "Ограничивающая группа задаёт участников или условия наблюдения."
+      },
+      "skillTarget": "academic-hedging-and-stance",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I6",
+      "group": "Самостоятельная практика",
+      "prompt": "The appendix is ___ the cost estimate. Передай отсутствие связи.",
+      "options": [
+        "unrelated to",
+        "consistent with",
+        "proof of"
+      ],
+      "answer": "unrelated to",
+      "accepted": [
+        "unrelated to"
+      ],
+      "why": "Unrelated to прямо отрицает связь.",
+      "distractorWhy": "Совместимость допускает и другие объяснения.",
+      "distractorRationales": {
+        "consistent with": "Совместимость допускает и другие объяснения.",
+        "proof of": "Proof of заявляет доказанность."
+      },
+      "skillTarget": "academic-hedging-and-stance",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I7",
+      "group": "Самостоятельная практика",
+      "prompt": "The score difference ___ be due to chance; we need a larger sample.",
+      "options": [
+        "must",
+        "cannot",
+        "may"
+      ],
+      "answer": "may",
+      "accepted": [
+        "may"
+      ],
+      "why": "May допускает возможность, сохраняя неопределённость.",
+      "distractorWhy": "Must выражает сильный вывод или необходимость по контексту.",
+      "distractorRationales": {
+        "must": "Must выражает сильный вывод или необходимость по контексту.",
+        "cannot": "Cannot исключает возможность или выражает невозможность."
+      },
+      "skillTarget": "academic-hedging-and-stance",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I8",
+      "group": "Самостоятельная практика",
+      "prompt": "In this pilot group, attendance improved. Что задаёт предел вывода?",
+      "options": [
+        "Тенденция",
+        "Граница выборки",
+        "Атрибуция"
+      ],
+      "answer": "Граница выборки",
+      "accepted": [
+        "Граница выборки"
+      ],
+      "why": "Ограничивающая группа задаёт участников или условия наблюдения.",
+      "distractorWhy": "Tend to описывает обычное, но не всеобщее поведение.",
+      "distractorRationales": {
+        "Тенденция": "Tend to описывает обычное, но не всеобщее поведение.",
+        "Атрибуция": "Ссылка на источник отделяет позицию автора от чужого утверждения."
+      },
+      "skillTarget": "academic-hedging-and-stance",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I9",
+      "group": "Самостоятельная практика",
+      "prompt": "The data are ___ a modest gain, although uncertainty is high.",
+      "options": [
+        "consistent with",
+        "proof of",
+        "unrelated to"
+      ],
+      "answer": "consistent with",
+      "accepted": [
+        "consistent with"
+      ],
+      "why": "Совместимость допускает и другие объяснения.",
+      "distractorWhy": "Proof of заявляет доказанность.",
+      "distractorRationales": {
+        "proof of": "Proof of заявляет доказанность.",
+        "unrelated to": "Unrelated to прямо отрицает связь."
+      },
+      "skillTarget": "academic-hedging-and-stance",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E1",
+      "group": "Выходная проверка",
+      "prompt": "Any valid entry ___ include a date under this rule. Передай обязательность.",
+      "options": [
+        "must",
+        "may",
+        "cannot"
+      ],
+      "answer": "must",
+      "accepted": [
+        "must"
+      ],
+      "why": "Must выражает сильный вывод или необходимость по контексту.",
+      "distractorWhy": "May допускает возможность, сохраняя неопределённость.",
+      "distractorRationales": {
+        "may": "May допускает возможность, сохраняя неопределённость.",
+        "cannot": "Cannot исключает возможность или выражает невозможность."
+      },
+      "skillTarget": "academic-hedging-and-stance",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E2",
+      "group": "Выходная проверка",
+      "prompt": "Students tend to reread difficult passages. Какую закономерность заявили?",
+      "options": [
+        "Граница выборки",
+        "Атрибуция",
+        "Тенденция"
+      ],
+      "answer": "Тенденция",
+      "accepted": [
+        "Тенденция"
+      ],
+      "why": "Tend to описывает обычное, но не всеобщее поведение.",
+      "distractorWhy": "Ограничивающая группа задаёт участников или условия наблюдения.",
+      "distractorRationales": {
+        "Граница выборки": "Ограничивающая группа задаёт участников или условия наблюдения.",
+        "Атрибуция": "Ссылка на источник отделяет позицию автора от чужого утверждения."
+      },
+      "skillTarget": "academic-hedging-and-stance",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E3",
+      "group": "Выходная проверка",
+      "prompt": "The two schedules are explicitly described as ___ each other. Укажи независимость тем.",
+      "options": [
+        "consistent with",
+        "unrelated to",
+        "proof of"
+      ],
+      "answer": "unrelated to",
+      "accepted": [
+        "unrelated to"
+      ],
+      "why": "Unrelated to прямо отрицает связь.",
+      "distractorWhy": "Совместимость допускает и другие объяснения.",
+      "distractorRationales": {
+        "consistent with": "Совместимость допускает и другие объяснения.",
+        "proof of": "Proof of заявляет доказанность."
+      },
+      "skillTarget": "academic-hedging-and-stance",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E4",
+      "group": "Выходная проверка",
+      "prompt": "Both claims contradict each other, so they ___ both be true. Вырази невозможность.",
+      "options": [
+        "cannot",
+        "may",
+        "must"
+      ],
+      "answer": "cannot",
+      "accepted": [
+        "cannot"
+      ],
+      "why": "Cannot исключает возможность или выражает невозможность.",
+      "distractorWhy": "May допускает возможность, сохраняя неопределённость.",
+      "distractorRationales": {
+        "may": "May допускает возможность, сохраняя неопределённость.",
+        "must": "Must выражает сильный вывод или необходимость по контексту."
+      },
+      "skillTarget": "academic-hedging-and-stance",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E5",
+      "group": "Выходная проверка",
+      "prompt": "The tutors report that visits increased. Что добавляет report?",
+      "options": [
+        "Тенденция",
+        "Граница выборки",
+        "Атрибуция"
+      ],
+      "answer": "Атрибуция",
+      "accepted": [
+        "Атрибуция"
+      ],
+      "why": "Ссылка на источник отделяет позицию автора от чужого утверждения.",
+      "distractorWhy": "Tend to описывает обычное, но не всеобщее поведение.",
+      "distractorRationales": {
+        "Тенденция": "Tend to описывает обычное, но не всеобщее поведение.",
+        "Граница выборки": "Ограничивающая группа задаёт участников или условия наблюдения."
+      },
+      "skillTarget": "academic-hedging-and-stance",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "W1",
+      "group": "Самостоятельное применение",
+      "prompt": "Есть семь ответов об удобстве расписания. Сформулируй наблюдение, осторожную гипотезу и ограничение выборки.",
+      "open": true,
+      "rubric": [
+        "Вывод ограничен семью ответами",
+        "Возможная причина обозначена осторожно",
+        "Объяснено, чего данные установить не позволяют",
+        "Все части задания выполнены в одном связном контексте",
+        "Перевод сохраняет роль участников и смысл конструкции",
+        "Ответ содержит собственный английский пример, который можно понять без текста задания."
+      ],
+      "skillTarget": "Самостоятельное применение B2-18",
+      "interactionType": "open-production",
+      "difficulty": "transfer",
+      "sourceBasis": "Speakbase-authored open production; self-review rubric only until real AI feedback is connected",
+      "contentVersion": "1.1-draft"
+    }
+  ],
+  "markdown": "# Speakbase — B2-18: Hedging and stance in academic English\n\n**Curriculum ID:** `B2-18`  \n**Уровень:** B2  \n**Версия:** 1.1-draft\n**Статус:** drafted; exact source-page verification, editorial key review and learner test are pending  \n**Предварительные темы:** B1-09, B1-18  \n**Связь со старым каталогом:** Частично — №10 Modal verbs\n\n## 1. Результаты обучения\n\n- Смягчать утверждения, выражать осторожность и степень уверенности\n- Выбирать целевую форму по значению, структуре предложения и контексту.\n- Объяснять, почему близкая грамматическая форма меняет смысл или регистр.\n- Находить и исправлять типичные ошибки русскоязычных студентов.\n\n## 2. Источники и статус сверки\n\n| Source | PDF navigation | Lesson-specific checks | Status |\n|---|---|---|---|\n| GR-03 U77 | PDF pages 178-179 (printed pp. 154-155, Unit 77) | Focus adverbs and scope; relevant to limiting the strength/extent of a claim | indexed; source scan unavailable for recheck |\n| GR-03 U78 | PDF pages 180-181 (printed pp. 156-157, Unit 78) | Comment and viewpoint adverbs: speaker stance and perspective | indexed; source scan unavailable for recheck |\n| GR-03 U102 | PDF pages 228-229 (printed pp. 204-205, Unit 102) | Impersonal reporting and distancing from a point of view | indexed; source scan unavailable for recheck |\n| GR-03 U105 | PDF pages 234-235 (printed pp. 210-211, Unit 105) | Academic discussion lead-ins and cautious reporting language | indexed; source scan unavailable for recheck |\n| GR-05 B2 p26-27 | PDF pages 26-27 (B2 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n\nUnit/page locations are navigation aids only. They do not prove that the cited explanation, examples, restrictions and answer key have been checked for this lesson. Examples and explanations below are Speakbase-authored, not quotations from the textbook.\n\nПеред переводом этого урока в source-verified необходимо открыть целевые страницы конкретного издания, записать печатную и PDF-пагинацию, сверить ограничения и исключения. Для GR-03 со сканированными страницами обязательна визуальная проверка.\n\nСверка этой редакции: GR-05 B2 p. 26–29: hedging and likelihood. Остальные строки сохраняют прежний статус.\n\n## 3. Место темы и границы\n\nHedging and stance: may/might, appear/seem, suggest, likely, possible; калибруй утверждение по доказательствам.\n\nСтарый каталог содержит: №10 Modal verbs. Его статус — Частично. Старые отметки завершения не переносятся автоматически на новый постоянный ID. Тема рассматривается в уровне B2 и не заменяет обязательные prerequisites.\n\n## 4. Полный конспект\n\n### 4.1. Основная идея и функция конструкции\n\nСила формулировки должна соответствовать данным. May reflect описывает возможную причину; tends to occur — тенденцию; was observed in this group — факт в пределах выборки. Одно наблюдение не подтверждает всеобщность.\n\n### 4.2. Формирование и грамматическая модель\n\nПосле may или might используй V1. После appear или seem подойдут прилагательное или to-инфинитив: seems plausible, appears to vary. Consistent with означает совместимость, а не уникальное доказательство причины.\n\n### 4.3. Как выбрать подходящую форму\n\nУкажи границы вывода там, где они известны. Among our respondents точнее, чем people generally. Ссылка according to the report передаёт источник. Не ослабляй точное измерение без причины и не складывай несколько одинаковых маркеров неуверенности.\n\n### 4.4. Сравнение с близкими конструкциями\n\nThe results prove X — categorical. The results suggest X — cautious interpretation. X may contribute to Y — possibility, not established causation.\n\n| Что проверяем | Вопрос для выбора |\n|---|---|\n| Форма | Какие элементы обязательны и в каком порядке они стоят? |\n| Значение | Что именно меняется: время, длительность, реальность, степень уверенности или фокус? |\n| Контекст | Что уже известно собеседнику и каков регистр высказывания? |\n| Проверка | Если заменить форму близкой конструкцией, изменится ли смысл? Объясни, почему. |\n\n### 4.5. Примеры с переводом и объяснением\n\n| English | Перевод | Почему это подходит |\n|---|---|---|\n| `The findings may indicate a relationship between sleep and memory.` | ?????????? ?????? ????? ????????? ?? ????? ????? ???? ? ???????. | May indicates possibility without claiming certainty; avoid adding another unnecessary hedge such as possible. |\n| `The observed pattern appears consistent with earlier research.` | Наблюдаемая закономерность, по-видимому, согласуется с предыдущими исследованиями. | Appear + adjective complement: consistent. |\n| `The results suggest that further investigation is needed.` | Результаты позволяют предположить, что необходимы дальнейшие исследования. | Suggest presents an evidence-based but cautious interpretation. |\n| `This difference is possibly attributable to sampling variation.` | Это различие, возможно, объясняется вариациями выборки. | Possibly is a stance adverb modifying attributable. |\n\nПримеры составлены Speakbase. Они иллюстрируют грамматическую функцию, но не подменяют индивидуальную проверку всех возможных вариантов и исключений.\n\n### 4.6. Исключения, ограничения и границы употребления\n\n- May/might/could выражают разные оттенки возможности; они не являются полными синонимами во всех контекстах.\n- После modal verb используется base form без to и без окончания -s.\n- Suggest обычно не строится как suggest someone to do; используй suggest doing / suggest that-clause.\n- Likely допускает модели likely to + infinitive и it is likely that + clause; не смешивай их.\n- Позиция only/mainly/partly/particularly меняет область действия и иногда смысл всего предложения.\n- Comment adverbs выражают оценку говорящего; viewpoint adverbs задают перспективу/область рассмотрения.\n- Impersonal reporting приписывает утверждение источнику или группе; само по себе оно не подтверждает истинность утверждения.\n- Не используй prove или guarantee для ограниченных данных; не ослабляй установленный факт без причины.\n- Не накапливай несколько hedge-маркеров в одной фразе: точная одна форма лучше цепочки possibly/perhaps/might/arguably.\n\n### 4.7. Типичные ошибки русскоязычных студентов\n\n| `The findings must indicate a possible relationship between sleep and memory.` | `The findings may indicate a relationship between sleep and memory.` | Must expresses strong certainty and overstates limited evidence; may is appropriately cautious. |\n| `The observed pattern appears consistently with earlier research.` | `The observed pattern appears consistent with earlier research.` | Appear is a linking verb and takes the adjective complement consistent, not the adverb consistently. |\n| `The results prove beyond doubt that further investigation is needed.` | `The results suggest that further investigation is needed.` | Suggest reports a cautious inference; prove beyond doubt overstates what the evidence supports. |\n\nРусский перевод помогает понять смысл, но не управляет английской формой напрямую. Проверяй роль каждого элемента и грамматическую модель английского предложения.\n\n### 4.8. Произношение и восприятие на слух\n\nListen for modal stress and the degree of certainty: contrast a neutral possibility with a more tentative might, and notice how stance adverbs such as arguably/apparently qualify a whole claim. Avoid assuming fixed numerical certainty values.\n\nДля аудирования распознавай слабые формы вспомогательных глаголов, окончания и границы смысловых групп. Не ориентируйся только на чтение по буквам.\n\n### 4.9. Академический английский и TOEFL-перенос\n\nTOEFL transfer for Hedging and stance in academic English: use the target structure to interpret syntax in Reading/Listening and construct clear sentences in Writing/Speaking. This is skill transfer, not a separate exam task.\n\n- **Reading:** синтаксические связи, reference, modifiers и логические отношения.\n- **Listening:** tense/aspect, weak forms, modality, speaker stance и связи между идеями.\n- **Writing — Build a Sentence:** точность структуры, согласование, порядок слов и verb patterns.\n- **Writing — Email / Academic Discussion:** ясность, appropriate register, аргументация и cohesion.\n- **Speaking — Listen and Repeat / Take an Interview:** точность воспроизведения формы и самостоятельное применение.\n\nЭто перенос навыка, а не полноценный экзаменационный пробник и не обещание конкретного балла.\n\n### 4.10. Примеры для управляемого разбора\n\n- The findings ___ indicate a relationship between sleep and memory. => `may` (possibility without certainty).\n- The observed pattern appears ___ with earlier research. => `consistent` (adjective complement after appear).\n- The results ___ that further investigation is needed. => `suggest` (cautious reporting verb).\n\nДля каждого примера назови целевой элемент, объясни форму, укажи, почему отвлекающий вариант неверен, и придумай собственное предложение с тем же правилом.\n\n### 4.11. Самопроверка\n\nПеред отправкой ответа проверь:\n1. Правильно ли определена функция конструкции?\n2. Согласована ли форма с подлежащим и временной перспективой?\n3. Не перенесён ли русский порядок слов напрямую?\n4. Не смешаны ли две похожие модели?\n5. Не сильнее ли утверждение, чем позволяют контекст и доказательства?\n\n### 4.12. Краткая памятка\n\n- may/might/could + base verb; may/might/could have + past participle.\n- seem/appear + adjective, to-infinitive или that-clause.\n- suggest + noun phrase, -ing или that-clause; не suggest someone to do.\n- possibly/probably/arguably/apparently modify a whole proposition or one part: *The change may reflect...* / *The change possibly reflects...*. Avoid stacking may + possibly unless there is a deliberate pragmatic reason.\n- some/many/in some cases/to a certain extent ограничивают scope.\n- only/mainly/partly должны стоять рядом с тем, что ограничивают.\n- It is argued/claimed/suggested that... presents a position without focusing on the agent. Passive reporting creates distance, but identify the source where attribution matters.\n- Match certainty to evidence; do not confuse correlation with causation.\n\n## 5. Практика\n\nВ приложении практика разделена на входную диагностику, управляемые задания, самостоятельную практику и новую выходную проверку. Закрытые ответы получают rationale и разбор ошибки. Свободный текст сохраняется и оценивается по рубрике; до подключения и реальной проверки AI-движка система не выдаёт его за автоматическую AI-оценку.\n\n## 6. Интервальное повторение\n\nПовторяй не весь урок автоматически, а конкретную ошибку: выбор формы, согласование, word order, значение, регистр или пунктуацию. Новая попытка должна менять лексический контекст и формулировку, чтобы проверять перенос, а не запоминание одной строки.\n\n## 7. Технический статус\n\n- Постоянный ID: `B2-18`.\n- Прогресс хранится отдельно в course.grammarLessons[\"B2-18\"].\n- Содержание и ключи имеют статус draft; источник page verification pending.\n- Предварительное выполнение порогов не равно окончательному mastered: нужны отсроченное повторение и learner review.\n",
+  "theoryEnd": "## 5."
+}

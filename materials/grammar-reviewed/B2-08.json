@@ -1,0 +1,686 @@
+{
+  "id": "B2-08",
+  "level": "B2",
+  "sequence": "B2-08",
+  "grammarFamily": "B2-08",
+  "questionBankSource": "topic-specific-authored",
+  "sourceVerification": "draft; selected GR-05 descriptor checked, remaining source review pending",
+  "topicProfile": {
+    "label": "non-finite clauses and clause reduction",
+    "skillTarget": "non-finite-clauses-and-reduction",
+    "core": "Сокращённому обороту часто не хватает собственного подлежащего. Читатель восстанавливает его из главной части. Entering the hall, we heard music означает, что в зал вошли мы. Фраза Entering the hall, music started ошибочно назначает музыку исполнителем.",
+    "form": "-ing часто описывает фон или способ. Having + V3 явно помечает более раннее завершение. V3 выражает пассивное значение: Checked by two readers, the draft was ready. Для цели подходит to + V1, для способа после by — -ing.",
+    "selection": "Иногда у оборота своё подлежащее: Weather permitting, we will walk. Этот случай отличается от обычного оборота с общим исполнителем. Если участников легко перепутать, восстанови полное придаточное с when или because.",
+    "contrast": "Having completed the survey, the team analysed the data. Having been warned, the visitors left. To avoid confusion, label every sample.",
+    "boundary": "Non-finite clauses are concise but can create ambiguity or dangling modifiers. Use an explicit subject or finite clause when the logical subject is not obvious.",
+    "pronunciation": "В длинных non-finite clauses важно интонационное членение: короткая пауза после вводного оборота помогает слушателю восстановить связь с главным clause.",
+    "examples": [],
+    "traps": [],
+    "toefl": "Non-finite clauses повышают плотность академического текста, но перегруженные или dangling modifiers ухудшают ясность. Используй их только при однозначном субъекте."
+  },
+  "title": "Non-finite clauses and clause reduction",
+  "description": "Сокращать придаточные без двусмысленности; контролировать субъект и временные отношения",
+  "cardDescription": "Теория, guided practice, самостоятельные задания и выходная проверка по постоянному ID B2-08.",
+  "eyebrow": "Полный урок программы B2-08 · drafted",
+  "contentVersion": "1.1-draft",
+  "curriculumVersion": "1.0",
+  "prerequisites": [
+    "B1-17",
+    "B1-21"
+  ],
+  "outcomes": [
+    "Сокращать придаточные без двусмысленности; контролировать субъект и временные отношения",
+    "Выбирать целевую конструкцию по контексту и смыслу.",
+    "Исправлять типичные ошибки и переносить правило в новый пример."
+  ],
+  "sourceRefs": [
+    "GR-02 U68",
+    "GR-02 U97",
+    "GR-03 U58-59",
+    "GR-05 B2 p58-59"
+  ],
+  "sourceStatus": "partial; GR-05 B2 p. 13–14: non-finite clauses; full page verification pending",
+  "status": "drafted",
+  "legacyCoverage": "Частично",
+  "toeflLinks": [
+    "Writing: Build a Sentence",
+    "Reading: clause structure, reference, modifiers and logical relationships",
+    "Writing: Academic Discussion"
+  ],
+  "thresholds": {
+    "independent": 7,
+    "exit": 4,
+    "criticalIds": [
+      "E1",
+      "E2",
+      "E3"
+    ]
+  },
+  "groups": {
+    "independent": "Самостоятельная практика",
+    "exit": "Выходная проверка"
+  },
+  "items": [
+    {
+      "id": "D1",
+      "group": "Входная диагностика",
+      "prompt": "___ the survey, the researchers began analysing the results.",
+      "options": [
+        "Having complete",
+        "Having completed",
+        "Completed having"
+      ],
+      "answer": "Having completed",
+      "accepted": [
+        "Having completed"
+      ],
+      "why": "Having + V3 marks an action completed before the main action.",
+      "distractorWhy": "Complete is the base form; perfect participle requires V3.",
+      "distractorRationales": {
+        "Having complete": "Complete is the base form; perfect participle requires V3.",
+        "Completed having": "Completed having reverses the required order and is not a standard construction."
+      },
+      "skillTarget": "non-finite-clauses-and-reduction",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D2",
+      "group": "Входная диагностика",
+      "prompt": "___ by the sudden noise, the birds flew away.",
+      "options": [
+        "Disturbed",
+        "Disturbing",
+        "Having disturb"
+      ],
+      "answer": "Disturbed",
+      "accepted": [
+        "Disturbed"
+      ],
+      "why": "Disturbed is a passive participle: the birds received the effect.",
+      "distractorWhy": "Disturbing would mean the birds caused the noise/disturbance.",
+      "distractorRationales": {
+        "Disturbing": "Disturbing would mean the birds caused the noise/disturbance.",
+        "Having disturb": "Having disturb lacks the past participle and does not form a correct perfect clause."
+      },
+      "skillTarget": "non-finite-clauses-and-reduction",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D3",
+      "group": "Входная диагностика",
+      "prompt": "The team collected samples ___ contamination. Express the purpose of collection.",
+      "options": [
+        "avoiding",
+        "avoided",
+        "to avoid"
+      ],
+      "answer": "to avoid",
+      "accepted": [
+        "to avoid"
+      ],
+      "why": "To + base verb expresses purpose; within that infinitive, avoid takes a noun or -ing complement, not a second to.",
+      "distractorWhy": "Avoiding would describe an accompanying action and does not express the intended purpose as clearly in this sentence.",
+      "distractorRationales": {
+        "avoiding": "Avoiding would describe an accompanying action and does not express the intended purpose as clearly in this sentence.",
+        "avoided": "Avoided is a past participle and cannot express the purpose here."
+      },
+      "skillTarget": "non-finite-clauses-and-reduction",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D4",
+      "group": "Входная диагностика",
+      "prompt": "___ for several hours, the machine finally stopped. Use an active participle: the machine ran autonomously.",
+      "options": [
+        "Having been operated",
+        "Having operated",
+        "Operating it"
+      ],
+      "answer": "Having operated",
+      "accepted": [
+        "Having operated"
+      ],
+      "why": "The machine performed the operation for hours; active perfect participle is appropriate.",
+      "distractorWhy": "Having been operated would mean someone operated it, not that the machine itself ran.",
+      "distractorRationales": {
+        "Having been operated": "Having been operated would mean someone operated it, not that the machine itself ran.",
+        "Operating it": "Operating it introduces an object and changes the logical subject."
+      },
+      "skillTarget": "non-finite-clauses-and-reduction",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G1",
+      "group": "Управляемая практика",
+      "prompt": "The proposal, ___ by the committee, will be discussed tomorrow.",
+      "options": [
+        "approved",
+        "approving",
+        "approve"
+      ],
+      "answer": "approved",
+      "accepted": [
+        "approved"
+      ],
+      "why": "Approved is a reduced passive relative clause: the proposal received approval.",
+      "distractorWhy": "Approving would imply the proposal approves something.",
+      "distractorRationales": {
+        "approving": "Approving would imply the proposal approves something.",
+        "approve": "Approve is a base verb, not a reduced relative participle."
+      },
+      "skillTarget": "non-finite-clauses-and-reduction",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G2",
+      "group": "Управляемая практика",
+      "prompt": "Weather conditions ___, the flight departed on schedule.",
+      "options": [
+        "improving them",
+        "improved having",
+        "having improved"
+      ],
+      "answer": "having improved",
+      "accepted": [
+        "having improved"
+      ],
+      "why": "The absolute construction has its own subject conditions and marks prior improvement.",
+      "distractorWhy": "Improving them introduces an object pronoun and changes the meaning.",
+      "distractorRationales": {
+        "improving them": "Improving them introduces an object pronoun and changes the meaning.",
+        "improved having": "Improved having is not a grammatical participle sequence."
+      },
+      "skillTarget": "non-finite-clauses-and-reduction",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G3",
+      "group": "Управляемая практика",
+      "prompt": "___ the instructions carefully, the technician avoided the error.",
+      "options": [
+        "Followed",
+        "Following",
+        "To following"
+      ],
+      "answer": "Following",
+      "accepted": [
+        "Following"
+      ],
+      "why": "Following introduces an accompanying/reason participle clause with the technician as understood subject.",
+      "distractorWhy": "Followed would create passive meaning, but the technician performs the action.",
+      "distractorRationales": {
+        "Followed": "Followed would create passive meaning, but the technician performs the action.",
+        "To following": "To following incorrectly combines the infinitive marker with gerund."
+      },
+      "skillTarget": "non-finite-clauses-and-reduction",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G4",
+      "group": "Управляемая практика",
+      "prompt": "___ the vault first, the clerk then signed out. Явно обозначь завершённость.",
+      "options": [
+        "Having locked",
+        "Locking",
+        "Locked"
+      ],
+      "answer": "Having locked",
+      "accepted": [
+        "Having locked"
+      ],
+      "why": "Perfect participle подчёркивает предшествующее активное действие.",
+      "distractorWhy": "Простая форма -ing здесь описывает действие в процессе.",
+      "distractorRationales": {
+        "Locking": "Простая форма -ing здесь описывает действие в процессе.",
+        "Locked": "Причастие прошедшего времени описывает объект, который заперли."
+      },
+      "skillTarget": "non-finite-clauses-and-reduction",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G5",
+      "group": "Управляемая практика",
+      "prompt": "Reading the notes, the tutor spotted an error. Кто читает?",
+      "options": [
+        "Действие над подлежащим",
+        "Ошибка исполнителя",
+        "Действие исполнителя"
+      ],
+      "answer": "Действие исполнителя",
+      "accepted": [
+        "Действие исполнителя"
+      ],
+      "why": "Подлежащее главной части само выполняет действие оборота.",
+      "distractorWhy": "Пассивное причастие описывает то, что сделали с подлежащим.",
+      "distractorRationales": {
+        "Действие над подлежащим": "Пассивное причастие описывает то, что сделали с подлежащим.",
+        "Ошибка исполнителя": "Подлежащее главной части не может быть предполагаемым исполнителем."
+      },
+      "skillTarget": "non-finite-clauses-and-reduction",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G6",
+      "group": "Управляемая практика",
+      "prompt": "We left early ___ the queues. Вырази цель.",
+      "options": [
+        "avoiding",
+        "to avoid",
+        "having avoided"
+      ],
+      "answer": "to avoid",
+      "accepted": [
+        "to avoid"
+      ],
+      "why": "Инфинитив цели выражает намерение исполнителя.",
+      "distractorWhy": "После предлога by употребляется -ing для обозначения способа.",
+      "distractorRationales": {
+        "avoiding": "После предлога by употребляется -ing для обозначения способа.",
+        "having avoided": "Perfect -ing явно указывает на уже завершённое действие."
+      },
+      "skillTarget": "non-finite-clauses-and-reduction",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I1",
+      "group": "Самостоятельная практика",
+      "prompt": "___ from outside, the vault remained inaccessible. Сейф заперли.",
+      "options": [
+        "Having locked",
+        "Locking",
+        "Locked"
+      ],
+      "answer": "Locked",
+      "accepted": [
+        "Locked"
+      ],
+      "why": "Причастие прошедшего времени описывает объект, который заперли.",
+      "distractorWhy": "Perfect participle подчёркивает предшествующее активное действие.",
+      "distractorRationales": {
+        "Having locked": "Perfect participle подчёркивает предшествующее активное действие.",
+        "Locking": "Простая форма -ing здесь описывает действие в процессе."
+      },
+      "skillTarget": "non-finite-clauses-and-reduction",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I2",
+      "group": "Самостоятельная практика",
+      "prompt": "Given a new code, the trainee signed in. Получает ли стажёр код?",
+      "options": [
+        "Действие исполнителя",
+        "Действие над подлежащим",
+        "Ошибка исполнителя"
+      ],
+      "answer": "Действие над подлежащим",
+      "accepted": [
+        "Действие над подлежащим"
+      ],
+      "why": "Пассивное причастие описывает то, что сделали с подлежащим.",
+      "distractorWhy": "Подлежащее главной части само выполняет действие оборота.",
+      "distractorRationales": {
+        "Действие исполнителя": "Подлежащее главной части само выполняет действие оборота.",
+        "Ошибка исполнителя": "Подлежащее главной части не может быть предполагаемым исполнителем."
+      },
+      "skillTarget": "non-finite-clauses-and-reduction",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I3",
+      "group": "Самостоятельная практика",
+      "prompt": "We saved time by ___ the central station.",
+      "options": [
+        "avoiding",
+        "to avoid",
+        "having avoided"
+      ],
+      "answer": "avoiding",
+      "accepted": [
+        "avoiding"
+      ],
+      "why": "После предлога by употребляется -ing для обозначения способа.",
+      "distractorWhy": "Инфинитив цели выражает намерение исполнителя.",
+      "distractorRationales": {
+        "to avoid": "Инфинитив цели выражает намерение исполнителя.",
+        "having avoided": "Perfect -ing явно указывает на уже завершённое действие."
+      },
+      "skillTarget": "non-finite-clauses-and-reduction",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I4",
+      "group": "Самостоятельная практика",
+      "prompt": "___ each door in turn, she hummed quietly. Действия одновременны.",
+      "options": [
+        "Having locked",
+        "Locked",
+        "Locking"
+      ],
+      "answer": "Locking",
+      "accepted": [
+        "Locking"
+      ],
+      "why": "Простая форма -ing здесь описывает действие в процессе.",
+      "distractorWhy": "Perfect participle подчёркивает предшествующее активное действие.",
+      "distractorRationales": {
+        "Having locked": "Perfect participle подчёркивает предшествующее активное действие.",
+        "Locked": "Причастие прошедшего времени описывает объект, который заперли."
+      },
+      "skillTarget": "non-finite-clauses-and-reduction",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I5",
+      "group": "Самостоятельная практика",
+      "prompt": "Walking into class, the ceiling seemed low. Кто по форме должен идти?",
+      "options": [
+        "Действие исполнителя",
+        "Ошибка исполнителя",
+        "Действие над подлежащим"
+      ],
+      "answer": "Ошибка исполнителя",
+      "accepted": [
+        "Ошибка исполнителя"
+      ],
+      "why": "Подлежащее главной части не может быть предполагаемым исполнителем.",
+      "distractorWhy": "Подлежащее главной части само выполняет действие оборота.",
+      "distractorRationales": {
+        "Действие исполнителя": "Подлежащее главной части само выполняет действие оборота.",
+        "Действие над подлежащим": "Пассивное причастие описывает то, что сделали с подлежащим."
+      },
+      "skillTarget": "non-finite-clauses-and-reduction",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I6",
+      "group": "Самостоятельная практика",
+      "prompt": "Choose the form explicitly marking prior completion: After ___ the first two delays, we finally got stuck.",
+      "options": [
+        "having avoided",
+        "to avoid",
+        "avoiding"
+      ],
+      "answer": "having avoided",
+      "accepted": [
+        "having avoided"
+      ],
+      "why": "Perfect -ing явно указывает на уже завершённое действие.",
+      "distractorWhy": "Инфинитив цели выражает намерение исполнителя.",
+      "distractorRationales": {
+        "to avoid": "Инфинитив цели выражает намерение исполнителя.",
+        "avoiding": "После предлога by употребляется -ing для обозначения способа."
+      },
+      "skillTarget": "non-finite-clauses-and-reduction",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I7",
+      "group": "Самостоятельная практика",
+      "prompt": "___ overnight, the side gate could not be opened from inside.",
+      "options": [
+        "Having locked",
+        "Locking",
+        "Locked"
+      ],
+      "answer": "Locked",
+      "accepted": [
+        "Locked"
+      ],
+      "why": "Причастие прошедшего времени описывает объект, который заперли.",
+      "distractorWhy": "Perfect participle подчёркивает предшествующее активное действие.",
+      "distractorRationales": {
+        "Having locked": "Perfect participle подчёркивает предшествующее активное действие.",
+        "Locking": "Простая форма -ing здесь описывает действие в процессе."
+      },
+      "skillTarget": "non-finite-clauses-and-reduction",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I8",
+      "group": "Самостоятельная практика",
+      "prompt": "Built in 1910, the hall still hosts concerts. Как связаны hall и built?",
+      "options": [
+        "Действие исполнителя",
+        "Действие над подлежащим",
+        "Ошибка исполнителя"
+      ],
+      "answer": "Действие над подлежащим",
+      "accepted": [
+        "Действие над подлежащим"
+      ],
+      "why": "Пассивное причастие описывает то, что сделали с подлежащим.",
+      "distractorWhy": "Подлежащее главной части само выполняет действие оборота.",
+      "distractorRationales": {
+        "Действие исполнителя": "Подлежащее главной части само выполняет действие оборота.",
+        "Ошибка исполнителя": "Подлежащее главной части не может быть предполагаемым исполнителем."
+      },
+      "skillTarget": "non-finite-clauses-and-reduction",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I9",
+      "group": "Самостоятельная практика",
+      "prompt": "She turned the volume down ___ disturbing the class.",
+      "options": [
+        "to avoid",
+        "avoiding",
+        "having avoided"
+      ],
+      "answer": "to avoid",
+      "accepted": [
+        "to avoid"
+      ],
+      "why": "Инфинитив цели выражает намерение исполнителя.",
+      "distractorWhy": "После предлога by употребляется -ing для обозначения способа.",
+      "distractorRationales": {
+        "avoiding": "После предлога by употребляется -ing для обозначения способа.",
+        "having avoided": "Perfect -ing явно указывает на уже завершённое действие."
+      },
+      "skillTarget": "non-finite-clauses-and-reduction",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E1",
+      "group": "Выходная проверка",
+      "prompt": "___ the last door already, we went home. Сначала завершили действие.",
+      "options": [
+        "Having locked",
+        "Locking",
+        "Locked"
+      ],
+      "answer": "Having locked",
+      "accepted": [
+        "Having locked"
+      ],
+      "why": "Perfect participle подчёркивает предшествующее активное действие.",
+      "distractorWhy": "Простая форма -ing здесь описывает действие в процессе.",
+      "distractorRationales": {
+        "Locking": "Простая форма -ing здесь описывает действие в процессе.",
+        "Locked": "Причастие прошедшего времени описывает объект, который заперли."
+      },
+      "skillTarget": "non-finite-clauses-and-reduction",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E2",
+      "group": "Выходная проверка",
+      "prompt": "Comparing the drafts, Nina found a missing page. Кто сравнивал?",
+      "options": [
+        "Действие над подлежащим",
+        "Ошибка исполнителя",
+        "Действие исполнителя"
+      ],
+      "answer": "Действие исполнителя",
+      "accepted": [
+        "Действие исполнителя"
+      ],
+      "why": "Подлежащее главной части само выполняет действие оборота.",
+      "distractorWhy": "Пассивное причастие описывает то, что сделали с подлежащим.",
+      "distractorRationales": {
+        "Действие над подлежащим": "Пассивное причастие описывает то, что сделали с подлежащим.",
+        "Ошибка исполнителя": "Подлежащее главной части не может быть предполагаемым исполнителем."
+      },
+      "skillTarget": "non-finite-clauses-and-reduction",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E3",
+      "group": "Выходная проверка",
+      "prompt": "He improved the route by ___ unnecessary turns.",
+      "options": [
+        "to avoid",
+        "avoiding",
+        "having avoided"
+      ],
+      "answer": "avoiding",
+      "accepted": [
+        "avoiding"
+      ],
+      "why": "После предлога by употребляется -ing для обозначения способа.",
+      "distractorWhy": "Инфинитив цели выражает намерение исполнителя.",
+      "distractorRationales": {
+        "to avoid": "Инфинитив цели выражает намерение исполнителя.",
+        "having avoided": "Perfect -ing явно указывает на уже завершённое действие."
+      },
+      "skillTarget": "non-finite-clauses-and-reduction",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E4",
+      "group": "Выходная проверка",
+      "prompt": "___ the cabinet slowly, I watched the key turn. Опиши процесс.",
+      "options": [
+        "Locking",
+        "Having locked",
+        "Locked"
+      ],
+      "answer": "Locking",
+      "accepted": [
+        "Locking"
+      ],
+      "why": "Простая форма -ing здесь описывает действие в процессе.",
+      "distractorWhy": "Perfect participle подчёркивает предшествующее активное действие.",
+      "distractorRationales": {
+        "Having locked": "Perfect participle подчёркивает предшествующее активное действие.",
+        "Locked": "Причастие прошедшего времени описывает объект, который заперли."
+      },
+      "skillTarget": "non-finite-clauses-and-reduction",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E5",
+      "group": "Выходная проверка",
+      "prompt": "After checking the answers, the score appeared on my screen. Может ли score проверять?",
+      "options": [
+        "Действие исполнителя",
+        "Действие над подлежащим",
+        "Ошибка исполнителя"
+      ],
+      "answer": "Ошибка исполнителя",
+      "accepted": [
+        "Ошибка исполнителя"
+      ],
+      "why": "Подлежащее главной части не может быть предполагаемым исполнителем.",
+      "distractorWhy": "Подлежащее главной части само выполняет действие оборота.",
+      "distractorRationales": {
+        "Действие исполнителя": "Подлежащее главной части само выполняет действие оборота.",
+        "Действие над подлежащим": "Пассивное причастие описывает то, что сделали с подлежащим."
+      },
+      "skillTarget": "non-finite-clauses-and-reduction",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "W1",
+      "group": "Самостоятельное применение",
+      "prompt": "Опиши подготовку выставки: одновременное действие организатора, завершённую ранее проверку и пассивную характеристику экспоната.",
+      "open": true,
+      "rubric": [
+        "У одновременных действий общий исполнитель",
+        "Прошлая проверка явно предшествует следующему действию",
+        "Пассивный оборот относится к экспонату",
+        "Все части задания выполнены в одном связном контексте",
+        "Перевод сохраняет роль участников и смысл конструкции",
+        "Ответ содержит собственный английский пример, который можно понять без текста задания."
+      ],
+      "skillTarget": "Самостоятельное применение B2-08",
+      "interactionType": "open-production",
+      "difficulty": "transfer",
+      "sourceBasis": "Speakbase-authored open production; self-review rubric only until real AI feedback is connected",
+      "contentVersion": "1.1-draft"
+    }
+  ],
+  "markdown": "# Speakbase — B2-08: Non-finite clauses and clause reduction\n\n**Curriculum ID:** `B2-08`  \n**Уровень:** B2  \n**Версия:** 1.1-draft\n**Статус:** drafted; exact source-page verification, editorial key review and learner test are pending  \n**Предварительные темы:** B1-17, B1-21  \n**Связь со старым каталогом:** Частично — №46 Participle Clauses\n\n## 1. Результаты обучения\n\n- Сокращать придаточные без двусмысленности; контролировать субъект и временные отношения\n- Выбирать целевую форму по значению, структуре предложения и контексту.\n- Объяснять, почему близкая грамматическая форма меняет смысл или регистр.\n- Находить и исправлять типичные ошибки русскоязычных студентов.\n\n## 2. Источники и статус сверки\n\n| Source | PDF navigation | Lesson-specific checks | Status |\n|---|---|---|---|\n| GR-02 U68 | PDF pages 148-149 (Unit 68) | -ing clauses for simultaneous action, time, reason and earlier action with having + V3; text-extracted and checked | text extracted and checked |\n| GR-02 U97 | PDF pages 206-207 (Unit 97) | Reduced relative clauses with -ing/-ed, active vs passive meaning and there + be + participle; text-extracted and checked | text extracted and checked |\n| GR-03 U58 | PDF pages 140-141 (printed pp. 116-117, Unit 58) | Present/perfect participle adverbial clauses, subject control and passive forms visually checked | visually checked; unit-text checked |\n| GR-03 U59 | PDF pages 142-143 (printed pp. 118-119, Unit 59) | Preposition + -ing, with/without -ing and conjunction + participle visually checked | visually checked; unit-text checked |\n| GR-05 B2 p58-59 | PDF pages 58-59 (B2 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n\nUnit/page locations are navigation aids only. They do not prove that the cited explanation, examples, restrictions and answer key have been checked for this lesson. Examples and explanations below are Speakbase-authored, not quotations from the textbook.\n\nПеред переводом этого урока в source-verified необходимо открыть целевые страницы конкретного издания, записать печатную и PDF-пагинацию, сверить ограничения и исключения. Для GR-03 со сканированными страницами обязательна визуальная проверка.\n\nСверка этой редакции: GR-05 B2 p. 13–14: non-finite clauses. Остальные строки сохраняют прежний статус.\n\n## 3. Место темы и границы\n\nNon-finite clauses: to-infinitive, -ing/-ed, reduced clauses; контролируй субъект, временные отношения и dangling modifiers.\n\nСтарый каталог содержит: №46 Participle Clauses. Его статус — Частично. Старые отметки завершения не переносятся автоматически на новый постоянный ID. Тема рассматривается в уровне B2 и не заменяет обязательные prerequisites.\n\n## 4. Полный конспект\n\n### 4.1. Основная идея и функция конструкции\n\nСокращённому обороту часто не хватает собственного подлежащего. Читатель восстанавливает его из главной части. Entering the hall, we heard music означает, что в зал вошли мы. Фраза Entering the hall, music started ошибочно назначает музыку исполнителем.\n\n### 4.2. Формирование и грамматические модели\n\n-ing часто описывает фон или способ. Having + V3 явно помечает более раннее завершение. V3 выражает пассивное значение: Checked by two readers, the draft was ready. Для цели подходит to + V1, для способа после by — -ing.\n\n### 4.3. Как выбрать подходящую форму\n\nИногда у оборота своё подлежащее: Weather permitting, we will walk. Этот случай отличается от обычного оборота с общим исполнителем. Если участников легко перепутать, восстанови полное придаточное с when или because.\n\n### 4.4. Сравнение с близкими конструкциями\n\n| Full clause | Reduced form | Meaning |\n|---|---|---|\n| While Kate was making coffee, she was in the kitchen. | Kate was in the kitchen making coffee. | Simultaneous action |\n| Because I felt tired, I went to bed early. | Feeling tired, I went to bed early. | Reason |\n| After she had finished her work, she went home. | Having finished her work, she went home. | Earlier completed action |\n| The boy who was injured in the accident was taken to hospital. | The boy injured in the accident was taken to hospital. | Reduced passive relative |\n| Although the paper was criticised, it was accepted. | Although criticised, the paper was accepted. | Reduced passive adverbial |\n| Because the weather was fine, we ate outside. | The weather being fine, we ate outside. | Absolute clause with its own subject |\n\n### 4.5. Примеры с переводом и объяснением\n\n| English | Перевод | Почему это подходит |\n|---|---|---|---|\n| `Having completed the survey, the researchers began analysing the results.` | Завершив опрос, исследователи приступили к анализу результатов. | Having + V3 marks an action completed before the main action. |\n| `Disturbed by the sudden noise, the birds flew away.` | Вспугнутые внезапным шумом, птицы улетели. | Disturbed is a passive participle: the birds received the effect. |\n| `The team collected samples to avoid contamination.` | Команда собрала образцы, чтобы избежать загрязнения. | To avoid expresses the purpose of collecting the samples; avoid takes a noun or -ing complement. |\n| `Having operated for several hours, the machine finally stopped.` | Проработав несколько часов, машина наконец остановилась. | The machine performed the operation for hours; active perfect participle is appropriate. |\n\nПримеры составлены Speakbase. Они иллюстрируют грамматическую функцию, но не подменяют индивидуальную проверку всех возможных вариантов и исключений.\n\n### 4.6. Исключения, ограничения и границы употребления\n\n- -ing clauses can express time, reason or accompanying action; context determines the relationship.\n- Having + V3 marks an earlier event; do not use it automatically for simultaneous actions.\n- Having been + V3 marks an earlier passive event; distinguish it from being + V3.\n- A reduced relative -ing clause is active; a V3 clause is passive/resultative in the intended pattern.\n- The understood subject of an adverbial participle clause normally matches the main-clause subject; otherwise a dangling modifier may result.\n- Some participle clauses have their own subject (absolute clauses); do not assume all non-finite clauses are subjectless.\n- After prepositions, use -ing. Prepositional to + -ing differs from infinitive to + base verb.\n- A conjunction + participle reduction is possible only when the omitted subject is recoverable and the relation is clear.\n- Use a full finite clause when the subject, sequence or logical relation could be misread.\n- Introductory participle clauses normally take a comma; punctuation does not fix a dangling modifier.\n\n### 4.7. Типичные ошибки русскоязычных студентов\n\n| `Having complete the survey, the researchers began analysing the results.` | `Having completed the survey, the researchers began analysing the results.` | Complete is the base form; perfect participle requires V3. |\n| `Disturbing by the sudden noise, the birds flew away.` | `Disturbed by the sudden noise, the birds flew away.` | Disturbing would mean the birds caused the noise/disturbance. |\n| `The team collected samples to avoid to contamination.` | `The team collected samples to avoid contamination.` | Avoid takes a noun or -ing complement directly; the extra preposition to is not licensed. |\n\nРусский перевод помогает понять смысл, но не управляет английской формой напрямую. Проверяй роль каждого элемента и грамматическую модель английского предложения.\n\n### 4.8. Произношение и восприятие на слух\n\nTopic-specific pronunciation practice for Non-finite clauses and clause reduction: focus on weak forms, endings and sentence stress. Phonetic examples still require dictionary-audio verification.\n\nДля аудирования распознавай слабые формы вспомогательных глаголов, окончания и границы смысловых групп. Не ориентируйся только на чтение по буквам.\n\n### 4.9. Академический английский и TOEFL-перенос\n\nTOEFL transfer for Non-finite clauses and clause reduction: use the target structure to interpret syntax in Reading/Listening and construct clear sentences in Writing/Speaking. This is skill transfer, not a separate exam task.\n\n- **Reading:** синтаксические связи, reference, modifiers и логические отношения.\n- **Listening:** tense/aspect, weak forms, modality, speaker stance и связи между идеями.\n- **Writing — Build a Sentence:** точность структуры, согласование, порядок слов и verb patterns.\n- **Writing — Email / Academic Discussion:** ясность, appropriate register, аргументация и cohesion.\n- **Speaking — Listen and Repeat / Take an Interview:** точность воспроизведения формы и самостоятельное применение.\n\nЭто перенос навыка, а не полноценный экзаменационный пробник и не обещание конкретного балла.\n\n### 4.10. Примеры для управляемого разбора\n\n- ___ the survey, the researchers began analysing the results. => `Having completed` (not *completed having*).\n- ___ by the sudden noise, the birds flew away. => `Disturbed` (not *having disturb*).\n- The team collected samples ___ contamination. => `to avoid` (not *avoided*).\n\nДля каждого примера назови целевой элемент, объясни форму, укажи, почему отвлекающий вариант неверен, и придумай собственное предложение с тем же правилом.\n\n### 4.11. Самопроверка\n\nПеред отправкой ответа проверь:\n1. Правильно ли определена функция конструкции?\n2. Согласована ли форма с подлежащим и временной перспективой?\n3. Не перенесён ли русский порядок слов напрямую?\n4. Не смешаны ли две похожие модели?\n5. Не сильнее ли утверждение, чем позволяют контекст и доказательства?\n\n### 4.12. Краткая памятка\n\n- Purpose: to + base verb.\n- Simultaneous/accompanying action or reason: -ing.\n- Earlier active event: having + V3; earlier passive event: having been + V3.\n- Reduced relative/adverbial passive: V3; active: -ing.\n- Preposition + -ing; prepositional to + -ing is not infinitive to.\n- Conjunction + participle only when the subject is clear.\n- Check subject control; absolute clauses can have their own subject.\n- Use a full clause if reduction creates ambiguity or a dangling modifier.\n\n## 5. Практика\n\nВ приложении практика разделена на входную диагностику, управляемые задания, самостоятельную практику и новую выходную проверку. Закрытые ответы получают rationale и разбор ошибки. Свободный текст сохраняется и оценивается по рубрике; до подключения и реальной проверки AI-движка система не выдаёт его за автоматическую AI-оценку.\n\n## 6. Интервальное повторение\n\nПовторяй не весь урок автоматически, а конкретную ошибку: выбор формы, согласование, word order, значение, регистр или пунктуацию. Новая попытка должна менять лексический контекст и формулировку, чтобы проверять перенос, а не запоминание одной строки.\n\n## 7. Технический статус\n\n- Постоянный ID: `B2-08`.\n- Прогресс хранится отдельно в course.grammarLessons[\"B2-08\"].\n- Содержание и ключи имеют статус draft; источник page verification pending.\n- Предварительное выполнение порогов не равно окончательному mastered: нужны отсроченное повторение и learner review.",
+  "theoryEnd": "## 5."
+}
