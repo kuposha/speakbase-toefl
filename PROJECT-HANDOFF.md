@@ -121,3 +121,7 @@ A1-07–09: reread all 72 closed prompts/options/keys/rationales and three open 
 ## Final manual acceptance, A1 package 3
 
 A1-10–12: all 72 closed prompts/options/keys/rationales and three open rubrics reread; selected theory excerpts compared against GR-01, GR-02 and GR-05. Clarified determiner scope, quantity contrast, adverb functions and spelling, lexical have to and frequency position. Replaced six answer-repeating frequency prompts with contextual questions; correct answers unchanged. Final text/item pass 9/94; no full source visual/audio or learner acceptance claimed. Archive retained until final review. Next A1-13 onward and pilot lessons. User handles real-account sync.
+
+## Final manual acceptance, A1 package 4
+
+A1-13–15: all 72 closed items and three open rubrics reread; selected GR-01, GR-02, GR-05 text and GR-03 theory scans PDF pp. 26,28,54 reopened. Clarified -ing spelling, state verb exceptions, temporary repeated activity, modal ability versus single success, offers, past necessity and future ability. Added four contrastive tense distractors with explicit semantic targets; correct keys preserved. Final text/item pass 12/94. Full source visual/audio/learner acceptance pending; archive retained; real sync user-deferred. Next A1-16–19 and A1 pilots.
