@@ -93,8 +93,11 @@
   "status": "drafted",
   "legacyCoverage": "Полное ядро",
   "toeflLinks": [
+    "Reading: Complete the Words",
+    "Listening: Conversation",
     "Writing: Build a Sentence",
-    "Writing: Academic Discussion"
+    "Speaking: Listen and Repeat",
+    "Speaking: Take an Interview"
   ],
   "thresholds": {
     "independent": 7,
@@ -291,7 +294,7 @@
       "prompt": "I regret ___ those unkind words yesterday.",
       "options": [
         "saying",
-        "to say yesterday those",
+        "said",
         "say"
       ],
       "answer": "saying",
@@ -299,10 +302,10 @@
         "saying"
       ],
       "why": "Regret doing — сожаление о прошлом действии.",
-      "distractorWhy": "Порядок и модель неверны.",
+      "distractorWhy": "Said — форма прошедшего времени; после regret нужна форма -ing или to + V1.",
       "distractorRationales": {
-        "to say yesterday those": "Порядок и модель неверны.",
-        "say": "Say не нужная форма."
+        "said": "Said — форма прошедшего времени; после regret нужна форма -ing или to + V1.",
+        "say": "Голый инфинитив say после regret не используется; для сожаления о прошлом действии нужна форма -ing."
       },
       "skillTarget": "verb-patterns-meaning-change",
       "interactionType": "single-choice",

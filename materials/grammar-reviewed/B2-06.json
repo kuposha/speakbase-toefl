@@ -44,8 +44,13 @@
   "status": "drafted",
   "legacyCoverage": "Нет",
   "toeflLinks": [
+    "Reading: Read an Academic Passage",
+    "Listening: Announcement",
     "Writing: Build a Sentence",
-    "Writing: Academic Discussion"
+    "Writing: Write an Email",
+    "Writing: Write for an Academic Discussion",
+    "Speaking: Listen and Repeat",
+    "Speaking: Take an Interview"
   ],
   "thresholds": {
     "independent": 7,

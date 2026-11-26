@@ -42,9 +42,11 @@
   "status": "drafted",
   "legacyCoverage": "Частично",
   "toeflLinks": [
+    "Reading: Read an Academic Passage",
+    "Listening: Academic Talk",
     "Writing: Build a Sentence",
-    "Speaking: Listen and Repeat / Take an Interview",
-    "Writing: Academic Discussion"
+    "Speaking: Listen and Repeat",
+    "Speaking: Take an Interview"
   ],
   "thresholds": {
     "independent": 7,

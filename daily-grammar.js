@@ -36,7 +36,7 @@ const grammarExchanges = {
   "A2-15": ["What will you do if the bus is late?","If the bus is late,/I will/walk/to class."],
   "A2-16": ["When will you call the tutor?","I will call/as soon as/the meeting/ends."],
   "A2-17": ["What time is the visit?","The tour/starts/at ten/on Monday."],
-  "A2-18": ["Describe your routine and today's change.","I normally/cycle/to class/but today I am walking."],
+  "A2-18": ["What did you do with the unfamiliar word and the completed assignment?","I looked it up/and/handed in/my assignment."],
   "B1-01": ["How long has your team been waiting?","We/have been waiting/since/the doors opened."],
   "B1-02": ["Why was the board blank when you arrived?","Someone/had already/erased/the notes."],
   "B1-03": ["Why did the technician need a break?","She/had been repairing/the lift/all morning."],
@@ -111,7 +111,7 @@ function dailyGrammarConfig(id) {
 
 function dailyTheory(id) {
   const lesson = dailyGrammarConfig(id);
-  return lesson.theory ? lesson.theory() : window.GrammarLessonEngine.theory(id);
+  return lesson.theory ? lesson.theory() + (window.GrammarToefl ? window.GrammarToefl.panelHtml(id, false) : '') : window.GrammarLessonEngine.theory(id, true);
 }
 
 function revisitDailyTheory() {
@@ -119,6 +119,26 @@ function revisitDailyTheory() {
   if (!session?.grammarId) return;
   modal('<article class="panel a105-theory">'+dailyTheory(session.grammarId)+'</article>'+btn('Вернуться к заданию','lessonScreen()','primary'));
   $('#modal').classList.add('lesson-fullscreen');
+}
+
+// Previous mistakes come back in the next lesson: due spaced-repetition entries first, then the weak list (same rule as the legacy 46-unit route).
+function reviewWarmItems(lessonId) {
+  const out = [], seen = new Set();
+  const add = item => {
+    if (out.length >= 2 || !item || !item.ask || seen.has(item.ask) || item.grammarId === lessonId) return;
+    if (!item.model || !(item.exact || item.choices)) return;
+    if(item.grammarId&&item.grammarItemId){const current=dailyGrammarConfig(item.grammarId)?.items.find(x=>x.id===item.grammarItemId);if(!current||current.open||current.prompt!==item.ask)return;item={...item,model:current.answer,accepted:current.accepted,choices:current.options,tip:current.why,rationales:current.distractorRationales};}
+    seen.add(item.ask);
+    out.push({...item, stage:0, title:'Из прошлых ошибок', warm:true});
+  };
+  if (typeof dueLearningReviews === 'function') {
+    dueLearningReviews().forEach(entry => {
+      const q = entry.question || {};
+      if (q.grammarId && q.model && (q.opts || q.exact)) add({stage:0, ask:q.ask, choices:q.opts, exact:true, model:q.model, accepted:q.accepted, tip:q.tip, grammarId:q.grammarId, grammarItemId:q.grammarItemId});
+    });
+  }
+  courseState().weak.filter(item => item.stage <= 2).slice().reverse().forEach(add);
+  return out;
 }
 
 function curriculumItems(session, otherItems) {
@@ -141,5 +161,5 @@ function curriculumItems(session, otherItems) {
     ask:'Repeat the sentence you heard.',audio:model,model,repeat:true,
     tip:'Повтори услышанное предложение целиком, сохраняя грамматическую форму и смысловые ударения.'};
   const remaining = otherItems.filter(item => item.stage >= 2 && !item.title.startsWith('Grammar into Speaking'));
-  return [theory, ...practice, build, ...remaining.map(item => item.repeat ? repetition : item)];
+  return [theory, ...reviewWarmItems(lesson.id), ...practice, build, ...remaining.map(item => item.repeat ? repetition : item)];
 }

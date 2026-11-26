@@ -95,3 +95,9 @@ Updated runtime, snapshots, lecture notes and review log. Preserved previous-ver
 ## Daily curriculum integration, 26 November 2026
 
 All 94 IDs now connect to the scheduled lesson in each profile. Existing sessions retain their saved item list. Each topic has a distinct campus exchange for Build a Sentence and a Listen and Repeat model. Newly scheduled sessions use the full current lecture and authored grammar items, and record their curriculum ID in the daily report. The introductory dates retain Marina’s Past Simple continuation before the sequenced curriculum and scheduled reviews. Run node test-daily-grammar.cjs for profile isolation, dates, mobile layout, drafts, return to theory and punctuation grading. Actual cross-device account acceptance and remaining source-level checks are pending.
+
+## Grammar progress and TOEFL map stabilization
+
+Recovered unfinished local work after 48ac2ed. Backed up all 128 dirty/untracked files outside the repository. B2-21 D2 key/prompt corrected; TOEFL format links synchronized across 91 snapshots and runtime. Fixed test fixture B2-22 (nonexistent), cross-realm array comparison and mutable schedule snapshot, updated punctuation test to current distractor and excluded warm-ups from lesson-bank counts. A2-18 daily transfer now uses separable phrasal verbs look up and hand in. TOEFL map is format-level guidance and opens general skill trainers; full topic-specific exam-bank filtering remains pending. Real account/cloud acceptance and complete methodological/source review remain open; unrelated changes retained.
+
+Additional safety: daily open answers are mirrored without claiming an automatic grade, both legacy pilot lessons share their existing answer state with daily practice, obsolete question prompts cannot overwrite current grammar answers, and scheduled warm-ups use current keys. Added regression cases for these paths.

@@ -88,9 +88,13 @@
   "status": "drafted",
   "legacyCoverage": "Полное ядро",
   "toeflLinks": [
+    "Reading: Read an Academic Passage",
+    "Listening: Announcement",
+    "Listening: Academic Talk",
     "Writing: Build a Sentence",
-    "Reading: clause structure, reference, modifiers and logical relationships",
-    "Writing: Academic Discussion"
+    "Writing: Write for an Academic Discussion",
+    "Speaking: Listen and Repeat",
+    "Speaking: Take an Interview"
   ],
   "thresholds": {
     "independent": 7,
@@ -548,7 +552,7 @@
       "distractorWhy": "Where we дублирует we и не даёт объект visited.",
       "distractorRationales": {
         "where we": "Where we дублирует we и не даёт объект visited.",
-        "that": "That не подходит."
+        "that": "В non-defining clause после запятой that не используется; нужен which."
       },
       "skillTarget": "non-defining-relative-clauses",
       "interactionType": "single-choice",

@@ -96,10 +96,12 @@
   "status": "drafted",
   "legacyCoverage": "Частично",
   "toeflLinks": [
+    "Reading: Read in Daily Life",
+    "Listening: Choose a Response",
     "Writing: Build a Sentence",
-    "Listening: tense/aspect, modality, weak forms and discourse cues",
-    "Speaking: Listen and Repeat / Take an Interview",
-    "Writing: Academic Discussion"
+    "Writing: Write an Email",
+    "Speaking: Listen and Repeat",
+    "Speaking: Take an Interview"
   ],
   "thresholds": {
     "independent": 7,

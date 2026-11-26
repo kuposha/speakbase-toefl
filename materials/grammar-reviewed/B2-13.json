@@ -43,10 +43,11 @@
   "status": "drafted",
   "legacyCoverage": "Частично",
   "toeflLinks": [
+    "Reading: Complete the Words",
+    "Listening: Academic Talk",
     "Writing: Build a Sentence",
-    "Listening: tense/aspect, modality, weak forms and discourse cues",
-    "Speaking: Listen and Repeat / Take an Interview",
-    "Writing: Academic Discussion"
+    "Speaking: Listen and Repeat",
+    "Speaking: Take an Interview"
   ],
   "thresholds": {
     "independent": 7,

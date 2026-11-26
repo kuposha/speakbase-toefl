@@ -94,8 +94,12 @@
   "status": "drafted",
   "legacyCoverage": "Нет",
   "toeflLinks": [
+    "Reading: Complete the Words",
+    "Reading: Read in Daily Life",
+    "Listening: Announcement",
     "Writing: Build a Sentence",
-    "Writing: Write an Email"
+    "Speaking: Listen and Repeat",
+    "Speaking: Take an Interview"
   ],
   "thresholds": {
     "independent": 7,

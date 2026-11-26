@@ -24,10 +24,11 @@ function selfReviewAverage(review){
   const values=Object.values(review?.criteria||{}).filter(Number.isFinite);
   return values.length?values.reduce((sum,value)=>sum+value,0)/values.length:null;
 }
-function learningQuestionKey(item){return item?.reviewKey||[item?.skill,String(item?.topic||item?.title||'').replace(/\s+·\s+\d+\/\d+$/,''),item?.ask||''].join('::').toLowerCase()}
+function learningQuestionKey(item){return item?.reviewKey||(item?.grammarId&&item?.grammarItemId?['grammar',item.grammarId,item.grammarItemId].join('::'):'')||[item?.skill,String(item?.topic||item?.title||'').replace(/\s+·\s+\d+\/\d+$/,''),item?.ask||''].join('::').toLowerCase()}
 function dueLearningReviews(){return Object.values(db.reviewSchedule||{}).filter(item=>item.nextDue<=Date.now()).sort((a,b)=>a.nextDue-b.nextDue)}
 function updateReviewSchedule(item,result){
   if(!item||!result)return;
+  if(item.grammarId&&item.grammarItemId){const cfg=window.GrammarLessonEngine?.config(item.grammarId)||window.grammarPilotLessons?.[item.grammarId];const current=cfg?.items.find(x=>x.id===item.grammarItemId);if(!current||current.open||current.prompt!==item.ask)return;}
   const score=selfReviewAverage(result.selfReview),aiScore=Number.isFinite(result.aiReview?.practice_estimate)?result.aiReview.practice_estimate:null;
   const reviewScore=score!==null&&aiScore!==null?(score+aiScore/2.5)/2:score!==null?score:aiScore!==null?aiScore/2.5:null;
   const wrong=result.correct===false||(result.issues||[]).length>0||(result.aiReview?.issues||[]).length>0||(reviewScore!==null&&reviewScore<1.4);
@@ -38,6 +39,11 @@ function updateReviewSchedule(item,result){
   db.reviewSchedule[key]={key,skill:item.skill,topic:item.topic||item.title||'Повторение',ask:item.ask||'',question:{...item,audioId:null},repetitions:wrong?0:previous.repetitions+1,lapses:previous.lapses+(wrong?1:0),intervalDays:interval,nextDue:Date.now()+interval*86400000,lastScore:score,lastAiScore:aiScore,lastCorrect:result.correct,updatedAt:new Date().toISOString()};
   persist();
 }
+window.recordGrammarReview=function(config,item,result){
+  if(!config||!item||!result||result.open||typeof result.ok!=='boolean')return;
+  updateReviewSchedule({skill:4,topic:config.title,ask:item.prompt,model:item.answer,opts:item.options,exact:true,accepted:item.accepted,tip:item.why,level:config.level,levelSource:'marked',grammarId:config.id,grammarItemId:item.id,min:4},{correct:result.ok});
+};
+function mirrorGrammarAnswer(saved){const q=saved&&saved.q;if(q?.grammarId&&q?.grammarItemId&&typeof saved.correct==='boolean')window.GrammarLessonEngine?.record?.(q.grammarId,q.grammarItemId,saved.a,saved.correct,'review',q.ask)}
 function learningRecords(){
   const practice=(db.h||[]).map((item,index)=>({source:'practice',record:index,skill:item.q?.skill,item:item.q||{},result:item,date:item.day||''}));
   const sectionSkills=[3,1,2,0];
@@ -118,7 +124,7 @@ function learningPlanMarkup(){
 const originalProgress=progress;
 progress=function(){return originalProgress()+learningPlanMarkup()};
 const originalSubmitAnswer=submitAnswer;
-submitAnswer=function(answer){const before=db.h.length;originalSubmitAnswer(answer);const saved=db.h[before];if(saved)updateReviewSchedule(saved.q,saved)};
+submitAnswer=function(answer){const before=db.h.length;originalSubmitAnswer(answer);const saved=db.h[before];if(saved){updateReviewSchedule(saved.q,saved);mirrorGrammarAnswer(saved)}};
 const originalCheckLesson=checkLesson;
 checkLesson=function(){const before=db.h.length;originalCheckLesson();const saved=db.h[before];if(saved)updateReviewSchedule(saved.q,saved)};
 const originalPracticeReview=review;

@@ -76,7 +76,7 @@
   function a105Submit(){
     const state=a105State(),item=a105Items[state.pos],field=document.getElementById('a105Answer');if(!item||!field)return;const value=field.value.trim();if(!value){field.focus();return}
     const open=Boolean(item.open),ok=open?null:a105Norm(value)===a105Norm(item.answer);
-    state.answers[item.id]={value,ok,open};persist();render();
+    state.answers[item.id]={value,ok,open};window.recordGrammarReview?.(window.grammarPilotLessons['A1-05'],item,{ok,open});persist();render();
   }
   function a105Next(){const state=a105State();if(state.pos<a105Items.length-1)state.pos++;else state.mode='results';persist();render();window.scrollTo(0,0)}
   function a105ResultsView(state){
@@ -88,6 +88,7 @@
   }
   function a105Restart(){const state=a105State();state.mode='practice';state.pos=0;state.answers={};persist();render()}
   window.grammarPilotLessons={'A1-05':{id:'A1-05',title:'Present Simple: утверждения',items:a105Items,theory:a105TheoryHtml}};
+  window.grammarPilotState=id=>id==='A1-05'?(courseState().grammarA105??={mode:'catalog',pos:0,answers:{}}):null;
   window.openGrammarA105=openGrammarA105;window.a105Back=a105Back;window.a105StartPractice=a105StartPractice;window.a105ReturnTheory=a105ReturnTheory;window.a105Submit=a105Submit;window.a105Next=a105Next;window.a105Restart=a105Restart;
   window.grammarLibraryView=function(){
     const state=courseState();
@@ -191,7 +192,7 @@
     const value=field.value.trim();if(!value){field.focus();return}
     const open=Boolean(item.open),accepted=item.accepted||[item.answer];
     const ok=open?null:accepted.some(answer=>a101Norm(answer)===a101Norm(value));
-    state.answers[item.id]={value,ok,open};persist();render();
+    state.answers[item.id]={value,ok,open};window.recordGrammarReview?.(window.grammarPilotLessons['A1-01'],item,{ok,open});persist();render();
   }
   function a101Next(){
     const state=a101State();
@@ -235,6 +236,7 @@
     return '<div class="a105-shell"><div class="row"><button class="btn" onclick="a101Back()">← К каталогу грамматики</button><span class="chip">A1 · A1-01</span></div><div class="a105-hero"><div class="eyebrow">Первый блок грамматической программы · Speakbase</div><h2>Sentence building and basic word order</h2><p>Научись собирать простые английские сообщения: находить подлежащее и глагол, ставить объект на своё место и не переносить русский порядок слов.</p><div class="a105-meta"><span>Полный конспект</span><span>4 базовые модели предложения</span><span>Практика и exit check</span></div></div><section class="panel a105-goals"><h3>Результаты урока</h3><ul><li>Находить subject и verb.</li><li>Строить S + V и S + V + O.</li><li>Различать object, complement и adverbial.</li><li>Собирать полные утвердительные предложения в нейтральном порядке слов.</li></ul><p class="note">Сначала прочитай весь конспект. Практика откроется после теории; ограничение по времени не применяется.</p></section><article class="panel a105-theory">'+a101TheoryHtml()+'</article><div class="a105-sticky"><span>Весь материал можно перечитать во время практики и после занятия.</span><button class="primary" onclick="a101StartPractice()">Перейти к практике</button></div></div>';
   }
   window.grammarPilotLessons['A1-01']={id:'A1-01',title:'Sentence building and basic word order',items:a101Items,theory:a101TheoryHtml};
+  const previousPilotState=window.grammarPilotState;window.grammarPilotState=id=>id==='A1-01'?a101State():previousPilotState?.(id);
   window.openGrammarA101=openGrammarA101;
   window.a101Back=a101Back;
   window.a101StartPractice=a101StartPractice;

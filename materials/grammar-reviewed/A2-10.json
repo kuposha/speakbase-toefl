@@ -100,8 +100,11 @@
   "status": "drafted",
   "legacyCoverage": "Полное ядро",
   "toeflLinks": [
+    "Reading: Complete the Words",
+    "Listening: Announcement",
     "Writing: Build a Sentence",
-    "Writing: Write an Email"
+    "Speaking: Listen and Repeat",
+    "Speaking: Take an Interview"
   ],
   "thresholds": {
     "independent": 7,

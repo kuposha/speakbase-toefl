@@ -36,7 +36,7 @@ async function run() {
           const lesson=dailyGrammarConfig(grammarId);
           const items=buildLesson({lessonDate:date,unit,grammarId,last:'Writing',minutes:110});
           if(!items[0].lecture||items[0].grammarId!==grammarId||dailyTheory(grammarId).length<1000)throw Error(grammarId+' theory');
-          if(items.filter(i=>i.grammarItemId).length!==lesson.items.length)throw Error(grammarId+' practice');
+          if(items.filter(i=>i.grammarItemId&&i.grammarId===grammarId&&!i.warm).length!==lesson.items.length)throw Error(grammarId+' practice');
           const transfer=items.find(i=>i.grammarId===grammarId&&i.title.startsWith('Build a Sentence'));
           if(!transfer?.exact||!items.some(i=>i.repeat&&i.audio===transfer.model))throw Error(grammarId+' transfer');
           dates.set(grammarId,date);
@@ -58,7 +58,7 @@ async function run() {
       await page.evaluate(date=>{pick(date);resumeCurrentSession()},result.date);
       assert.equal(await page.locator('#modal .is-correct').first().isVisible(),true);
       await page.getByRole('button',{name:'Дальше'}).click();
-      await page.locator('#lessonAnswer').selectOption({label:'two aims,'});
+      await page.locator('#lessonAnswer').selectOption({label:'two aims.'});
       await page.getByRole('button',{name:'Проверить',exact:true}).click();
       assert.equal(await page.locator('#modal .is-wrong').first().isVisible(),true,'punctuation must be graded exactly');
       assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));

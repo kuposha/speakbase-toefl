@@ -101,8 +101,12 @@
   "status": "drafted",
   "legacyCoverage": "Полное ядро",
   "toeflLinks": [
+    "Reading: Read in Daily Life",
+    "Listening: Conversation",
     "Writing: Build a Sentence",
-    "Writing: Write an Email"
+    "Writing: Write an Email",
+    "Speaking: Listen and Repeat",
+    "Speaking: Take an Interview"
   ],
   "thresholds": {
     "independent": 7,

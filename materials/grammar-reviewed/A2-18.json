@@ -100,9 +100,12 @@
   "status": "drafted",
   "legacyCoverage": "Нет",
   "toeflLinks": [
+    "Reading: Complete the Words",
+    "Listening: Conversation",
     "Writing: Build a Sentence",
-    "Listening: tense/aspect, modality, weak forms and discourse cues",
-    "Writing: Write an Email"
+    "Writing: Write an Email",
+    "Speaking: Listen and Repeat",
+    "Speaking: Take an Interview"
   ],
   "thresholds": {
     "independent": 7,

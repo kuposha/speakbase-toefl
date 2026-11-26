@@ -95,8 +95,12 @@
   "status": "drafted",
   "legacyCoverage": "Частично",
   "toeflLinks": [
+    "Reading: Complete the Words",
+    "Listening: Conversation",
     "Writing: Build a Sentence",
-    "Writing: Academic Discussion"
+    "Writing: Write for an Academic Discussion",
+    "Speaking: Listen and Repeat",
+    "Speaking: Take an Interview"
   ],
   "thresholds": {
     "independent": 7,

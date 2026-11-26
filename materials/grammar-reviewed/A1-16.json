@@ -92,9 +92,11 @@
   "status": "drafted",
   "legacyCoverage": "Нет",
   "toeflLinks": [
+    "Reading: Read in Daily Life",
+    "Listening: Choose a Response",
+    "Listening: Announcement",
     "Writing: Build a Sentence",
-    "Speaking: Listen and Repeat / Take an Interview",
-    "Writing: Write an Email"
+    "Speaking: Listen and Repeat"
   ],
   "thresholds": {
     "independent": 7,

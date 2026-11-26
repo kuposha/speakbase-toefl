@@ -101,9 +101,11 @@
   "status": "drafted",
   "legacyCoverage": "Частично",
   "toeflLinks": [
+    "Reading: Read in Daily Life",
+    "Listening: Announcement",
     "Writing: Build a Sentence",
-    "Reading: clause structure, reference, modifiers and logical relationships",
-    "Writing: Write an Email"
+    "Speaking: Listen and Repeat",
+    "Speaking: Take an Interview"
   ],
   "thresholds": {
     "independent": 7,

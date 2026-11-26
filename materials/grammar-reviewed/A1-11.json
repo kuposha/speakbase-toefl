@@ -93,10 +93,10 @@
   "status": "drafted",
   "legacyCoverage": "Частично",
   "toeflLinks": [
+    "Reading: Complete the Words",
+    "Listening: Choose a Response",
     "Writing: Build a Sentence",
-    "Listening: tense/aspect, modality, weak forms and discourse cues",
-    "Speaking: Listen and Repeat / Take an Interview",
-    "Writing: Write an Email"
+    "Speaking: Listen and Repeat"
   ],
   "thresholds": {
     "independent": 7,

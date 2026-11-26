@@ -39,6 +39,15 @@
     return state;
   }
   function save(){persist()}
+  // Single progress store for library lessons: library, daily-lesson and review answers all land in courseState().grammarLessons.
+  function record(id,itemId,value,ok,source,prompt){
+    const config=lessons.get(id)||window.grammarPilotLessons?.[id];if(!config)return false;
+    const item=config.items.find(x=>x.id===itemId);if(!item||(prompt!==undefined&&prompt!==item.prompt)||!String(value??'').trim()||(item.open?ok!==null:typeof ok!=='boolean'))return false;
+    const state=lessons.has(id)?getState(id):window.grammarPilotState?.(id);if(!state)return false;
+    state.answers=state.answers||{};
+    state.answers[itemId]={value:String(value??''),ok,open:Boolean(item.open),checkedAt:Date.now(),source:source||'library'};
+    save();return true;
+  }
   function htmlFromMarkdown(markdown){
     const lines=markdown.split(/\r?\n/);let html='',paragraph=[],list='',table=[];
     const flushParagraph=()=>{if(paragraph.length){html+='<p>'+paragraph.map(inline).join(' ')+'</p>';paragraph=[]}};
@@ -60,7 +69,8 @@
     }
     flushParagraph();flushList();flushTable();return html;
   }
-  function theoryHtml(config){
+  function theoryHtml(config,withButtons=true){return theoryHtmlBase(config)+(window.GrammarToefl?window.GrammarToefl.panelHtml(config.id,withButtons):'')}
+  function theoryHtmlBase(config){
     const markdown=config.markdown||'';
     const start=markdown.indexOf(config.theoryStart||'## 4. Полный конспект');
     const end=markdown.indexOf(config.theoryEnd||'## 7. Практика');
@@ -83,7 +93,8 @@
     if(!value){field.focus();return}
     const open=Boolean(item.open),accepted=item.accepted||[item.answer];
     const ok=open?null:(item.options ? accepted.includes(value) : accepted.some(answer=>normalize(answer)===normalize(value)));
-    state.answers[item.id]={value,ok,open,checkedAt:Date.now()};
+    state.answers[item.id]={value,ok,open,checkedAt:Date.now(),source:'library'};
+    window.recordGrammarReview?.(config,item,{ok,open});
     delete state.drafts[item.id];
     save();render();
   }
@@ -150,9 +161,9 @@
     const status=state.mode==='results'?'Повторить урок':answered?'Продолжить ('+answered+'/'+config.items.length+')':'Начать урок';
     return '<section class="panel a105-launch"><div><div class="eyebrow">Новая постоянная программа · '+escValue(id)+'</div><h3>'+escValue(config.title)+'</h3><p>'+escValue(config.cardDescription||config.description)+'</p></div><button class="primary" onclick="grammarLessonEngineOpen('+quote(id)+')">'+status+'</button></section>';
   }
-  window.GrammarLessonEngine={register,view,card,has:id=>lessons.has(id),getState,
+  window.GrammarLessonEngine={register,view,card,has:id=>lessons.has(id),getState,record,
     config:id=>lessons.get(id),
-    theory(id){const config=lessons.get(id);return theoryHtml({...config,markdown:config.markdown||window[config.markdownGlobal]});}
+    theory(id,daily){const config=lessons.get(id);return theoryHtml({...config,markdown:config.markdown||window[config.markdownGlobal]},!daily);}
   };
   window.grammarLessonEngineOpen=id=>changeMode(id,'theory');
   window.grammarLessonEngineStart=id=>changeMode(id,'practice');

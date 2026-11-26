@@ -164,3 +164,11 @@ Deep editorial pass: all 91 new lessons have canonical snapshots, plus the three
 - C1-14 — GR-06, The Penguin Guide to Punctuation, PDF pp. 18–22: граница самостоятельных частей и however после точки с запятой; pp. 12–15: обособление пояснительного придаточного.
 
 No full exercise-by-exercise textbook concordance or real-learner acceptance is claimed. Calendar transfer exercises are original practice aligned to ETS Build a Sentence and Listen and Repeat, not official questions. ETS reference: https://www.ets.org/toefl/test-takers/ibt/about/content.html?version=after-jan-2026
+
+GR-03 scanned pages were reopened and their theory and exercise instructions checked via OCR. Added bilingual contrasts and worked transformations to each corresponding runtime lecture:
+
+- C1-10: GR-03 PDF pp. 188–189, 198–199, 224–225.
+- C1-11: GR-03 PDF pp. 146–155.
+- C1-12: GR-03 PDF pp. 84–87.
+- C1-13: GR-03 PDF pp. 166–169, 174–175.
+- C1-14: GR-03 PDF pp. 228–235.

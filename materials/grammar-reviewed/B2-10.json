@@ -40,9 +40,11 @@
   "status": "drafted",
   "legacyCoverage": "Нет",
   "toeflLinks": [
+    "Reading: Complete the Words",
+    "Listening: Academic Talk",
     "Writing: Build a Sentence",
-    "Reading: clause structure, reference, modifiers and logical relationships",
-    "Writing: Academic Discussion"
+    "Speaking: Listen and Repeat",
+    "Speaking: Take an Interview"
   ],
   "thresholds": {
     "independent": 7,

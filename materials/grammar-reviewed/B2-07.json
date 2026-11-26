@@ -43,9 +43,13 @@
   "status": "drafted",
   "legacyCoverage": "Частично",
   "toeflLinks": [
+    "Reading: Read an Academic Passage",
+    "Listening: Announcement",
+    "Listening: Academic Talk",
     "Writing: Build a Sentence",
-    "Reading: clause structure, reference, modifiers and logical relationships",
-    "Writing: Academic Discussion"
+    "Writing: Write for an Academic Discussion",
+    "Speaking: Listen and Repeat",
+    "Speaking: Take an Interview"
   ],
   "thresholds": {
     "independent": 7,
