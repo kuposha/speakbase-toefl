@@ -113,3 +113,7 @@ GitHub Actions runs 45741754063 and 45743002860 failed in test-mobile-compat.cjs
 ## Final manual acceptance, A1 package 1
 
 Final text-and-item pass for A1-03, A1-04, A1-06: 72 closed prompts, all options, keys and explanations, three open rubrics, lecture text and selected source page ranges reread. Clarified neutral question scope, subject-question exception, countability shifts and plural/possessive distinction. Added task-specific production rubrics; no changes to correct answer keys, no destructive version migration. Source picture exercises, pronunciation/audio and remaining full acceptance gates not marked complete. User requested archive removal only after final review; keep archive for now. User elected to perform real-device account sync themselves; no account changes. Next final review A1-07 onward, including pilots A1-01/02/05.
+
+## Final manual acceptance, A1 package 2
+
+A1-07–09: reread all 72 closed prompts/options/keys/rationales and three open rubrics, lecture and selected source text. Clarified have/have got appointments and activity, short answers, simple past possession; existential there agreement and tense contrasts; demonstratives as determiners/pronouns, possessive its and apostrophe conventions. No correct keys changed; targeted rubric improvements. Total final text/item pass 6/94; do not infer source visual/audio or full learner acceptance. Next A1-10 onward and pilots. Archive retained until acceptance; real-device sync explicitly deferred by user.
