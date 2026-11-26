@@ -117,3 +117,7 @@ Final text-and-item pass for A1-03, A1-04, A1-06: 72 closed prompts, all options
 ## Final manual acceptance, A1 package 2
 
 A1-07–09: reread all 72 closed prompts/options/keys/rationales and three open rubrics, lecture and selected source text. Clarified have/have got appointments and activity, short answers, simple past possession; existential there agreement and tense contrasts; demonstratives as determiners/pronouns, possessive its and apostrophe conventions. No correct keys changed; targeted rubric improvements. Total final text/item pass 6/94; do not infer source visual/audio or full learner acceptance. Next A1-10 onward and pilots. Archive retained until acceptance; real-device sync explicitly deferred by user.
+
+## Final manual acceptance, A1 package 3
+
+A1-10–12: all 72 closed prompts/options/keys/rationales and three open rubrics reread; selected theory excerpts compared against GR-01, GR-02 and GR-05. Clarified determiner scope, quantity contrast, adverb functions and spelling, lexical have to and frequency position. Replaced six answer-repeating frequency prompts with contextual questions; correct answers unchanged. Final text/item pass 9/94; no full source visual/audio or learner acceptance claimed. Archive retained until final review. Next A1-13 onward and pilot lessons. User handles real-account sync.
