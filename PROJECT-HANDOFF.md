@@ -105,3 +105,7 @@ Additional safety: daily open answers are mirrored without claiming an automatic
 ## Topic-specific four-skill transfer
 
 Added 94 original Reading/Listening contextual pairs (188 independent mini-texts with distinct questions, choices and rationales). Topic buttons now launch an actual task for each skill rather than the generic trainer. Existing Build a Sentence and Listen and Repeat exchanges reused with corrections to A2-13, A2-17 and B2-21. Reading/Listening items added to daily route and tagged in history. Active practice drafts protected. These are guided shortened skill-transfer exercises, not full official TOEFL tasks or all mapped subtypes; full-length exam banks remain unchanged. Final methodological/real-device acceptance remains pending.
+
+## Publication blocker and fill-in review
+
+GitHub Actions runs 45741754063 and 45743002860 failed in test-mobile-compat.cjs because the exact expected course.js/learning.js cache keys were stale. Updated the assertions to the actual new versions and added topic-script checks. CI now includes grammar integrity, snapshot review, TOEFL mapping and fill-in integrity checks before packaging Pages. Exam modules and unrelated local edits are untouched. Reviewed B2-14 and B2-21 keys, clarified B2-14 G2/E5 and B2-21 D4 without changing answers or lesson versions; added a structural sweep of all 713 blank prompts, with explicit multi-answer separators for two items. This is not a full source-based methodological sign-off.

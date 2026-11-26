@@ -3,13 +3,14 @@ const html=fs.readFileSync('index.html','utf8'),css=fs.readFileSync('style.css',
 assert.ok(html.includes('name="viewport" content="width=device-width, initial-scale=1"'),'mobile viewport must use device width');
 assert.ok(html.includes('href="style.css?v=20261124-vocabulary-bank"'),'base CSS cache must be refreshed for expanded vocabulary styles');
 assert.ok(html.includes('href="mobile.css?v=20261124-visual-refresh"'),'responsive stylesheet must load after base CSS');
-assert.ok(html.includes('src="course.js?v=20261126-grammar-route"'),'daily lesson vocabulary action must not use a stale cached script');
+assert.ok(html.includes('src="course.js?v=20261126-topic1"'),'daily lesson vocabulary action must not use a stale cached script');
+assert.ok(html.includes('src="grammar-toefl-topic-data.js?v=20261126-topic1"')&&html.includes('src="grammar-toefl-links.js?v=20261126-topic1"'),'topic practice must load its data and current trainer');
 assert.ok(html.includes('src="app.js?v=20261126-grammar-route"'),'mobile navigation and expanded vocabulary bank must not use a stale cached script');
 assert.ok(html.includes('src="exam-studio.js?v=20261124-release-readiness"'),'mobile TOEFL exam studio must load the latest release build');
 assert.ok(html.includes('src="exam-reading-data.js?v=20261124-content-review"'),'mobile reading bank must load the revised content');
 assert.ok(html.includes('src="exam-listening-init.js?v=20261124-qa-final2"'),'mobile Listening evidence must load the reviewed script');
 assert.ok(html.includes('src="exam-writing-data.js?v=20261124-qa-final2"'),'mobile writing bank must load the latest reviewed prompts');
-assert.ok(html.includes('src="learning.js?v=20261124-qa-final2"'),'mobile learning analytics and vocabulary updates must load the latest build');
+assert.ok(html.includes('src="learning.js?v=20261126-grammar-sync1"'),'mobile learning analytics and vocabulary updates must load the latest build');
 assert.ok(html.includes('src="ai-review.js?v=20261124-qa-final2"'),'mobile AI review interface must load');
 assert.ok(mobile.includes('header #themeToggle{position:fixed'),'theme control must share the compact mobile brand row');
 assert.ok(mobile.includes('header>span{flex:0 1 48%;max-width:48%}'),'mobile breadcrumb must have a predictable width');

@@ -179,7 +179,7 @@
     {
       "id": "D4",
       "group": "Входная диагностика",
-      "prompt": "All 120 ___ who had all completed the second ___ received a follow-up email. Select both words with their punctuation.",
+      "prompt": "All 120 ___ each of whom had completed the second ___ received a follow-up email. Select both words with their punctuation.",
       "options": [
         "participants; / survey;",
         "participants, / survey,",

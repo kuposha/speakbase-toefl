@@ -228,7 +228,7 @@
     {
       "id": "G2",
       "group": "Управляемая практика",
-      "prompt": "The diesel model of the car, while ___ expensive, is better value for money.",
+      "prompt": "The diesel model of the car, while ___ expensive than the petrol model, is better value for money.",
       "options": [
         "most",
         "much",
@@ -678,7 +678,7 @@
     {
       "id": "E5",
       "group": "Выходная проверка",
-      "prompt": "The hall was full; therefore, we opened another. Почему открыли зал?",
+      "prompt": "The hall was full; therefore, we opened another. Какую смысловую связь вводит therefore?",
       "options": [
         "Уступка",
         "Сопоставление",
