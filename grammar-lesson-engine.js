@@ -82,7 +82,7 @@
     const value=String(field.value??'').trim();
     if(!value){field.focus();return}
     const open=Boolean(item.open),accepted=item.accepted||[item.answer];
-    const ok=open?null:accepted.some(answer=>normalize(answer)===normalize(value));
+    const ok=open?null:(item.options ? accepted.includes(value) : accepted.some(answer=>normalize(answer)===normalize(value)));
     state.answers[item.id]={value,ok,open,checkedAt:Date.now()};
     delete state.drafts[item.id];
     save();render();
@@ -150,7 +150,10 @@
     const status=state.mode==='results'?'Повторить урок':answered?'Продолжить ('+answered+'/'+config.items.length+')':'Начать урок';
     return '<section class="panel a105-launch"><div><div class="eyebrow">Новая постоянная программа · '+escValue(id)+'</div><h3>'+escValue(config.title)+'</h3><p>'+escValue(config.cardDescription||config.description)+'</p></div><button class="primary" onclick="grammarLessonEngineOpen('+quote(id)+')">'+status+'</button></section>';
   }
-  window.GrammarLessonEngine={register,view,card,has:id=>lessons.has(id),getState};
+  window.GrammarLessonEngine={register,view,card,has:id=>lessons.has(id),getState,
+    config:id=>lessons.get(id),
+    theory(id){const config=lessons.get(id);return theoryHtml({...config,markdown:config.markdown||window[config.markdownGlobal]});}
+  };
   window.grammarLessonEngineOpen=id=>changeMode(id,'theory');
   window.grammarLessonEngineStart=id=>changeMode(id,'practice');
   window.grammarLessonEngineTheory=id=>changeMode(id,'theory');

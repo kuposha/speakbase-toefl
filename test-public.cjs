@@ -17,7 +17,7 @@ const assert=require('node:assert/strict');
       console.log(width,url,response.status(),await page.title());
       assert.equal(response.status(),200);
       assert.ok(await page.evaluate(()=>typeof examCounts==="function" && Array.from({length:24},(_,i)=>examCounts(i).join(",")).every(x=>x==="50,47,12,11")), "Published bank must contain all 24 forms");
-      assert.ok(await page.locator('script[src*="app.js?v=20261124-lesson-ux"]').count(), 'published app must load the personal vocabulary build');
+      assert.ok(await page.locator('script[src*="app.js?v=20261126-grammar-route"]').count(), 'published app must load the personal vocabulary build');
       assert.equal(await page.evaluate(()=>typeof addVocabularyWord),'function','published app must expose the vocabulary capture flow');
       assert.ok(await page.evaluate(async()=>{const s=document.querySelector('script[src*="course.js"]');const r=await fetch(s.src);return r.ok&&(await r.text()).includes("addVocabularyWord('lesson')")}), 'published daily lessons must include the save-word action');
       assert.ok(await page.locator('.auth-gate input[type=email]').isVisible());

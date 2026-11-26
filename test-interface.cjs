@@ -12,7 +12,7 @@ assert.match(html,/localStorage\.getItem\('sb\.theme'\)/);
 assert.match(html,/id="themeToggle"[^>]*onclick="toggleTheme\(\)"/);
 assert.ok(html.includes('style.css?v=20261124-vocabulary-bank'),'base style cache version');
 assert.ok(html.includes('mobile.css?v=20261124-visual-refresh'),'mobile style cache version');
-assert.ok(html.includes('app.js?v=20261125-vocab-review'),'navigation and expanded vocabulary bank script cache version');
+assert.ok(html.includes('app.js?v=20261126-grammar-route'),'navigation and expanded vocabulary bank script cache version');
 assert.ok(html.includes('exam-studio.js?v=20261124-release-readiness'),'TOEFL 2026 exam studio must load the latest release-readiness build');
 assert.ok(html.includes('exam-reading-data.js?v=20261124-content-review'),'revised reading bank must not use stale cache');
 assert.ok(html.includes('exam-listening-init.js?v=20261124-qa-final2'),'Listening evidence improvements must not use stale cache');

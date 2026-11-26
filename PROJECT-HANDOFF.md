@@ -91,3 +91,7 @@ Updated runtime, snapshots, lecture notes and review log. Preserved previous-ver
 ## Editorial continuation B2-01 through B2-21
 
 Updated runtime, snapshots, lecture notes and review log. Preserved previous-version answers through the existing lesson migration. Selected GR-05 descriptors checked; outstanding source and acceptance gates remain open.
+
+## Daily curriculum integration, 26 November 2026
+
+All 94 IDs now connect to the scheduled lesson in each profile. Existing sessions retain their saved item list. Each topic has a distinct campus exchange for Build a Sentence and a Listen and Repeat model. Newly scheduled sessions use the full current lecture and authored grammar items, and record their curriculum ID in the daily report. The introductory dates retain Marina’s Past Simple continuation before the sequenced curriculum and scheduled reviews. Run node test-daily-grammar.cjs for profile isolation, dates, mobile layout, drafts, return to theory and punctuation grading. Actual cross-device account acceptance and remaining source-level checks are pending.

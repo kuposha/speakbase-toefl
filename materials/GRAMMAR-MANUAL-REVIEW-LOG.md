@@ -151,3 +151,16 @@ The existing content-integrity and source-navigation tests are structural checks
 3. Review B2-01 through B2-21 sequentially.
 4. Only after C1 and B2 are complete, proceed to A1, A2 and B1.
 5. Keep every lesson in draft until its own review gates are complete.
+
+## Source and runtime review, 26 November 2026
+
+Deep editorial pass: all 91 new lessons have canonical snapshots, plus the three existing A1 pilot lessons. Page navigation is recorded separately from evidence of actual inspection. Additional targeted locators:
+
+- A1-07 — GR-05 A2, PDF p. 28: пример have got с дополнением. На этой странице нет полного разбора утверждений, вопросов и отрицаний; для них сохраняются ссылки на основной учебник.
+- B1-08 — В предоставленном списке B1 прямой дескриптор модели have something done пока не установлен. Для сопоставления со следующим уровнем: GR-05 B2, PDF p. 42, get + object + to-infinitive и have + object + past participle. Этот дескриптор не подтверждает отнесение всей темы к B1.
+- B2-20 — GR-05 B2, PDF pp. 40–41: структура сложной именной группы и -ing в позиции подлежащего. GR-05 C1, PDF p. 30: формы -ing в роли абстрактных существительных. Эти дескрипторы покрывают часть темы.
+- C1-05 — GR-05 C1, PDF p. 30: абстрактное существительное в форме -ing. Этот дескриптор дополняет раздел учебника о сложных именных группах.
+- B2-21 — GR-06, The Penguin Guide to Punctuation, PDF pp. 12–15: парные запятые и обособление; pp. 18–22: двоеточие и точка с запятой; p. 27: притяжательный апостроф. Номера относятся к страницам PDF, а не к печатной нумерации.
+- C1-14 — GR-06, The Penguin Guide to Punctuation, PDF pp. 18–22: граница самостоятельных частей и however после точки с запятой; pp. 12–15: обособление пояснительного придаточного.
+
+No full exercise-by-exercise textbook concordance or real-learner acceptance is claimed. Calendar transfer exercises are original practice aligned to ETS Build a Sentence and Listen and Repeat, not official questions. ETS reference: https://www.ets.org/toefl/test-takers/ibt/about/content.html?version=after-jan-2026
