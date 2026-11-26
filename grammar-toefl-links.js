@@ -58,15 +58,40 @@
     var eng=root.GrammarLessonEngine&&root.GrammarLessonEngine.config&&root.GrammarLessonEngine.config(id);if(eng)return eng;
     return root.grammarPilotLessons&&root.grammarPilotLessons[id]||null;
   }
+  function topicTask(id,skill){
+    const lesson=lookup(id),ctx=root.grammarToeflContexts?.[id],exchange=root.grammarExchanges?.[id];
+    if(!lesson||!ctx||!exchange||![0,1,2,3].includes(skill))return null;
+    const level=id.slice(0,2),base={skill,level,levelSource:'target',min:5,grammarId:id,topicTaskId:id+':'+skill,topic:id+' · '+lesson.title+' · '+ORDER.find(s=>SKILLS[s]===skill)};
+    if(skill===3||skill===1){
+      const [source,ask,model,b,c,why]=skill===3?ctx.reading:ctx.listening;
+      const options=[model,b,c],rotation=(Number(id.slice(3))+skill)%3;
+      return {...base,source,ask,model,opts:options.slice(rotation).concat(options.slice(0,rotation)),exact:true,taskFormat:skill===3?'Reading context mini-practice':'Listening context mini-practice',tip:why+' Текст для сверки: '+source};
+    }
+    const [cue,segmented]=exchange,chunks=segmented.split('/'),model=chunks.join(' ');
+    if(skill===2)return {...base,taskFormat:'Build a Sentence (guided practice)',ask:cue+' Собери ответ, начав с «'+chunks[0]+'». Фрагменты: '+chunks.slice(1).reverse().concat(chunks[0]).join(' / '),model,exact:true,tip:'Сверь порядок фрагментов и целевую конструкцию: '+lesson.title+'.'};
+    return {...base,taskFormat:'Listen and Repeat (guided practice)',ask:'Repeat the sentence you hear, keeping the words and grammar.',source:model,model,repeat:true,tip:'Прослушай фразу, повтори её вслух и введи расшифровку. Проверяется совпадение текста, не произношение.'};
+  }
+  function startTopic(id,skill){
+    const task=topicTask(id,skill);
+    if(!task)return;
+    if(db.draft){
+      modal('<h2>Есть незавершённая тренировка</h2><p>Сначала закончи текущую тренировку, чтобы не потерять ответы и черновик.</p>'+btn('Продолжить сохранённую тренировку','resume()','primary')+btn('Закрыть','closeModal()','link'));
+      return;
+    }
+    if(db.exam?.active||db.examStudio?.active){
+      modal('<h2>Сначала заверши пробник</h2><p>Тематическая практика не изменяет активный экзамен.</p>'+btn('Закрыть','closeModal()','primary'));return;
+    }
+    begin(task);
+  }
   function panelHtml(id,withButtons){
     var lesson=lookup(id),list=links(id,lesson&&lesson.title);
     var rows=ORDER.map(function(skill){
       var items=list.filter(function(x){return x.skill===skill});
       return '<div class="row"><span><b>'+skill+'</b> — '+items.map(function(x){return esc(x.type)+' ('+esc(x.why)+')'}).join('; ')+'</span>'+
-        (withButtons?'<button type="button" class="btn" onclick="config('+SKILLS[skill]+')">Тренажёр</button>':'')+'</div>';
+        (withButtons&&/^[ABC][12]-\d{2}$/.test(id)?'<button type="button" class="btn" onclick="GrammarToefl.startTopic(\''+id+'\','+SKILLS[skill]+')">Практика темы</button>':'')+'</div>';
     }).join('');
-    return '<section class="panel toefl-links" data-toefl-links="'+esc(id)+'"><h3>Где эта тема встречается в TOEFL</h3><p class="note">Учебная привязка Speakbase к форматам TOEFL iBT 2026, а не официальная классификация ETS. Тренажёры пока не размечены по грамматическим темам: кнопка открывает общий тренажёр навыка.</p><div class="stack">'+rows+'</div></section>';
+    return '<section class="panel toefl-links" data-toefl-links="'+esc(id)+'"><h3>Где эта тема встречается в TOEFL</h3><p class="note">Учебная привязка Speakbase к TOEFL iBT 2026. Кнопки открывают конкретные задания этой темы: короткий текст Reading, отдельную озвучиваемую реплику Listening, Build a Sentence и Listen and Repeat. Это авторская сокращённая практика, не официальный пробник ETS; остальные форматы указаны как ориентиры.</p><div class="stack">'+rows+'</div></section>';
   }
-  var api={links:links,linkStrings:linkStrings,panelHtml:panelHtml,TYPES:TYPES,SKILLS:SKILLS,levelOf:levelOf};
+  var api={links:links,linkStrings:linkStrings,panelHtml:panelHtml,topicTask:topicTask,startTopic:startTopic,TYPES:TYPES,SKILLS:SKILLS,levelOf:levelOf};
   if(typeof module!=='undefined'&&module.exports)module.exports=api;else root.GrammarToefl=api;
 })(typeof window!=='undefined'?window:globalThis);

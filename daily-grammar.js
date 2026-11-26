@@ -31,11 +31,11 @@ const grammarExchanges = {
   "A2-10": ["How much time is left?","We still/have/a little/time."],
   "A2-11": ["How did the guide explain the route?","The guide/explained/the route/clearly."],
   "A2-12": ["What does your colleague enjoy?","My colleague/enjoys/drawing/maps."],
-  "A2-13": ["When does the office close?","What time/does/the office/close?"],
+  "A2-13": ["Ask politely about the office closing time.","Could you tell me/what time/the office/closes?"],
   "A2-14": ["Which app do you want?","I want/an app/that works/offline."],
   "A2-15": ["What will you do if the bus is late?","If the bus is late,/I will/walk/to class."],
   "A2-16": ["When will you call the tutor?","I will call/as soon as/the meeting/ends."],
-  "A2-17": ["What time is the visit?","The tour/starts/at ten/on Monday."],
+  "A2-17": ["What subject is Mia interested in?","Mia/is interested in/biology/this year."],
   "A2-18": ["What did you do with the unfamiliar word and the completed assignment?","I looked it up/and/handed in/my assignment."],
   "B1-01": ["How long has your team been waiting?","We/have been waiting/since/the doors opened."],
   "B1-02": ["Why was the board blank when you arrived?","Someone/had already/erased/the notes."],
@@ -79,7 +79,7 @@ const grammarExchanges = {
   "B2-18": ["How certain is the link between the variables?","The association/may reflect/differences in/prior experience."],
   "B2-19": ["On whose behalf did Jo speak?","Jo spoke/on behalf of/the evening/students."],
   "B2-20": ["What was the consequence of lower fares?","The reduction/in fares/increased/student participation."],
-  "B2-21": ["Was the hall empty when you arrived?","The hall was open,/but/the office/was closed."],
+  "B2-21": ["Were both facilities open?","The hall was open,/but/the office/was closed."],
   "C1-01": ["Had the team ever seen a similar pattern?","Never before/had the team/observed/such a clear pattern."],
   "C1-02": ["What would have happened without that grant?","Had the grant been refused,/the clinic/would have/closed."],
   "C1-03": ["What exactly did the panel dispute?","What the panel disputed/was/the accuracy of/the estimate."],
@@ -95,6 +95,8 @@ const grammarExchanges = {
   "C1-13": ["How large was the difference?","The second estimate/was only marginally/higher than/the first."],
   "C1-14": ["What conclusion can you draw from this pilot?","Among these respondents,/longer waits/were associated with/lower satisfaction."]
 };
+
+window.grammarExchanges=grammarExchanges;
 
 function scheduledGrammar(elapsedDays, profile) {
   const ids = window.grammarBulkCurriculumIds;
@@ -154,12 +156,13 @@ function curriculumItems(session, otherItems) {
     accepted:item.accepted, rationales:item.distractorRationales,
     tip:item.open ? item.rubric.join(' ') : item.why
   }));
-  const build = {stage:1,transferSkill:'Writing',title:'Build a Sentence · '+lesson.title,grammarId:lesson.id,
+  const build = {stage:1,transferSkill:'Writing',title:'Build a Sentence · '+lesson.title,grammarId:lesson.id,topicTaskId:lesson.id+':2',
     ask:cue+' Собери ответ, начав с «'+chunks[0]+'». Фрагменты: '+order.join(' / '),
     model,exact:true,tip:'Сверь порядок фрагментов и форму сказуемого в ответе на реплику.'};
-  const repetition = {stage:4,title:'Listen and Repeat · '+lesson.title,
+  const repetition = {stage:4,transferSkill:'Speaking',grammarId:lesson.id,topicTaskId:lesson.id+':0',title:'Listen and Repeat · '+lesson.title,
     ask:'Repeat the sentence you heard.',audio:model,model,repeat:true,
     tip:'Повтори услышанное предложение целиком, сохраняя грамматическую форму и смысловые ударения.'};
   const remaining = otherItems.filter(item => item.stage >= 2 && !item.title.startsWith('Grammar into Speaking'));
-  return [theory, ...reviewWarmItems(lesson.id), ...practice, build, ...remaining.map(item => item.repeat ? repetition : item)];
+  const contextual=[3,1].map(skill=>window.GrammarToefl.topicTask(lesson.id,skill)).map(task=>({stage:task.skill===1?3:2,transferSkill:task.skill===1?'Listening':'Reading',title:task.topic,grammarId:lesson.id,topicTaskId:task.topicTaskId,ask:task.ask,source:task.skill===3?task.source:undefined,audio:task.skill===1?task.source:undefined,choices:task.opts,exact:true,model:task.model,tip:task.tip}));
+  return [theory, ...reviewWarmItems(lesson.id), ...practice, build, ...contextual.concat(remaining.map(item => item.repeat ? repetition : item)).sort((a,b)=>a.stage-b.stage)];
 }

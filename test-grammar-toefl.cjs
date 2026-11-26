@@ -23,6 +23,7 @@ assert.ok(a218.includes('Reading: Complete the Words')&&a218.includes('Listening
 assert.ok(T.linkStrings('B2-04',title('B2-04')).includes('Reading: Read an Academic Passage'),'passive topics belong to academic reading');
 assert.ok(T.linkStrings('A1-16',title('A1-16')).includes('Listening: Choose a Response'),'imperatives map to short responses');
 const html=T.panelHtml('A2-18',true);
-assert.ok(html.includes('config(3)')&&html.includes('config(1)')&&html.includes('config(2)')&&html.includes('config(0)'),'panel opens all four trainers');
+assert.ok([3,1,2,0].every(skill=>html.includes("GrammarToefl.startTopic('A2-18',"+skill+")")),'panel opens four concrete topic tasks');
+const contexts=require('./grammar-toefl-topic-data.js');assert.equal(Object.keys(contexts).length,94);for(const id of ids){const c=contexts[id];assert.ok(c,id);for(const pair of [c.reading,c.listening]){assert.equal(pair.length,6,id);assert.equal(new Set(pair.slice(2,5)).size,3,id);assert.ok(pair.every(x=>x.trim().length>0),id);}assert.notEqual(c.reading[0],c.listening[0],id+' distinct source');}
 assert.ok(!T.panelHtml('A2-18',false).includes('onclick'),'daily revisit panel has no buttons');
 console.log('TOEFL map: 94 topics x 4 skills, real task types, no drift from reviewed data; A2-18 checked.');

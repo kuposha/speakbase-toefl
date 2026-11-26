@@ -39,6 +39,7 @@ async function run() {
           if(items.filter(i=>i.grammarItemId&&i.grammarId===grammarId&&!i.warm).length!==lesson.items.length)throw Error(grammarId+' practice');
           const transfer=items.find(i=>i.grammarId===grammarId&&i.title.startsWith('Build a Sentence'));
           if(!transfer?.exact||!items.some(i=>i.repeat&&i.audio===transfer.model))throw Error(grammarId+' transfer');
+          for(const skill of ['Reading','Listening']){const t=items.find(i=>i.transferSkill===skill&&i.grammarId===grammarId);if(!t||!t.choices?.includes(t.model)||!t.topicTaskId||!(t.source||t.audio))throw Error(grammarId+' missing contextual '+skill);}
           dates.set(grammarId,date);
         }
         return {count:dates.size,date:dates.get('B2-21'),before:courseState().session?.grammarId||null};
