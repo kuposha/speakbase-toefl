@@ -133,3 +133,7 @@ A1-16–19: reread 96 closed prompts/options/keys/rationales and four open rubri
 ## Final manual acceptance, A1 pilots
 
 A1-01/02/05: reread all 78 closed and 5 open tasks, theory/translations, selected GR-01/02/05 theory text. Clarified ambiguous pronouns and the number of the noun complement with you, refined a redundant A1-01 exit prompt without changing its correct key, corrected A1-05 subject head and be table, source range and assessment threshold. Embedded and Markdown pilot lessons synchronized; no answer keys or existing user state changed. Text/item pass A1 19/19, total 19/94. Full source exercise/visual/audio/learner acceptance remains open; archive not removed yet. Next A2-01 onward. Actual account sync user-deferred.
+
+## Final manual acceptance, A2 package 1
+
+A2-01–03: all 72 closed items and three open rubrics reread; selected GR-01/02/05 theory and GR-03 PDF pp. 30,32 visually reopened. Clarified temporal reference, emphatic did and subject questions, past continuous temporary repetition, and focus vs duration. Three spelling items contextualized, six meaningful tense distractors added, keys unchanged. Final text/item pass 22/94, A2 3/18. Full source exercise/visual/audio/learner acceptance pending, archive retained, real sync user-deferred. Next A2-04 onward.
