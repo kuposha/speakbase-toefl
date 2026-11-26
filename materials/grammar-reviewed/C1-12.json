@@ -1,0 +1,682 @@
+{
+  "id": "C1-12",
+  "level": "C1",
+  "sequence": "C1-12",
+  "grammarFamily": "C1-12",
+  "questionBankSource": "topic-specific-authored",
+  "sourceVerification": "draft; selected GR-05 descriptor checked, remaining source review pending",
+  "topicProfile": {
+    "label": "advanced verb complementation",
+    "skillTarget": "advanced-verb-complementation",
+    "core": "После глагола учи всю конструкцию вместе с её значением. Deny doing описывает отрицаемое действие, agree to do — принятое обязательство, remind somebody to do — напоминание другому человеку. Предлог to отличай от показателя инфинитива: object to waiting, но agree to wait. После предлога возможны существительное или -ing.",
+    "form": "Один глагол допускает разные дополнения. Remember locking the gate означает «помнить, как запирал ворота», remember to lock the gate — «не забыть запереть ворота». Stop talking прекращает разговор, stop to talk обозначает цель остановки. Try changing the cable предлагает способ решения, try to change it описывает усилие и само по себе не сообщает об успехе.",
+    "selection": "После see, hear и notice сочетание object + bare infinitive представляет событие целиком, object + -ing показывает сцену в процессе. Иногда обе формы грамматичны, поэтому выбирай по точке наблюдения. В пассиве He was heard to leave появляется to. Активное make somebody stay также переходит в be made to stay, а разрешение let somebody leave обычно передают через be allowed to leave. В find the route difficult прилагательное описывает маршрут, а не способ поиска.",
+    "contrast": "I saw him leave (complete event). I saw him leaving (process). He was seen to leave (passive perception). The rule prevented them from entering.",
+    "boundary": "Perception verbs may permit bare infinitive or -ing with different aspectual focus. Passive changes the infinitive pattern. Lexical complementation should be learned with examples.",
+    "pronunciation": "В беглой речи to часто редуцируется, а -ing сохраняет носовой финальный звук. Для Listening важно услышать форму дополнения после глагола, особенно если она меняет смысл.",
+    "examples": [],
+    "traps": [],
+    "toefl": "Точные verb patterns важны для грамматической точности в Build a Sentence и письменных ответах. Учите глагол вместе с его дополнением и значением."
+  },
+  "title": "Advanced verb complementation",
+  "description": "Использовать сложные модели дополнений, verbs of senses и различия значения в verb patterns",
+  "cardDescription": "Теория, guided practice, самостоятельные задания и выходная проверка по постоянному ID C1-12.",
+  "eyebrow": "Полный урок программы C1-12 · drafted",
+  "contentVersion": "1.1-draft",
+  "curriculumVersion": "1.0",
+  "prerequisites": [
+    "B1-13",
+    "B2-06"
+  ],
+  "outcomes": [
+    "Использовать сложные модели дополнений, verbs of senses и различия значения в verb patterns",
+    "Выбирать целевую конструкцию по контексту и смыслу.",
+    "Исправлять типичные ошибки и переносить правило в новый пример."
+  ],
+  "sourceRefs": [
+    "GR-03 U28-31",
+    "GR-05 B2 p67-70"
+  ],
+  "sourceStatus": "partial; GR-05 B2 p. 67: perception and meaning-changing complements",
+  "status": "drafted",
+  "legacyCoverage": "Частично",
+  "toeflLinks": [
+    "Writing: Build a Sentence",
+    "Writing: Academic Discussion"
+  ],
+  "thresholds": {
+    "independent": 7,
+    "exit": 4,
+    "criticalIds": [
+      "E1",
+      "E2",
+      "E3"
+    ]
+  },
+  "groups": {
+    "independent": "Самостоятельная практика",
+    "exit": "Выходная проверка"
+  },
+  "items": [
+    {
+      "id": "D1",
+      "group": "Входная диагностика",
+      "prompt": "The committee found the proposal ___ and impractical.",
+      "options": [
+        "unworkably",
+        "unworkable",
+        "to unwork"
+      ],
+      "answer": "unworkable",
+      "accepted": [
+        "unworkable"
+      ],
+      "why": "Find + object + adjective complement describes the proposal.",
+      "distractorWhy": "Unworkably is an adverb, not an object complement adjective.",
+      "distractorRationales": {
+        "unworkably": "Unworkably is an adverb, not an object complement adjective.",
+        "to unwork": "To unwork is an infinitive and does not express the evaluation."
+      },
+      "skillTarget": "advanced-verb-complementation",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D2",
+      "group": "Входная диагностика",
+      "prompt": "The new regulation prevents companies ___ sharing personal data without consent.",
+      "options": [
+        "from",
+        "to",
+        "of"
+      ],
+      "answer": "from",
+      "accepted": [
+        "from"
+      ],
+      "why": "Prevent + object + from + V-ing is the standard pattern.",
+      "distractorWhy": "To does not follow prevent in this construction.",
+      "distractorRationales": {
+        "to": "To does not follow prevent in this construction.",
+        "of": "Of is not the required complement preposition."
+      },
+      "skillTarget": "advanced-verb-complementation",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D3",
+      "group": "Входная диагностика",
+      "prompt": "The witness was heard ___ that the door had been open.",
+      "options": [
+        "say",
+        "saying to",
+        "to say"
+      ],
+      "answer": "to say",
+      "accepted": [
+        "to say"
+      ],
+      "why": "In passive perception, hear + object + bare infinitive changes to be heard + to-infinitive.",
+      "distractorWhy": "Bare say is used in active perception, not after passive was heard.",
+      "distractorRationales": {
+        "say": "Bare say is used in active perception, not after passive was heard.",
+        "saying to": "Saying to does not form the passive perception structure."
+      },
+      "skillTarget": "advanced-verb-complementation",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D4",
+      "group": "Входная диагностика",
+      "prompt": "I caught sight of Noor midway through a scan. Which form explicitly presents the action in progress?",
+      "options": [
+        "I noticed Noor scan all six slides from start to finish.",
+        "I noticed Noor scanning the slides.",
+        "I noticed Noor to scan the slides."
+      ],
+      "answer": "I noticed Noor scanning the slides.",
+      "accepted": [
+        "I noticed Noor scanning the slides."
+      ],
+      "why": "Scanning показывает наблюдаемый процесс.",
+      "distractorWhy": "Bare infinitive представляет событие целиком.",
+      "distractorRationales": {
+        "I noticed Noor scan all six slides from start to finish.": "Bare infinitive представляет событие целиком.",
+        "I noticed Noor to scan the slides.": "После активного notice + object не ставят to перед инфинитивом."
+      },
+      "skillTarget": "advanced-verb-complementation",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G1",
+      "group": "Управляемая практика",
+      "prompt": "The chairperson made the participants ___ their comments concise.",
+      "options": [
+        "keep",
+        "to keep",
+        "keeping"
+      ],
+      "answer": "keep",
+      "accepted": [
+        "keep"
+      ],
+      "why": "Make + object + bare infinitive is the active causative pattern.",
+      "distractorWhy": "To keep is used after be made in passive, not active made the participants.",
+      "distractorRationales": {
+        "to keep": "To keep is used after be made in passive, not active made the participants.",
+        "keeping": "Keeping is a gerund and does not follow make + object here."
+      },
+      "skillTarget": "advanced-verb-complementation",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G2",
+      "group": "Управляемая практика",
+      "prompt": "The participants were allowed ___ the session early.",
+      "options": [
+        "leave",
+        "leaving",
+        "to leave"
+      ],
+      "answer": "to leave",
+      "accepted": [
+        "to leave"
+      ],
+      "why": "Allow + object + to-infinitive; passive be allowed to do.",
+      "distractorWhy": "Bare leave is not used after passive were allowed.",
+      "distractorRationales": {
+        "leave": "Bare leave is not used after passive were allowed.",
+        "leaving": "Leaving is a gerund, not the infinitive complement."
+      },
+      "skillTarget": "advanced-verb-complementation",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G3",
+      "group": "Управляемая практика",
+      "prompt": "The study led the authors ___ their original hypothesis.",
+      "options": [
+        "reconsider",
+        "to reconsider",
+        "reconsidering"
+      ],
+      "answer": "to reconsider",
+      "accepted": [
+        "to reconsider"
+      ],
+      "why": "Lead + object + to-infinitive expresses a resulting action.",
+      "distractorWhy": "Bare reconsider does not follow lead + object in this pattern.",
+      "distractorRationales": {
+        "reconsider": "Bare reconsider does not follow lead + object in this pattern.",
+        "reconsidering": "Reconsidering does not complete the verb + object + infinitive structure."
+      },
+      "skillTarget": "advanced-verb-complementation",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G4",
+      "group": "Управляемая практика",
+      "prompt": "I remember ___ the envelope yesterday. Я помню сам момент.",
+      "options": [
+        "sealing",
+        "to seal",
+        "seal"
+      ],
+      "answer": "sealing",
+      "accepted": [
+        "sealing"
+      ],
+      "why": "Remember + -ing описывает воспоминание.",
+      "distractorWhy": "To seal передаёт задачу, которую надо помнить.",
+      "distractorRationales": {
+        "to seal": "To seal передаёт задачу, которую надо помнить.",
+        "seal": "Голая форма после remember здесь невозможна."
+      },
+      "skillTarget": "advanced-verb-complementation",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G5",
+      "group": "Управляемая практика",
+      "prompt": "Remember ___ the receipt before you leave. Действие ещё предстоит.",
+      "options": [
+        "collecting",
+        "collected",
+        "to collect"
+      ],
+      "answer": "to collect",
+      "accepted": [
+        "to collect"
+      ],
+      "why": "Инфинитив обозначает поручение.",
+      "distractorWhy": "-ing вернуло бы к воспоминанию.",
+      "distractorRationales": {
+        "collecting": "-ing вернуло бы к воспоминанию.",
+        "collected": "Причастие не вводит поручение."
+      },
+      "skillTarget": "advanced-verb-complementation",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G6",
+      "group": "Управляемая практика",
+      "prompt": "We stopped ___ water, then resumed cycling. Зачем остановились?",
+      "options": [
+        "buying",
+        "to buy",
+        "bought"
+      ],
+      "answer": "to buy",
+      "accepted": [
+        "to buy"
+      ],
+      "why": "Инфинитив цели сообщает причину остановки.",
+      "distractorWhy": "Stopping buying означает прекращение покупок.",
+      "distractorRationales": {
+        "buying": "Stopping buying означает прекращение покупок.",
+        "bought": "Bought не выражает цель."
+      },
+      "skillTarget": "advanced-verb-complementation",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I1",
+      "group": "Самостоятельная практика",
+      "prompt": "The pump stopped ___ water at noon. Оно перестало подавать воду.",
+      "options": [
+        "to deliver",
+        "deliver",
+        "delivering"
+      ],
+      "answer": "delivering",
+      "accepted": [
+        "delivering"
+      ],
+      "why": "Stop + -ing прекращает указанное действие.",
+      "distractorWhy": "To deliver обозначило бы цель остановки.",
+      "distractorRationales": {
+        "to deliver": "To deliver обозначило бы цель остановки.",
+        "deliver": "Голая форма невозможна."
+      },
+      "skillTarget": "advanced-verb-complementation",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I2",
+      "group": "Самостоятельная практика",
+      "prompt": "Try ___ the spare cable first. Проверь этот способ устранить помеху.",
+      "options": [
+        "used",
+        "using",
+        "use it"
+      ],
+      "answer": "using",
+      "accepted": [
+        "using"
+      ],
+      "why": "Try + -ing предлагает эксперимент.",
+      "distractorWhy": "Used не образует дополнение.",
+      "distractorRationales": {
+        "used": "Used не образует дополнение.",
+        "use it": "Use it не встраивается перед the spare cable."
+      },
+      "skillTarget": "advanced-verb-complementation",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I3",
+      "group": "Самостоятельная практика",
+      "prompt": "We regret ___ you that no rooms remain. Выбери стандартную формулу уведомления.",
+      "options": [
+        "to inform",
+        "inform",
+        "to informing"
+      ],
+      "answer": "to inform",
+      "accepted": [
+        "to inform"
+      ],
+      "why": "Regret + to inform вводит неприятное сообщение.",
+      "distractorWhy": "Голая форма не употребляется.",
+      "distractorRationales": {
+        "inform": "Голая форма не употребляется.",
+        "to informing": "Инфинитивное to требует inform."
+      },
+      "skillTarget": "advanced-verb-complementation",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I4",
+      "group": "Самостоятельная практика",
+      "prompt": "Training staff involves ___ time aside every week.",
+      "options": [
+        "to set",
+        "set",
+        "setting"
+      ],
+      "answer": "setting",
+      "accepted": [
+        "setting"
+      ],
+      "why": "Involve принимает герундий.",
+      "distractorWhy": "To set не стандартное дополнение involve.",
+      "distractorRationales": {
+        "to set": "To set не стандартное дополнение involve.",
+        "set": "Голая форма не следует за involves."
+      },
+      "skillTarget": "advanced-verb-complementation",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I5",
+      "group": "Самостоятельная практика",
+      "prompt": "The editor warned us ___ confidential names.",
+      "options": [
+        "to not printing",
+        "not to print",
+        "not print"
+      ],
+      "answer": "not to print",
+      "accepted": [
+        "not to print"
+      ],
+      "why": "Warn + объект + отрицательный инфинитив.",
+      "distractorWhy": "После to в инфинитиве нужна базовая форма.",
+      "distractorRationales": {
+        "to not printing": "После to в инфинитиве нужна базовая форма.",
+        "not print": "Warn требует to перед print."
+      },
+      "skillTarget": "advanced-verb-complementation",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I6",
+      "group": "Самостоятельная практика",
+      "prompt": "They objected to ___ recorded.",
+      "options": [
+        "being",
+        "be",
+        "been"
+      ],
+      "answer": "being",
+      "accepted": [
+        "being"
+      ],
+      "why": "To является предлогом, пассив выражен being recorded.",
+      "distractorWhy": "Be не может быть дополнением предлога.",
+      "distractorRationales": {
+        "be": "Be не может быть дополнением предлога.",
+        "been": "Been требует вспомогательного глагола."
+      },
+      "skillTarget": "advanced-verb-complementation",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I7",
+      "group": "Самостоятельная практика",
+      "prompt": "The tutor suggested ___ the dates before booking.",
+      "options": [
+        "us to check",
+        "check them",
+        "checking"
+      ],
+      "answer": "checking",
+      "accepted": [
+        "checking"
+      ],
+      "why": "Suggest допускает герундий или that-clause.",
+      "distractorWhy": "Модель object + to нужна с advise, не с suggest.",
+      "distractorRationales": {
+        "us to check": "Модель object + to нужна с advise, не с suggest.",
+        "check them": "Check them не присоединяет the dates."
+      },
+      "skillTarget": "advanced-verb-complementation",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I8",
+      "group": "Самостоятельная практика",
+      "prompt": "The guide let us ___ the archive early.",
+      "options": [
+        "to enter",
+        "enter",
+        "entering"
+      ],
+      "answer": "enter",
+      "accepted": [
+        "enter"
+      ],
+      "why": "Let + object + bare infinitive.",
+      "distractorWhy": "To после let лишнее.",
+      "distractorRationales": {
+        "to enter": "To после let лишнее.",
+        "entering": "-ing не обозначает здесь разрешённое действие."
+      },
+      "skillTarget": "advanced-verb-complementation",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I9",
+      "group": "Самостоятельная практика",
+      "prompt": "They were made ___ the test again.",
+      "options": [
+        "to take",
+        "take",
+        "taking"
+      ],
+      "answer": "to take",
+      "accepted": [
+        "to take"
+      ],
+      "why": "Пассив be made восстанавливает to.",
+      "distractorWhy": "Bare infinitive возможен в активе made them take.",
+      "distractorRationales": {
+        "take": "Bare infinitive возможен в активе made them take.",
+        "taking": "-ing не соответствует пассивной модели принуждения."
+      },
+      "skillTarget": "advanced-verb-complementation",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E1",
+      "group": "Выходная проверка",
+      "prompt": "I heard the bell ___ three times from start to finish.",
+      "options": [
+        "ring",
+        "to ring",
+        "rang"
+      ],
+      "answer": "ring",
+      "accepted": [
+        "ring"
+      ],
+      "why": "После heard + object целое событие выражает bare infinitive.",
+      "distractorWhy": "В активной конструкции to не нужно.",
+      "distractorRationales": {
+        "to ring": "В активной конструкции to не нужно.",
+        "rang": "Личная форма rang потребовала бы отдельного придаточного."
+      },
+      "skillTarget": "advanced-verb-complementation",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E2",
+      "group": "Выходная проверка",
+      "prompt": "The nurse explained the procedure ___ me.",
+      "options": [
+        "at",
+        "by",
+        "to"
+      ],
+      "answer": "to",
+      "accepted": [
+        "to"
+      ],
+      "why": "Адресат после explain вводится to.",
+      "distractorWhy": "At задаёт направленность с другими глаголами.",
+      "distractorRationales": {
+        "at": "At задаёт направленность с другими глаголами.",
+        "by": "By обозначило бы агента или способ."
+      },
+      "skillTarget": "advanced-verb-complementation",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E3",
+      "group": "Выходная проверка",
+      "prompt": "We consider the estimate reliable. Какова функция reliable?",
+      "options": [
+        "Описывает способ размышления.",
+        "Описывает оценку estimate.",
+        "Называет того, кто дал оценку."
+      ],
+      "answer": "Описывает оценку estimate.",
+      "accepted": [
+        "Описывает оценку estimate."
+      ],
+      "why": "Прилагательное является предикативным дополнением объекта.",
+      "distractorWhy": "Для образа действия нужно наречие.",
+      "distractorRationales": {
+        "Описывает способ размышления.": "Для образа действия нужно наречие.",
+        "Называет того, кто дал оценку.": "Слово обозначает свойство."
+      },
+      "skillTarget": "advanced-verb-complementation",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E4",
+      "group": "Выходная проверка",
+      "prompt": "The technician denied ___ the log before the audit.",
+      "options": [
+        "having altered",
+        "to have altered",
+        "have altered"
+      ],
+      "answer": "having altered",
+      "accepted": [
+        "having altered"
+      ],
+      "why": "Deny принимает -ing, perfect подчёркивает предшествование.",
+      "distractorWhy": "Перфектный инфинитив не сочетается с deny в этой модели.",
+      "distractorRationales": {
+        "to have altered": "Перфектный инфинитив не сочетается с deny в этой модели.",
+        "have altered": "Have altered не является допустимым дополнением."
+      },
+      "skillTarget": "advanced-verb-complementation",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E5",
+      "group": "Выходная проверка",
+      "prompt": "Choose the revision preserving “The notice reminded the interns of their duty to lock up.”",
+      "options": [
+        "The notice remembered the interns locking up.",
+        "The notice reminded to lock up the interns.",
+        "The notice reminded the interns to lock up."
+      ],
+      "answer": "The notice reminded the interns to lock up.",
+      "accepted": [
+        "The notice reminded the interns to lock up."
+      ],
+      "why": "Remind + лицо + to обозначает напоминание исполнителю.",
+      "distractorWhy": "Remember значит помнить.",
+      "distractorRationales": {
+        "The notice remembered the interns locking up.": "Remember значит помнить.",
+        "The notice reminded to lock up the interns.": "Исполнители исчезают с позиции дополнения remind."
+      },
+      "skillTarget": "advanced-verb-complementation",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "W1",
+      "group": "Самостоятельное применение",
+      "prompt": "Напиши сообщение руководителю стажировки о забытом поручении. Различи remember doing и remember to do, затем объясни, какое действие тебе разрешили выполнить.",
+      "open": true,
+      "rubric": [
+        "Назван исполнитель поручения",
+        "Воспоминание отличено от обязанности",
+        "После remember выбраны разные модели",
+        "Разрешение оформлено через let или allow",
+        "Хронология ясна"
+      ],
+      "skillTarget": "Самостоятельное применение C1-12",
+      "interactionType": "open-production",
+      "difficulty": "transfer",
+      "sourceBasis": "Speakbase-authored open production; self-review rubric only until real AI feedback is connected",
+      "contentVersion": "1.1-draft"
+    }
+  ],
+  "markdown": "# Speakbase — C1-12: Advanced verb complementation\n\n**Curriculum ID:** `C1-12`  \n**Уровень:** C1  \n**Версия:** 1.1-draft\n**Статус:** draft; manual content review in progress; source-page image verification, app rendering and learner test remain pending\n**Предварительные темы:** B1-13, B2-06  \n**Связь со старым каталогом:** Частично — №35 Gerunds and Infinitives; №36 Verb Patterns\n\n## 1. Результаты обучения\n\n- Использовать сложные модели дополнений, verbs of senses и различия значения в verb patterns\n- Выбирать целевую форму по значению, структуре предложения и контексту.\n- Объяснять, почему близкая грамматическая форма меняет смысл или регистр.\n- Находить и исправлять типичные ошибки русскоязычных студентов.\n\n## 2. Источники и статус сверки\n\n| Source | PDF navigation | Lesson-specific checks | Status |\n|---|---|---|---|\n| GR-03 U28 | PDF pp. 80–81 (printed pp. 56–57) | Verbs, objects and complements; transitive/intransitive patterns and verb + preposition | unit-page indexed; visual verification pending |\n| GR-03 U29 | PDF pp. 82–83 (printed pp. 58–59) | Verb + two objects and object order | unit-page indexed; visual verification pending |\n| GR-03 U30 | PDF pp. 84–85 (printed pp. 60–61) | Verb + -ing forms and infinitives 1 | unit-page indexed; visual verification pending |\n| GR-03 U31 | PDF pp. 86–87 (printed pp. 62–63) | Verb + -ing forms and infinitives 2 | unit-page indexed; visual verification pending |\n| GR-05 B2 p67–70 | PDF pp. 67–70 | Compare complement patterns, examples, restrictions and learner evidence | page indexed; content review pending |\n\nUnit/page locations are navigation aids only. They do not prove that cited explanations, examples, restrictions or answer keys have been checked. Examples and explanations below are Speakbase-authored, not quotations from a textbook.\n\nПеред переводом этого урока в source-verified необходимо открыть целевые страницы конкретного издания, записать печатную и PDF-пагинацию, сверить ограничения и исключения. Для GR-03 со сканированными страницами обязательна визуальная проверка.\n\nСверка этой редакции: GR-05 B2 p. 67: perception and meaning-changing complements. Остальные строки сохраняют прежний статус.\n\n## 3. Место темы и границы\n\nAdvanced verb complementation: complex object/complement patterns, verbs of senses и различия значения.\n\nСтарый каталог содержит: №35 Gerunds and Infinitives; №36 Verb Patterns. Его статус — Частично. Старые отметки завершения не переносятся автоматически на новый постоянный ID. Тема рассматривается в уровне C1 и не заменяет обязательные prerequisites.\n\n## 4. Полный конспект\n\n### 4.1. Основная идея и функция конструкции\n\nПосле глагола учи всю конструкцию вместе с её значением. Deny doing описывает отрицаемое действие, agree to do — принятое обязательство, remind somebody to do — напоминание другому человеку. Предлог to отличай от показателя инфинитива: object to waiting, но agree to wait. После предлога возможны существительное или -ing.\n\n### 4.2. Формирование и грамматические модели\n\nОдин глагол допускает разные дополнения. Remember locking the gate означает «помнить, как запирал ворота», remember to lock the gate — «не забыть запереть ворота». Stop talking прекращает разговор, stop to talk обозначает цель остановки. Try changing the cable предлагает способ решения, try to change it описывает усилие и само по себе не сообщает об успехе.\n\n### 4.3. Как выбрать подходящую форму\n\nПосле see, hear и notice сочетание object + bare infinitive представляет событие целиком, object + -ing показывает сцену в процессе. Иногда обе формы грамматичны, поэтому выбирай по точке наблюдения. В пассиве He was heard to leave появляется to. Активное make somebody stay также переходит в be made to stay, а разрешение let somebody leave обычно передают через be allowed to leave. В find the route difficult прилагательное описывает маршрут, а не способ поиска.\n\n### 4.4. Сравнение с близкими конструкциями\n\nI saw him leave (complete event). I saw him leaving (process). He was seen to leave (passive perception). The rule prevented them from entering.\n\n| Что проверяем | Вопрос для выбора |\n|---|---|\n| Форма | Какие элементы обязательны и в каком порядке они стоят? |\n| Значение | Что именно меняется: время, длительность, реальность, степень уверенности или фокус? |\n| Контекст | Что уже известно собеседнику и каков регистр высказывания? |\n| Проверка | Если заменить форму близкой конструкцией, изменится ли смысл? Объясни, почему. |\n\n### 4.5. Примеры с переводом и объяснением\n\n| English | Перевод | Почему это подходит |\n|---|---|---|---|\n| `The committee found the proposal unworkable and impractical.` | Комитет счёл это предложение неосуществимым и непрактичным. | Find + object + adjective complement describes the proposal. |\n| `The new regulation prevents companies from sharing personal data without consent.` | Новый регламент не позволяет компаниям передавать персональные данные без согласия. | Prevent + object + from + V-ing is the standard pattern. |\n| `The witness was heard to say that the door had been open.` | Свидетель, как слышали, сказал, что дверь была открыта. | In passive perception, hear + object + bare infinitive changes to be heard + to-infinitive. |\n| `I noticed the researcher labeling the samples when I entered the room.` | Когда я вошёл в комнату, я заметил, что исследователь маркирует образцы. | Notice + object + V-ing focuses on an action in progress. |\n\nПримеры составлены Speakbase. Они иллюстрируют грамматическую функцию, но не подменяют индивидуальную проверку всех возможных вариантов и исключений.\n\n### 4.6. Исключения, ограничения и границы употребления\n\n- Verb complementation is lexical; verbs with similar meanings may require different patterns.\n- Some verbs allow both -ing and to-infinitive, sometimes with a meaning/aspect difference; others allow only one.\n- Prevent requires an object + from + -ing; do not use prevent someone to do.\n- Passive perception patterns commonly use to-infinitive where the active pattern uses a bare infinitive.\n- Some verbs take two objects, but not every verb allows both object orders; check the required to/for pattern.\n- A complement adjective/noun describes the object after verbs such as find/elect; do not use an adverb where an adjective complement is required.\n- Wh-clauses and whether-clauses have their own syntax; indirect questions use statement order.\n- Do not assume a verb can take a that-clause simply because its meaning seems compatible; verify its attested complement pattern.\n\n### 4.7. Типичные ошибки русскоязычных студентов\n\n| `The committee found the proposal unworkably and impractical.` | `The committee found the proposal unworkable and impractical.` | Unworkably is an adverb, not an object complement adjective. |\n| `The new regulation prevents companies to sharing personal data without consent.` | `The new regulation prevents companies from sharing personal data without consent.` | To does not follow prevent in this construction. |\n| `The witness was heard say that the door had been open.` | `The witness was heard to say that the door had been open.` | Bare say is used in active perception, not after passive was heard. |\n\nРусский перевод помогает понять смысл, но не управляет английской формой напрямую. Проверяй роль каждого элемента и грамматическую модель английского предложения.\n\n### 4.8. Произношение и восприятие на слух\n\nIn connected speech, the complement marker **to** is often weak, but it remains grammatically important; listen for it in passive perception patterns such as *was seen to leave*. The contrast between a bare infinitive and an -ing form after perception verbs may be signalled by aspect and context rather than stress alone. Phonetic transcriptions and audio examples still require dictionary-audio verification.\n\nДля аудирования распознавай слабые формы вспомогательных глаголов, окончания и границы смысловых групп. Не ориентируйся только на чтение по буквам.\n\n### 4.9. Академический английский и TOEFL-перенос\n\nTOEFL transfer for Advanced verb complementation: use the target structure to interpret syntax in Reading/Listening and construct clear sentences in Writing/Speaking. This is skill transfer, not a separate exam task.\n\n- **Reading:** синтаксические связи, reference, modifiers и логические отношения.\n- **Listening:** tense/aspect, weak forms, modality, speaker stance и связи между идеями.\n- **Writing — Build a Sentence:** точность структуры, согласование, порядок слов и verb patterns.\n- **Writing — Email / Academic Discussion:** ясность, appropriate register, аргументация и cohesion.\n- **Speaking — Listen and Repeat / Take an Interview:** точность воспроизведения формы и самостоятельное применение.\n\nЭто перенос навыка, а не полноценный экзаменационный пробник и не обещание конкретного балла.\n\n### 4.10. Примеры для управляемого разбора\n\n- The committee found the proposal ___ and impractical. → `unworkable`.\n- The new regulation prevents companies ___ sharing personal data without consent. → `from`.\n- The witness was heard ___ that the door had been open. → `to say`.\n\nДля каждого примера назови целевой элемент, объясни форму, укажи, почему отвлекающий вариант неверен, и придумай собственное предложение с тем же правилом.\n\n### 4.11. Самопроверка\n\nПеред отправкой ответа проверь:\n1. Правильно ли определена функция конструкции?\n2. Согласована ли форма с подлежащим и временной перспективой?\n3. Не перенесён ли русский порядок слов напрямую?\n4. Не смешаны ли две похожие модели?\n5. Не сильнее ли утверждение, чем позволяют контекст и доказательства?\n\n### 4.12. Краткая памятка\n\n- Learn the verb together with its complement frame: object, two objects, object + complement, -ing, to-infinitive, preposition or clause.\n- After prepositions, use the appropriate noun/-ing form.\n- Perception: bare infinitive = whole event; -ing = process; passive commonly uses to-infinitive.\n- Two-object patterns may allow to/for alternatives, but not universally.\n- Wh-/whether/that-clauses use the correct marker and statement order.\n- Complement choice can change meaning; check the full pattern, not just the dictionary translation.\n\n## 5. Практика\n\nВ приложении практика разделена на входную диагностику, управляемые задания, самостоятельную практику и новую выходную проверку. Закрытые ответы получают rationale и разбор ошибки. Свободный текст сохраняется и оценивается по рубрике; до подключения и реальной проверки AI-движка система не выдаёт его за автоматическую AI-оценку.\n\n## 6. Интервальное повторение\n\nПовторяй не весь урок автоматически, а конкретную ошибку: выбор формы, согласование, word order, значение, регистр или пунктуацию. Новая попытка должна менять лексический контекст и формулировку, чтобы проверять перенос, а не запоминание одной строки.\n\n## 7. Технический статус\n\n- Постоянный ID: `C1-12`.\n- Прогресс хранится отдельно в course.grammarLessons[\"C1-12\"].\n- Содержание и ключи имеют статус draft; источник page verification pending.\n- Предварительное выполнение порогов не равно окончательному mastered: нужны отсроченное повторение и learner review.",
+  "theoryEnd": "## 5."
+}

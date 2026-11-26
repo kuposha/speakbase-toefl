@@ -10,6 +10,7 @@ ids.push(...a2);
 const a1=['A1-03','A1-04','A1-06','A1-07','A1-08','A1-09','A1-10','A1-11','A1-12','A1-13','A1-14','A1-15','A1-16','A1-17','A1-18','A1-19'];
 ids.push(...a1);
 ids.push('C1-01','C1-02','C1-03','C1-04','C1-05','C1-06','C1-07','C1-08','C1-09');
+ids.push("C1-10","C1-11","C1-12","C1-13","C1-14");
 const log=fs.readFileSync('materials/GRAMMAR-MANUAL-REVIEW-LOG.md','utf8');
 const norm=s=>s.replace(/\r\n/g,'\n');
 const prompts=new Set(),positions=[0,0,0];

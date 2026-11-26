@@ -1,0 +1,685 @@
+{
+  "id": "C1-10",
+  "level": "C1",
+  "sequence": "C1-10",
+  "grammarFamily": "C1-10",
+  "questionBankSource": "topic-specific-authored",
+  "sourceVerification": "draft; selected GR-05 descriptor checked, remaining source review pending",
+  "topicProfile": {
+    "label": "advanced concession and correlative structures",
+    "skillTarget": "advanced-concession-correlative-structures",
+    "core": "Уступка обозначает обстоятельство, при котором обычно ожидают другого результата. В Although the lift was broken, everyone arrived on time поломка и своевременный приход представлены как факты. Замени although на even if, и поломка превратится в одно из возможных условий. Whereas сопоставляет факты и само по себе не выражает неожиданности.",
+    "form": "После although, even though и even if обычно ставь подлежащее и личную форму. После despite и in spite of требуется именная группа или форма -ing. Полное предложение можно сохранить после despite the fact that. However в значении «однако» связывает самостоятельные высказывания, а however difficult the task is означает «какой бы трудной ни была задача».",
+    "selection": "Сначала выдели две части пары. В The grant covers not only fees but also travel это два существительных, порядок слов обычный. В Not only does the grant cover fees, but it also covers travel в начало вынесено отрицательное обстоятельство. Ставь вспомогательный глагол перед подлежащим только в первой части. Если not only относится к самому подлежащему, инверсия не нужна. В сочетании hardly … when и no sooner … than следи и за порядком слов, и за вторым союзом.",
+    "contrast": "Not only did the policy reduce costs, but it also improved access. Whether the cause was internal or external remains unclear. The results were as significant as expected.",
+    "boundary": "Correlative elements should introduce grammatically parallel structures. Agreement with neither/nor and either/or can follow the nearer subject; initial not only requires inversion.",
+    "pronunciation": "В длинных предложениях делай паузу и интонационное членение по смысловым группам. Слабые формы союзов редуцируются, но ударение часто падает на саму причину/контраст.",
+    "examples": [],
+    "traps": [],
+    "toefl": "Связки формируют логику Academic Discussion и Writing. Выбирай точное отношение, а не добавляй however/therefore механически в каждое предложение."
+  },
+  "title": "Advanced concession and correlative structures",
+  "description": "Строить сложные контрастные и параллельные конструкции, включая inversion after not only",
+  "cardDescription": "Теория, guided practice, самостоятельные задания и выходная проверка по постоянному ID C1-10.",
+  "eyebrow": "Полный урок программы C1-10 · drafted",
+  "contentVersion": "1.1-draft",
+  "curriculumVersion": "1.0",
+  "prerequisites": [
+    "B2-14",
+    "C1-01"
+  ],
+  "outcomes": [
+    "Строить сложные контрастные и параллельные конструкции, включая inversion after not only",
+    "Выбирать целевую конструкцию по контексту и смыслу.",
+    "Исправлять типичные ошибки и переносить правило в новый пример."
+  ],
+  "sourceRefs": [
+    "GR-03 U82",
+    "GR-03 U87",
+    "GR-03 U100",
+    "GR-05 C1 p11-14"
+  ],
+  "sourceStatus": "partial; GR-05 C1 p. 12: correlative conjunctions, inversion, yet",
+  "status": "drafted",
+  "legacyCoverage": "Частично",
+  "toeflLinks": [
+    "Writing: Build a Sentence",
+    "Reading: clause structure, reference, modifiers and logical relationships",
+    "Writing: Academic Discussion"
+  ],
+  "thresholds": {
+    "independent": 7,
+    "exit": 4,
+    "criticalIds": [
+      "E1",
+      "E2",
+      "E3"
+    ]
+  },
+  "groups": {
+    "independent": "Самостоятельная практика",
+    "exit": "Выходная проверка"
+  },
+  "items": [
+    {
+      "id": "D1",
+      "group": "Входная диагностика",
+      "prompt": "Not only ___ the procedure, but they also documented every stage.",
+      "options": [
+        "the researchers repeated",
+        "did the researchers repeat",
+        "had the researchers repeat"
+      ],
+      "answer": "did the researchers repeat",
+      "accepted": [
+        "did the researchers repeat"
+      ],
+      "why": "Initial Not only triggers inversion; Past Simple needs did + subject + base verb.",
+      "distractorWhy": "The researchers repeated keeps statement order and misses required inversion.",
+      "distractorRationales": {
+        "the researchers repeated": "The researchers repeated keeps statement order and misses required inversion.",
+        "had the researchers repeat": "Had the researchers repeat is not a valid past perfect form."
+      },
+      "skillTarget": "advanced-concession-correlative-structures",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D2",
+      "group": "Входная диагностика",
+      "prompt": "The policy was designed not only to reduce costs ___ also to improve access.",
+      "options": [
+        "but",
+        "and",
+        "or"
+      ],
+      "answer": "but",
+      "accepted": [
+        "but"
+      ],
+      "why": "Not only…but also is the correlative pair.",
+      "distractorWhy": "And does not complete the paired construction.",
+      "distractorRationales": {
+        "and": "And does not complete the paired construction.",
+        "or": "Or introduces alternatives, not the additive correlative."
+      },
+      "skillTarget": "advanced-concession-correlative-structures",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D3",
+      "group": "Входная диагностика",
+      "prompt": "Neither the proposed explanation ___ the alternative account fits the data.",
+      "options": [
+        "or",
+        "and",
+        "nor"
+      ],
+      "answer": "nor",
+      "accepted": [
+        "nor"
+      ],
+      "why": "Neither…nor introduces two negative alternatives.",
+      "distractorWhy": "Or does not complete the correlative pair after neither.",
+      "distractorRationales": {
+        "or": "Or does not complete the correlative pair after neither.",
+        "and": "And changes the meaning to addition."
+      },
+      "skillTarget": "advanced-concession-correlative-structures",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "D4",
+      "group": "Входная диагностика",
+      "prompt": "The final model was as accurate ___ the original version.",
+      "options": [
+        "than",
+        "as",
+        "like"
+      ],
+      "answer": "as",
+      "accepted": [
+        "as"
+      ],
+      "why": "Equality uses as + adjective + as.",
+      "distractorWhy": "Than introduces comparative, not equality.",
+      "distractorRationales": {
+        "than": "Than introduces comparative, not equality.",
+        "like": "Like is a preposition and cannot complete the as…as pattern."
+      },
+      "skillTarget": "advanced-concession-correlative-structures",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G1",
+      "group": "Управляемая практика",
+      "prompt": "Whether the effect is temporary ___ permanent remains uncertain.",
+      "options": [
+        "or",
+        "nor",
+        "but"
+      ],
+      "answer": "or",
+      "accepted": [
+        "or"
+      ],
+      "why": "Whether…or introduces alternatives.",
+      "distractorWhy": "Nor is paired with neither, not whether.",
+      "distractorRationales": {
+        "nor": "Nor is paired with neither, not whether.",
+        "but": "But introduces contrast and does not complete the alternative pair."
+      },
+      "skillTarget": "advanced-concession-correlative-structures",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G2",
+      "group": "Управляемая практика",
+      "prompt": "___ the sample was small, the results were consistent across all three sites.",
+      "options": [
+        "Despite",
+        "However",
+        "Although"
+      ],
+      "answer": "Although",
+      "accepted": [
+        "Although"
+      ],
+      "why": "Although introduces a finite concessive clause.",
+      "distractorWhy": "Despite must be followed by a noun phrase or -ing clause, not a finite clause directly.",
+      "distractorRationales": {
+        "Despite": "Despite must be followed by a noun phrase or -ing clause, not a finite clause directly.",
+        "However": "However is a linking adverb and cannot introduce this subordinate clause."
+      },
+      "skillTarget": "advanced-concession-correlative-structures",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G3",
+      "group": "Управляемая практика",
+      "prompt": "The sample was small; ___, the findings were consistent across all three sites.",
+      "options": [
+        "therefore",
+        "nevertheless",
+        "moreover"
+      ],
+      "answer": "nevertheless",
+      "accepted": [
+        "nevertheless"
+      ],
+      "why": "Nevertheless signals contrast between the limitation and the consistent findings.",
+      "distractorWhy": "Therefore signals result and would imply the small sample caused consistency.",
+      "distractorRationales": {
+        "therefore": "Therefore signals result and would imply the small sample caused consistency.",
+        "moreover": "Moreover adds information rather than expressing concession."
+      },
+      "skillTarget": "advanced-concession-correlative-structures",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G4",
+      "group": "Управляемая практика",
+      "prompt": "Even ___ every donor withdraws tomorrow, the shelter will stay open.",
+      "options": [
+        "if",
+        "though",
+        "despite"
+      ],
+      "answer": "if",
+      "accepted": [
+        "if"
+      ],
+      "why": "Будущая потеря денег лишь допускается.",
+      "distractorWhy": "though подаёт событие как факт.",
+      "distractorRationales": {
+        "though": "though подаёт событие как факт.",
+        "despite": "despite требует именной группы."
+      },
+      "skillTarget": "advanced-concession-correlative-structures",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G5",
+      "group": "Управляемая практика",
+      "prompt": "Как продолжить Despite, сохранив факт «совет отклонил план»?",
+      "options": [
+        "the council rejected the plan",
+        "of the council rejecting the plan",
+        "the council's rejection of the plan"
+      ],
+      "answer": "the council's rejection of the plan",
+      "accepted": [
+        "the council's rejection of the plan"
+      ],
+      "why": "Rejection образует именную группу.",
+      "distractorWhy": "Личная форма требует although или the fact that.",
+      "distractorRationales": {
+        "the council rejected the plan": "Личная форма требует although или the fact that.",
+        "of the council rejecting the plan": "Of входит в in spite of."
+      },
+      "skillTarget": "advanced-concession-correlative-structures",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "G6",
+      "group": "Управляемая практика",
+      "prompt": "The sensor was cheap. It worked well, ___. Заверши реплику словом «всё же».",
+      "options": [
+        "although",
+        "though",
+        "even if"
+      ],
+      "answer": "though",
+      "accepted": [
+        "though"
+      ],
+      "why": "В конце реплики though смягчает контраст.",
+      "distractorWhy": "Although вводит придаточное.",
+      "distractorRationales": {
+        "although": "Although вводит придаточное.",
+        "even if": "Even if требует условия."
+      },
+      "skillTarget": "advanced-concession-correlative-structures",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I1",
+      "group": "Самостоятельная практика",
+      "prompt": "Not only the librarian but also her assistant ___ a key. Оба ключа действительны сейчас.",
+      "options": [
+        "does have to",
+        "having",
+        "has"
+      ],
+      "answer": "has",
+      "accepted": [
+        "has"
+      ],
+      "why": "Парное подлежащее завершается единственным числом assistant.",
+      "distractorWhy": "После have to нужен глагол.",
+      "distractorRationales": {
+        "does have to": "После have to нужен глагол.",
+        "having": "Причастие не образует сказуемого."
+      },
+      "skillTarget": "advanced-concession-correlative-structures",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I2",
+      "group": "Самостоятельная практика",
+      "prompt": "Not only was the file missing, but the backup ___ corrupt.",
+      "options": [
+        "also it was",
+        "was also",
+        "did also be"
+      ],
+      "answer": "was also",
+      "accepted": [
+        "was also"
+      ],
+      "why": "Во второй части прямой порядок с was.",
+      "distractorWhy": "Уже есть подлежащее the backup.",
+      "distractorRationales": {
+        "also it was": "Уже есть подлежащее the backup.",
+        "did also be": "Для be здесь не нужен did."
+      },
+      "skillTarget": "advanced-concession-correlative-structures",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I3",
+      "group": "Самостоятельная практика",
+      "prompt": "Переведи «Более быстрый ответ не обязательно точнее».",
+      "options": [
+        "A quicker answer is not necessarily more accurate.",
+        "A quicker answer is necessarily inaccurate.",
+        "A quicker answer cannot be accurate."
+      ],
+      "answer": "A quicker answer is not necessarily more accurate.",
+      "accepted": [
+        "A quicker answer is not necessarily more accurate."
+      ],
+      "why": "Отрицаем обязательность связи.",
+      "distractorWhy": "Получается неизбежная ошибка.",
+      "distractorRationales": {
+        "A quicker answer is necessarily inaccurate.": "Получается неизбежная ошибка.",
+        "A quicker answer cannot be accurate.": "Исключена сама возможность точности."
+      },
+      "skillTarget": "advanced-concession-correlative-structures",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I4",
+      "group": "Самостоятельная практика",
+      "prompt": "The first room faces east, ___ the other faces west. Сопоставь две комнаты.",
+      "options": [
+        "in case",
+        "so that",
+        "whereas"
+      ],
+      "answer": "whereas",
+      "accepted": [
+        "whereas"
+      ],
+      "why": "Сопоставляем признаки равноправных объектов.",
+      "distractorWhy": "In case вводит меру предосторожности.",
+      "distractorRationales": {
+        "in case": "In case вводит меру предосторожности.",
+        "so that": "So that обычно вводит цель или результат."
+      },
+      "skillTarget": "advanced-concession-correlative-structures",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I5",
+      "group": "Самостоятельная практика",
+      "prompt": "___ hard we pressed, the lid stayed shut. Передай «как бы сильно ни».",
+      "options": [
+        "Despite",
+        "However",
+        "Even"
+      ],
+      "answer": "However",
+      "accepted": [
+        "However"
+      ],
+      "why": "However + наречие вводит уступку степени.",
+      "distractorWhy": "После despite нужен объект.",
+      "distractorRationales": {
+        "Despite": "После despite нужен объект.",
+        "Even": "Even не вводит здесь уступочное придаточное."
+      },
+      "skillTarget": "advanced-concession-correlative-structures",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I6",
+      "group": "Самостоятельная практика",
+      "prompt": "Hardly had I clicked Save ___ the screen went dark.",
+      "options": [
+        "when",
+        "than",
+        "that"
+      ],
+      "answer": "when",
+      "accepted": [
+        "when"
+      ],
+      "why": "Hardly … when передаёт немедленную последовательность.",
+      "distractorWhy": "Than сочетается с no sooner.",
+      "distractorRationales": {
+        "than": "Than сочетается с no sooner.",
+        "that": "That не завершает эту пару."
+      },
+      "skillTarget": "advanced-concession-correlative-structures",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I7",
+      "group": "Самостоятельная практика",
+      "prompt": "No sooner ___ the vote than a member requested a recount.",
+      "options": [
+        "we had announced",
+        "did we announced",
+        "had we announced"
+      ],
+      "answer": "had we announced",
+      "accepted": [
+        "had we announced"
+      ],
+      "why": "Начальное no sooner требует инверсии.",
+      "distractorWhy": "Прямой порядок возможен при no sooner внутри предложения.",
+      "distractorRationales": {
+        "we had announced": "Прямой порядок возможен при no sooner внутри предложения.",
+        "did we announced": "После did нужна базовая форма."
+      },
+      "skillTarget": "advanced-concession-correlative-structures",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I8",
+      "group": "Самостоятельная практика",
+      "prompt": "Neither did Lena object, nor ___ an amendment.",
+      "options": [
+        "she proposed",
+        "did she propose",
+        "did she proposed"
+      ],
+      "answer": "did she propose",
+      "accepted": [
+        "did she propose"
+      ],
+      "why": "Nor вводит вторую отрицательную часть с инверсией.",
+      "distractorWhy": "Прямой порядок не подходит после начального nor в этой части.",
+      "distractorRationales": {
+        "she proposed": "Прямой порядок не подходит после начального nor в этой части.",
+        "did she proposed": "Did уже выражает прошедшее время."
+      },
+      "skillTarget": "advanced-concession-correlative-structures",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "I9",
+      "group": "Самостоятельная практика",
+      "prompt": "The fee covered both tuition ___ accommodation.",
+      "options": [
+        "and",
+        "as",
+        "or"
+      ],
+      "answer": "and",
+      "accepted": [
+        "and"
+      ],
+      "why": "Перечисляются обе включённые статьи расходов.",
+      "distractorWhy": "As завершает сравнение as … as.",
+      "distractorRationales": {
+        "as": "As завершает сравнение as … as.",
+        "or": "Or задаёт альтернативу."
+      },
+      "skillTarget": "advanced-concession-correlative-structures",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E1",
+      "group": "Выходная проверка",
+      "prompt": "Whether the map is printed ___ digital makes no difference.",
+      "options": [
+        "or",
+        "and",
+        "nor"
+      ],
+      "answer": "or",
+      "accepted": [
+        "or"
+      ],
+      "why": "Whether … or оставляет выбор между двумя форматами.",
+      "distractorWhy": "And объединило бы признаки.",
+      "distractorRationales": {
+        "and": "And объединило бы признаки.",
+        "nor": "Nor образует пару с neither."
+      },
+      "skillTarget": "advanced-concession-correlative-structures",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E2",
+      "group": "Выходная проверка",
+      "prompt": "Исправь Not only did the grant paid for books.",
+      "options": [
+        "Not only the grant did pay for books, but it also covered travel.",
+        "Not only had the grant pay for books, but it also covered travel.",
+        "Not only did the grant pay for books, but it also covered travel."
+      ],
+      "answer": "Not only did the grant pay for books, but it also covered travel.",
+      "accepted": [
+        "Not only did the grant pay for books, but it also covered travel."
+      ],
+      "why": "После did идёт pay.",
+      "distractorWhy": "Первая часть требует инверсии.",
+      "distractorRationales": {
+        "Not only the grant did pay for books, but it also covered travel.": "Первая часть требует инверсии.",
+        "Not only had the grant pay for books, but it also covered travel.": "После had нужен paid."
+      },
+      "skillTarget": "advanced-concession-correlative-structures",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E3",
+      "group": "Выходная проверка",
+      "prompt": "The trial was costly. ___, it yielded valuable data. Вырази уступку.",
+      "options": [
+        "Accordingly",
+        "Nevertheless",
+        "For instance"
+      ],
+      "answer": "Nevertheless",
+      "accepted": [
+        "Nevertheless"
+      ],
+      "why": "Ценность данных противопоставлена недостатку.",
+      "distractorWhy": "Accordingly вводит следствие.",
+      "distractorRationales": {
+        "Accordingly": "Accordingly вводит следствие.",
+        "For instance": "For instance вводит пример."
+      },
+      "skillTarget": "advanced-concession-correlative-structures",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E4",
+      "group": "Выходная проверка",
+      "prompt": "Выбери параллельное продолжение The aim was both to cut delays …",
+      "options": [
+        "and to simplify appeals.",
+        "and appeals were simplified.",
+        "or a simpler appeal."
+      ],
+      "answer": "and to simplify appeals.",
+      "accepted": [
+        "and to simplify appeals."
+      ],
+      "why": "Два инфинитива называют две цели.",
+      "distractorWhy": "Вторая часть стала самостоятельным утверждением.",
+      "distractorRationales": {
+        "and appeals were simplified.": "Вторая часть стала самостоятельным утверждением.",
+        "or a simpler appeal.": "Or не образует пару с both."
+      },
+      "skillTarget": "advanced-concession-correlative-structures",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "E5",
+      "group": "Выходная проверка",
+      "prompt": "The new scale is twice ___ sensitive as the old one.",
+      "options": [
+        "more",
+        "so than",
+        "as"
+      ],
+      "answer": "as",
+      "accepted": [
+        "as"
+      ],
+      "why": "Множитель ставится перед as + adjective + as.",
+      "distractorWhy": "More требует другой сравнительной модели.",
+      "distractorRationales": {
+        "more": "More требует другой сравнительной модели.",
+        "so than": "So than не образует сравнения."
+      },
+      "skillTarget": "advanced-concession-correlative-structures",
+      "interactionType": "single-choice",
+      "difficulty": "controlled",
+      "sourceBasis": "Speakbase original practice; partial editorial review",
+      "contentVersion": "1.1-draft"
+    },
+    {
+      "id": "W1",
+      "group": "Самостоятельное применение",
+      "prompt": "Два учебных корпуса стоят одинаково, но только один доступен вечером. Напиши три предложения для Academic Discussion: сопоставь условия, сделай уступку и приведи два довода с not only … but also.",
+      "open": true,
+      "rubric": [
+        "Факты и предположения различены",
+        "Уступка содержит главное утверждение",
+        "В паре соединены однотипные элементы",
+        "Инверсия соответствует позиции not only",
+        "Итоговый выбор объяснён"
+      ],
+      "skillTarget": "Самостоятельное применение C1-10",
+      "interactionType": "open-production",
+      "difficulty": "transfer",
+      "sourceBasis": "Speakbase-authored open production; self-review rubric only until real AI feedback is connected",
+      "contentVersion": "1.1-draft"
+    }
+  ],
+  "markdown": "# Speakbase — C1-10: Advanced concession and correlative structures\n\n**Curriculum ID:** `C1-10`  \n**Уровень:** C1  \n**Версия:** 1.1-draft\n**Статус:** draft; manual content review in progress; source-page image verification, app rendering and learner test remain pending\n**Предварительные темы:** B2-14, C1-01  \n**Связь со старым каталогом:** Частично — №43 Concession and Contrast; №45 Inversion\n\n## 1. Результаты обучения\n\n- Строить сложные контрастные и параллельные конструкции, включая inversion after not only\n- Выбирать целевую форму по значению, структуре предложения и контексту.\n- Объяснять, почему близкая грамматическая форма меняет смысл или регистр.\n- Находить и исправлять типичные ошибки русскоязычных студентов.\n\n## 2. Источники и статус сверки\n\n| Source | PDF navigation | Lesson-specific checks | Status |\n|---|---|---|---|\n| GR-03 U82 | PDF pp. 188–189 (printed pp. 164–165) | Although/though, even though/even if, while/whilst/whereas and not necessarily | unit-page indexed; visual verification pending |\n| GR-03 U87 | PDF pp. 198–199 (printed pp. 174–175) | Sentence connectors and discourse relations | unit-page indexed; visual verification pending |\n| GR-03 U100 | PDF pp. 224–225 (printed pp. 200–201) | Not only/neither-nor inversion; cross-reference to C1-01 for negative inversion | unit-page indexed; visual verification pending |\n| GR-05 C1 p11–14 | PDF pp. 11–14 | Compare C1 requirements, examples, restrictions and exercises against this lesson | page indexed; content review pending |\n\nUnit/page locations are navigation aids only. They do not prove that cited explanations, examples, restrictions or answer keys have been checked. Examples and explanations below are Speakbase-authored, not quotations from a textbook.\n\nПеред переводом этого урока в source-verified необходимо открыть целевые страницы конкретного издания, записать печатную и PDF-пагинацию, сверить ограничения и исключения. Для GR-03 со сканированными страницами обязательна визуальная проверка.\n\nСверка этой редакции: GR-05 C1 p. 12: correlative conjunctions, inversion, yet. Остальные строки сохраняют прежний статус.\n\n## 3. Место темы и границы\n\nAdvanced concession и correlative structures; not only…but also, neither…nor, as…as, inversion и parallelism.\n\nСтарый каталог содержит: №43 Concession and Contrast; №45 Inversion. Его статус — Частично. Старые отметки завершения не переносятся автоматически на новый постоянный ID. Тема рассматривается в уровне C1 и не заменяет обязательные prerequisites.\n\n## 4. Полный конспект\n\n### 4.1. Основная идея и функция конструкции\n\nУступка обозначает обстоятельство, при котором обычно ожидают другого результата. В Although the lift was broken, everyone arrived on time поломка и своевременный приход представлены как факты. Замени although на even if, и поломка превратится в одно из возможных условий. Whereas сопоставляет факты и само по себе не выражает неожиданности.\n\n### 4.2. Формирование и грамматические модели\n\nПосле although, even though и even if обычно ставь подлежащее и личную форму. После despite и in spite of требуется именная группа или форма -ing. Полное предложение можно сохранить после despite the fact that. However в значении «однако» связывает самостоятельные высказывания, а however difficult the task is означает «какой бы трудной ни была задача».\n\n### 4.3. Как выбрать подходящую форму\n\nСначала выдели две части пары. В The grant covers not only fees but also travel это два существительных, порядок слов обычный. В Not only does the grant cover fees, but it also covers travel в начало вынесено отрицательное обстоятельство. Ставь вспомогательный глагол перед подлежащим только в первой части. Если not only относится к самому подлежащему, инверсия не нужна. В сочетании hardly … when и no sooner … than следи и за порядком слов, и за вторым союзом.\n\n### 4.4. Сравнение с близкими конструкциями\n\nNot only did the policy reduce costs, but it also improved access. Whether the cause was internal or external remains unclear. The results were as significant as expected.\n\n| Что проверяем | Вопрос для выбора |\n|---|---|\n| Форма | Какие элементы обязательны и в каком порядке они стоят? |\n| Значение | Что именно меняется: время, длительность, реальность, степень уверенности или фокус? |\n| Контекст | Что уже известно собеседнику и каков регистр высказывания? |\n| Проверка | Если заменить форму близкой конструкцией, изменится ли смысл? Объясни, почему. |\n\n### 4.5. Примеры с переводом и объяснением\n\n| English | Перевод | Почему это подходит |\n|---|---|---|---|\n| `Not only did the researchers repeat the procedure, but they also documented every stage.` | Исследователи не только повторили процедуру, но и задокументировали каждый этап. | Initial Not only triggers inversion; Past Simple needs did + subject + base verb. |\n| `The policy was designed not only to reduce costs but also to improve access.` | Политика была разработана не только для снижения затрат, но и для расширения доступа. | Not only…but also is the correlative pair. |\n| `Neither the proposed explanation nor the alternative account fits the data.` | Ни предлагаемое объяснение, ни альтернативная версия не соответствуют данным. | Neither…nor introduces two negative alternatives. |\n| `The final model was as accurate as the original version.` | Итоговая модель была такой же точной, как первоначальная версия. | Equality uses as + adjective + as. |\n\nПримеры составлены Speakbase. Они иллюстрируют грамматическую функцию, но не подменяют индивидуальную проверку всех возможных вариантов и исключений.\n\n### 4.6. Исключения, ограничения и границы употребления\n\n- Although/though/even though take a finite clause; despite/in spite of take a noun phrase or -ing clause, not a finite clause directly.\n- Even if is hypothetical; even though presents the contrast as a fact.\n- While is ambiguous between time and contrast; use whereas when an explicit contrast is needed.\n- Not necessarily means 'not always', not 'never' or 'certainly not'.\n- Correlative structures require parallel grammatical forms; avoid mixing a noun phrase with an unrelated clause.\n- Initial not only can trigger subject–auxiliary inversion; a neither/nor subject pair does not. Nor at the start of a new negative clause can trigger inversion. Mid-sentence correlative forms do not automatically trigger it.\n- Agreement with neither/nor and either/or can depend on the nearer subject and style; rewrite if the result sounds awkward.\n- No sooner...than and hardly/scarcely...when/before are separate fixed pairs; their inversion is covered in C1-01.\n- Connectors express logical relations; therefore is not a synonym of however, and moreover does not introduce a concession.\n\n### 4.7. Типичные ошибки русскоязычных студентов\n\n| `Not only the researchers repeated the procedure, but they also documented every stage.` | `Not only did the researchers repeat the procedure, but they also documented every stage.` | The researchers repeated keeps statement order and misses required inversion. |\n| `The policy was designed not only to reduce costs and also to improve access.` | `The policy was designed not only to reduce costs but also to improve access.` | And does not complete the paired construction. |\n| `Neither the proposed explanation or the alternative account fits the data.` | `Neither the proposed explanation nor the alternative account fits the data.` | Or does not complete the correlative pair after neither. |\n\nРусский перевод помогает понять смысл, но не управляет английской формой напрямую. Проверяй роль каждого элемента и грамматическую модель английского предложения.\n\n### 4.8. Произношение и восприятие на слух\n\nConcessive subordinators are usually unstressed and closely linked to the clause they introduce. Contrastive stress may fall on the contrasting phrase after **whereas** or on the element qualified by **not necessarily**. In spoken correlative structures, keep both coordinated elements perceptually balanced. Phonetic transcriptions and audio examples still require dictionary-audio verification.\n\nДля аудирования распознавай слабые формы вспомогательных глаголов, окончания и границы смысловых групп. Не ориентируйся только на чтение по буквам.\n\n### 4.9. Академический английский и TOEFL-перенос\n\nTOEFL transfer for Advanced concession and correlative structures: use the target structure to interpret syntax in Reading/Listening and construct clear sentences in Writing/Speaking. This is skill transfer, not a separate exam task.\n\n- **Reading:** синтаксические связи, reference, modifiers и логические отношения.\n- **Listening:** tense/aspect, weak forms, modality, speaker stance и связи между идеями.\n- **Writing — Build a Sentence:** точность структуры, согласование, порядок слов и verb patterns.\n- **Writing — Email / Academic Discussion:** ясность, appropriate register, аргументация и cohesion.\n- **Speaking — Listen and Repeat / Take an Interview:** точность воспроизведения формы и самостоятельное применение.\n\nЭто перенос навыка, а не полноценный экзаменационный пробник и не обещание конкретного балла.\n\n### 4.10. Примеры для управляемого разбора\n\n- Not only ___ the procedure, but they also documented every stage. → `did the researchers repeat`.\n- The policy was designed not only to reduce costs ___ also to improve access. → `but`.\n- Neither the proposed explanation ___ the alternative account fits the data. → `nor`.\n\nДля каждого примера назови целевой элемент, объясни форму, укажи, почему отвлекающий вариант неверен, и придумай собственное предложение с тем же правилом.\n\n### 4.11. Самопроверка\n\nПеред отправкой ответа проверь:\n1. Правильно ли определена функция конструкции?\n2. Согласована ли форма с подлежащим и временной перспективой?\n3. Не перенесён ли русский порядок слов напрямую?\n4. Не смешаны ли две похожие модели?\n5. Не сильнее ли утверждение, чем позволяют контекст и доказательства?\n\n### 4.12. Краткая памятка\n\n- Although/though/even though + finite clause; despite/in spite of + noun/-ing.\n- Even if = hypothetical concession; whereas/while = contrast; not necessarily = not always.\n- Keep not only … but also, neither … nor, whether … or and as … as parallel.\n- Initial not only/neither/nor/no sooner/hardly/scarcely can trigger inversion.\n- No sooner...than; hardly/scarcely...when/before.\n- Choose however/nevertheless (contrast), therefore/consequently (result), moreover/in addition (addition), otherwise (alternative consequence) by logic.\n\n## 5. Практика\n\nВ приложении практика разделена на входную диагностику, управляемые задания, самостоятельную практику и новую выходную проверку. Закрытые ответы получают rationale и разбор ошибки. Свободный текст сохраняется и оценивается по рубрике; до подключения и реальной проверки AI-движка система не выдаёт его за автоматическую AI-оценку.\n\n## 6. Интервальное повторение\n\nПовторяй не весь урок автоматически, а конкретную ошибку: выбор формы, согласование, word order, значение, регистр или пунктуацию. Новая попытка должна менять лексический контекст и формулировку, чтобы проверять перенос, а не запоминание одной строки.\n\n## 7. Технический статус\n\n- Постоянный ID: `C1-10`.\n- Прогресс хранится отдельно в course.grammarLessons[\"C1-10\"].\n- Содержание и ключи имеют статус draft; источник page verification pending.\n- Предварительное выполнение порогов не равно окончательному mastered: нужны отсроченное повторение и learner review.",
+  "theoryEnd": "## 5."
+}

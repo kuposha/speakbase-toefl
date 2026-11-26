@@ -83,3 +83,7 @@ C1-04–06: non-finite clauses, nominalisation, complex noun phrases and preposi
 ## C1 second editorial pass, package 3
 
 C1-07–09: advanced passive/causatives, reporting and academic attribution, modality and hedging. GR-03 rendered theory Units 17–19, 24–25, 36, 39, 102 visually reopened (PDF pp. 58, 60, 62, 72, 74, 96, 102, 228); GR-02 Unit 46 theory text inspected PDF p. 104. Other source rows and exercise checks retain their previous evidence status. 72 original closed tasks with distinct option rationales and 3 open rubrics; runtime snapshots match Markdown. Replaced repeated templates with coverage of relative time, reporting complement restrictions, causative agency, mandative subjunctive, evidential scope and distinction of past absence of obligation. GR-05, remaining source and learner acceptance pending. C1 deep editorial pass 9/14; combined 65/91. Next C1-10–14, then B2. Preserve unrelated changes and actual accounts.
+
+## Editorial continuation C1-10 through C1-14
+
+Updated runtime, snapshots, lecture notes and review log. Preserved previous-version answers through the existing lesson migration. Selected GR-05 descriptors checked; outstanding source and acceptance gates remain open.
