@@ -5,8 +5,7 @@ const path = require('node:path');
 const sourceRoot = path.join(__dirname, 'materials', 'source');
 const lessonRoot = path.join(__dirname, 'materials', 'grammar-lessons');
 const matrix = JSON.parse(fs.readFileSync(path.join(sourceRoot, 'LESSON-SOURCE-MATRIX.json'), 'utf8'));
-const pages = JSON.parse(fs.readFileSync(path.join(sourceRoot, 'UNIT-PAGE-INDEX.json'), 'utf8'));
-const egp = JSON.parse(fs.readFileSync(path.join(sourceRoot, 'EGP-PAGES.json'), 'utf8'));
+const pages = JSON.parse(fs.readFileSync(path.join(__dirname,'materials','grammar-source-locators.json'),'utf8'));
 
 assert.equal(matrix.lessons.length, 91, 'All generated lessons must have a source matrix row.');
 assert.equal(matrix.unit_and_EGP_navigation_failures.length, 0, 'No exact source reference may have a broken page locator.');
@@ -35,35 +34,35 @@ for (const lesson of matrix.lessons) {
       const match = /^GR-01 U(\d+)(?:-(\d+))?$/.exec(source.ref);
       assert.ok(match, 'GR-01 ref syntax must contain a unit.');
       const first = Number(match[1]), last = Number(match[2] || match[1]);
-      const a = pages['GR-01'].units.find(x => x.unit === first);
-      const b = pages['GR-01'].units.find(x => x.unit === last);
-      assert.equal(start, a.pdf_start, lesson.id + ' GR-01 start page mismatch.');
-      assert.equal(end, b.pdf_end, lesson.id + ' GR-01 end page mismatch.');
-      assert.ok(end <= pages['GR-01'].pdf_pages, lesson.id + ' GR-01 page exceeds PDF length.');
+      const a = pages['GR-01'].units[first];
+      const b = pages['GR-01'].units[last];
+      assert.equal(start, a[0], lesson.id + ' GR-01 start page mismatch.');
+      assert.equal(end, b[1], lesson.id + ' GR-01 end page mismatch.');
+      assert.ok(end <= pages['GR-01'].pages, lesson.id + ' GR-01 page exceeds PDF length.');
     } else if (source.ref.startsWith('GR-02 U')) {
       const match = /^GR-02 U(\d+)(?:-(\d+))?$/.exec(source.ref);
       assert.ok(match, 'GR-02 ref syntax must contain a unit.');
       const first = Number(match[1]), last = Number(match[2] || match[1]);
-      const a = pages['GR-02'].units.find(x => x.unit === first);
-      const b = pages['GR-02'].units.find(x => x.unit === last);
-      assert.equal(start, a.pdf_start, lesson.id + ' GR-02 start page mismatch.');
-      assert.equal(end, b.pdf_end, lesson.id + ' GR-02 end page mismatch.');
-      assert.ok(end <= pages['GR-02'].pdf_pages, lesson.id + ' GR-02 page exceeds PDF length.');
+      const a = pages['GR-02'].units[first];
+      const b = pages['GR-02'].units[last];
+      assert.equal(start, a[0], lesson.id + ' GR-02 start page mismatch.');
+      assert.equal(end, b[1], lesson.id + ' GR-02 end page mismatch.');
+      assert.ok(end <= pages['GR-02'].pages, lesson.id + ' GR-02 page exceeds PDF length.');
     } else if (source.ref.startsWith('GR-03 U')) {
       const match = /^GR-03 U(\d+)(?:-(\d+))?$/.exec(source.ref);
       assert.ok(match, 'GR-03 ref syntax must contain a unit.');
       const first = Number(match[1]), last = Number(match[2] || match[1]);
       assert.equal(start, 24 + 2 * first, lesson.id + ' GR-03 start page mismatch.');
       assert.equal(end, 24 + 2 * last + 1, lesson.id + ' GR-03 end page mismatch.');
-      assert.ok(end <= pages['GR-03'].pdf_pages, lesson.id + ' GR-03 page exceeds PDF length.');
+      assert.ok(end <= pages['GR-03'].pages, lesson.id + ' GR-03 page exceeds PDF length.');
     } else if (source.ref.startsWith('GR-05 ')) {
       const match = /^GR-05 ([A-Z]\d) p(\d+)(?:-(\d+))?$/.exec(source.ref);
       assert.ok(match, 'GR-05 page reference must include level and page number.');
       const level = match[1];
-      assert.ok(egp[level], lesson.id + ' GR-05 level is missing from index.');
+      assert.ok(pages[level], lesson.id + ' GR-05 level is missing from index.');
       assert.equal(start, Number(match[2]), lesson.id + ' GR-05 start page mismatch.');
       assert.equal(end, Number(match[3] || match[2]), lesson.id + ' GR-05 end page mismatch.');
-      assert.ok(end <= egp[level].pages, lesson.id + ' GR-05 page exceeds PDF length.');
+      assert.ok(end <= pages[level].pages, lesson.id + ' GR-05 page exceeds PDF length.');
     }
     const pageText = 'PDF pages ' + start + (end !== start ? '-' + end : '');
     assert.ok(markdown.includes('| ' + source.ref + ' | ' + pageText),
