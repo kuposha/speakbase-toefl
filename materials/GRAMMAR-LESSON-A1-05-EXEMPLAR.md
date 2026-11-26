@@ -25,12 +25,14 @@
 | Источник | Точная привязка | Что проверено |
 |---|---|---|
 | GR-01 Raymond Murphy, *Essential Grammar in Use*, русское издание, 2017 | Unit 6; PDF p. 23 (печатная p. 22), упражнения на PDF p. 24 | Формы I/we/you/they и he/she/it; -s/-es; формы do/does/goes/has; привычки, факты и постоянные состояния; частые наречия |
-| GR-02 Raymond Murphy, *English Grammar in Use*, 5th ed., 2019 | Unit 2; PDF pp. 14–24 (диапазон Units 1–6) | Базовые значения Present Simple и противопоставление с Present Continuous в общей системе |
+| GR-02 Raymond Murphy, *English Grammar in Use*, 5th ed., 2019 | Unit 2; PDF p. 16 (теория, печатная p. 4); p. 17 — упражнения | Базовые значения Present Simple и противопоставление с Present Continuous в общей системе |
 | EXT-05 Cambridge Dictionary, *English Grammar Today: Present simple (I work)* | Онлайн-справочник, разделы form / spelling / uses | Независимая проверка базовой формы, -s/-es spelling, habits, facts, states and timetables: https://dictionary.cambridge.org/us/grammar/british-grammar/present-simple |
 | EXT-06 Cambridge Dictionary, *Subject–verb agreement* | Онлайн-справочник | Проверка принципа: лицо и число глагола определяются подлежащим, а не ближайшим существительным: https://dictionary.cambridge.org/grammar/british-grammar/subject-verb-agreement |
 | EXT-07 IDP IELTS, *How to pronounce the s/es ending accurately* | Онлайн-справочник, разделы /s/, /z/, /ɪz/ | Перекрёстная проверка произношения окончаний третьего лица: https://ielts.idp.com/vietnam/about/news-and-articles/article-how-to-pronounce-s-es/en-gb |
 
-**Статус источников:** GR-01 — page-verified; GR-02 — page-verified на уровне диапазона Units 1–6; EXT-05/EXT-06 — cross-checked для формы, употребления и согласования; EXT-07 — cross-checked для трёх вариантов произношения. Дополнительные примеры, формулировки, задания и ключи написаны Speakbase самостоятельно; упражнения учебников не воспроизводятся.
+**Статус источников:** GR-01 — page-verified; GR-02 — повторно прочитан текст теории U2 PDF p. 16; EXT-05/EXT-06 — cross-checked для формы, употребления и согласования; EXT-07 — cross-checked для трёх вариантов произношения. Дополнительные примеры, формулировки, задания и ключи написаны Speakbase самостоятельно; упражнения учебников не воспроизводятся.
+
+**Заключительная вычитка:** 26 закрытых и три открытых задания, конспект и объяснения перечитаны; GR-01 U6 p. 23 и GR-02 U2 p. 16 повторно сверены. Отдельная аудиопроверка и полная приёмка учеником остаются открыты.
 
 ## 3. Входная диагностика (показывать после полного конспекта, разделы 4–5)
 
@@ -119,11 +121,11 @@ Present Simple также описывает официальное распис
 
 Базовый порядок слов:
 
-**Subject + verb + object / complement**
+**Subject + verb (+ object / complement / adverbial)**
 
 - **Subject** — подлежащее: кто или что выполняет действие.
 - **Verb** — смысловой глагол: что делает подлежащее.
-- **Object / complement** — дополнение или другая часть предложения: на что направлено действие, где, когда или каким является подлежащее.
+- **Object** — объект действия; **complement** — необходимое дополнение или описание; **adverbial** — информация о месте, времени или способе. После некоторых глаголов дополнительные элементы не нужны: Birds fly.
 
 Примеры:
 
@@ -152,7 +154,7 @@ Present Simple также описывает официальное распис
 
 Не ориентируйся на ближайшее к глаголу слово. Найди всё подлежащее:
 
-- *The students in my group study English.* — Студенты в моей группе изучают английский. Подлежащее — **the students**, а не **my group**, поэтому **study**.
+- *The students in my group study English.* — Студенты в моей группе изучают английский. Полное подлежащее — **The students in my group**, его главное слово **students**, а не **group**, поэтому **study**.
 - *My brother and my sister live together.* — Мои брат и сестра живут вместе. Два человека образуют множественное подлежащее, поэтому **live**.
 
 ### 4.3. Правописание окончаний -s, -es и -ies
@@ -212,7 +214,7 @@ Present Simple также описывает официальное распис
 | have | has | She has a laptop. |
 | do | does | He does his homework. |
 | go | goes | Anna goes to college. |
-| be | am / is / are | She is happy. |
+| be | is (he/she/it) | She is happy. |
 
 **Be — отдельный глагол.** Он не образует форму по общему шаблону *be + s*. В настоящем времени используются три формы:
 
@@ -385,7 +387,7 @@ Present Simple также описывает официальное распис
 
 Ключ: *Olivia studies biology.* Olivia = she; study → studies (согласная + y → -ies).
 
-**G7. Выбери предложение о регулярной привычке.**
+**G7. Выбери предложение о повторяющемся расписании.**
 
 - A. *The train leaves at 8 every morning.*
 - B. *The train is leaving right now.*
@@ -425,7 +427,7 @@ Present Simple также описывает официальное распис
 
 **I6.** Correct: *The baby cry when she feels tired.*
 
-Ключ: *The baby cries when she feels tired.* Baby = it; согласная + y → -ies.
+Ключ: *The baby cries when she feels tired.* Baby — единственное число; здесь местоимение she. Согласная + y → -ies.
 
 **I7.** Выбери правильный вариант и объясни выбор:
 *My parents ___ (own / owns) a small shop.*
@@ -488,7 +490,7 @@ C. *The Sun rose in the east yesterday.*
 **E5.** Напиши одно новое предложение о привычке другого человека.
 Ключ: открытый ответ; проверяются смысл, подлежащее и форма глагола. Пример допустимого ответа: *My father reads the news every morning.*
 
-**Условие освоения:** минимум 4/5, причём E1–E3 должны быть без ошибки в согласовании. При ошибке в выборе смысла назначить повторение раздела 4.1; при ошибке в -s/-es/-ies назначить короткую тренировку раздела 4.3 и новую проверку на других глаголах.
+**Предварительный критерий закрытой практики:** минимум 3/4 в E1–E4, причём E1–E3 должны быть без ошибок в согласовании. E5 оценивается отдельно по критериям открытого ответа; требуется также минимум 6/7 в самостоятельной закрытой практике. При ошибке в выборе смысла назначить повторение раздела 4.1; при ошибке в -s/-es/-ies назначить короткую тренировку раздела 4.3 и новую проверку на других глаголах.
 
 ## 10. План интервального повторения
 

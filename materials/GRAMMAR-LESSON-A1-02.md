@@ -3,7 +3,7 @@
 **Curriculum ID:** `A1-02`
 **Уровень:** A1
 **Версия содержания:** 1.0-draft
-**Статус:** rules cross-checked; локальная страница GR-01 требует повторной постраничной проверки из-за ошибки чтения большого PDF
+**Статус:** final text/item review; GR-01 U1 PDF p. 13 (текст теории) повторно прочитан, визуальная проверка упражнений и аудио остаются открыты
 **Предварительная тема:** A1-01 Sentence building and basic word order
 **Следующие связанные темы:** A1-03 (be — negatives, questions and short answers), A1-04 (nouns and a/an), A1-05 (Present Simple: affirmative)
 **Не входит в этот урок:** отрицания и вопросы с be; Past Simple (was/were); object pronouns (me/him/her/us/them) как отдельная система; притяжательные местоимения; подробные правила артиклей.
@@ -28,7 +28,7 @@
 
 | Источник | Точная привязка | Что подтверждает | Статус |
 |---|---|---|---|
-| GR-01 — Raymond Murphy, *Essential Grammar in Use*, русское издание, 2017 | Unit 1, *am/is/are* (тематическая привязка по структуре издания; локальные PDF-страницы ещё требуют визуально-технической проверки) | Утвердительные формы `am/is/are`, выбор формы по `I / he / she / it / we / you / they`, базовые сокращения и примеры самопрезентации | toc-mapped; повторная проверка страниц ожидается |
+| GR-01 — Raymond Murphy, *Essential Grammar in Use*, русское издание, 2017 | Unit 1, *am/is/are*, PDF p. 13 (теория, печатная p. 12); p. 14 — упражнения, визуальная проверка ожидается | Утвердительные формы `am/is/are`, выбор формы по `I / he / she / it / we / you / they`, базовые сокращения и примеры самопрезентации | theory text reviewed; exercise/visual check pending |
 | EXT-08 — Cambridge University Press, Raymond Murphy, *Essential Grammar in Use*, официальный издательский excerpt | Unit 1, printed p. 12, положительные формы и сокращения | Парадигма `I am / he-she-it is / we-you-they are`, сокращения и контексты идентичности, возраста, происхождения, характеристик | page-verified |
 | EXT-09 — British Council LearnEnglish, *Personal pronouns* | Разделы Subject and object pronouns; he, she and they; you and they; it | Subject pronouns как подлежащие, соответствие местоимения референту, различие subject/object forms, употребление `it` и `they` | cross-checked |
 | EXT-10 — British Council LearnEnglish, *The verb 'be'* | Таблица Present simple и разделы использования link verb | Формы `am/is/are`; связь с noun phrase, adjective и prepositional phrase | cross-checked |
@@ -42,6 +42,8 @@
 - EXT-11: https://dictionary.cambridge.org/uk/grammar/british-grammar/pronouns-personal-i-me-you-he-it-etc
 
 **Источниковая дисциплина:** правила и объяснения изложены Speakbase самостоятельно. Cambridge excerpt подтверждает Unit 1 и конкретную парадигму, но не подменяет локальную русскоязычную копию Murphy 2017: её точные страницы не помечаются как page-verified до отдельной проверки. British Council и Cambridge Grammar используются для независимой проверки. Примеры и задания написаны заново, не скопированы из упражнений учебника.
+
+**Заключительная вычитка:** повторно проверены 26 закрытых заданий, открытый мини-текст, теория, переводы и ключи. GR-01 U1 PDF p. 13 и GR-05 A1 p. 8 повторно прочитаны. IPA и остальные внешние материалы требуют отдельной сверки.
 
 ## 3. Входная диагностика — после теории
 
@@ -457,7 +459,7 @@
 
 - `you` может относиться к одному человеку или нескольким.
 - В обоих случаях используется `are`.
-- Перевод: Ты хороший друг / Вы хорошие друзья (смысл определяется контекстом).
+- Перевод: Ты хороший друг (или Вы хороший друг при вежливом обращении к одному человеку). Для нескольких людей изменится и именная группа: You are good friends — Вы хорошие друзья.
 
 ### Пример 7 — сокращение
 
