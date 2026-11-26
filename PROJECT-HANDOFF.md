@@ -137,3 +137,7 @@ A1-01/02/05: reread all 78 closed and 5 open tasks, theory/translations, selecte
 ## Final manual acceptance, A2 package 1
 
 A2-01–03: all 72 closed items and three open rubrics reread; selected GR-01/02/05 theory and GR-03 PDF pp. 30,32 visually reopened. Clarified temporal reference, emphatic did and subject questions, past continuous temporary repetition, and focus vs duration. Three spelling items contextualized, six meaningful tense distractors added, keys unchanged. Final text/item pass 22/94, A2 3/18. Full source exercise/visual/audio/learner acceptance pending, archive retained, real sync user-deferred. Next A2-04 onward.
+
+## Final manual acceptance, A2 package 2
+
+A2-04–06: all 72 closed prompts/options/keys/rationales and three open rubrics reread; selected GR-01/02/05 theory text and GR-03 rendered theory PDF pp. 30,36,40,42,44 visually reopened. Clarified future-plan overlap, will in embedded questions, perfect contraction ambiguity, been/gone/in, positions of already/yet, regional usage, open-time perspective and since-clause options. Six future, two perfect and six contrast distractors replaced with valid alternatives distinguished by requested form/context, two participle items contextualized, keys unchanged. Final text/item pass 25/94, A2 6/18. Full source exercise/visual/audio/learner acceptance pending; archive retained; real sync user-deferred. Next A2-07 onward.

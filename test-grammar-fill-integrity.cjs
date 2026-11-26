@@ -18,5 +18,5 @@ for(const l of c.window.grammarBulkLessons)for(const q of l.items.filter(x=>!x.o
   }
   assert.ok(!completed.includes('___'),id+' incomplete substitution');
 }
-assert.equal(count,731);assert.equal(multiple,2);
+assert.equal(count,733);assert.equal(multiple,2);
 console.log('Fill-in integrity: '+count+' prompts, including '+multiple+' explicit multi-blank keys; no unresolved blanks or duplicated boundary words. Structural only.');

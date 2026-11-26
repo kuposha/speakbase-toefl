@@ -126,9 +126,9 @@
     {
       "id": "D1",
       "group": "Входная диагностика",
-      "prompt": "You have just noticed that the window is open. Choose the immediate decision.",
+      "prompt": "You have just noticed that the window is open. Announce your new decision using will.",
       "options": [
-        "I'll to close it now.",
+        "I'm going to close it now.",
         "I'll close it now.",
         "I'll closing it now."
       ],
@@ -137,9 +137,9 @@
         "I'll close it now."
       ],
       "why": "Will + V1 передаёт только что принятое решение.",
-      "distractorWhy": "To после will лишнее.",
+      "distractorWhy": "Going to — грамматически правильная форма намерения, но здесь требуется объявить новое решение с will.",
       "distractorRationales": {
-        "I'll to close it now.": "To после will лишнее.",
+        "I'm going to close it now.": "Going to — грамматически правильная форма намерения, но здесь требуется объявить новое решение с will.",
         "I'll closing it now.": "Closing требует be в другой конструкции."
       },
       "skillTarget": "future-forms-basic",
@@ -176,9 +176,9 @@
     {
       "id": "D3",
       "group": "Входная диагностика",
-      "prompt": "Choose the sentence emphasizing a confirmed appointment with a tutor tomorrow.",
+      "prompt": "You have a confirmed appointment tomorrow. Choose the sentence using Present Continuous to describe that arrangement.",
       "options": [
-        "I meeting my tutor at eleven tomorrow.",
+        "I'm going to meet my tutor at eleven tomorrow.",
         "I'm meet my tutor at eleven tomorrow.",
         "I'm meeting my tutor at eleven tomorrow."
       ],
@@ -187,9 +187,9 @@
         "I'm meeting my tutor at eleven tomorrow."
       ],
       "why": "Present Continuous передаёт согласованную встречу.",
-      "distractorWhy": "Пропущено am.",
+      "distractorWhy": "Going to может передать тот же план, но в вопросе требуется Present Continuous, который выделяет договорённость.",
       "distractorRationales": {
-        "I meeting my tutor at eleven tomorrow.": "Пропущено am.",
+        "I'm going to meet my tutor at eleven tomorrow.": "Going to может передать тот же план, но в вопросе требуется Present Continuous, который выделяет договорённость.",
         "I'm meet my tutor at eleven tomorrow.": "Meet нужно поставить в -ing."
       },
       "skillTarget": "future-forms-basic",
@@ -201,11 +201,11 @@
     {
       "id": "D4",
       "group": "Входная диагностика",
-      "prompt": "Choose the timetable form for a cinema showing tonight.",
+      "prompt": "Choose the Present Simple form for a cinema timetable tonight.",
       "options": [
         "The film start at eight tonight.",
         "The film starts at eight tonight.",
-        "The film starting at eight tonight."
+        "The film will start at eight tonight."
       ],
       "answer": "The film starts at eight tonight.",
       "accepted": [
@@ -215,7 +215,7 @@
       "distractorWhy": "Нет -s.",
       "distractorRationales": {
         "The film start at eight tonight.": "Нет -s.",
-        "The film starting at eight tonight.": "Starting без be не сказуемое."
+        "The film will start at eight tonight.": "Will возможен в нейтральном сообщении о будущем, но здесь требуется Present Simple расписания."
       },
       "skillTarget": "future-forms-basic",
       "interactionType": "single-choice",
@@ -226,10 +226,10 @@
     {
       "id": "G1",
       "group": "Управляемая практика",
-      "prompt": "Look! That cyclist is losing balance. Use going to for the visible prediction.",
+      "prompt": "That cyclist is visibly losing balance. Choose the going to prediction emphasising the current evidence.",
       "options": [
         "He's going to fall.",
-        "He going to fall.",
+        "He'll fall.",
         "He's going to falls."
       ],
       "answer": "He's going to fall.",
@@ -237,9 +237,9 @@
         "He's going to fall."
       ],
       "why": "Is going to + V1 передаёт прогноз по признакам.",
-      "distractorWhy": "Пропущено is.",
+      "distractorWhy": "Will тоже может выражать прогноз, но здесь требуется going to для подчёркивания наблюдаемого основания.",
       "distractorRationales": {
-        "He going to fall.": "Пропущено is.",
+        "He'll fall.": "Will тоже может выражать прогноз, но здесь требуется going to для подчёркивания наблюдаемого основания.",
         "He's going to falls.": "После going to не добавляют -s."
       },
       "skillTarget": "future-forms-basic",
@@ -401,7 +401,7 @@
     {
       "id": "I2",
       "group": "Самостоятельная практика",
-      "prompt": "Choose the grammatical suggestion with shall for two speakers.",
+      "prompt": "Choose the suggestion beginning Shall we, including the speaker and listener.",
       "options": [
         "Shall we to start the lesson?",
         "Shall we start the lesson?",
@@ -551,9 +551,9 @@
     {
       "id": "I8",
       "group": "Самостоятельная практика",
-      "prompt": "Choose the sentence indicating an already agreed personal plan.",
+      "prompt": "Choose the Present Continuous sentence explicitly describing the agreed lunch plan.",
       "options": [
-        "We having lunch with Anna at one; we've booked a table.",
+        "We're going to have lunch with Anna at one; we've booked a table.",
         "We're having lunch with Anna at one; we've booked a table.",
         "We're have lunch with Anna at one; we've booked a table."
       ],
@@ -562,9 +562,9 @@
         "We're having lunch with Anna at one; we've booked a table."
       ],
       "why": "Present Continuous с подтверждением договорённости.",
-      "distractorWhy": "Пропущено are.",
+      "distractorWhy": "Going to — допустимая форма плана; вопрос специально проверяет Present Continuous для согласованной встречи.",
       "distractorRationales": {
-        "We having lunch with Anna at one; we've booked a table.": "Пропущено are.",
+        "We're going to have lunch with Anna at one; we've booked a table.": "Going to — допустимая форма плана; вопрос специально проверяет Present Continuous для согласованной встречи.",
         "We're have lunch with Anna at one; we've booked a table.": "Have нужна форма having."
       },
       "skillTarget": "future-forms-basic",
@@ -601,11 +601,11 @@
     {
       "id": "E1",
       "group": "Выходная проверка",
-      "prompt": "Choose the correct present timetable statement.",
+      "prompt": "Choose the Present Simple timetable statement about next Tuesday.",
       "options": [
         "The workshop begins at ten next Tuesday.",
         "The workshop begin at ten next Tuesday.",
-        "The workshop is begin at ten next Tuesday."
+        "The workshop will begin at ten next Tuesday."
       ],
       "answer": "The workshop begins at ten next Tuesday.",
       "accepted": [
@@ -615,7 +615,7 @@
       "distractorWhy": "Пропущено -s.",
       "distractorRationales": {
         "The workshop begin at ten next Tuesday.": "Пропущено -s.",
-        "The workshop is begin at ten next Tuesday.": "Is begin не форма времени."
+        "The workshop will begin at ten next Tuesday.": "Will допустим в объявлении, но это не запрошенная форма Present Simple."
       },
       "skillTarget": "future-forms-basic",
       "interactionType": "single-choice",
@@ -729,12 +729,12 @@
       "prompt": "Напиши 7–9 предложений о завтрашнем учебном дне: расписание, назначенная встреча, намерение, спонтанное решение, обещание, прогноз и вопрос. Объясни минимум три выбора формы.",
       "open": true,
       "rubric": [
-        "Расписание выражено Present Simple.",
-        "Договорённость выражена Present Continuous.",
-        "Намерение и прогноз по признакам выражены осмысленно.",
-        "Will используется для подходящего решения, обещания или прогноза.",
-        "Be согласовано, после will/going to стоит V1.",
-        "Вопросы и отрицания грамматически правильны."
+        "В 7–9 высказываниях описан связный план учебного дня.",
+        "Расписание выражено Present Simple, твёрдый личный план — Present Continuous.",
+        "Заранее принятое намерение и прогноз по видимым признакам выражены going to с ясным контекстом.",
+        "Новый выбор или обещание выражены will; есть подходящий вопрос.",
+        "Формы be согласованы, после will/going to стоит V1; пунктуация понятна.",
+        "Объяснены не менее трёх выборов, с учётом того, что формы могут пересекаться."
       ],
       "skillTarget": "Самостоятельное применение A2-04",
       "interactionType": "open-production",
@@ -743,6 +743,6 @@
       "contentVersion": "1.1-draft"
     }
   ],
-  "markdown": "# Speakbase — A2-04: Future: going to, will, Present Continuous\n\n**Curriculum ID:** `A2-04`  \n**Уровень:** A2  \n**Версия:** 1.1-draft\n**Статус:** drafted; selected source text checked; full source-page and learner acceptance pending\n**Предварительные темы:** A1-05, A1-13, A1-15  \n**Связь со старым каталогом:** Полное ядро — №9 Future forms\n\n## 1. Результаты обучения\n\n- Выражать намерения, прогнозы, спонтанные решения и договорённости\n- Выбирать целевую форму по значению, структуре предложения и контексту.\n- Объяснять, почему близкая грамматическая форма меняет смысл или регистр.\n- Находить и исправлять типичные ошибки русскоязычных студентов.\n\n## 2. Источники и статус сверки\n\n| Source | PDF navigation | Lesson-specific checks | Status |\n|---|---|---|---|\n| GR-01 U26-30 | PDF pages 63-72 (Unit 26-30) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-02 U19-23 | PDF pages 50-59 (Unit 19-23) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-03 U9-14 | PDF pages 42-53 (Unit 9-14) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-05 A2 p29-35 | PDF pages 29-35 (A2 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n\nUnit/page locations are navigation aids only. They do not prove that the cited explanation, examples, restrictions and answer key have been checked for this lesson. Examples and explanations below are Speakbase-authored, not quotations from the textbook.\n\nПеред переводом этого урока в source-verified необходимо открыть целевые страницы конкретного издания, записать печатную и PDF-пагинацию, сверить ограничения и исключения. Для GR-03 со сканированными страницами обязательна визуальная проверка.\n\n**Evidence for this editorial pass:** GR-02 Units 19–23, directly consulted theory text PDF pp. 50, 52, 54, 56, 58 (printed pp. 38–46): arrangements, timetables, intentions, evidence-based predictions, decisions and offers with will. Other editions, exercise pages, scans and learner acceptance pending. The selected source text was consulted; not all pages, exercises, editions, scanned GR-03 pages or GR-05 descriptors were checked. Author-created explanations and practice are not copied source exercises.\n\n## 3. Место темы и границы\n\nСопоставь will, going to, Present Continuous и Present Simple schedules по намерению, признакам прогноза, договорённости и расписанию.\n\nСтарый каталог содержит: №9 Future forms. Его статус — Полное ядро. Старые отметки завершения не переносятся автоматически на новый постоянный ID. Тема рассматривается в уровне A2 и не заменяет обязательные prerequisites.\n\n## 4. Полный конспект\n\n### 4.1. Основная идея и функция конструкции\n\nВ английском языке будущее можно выразить несколькими способами. Will обычно передаёт решение в момент речи, обещание или прогноз. Be going to — заранее принятое намерение или прогноз по нынешним признакам. Present Continuous — уже согласованная личная договорённость. Present Simple — расписание.\n\nСравни три ответа на вопрос о завтрашнем дне. I'll call the tutor — я только что решила позвонить. I'm going to call the tutor — я уже намеревалась позвонить. I'm meeting the tutor at ten — встреча согласована. Все три предложения говорят о будущем, но сообщают разные сведения о том, как возник план. В разговорной речи различие иногда невелико: формы могут пересекаться. Не выбирай их только по слову tomorrow.\n\n### 4.2. Формирование и грамматическая модель\n\n| Форма | Утверждение | Отрицание | Вопрос |\n|---|---|---|---|\n| Will | She will call. | She won't call. | Will she call? |\n| Going to | She is going to call. | She isn't going to call. | Is she going to call? |\n| Present Continuous | She is meeting us. | She isn't meeting us. | Is she meeting us? |\n| Present Simple (schedule) | The train leaves at six. | The train doesn't leave at six. | Does the train leave at six? |\n\nПосле will используется V1 без to: will go, will study, will be. Will одинаков для всех лиц. Сокращения: I'll, you'll, he'll, she'll, we'll, they'll; will not → won't. Be going to меняется по подлежащему: I am, he/she/it is, you/we/they are going to + V1. Present Continuous строится с am/is/are + V-ing; для будущей договорённости важен контекст времени. Present Simple с he/she/it или singular noun принимает -s: The film starts. Вопрос с does возвращает глагол в V1: When does it start?\n\n### 4.3. Как выбрать подходящую форму\n\nСначала выясни, что именно означает будущее предложение. Если решение возникло сейчас — will. Если решение было принято раньше — going to. Если согласованы участники, место или время — Present Continuous часто наиболее естественен. Если речь об официальном расписании — Present Simple.\n\nДля прогнозов will часто передаёт мнение или ожидание: I think the course will be useful. Going to часто подчёркивает наблюдаемое сейчас основание: Look at the cracked glass! It's going to break. Однако в прогнозах обе формы иногда допустимы. Will используется также в предложениях помощи, согласии, обещаниях и просьбах: I'll help; Will you close the window? Shall I…? / Shall we…? употребляются для предложения или обсуждения решения, особенно в британском английском.\n\n### 4.4. Сравнение с близкими конструкциями\n\n| Ситуация | Пример | Значение |\n|---|---|---|\n| Только что вспомнила о письме | I'll send it now. | Решение сейчас. |\n| Решила заранее | I'm going to send it tonight. | Намерение. |\n| Уже назначена встреча | I'm meeting the tutor at ten. | Договорённость. |\n| Расписание | The lecture starts at ten. | Установленное время. |\n| Прогноз на основе мнения | I think it will be difficult. | Ожидание. |\n| Видимый признак | The glass is going to fall. | Прогноз по ситуации. |\n\n### 4.5. Примеры с переводом и объяснением\n\n| English | Перевод | Почему это подходит |\n| --- | --- | --- |\n| I've just heard about the problem. I'll help you. | Я только что узнала о проблеме. Я помогу тебе. | Спонтанное решение. |\n| I've decided to study tonight. I'm going to revise Unit 3. | Я решила заниматься вечером. Повторю третий раздел. | Заранее принятое намерение. |\n| We're meeting our teacher at two tomorrow. | Завтра в два мы встречаемся с преподавателем. | Согласованная встреча. |\n| The bus leaves at 8:15 tomorrow. | Завтра автобус отправляется в 8:15. | Расписание. |\n| That box is slipping. It's going to fall. | Коробка соскальзывает. Она сейчас упадёт. | Прогноз по видимому признаку. |\n| I think you'll enjoy the course. | Думаю, тебе понравится курс. | Мнение о будущем. |\n\n### 4.6. Исключения, ограничения и границы употребления\n\nНе считай will неправильным для любого заранее запланированного действия: он может использоваться в официальном сообщении, обещании или нейтральном описании будущего. Учебное различие относится к обычному разговорному фокусу. Present Continuous с будущим значением требует договорённости или понятного контекста, а не просто окончания -ing. Going to + место (I'm going to the library) может быть Present Continuous глагола go, а не конструкцией going to + infinitive.\n\nWill может выражать отказ или нежелание: The printer won't start. В обычном придаточном времени с when/as soon as для будущего чаще используется Present Simple: I'll call when I arrive; эту тему подробно изучим в A2-16. Но в прямом вопросе When will you arrive? will корректен. После I hope естественно настоящее время: I hope it doesn't rain tomorrow; will также встречается. Не путай will и would: последнее подробно изучается на B1.\n\n### 4.7. Типичные ошибки русскоязычных студентов\n\n| Ошибка | Исправление | Объяснение |\n| --- | --- | --- |\n| She will to study tomorrow. | She will study tomorrow. | После will нужна V1 без to. |\n| I going to apply next month. | I'm going to apply next month. | Пропущена форма be. |\n| He is going to studies. | He is going to study. | После going to нужна V1. |\n| Does the lesson starts at nine? | Does the lesson start at nine? | После does нужна V1. |\n| We are meet our tutor tomorrow. | We are meeting our tutor tomorrow. | Present Continuous требует V-ing. |\n\n### 4.8. Произношение и восприятие на слух\n\nI'll и we'll произносятся слитно. Won't — сокращение will not, а не want; в стандартном произношении эти слова имеют разные гласные. Going to в быстрой разговорной речи иногда звучит как gonna перед инфинитивом; в формальном письме сохраняй going to. Не заменяй going to the library на gonna the library, поскольку здесь to вводит место. Отдельная словарная аудиопроверка остаётся открытой.\n\nСначала прослушай или прочитай пример, затем произнеси его целиком. Обрати внимание на смысловое ударение и форму конструкции; не ориентируйся только на буквенный перевод.\n\n### 4.9. Академический английский и TOEFL-перенос\n\nВ Listening отличай договорённость о времени от предложения помощи и прогноза. В Reading распознавай расписания и планируемые действия. В Speaking рассказывай о своих планах и намерениях; в Writing Email предлагай время встречи или обещай отправить материал. Например, I'm meeting my supervisor on Thursday. I'll send you the notes afterwards. Это авторская практика переноса навыка, не официальный вопрос ETS.\n\nЭто авторская практика переноса навыка. Она не является официальным заданием TOEFL и не выдаётся за официальный результат экзамена.\n\n### 4.10. Примеры для управляемого разбора\n\n- I've just heard about the problem. I'll help you. — Я только что узнала о проблеме. Я помогу тебе. Спонтанное решение.\n- I've decided to study tonight. I'm going to revise Unit 3. — Я решила заниматься вечером. Повторю третий раздел. Заранее принятое намерение.\n- We're meeting our teacher at two tomorrow. — Завтра в два мы встречаемся с преподавателем. Согласованная встреча.\n\nДля каждого примера назови целевую конструкцию, объясни выбор и составь новое предложение в другом контексте. Затем перейди к заданиям: сначала диагностика, затем управляемая и самостоятельная практика, затем новые вопросы выходной проверки.\n\n### 4.11. Самопроверка\n\nПеред отправкой ответа проверь:\n1. Расписание выражено Present Simple.\n2. Договорённость выражена Present Continuous.\n3. Намерение и прогноз по признакам выражены осмысленно.\n4. Will используется для подходящего решения, обещания или прогноза.\n5. Be согласовано, после will/going to стоит V1.\n6. Вопросы и отрицания грамматически правильны.\n\n### 4.12. Краткая памятка\n\nWill + V1 — решение сейчас, обещание, прогноз; be going to + V1 — намерение или прогноз по признакам; Present Continuous — договорённость; Present Simple — расписание. Форма выбирается по контексту, а не по одному маркеру будущего.\n\nНе выбирай форму только по одному знакомому слову: проверь контекст, значение и структуру. При ошибке вернись к соответствующей части конспекта и составь собственный пример.\n\n## 5. Практика\n\nВ приложении практика разделена на входную диагностику, управляемые задания, самостоятельную практику и новую выходную проверку. Закрытые ответы получают rationale и разбор ошибки. Свободный текст сохраняется и оценивается по рубрике; до подключения и реальной проверки AI-движка система не выдаёт его за автоматическую AI-оценку.\n\n## 6. Интервальное повторение\n\nПовторяй не весь урок автоматически, а конкретную ошибку: выбор формы, согласование, word order, значение, регистр или пунктуацию. Новая попытка должна менять лексический контекст и формулировку, чтобы проверять перенос, а не запоминание одной строки.\n\n## 7. Технический статус\n\n- Постоянный ID: `A2-04`.\n- Прогресс хранится отдельно в course.grammarLessons[\"A2-04\"].\n- Содержание и ключи имеют статус draft; 24 авторских закрытых задания и объяснения вычитаны, выбранные тексты источников проверены. Полная постраничная и пользовательская приёмка остаются открытыми.\n- Предварительное выполнение порогов не равно окончательному mastered: нужны отсроченное повторение и learner review.",
+  "markdown": "# Speakbase — A2-04: Future: going to, will, Present Continuous\n\n**Curriculum ID:** `A2-04`  \n**Уровень:** A2  \n**Версия:** 1.1-draft\n**Статус:** drafted; selected source text checked; full source-page and learner acceptance pending\n**Предварительные темы:** A1-05, A1-13, A1-15  \n**Связь со старым каталогом:** Полное ядро — №9 Future forms\n\n## 1. Результаты обучения\n\n- Выражать намерения, прогнозы, спонтанные решения и договорённости\n- Выбирать целевую форму по значению, структуре предложения и контексту.\n- Объяснять, почему близкая грамматическая форма меняет смысл или регистр.\n- Находить и исправлять типичные ошибки русскоязычных студентов.\n\n## 2. Источники и статус сверки\n\n| Source | PDF navigation | Lesson-specific checks | Status |\n|---|---|---|---|\n| GR-01 U26-30 | PDF pages 63-72 (Unit 26-30) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-02 U19-23 | PDF pages 50-59 (Unit 19-23) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-03 U9-14 | PDF pages 42-53 (Unit 9-14) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n| GR-05 A2 p29-35 | PDF pages 29-35 (A2 Grammar Requirements; corpus-based learner evidence) | Compare the rule, examples, restrictions and exercises against this lesson | unit-page indexed; content review pending |\n\nUnit/page locations are navigation aids only. They do not prove that the cited explanation, examples, restrictions and answer key have been checked for this lesson. Examples and explanations below are Speakbase-authored, not quotations from the textbook.\n\nПеред переводом этого урока в source-verified необходимо открыть целевые страницы конкретного издания, записать печатную и PDF-пагинацию, сверить ограничения и исключения. Для GR-03 со сканированными страницами обязательна визуальная проверка.\n\n**Evidence for this editorial pass:** GR-02 Units 19–23, directly consulted theory text PDF pp. 50, 52, 54, 56, 58 (printed pp. 38–46): arrangements, timetables, intentions, evidence-based predictions, decisions and offers with will. Other editions, exercise pages, scans and learner acceptance pending. The selected source text was consulted; not all pages, exercises, editions, scanned GR-03 pages or GR-05 descriptors were checked. Author-created explanations and practice are not copied source exercises.\n\n**Final manual pass (text and item review):** GR-01 U26–29 PDF pp. 63,65,67,69 selected theory excerpts; U30 p. 71 preview of might. GR-02 U19–23 pp. 50,52,54,56,58 selected theory text. GR-03 U9–10 rendered PDF pp. 42,44 (printed pp. 18,20) visually reopened; GR-05 A2 pp. 29–35 selected descriptors, specifically pp. 30–33 for future forms. All 24 closed prompts/options/keys/rationales and W1 reread. GR-03 U11–14 and remaining exercise-page/visual/audio acceptance open.\n\n## 3. Место темы и границы\n\nСопоставь will, going to, Present Continuous и Present Simple schedules по намерению, признакам прогноза, договорённости и расписанию.\n\nСтарый каталог содержит: №9 Future forms. Его статус — Полное ядро. Старые отметки завершения не переносятся автоматически на новый постоянный ID. Тема рассматривается в уровне A2 и не заменяет обязательные prerequisites.\n\n## 4. Полный конспект\n\n### 4.1. Основная идея и функция конструкции\n\nВ английском языке будущее можно выразить несколькими способами. Will обычно передаёт решение в момент речи, обещание или прогноз. Be going to — заранее принятое намерение или прогноз по нынешним признакам. Present Continuous — уже намеченный, достаточно определённый личный план или договорённость. Present Simple — расписание или фиксированная программа.\n\nСравни три ответа на вопрос о завтрашнем дне. I'll call the tutor — я только что решила позвонить. I'm going to call the tutor — я уже намеревалась позвонить. I'm meeting the tutor at ten — встреча согласована. Все три предложения говорят о будущем, но сообщают разные сведения о том, как возник план. В разговорной речи различие иногда невелико: формы могут пересекаться. Не выбирай их только по слову tomorrow.\n\n### 4.2. Формирование и грамматическая модель\n\n| Форма | Утверждение | Отрицание | Вопрос |\n|---|---|---|---|\n| Will | She will call. | She won't call. | Will she call? |\n| Going to | She is going to call. | She isn't going to call. | Is she going to call? |\n| Present Continuous | She is meeting us. | She isn't meeting us. | Is she meeting us? |\n| Present Simple (schedule) | The train leaves at six. | The train doesn't leave at six. | Does the train leave at six? |\n\nПосле will используется V1 без to: will go, will study, will be. Will одинаков для всех лиц. Сокращения: I'll, you'll, he'll, she'll, we'll, they'll; will not → won't. Be going to меняется по подлежащему: I am, he/she/it is, you/we/they are going to + V1. Present Continuous строится с am/is/are + V-ing; для будущей договорённости важен контекст времени. Present Simple с he/she/it или singular noun принимает -s: The film starts. Вопрос с does возвращает глагол в V1: When does it start?\n\n### 4.3. Как выбрать подходящую форму\n\nСначала выясни, что именно означает будущее предложение. Чтобы объявить только что принятое решение, обычно используй will. Чтобы сообщить о заранее принятом намерении, обычно going to. Если подчёркиваешь твёрдый личный план или договорённость, естественен Present Continuous. Для установленного расписания часто употребляется Present Simple; will тоже возможен, например в официальном объявлении.\n\nДля прогнозов will часто передаёт мнение или ожидание: I think the course will be useful. Going to часто подчёркивает наблюдаемое сейчас основание: Look at the cracked glass! It's going to break. Однако в прогнозах обе формы иногда допустимы. Will используется также в предложениях помощи, согласии, обещаниях и просьбах: I'll help; Will you close the window? Shall I…? / Shall we…? употребляются для предложения или обсуждения решения, особенно в британском английском.\n\n### 4.4. Сравнение с близкими конструкциями\n\n| Ситуация | Пример | Значение |\n|---|---|---|\n| Только что вспомнила о письме | I'll send it now. | Решение сейчас. |\n| Решила заранее | I'm going to send it tonight. | Намерение. |\n| Уже назначена встреча | I'm meeting the tutor at ten. | Договорённость. |\n| Расписание | The lecture starts at ten. | Установленное время. |\n| Прогноз на основе мнения | I think it will be difficult. | Ожидание. |\n| Видимый признак | The glass is going to fall. | Прогноз по ситуации. |\n\n### 4.5. Примеры с переводом и объяснением\n\n| English | Перевод | Почему это подходит |\n| --- | --- | --- |\n| I've just heard about the problem. I'll help you. | Я только что узнала о проблеме. Я помогу тебе. | Спонтанное решение. |\n| I've decided to study tonight. I'm going to revise Unit 3. | Я решила заниматься вечером. Повторю третий раздел. | Заранее принятое намерение. |\n| We're meeting our teacher at two tomorrow. | Завтра в два мы встречаемся с преподавателем. | Согласованная встреча. |\n| The bus leaves at 8:15 tomorrow. | Завтра автобус отправляется в 8:15. | Расписание. |\n| That box is slipping. It's going to fall. | Коробка соскальзывает. Она сейчас упадёт. | Прогноз по видимому признаку. |\n| I think you'll enjoy the course. | Думаю, тебе понравится курс. | Мнение о будущем. |\n\n### 4.6. Исключения, ограничения и границы употребления\n\nНе считай will неправильным для любого заранее запланированного действия: он может использоваться в официальном сообщении, обещании или нейтральном описании будущего. Учебное различие относится к обычному разговорному фокусу. Present Continuous с будущим значением обычно сообщает о твёрдом намерении или плане, а не о прогнозе независимого от нас события. Внешняя договорённость необязательна: I'm staying home tomorrow. Для прогноза дождя естественны It's going to rain или It will rain, а не It's raining tomorrow (если речь именно о прогнозе). Going to + место (I'm going to the library) может быть Present Continuous глагола go, а не конструкцией going to + infinitive.\n\nWill может выражать отказ или нежелание: The printer won't start. В обычном придаточном времени с when/as soon as для будущего чаще используется Present Simple: I'll call when I arrive; эту тему подробно изучим в A2-16. Но в прямом вопросе When will you arrive? will корректен. После I hope естественно настоящее время: I hope it doesn't rain tomorrow; will также встречается. В косвенном вопросе I don't know when she will arrive придаточная часть сообщает содержание вопроса, поэтому will допустим. Will может сообщать о готовности или нежелании и сейчас: She won't listen. Might + V1 выражает менее определённую возможность: I might study tonight, but I haven't decided. Не путай will и would: последнее подробно изучается на B1.\n\n### 4.7. Типичные ошибки русскоязычных студентов\n\n| Ошибка | Исправление | Объяснение |\n| --- | --- | --- |\n| She will to study tomorrow. | She will study tomorrow. | После will нужна V1 без to. |\n| I going to apply next month. | I'm going to apply next month. | Пропущена форма be. |\n| He is going to studies. | He is going to study. | После going to нужна V1. |\n| Does the lesson starts at nine? | Does the lesson start at nine? | После does нужна V1. |\n| We are meet our tutor tomorrow. | We are meeting our tutor tomorrow. | Present Continuous требует V-ing. |\n\n### 4.8. Произношение и восприятие на слух\n\nI'll и we'll произносятся слитно; it will также имеет сокращение it'll. В обычном кратком ответе не сокращай вспомогательный глагол в конце: Will you come? — Yes, I will, а не Yes, I'll. Won't — сокращение will not, а не want; в стандартном произношении эти слова имеют разные гласные. Going to в быстрой разговорной речи иногда звучит как gonna перед инфинитивом; в формальном письме сохраняй going to. Не заменяй going to the library на gonna the library, поскольку здесь to вводит место. Отдельная словарная аудиопроверка остаётся открытой.\n\nСначала прослушай или прочитай пример, затем произнеси его целиком. Обрати внимание на смысловое ударение и форму конструкции; не ориентируйся только на буквенный перевод.\n\n### 4.9. Академический английский и TOEFL-перенос\n\nВ Listening отличай договорённость о времени от предложения помощи и прогноза. В Reading распознавай расписания и планируемые действия. В Speaking рассказывай о своих планах и намерениях; в Writing Email предлагай время встречи или обещай отправить материал. Например, I'm meeting my supervisor on Thursday. I'll send you the notes afterwards. Это авторская практика переноса навыка, не официальный вопрос ETS.\n\nЭто авторская практика переноса навыка. Она не является официальным заданием TOEFL и не выдаётся за официальный результат экзамена.\n\n### 4.10. Примеры для управляемого разбора\n\n- I've just heard about the problem. I'll help you. — Я только что узнала о проблеме. Я помогу тебе. Спонтанное решение.\n- I've decided to study tonight. I'm going to revise Unit 3. — Я решила заниматься вечером. Повторю третий раздел. Заранее принятое намерение.\n- We're meeting our teacher at two tomorrow. — Завтра в два мы встречаемся с преподавателем. Согласованная встреча.\n\nДля каждого примера назови целевую конструкцию, объясни выбор и составь новое предложение в другом контексте. Затем перейди к заданиям: сначала диагностика, затем управляемая и самостоятельная практика, затем новые вопросы выходной проверки.\n\n### 4.11. Самопроверка\n\nПеред отправкой ответа проверь:\n1. Расписание выражено Present Simple.\n2. Договорённость выражена Present Continuous.\n3. Намерение и прогноз по признакам выражены осмысленно.\n4. Will используется для подходящего решения, обещания или прогноза.\n5. Be согласовано, после will/going to стоит V1.\n6. Вопросы и отрицания грамматически правильны.\n\n### 4.12. Краткая памятка\n\nWill + V1 — решение сейчас, обещание, прогноз; be going to + V1 — намерение или прогноз по признакам; Present Continuous — договорённость; Present Simple — расписание. Форма выбирается по контексту, а не по одному маркеру будущего.\n\nНе выбирай форму только по одному знакомому слову: проверь контекст, значение и структуру. При ошибке вернись к соответствующей части конспекта и составь собственный пример.\n\n## 5. Практика\n\nВ приложении практика разделена на входную диагностику, управляемые задания, самостоятельную практику и новую выходную проверку. Закрытые ответы получают rationale и разбор ошибки. Свободный текст сохраняется и оценивается по рубрике; до подключения и реальной проверки AI-движка система не выдаёт его за автоматическую AI-оценку.\n\n## 6. Интервальное повторение\n\nПовторяй не весь урок автоматически, а конкретную ошибку: выбор формы, согласование, word order, значение, регистр или пунктуацию. Новая попытка должна менять лексический контекст и формулировку, чтобы проверять перенос, а не запоминание одной строки.\n\n## 7. Технический статус\n\n- Постоянный ID: `A2-04`.\n- Прогресс хранится отдельно в course.grammarLessons[\"A2-04\"].\n- Содержание и ключи имеют статус draft; 24 авторских закрытых задания и объяснения вычитаны, выбранные тексты источников проверены. Полная постраничная и пользовательская приёмка остаются открытыми.\n- Предварительное выполнение порогов не равно окончательному mastered: нужны отсроченное повторение и learner review.",
   "theoryEnd": "## 5."
 }
